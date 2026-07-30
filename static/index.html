@@ -837,6 +837,10 @@ a{color:inherit;text-decoration:none}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.7 9.7 0 0 0-6.3 2.4L3 8"/><path d="M3 3v5h5M12 7v5l4 2"/></svg>
       <span class="nav-label">复盘</span>
     </button>
+    <button class="nav-item" data-tab="search" title="搜索">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <span class="nav-label">搜索</span>
+    </button>
     <button class="nav-item" data-tab="data" title="数据">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
       <span class="nav-label">数据</span>
@@ -972,11 +976,6 @@ a{color:inherit;text-decoration:none}
 
     <!-- 复盘 -->
     <section class="section" id="sec-review">
-      <!-- 搜索框放最上面 -->
-      <div style="position:relative;margin-bottom:14px">
-        <input class="form-input" id="reviewSearch" placeholder="搜索历史复盘..." oninput="searchReviews()" style="padding-left:38px">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position:absolute;left:12px;top:50%;transform:translateY(-50%)"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-      </div>
       <div class="section-header">
         <div class="section-title">每日复盘</div>
       </div>
@@ -1009,6 +1008,21 @@ a{color:inherit;text-decoration:none}
         <div class="section-title">历史复盘</div>
       </div>
       <div id="reviewHistory"></div>
+    </section>
+
+    <!-- 全局搜索 -->
+    <section class="section" id="sec-search">
+      <div class="section-header">
+        <div class="section-title">全局搜索</div>
+      </div>
+      <div style="position:relative;margin-bottom:16px">
+        <input class="form-input" id="globalSearch" placeholder="搜索待办、记账、灵感、复盘..." oninput="globalSearch()" style="padding-left:42px;padding-right:42px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position:absolute;left:14px;top:50%;transform:translateY(-50%)"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <button id="globalSearchClear" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);display:none;background:var(--surface-3);border-radius:50%;width:22px;height:22px;align-items:center;justify-content:center;color:var(--text-3)" onclick="document.getElementById('globalSearch').value='';globalSearch()">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="globalSearchResults"></div>
     </section>
 
     <!-- 数据管理 -->
@@ -1088,7 +1102,7 @@ let reviewSearchTimer = null;
 
 const TAB_TITLES = {
   todos:'今日待办', ledger:'收支记账', news:'每日资讯',
-  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', data:'数据管理'
+  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', data:'数据管理'
 };
 
 // ============================================================
@@ -1273,6 +1287,7 @@ function loadTabData(tab){
   else if(tab==='inspirations') loadInspirations();
   else if(tab==='study') loadPlans();
   else if(tab==='review') loadReviews();
+  else if(tab==='search') {}
   else if(tab==='data') {}
 }
 
@@ -1874,23 +1889,8 @@ async function loadReviews(){
   }catch(e){console.error(e)}
 }
 
-function searchReviews(){
-  clearTimeout(reviewSearchTimer);
-  reviewSearchTimer = setTimeout(()=>{
-    const q = $('#reviewSearch').value.trim();
-    if(!q){
-      renderReviewHistory(allReviewHistory);
-      return;
-    }
-    const results = allReviewHistory.filter(r=>{
-      return (r.went_well||'').includes(q) ||
-             (r.went_wrong||'').includes(q) ||
-             (r.improvement||'').includes(q) ||
-             (r.review_date||'').includes(q);
-    });
-    renderReviewHistory(results, q);
-  }, 300);
-}
+// 复盘搜索已移至全局搜索分区
+function searchReviews(){}
 
 function renderReviewHistory(history, query){
   const hist = history.filter(r=>r.review_date !== localDate());
@@ -2246,6 +2246,7 @@ async function autoBackup(){
     };
     localStorage.setItem(AUTO_BACKUP_KEY, JSON.stringify(data));
   }catch(e){console.warn('自动备份失败:',e)}
+  loadSearchData();
 }
 
 // 从 localStorage 自动备份恢复
@@ -2385,6 +2386,99 @@ async function importData(event){
 }
 
 // ============================================================
+// 全局搜索 — 搜索所有模块数据
+// ============================================================
+let globalSearchTimer = null;
+let allSearchableData = [];
+
+async function loadSearchData(){
+  const todos = await dbAll('todos');
+  const ledger = await dbAll('ledger');
+  const inspirations = await dbAll('inspirations');
+  const reviews = await dbAll('reviews');
+  const plans = await dbAll('plans');
+  allSearchableData = [];
+  for(const t of todos){
+    allSearchableData.push({type:'待办', id:t.id, title:t.title, subtitle:(t.category||'')+(t.remind_time?(' ⏰'+t.remind_time):''), date:t.due_date||t.created_at||''});
+  }
+  for(const l of ledger){
+    allSearchableData.push({type:'记账', id:l.id, title:`${l.type==='income'?'收入':'支出'} ${l.category} ¥${l.amount}`, subtitle:l.note||'', date:l.record_date||l.created_at||''});
+  }
+  for(const i of inspirations){
+    allSearchableData.push({type:'灵感', id:i.id, title:i.content.slice(0,60), subtitle:i.tag||'', date:i.created_at||''});
+  }
+  for(const r of reviews){
+    const parts = [r.went_well, r.went_wrong, r.improvement].filter(Boolean).join(' | ');
+    allSearchableData.push({type:'复盘', id:r.id, title:parts.slice(0,60), subtitle:`心情${'😞😕😐🙂😄'[r.mood-1]||''}`, date:r.review_date||''});
+  }
+  for(const p of plans){
+    allSearchableData.push({type:'学习', id:p.id, title:p.title, subtitle:p.note||'', date:p.start_date||p.created_at||''});
+  }
+}
+
+function globalSearch(){
+  clearTimeout(globalSearchTimer);
+  const q = $('#globalSearch').value.trim();
+  const clearBtn = $('#globalSearchClear');
+  clearBtn.style.display = q ? 'flex' : 'none';
+  globalSearchTimer = setTimeout(async ()=>{
+    await loadSearchData();
+    renderGlobalSearchResults(q);
+  }, 200);
+}
+
+function renderGlobalSearchResults(q){
+  const container = $('#globalSearchResults');
+  if(!q){
+    const counts = {};
+    for(const d of allSearchableData){ counts[d.type] = (counts[d.type]||0)+1; }
+    const types = ['待办','记账','灵感','复盘','学习'];
+    container.innerHTML = `
+      <div class="card-base" style="padding:16px">
+        <div style="font-size:13px;color:var(--text-3);margin-bottom:12px">在上方搜索框输入关键词，搜索范围覆盖所有模块数据</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          ${types.map(t=>`<span class="tag" style="font-size:12.5px;padding:4px 12px">${t} (${counts[t]||0})</span>`).join('')}
+        </div>
+      </div>
+    `;
+    return;
+  }
+  const results = allSearchableData.filter(d=>{
+    return (d.title||'').includes(q) || (d.subtitle||'').includes(q) || (d.date||'').includes(q);
+  });
+  if(!results.length){
+    container.innerHTML = `<div class="empty" style="padding:40px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:40px;height:40px;margin:0 auto 12px;display:block"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg><p>没有找到匹配「${escapeHtml(q)}」的结果</p></div>`;
+    return;
+  }
+  const typeColors = {'待办':'var(--primary)','记账':'var(--green)','灵感':'var(--amber)','复盘':'var(--text-3)','学习':'var(--primary)'};
+  const highlight = (text) => {
+    if(!text) return '';
+    const escaped = escapeHtml(text);
+    const reg = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+    return escaped.replace(reg, '<mark style="background:var(--amber-glow);color:var(--amber);padding:0 2px;border-radius:2px">$1</mark>');
+  };
+  container.innerHTML = `
+    <div style="font-size:12.5px;color:var(--text-4);margin-bottom:10px">找到 ${results.length} 条结果</div>
+    ${results.map(r=>`
+      <div class="card-base list-item" style="padding:12px 14px;cursor:pointer" onclick="goToSearchResult('${r.type}')">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+          <span style="font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px;background:${typeColors[r.type]||'var(--text-3)'}20;color:${typeColors[r.type]||'var(--text-3)'}">${r.type}</span>
+          ${r.date?`<span style="font-size:11.5px;color:var(--text-4)">${fmtDate(r.date)}</span>`:''}
+        </div>
+        <div style="font-size:13.5px;color:var(--text);line-height:1.5">${highlight(r.title)}</div>
+        ${r.subtitle?`<div style="font-size:12px;color:var(--text-3);margin-top:2px">${highlight(r.subtitle)}</div>`:''}
+      </div>
+    `).join('')}
+  `;
+}
+
+function goToSearchResult(type){
+  const tabMap = {'待办':'todos','记账':'ledger','灵感':'inspirations','复盘':'review','学习':'study'};
+  const tab = tabMap[type];
+  if(tab) switchTab(tab);
+}
+
+// ============================================================
 // FAB
 // ============================================================
 function onFabClick(){
@@ -2394,6 +2488,7 @@ function onFabClick(){
   else if(currentTab==='study') showPlanModal();
   else if(currentTab==='review') $('#reviewFormCard').scrollIntoView({behavior:'smooth',block:'start'});
   else if(currentTab==='news') toast('资讯自动刷新');
+  else if(currentTab==='search') $('#globalSearch').focus();
   else if(currentTab==='data') exportData();
 }
 
@@ -2465,8 +2560,10 @@ window.addEventListener('beforeinstallprompt', e=>{
   }
   loadOverview();
   loadTodos();
+  loadSearchData();
   // 数据变动后自动备份
-  setInterval(autoBackup, 60000); // 每60秒静默备份一次
+  setInterval(autoBackup, 60000);
+  setInterval(loadSearchData, 120000); // 每2分钟刷新搜索索引
   // 检查是否需要提醒导出
   checkBackupReminder();
   setInterval(()=>{ $('#sidebarTime').textContent = fmtTime(); },1000);
