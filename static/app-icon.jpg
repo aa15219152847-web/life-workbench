@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Error>
+	<Code>AccessDenied</Code>
+	<Message>Access Denied.</Message>
+	<ServerTime>2026-07-29T13:50:56Z</ServerTime>
+	<Resource>/attachments/7ec72e17-25a4-4d81-b290-52c0f7d561e4/1785331246_d22c2028/image_picker_68CBEA26-0851-4AE1-AC5D-45CFE8F6338E-27840-00000AF1D11A5D5D.jpg</Resource>
+	<RequestId>NmE2YTA1NDBfNTUwYzdmMWVfNmI4YV9kZmM1YzQ=</RequestId>
+	<TraceId>OGVmYzZiMmQzYjA2OWNhODk0NTRkMTBiOWVmMDAxODc0OWRkZjk0ZDM1NmI1M2E2MTRlY2MzZDhmNmI5MWI1OTQyYWVlY2QwZTk2MDVmZDQ3MmI2Y2I4ZmI5ZmM4ODFjZjRiYjc4ZmVkYjBlNzM2NGNhM2E1OGYwZWY0ZmMyY2E=</TraceId>
+</Error>
+

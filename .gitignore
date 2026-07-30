@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database (用户数据不上传)
+workbench.db
+
+# Logs
+*.log
+server.log
+
+# Temporary files
+*.tmp
+*.bak
