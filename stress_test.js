@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 
-const BASE = 'file:///workspace/workbench/index.html';
+const BASE = 'https://aa15219152847-web.github.io/life-workbench/';
 
 const results = [];
 let passCount = 0, failCount = 0;
