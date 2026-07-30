@@ -1357,7 +1357,7 @@ async function toggleTodo(id){
     t.done = !t.done;
     t.done_at = t.done ? new Date().toISOString() : null;
     await dbPut('todos',t);
-    loadTodos(); loadOverview();
+    loadTodos(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败')}
 }
 
@@ -1474,7 +1474,7 @@ END:VEVENT
 async function delTodo(id){
   if(!confirm('删除这条待办？')) return;
   await dbDelete('todos',id);
-  toast('已删除'); loadTodos(); loadOverview();
+  toast('已删除'); loadTodos(); loadOverview(); autoBackup();
 }
 
 async function editTodo(id){
@@ -1619,7 +1619,7 @@ function changeYear(delta){
 async function delLedger(id){
   if(!confirm('删除这条记录？')) return;
   await dbDelete('ledger',id);
-  toast('已删除'); loadLedger(); loadOverview();
+  toast('已删除'); loadLedger(); loadOverview(); autoBackup();
 }
 
 async function editLedger(id){
@@ -1755,7 +1755,7 @@ async function loadInspirations(){
 async function delInsp(id){
   if(!confirm('删除这条灵感？')) return;
   await dbDelete('inspirations',id);
-  toast('已删除'); loadInspirations(); loadOverview();
+  toast('已删除'); loadInspirations(); loadOverview(); autoBackup();
 }
 
 async function editInsp(id){
@@ -1825,7 +1825,7 @@ async function delPlan(id){
   for(const c of checkins){
     if(c.plan_id===id) await dbDelete('checkins',c.id);
   }
-  toast('已删除'); loadPlans(); loadOverview();
+  toast('已删除'); loadPlans(); loadOverview(); autoBackup();
 }
 
 async function editPlan(id){
@@ -1932,7 +1932,7 @@ async function saveReview(){
     }else{
       await dbAdd('reviews', data);
     }
-    toast('复盘已保存'); loadReviews(); loadOverview();
+    toast('复盘已保存'); loadReviews(); loadOverview(); autoBackup();
   }catch(e){toast('保存失败');console.error(e)}
 }
 
@@ -2008,7 +2008,7 @@ async function submitTodo(id){
       await dbAdd('todos',{title,category,priority,due_date,remind_time,done:false,created_at:new Date().toISOString()});
       toast('已添加');
     }
-    closeModal(); loadTodos(); loadOverview();
+    closeModal(); loadTodos(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
 }
 
@@ -2082,7 +2082,7 @@ async function submitLedger(id){
       await dbAdd('ledger',{type,amount,category,note,record_date,created_at:new Date().toISOString()});
       toast('已记录');
     }
-    closeModal(); loadLedger(); loadOverview();
+    closeModal(); loadLedger(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
 }
 
@@ -2119,7 +2119,7 @@ async function submitInsp(id){
       await dbAdd('inspirations',{content,tag,created_at:new Date().toISOString()});
       toast('已记录');
     }
-    closeModal(); loadInspirations(); loadOverview();
+    closeModal(); loadInspirations(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
 }
 
@@ -2173,7 +2173,7 @@ async function submitPlan(id){
       await dbAdd('plans',{title,target_hours,total_days,start_date,note,created_at:new Date().toISOString()});
       toast('已创建');
     }
-    closeModal(); loadPlans(); loadOverview();
+    closeModal(); loadPlans(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
 }
 
@@ -2200,13 +2200,109 @@ async function submitCheckin(planId){
   const note = $('#fCheckinNote').value.trim();
   try{
     await dbAdd('checkins',{plan_id:planId,hours,note,checkin_date:localDate(),created_at:new Date().toISOString()});
-    toast('打卡成功'); closeModal(); loadPlans(); loadOverview();
+    toast('打卡成功'); closeModal(); loadPlans(); loadOverview(); autoBackup();
   }catch(e){toast('打卡失败');console.error(e)}
 }
 
 // ============================================================
 // 数据导出 / 导入
 // ============================================================
+// ============================================================
+// 自动备份 + 备份提醒
+// ============================================================
+const BACKUP_KEY = 'last_export_time';
+const AUTO_BACKUP_KEY = 'auto_backup_data';
+const BACKUP_INTERVAL = 7 * 24 * 60 * 60 * 1000; // 7天
+
+// 静默自动备份到 localStorage（每次数据变动后触发）
+async function autoBackup(){
+  try{
+    const data = {
+      todos: await dbAll('todos'),
+      ledger: await dbAll('ledger'),
+      inspirations: await dbAll('inspirations'),
+      plans: await dbAll('plans'),
+      checkins: await dbAll('checkins'),
+      reviews: await dbAll('reviews'),
+      autoBackupDate: new Date().toISOString(),
+      version: '1.0'
+    };
+    localStorage.setItem(AUTO_BACKUP_KEY, JSON.stringify(data));
+  }catch(e){console.warn('自动备份失败:',e)}
+}
+
+// 从 localStorage 自动备份恢复
+async function restoreFromAutoBackup(){
+  try{
+    const raw = localStorage.getItem(AUTO_BACKUP_KEY);
+    if(!raw) return false;
+    const data = JSON.parse(raw);
+    const counts = Object.values(data).filter(v=>Array.isArray(v)).reduce((s,a)=>s+a.length,0);
+    if(counts===0) return false;
+    // 清空所有表
+    await dbClear('todos'); await dbClear('ledger'); await dbClear('inspirations');
+    await dbClear('plans'); await dbClear('checkins'); await dbClear('reviews');
+    if(data.todos) for(const t of data.todos) await dbAdd('todos',t);
+    if(data.ledger) for(const l of data.ledger) await dbAdd('ledger',l);
+    if(data.inspirations) for(const i of data.inspirations) await dbAdd('inspirations',i);
+    if(data.plans) for(const p of data.plans) await dbAdd('plans',p);
+    if(data.checkins) for(const c of data.checkins) await dbAdd('checkins',c);
+    if(data.reviews) for(const r of data.reviews) await dbAdd('reviews',r);
+    return true;
+  }catch(e){console.error('恢复自动备份失败:',e); return false}
+}
+
+// 检查是否需要提醒导出备份
+function checkBackupReminder(){
+  const last = localStorage.getItem(BACKUP_KEY);
+  if(!last){
+    // 从没导出过，如果已经有数据了，提醒
+    setTimeout(showBackupReminder, 2500);
+    return;
+  }
+  const elapsed = Date.now() - parseInt(last);
+  if(elapsed > BACKUP_INTERVAL){
+    setTimeout(showBackupReminder, 2500);
+  }
+}
+
+function showBackupReminder(){
+  // 如果有弹窗了就不弹
+  if($('#modalOverlay').classList.contains('show')) return;
+  if($('#pwaGuide').classList.contains('show')) return;
+  const last = localStorage.getItem(BACKUP_KEY);
+  let daysText = '已经有一段时间';
+  if(last){
+    const days = Math.floor((Date.now()-parseInt(last))/86400000);
+    daysText = `已经 ${days} 天`;
+  }
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">备份数据提醒</div>
+      <button class="modal-close" onclick="closeModal()">稍后</button>
+    </div>
+    <div style="text-align:center;padding:10px 0">
+      <div style="font-size:42px;margin-bottom:10px">💾</div>
+      <div style="font-size:14px;color:var(--text-2);line-height:1.65;margin-bottom:18px">
+        ${daysText}没有导出数据备份了<br>
+        建议定期导出，防止误操作或换设备时数据丢失<br>
+        <span style="color:var(--text-4);font-size:12.5px">数据存在浏览器本地，清理浏览器数据会一起删除</span>
+      </div>
+      <button class="btn-primary" onclick="exportData();closeModal();">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        立即导出备份
+      </button>
+      <button class="btn-secondary" onclick="dismissBackupReminder()">下次再说</button>
+    </div>
+  `);
+}
+
+function dismissBackupReminder(){
+  // 3天后再次提醒
+  localStorage.setItem(BACKUP_KEY, String(Date.now() - BACKUP_INTERVAL + 3*86400000));
+  closeModal();
+}
+
 async function exportData(){
   try{
     const data = {
@@ -2228,6 +2324,7 @@ async function exportData(){
     a.click();
     document.body.removeChild(a);
     setTimeout(()=>URL.revokeObjectURL(url), 3000);
+    localStorage.setItem(BACKUP_KEY, String(Date.now()));
     toast('数据已导出');
   }catch(e){toast('导出失败');console.error(e)}
 }
@@ -2256,6 +2353,8 @@ async function importData(event){
     if(data.plans) for(const p of data.plans) await dbAdd('plans',p);
     if(data.checkins) for(const c of data.checkins) await dbAdd('checkins',c);
     if(data.reviews) for(const r of data.reviews) await dbAdd('reviews',r);
+    localStorage.setItem(BACKUP_KEY, String(Date.now()));
+    await autoBackup();
     toast('导入成功');
     loadOverview();
     loadReviews();
@@ -2335,8 +2434,23 @@ window.addEventListener('beforeinstallprompt', e=>{
   await openDB();
   $('#hdrDate').textContent = fmtFullDate();
   $('#sidebarTime').textContent = fmtTime();
+  // 检查 IndexedDB 是否为空，如果空但有自动备份，恢复
+  const todoCount = (await dbAll('todos')).length;
+  const ledgerCount = (await dbAll('ledger')).length;
+  const reviewCount = (await dbAll('reviews')).length;
+  const totalData = todoCount + ledgerCount + reviewCount;
+  if(totalData === 0){
+    const restored = await restoreFromAutoBackup();
+    if(restored){
+      toast('已自动恢复上次备份数据');
+    }
+  }
   loadOverview();
   loadTodos();
+  // 数据变动后自动备份
+  setInterval(autoBackup, 60000); // 每60秒静默备份一次
+  // 检查是否需要提醒导出
+  checkBackupReminder();
   setInterval(()=>{ $('#sidebarTime').textContent = fmtTime(); },1000);
   setInterval(loadOverview, 300000);
   if(!isStandalone()){
