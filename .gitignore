@@ -13,3 +13,11 @@ server.log
 # Temporary files
 *.tmp
 *.bak
+index.html.bak
+
+# Backend (纯前端版不需要)
+server.py
+news_fetcher.py
+keepalive.sh
+CURRENT_URL.txt
+RESTORE_GUIDE.md
