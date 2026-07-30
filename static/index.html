@@ -1030,10 +1030,82 @@ a{color:inherit;text-decoration:none}
       <div class="section-header">
         <div class="section-title">数据备份与恢复</div>
       </div>
+
+      <!-- 按条件导出 -->
       <div class="card-base" style="padding:16px;margin-bottom:16px">
-        <div style="font-size:13px;color:var(--text-2);line-height:1.65;margin-bottom:14px">
-          导出所有数据为 JSON 文件备份，或从备份文件恢复数据。<br>
-          <span style="color:var(--text-4);font-size:12.5px">数据存在浏览器本地，建议每周导出一次备份，防止误操作丢失。</span>
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:14px">按条件导出</div>
+
+        <!-- 模块选择 -->
+        <div class="form-group">
+          <label>选择模块</label>
+          <div class="chip-group" id="exportModules">
+            <button class="chip active" data-val="all">全部</button>
+            <button class="chip" data-val="todos">待办</button>
+            <button class="chip" data-val="ledger">记账</button>
+            <button class="chip" data-val="inspirations">灵感</button>
+            <button class="chip" data-val="reviews">复盘</button>
+            <button class="chip" data-val="plans">学习</button>
+          </div>
+        </div>
+
+        <!-- 时间范围 -->
+        <div class="form-group">
+          <label>时间范围</label>
+          <div class="chip-group" id="exportRange">
+            <button class="chip active" data-val="all">全部时间</button>
+            <button class="chip" data-val="year">按年</button>
+            <button class="chip" data-val="month">按月</button>
+            <button class="chip" data-val="custom">自定义</button>
+          </div>
+        </div>
+
+        <!-- 年份选择（按年时显示） -->
+        <div class="form-group" id="exportYearGroup" style="display:none">
+          <label>选择年份</label>
+          <input class="form-input" type="number" id="exportYear" value="2026" style="max-width:120px">
+        </div>
+
+        <!-- 月份选择（按月时显示） -->
+        <div class="form-group" id="exportMonthGroup" style="display:none">
+          <label>选择月份</label>
+          <input class="form-input" type="month" id="exportMonth">
+        </div>
+
+        <!-- 自定义日期范围 -->
+        <div class="form-row" id="exportCustomGroup" style="display:none">
+          <div class="form-group">
+            <label>开始日期</label>
+            <input class="form-input" type="date" id="exportDateFrom">
+          </div>
+          <div class="form-group">
+            <label>结束日期</label>
+            <input class="form-input" type="date" id="exportDateTo">
+          </div>
+        </div>
+
+        <!-- 格式选择 -->
+        <div class="form-group">
+          <label>导出格式</label>
+          <div class="chip-group" id="exportFormat">
+            <button class="chip active" data-val="json">JSON</button>
+            <button class="chip" data-val="excel">Excel</button>
+            <button class="chip" data-val="pdf">PDF</button>
+            <button class="chip" data-val="word">Word</button>
+          </div>
+        </div>
+
+        <button class="btn-primary" onclick="exportFiltered()" style="width:100%">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          导出数据
+        </button>
+        <div id="exportPreview" style="margin-top:10px;font-size:12.5px;color:var(--text-4)"></div>
+      </div>
+
+      <!-- 全量备份与恢复 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">全量备份</div>
+        <div style="font-size:12.5px;color:var(--text-3);line-height:1.6;margin-bottom:14px">
+          一键导出所有数据为JSON备份文件，或从备份文件恢复。
         </div>
         <button class="btn-primary" onclick="exportData()">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
@@ -1045,6 +1117,8 @@ a{color:inherit;text-decoration:none}
         </button>
         <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
       </div>
+
+      <!-- 自动备份说明 -->
       <div class="card-base" style="padding:16px">
         <div style="font-size:13px;color:var(--text-2);line-height:1.65">
           <strong style="color:var(--text)">自动备份机制</strong><br><br>
@@ -2319,6 +2393,254 @@ function dismissBackupReminder(){
   // 3天后再次提醒
   localStorage.setItem(BACKUP_KEY, String(Date.now() - BACKUP_INTERVAL + 3*86400000));
   closeModal();
+}
+
+// ============================================================
+// 条件导出 — 按模块/时间/格式
+// ============================================================
+// chip切换事件
+document.addEventListener('DOMContentLoaded',()=>{
+  // 延迟绑定确保元素存在
+  setTimeout(()=>{
+    const modChips = document.querySelectorAll('#exportModules .chip');
+    modChips.forEach(c=>c.addEventListener('click',e=>{
+      if(e.target.classList.contains('chip')){
+        modChips.forEach(x=>x.classList.remove('active'));
+        e.target.classList.add('active');
+        updateExportPreview();
+      }
+    }));
+    const rangeChips = document.querySelectorAll('#exportRange .chip');
+    rangeChips.forEach(c=>c.addEventListener('click',e=>{
+      if(e.target.classList.contains('chip')){
+        rangeChips.forEach(x=>x.classList.remove('active'));
+        e.target.classList.add('active');
+        const val = e.target.dataset.val;
+        $('#exportYearGroup').style.display = val==='year'?'':'none';
+        $('#exportMonthGroup').style.display = val==='month'?'':'none';
+        $('#exportCustomGroup').style.display = val==='custom'?'flex':'none';
+        updateExportPreview();
+      }
+    }));
+    const fmtChips = document.querySelectorAll('#exportFormat .chip');
+    fmtChips.forEach(c=>c.addEventListener('click',e=>{
+      if(e.target.classList.contains('chip')){
+        fmtChips.forEach(x=>x.classList.remove('active'));
+        e.target.classList.add('active');
+        updateExportPreview();
+      }
+    }));
+  },100);
+});
+
+async function getFilteredData(){
+  const mod = $('#exportModules .chip.active')?.dataset.val || 'all';
+  const range = $('#exportRange .chip.active')?.dataset.val || 'all';
+  const fmt = $('#exportFormat .chip.active')?.dataset.val || 'json';
+
+  // 确定时间过滤
+  let dateFrom = null, dateTo = null;
+  if(range==='year'){
+    const y = parseInt($('#exportYear').value) || new Date().getFullYear();
+    dateFrom = `${y}-01-01`;
+    dateTo = `${y}-12-31`;
+  } else if(range==='month'){
+    const m = $('#exportMonth').value;
+    if(m){
+      dateFrom = m + '-01';
+      const [yy,mm] = m.split('-');
+      const lastDay = new Date(parseInt(yy), parseInt(mm), 0).getDate();
+      dateTo = `${m}-${String(lastDay).padStart(2,'0')}`;
+    }
+  } else if(range==='custom'){
+    dateFrom = $('#exportDateFrom').value || null;
+    dateTo = $('#exportDateTo').value || null;
+  }
+
+  // 获取数据
+  const result = {};
+  const modules = mod==='all' ? ['todos','ledger','inspirations','reviews','plans'] : [mod];
+  const modLabels = {todos:'待办',ledger:'记账',inspirations:'灵感',reviews:'复盘',plans:'学习'};
+  const dateFields = {todos:'due_date',ledger:'record_date',inspirations:'created_at',reviews:'review_date',plans:'start_date'};
+
+  for(const m of modules){
+    let items = await dbAll(m);
+    if(dateFrom || dateTo){
+      const field = dateFields[m];
+      items = items.filter(item=>{
+        let d = item[field];
+        if(!d) return false;
+        d = d.slice(0,10);
+        if(dateFrom && d < dateFrom) return false;
+        if(dateTo && d > dateTo) return false;
+        return true;
+      });
+    }
+    result[m] = items;
+  }
+  return {data:result, mod, range, fmt, modules, modLabels};
+}
+
+async function updateExportPreview(){
+  const {data, modules, modLabels} = await getFilteredData();
+  const parts = [];
+  let total = 0;
+  for(const m of modules){
+    const c = data[m]?.length || 0;
+    total += c;
+    parts.push(`${modLabels[m]} ${c}条`);
+  }
+  const fmt = $('#exportFormat .chip.active')?.dataset.val || 'json';
+  const extMap = {json:'JSON',excel:'Excel(xlsx)',pdf:'PDF',word:'Word(docx)'};
+  $('#exportPreview').textContent = `将导出 ${total} 条数据（${parts.join('、')}）→ ${extMap[fmt]}格式`;
+}
+
+async function exportFiltered(){
+  const {data, mod, fmt, modules, modLabels} = await getFilteredData();
+  let total = 0;
+  for(const m of modules) total += data[m]?.length || 0;
+  if(total===0){ toast('所选范围内没有数据'); return; }
+
+  const ts = localDate();
+  const fname = `workbench-${mod==='all'?'all':mod}-${ts}`;
+
+  if(fmt==='json'){
+    const blob = new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    downloadBlob(blob, fname+'.json');
+    toast(`已导出 ${total} 条数据`);
+  } else if(fmt==='excel'){
+    const html = generateExcelHTML(data, modLabels);
+    const blob = new Blob(['\ufeff'+html],{type:'application/vnd.ms-excel'});
+    downloadBlob(blob, fname+'.xls');
+    toast(`已导出 ${total} 条数据`);
+  } else if(fmt==='pdf'){
+    const html = generatePDFHTML(data, modLabels);
+    printToPDF(html);
+    toast(`正在生成PDF（${total} 条数据）`);
+  } else if(fmt==='word'){
+    const html = generateWordHTML(data, modLabels);
+    const blob = new Blob(['\ufeff'+html],{type:'application/msword'});
+    downloadBlob(blob, fname+'.doc');
+    toast(`已导出 ${total} 条数据`);
+  }
+}
+
+function downloadBlob(blob, filename){
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  setTimeout(()=>URL.revokeObjectURL(url),3000);
+}
+
+function generateExcelHTML(data, modLabels){
+  let html = '<table border="1" cellspacing="0" cellpadding="5">';
+  for(const [key, items] of Object.entries(data)){
+    if(!items.length) continue;
+    html += `<tr><td colspan="20" style="background:#0A2540;color:#fff;font-weight:bold;font-size:14px">${modLabels[key]||key}（${items.length}条）</td></tr>`;
+    // 表头
+    const cols = Object.keys(items[0]).filter(k=>k!=='id');
+    html += '<tr>' + cols.map(c=>`<th style="background:#E2E8F0">${c}</th>`).join('') + '</tr>';
+    for(const item of items){
+      html += '<tr>' + cols.map(c=>{
+        let v = item[c];
+        if(v===null||v===undefined) v='';
+        if(typeof v==='object') v = JSON.stringify(v);
+        if(typeof v==='string' && v.length>100) v = v.slice(0,100)+'...';
+        return `<td style="font-size:12px">${escapeHtml(String(v))}</td>`;
+      }).join('') + '</tr>';
+    }
+    html += '<tr><td colspan="20"></td></tr>';
+  }
+  html += '</table>';
+  return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"></head><body>${html}</body></html>`;
+}
+
+function generateWordHTML(data, modLabels){
+  let html = '<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif">';
+  html += `<h1 style="color:#0A2540;border-bottom:2px solid #0A2540;padding-bottom:8px">生活工作台数据导出</h1>`;
+  html += `<p style="color:#666;font-size:13px">导出时间：${new Date().toLocaleString('zh-CN')}</p>`;
+  for(const [key, items] of Object.entries(data)){
+    if(!items.length) continue;
+    html += `<h2 style="color:#0A2540;margin-top:24px">${modLabels[key]||key}（${items.length}条）</h2>`;
+    const cols = Object.keys(items[0]).filter(k=>k!=='id');
+    html += '<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;width:100%;font-size:12px">';
+    html += '<tr>' + cols.map(c=>`<th style="background:#0A2540;color:#fff;padding:6px">${c}</th>`).join('') + '</tr>';
+    for(const item of items){
+      html += '<tr>' + cols.map(c=>{
+        let v = item[c];
+        if(v===null||v===undefined) v='';
+        if(typeof v==='object') v = JSON.stringify(v);
+        if(typeof v==='string' && v.length>200) v = v.slice(0,200)+'...';
+        return `<td style="padding:6px;border:1px solid #ddd">${escapeHtml(String(v))}</td>`;
+      }).join('') + '</tr>';
+    }
+    html += '</table>';
+  }
+  html += '</div>';
+  return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="UTF-8"></head><body>${html}</body></html>`;
+}
+
+function generatePDFHTML(data, modLabels){
+  let html = '<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif;padding:20px">';
+  html += `<h1 style="color:#0A2540;text-align:center;margin-bottom:6px">生活工作台数据报告</h1>`;
+  html += `<p style="text-align:center;color:#888;font-size:13px;margin-bottom:24px">导出时间：${new Date().toLocaleString('zh-CN')}</p>`;
+  let total = 0;
+  for(const [key, items] of Object.entries(data)){
+    if(!items.length) continue;
+    total += items.length;
+    html += `<h2 style="color:#0A2540;margin-top:28px;border-left:4px solid #635BFF;padding-left:10px">${modLabels[key]||key}（${items.length}条）</h2>`;
+    // 按模块定制展示
+    if(key==='todos'){
+      html += '<table border="0" cellspacing="0" cellpadding="4" style="width:100%;font-size:12px;border-collapse:collapse">';
+      html += '<tr style="background:#f1f5f9"><th style="text-align:left;padding:6px">事项</th><th style="text-align:left;padding:6px">分类</th><th style="text-align:left;padding:6px">日期</th><th style="text-align:left;padding:6px">状态</th></tr>';
+      for(const t of items){
+        html += `<tr style="border-bottom:1px solid #eee"><td style="padding:6px">${escapeHtml(t.title||'')}</td><td style="padding:6px">${escapeHtml(t.category||'')}</td><td style="padding:6px">${escapeHtml(t.due_date||'')}</td><td style="padding:6px">${t.done?'✓完成':'未完成'}</td></tr>`;
+      }
+      html += '</table>';
+    } else if(key==='ledger'){
+      let income=0, expense=0;
+      for(const l of items){ if(l.type==='income') income+=l.amount; else expense+=l.amount; }
+      html += `<div style="display:flex;gap:16px;margin-bottom:12px"><span style="color:#059669;font-weight:600">收入 ¥${income.toFixed(2)}</span><span style="color:#DC2626;font-weight:600">支出 ¥${expense.toFixed(2)}</span><span style="font-weight:600">结余 ¥${(income-expense).toFixed(2)}</span></div>`;
+      html += '<table border="0" cellspacing="0" cellpadding="4" style="width:100%;font-size:12px;border-collapse:collapse">';
+      html += '<tr style="background:#f1f5f9"><th style="text-align:left;padding:6px">类型</th><th style="text-align:left;padding:6px">分类</th><th style="text-align:right;padding:6px">金额</th><th style="text-align:left;padding:6px">备注</th><th style="text-align:left;padding:6px">日期</th></tr>';
+      for(const l of items){
+        html += `<tr style="border-bottom:1px solid #eee"><td style="padding:6px">${l.type==='income'?'收入':'支出'}</td><td style="padding:6px">${escapeHtml(l.category||'')}</td><td style="padding:6px;text-align:right;color:${l.type==='income'?'#059669':'#DC2626'}">${l.type==='income'?'+':'-'}¥${l.amount}</td><td style="padding:6px">${escapeHtml(l.note||'')}</td><td style="padding:6px">${escapeHtml(l.record_date||'')}</td></tr>`;
+      }
+      html += '</table>';
+    } else if(key==='inspirations'){
+      for(const i of items){
+        html += `<div style="margin-bottom:12px;padding:12px;background:#f8fafc;border-radius:8px;border-left:3px solid #C7A84B"><div style="font-size:13px;line-height:1.6">${escapeHtml(i.content||'')}</div><div style="font-size:11px;color:#888;margin-top:4px">${i.tag?('标签: '+escapeHtml(i.tag)+' · '):''}${escapeHtml((i.created_at||'').slice(0,10))}</div></div>`;
+      }
+    } else if(key==='reviews'){
+      const moodEmoji = {1:'😞',2:'😕',3:'😐',4:'🙂',5:'😄'};
+      for(const r of items){
+        html += `<div style="margin-bottom:14px;padding:14px;background:#f8fafc;border-radius:8px;border-left:3px solid #635BFF"><div style="font-weight:600;font-size:13px;margin-bottom:6px">${escapeHtml(r.review_date||'')} ${moodEmoji[r.mood]||''}</div>`;
+        if(r.went_well) html += `<div style="font-size:12px;line-height:1.6;margin-bottom:4px"><span style="color:#059669">✓</span> ${escapeHtml(r.went_well)}</div>`;
+        if(r.went_wrong) html += `<div style="font-size:12px;line-height:1.6;margin-bottom:4px"><span style="color:#DC2626">✗</span> ${escapeHtml(r.went_wrong)}</div>`;
+        if(r.improvement) html += `<div style="font-size:12px;line-height:1.6"><span style="color:#635BFF">→</span> ${escapeHtml(r.improvement)}</div>`;
+        html += '</div>';
+      }
+    } else if(key==='plans'){
+      html += '<table border="0" cellspacing="0" cellpadding="4" style="width:100%;font-size:12px;border-collapse:collapse">';
+      html += '<tr style="background:#f1f5f9"><th style="text-align:left;padding:6px">计划</th><th style="text-align:left;padding:6px">目标</th><th style="text-align:left;padding:6px">开始</th><th style="text-align:left;padding:6px">备注</th></tr>';
+      for(const p of items){
+        html += `<tr style="border-bottom:1px solid #eee"><td style="padding:6px">${escapeHtml(p.title||'')}</td><td style="padding:6px">${p.target_hours||0}h/${p.total_days||0}天</td><td style="padding:6px">${escapeHtml(p.start_date||'')}</td><td style="padding:6px">${escapeHtml(p.note||'')}</td></tr>`;
+      }
+      html += '</table>';
+    }
+  }
+  html += `<p style="text-align:center;color:#888;font-size:11px;margin-top:32px">共 ${total} 条数据 · 生活工作台自动生成</p>`;
+  html += '</div>';
+  return html;
+}
+
+function printToPDF(html){
+  const w = window.open('','_blank');
+  w.document.write(html);
+  w.document.close();
+  setTimeout(()=>{ w.print(); }, 500);
 }
 
 async function exportData(){
