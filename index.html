@@ -957,6 +957,179 @@ a{color:inherit;text-decoration:none}
 }
 .quest-item.done .quest-exp{color:var(--green);background:var(--green-glow)}
 
+/* ============================================================
+   Batch 2-5 扩展样式
+   ============================================================ */
+
+/* —— 《认知觉醒》复盘引导 —— */
+.review-guide{
+  margin-bottom:14px;padding:12px 16px;border-radius:var(--radius-sm);
+  background:linear-gradient(135deg,rgba(99,91,255,.06),rgba(199,168,75,.04));
+  border:1px solid rgba(99,91,255,.12);
+}
+.review-guide-title{
+  font-size:12px;font-weight:700;color:var(--primary);
+  display:flex;align-items:center;gap:6px;margin-bottom:8px;
+}
+.review-guide-q{
+  font-size:11px;color:var(--text-3);line-height:1.6;
+  padding:4px 0;border-bottom:1px dashed var(--border);
+}
+.review-guide-q:last-child{border-bottom:none}
+.review-guide-q b{color:var(--text-2);font-weight:600}
+
+/* —— 《小狗钱钱》梦想罐 —— */
+.dream-jars{margin-top:20px}
+.dream-jars-head{
+  display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;
+}
+.dream-jars-title{
+  font-size:14px;font-weight:700;color:var(--text-2);
+  display:flex;align-items:center;gap:6px;
+}
+.dream-jar-item{
+  padding:16px;border-radius:var(--radius-md);margin-bottom:12px;
+  background:var(--glass);backdrop-filter:blur(20px) saturate(1.6);
+  border:1px solid var(--glass-border);transition:all .3s var(--ease-out);
+}
+.dream-jar-item:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(10,37,64,.08)}
+.dream-jar-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:10px}
+.dream-jar-name{font-size:15px;font-weight:700;color:var(--text)}
+.dream-jar-emoji{font-size:24px;margin-right:6px}
+.dream-jar-amount{font-size:13px;color:var(--text-3);font-weight:600;margin-top:2px}
+.dream-jar-bar{
+  width:100%;height:8px;border-radius:4px;
+  background:var(--surface-3);overflow:hidden;margin:10px 0;
+}
+.dream-jar-bar-fill{
+  height:100%;border-radius:4px;
+  background:linear-gradient(90deg,#D4AF37,#10B981);
+  transition:width .8s var(--ease-out);
+}
+.dream-jar-progress-text{
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:11px;color:var(--text-4);font-weight:600;
+}
+.dream-jar-actions{display:flex;gap:8px;margin-top:12px}
+.dream-jar-actions button{
+  font-size:11px;padding:6px 14px;border-radius:8px;border:none;
+  cursor:pointer;font-weight:600;transition:all .2s;
+}
+.dream-jar-actions .deposit{
+  background:var(--green-glow);color:var(--green);
+}
+.dream-jar-actions .deposit:hover{background:var(--green);color:#fff}
+.dream-jar-actions .del{background:var(--red-glow);color:var(--red)}
+.dream-jar-actions .del:hover{background:var(--red);color:#fff}
+
+/* —— 《原子习惯》热力图 —— */
+.habit-heatmap{margin-top:16px;padding:16px;border-radius:var(--radius-md);background:var(--glass);backdrop-filter:blur(20px);border:1px solid var(--glass-border)}
+.heatmap-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;margin-top:10px}
+.heatmap-cell{
+  aspect-ratio:1;border-radius:3px;
+  background:var(--surface-3);
+  transition:all .2s;cursor:pointer;
+}
+.heatmap-cell.l1{background:rgba(5,150,105,.25)}
+.heatmap-cell.l2{background:rgba(5,150,105,.5)}
+.heatmap-cell.l3{background:rgba(5,150,105,.75)}
+.heatmap-cell.l4{background:#059669}
+.heatmap-cell:hover{transform:scale(1.3);box-shadow:0 0 6px rgba(5,150,105,.3)}
+.heatmap-legend{display:flex;align-items:center;gap:4px;margin-top:10px;font-size:10px;color:var(--text-4)}
+.heatmap-legend .heatmap-cell{width:10px;height:10px;aspect-ratio:auto}
+.streak-badge{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:3px 10px;border-radius:12px;
+  background:var(--amber-glow);color:var(--amber);
+  font-size:11px;font-weight:700;
+}
+
+/* —— 《纳瓦尔宝典》灵感标签 —— */
+.insp-naval-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.insp-naval-tag{
+  font-size:10px;font-weight:600;padding:2px 8px;border-radius:6px;
+  background:var(--primary-glow);color:var(--primary);
+}
+.insp-naval-tag.leverage{background:rgba(199,168,75,.12);color:#92400E}
+.insp-naval-tag.specialty{background:rgba(99,91,255,.1);color:var(--primary-2)}
+.insp-naval-tag.compound{background:rgba(5,150,105,.1);color:var(--green)}
+.insp-naval-tag.judgment{background:rgba(220,38,38,.08);color:var(--red)}
+.insp-star{color:var(--amber);font-size:12px}
+.insp-quote-badge{
+  display:inline-block;font-size:9px;font-weight:700;
+  padding:2px 6px;border-radius:4px;
+  background:var(--amber-grad);color:#fff;margin-right:4px;
+}
+
+/* —— 徽章墙 —— */
+.badge-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px}
+.badge-card{
+  text-align:center;padding:18px 12px;border-radius:var(--radius-md);
+  background:var(--glass);backdrop-filter:blur(20px);
+  border:1px solid var(--glass-border);
+  transition:all .3s var(--ease-spring);position:relative;overflow:hidden;
+}
+.badge-card.unlocked{
+  border-color:var(--amber);
+  box-shadow:0 4px 16px rgba(199,168,75,.12);
+}
+.badge-card.locked{opacity:.5;filter:grayscale(.8)}
+.badge-card:hover.unlocked{transform:translateY(-4px) scale(1.03)}
+.badge-icon{
+  width:48px;height:48px;border-radius:50%;margin:0 auto 8px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:24px;
+  background:var(--surface-3);
+}
+.badge-card.unlocked .badge-icon{
+  background:var(--amber-grad);
+  box-shadow:0 2px 12px rgba(199,168,75,.3);
+}
+.badge-name{font-size:12px;font-weight:700;color:var(--text)}
+.badge-card.locked .badge-name{color:var(--text-4)}
+.badge-desc{font-size:10px;color:var(--text-4);margin-top:4px;line-height:1.4}
+.badge-exp{
+  font-size:10px;font-weight:700;color:var(--amber);
+  margin-top:6px;
+}
+.badge-card.locked .badge-exp{color:var(--text-4)}
+.badge-section-title{
+  font-size:13px;font-weight:700;color:var(--text-2);
+  margin:20px 0 12px;display:flex;align-items:center;gap:6px;
+}
+.badge-stats{
+  display:flex;gap:16px;margin-bottom:20px;padding:16px;
+  border-radius:var(--radius-md);
+  background:linear-gradient(135deg,rgba(199,168,75,.06),rgba(99,91,255,.04));
+  border:1px solid var(--glass-border);
+}
+.badge-stat{text-align:center;flex:1}
+.badge-stat .v{font-size:24px;font-weight:800;color:var(--text)}
+.badge-stat .l{font-size:11px;color:var(--text-4);margin-top:2px}
+
+/* —— 微信读书同步 —— */
+.weread-sync{
+  padding:14px 16px;border-radius:var(--radius-md);
+  background:linear-gradient(135deg,rgba(5,150,105,.06),rgba(99,91,255,.04));
+  border:1px solid rgba(5,150,105,.12);margin-bottom:16px;
+}
+.weread-sync-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.weread-sync-title{font-size:13px;font-weight:700;color:var(--green);display:flex;align-items:center;gap:6px}
+.weread-sync-btn{
+  font-size:11px;padding:6px 14px;border-radius:8px;border:none;cursor:pointer;
+  background:var(--green-grad);color:#fff;font-weight:600;
+}
+.weread-sync-btn:hover{opacity:.85}
+.weread-book-list{display:flex;flex-direction:column;gap:6px}
+.weread-book-item{
+  display:flex;align-items:center;gap:10px;padding:8px 10px;
+  border-radius:8px;background:rgba(255,255,255,.5);
+}
+.weread-book-cover{width:28px;height:40px;border-radius:3px;background:var(--surface-3);flex-shrink:0;overflow:hidden}
+.weread-book-info{flex:1;min-width:0}
+.weread-book-title{font-size:11px;font-weight:600;color:var(--text)}
+.weread-book-progress{font-size:9px;color:var(--text-4)}
+
 /* 减少动效 — 无障碍 */
 @media(prefers-reduced-motion:reduce){
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
@@ -997,6 +1170,10 @@ a{color:inherit;text-decoration:none}
     <button class="nav-item" data-tab="search" title="搜索">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
       <span class="nav-label">搜索</span>
+    </button>
+    <button class="nav-item" data-tab="badges" title="成就">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <span class="nav-label">成就</span>
     </button>
     <button class="nav-item" data-tab="data" title="数据">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
@@ -1121,6 +1298,18 @@ a{color:inherit;text-decoration:none}
         </div>
       </div>
       <div id="yearlyStats"></div>
+
+      <!-- 《小狗钱钱》梦想罐 -->
+      <div class="dream-jars">
+        <div class="dream-jars-head">
+          <div class="dream-jars-title">🐷 小狗钱钱 · 梦想罐</div>
+          <button class="sync-btn" onclick="showDreamJarModal()">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            新建梦想
+          </button>
+        </div>
+        <div id="dreamJarList"></div>
+      </div>
     </section>
 
     <!-- 资讯 -->
@@ -1141,6 +1330,14 @@ a{color:inherit;text-decoration:none}
         <div class="section-title">灵感记录</div>
         <div class="section-count" id="inspCount">0 条</div>
       </div>
+      <!-- 微信读书同步 -->
+      <div class="weread-sync">
+        <div class="weread-sync-head">
+          <div class="weread-sync-title">📖 微信读书 · 划线和笔记</div>
+          <button class="weread-sync-btn" onclick="syncWeread()">同步书摘</button>
+        </div>
+        <div id="wereadBookList" style="font-size:11px;color:var(--text-4)">点击同步，将微信读书的划线和笔记导入为灵感</div>
+      </div>
       <div id="inspList"></div>
     </section>
 
@@ -1151,12 +1348,36 @@ a{color:inherit;text-decoration:none}
         <div class="section-count" id="planCount">0 个</div>
       </div>
       <div id="planList"></div>
+      <!-- 《原子习惯》打卡热力图 -->
+      <div class="habit-heatmap" id="habitHeatmap">
+        <div class="dream-jars-head">
+          <div class="dream-jars-title">🔥 原子习惯 · 打卡热力图</div>
+          <span class="streak-badge" id="streakBadge">连续 0 天</span>
+        </div>
+        <div class="heatmap-grid" id="heatmapGrid"></div>
+        <div class="heatmap-legend">
+          <span>少</span>
+          <div class="heatmap-cell"></div>
+          <div class="heatmap-cell l1"></div>
+          <div class="heatmap-cell l2"></div>
+          <div class="heatmap-cell l3"></div>
+          <div class="heatmap-cell l4"></div>
+          <span>多</span>
+        </div>
+      </div>
     </section>
 
     <!-- 复盘 -->
     <section class="section" id="sec-review">
       <div class="section-header">
         <div class="section-title">每日复盘</div>
+      </div>
+      <!-- 《认知觉醒》复盘引导 -->
+      <div class="review-guide">
+        <div class="review-guide-title">🧠 认知觉醒 · 元认知三问</div>
+        <div class="review-guide-q"><b>① 今天最触动我的事是什么？</b>——用"上帝视角"审视自己的行为</div>
+        <div class="review-guide-q"><b>② 我为什么会这么做？</b>——挖掘行为背后的潜意识驱动</div>
+        <div class="review-guide-q"><b>③ 如果重来一次，我会怎么做？</b>——模拟平行宇宙，提炼改进策略</div>
       </div>
       <div class="review-form-card">
         <div class="review-field">
@@ -1202,6 +1423,23 @@ a{color:inherit;text-decoration:none}
         </button>
       </div>
       <div id="globalSearchResults"></div>
+    </section>
+
+    <!-- 成就徽章 -->
+    <section class="section" id="sec-badges">
+      <div class="section-header">
+        <div class="section-title">成就徽章</div>
+      </div>
+      <div class="badge-stats" id="badgeStats">
+        <div class="badge-stat"><div class="v" id="badgeUnlocked">0</div><div class="l">已解锁</div></div>
+        <div class="badge-stat"><div class="v" id="badgeLocked">0</div><div class="l">未解锁</div></div>
+        <div class="badge-stat"><div class="v" id="badgeHidden">0</div><div class="l">隐藏徽章</div></div>
+        <div class="badge-stat"><div class="v" id="badgeExp">0</div><div class="l">徽章 EXP</div></div>
+      </div>
+      <div class="badge-section-title">🏆 已解锁</div>
+      <div class="badge-wall" id="badgeWallUnlocked"></div>
+      <div class="badge-section-title">🔒 未解锁</div>
+      <div class="badge-wall" id="badgeWallLocked"></div>
     </section>
 
     <!-- 数据管理 -->
@@ -1335,7 +1573,7 @@ a{color:inherit;text-decoration:none}
 <div class="levelup-overlay" id="levelupOverlay">
   <div class="levelup-card">
     <div class="levelup-stars">🎉</div>
-    <div class="levelup-title">等级提升</div>
+    <div class="levelup-title" id="levelupTitle">等级提升</div>
     <div class="levelup-level" id="levelupLevel">Lv.2</div>
     <div class="levelup-name" id="levelupName">探索者</div>
     <div class="levelup-desc" id="levelupDesc">继续努力，解锁更多成就</div>
@@ -1373,7 +1611,7 @@ let reviewSearchTimer = null;
 
 const TAB_TITLES = {
   todos:'今日待办', ledger:'收支记账', news:'每日资讯',
-  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', data:'数据管理'
+  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理'
 };
 
 // ============================================================
@@ -1706,12 +1944,13 @@ $$('.nav-item').forEach(t=>t.addEventListener('click',()=>switchTab(t.dataset.ta
 
 function loadTabData(tab){
   if(tab==='todos') loadTodos();
-  else if(tab==='ledger') loadLedger();
+  else if(tab==='ledger') { loadLedger(); loadDreamJars(); }
   else if(tab==='news') loadNews(currentNewsCat);
   else if(tab==='inspirations') loadInspirations();
   else if(tab==='study') loadPlans();
   else if(tab==='review') loadReviews();
   else if(tab==='search') {}
+  else if(tab==='badges') loadBadges();
   else if(tab==='data') {}
 }
 
@@ -2187,12 +2426,21 @@ async function loadInspirations(){
       list.innerHTML = `<div class="empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V18h6v-1.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg><p>还没有灵感记录<br><span>闪过什么想法就记下来</span></p></div>`;
       return;
     }
-    list.innerHTML = items.map(it=>`
+    list.innerHTML = items.map(it=>{
+      const navalTags = (it.naval_tags||[]).map(k=>{
+        const map = {leverage:{l:'杠杆',c:'leverage'},specialty:{l:'专长',c:'specialty'},compound:{l:'复利',c:'compound'},judgment:{l:'判断力',c:'judgment'}};
+        return map[k] ? `<span class="insp-naval-tag ${map[k].c}">${map[k].l}</span>` : '';
+      }).join('');
+      const stars = it.rating ? `<span class="insp-star">${'★'.repeat(it.rating)}</span>` : '';
+      const quote = it.is_quote ? `<span class="insp-quote-badge">金句</span>` : '';
+      return `
       <div class="insp-item list-item" data-id="${it.id}">
-        <div class="insp-content">${escapeHtml(it.content)}</div>
+        <div class="insp-content">${quote}${escapeHtml(it.content)}</div>
+        ${navalTags ? `<div class="insp-naval-tags">${navalTags}</div>`:''}
         <div class="insp-meta">
           <div>
             ${it.tag?`<span class="tag">${escapeHtml(it.tag)}</span>`:''}
+            ${stars}
             <span class="insp-time" style="margin-left:8px">${(it.created_at||'').replace(/.\d+$/,'').replace('T',' ')}</span>
           </div>
           <div style="display:flex;gap:2px">
@@ -2204,8 +2452,8 @@ async function loadInspirations(){
             </button>
           </div>
         </div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
   }catch(e){list.innerHTML='<div class="loading">加载失败</div>';console.error(e)}
 }
 
@@ -2218,6 +2466,78 @@ async function delInsp(id){
 async function editInsp(id){
   const it = await dbGet('inspirations',id);
   if(it) showInspModal(it);
+}
+
+// 微信读书同步 — 导入书摘为灵感
+async function syncWeread(){
+  // 微信读书 API 在纯前端无法直接调用（跨域限制）
+  // 提供两种方式：1.粘贴书摘导入 2.显示已同步的书籍
+  const wereadData = await metaGet('wereadBooks');
+  if(wereadData && wereadData.length){
+    renderWereadBooks(wereadData);
+  }
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">📖 导入微信读书书摘</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12px;color:var(--text-3);line-height:1.7;margin-bottom:14px">
+      在微信读书 App 中复制划线/笔记，粘贴到下方。每行一条，将自动导入为灵感。<br>
+      <b>格式：</b><code style="background:var(--surface-2);padding:1px 4px;border-radius:3px">《书名》摘录内容</code>
+    </div>
+    <div class="form-group">
+      <label>粘贴书摘（每行一条）</label>
+      <textarea class="form-textarea" id="fWereadPaste" style="min-height:200px" placeholder="《认知觉醒》焦虑的本质是缺乏安全感&#10;《原子习惯》习惯是自我提高的复利&#10;《纳瓦尔宝典》财富是拥有自由的能力"></textarea>
+    </div>
+    <div class="form-group">
+      <label>统一标签（可选）</label>
+      <input class="form-input" id="fWereadTag" placeholder="如：读书笔记">
+    </div>
+    <button class="btn-primary" onclick="importWereadPaste()">导入为灵感</button>
+  `);
+}
+
+async function importWereadPaste(){
+  const text = $('#fWereadPaste').value.trim();
+  if(!text){toast('请粘贴书摘内容');return}
+  const tag = $('#fWereadTag').value.trim();
+  const lines = text.split('\n').map(l=>l.trim()).filter(l=>l);
+  let count = 0;
+  for(const line of lines){
+    const m = line.match(/^《(.+?)》(.+)/);
+    const bookName = m ? m[1] : '';
+    const content = m ? m[2] : line;
+    await dbAdd('inspirations',{
+      content,
+      tag: tag || (bookName ? `读《${bookName}》` : '微信读书'),
+      naval_tags:[],
+      rating:0,
+      is_quote:true,
+      book:bookName,
+      created_at:new Date().toISOString()
+    });
+    count++;
+  }
+  toast(`已导入 ${count} 条书摘`);
+  addExp(count*3, '导入书摘');
+  closeModal(); loadInspirations(); loadOverview(); autoBackup();
+}
+
+function renderWereadBooks(books){
+  const list = $('#wereadBookList');
+  if(!list || !books || !books.length) return;
+  list.className = 'weread-book-list';
+  list.innerHTML = books.map(b=>{
+    const coverHtml = b.cover ? '<img src="'+b.cover+'" style="width:100%;height:100%;object-fit:cover">' : '📚';
+    return `
+    <div class="weread-book-item">
+      <div class="weread-book-cover">${coverHtml}</div>
+      <div class="weread-book-info">
+        <div class="weread-book-title">${escapeHtml(b.title)}</div>
+        <div class="weread-book-progress">${b.author||''} · ${b.progress||0}% · ${b.markCount||0}条划线</div>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 // ============================================================
@@ -2233,6 +2553,7 @@ async function loadPlans(){
     $('#planCount').textContent = `${items.length} 个`;
     if(!items.length){
       list.innerHTML = `<div class="empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg><p>还没有学习计划<br><span>定个目标，每天打卡</span></p></div>`;
+      renderHeatmap(checkins);
       return;
     }
     list.innerHTML = items.map(p=>{
@@ -2269,7 +2590,41 @@ async function loadPlans(){
         </div>
       </div>`;
     }).join('');
+    renderHeatmap(checkins);
   }catch(e){list.innerHTML='<div class="loading">加载失败</div>';console.error(e)}
+}
+
+// 《原子习惯》热力图渲染
+function renderHeatmap(allCheckins){
+  const grid = $('#heatmapGrid');
+  const badge = $('#streakBadge');
+  if(!grid) return;
+  const dateCount = {};
+  for(const c of allCheckins){
+    const d = c.checkin_date;
+    if(d) dateCount[d] = (dateCount[d]||0) + 1;
+  }
+  const days = [];
+  const today = new Date();
+  for(let i=34;i>=0;i--){
+    const dt = new Date(today);
+    dt.setDate(dt.getDate()-i);
+    const ds = dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');
+    const cnt = dateCount[ds]||0;
+    let level = '';
+    if(cnt>=3) level='l4';
+    else if(cnt===2) level='l3';
+    else if(cnt===1) level='l2';
+    else if(cnt>0) level='l1';
+    days.push({ds,cnt,level,dt});
+  }
+  grid.innerHTML = days.map(d=>`<div class="heatmap-cell ${d.level}" title="${d.ds}: ${d.cnt}次打卡"></div>`).join('');
+  let streak = 0;
+  for(let i=days.length-1;i>=0;i--){
+    if(days[i].cnt>0) streak++;
+    else break;
+  }
+  badge.textContent = `🔥 连续 ${streak} 天`;
 }
 
 async function studyCheckin(id){ showCheckinModal(id); }
@@ -2379,6 +2734,132 @@ async function saveReview(){
     }
     loadReviews(); loadOverview(); autoBackup();
   }catch(e){toast('保存失败');console.error(e)}
+}
+
+// ============================================================
+// 《小狗钱钱》梦想罐 — CRUD via meta store
+// ============================================================
+async function loadDreamJars(){
+  const list = $('#dreamJarList');
+  if(!list) return;
+  let jars = await metaGet('dreamJars');
+  jars = jars || [];
+  if(!jars.length){
+    list.innerHTML = `<div style="text-align:center;padding:20px;color:var(--text-4);font-size:13px">还没有梦想罐<br><span style="font-size:11px">设立你的梦想，从存第一块钱开始</span></div>`;
+    return;
+  }
+  list.innerHTML = jars.map(j=>{
+    const pct = j.target>0 ? Math.min(100, Math.round(j.current/j.target*100)) : 0;
+    return `
+    <div class="dream-jar-item" data-id="${j.id}">
+      <div class="dream-jar-head">
+        <div>
+          <span class="dream-jar-emoji">${j.emoji||'🎯'}</span>
+          <span class="dream-jar-name">${escapeHtml(j.name)}</span>
+          <div class="dream-jar-amount">¥${(j.current||0).toLocaleString()} / ¥${(j.target||0).toLocaleString()}</div>
+        </div>
+        <div style="display:flex;gap:2px">
+          <button class="icon-btn" onclick="editDreamJar('${j.id}')">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.1 2.1 0 0 1 3 3L12 15l-4 1 1-4z"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="dream-jar-bar"><div class="dream-jar-bar-fill" style="width:${pct}%"></div></div>
+      <div class="dream-jar-progress-text">
+        <span>${pct}%</span>
+        <span>${pct>=100?'🎉 梦想达成！':'还差 ¥'+((j.target-j.current)||0).toLocaleString()}</span>
+      </div>
+      <div class="dream-jar-actions">
+        <button class="deposit" onclick="depositDreamJar('${j.id}')">💰 存入</button>
+        <button class="del" onclick="delDreamJar('${j.id}')">删除</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function showDreamJarModal(jar){
+  const isEdit = !!jar;
+  jar = jar || {name:'',target:'',current:0,emoji:'🎯'};
+  const emojis = ['🎯','🐷','🏠','✈️','📚','💻','🚗','💍','🏝️','🎓'];
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">${isEdit?'编辑梦想':'设立梦想'}</div>
+      <button class="modal-close" onclick="closeModal()">取消</button>
+    </div>
+    <div class="form-group">
+      <label>梦想名称</label>
+      <input class="form-input" id="fDreamName" value="${escapeHtml(jar.name)}" placeholder="如：欧洲旅行基金">
+    </div>
+    <div class="form-group">
+      <label>选择图标</label>
+      <div class="chip-group" id="fDreamEmoji">
+        ${emojis.map(e=>`<button class="chip ${jar.emoji===e?'active':''}" data-val="${e}" style="font-size:18px">${e}</button>`).join('')}
+      </div>
+    </div>
+    <div class="form-group">
+      <label>目标金额</label>
+      <input class="form-input" type="number" id="fDreamTarget" value="${jar.target||''}" placeholder="10000">
+    </div>
+    ${isEdit?`<div class="form-group"><label>已存入</label><input class="form-input" type="number" id="fDreamCurrent" value="${jar.current||0}"></div>`:''}
+    <button class="btn-primary" onclick="submitDreamJar('${jar.id||''}')">${isEdit?'保存':'设立梦想'}</button>
+  `);
+  $('#fDreamEmoji').addEventListener('click',e=>{ if(e.target.classList.contains('chip')){ $$('#fDreamEmoji .chip').forEach(c=>c.classList.remove('active')); e.target.classList.add('active'); } });
+}
+
+async function submitDreamJar(id){
+  const name = $('#fDreamName').value.trim();
+  const emoji = $('#fDreamEmoji .chip.active')?.dataset.val || '🎯';
+  const target = parseFloat($('#fDreamTarget').value)||0;
+  if(!name){toast('请输入梦想名称');return}
+  if(target<=0){toast('请输入目标金额');return}
+  let jars = await metaGet('dreamJars') || [];
+  if(id){
+    const j = jars.find(x=>x.id===id);
+    if(j){
+      j.name=name; j.emoji=emoji; j.target=target;
+      if($('#fDreamCurrent')) j.current=parseFloat($('#fDreamCurrent').value)||0;
+    }
+    toast('已保存');
+  }else{
+    jars.push({id:Date.now().toString(),name,emoji,target,current:0,created_at:new Date().toISOString()});
+    toast('梦想已设立');
+    addExp(5, '设立梦想');
+  }
+  await metaSet('dreamJars', jars);
+  closeModal(); loadDreamJars(); autoBackup();
+}
+
+async function depositDreamJar(id){
+  const amount = parseFloat(prompt('存入金额（¥）'));
+  if(!amount || amount<=0) return;
+  let jars = await metaGet('dreamJars') || [];
+  const j = jars.find(x=>x.id===id);
+  if(j){
+    j.current = (j.current||0) + amount;
+    await metaSet('dreamJars', jars);
+    loadDreamJars(); autoBackup();
+    if(j.current >= j.target){
+      toast('🎉 梦想达成！');
+      addExp(50, '梦想达成');
+    }else{
+      toast(`已存入 ¥${amount}`);
+      addExp(3, '梦想存钱');
+    }
+  }
+}
+
+async function delDreamJar(id){
+  if(!confirm('删除这个梦想罐？')) return;
+  let jars = await metaGet('dreamJars') || [];
+  jars = jars.filter(x=>x.id!==id);
+  await metaSet('dreamJars', jars);
+  toast('已删除'); loadDreamJars(); autoBackup();
+}
+
+async function editDreamJar(id){
+  let jars = await metaGet('dreamJars') || [];
+  const j = jars.find(x=>x.id===id);
+  if(j) showDreamJarModal(j);
 }
 
 // ============================================================
@@ -2535,7 +3016,14 @@ async function submitLedger(id){
 
 function showInspModal(it){
   const isEdit = !!it;
-  it = it||{content:'',tag:''};
+  it = it||{content:'',tag:'',naval_tags:[],rating:0,is_quote:false};
+  const navalTags = [
+    {key:'leverage',label:'杠杆',cls:'leverage'},
+    {key:'specialty',label:'专长',cls:'specialty'},
+    {key:'compound',label:'复利',cls:'compound'},
+    {key:'judgment',label:'判断力',cls:'judgment'},
+  ];
+  const itNaval = it.naval_tags||[];
   openModal(`
     <div class="modal-head">
       <div class="modal-title">${isEdit?'编辑灵感':'记录灵感'}</div>
@@ -2549,23 +3037,46 @@ function showInspModal(it){
       <label>标签（可选）</label>
       <input class="form-input" id="fInspTag" value="${escapeHtml(it.tag)}" placeholder="如：产品想法、读书笔记">
     </div>
+    <div class="form-group">
+      <label>《纳瓦尔宝典》思维标签</label>
+      <div class="chip-group" id="fInspNaval">
+        ${navalTags.map(t=>`<button class="chip ${itNaval.includes(t.key)?'active':''}" data-val="${t.key}" style="font-size:11px">${t.label}</button>`).join('')}
+      </div>
+    </div>
+    <div class="form-group">
+      <label>评分</label>
+      <div class="chip-group" id="fInspRating">
+        ${[1,2,3,4,5].map(n=>`<button class="chip ${(it.rating||0)===n?'active':''}" data-val="${n}" style="font-size:14px">${'★'.repeat(n)}</button>`).join('')}
+      </div>
+    </div>
+    <div class="form-group">
+      <label>
+        <input type="checkbox" id="fInspQuote" ${it.is_quote?'checked':''} style="margin-right:6px"> 标记为金句
+      </label>
+    </div>
     <button class="btn-primary" onclick="submitInsp(${it.id||0})">${isEdit?'保存':'记录'}</button>
   `);
+  $('#fInspNaval').addEventListener('click',e=>{ if(e.target.classList.contains('chip')) e.target.classList.toggle('active'); });
+  $('#fInspRating').addEventListener('click',e=>{ if(e.target.classList.contains('chip')){ $$('#fInspRating .chip').forEach(c=>c.classList.remove('active')); e.target.classList.add('active'); } });
 }
 
 async function submitInsp(id){
   const content = $('#fInspContent').value.trim();
   if(!content){toast('请输入内容');return}
   const tag = $('#fInspTag').value.trim();
+  const naval_tags = [...$$('#fInspNaval .chip.active')].map(c=>c.dataset.val);
+  const rating = +$('#fInspRating .chip.active')?.dataset.val || 0;
+  const is_quote = $('#fInspQuote').checked;
   try{
     if(id){
       const it = await dbGet('inspirations',id);
-      if(it){ it.content=content; it.tag=tag; await dbPut('inspirations',it); }
+      if(it){ it.content=content; it.tag=tag; it.naval_tags=naval_tags; it.rating=rating; it.is_quote=is_quote; await dbPut('inspirations',it); }
       toast('已保存');
     }else{
-      await dbAdd('inspirations',{content,tag,created_at:new Date().toISOString()});
+      await dbAdd('inspirations',{content,tag,naval_tags,rating,is_quote,created_at:new Date().toISOString()});
       toast('已记录');
       addExp(8, '记录灵感');
+      if(is_quote) addExp(5, '收藏金句');
     }
     closeModal(); loadInspirations(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
@@ -3176,7 +3687,157 @@ function onFabClick(){
   else if(currentTab==='review') $('#reviewFormCard').scrollIntoView({behavior:'smooth',block:'start'});
   else if(currentTab==='news') toast('资讯自动刷新');
   else if(currentTab==='search') $('#globalSearch').focus();
+  else if(currentTab==='badges') loadBadges();
   else if(currentTab==='data') exportData();
+}
+
+// ============================================================
+// 《徽章墙》成就系统 — 隐藏徽章 + 自动检测解锁
+// ============================================================
+const BADGES = [
+  // 初心徽章 (易获得)
+  {id:'first_todo',  icon:'✅', name:'初心觉醒',  desc:'完成第一个待办',  exp:10,  hidden:false},
+  {id:'first_ledger',icon:'💰', name:'理财意识',  desc:'记第一笔账',     exp:10,  hidden:false},
+  {id:'first_insp',  icon:'💡', name:'灵感闪现',  desc:'记录第一个灵感',  exp:10,  hidden:false},
+  {id:'first_checkin',icon:'📚',name:'学海无涯',  desc:'第一次学习打卡',  exp:10,  hidden:false},
+  {id:'first_review',icon:'📝', name:'觉察者',    desc:'完成第一次复盘',  exp:10,  hidden:false},
+  {id:'first_dream', icon:'🐷', name:'梦想起航',  desc:'设立第一个梦想罐', exp:15,  hidden:false},
+
+  // 习惯徽章 (中等难度)
+  {id:'streak_3',    icon:'🔥', name:'三日不辍',  desc:'连续打卡3天',    exp:30,  hidden:false},
+  {id:'streak_7',    icon:'⚡', name:'一周习惯',  desc:'连续打卡7天',    exp:50,  hidden:false},
+  {id:'streak_30',   icon:'🌟', name:'月度坚持',  desc:'连续打卡30天',   exp:200, hidden:false},
+  {id:'todo_50',     icon:'📋', name:'行动达人',  desc:'完成50个待办',   exp:50,  hidden:false},
+  {id:'ledger_50',   icon:'📊', name:'账房先生',  desc:'记账50笔',      exp:50,  hidden:false},
+  {id:'insp_30',     icon:'✨', name:'思想者',    desc:'记录30条灵感',   exp:50,  hidden:false},
+  {id:'review_14',   icon:'🧠', name:'深度复盘',  desc:'完成14天复盘',   exp:80,  hidden:false},
+
+  // 等级徽章
+  {id:'lv3',         icon:'🎖️', name:'行动派徽章', desc:'达到3级',        exp:0,   hidden:false},
+  {id:'lv5',         icon:'🏅', name:'思考者徽章', desc:'达到5级',        exp:0,   hidden:false},
+  {id:'lv7',         icon:'👑', name:'设计者徽章', desc:'达到7级',        exp:0,   hidden:false},
+
+  // 梦想徽章
+  {id:'dream_done',  icon:'🎉', name:'梦想成真',  desc:'达成一个梦想罐',  exp:100, hidden:false},
+
+  // 隐藏徽章
+  {id:'night_owl',   icon:'🦉', name:'夜猫子',    desc:'深夜记录灵感',   exp:20,  hidden:true},
+  {id:'early_bird',  icon:'🐦', name:'晨型人',    desc:'早上6点前打卡',   exp:20,  hidden:true},
+  {id:'perfectionist',icon:'💎',name:'完美主义',  desc:'一天完成全部5个任务',exp:50,hidden:true},
+  {id:'philosopher', icon:'🤔', name:'哲学家',    desc:'一条灵感含4个纳瓦尔标签',exp:30,hidden:true},
+  {id:'bookworm',    icon:'🐛', name:'书虫',      desc:'导入10条以上书摘', exp:40,  hidden:true},
+];
+
+async function loadBadges(){
+  const allData = {
+    todos: await dbAll('todos'),
+    ledger: await dbAll('ledger'),
+    inspirations: await dbAll('inspirations'),
+    checkins: await dbAll('checkins'),
+    reviews: await dbAll('reviews'),
+  };
+  const dreamJars = await metaGet('dreamJars') || [];
+  const unlocked = await metaGet('unlockedBadges') || [];
+
+  // 检测解锁条件
+  const newlyUnlocked = [];
+  for(const b of BADGES){
+    if(unlocked.includes(b.id)) continue;
+    let ok = false;
+    const t = localDate();
+    switch(b.id){
+      case 'first_todo': ok = allData.todos.some(x=>x.done); break;
+      case 'first_ledger': ok = allData.ledger.length>0; break;
+      case 'first_insp': ok = allData.inspirations.length>0; break;
+      case 'first_checkin': ok = allData.checkins.length>0; break;
+      case 'first_review': ok = allData.reviews.length>0; break;
+      case 'first_dream': ok = dreamJars.length>0; break;
+      case 'streak_3': ok = calcStreak(allData.checkins)>=3; break;
+      case 'streak_7': ok = calcStreak(allData.checkins)>=7; break;
+      case 'streak_30': ok = calcStreak(allData.checkins)>=30; break;
+      case 'todo_50': ok = allData.todos.filter(x=>x.done).length>=50; break;
+      case 'ledger_50': ok = allData.ledger.length>=50; break;
+      case 'insp_30': ok = allData.inspirations.length>=30; break;
+      case 'review_14': ok = allData.reviews.length>=14; break;
+      case 'lv3': ok = gameData.exp>=300; break;
+      case 'lv5': ok = gameData.exp>=1000; break;
+      case 'lv7': ok = gameData.exp>=2500; break;
+      case 'dream_done': ok = dreamJars.some(j=>j.current>=j.target && j.target>0); break;
+      case 'night_owl': ok = allData.inspirations.some(i=>{const h=new Date(i.created_at).getHours();return h>=0&&h<5}); break;
+      case 'early_bird': ok = allData.checkins.some(c=>{const h=new Date(c.created_at||c.checkin_date).getHours();return h<6}); break;
+      case 'perfectionist': ok = questStates && Object.keys(questStates).length>=5 && Object.values(questStates).every(v=>v); break;
+      case 'philosopher': ok = allData.inspirations.some(i=>(i.naval_tags||[]).length>=4); break;
+      case 'bookworm': ok = allData.inspirations.filter(i=>i.is_quote && i.book).length>=10; break;
+    }
+    if(ok){
+      unlocked.push(b.id);
+      newlyUnlocked.push(b);
+    }
+  }
+  if(newlyUnlocked.length){
+    await metaSet('unlockedBadges', unlocked);
+    for(const b of newlyUnlocked){
+      if(b.exp>0) addExp(b.exp, `徽章: ${b.name}`);
+    }
+    showBadgeUnlock(newlyUnlocked[newlyUnlocked.length-1]);
+  }
+
+  // 渲染
+  const unlockedEl = $('#badgeWallUnlocked');
+  const lockedEl = $('#badgeWallLocked');
+  const hiddenCount = BADGES.filter(b=>b.hidden && !unlocked.includes(b.id)).length;
+  let unlockedHtml = '', lockedHtml = '';
+  let badgeExp = 0;
+  for(const b of BADGES){
+    const isUnlocked = unlocked.includes(b.id);
+    if(isUnlocked) badgeExp += b.exp;
+    const card = `
+      <div class="badge-card ${isUnlocked?'unlocked':'locked'}">
+        <div class="badge-icon">${b.hidden && !isUnlocked ? '❓' : b.icon}</div>
+        <div class="badge-name">${b.hidden && !isUnlocked ? '隐藏徽章' : b.name}</div>
+        <div class="badge-desc">${b.hidden && !isUnlocked ? '解锁条件未知' : b.desc}</div>
+        <div class="badge-exp">+${b.exp} EXP</div>
+      </div>`;
+    if(isUnlocked) unlockedHtml += card;
+    else lockedHtml += card;
+  }
+  unlockedEl.innerHTML = unlockedHtml || '<div style="color:var(--text-4);font-size:13px;padding:20px;text-align:center;grid-column:1/-1">还没有解锁徽章，去完成任务吧！</div>';
+  lockedEl.innerHTML = lockedHtml;
+  $('#badgeUnlocked').textContent = unlocked.length;
+  $('#badgeLocked').textContent = BADGES.length - unlocked.length;
+  $('#badgeHidden').textContent = hiddenCount;
+  $('#badgeExp').textContent = badgeExp;
+}
+
+function calcStreak(checkins){
+  if(!checkins.length) return 0;
+  const dates = [...new Set(checkins.map(c=>c.checkin_date))].sort();
+  const today = localDate();
+  const yesterday = new Date(); yesterday.setDate(yesterday.getDate()-1);
+  const yStr = yesterday.getFullYear()+'-'+String(yesterday.getMonth()+1).padStart(2,'0')+'-'+String(yesterday.getDate()).padStart(2,'0');
+  // 从今天或昨天开始往回数
+  let streak = 0;
+  let cur = new Date();
+  if(!dates.includes(today) && !dates.includes(yStr)) return 0;
+  if(!dates.includes(today)) cur.setDate(cur.getDate()-1);
+  while(true){
+    const ds = cur.getFullYear()+'-'+String(cur.getMonth()+1).padStart(2,'0')+'-'+String(cur.getDate()).padStart(2,'0');
+    if(dates.includes(ds)){
+      streak++;
+      cur.setDate(cur.getDate()-1);
+    }else break;
+  }
+  return streak;
+}
+
+function showBadgeUnlock(badge){
+  const overlay = $('#levelupOverlay');
+  $('#levelupLevel').textContent = '🏅';
+  $('#levelupName').textContent = badge.name;
+  $('#levelupDesc').textContent = badge.desc;
+  $('#levelupTitle').textContent = '徽章解锁';
+  overlay.classList.add('show');
+  setTimeout(()=>overlay.classList.remove('show'), 2800);
 }
 
 // ============================================================
@@ -3249,6 +3910,7 @@ window.addEventListener('beforeinstallprompt', e=>{
   loadTodos();
   loadSearchData();
   loadGamification();
+  loadBadges();
   // 数据变动后自动备份
   setInterval(autoBackup, 60000);
   setInterval(loadSearchData, 120000); // 每2分钟刷新搜索索引
