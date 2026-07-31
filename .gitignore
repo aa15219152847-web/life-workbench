@@ -26,3 +26,4 @@ news_fetcher.py
 keepalive.sh
 CURRENT_URL.txt
 RESTORE_GUIDE.md
+*.bak.*

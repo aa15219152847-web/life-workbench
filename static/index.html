@@ -800,6 +800,163 @@ a{color:inherit;text-decoration:none}
   .ov-card .value{font-size:20px}
 }
 
+/* ============================================================
+   游戏化系统 — EXP / 等级 / 每日任务 / 即时奖励
+   ============================================================ */
+
+/* 侧边栏等级徽章 + EXP 进度条 */
+.sidebar-level{
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  padding:10px 8px;margin:0 8px 8px;border-radius:var(--radius-sm);
+  background:linear-gradient(135deg,rgba(199,168,75,.15),rgba(99,91,255,.1));
+  border:1px solid rgba(199,168,75,.2);
+}
+.level-badge{
+  width:38px;height:38px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;font-weight:800;color:#fff;
+  background:var(--amber-grad);
+  box-shadow:0 2px 10px rgba(199,168,75,.4);
+  position:relative;flex-shrink:0;
+}
+.level-badge::after{
+  content:'';position:absolute;inset:-3px;border-radius:50%;
+  background:conic-gradient(from 0deg,var(--amber),var(--primary),var(--amber));
+  z-index:-1;opacity:.5;filter:blur(6px);
+}
+.level-name{
+  font-size:10px;font-weight:600;color:var(--amber);text-align:center;
+  letter-spacing:.5px;white-space:nowrap;
+}
+.sidebar.expanded .level-name{font-size:11px}
+.exp-bar-mini{
+  width:100%;height:5px;border-radius:3px;
+  background:rgba(255,255,255,.15);overflow:hidden;
+}
+.exp-bar-mini-fill{
+  height:100%;border-radius:3px;
+  background:linear-gradient(90deg,#D4AF37,#635BFF);
+  transition:width .6s var(--ease-out);
+}
+.exp-text-mini{
+  font-size:9px;color:rgba(255,255,255,.6);text-align:center;white-space:nowrap;
+}
+.sidebar.expanded .exp-text-mini{font-size:10px}
+
+/* 概览第 5 张卡片 — 成长值 */
+.ov-card.gamify{
+  background:linear-gradient(135deg,rgba(199,168,75,.08),rgba(99,91,255,.06));
+}
+.ov-card.gamify .ov-icon{
+  background:var(--amber-glow);color:var(--amber);
+}
+.ov-card.gamify .accent-bar{background:var(--amber-grad)}
+.ov-card.gamify .exp-bar{
+  margin-top:8px;width:100%;height:6px;border-radius:3px;
+  background:var(--surface-3);overflow:hidden;
+}
+.ov-card.gamify .exp-bar-fill{
+  height:100%;border-radius:3px;
+  background:linear-gradient(90deg,#D4AF37,#635BFF);
+  transition:width .8s var(--ease-out);
+}
+
+/* 浮动经验通知 */
+.exp-notification{
+  position:fixed;top:calc(60px + var(--safe-top));left:50%;
+  transform:translateX(-50%) translateY(-20px) scale(.8);
+  z-index:9999;pointer-events:none;opacity:0;
+  display:flex;align-items:center;gap:10px;
+  padding:12px 24px;border-radius:30px;
+  background:linear-gradient(135deg,rgba(199,168,75,.95),rgba(212,175,55,.95));
+  color:#fff;font-size:15px;font-weight:700;
+  box-shadow:0 8px 32px rgba(199,168,75,.4);
+  backdrop-filter:blur(12px);
+  transition:all .5s var(--ease-spring);
+}
+.exp-notification.show{
+  opacity:1;transform:translateX(-50%) translateY(0) scale(1);
+}
+.exp-notification .exp-icon{font-size:20px}
+.exp-notification .exp-amount{font-size:18px;font-weight:800}
+.exp-notification.levelup{
+  background:linear-gradient(135deg,rgba(99,91,255,.95),rgba(79,70,229,.95));
+  box-shadow:0 8px 32px rgba(99,91,255,.5);
+}
+
+/* 等级升级全屏特效 */
+.levelup-overlay{
+  position:fixed;inset:0;z-index:10000;pointer-events:none;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transition:opacity .4s ease;
+}
+.levelup-overlay.show{opacity:1}
+.levelup-card{
+  text-align:center;padding:40px 50px;border-radius:24px;
+  background:rgba(10,37,64,.92);backdrop-filter:blur(24px);
+  transform:scale(.5);transition:transform .6s var(--ease-spring);
+  border:2px solid var(--amber);
+  box-shadow:0 0 80px rgba(199,168,75,.3);
+}
+.levelup-overlay.show .levelup-card{transform:scale(1)}
+.levelup-stars{font-size:40px;margin-bottom:12px;animation:starBurst .8s ease}
+.levelup-title{font-size:13px;color:var(--amber);letter-spacing:2px;margin-bottom:8px}
+.levelup-level{font-size:42px;font-weight:800;color:#fff;margin-bottom:6px}
+.levelup-name{font-size:18px;font-weight:600;color:var(--amber);margin-bottom:16px}
+.levelup-desc{font-size:13px;color:rgba(255,255,255,.7);line-height:1.6}
+@keyframes starBurst{
+  0%{transform:scale(0) rotate(-180deg);opacity:0}
+  100%{transform:scale(1) rotate(0);opacity:1}
+}
+
+/* 每日任务面板 */
+.daily-quests{
+  margin-top:16px;padding:16px;border-radius:var(--radius-md);
+  background:var(--glass);backdrop-filter:blur(20px) saturate(1.6);
+  border:1px solid var(--glass-border);
+}
+.daily-quests-head{
+  display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;
+}
+.daily-quests-title{
+  font-size:13px;font-weight:700;color:var(--text-2);
+  display:flex;align-items:center;gap:6px;
+}
+.daily-quests-progress{
+  font-size:11px;color:var(--text-4);font-weight:600;
+}
+.quest-item{
+  display:flex;align-items:center;gap:10px;padding:8px 10px;
+  border-radius:var(--radius-xs);margin-bottom:6px;
+  background:rgba(255,255,255,.5);
+  transition:all .3s var(--ease-out);
+}
+.quest-item:last-child{margin-bottom:0}
+.quest-item.done{
+  background:var(--green-glow);opacity:.7;
+}
+.quest-check{
+  width:20px;height:20px;border-radius:50%;
+  border:2px solid var(--border-2);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  transition:all .3s var(--ease-out);
+}
+.quest-item.done .quest-check{
+  border-color:var(--green);background:var(--green);
+}
+.quest-check svg{
+  width:12px;height:12px;opacity:0;transition:opacity .2s;
+}
+.quest-item.done .quest-check svg{opacity:1}
+.quest-info{flex:1;min-width:0}
+.quest-name{font-size:12px;font-weight:500;color:var(--text-2)}
+.quest-item.done .quest-name{text-decoration:line-through;color:var(--text-4)}
+.quest-exp{
+  font-size:11px;font-weight:700;color:var(--amber);flex-shrink:0;
+  padding:2px 8px;border-radius:10px;background:var(--amber-glow);
+}
+.quest-item.done .quest-exp{color:var(--green);background:var(--green-glow)}
+
 /* 减少动效 — 无障碍 */
 @media(prefers-reduced-motion:reduce){
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
@@ -847,6 +1004,12 @@ a{color:inherit;text-decoration:none}
     </button>
   </nav>
   <div class="sidebar-footer">
+    <div class="sidebar-level" id="sidebarLevel">
+      <div class="level-badge" id="levelBadge">1</div>
+      <div class="level-name" id="levelName">觉醒者</div>
+      <div class="exp-bar-mini"><div class="exp-bar-mini-fill" id="expBarMini" style="width:0%"></div></div>
+      <div class="exp-text-mini" id="expTextMini">0/100</div>
+    </div>
     <div class="sidebar-time" id="sidebarTime"></div>
   </div>
 </aside>
@@ -899,9 +1062,17 @@ a{color:inherit;text-decoration:none}
       <div class="sub" id="ovReviewSub">未填写</div>
       <div class="accent-bar"></div>
     </div>
+    <div class="ov-card gamify">
+      <div class="ov-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <div class="label">成长等级</div>
+      <div class="value" id="ovExpLevel">Lv.1</div>
+      <div class="sub" id="ovExpName">觉醒者</div>
+      <div class="exp-bar"><div class="exp-bar-fill" id="ovExpBar" style="width:0%"></div></div>
+      <div class="accent-bar"></div>
+    </div>
   </div>
-
-  <!-- 内容区 -->
   <div class="content">
 
     <!-- 待办 -->
@@ -917,6 +1088,14 @@ a{color:inherit;text-decoration:none}
         </div>
       </div>
       <div id="todoList"></div>
+      <!-- 每日任务 -->
+      <div class="daily-quests" id="dailyQuests">
+        <div class="daily-quests-head">
+          <div class="daily-quests-title">🎯 每日任务</div>
+          <div class="daily-quests-progress" id="questsProgress">0/5</div>
+        </div>
+        <div id="questList"></div>
+      </div>
     </section>
 
     <!-- 记账 -->
@@ -1145,6 +1324,24 @@ a{color:inherit;text-decoration:none}
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
+<!-- 经验值浮动通知 -->
+<div class="exp-notification" id="expNotification">
+  <span class="exp-icon">✨</span>
+  <span class="exp-amount" id="expAmount">+10</span>
+  <span id="expReason">经验</span>
+</div>
+
+<!-- 等级升级特效 -->
+<div class="levelup-overlay" id="levelupOverlay">
+  <div class="levelup-card">
+    <div class="levelup-stars">🎉</div>
+    <div class="levelup-title">等级提升</div>
+    <div class="levelup-level" id="levelupLevel">Lv.2</div>
+    <div class="levelup-name" id="levelupName">探索者</div>
+    <div class="levelup-desc" id="levelupDesc">继续努力，解锁更多成就</div>
+  </div>
+</div>
+
 <!-- PWA 安装引导 -->
 <div class="pwa-guide" id="pwaGuide">
   <div class="pwa-guide-card">
@@ -1292,6 +1489,159 @@ function metaGet(key){
 }
 function metaSet(key,value){
   return dbPut('meta',{key,value});
+}
+
+// ============================================================
+// 游戏化系统 — EXP / 等级 / 每日任务 / 即时奖励
+// ============================================================
+
+// 等级体系 — 融合《认知觉醒》《原子习惯》《纳瓦尔宝典》《小狗钱钱》
+const LEVELS = [
+  {lv:1, name:'觉醒者',     exp:0,    desc:'意识到改变的发生，是一切成长的起点'},
+  {lv:2, name:'探索者',     exp:100,  desc:'在行动中探索自我，迈出认知的舒适区'},
+  {lv:3, name:'行动派',     exp:300,  desc:'知行合一，让每一个想法落地生根'},
+  {lv:4, name:'习惯养成者', exp:600,  desc:'微小习惯复利积累，终将铸就非凡'},
+  {lv:5, name:'深度思考者', exp:1000, desc:'在复盘与反思中，洞察事物的本质'},
+  {lv:6, name:'财富 steward',exp:1500, desc:'让金钱成为工具，而非主人'},
+  {lv:7, name:'人生设计者', exp:2500, desc:'主动设计人生，如纳瓦尔般自由创造'},
+  {lv:8, name:'觉醒大师',   exp:4000, desc:'持续觉醒，持续进化，成为自己的教练'},
+  {lv:9, name:'生命艺术家', exp:6500, desc:'将生活本身，雕琢成一件艺术品'},
+  {lv:10,name:'人生设计大师',exp:10000,desc:'最高境界：设计自己，也照亮他人'},
+];
+
+// 每日任务定义
+const DAILY_QUESTS = [
+  {id:'todo_done',  name:'完成1项待办',  exp:15, check:async()=>{const ts=await dbAll('todos');const t=localDate();return ts.filter(x=>x.due_date===t&&x.done).length>0;}},
+  {id:'ledger',     name:'记一笔账',     exp:10, check:async()=>{const ls=await dbAll('ledger');const t=localDate();return ls.filter(x=>x.record_date===t).length>0;}},
+  {id:'inspiration',name:'记录1个灵感',  exp:10, check:async()=>{const is=await dbAll('inspirations');const t=localDate();return is.filter(x=>(x.created_at||'').slice(0,10)===t).length>0;}},
+  {id:'checkin',    name:'学习打卡',     exp:20, check:async()=>{const cs=await dbAll('checkins');const t=localDate();return cs.filter(x=>x.checkin_date===t).length>0;}},
+  {id:'review',     name:'完成每日复盘', exp:25, check:async()=>{const rs=await dbAll('reviews');const t=localDate();return rs.filter(x=>x.review_date===t).length>0;}},
+];
+
+// 游戏化状态
+let gameData = { exp:0, totalExp:0, level:1, lastQuestDate:'' };
+let questStates = {}; // {questId: true/false}
+
+// 获取当前等级信息
+function getLevelInfo(exp){
+  let cur = LEVELS[0], next = null;
+  for(let i=0;i<LEVELS.length;i++){
+    if(exp >= LEVELS[i].exp){
+      cur = LEVELS[i];
+      next = LEVELS[i+1] || null;
+    }
+  }
+  const curBase = cur.exp;
+  const nextBase = next ? next.exp : cur.exp;
+  const progress = next ? Math.min(100, (exp - curBase) / (nextBase - curBase) * 100) : 100;
+  const expInLevel = exp - curBase;
+  const expForNext = next ? (nextBase - curBase) : 0;
+  return { cur, next, progress, expInLevel, expForNext, isMax:!next };
+}
+
+// 加载游戏化数据
+async function loadGamification(){
+  const saved = await metaGet('gameData');
+  if(saved) gameData = Object.assign(gameData, saved);
+  const savedQuests = await metaGet('questStates');
+  // 每日重置任务状态
+  const today = localDate();
+  if(!savedQuests || gameData.lastQuestDate !== today){
+    questStates = {};
+    gameData.lastQuestDate = today;
+    await metaSet('questStates', questStates);
+    await metaSet('gameData', gameData);
+  }else{
+    questStates = savedQuests || {};
+  }
+  renderGamification();
+  await checkDailyQuests();
+}
+
+// 渲染游戏化 UI
+function renderGamification(){
+  const info = getLevelInfo(gameData.exp);
+  // 侧边栏
+  $('#levelBadge').textContent = info.cur.lv;
+  $('#levelName').textContent = info.cur.name;
+  $('#expBarMini').style.width = info.progress + '%';
+  $('#expTextMini').textContent = info.isMax ? 'MAX' : `${info.expInLevel}/${info.expForNext}`;
+  // 概览卡片
+  $('#ovExpLevel').textContent = `Lv.${info.cur.lv}`;
+  $('#ovExpName').textContent = info.cur.name;
+  $('#ovExpBar').style.width = info.progress + '%';
+}
+
+// 添加经验值
+async function addExp(amount, reason){
+  const oldLevel = getLevelInfo(gameData.exp).cur.lv;
+  gameData.exp += amount;
+  gameData.totalExp += amount;
+  const newLevel = getLevelInfo(gameData.exp).cur;
+  await metaSet('gameData', gameData);
+  // 显示经验通知
+  showExpNotification(amount, reason);
+  // 检查升级
+  if(newLevel.lv > oldLevel){
+    setTimeout(()=>showLevelUp(newLevel), 600);
+  }
+  renderGamification();
+  await checkDailyQuests();
+}
+
+// 经验浮动通知
+function showExpNotification(amount, reason){
+  const notif = $('#expNotification');
+  $('#expAmount').textContent = `+${amount}`;
+  $('#expReason').textContent = reason || '经验值';
+  notif.classList.remove('show','levelup');
+  void notif.offsetWidth; // 重置动画
+  notif.classList.add('show');
+  clearTimeout(notif._timer);
+  notif._timer = setTimeout(()=>notif.classList.remove('show'), 2000);
+}
+
+// 等级升级特效
+function showLevelUp(level){
+  const overlay = $('#levelupOverlay');
+  $('#levelupLevel').textContent = `Lv.${level.lv}`;
+  $('#levelupName').textContent = level.name;
+  $('#levelupDesc').textContent = level.desc;
+  overlay.classList.add('show');
+  setTimeout(()=>overlay.classList.remove('show'), 2800);
+}
+
+// 检查每日任务完成状态
+async function checkDailyQuests(){
+  const questList = $('#questList');
+  if(!questList) return;
+  let doneCount = 0;
+  const items = [];
+  for(const q of DAILY_QUESTS){
+    const wasDone = questStates[q.id] || false;
+    const isDone = await q.check();
+    // 如果刚刚完成（之前未完成，现在完成），发放经验
+    if(!wasDone && isDone){
+      questStates[q.id] = true;
+      await metaSet('questStates', questStates);
+      // 任务完成经验（只发一次）
+      addExp(q.exp, `任务: ${q.name}`);
+    }else if(wasDone){
+      // 保持已完成状态
+    }
+    if(isDone) doneCount++;
+    items.push({ ...q, done:isDone });
+  }
+  $('#questsProgress').textContent = `${doneCount}/${DAILY_QUESTS.length}`;
+  questList.innerHTML = items.map(q=>`
+    <div class="quest-item ${q.done?'done':''}">
+      <div class="quest-check">
+        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <div class="quest-info"><div class="quest-name">${q.name}</div></div>
+      <div class="quest-exp">+${q.exp} EXP</div>
+    </div>
+  `).join('');
 }
 
 // ============================================================
@@ -1464,6 +1814,7 @@ async function toggleTodo(id){
     t.done_at = t.done ? new Date().toISOString() : null;
     await dbPut('todos',t);
     loadTodos(); loadOverview(); autoBackup();
+    if(t.done) addExp(10, '完成待办');
   }catch(e){toast('操作失败')}
 }
 
@@ -2020,10 +2371,13 @@ async function saveReview(){
       existing.improvement = data.improvement;
       existing.mood = data.mood;
       await dbPut('reviews', existing);
+      toast('复盘已保存');
     }else{
       await dbAdd('reviews', data);
+      toast('复盘已保存');
+      addExp(20, '完成复盘');
     }
-    toast('复盘已保存'); loadReviews(); loadOverview(); autoBackup();
+    loadReviews(); loadOverview(); autoBackup();
   }catch(e){toast('保存失败');console.error(e)}
 }
 
@@ -2098,6 +2452,7 @@ async function submitTodo(id){
     }else{
       await dbAdd('todos',{title,category,priority,due_date,remind_time,done:false,created_at:new Date().toISOString()});
       toast('已添加');
+      addExp(5, '新建待办');
     }
     closeModal(); loadTodos(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
@@ -2172,6 +2527,7 @@ async function submitLedger(id){
     }else{
       await dbAdd('ledger',{type,amount,category,note,record_date,created_at:new Date().toISOString()});
       toast('已记录');
+      addExp(8, '记账');
     }
     closeModal(); loadLedger(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
@@ -2209,6 +2565,7 @@ async function submitInsp(id){
     }else{
       await dbAdd('inspirations',{content,tag,created_at:new Date().toISOString()});
       toast('已记录');
+      addExp(8, '记录灵感');
     }
     closeModal(); loadInspirations(); loadOverview(); autoBackup();
   }catch(e){toast('操作失败');console.error(e)}
@@ -2292,6 +2649,7 @@ async function submitCheckin(planId){
   try{
     await dbAdd('checkins',{plan_id:planId,hours,note,checkin_date:localDate(),created_at:new Date().toISOString()});
     toast('打卡成功'); closeModal(); loadPlans(); loadOverview(); autoBackup();
+    addExp(15, '学习打卡');
   }catch(e){toast('打卡失败');console.error(e)}
 }
 
@@ -2315,8 +2673,9 @@ async function autoBackup(){
       plans: await dbAll('plans'),
       checkins: await dbAll('checkins'),
       reviews: await dbAll('reviews'),
+      meta: await dbAll('meta'),
       autoBackupDate: new Date().toISOString(),
-      version: '1.0'
+      version: '1.1'
     };
     localStorage.setItem(AUTO_BACKUP_KEY, JSON.stringify(data));
   }catch(e){console.warn('自动备份失败:',e)}
@@ -2334,12 +2693,14 @@ async function restoreFromAutoBackup(){
     // 清空所有表
     await dbClear('todos'); await dbClear('ledger'); await dbClear('inspirations');
     await dbClear('plans'); await dbClear('checkins'); await dbClear('reviews');
+    await dbClear('meta');
     if(data.todos) for(const t of data.todos) await dbAdd('todos',t);
     if(data.ledger) for(const l of data.ledger) await dbAdd('ledger',l);
     if(data.inspirations) for(const i of data.inspirations) await dbAdd('inspirations',i);
     if(data.plans) for(const p of data.plans) await dbAdd('plans',p);
     if(data.checkins) for(const c of data.checkins) await dbAdd('checkins',c);
     if(data.reviews) for(const r of data.reviews) await dbAdd('reviews',r);
+    if(data.meta) for(const m of data.meta) await dbPut('meta',m);
     return true;
   }catch(e){console.error('恢复自动备份失败:',e); return false}
 }
@@ -2652,8 +3013,9 @@ async function exportData(){
       plans: await dbAll('plans'),
       checkins: await dbAll('checkins'),
       reviews: await dbAll('reviews'),
+      meta: await dbAll('meta'),
       exportDate: new Date().toISOString(),
-      version: '1.0'
+      version: '1.1'
     };
     const blob = new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
     const url = URL.createObjectURL(blob);
@@ -2686,6 +3048,7 @@ async function importData(event){
     await dbClear('plans');
     await dbClear('checkins');
     await dbClear('reviews');
+    await dbClear('meta');
     // 导入数据
     if(data.todos) for(const t of data.todos) await dbAdd('todos',t);
     if(data.ledger) for(const l of data.ledger) await dbAdd('ledger',l);
@@ -2693,6 +3056,7 @@ async function importData(event){
     if(data.plans) for(const p of data.plans) await dbAdd('plans',p);
     if(data.checkins) for(const c of data.checkins) await dbAdd('checkins',c);
     if(data.reviews) for(const r of data.reviews) await dbAdd('reviews',r);
+    if(data.meta) for(const m of data.meta) await dbPut('meta',m);
     localStorage.setItem(BACKUP_KEY, String(Date.now()));
     await autoBackup();
     toast('导入成功');
@@ -2700,6 +3064,7 @@ async function importData(event){
     loadReviews();
     loadTodos();
     loadLedger();
+    loadGamification();
   }catch(e){
     toast('导入失败：文件格式错误');
     console.error(e);
@@ -2883,6 +3248,7 @@ window.addEventListener('beforeinstallprompt', e=>{
   loadOverview();
   loadTodos();
   loadSearchData();
+  loadGamification();
   // 数据变动后自动备份
   setInterval(autoBackup, 60000);
   setInterval(loadSearchData, 120000); // 每2分钟刷新搜索索引
