@@ -834,25 +834,7 @@ a{color:inherit;text-decoration:none}
 /* ============================================================
    响应式 — 移动优先
    ============================================================ */
-@media(max-width:768px){
-  :root{--sidebar-w:64px}
-  .overview{grid-template-columns:repeat(2,1fr);gap:10px;padding:0 16px 10px}
-  .ov-card:last-child{grid-column:1/-1}
-  .topbar{padding:calc(18px + var(--safe-top)) 16px 14px}
-  .content{padding:10px 16px calc(110px + var(--safe-bottom))}
-  .topbar-titles h1{font-size:22px}
-  .ov-card .value{font-size:22px}
-  .ov-card{padding:16px}
-  .todo-actions,.plan-actions{opacity:1}
-  .fab{right:16px;bottom:calc(88px + var(--safe-bottom))}
-  .modal{margin:0;max-width:100%;border-radius:20px}
-  .review-form-card{padding:18px}
-  .plan-stats{gap:20px}
-  /* 移动端底部 Tab 栏 */
-  .sidebar{display:none}
-  .main-area{height:100vh}
-  .bottom-tabs{display:flex}
-}
+/* 移动端底部 Tab 栏（基础规则必须先定义，媒体查询中的 display:flex 才能覆盖） */
 .bottom-tabs{
   display:none;
   position:fixed;left:0;right:0;bottom:0;z-index:150;
@@ -871,6 +853,25 @@ a{color:inherit;text-decoration:none}
 }
 .bottom-tab svg{width:22px;height:22px;stroke-width:1.8}
 .bottom-tab.active{color:#A5B4FC;background:rgba(99,91,255,.15)}
+@media(max-width:768px){
+  :root{--sidebar-w:64px}
+  .overview{grid-template-columns:repeat(2,1fr);gap:10px;padding:0 16px 10px}
+  .ov-card:last-child{grid-column:1/-1}
+  .topbar{padding:calc(18px + var(--safe-top)) 16px 14px}
+  .content{padding:10px 16px calc(110px + var(--safe-bottom))}
+  .topbar-titles h1{font-size:22px}
+  .ov-card .value{font-size:22px}
+  .ov-card{padding:16px}
+  .todo-actions,.plan-actions{opacity:1}
+  .fab{right:16px;bottom:calc(88px + var(--safe-bottom))}
+  .modal{margin:0;max-width:100%;border-radius:20px}
+  .review-form-card{padding:18px}
+  .plan-stats{gap:20px}
+  /* 移动端：隐藏侧边栏，显示底部 Tab 栏 */
+  .sidebar{display:none}
+  .main-area{height:100vh}
+  .bottom-tabs{display:flex}
+}
 @media(max-width:480px){
   .sidebar:hover{width:var(--sidebar-w)}
   .sidebar:hover .nav-item .nav-label{opacity:0}
@@ -1287,6 +1288,14 @@ a{color:inherit;text-decoration:none}
     <div class="topbar-titles">
       <h1 id="hdrTitle">今日待办</h1>
       <div class="date" id="hdrDate"></div>
+    </div>
+    <!-- 移动端头像+等级（桌面端隐藏） -->
+    <div class="topbar-user" id="topbarUser" style="display:none;align-items:center;gap:10px;flex-shrink:0">
+      <div class="level-badge" id="mLevelBadge" style="width:34px;height:34px;font-size:13px">1</div>
+      <div style="text-align:left">
+        <div style="font-size:12px;font-weight:700;color:var(--text)" id="mLevelName">觉醒者</div>
+        <div style="font-size:10px;color:var(--text-3)" id="mLevelHint"></div>
+      </div>
     </div>
   </div>
 
@@ -2044,6 +2053,15 @@ function renderGamification(){
   $('#ovExpLevel').textContent = `Lv.${info.cur.lv}`;
   $('#ovExpName').textContent = info.cur.name;
   $('#ovExpBar').style.width = info.progress + '%';
+  // 移动端顶栏等级
+  const mBadge = $('#mLevelBadge');
+  if(mBadge){
+    mBadge.textContent = info.cur.lv;
+    $('#mLevelName').textContent = info.cur.name;
+    const nextUnlock = getNextUnlock(gameData.exp);
+    $('#mLevelHint').textContent = nextUnlock ? `下一解锁 ${nextUnlock.name}` : '全部解锁 ✨';
+    $('#topbarUser').style.display = 'flex';
+  }
   // 等级解锁提示（侧边栏下方小字）
   const nextUnlock = getNextUnlock(gameData.exp);
   const unlockHint = $('#levelUnlockHint');
