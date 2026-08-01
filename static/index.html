@@ -197,6 +197,15 @@ a{color:inherit;text-decoration:none}
   width:100%;padding:12px 14px;flex:1;overflow-y:auto;
 }
 .sidebar-nav::-webkit-scrollbar{width:0}
+.nav-group-title{
+  font-size:10px;font-weight:700;letter-spacing:1.5px;
+  color:rgba(255,255,255,.3);
+  padding:10px 14px 2px;
+  white-space:nowrap;
+  opacity:0;transition:opacity .3s;
+}
+.sidebar:hover .nav-group-title,
+.sidebar.drawer-open .nav-group-title{opacity:1}
 
 .nav-item{
   display:flex;align-items:center;gap:14px;
@@ -1359,10 +1368,12 @@ a{color:inherit;text-decoration:none}
   </div>
   <!-- 导航区 -->
   <nav class="sidebar-nav">
+    <div class="nav-group-title">智能</div>
     <button class="nav-item active" data-tab="lan" title="Lan智能体">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17h8v-2.3c1.8-1.2 3-3.3 3-5.7a7 7 0 0 0-7-7z"/><path d="M9 12h6M10 9h.01M14 9h.01"/><path d="M9 21h6"/></svg>
       <span class="nav-label">Lan智能体</span>
     </button>
+    <div class="nav-group-title">日常</div>
     <button class="nav-item" data-tab="today" title="今日">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
       <span class="nav-label">今日</span>
@@ -1375,14 +1386,7 @@ a{color:inherit;text-decoration:none}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 6-6"/></svg>
       <span class="nav-label">记账</span>
     </button>
-    <button class="nav-item" data-tab="news" title="资讯">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6z"/></svg>
-      <span class="nav-label">资讯</span>
-    </button>
-    <button class="nav-item" data-tab="inspirations" title="灵感">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V18h6v-1.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>
-      <span class="nav-label">灵感</span>
-    </button>
+    <div class="nav-group-title">成长</div>
     <button class="nav-item" data-tab="study" title="学习">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
       <span class="nav-label">学习</span>
@@ -1391,13 +1395,23 @@ a{color:inherit;text-decoration:none}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.7 9.7 0 0 0-6.3 2.4L3 8"/><path d="M3 3v5h5M12 7v5l4 2"/></svg>
       <span class="nav-label">复盘</span>
     </button>
-    <button class="nav-item" data-tab="search" title="搜索">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-      <span class="nav-label">搜索</span>
-    </button>
     <button class="nav-item" data-tab="badges" title="成就">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
       <span class="nav-label">成就</span>
+    </button>
+    <div class="nav-group-title">记录</div>
+    <button class="nav-item" data-tab="news" title="资讯">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6z"/></svg>
+      <span class="nav-label">资讯</span>
+    </button>
+    <button class="nav-item" data-tab="inspirations" title="灵感">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V18h6v-1.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>
+      <span class="nav-label">灵感</span>
+    </button>
+    <div class="nav-group-title">工具</div>
+    <button class="nav-item" data-tab="search" title="搜索">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <span class="nav-label">搜索</span>
     </button>
     <button class="nav-item" data-tab="data" title="数据">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
@@ -2366,22 +2380,38 @@ function closeDrawer(){
 }
 // 左边缘右滑 → 打开抽屉（移动端手势）
 let touchStartX = 0;
+let touchStartY = 0;
 document.addEventListener('touchstart', e=>{
   touchStartX = e.touches[0].clientX;
+  touchStartY = e.touches[0].clientY;
 }, {passive:true});
 document.addEventListener('touchend', e=>{
   const dx = e.changedTouches[0].clientX - touchStartX;
+  const dy = e.changedTouches[0].clientY - touchStartY;
   const sb = $('.sidebar');
+  // 点击的是导航按钮/可交互元素时不处理手势，避免吞掉点击
+  const t = e.target;
+  if(t && (t.closest('.nav-item') || t.closest('button') || t.closest('a') || t.closest('input'))) return;
+  // 只在水平滑动明显时触发（避免轻微抖动误判）
+  if(Math.abs(dx) < Math.abs(dy) || Math.abs(dx) < 40) return;
   if(dx > 60 && touchStartX < 20 && !sb.classList.contains('drawer-open')){
     openDrawer();
   }else if(dx < -60 && sb.classList.contains('drawer-open')){
     closeDrawer();
   }
 }, {passive:true});
-$$('.nav-item').forEach(t=>t.addEventListener('click',()=>switchTab(t.dataset.tab)));
+
+// 导航项用 pointerdown 立即响应（消除 iOS 双击/延迟问题）
+$$('.nav-item').forEach(t=>{
+  t.addEventListener('pointerdown', e=>{
+    if(e.target.closest('.nav-item') && t.dataset.tab){
+      switchTab(t.dataset.tab);
+    }
+  });
+});
 
 // 全局快捷键（桌面端）：1-9 切模块 / N 新建 / / 搜索 / Esc 关弹窗
-const TAB_KEYS = ['today','todos','ledger','news','inspirations','study','review','search','badges'];
+const TAB_KEYS = ['lan','today','todos','ledger','news','inspirations','study','review','search','badges'];
 document.addEventListener('keydown', e=>{
   // 输入框内不触发
   if(e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) {
