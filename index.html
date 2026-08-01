@@ -113,10 +113,11 @@ html[data-theme="dark"] .levelup-card{background:rgba(5,13,26,.95)}
 
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%;overflow:hidden}
-/* iOS Safari：100vh 不随地址栏收起更新，用 100dvh 动态视口消除底部空白 */
+/* iOS Safari：100vh 不随地址栏收起更新，用 100dvh 动态视口 + JS --vh 双兜底消除底部空白 */
 @supports (height:100dvh){
   html,body{height:100dvh}
 }
+html,body{height:calc(var(--vh, 1vh) * 100)}
 body{
   font-family:"Inter",-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
   background:var(--bg);
@@ -240,8 +241,9 @@ a{color:inherit;text-decoration:none}
   flex:1;
   display:flex;flex-direction:column;
   min-width:0;
-  height:100vh;
-  height:100dvh;
+  min-height:100vh;
+  min-height:100dvh;
+  min-height:calc(var(--vh, 1vh) * 100);
   position:relative;
   z-index:1;
 }
@@ -933,7 +935,7 @@ a{color:inherit;text-decoration:none}
     transition:opacity .3s;
   }
   .sidebar-backdrop.show{opacity:1;pointer-events:auto}
-  .main-area{height:100vh;height:100dvh}
+  .main-area{min-height:100vh;min-height:100dvh;min-height:calc(var(--vh, 1vh) * 100)}
 }
 @media(max-width:480px){
   .sidebar:hover{width:var(--sidebar-w)}
@@ -4789,6 +4791,14 @@ function registerSW(){
 // 初始化
 // ============================================================
 (async function init(){
+  // iOS Safari 视口高度修复：window.innerHeight 才是真实可视高度
+  const setViewport = ()=>{
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', vh + 'px');
+  };
+  setViewport();
+  window.addEventListener('resize', setViewport);
+  window.addEventListener('orientationchange', setViewport);
   await openDB();
   initTheme();
   $('#hdrDate').textContent = fmtFullDate();
