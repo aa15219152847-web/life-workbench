@@ -1550,6 +1550,7 @@ a{color:inherit;text-decoration:none}
       <div class="news-tabs">
         <button class="news-tab active" data-news="ai">AI 热点</button>
         <button class="news-tab" data-news="finance">财经资讯</button>
+        <span id="newsUpdated" style="margin-left:auto;align-self:center;font-size:11px;color:var(--text-4)"></span>
       </div>
       <div id="newsList"></div>
     </section>
@@ -2893,17 +2894,40 @@ async function loadNews(cat){
   const list = $('#newsList');
   list.innerHTML = '<div class="loading"><div class="spinner"></div>加载中</div>';
   try{
-    const feeds = RSS_FEEDS[cat]||RSS_FEEDS.ai;
-    const allItems = [];
-    for(const url of feeds){
-      try{
-        const items = await fetchRSS(url);
-        allItems.push(...items);
-      }catch(e){ console.error('RSS fetch error:',url,e); }
+    // 优先读取 GitHub Actions 生成的精准资讯 news.json（同源，无 CORS 问题）
+    let items = [];
+    let fetchedFrom = 'json';
+    try{
+      const res = await fetch('news.json?v=' + Date.now(), {cache:'no-store'});
+      if(res.ok){
+        const data = await res.json();
+        items = (data[cat] || data.ai || []);
+        const updated = data.updated_at || '';
+        const hdr = $('.section-header');
+        if(updated && hdr){
+          const existing = $('#newsUpdated');
+          if(existing) existing.textContent = `更新于 ${updated}`;
+        }
+      }
+    }catch(e){ items = []; }
+
+    // news.json 不可用 → 回退 RSS
+    if(!items.length){
+      fetchedFrom = 'rss';
+      const feeds = RSS_FEEDS[cat]||RSS_FEEDS.ai;
+      const allItems = [];
+      for(const url of feeds){
+        try{
+          const rssItems = await fetchRSS(url);
+          allItems.push(...rssItems);
+        }catch(e){ console.error('RSS fetch error:',url,e); }
+      }
+      items = allItems;
     }
+
     // 去重、排序
     const seen = new Set();
-    const unique = allItems.filter(i=>{
+    const unique = items.filter(i=>{
       if(seen.has(i.title)) return false;
       seen.add(i.title);
       return true;
