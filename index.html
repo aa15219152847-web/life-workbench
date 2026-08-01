@@ -945,6 +945,50 @@ a{color:inherit;text-decoration:none}
 }
 
 /* ============================================================
+   Lan 智能体 — 对话界面
+   ============================================================ */
+.lan-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.lan-chat{
+  display:flex;flex-direction:column;gap:12px;
+  min-height:380px;max-height:56vh;overflow-y:auto;
+  padding:6px 2px 10px;
+}
+.lan-msg{display:flex;flex-direction:column;max-width:88%}
+.lan-msg.lan-ai{align-self:flex-start;align-items:flex-start}
+.lan-msg.lan-me{align-self:flex-end;align-items:flex-end}
+.lan-bubble{
+  padding:12px 16px;border-radius:16px;font-size:14px;line-height:1.65;
+  background:rgba(255,255,255,.72);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,.6);
+  box-shadow:0 2px 12px rgba(10,37,64,.06);
+  color:var(--text);
+  word-break:break-word;
+}
+.lan-msg.lan-me .lan-bubble{
+  background:var(--primary-grad);color:#fff;border:none;
+  border-bottom-right-radius:6px;
+}
+.lan-msg.lan-ai .lan-bubble{border-bottom-left-radius:6px}
+.lan-msg .lan-time{font-size:10.5px;color:var(--text-4);margin:4px 6px}
+.lan-msg.lan-me .lan-time{align-self:flex-end}
+.lan-input-row{display:flex;gap:10px;align-items:center;margin-top:6px}
+.lan-input-row .form-input{flex:1}
+.lan-typing .lan-bubble::after{
+  content:'...';animation:lanDot 1.2s infinite;
+}
+@keyframes lanDot{0%,20%{content:''}40%{content:'.'}60%{content:'..'}80%,100%{content:'...'}}
+.lan-act{
+  margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;
+}
+.lan-act button{
+  font-size:12px;font-weight:600;padding:7px 14px;border-radius:10px;
+  background:var(--primary-glow);color:var(--primary);
+  border:1px solid rgba(99,91,255,.18);
+}
+
+/* ============================================================
    游戏化系统 — EXP / 等级 / 每日任务 / 即时奖励
    ============================================================ */
 
@@ -1315,7 +1359,11 @@ a{color:inherit;text-decoration:none}
   </div>
   <!-- 导航区 -->
   <nav class="sidebar-nav">
-    <button class="nav-item active" data-tab="today" title="今日">
+    <button class="nav-item active" data-tab="lan" title="Lan智能体">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17h8v-2.3c1.8-1.2 3-3.3 3-5.7a7 7 0 0 0-7-7z"/><path d="M9 12h6M10 9h.01M14 9h.01"/><path d="M9 21h6"/></svg>
+      <span class="nav-label">Lan智能体</span>
+    </button>
+    <button class="nav-item" data-tab="today" title="今日">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
       <span class="nav-label">今日</span>
     </button>
@@ -1431,8 +1479,35 @@ a{color:inherit;text-decoration:none}
   </div>
   <div class="content">
 
+    <!-- Lan 智能体 -->
+    <section class="section active" id="sec-lan">
+      <div class="section-header">
+        <div class="section-title">Lan 智能体</div>
+        <div class="section-count" id="lanModelCount">思维教练</div>
+      </div>
+      <!-- 快捷指令 -->
+      <div class="lan-chips" id="lanChips">
+        <button class="chip" onclick="lanQuickAsk('帮我分析一下本周状态')">分析本周</button>
+        <button class="chip" onclick="lanQuickAsk('帮我扩散一个想法')">扩散想法</button>
+        <button class="chip" onclick="lanQuickAsk('给我今日行动建议')">今日建议</button>
+        <button class="chip" onclick="lanQuickAsk('帮我做今日复盘')">复盘教练</button>
+      </div>
+      <!-- 对话区 -->
+      <div class="lan-chat" id="lanChat">
+        <div class="lan-msg lan-ai">
+          <div class="lan-bubble">你好，我是 <b>Lan</b> —— 你的思维教练 🤖<br><br>我读得懂你的待办、记账、复盘和灵感，能从 30+ 大师思维模型中挑出最适合你的，帮你想清楚、做到位。<br><br><span style="color:var(--text-4)">试试上面的快捷指令，或直接问我任何问题。</span></div>
+        </div>
+      </div>
+      <!-- 输入区 -->
+      <div class="lan-input-row">
+        <input class="form-input" id="lanInput" placeholder="问 Lan 任何问题..." onkeydown="if(event.key==='Enter')lanSend()">
+        <button class="btn-primary" id="lanSendBtn" onclick="lanSend()" style="width:auto;padding:0 22px;margin:0;flex-shrink:0;border-radius:14px">发送</button>
+      </div>
+      <div class="note" style="margin-top:8px;text-align:center" id="lanApiHint">尚未配置 AI Key · <a href="javascript:openLanSettings()" style="color:var(--primary)">点击配置</a></div>
+    </section>
+
     <!-- 今日 -->
-    <section class="section active" id="sec-today">
+    <section class="section" id="sec-today">
       <div class="section-header">
         <div class="section-title">今日概览</div>
         <div class="section-count" id="todayDate"></div>
@@ -1867,7 +1942,7 @@ let allReviewHistory = [];
 let reviewSearchTimer = null;
 
 const TAB_TITLES = {
-  today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
+  lan:'Lan 智能体', today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
   inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理'
 };
 
@@ -2325,7 +2400,8 @@ document.addEventListener('keydown', e=>{
 });
 
 function loadTabData(tab){
-  if(tab==='today') loadToday();
+  if(tab==='lan') initLan();
+  else if(tab==='today') loadToday();
   else if(tab==='todos') loadTodos();
   else if(tab==='ledger') { loadLedger(); loadDreamJars(); }
   else if(tab==='news') loadNews(currentNewsCat);
@@ -2470,6 +2546,254 @@ async function loadToday(){
         <div style="text-align:center;padding:8px;color:var(--text-3);font-size:12px">今天共 ${todayLedger.length} 笔 · <a href="javascript:switchTab('ledger')" style="color:var(--primary);font-weight:600">查看明细</a></div>`;
     }
   }catch(e){console.error(e)}
+}
+
+// ============================================================
+// Lan 智能体 — 思维模型库 + DeepSeek 对话引擎
+// ============================================================
+const LAN_MODELS = [
+  {src:'芒格', name:'逆向思维', one:'反过来想，总是反过来想', scene:['决策','目标','风险'], quote:'"如果我知道我会死在哪里，我就永远不去那里。"', action:'列出想避免的结果，然后反向设计行动'},
+  {src:'芒格', name:'能力圈', one:'只做自己真正懂的事', scene:['选择','投资','项目'], quote:'"承认无知是智慧的开始。"', action:'写下你真正懂的 3 件事，把精力集中在圈内'},
+  {src:'芒格', name:'多元思维模型', one:'用多个学科视角看同一个问题', scene:['决策','分析','复盘'], quote:'"手里拿着锤子，看什么都像钉子。"', action:'同一个问题，用 3 个不同角度各写一条看法'},
+  {src:'纳瓦尔', name:'杠杆', one:'用代码/媒体/资本放大努力', scene:['成长','副业','职业'], quote:'"财富是睡觉时也能为你赚钱的资产。"', action:'判断当前努力是否可复制、可积累、可放大'},
+  {src:'纳瓦尔', name:'专长', one:'做只有你能做的事', scene:['定位','副业','技能'], quote:'"专长无法培训，只能自我发现。"', action:'写下别人无法轻易替代你的能力点'},
+  {src:'纳瓦尔', name:'判断力', one:'数量>速度，一次想清楚胜过十次试错', scene:['决策','计划'], quote:'"如果难以抉择，答案就是否定的。"', action:'重要决策先睡一晚，第二天再定'},
+  {src:'达利欧', name:'痛苦+反思=进步', one:'把挫折当信号，而非失败', scene:['复盘','挫折','情绪'], quote:'"痛苦是进化的提示音。"', action:'每次受挫后写一条"这次教会了我什么"'},
+  {src:'达利欧', name:'原则化', one:'把经验提炼成可复用原则', scene:['复盘','成长'], quote:'"痛苦+反思=进步。"', action:'从本周经历中提炼 1 条自己的原则'},
+  {src:'曾国藩', name:'结硬寨打呆仗', one:'用笨办法建立持久优势', scene:['执行','计划','习惯'], quote:'"天下之至拙，能胜天下之至巧。"', action:'把目标拆成最小每日动作，坚持不中断'},
+  {src:'曾国藩', name:'日课', one:'每日固定功课，持续精进', scene:['习惯','自律'], quote:'"日拱一卒，功不唐捐。"', action:'设定每天雷打不动的 1 小时日课'},
+  {src:'曾国藩', name:'尚拙', one:'不投机，肯下笨功夫', scene:['学习','执行'], quote:'"唯天下之至诚能胜天下之至伪。"', action:'挑一件值得的事，用最笨的方式做 30 天'},
+  {src:'巴菲特', name:'复利', one:'让时间成为杠杆', scene:['投资','学习','习惯'], quote:'"人生就像滚雪球，重要的是找到很湿的雪和很长的坡。"', action:'选择可长期积累的事，现在就启动'},
+  {src:'《原子习惯》', name:'身份认同', one:'先成为，再行动', scene:['习惯','改变'], quote:'"目标不是读一本书，而是成为读者。"', action:'用"我是___的人"开头定义新身份'},
+  {src:'《原子习惯》', name:'两分钟规则', one:'新习惯 2 分钟内完成', scene:['习惯','启动'], quote:'"你并没有上升到目标水平，你会下滑到体系水平。"', action:'把新习惯缩小到 2 分钟内可完成'},
+  {src:'《原子习惯》', name:'环境设计', one:'改变环境比改变意志力容易', scene:['习惯','拖延'], quote:'"环境是行为的无声设计者。"', action:'让好习惯的提示显而易见，坏习惯的提示不可见'},
+  {src:'《认知觉醒》', name:'舒适区边缘', one:'难度刚好够得着才成长', scene:['学习','目标'], quote:'"成长是舒适区边缘的刻意练习。"', action:'把目标难度调到"略吃力但能做到"'},
+  {src:'《认知觉醒》', name:'元认知', one:'用上帝视角审视自己', scene:['复盘','情绪'], quote:'"元认知是人类的终极能力。"', action:'情绪波动时，暂停并问"我为什么会有这个反应"'},
+  {src:'《认知觉醒》', name:'触动学习法', one:'只学能触动你的，然后实践', scene:['学习','读书'], quote:'"知识只有能改变行为，才真正属于你。"', action:'读完书只挑 1 个触动点，24 小时内实践'},
+  {src:'《深度工作》', name:'深度时段', one:'每天 1-2 小时无打扰专注', scene:['工作','效率'], quote:'"深度工作是稀缺且价值极高的。"', action:'每天固定 90 分钟，手机静音深度工作'},
+  {src:'《吃掉那只青蛙》', name:'先吃青蛙', one:'先做最难的那件事', scene:['待办','效率'], quote:'"如果你必须吃两只青蛙，先吃最丑的那只。"', action:'把今天最难的事排在上午第一项'},
+  {src:'《掌控习惯》', name:'习惯叠加', one:'把新习惯接在旧习惯后面', scene:['习惯','自律'], quote:'"习惯叠加：在[旧习惯]之后，我会[新习惯]。"', action:'选定一个已有习惯，把新习惯叠加其后'},
+  {src:'《小狗钱钱》', name:'梦想清单', one:'把愿望具体化并可视化', scene:['目标','理财'], quote:'"你必须自己想象得到，才有可能实现。"', action:'写下 3 个具体梦想，配图存起来每天看'},
+  {src:'《小狗钱钱》', name:'72小时法则', one:'想法 72 小时内行动', scene:['行动','拖延'], quote:'"当你决定做一件事时，必须在72小时内开始。"', action:'新想法 72 小时内迈出第一步'},
+  {src:'《被讨厌的勇气》', name:'课题分离', one:'分清谁的课题，不管别人课题', scene:['情绪','关系'], quote:'"在意你脸的只有你自己。"', action:'遇到困扰时问"这是谁的课题？只管自己的'},
+  {src:'《心流》', name:'心流条件', one:'明确目标+即时反馈+难度匹配', scene:['工作','专注'], quote:'"最优体验是目标清晰、反馈即时的时刻。"', action:'给当前任务设明确目标和检查点'},
+  {src:'《要事第一》', name:'四象限', one:'按重要紧急排优先级', scene:['待办','规划'], quote:'"重要不紧急的事，才是改变人生的。"', action:'把待办按四象限分类，先做重要不紧急'},
+  {src:'《刻意练习》', name:'反馈循环', one:'练习+即时反馈+修正', scene:['学习','技能'], quote:'"没有反馈的重复是无效的。"', action:'每次练习后记录偏差，下次修正'},
+  {src:'《非暴力沟通》', name:'观察-感受-需要-请求', one:'用四步表达代替指责', scene:['沟通','关系'], quote:'"不带评论的观察是人类智力的最高形式。"', action:'冲突时用四步句式重新表达一次'},
+  {src:'《原则》', name:'极度求真', one:'诚实面对事实和错误', scene:['复盘','决策'], quote:'"真相是最好的礼物。"', action:'复盘时先写事实，再写感受'},
+  {src:'《金钱心理学》', name:'存钱是财富第一步', one:'财富=收入-欲望', scene:['理财','记账'], quote:'"存钱是金钱心理学中最重要的能力。"', action:'每月先存再花，记账检查欲望支出'},
+];
+const LAN_KEY_STORE = 'lan_api_key';
+let lanHistory = [];
+let lanTyping = false;
+
+function lanAppend(role, text, actions){
+  const chat = $('#lanChat');
+  const wrap = document.createElement('div');
+  wrap.className = 'lan-msg ' + (role==='me' ? 'lan-me' : 'lan-ai');
+  const t = new Date();
+  const ts = String(t.getHours()).padStart(2,'0')+':'+String(t.getMinutes()).padStart(2,'0');
+  let actHtml = '';
+  if(actions && actions.length){
+    actHtml = '<div class="lan-act">' + actions.map(a=>
+      `<button onclick="lanAction('${a.type}','${a.label}','${a.desc.replace(/'/g,"\\'")}')">${a.label}</button>`
+    ).join('') + '</div>';
+  }
+  wrap.innerHTML = `<div class="lan-bubble">${text}</div>${actHtml}<div class="lan-time">${ts}</div>`;
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+  return wrap;
+}
+
+function lanTypingOn(){
+  const chat = $('#lanChat');
+  const wrap = document.createElement('div');
+  wrap.className = 'lan-msg lan-ai lan-typing';
+  wrap.id = 'lanTyping';
+  wrap.innerHTML = '<div class="lan-bubble">Lan 正在思考</div>';
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+  lanTyping = true;
+}
+function lanTypingOff(){
+  const el = $('#lanTyping');
+  if(el) el.remove();
+  lanTyping = false;
+}
+
+// 上下文注入：收集工作台真实数据摘要
+async function buildLanContext(){
+  const today = localDate();
+  const parts = [];
+  try{
+    const todos = await dbAll('todos');
+    const todayTodos = todos.filter(t=>t.due_date===today);
+    const undone = todayTodos.filter(t=>!t.done);
+    if(undone.length) parts.push('今日待办未完成: '+undone.slice(0,5).map(t=>t.title).join('、'));
+    const done = todayTodos.filter(t=>t.done);
+    if(done.length) parts.push('今日已完成: '+done.slice(0,3).map(t=>t.title).join('、'));
+    const ledger = await dbAll('ledger');
+    const m = today.slice(0,7);
+    const monthExpense = ledger.filter(l=>l.type==='expense'&&l.record_date&&l.record_date.slice(0,7)===m).reduce((s,l)=>s+l.amount,0);
+    if(monthExpense) parts.push('本月支出: ¥'+monthExpense.toFixed(0));
+    const checkins = await dbAll('checkins');
+    const streak = calcStreak(checkins);
+    if(streak>0) parts.push('连续打卡: '+streak+'天');
+    const reviews = await dbAll('reviews');
+    const todayReview = reviews.find(r=>r.review_date===today);
+    if(todayReview){
+      parts.push('今日复盘: ' + [todayReview.went_well,todayReview.went_wrong,todayReview.improvement].filter(Boolean).join(' / ').slice(0,120));
+    }
+  }catch(e){}
+  return parts.join('\n');
+}
+
+// 检索最匹配的思维模型
+function lanMatchModels(text){
+  const lower = text.toLowerCase();
+  const sceneHits = LAN_MODELS.filter(m=>m.scene.some(s=>lower.includes(s)));
+  const kwMap = {
+    '决策':'决策','选择':'选择','投资':'投资','目标':'目标','习惯':'习惯','自律':'自律','拖延':'拖延',
+    '复盘':'复盘','情绪':'情绪','挫折':'挫折','学习':'学习','读书':'读书','工作':'工作','效率':'效率',
+    '副业':'副业','成长':'成长','理财':'理财','记账':'记账','专注':'专注','沟通':'沟通','关系':'关系','计划':'计划'
+  };
+  let kw = '';
+  for(const k in kwMap){ if(lower.includes(k)){ kw = kwMap[k]; break; } }
+  if(sceneHits.length) return sceneHits.slice(0,3);
+  if(kw){
+    const kwHits = LAN_MODELS.filter(m=>m.scene.includes(kw));
+    if(kwHits.length) return kwHits.slice(0,3);
+  }
+  return LAN_MODELS.slice(0,3);
+}
+
+async function lanSend(){
+  const input = $('#lanInput');
+  const text = input.value.trim();
+  if(!text || lanTyping) return;
+  input.value = '';
+  lanAppend('me', escapeHtml(text));
+  lanHistory.push({role:'user', content:text});
+  lanTypingOn();
+  try{
+    const reply = await lanAsk(text);
+    lanTypingOff();
+    const models = lanMatchModels(text);
+    const modelBlock = models.length ? 
+      `<br><br><div style="border-top:1px dashed var(--border);padding-top:8px;margin-top:8px;font-size:12.5px;color:var(--text-3)"><b>🧠 适用思维模型：</b><br>` +
+      models.map(m=>`<b>${m.name}</b>（${m.src}）· ${m.one}<br><span style="color:var(--text-4)">行动：${m.action}</span>`).join('<br>') +
+      `</div>` : '';
+    const actions = [{type:'todo', label:'转今日待办', desc:reply.slice(0,80)}];
+    lanAppend('ai', reply + modelBlock, actions);
+    lanHistory.push({role:'assistant', content:reply});
+  }catch(e){
+    lanTypingOff();
+    lanAppend('ai', '⚠️ 出错了：'+e.message+'<br><br>请检查 AI Key 配置是否有效。', []);
+  }
+}
+
+function lanQuickAsk(text){
+  lanAppend('me', escapeHtml(text));
+  lanHistory.push({role:'user', content:text});
+  lanTypingOn();
+  lanAsk(text).then(reply=>{
+    lanTypingOff();
+    const models = lanMatchModels(text);
+    const modelBlock = models.length ?
+      `<br><br><div style="border-top:1px dashed var(--border);padding-top:8px;margin-top:8px;font-size:12.5px;color:var(--text-3)"><b>🧠 适用思维模型：</b><br>` +
+      models.map(m=>`<b>${m.name}</b>（${m.src}）· ${m.one}`).join('<br>') + `</div>` : '';
+    lanAppend('ai', reply + modelBlock, [{type:'todo', label:'转今日待办', desc:reply.slice(0,80)}]);
+    lanHistory.push({role:'assistant', content:reply});
+  }).catch(e=>{
+    lanTypingOff();
+    lanAppend('ai', '⚠️ 出错了：'+e.message, []);
+  });
+}
+
+async function lanAsk(text){
+  const key = localStorage.getItem(LAN_KEY_STORE);
+  if(!key){
+    openLanSettings();
+    throw new Error('未配置 AI Key');
+  }
+  const ctx = await buildLanContext();
+  const models = lanMatchModels(text);
+  const system = `你是「Lan工作台」内置的思维教练，名字叫 Lan。
+你的使命：结合用户真实的日常生活数据（待办/记账/打卡/复盘），调用大师思维模型，帮用户把书里的智慧落实到行动。
+
+可用思维模型（结合问题挑选最合适的 1-3 个引用）：
+${models.map(m=>`【${m.name}·${m.src}】${m.one}。适用：${m.scene.join('/')}。金句：${m.quote} 行动建议：${m.action}`).join('\n')}
+
+用户当前数据：
+${ctx || '(暂无数据)'}
+
+回答要求：
+1. 用中文，口语化、真诚、不啰嗦，200 字以内
+2. 先共情/理解，再给 1-2 条具体可执行的建议
+3. 引用匹配的思维模型，说明为什么适合此刻
+4. 结尾给出"下一步行动"（一句话，能转成待办）`;
+  const res = await fetch('https://api.deepseek.com/chat/completions', {
+    method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+key},
+    body: JSON.stringify({
+      model:'deepseek-chat',
+      messages:[
+        {role:'system', content:system},
+        ...lanHistory.slice(-10)
+      ],
+      max_tokens:600,
+      temperature:0.8
+    })
+  });
+  if(!res.ok){
+    const err = await res.json().catch(()=>({}));
+    throw new Error(err.error?.message || ('HTTP '+res.status));
+  }
+  const data = await res.json();
+  return data.choices[0].message.content.trim();
+}
+
+function lanAction(type, label, desc){
+  if(type==='todo'){
+    showTodoModal({title:desc, category:'生活', priority:2, due_date:localDate(), remind_time:null});
+  }
+}
+
+function openLanSettings(){
+  const saved = localStorage.getItem(LAN_KEY_STORE) || '';
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">配置 AI Key</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text-3);line-height:1.7;margin-bottom:14px">
+      填入 <b>DeepSeek API Key</b>（在 platform.deepseek.com 创建）。<br>
+      <span style="color:var(--text-4)">Key 只保存在你的浏览器本地，不会上传到任何服务器。</span>
+    </div>
+    <div class="form-group">
+      <label>API Key</label>
+      <input class="form-input" type="password" id="fLanKey" value="${saved}" placeholder="sk-...">
+    </div>
+    <button class="btn-primary" onclick="saveLanKey()">保存并启用</button>
+  `);
+}
+
+function saveLanKey(){
+  const v = $('#fLanKey').value.trim();
+  if(!v){ toast('请输入 Key'); return; }
+  localStorage.setItem(LAN_KEY_STORE, v);
+  const hint = $('#lanApiHint');
+  if(hint) hint.innerHTML = '✅ AI Key 已配置';
+  closeModal();
+  toast('AI 已启用，试试提问吧');
+}
+
+// 初始化 Lan 提示状态
+function initLan(){
+  const hint = $('#lanApiHint');
+  if(hint && localStorage.getItem(LAN_KEY_STORE)){
+    hint.innerHTML = '✅ AI Key 已配置';
+  }
 }
 
 // ============================================================
@@ -4452,7 +4776,8 @@ function goToSearchResult(type){
 // FAB
 // ============================================================
 function onFabClick(){
-  if(currentTab==='today') showTodoModal();
+  if(currentTab==='lan') $('#lanInput').focus();
+  else if(currentTab==='today') showTodoModal();
   else if(currentTab==='todos') showTodoModal();
   else if(currentTab==='ledger') showLedgerModal();
   else if(currentTab==='inspirations') showInspModal();
