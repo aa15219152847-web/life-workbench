@@ -113,13 +113,17 @@ html[data-theme="dark"] .levelup-card{background:rgba(5,13,26,.95)}
 
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%;overflow:hidden}
+/* iOS Safari：100vh 不随地址栏收起更新，用 100dvh 动态视口消除底部空白 */
+@supports (height:100dvh){
+  html,body{height:100dvh}
+}
 body{
   font-family:"Inter",-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
   background:var(--bg);
   background-image:url(bg-glass.jpg);
   background-size:cover;
   background-position:center;
-  background-attachment:fixed;
+  background-attachment:scroll;
   background-repeat:no-repeat;
   color:var(--text);
   font-size:14px;
@@ -248,20 +252,6 @@ a{color:inherit;text-decoration:none}
   flex-shrink:0;
   gap:12px;
 }
-/* 移动端汉堡按钮（默认隐藏） */
-.menu-btn{
-  display:none;
-  width:40px;height:40px;border-radius:12px;
-  align-items:center;justify-content:center;
-  background:rgba(255,255,255,.72);
-  backdrop-filter:blur(12px);
-  -webkit-backdrop-filter:blur(12px);
-  border:1px solid rgba(255,255,255,.6);
-  color:var(--text-2);
-  flex-shrink:0;
-}
-.menu-btn:hover{background:var(--surface-3);color:var(--text)}
-.menu-btn svg{width:20px;height:20px}
 /* 抽屉遮罩（默认隐藏，仅移动端显示） */
 .sidebar-backdrop{display:none}
 .topbar-titles{
@@ -944,8 +934,6 @@ a{color:inherit;text-decoration:none}
   }
   .sidebar-backdrop.show{opacity:1;pointer-events:auto}
   .main-area{height:100vh;height:100dvh}
-  /* 移动端汉堡按钮 */
-  .menu-btn{display:inline-flex}
 }
 @media(max-width:480px){
   .sidebar:hover{width:var(--sidebar-w)}
@@ -1376,9 +1364,6 @@ a{color:inherit;text-decoration:none}
 <div class="main-area">
   <!-- 顶部 -->
   <div class="topbar">
-    <button class="menu-btn" id="menuBtn" onclick="toggleDrawer()" aria-label="菜单">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
-    </button>
     <div class="topbar-titles">
       <h1 id="hdrTitle">今日待办</h1>
       <div class="date" id="hdrDate"></div>
