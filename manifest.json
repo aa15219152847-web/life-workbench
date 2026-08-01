@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "生活工作台",
+  "name": "Lan工作台",
   "short_name": "工作台",
-  "description": "个人生活工作台 - 待办、记账、资讯、灵感、学习、复盘",
+  "description": "个人Lan工作台 - 待办、记账、资讯、灵感、学习、复盘",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

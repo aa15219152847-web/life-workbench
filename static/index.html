@@ -6,13 +6,13 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="生活工作台">
+<meta name="apple-mobile-web-app-title" content="Lan工作台">
 <meta name="theme-color" content="#0A2540">
 <link rel="manifest" href="manifest.json?v=4">
 <link rel="icon" type="image/png" sizes="192x192" href="app-icon-v3-192.png">
 <link rel="apple-touch-icon" href="app-icon-v3-180.png">
 <link rel="apple-touch-icon" sizes="180x180" href="app-icon-v3-180.png">
-<title>生活工作台</title>
+<title>Lan工作台</title>
 <style>
 :root{
   /* Navy Gold 藏金 — 金融级浅底高级感 */
@@ -810,12 +810,14 @@ a{color:inherit;text-decoration:none}
 }
 .splash.hide{opacity:0;visibility:hidden;pointer-events:none}
 .splash-logo{
-  width:88px;height:88px;border-radius:24px;
-  background:linear-gradient(135deg,#D4AF37 0%,#C7A84B 100%);
-  display:flex;align-items:center;justify-content:center;
-  font-size:44px;font-weight:700;color:#0A2540;
-  box-shadow:0 12px 40px rgba(199,168,75,.35),inset 0 1px 0 rgba(255,255,255,.3);
+  width:96px;height:96px;border-radius:28px;
+  overflow:hidden;
+  border:2px solid rgba(255,255,255,.15);
+  box-shadow:0 12px 40px rgba(10,37,64,.5);
   animation:splashPop .7s var(--ease-spring) both;
+}
+.splash-logo img{
+  width:100%;height:100%;object-fit:cover;
 }
 .splash-title{
   margin-top:20px;font-size:22px;font-weight:700;color:#fff;
@@ -1301,9 +1303,9 @@ a{color:inherit;text-decoration:none}
 
 <!-- 开机画面 -->
 <div class="splash" id="splash">
-  <div class="splash-logo">工</div>
-  <div class="splash-title">生活工作台</div>
-  <div class="splash-sub">LIFE WORKBENCH</div>
+  <div class="splash-logo"><img src="avatar.png" alt="Lan工作台"></div>
+  <div class="splash-title">Lan工作台</div>
+  <div class="splash-sub">LAN WORKBENCH</div>
   <div class="splash-bar"></div>
 </div>
 
@@ -4132,7 +4134,7 @@ function generateExcelHTML(data, modLabels){
 
 function generateWordHTML(data, modLabels){
   let html = '<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif">';
-  html += `<h1 style="color:#0A2540;border-bottom:2px solid #0A2540;padding-bottom:8px">生活工作台数据导出</h1>`;
+  html += `<h1 style="color:#0A2540;border-bottom:2px solid #0A2540;padding-bottom:8px">Lan工作台数据导出</h1>`;
   html += `<p style="color:#666;font-size:13px">导出时间：${new Date().toLocaleString('zh-CN')}</p>`;
   for(const [key, items] of Object.entries(data)){
     if(!items.length) continue;
@@ -4157,7 +4159,7 @@ function generateWordHTML(data, modLabels){
 
 function generatePDFHTML(data, modLabels){
   let html = '<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif;padding:20px">';
-  html += `<h1 style="color:#0A2540;text-align:center;margin-bottom:6px">生活工作台数据报告</h1>`;
+  html += `<h1 style="color:#0A2540;text-align:center;margin-bottom:6px">Lan工作台数据报告</h1>`;
   html += `<p style="text-align:center;color:#888;font-size:13px;margin-bottom:24px">导出时间：${new Date().toLocaleString('zh-CN')}</p>`;
   let total = 0;
   for(const [key, items] of Object.entries(data)){
@@ -4204,7 +4206,7 @@ function generatePDFHTML(data, modLabels){
       html += '</table>';
     }
   }
-  html += `<p style="text-align:center;color:#888;font-size:11px;margin-top:32px">共 ${total} 条数据 · 生活工作台自动生成</p>`;
+  html += `<p style="text-align:center;color:#888;font-size:11px;margin-top:32px">共 ${total} 条数据 · Lan工作台自动生成</p>`;
   html += '</div>';
   return html;
 }
@@ -4253,7 +4255,7 @@ async function generateMonthlyReport(){
 
     const html = `<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif;padding:24px;color:#0F1B2D">
       <h1 style="text-align:center;color:#0A2540;margin-bottom:4px">📊 ${yy}年${parseInt(mm)}月 生活报告</h1>
-      <p style="text-align:center;color:#888;font-size:13px;margin-bottom:28px">生活工作台 · 自动生成 ${new Date().toLocaleDateString('zh-CN')}</p>
+      <p style="text-align:center;color:#888;font-size:13px;margin-bottom:28px">Lan工作台 · 自动生成 ${new Date().toLocaleDateString('zh-CN')}</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px">
         <div style="flex:1;min-width:120px;padding:14px;background:#F1F5F9;border-radius:10px;text-align:center"><div style="font-size:22px;font-weight:700;color:#059669">¥${income.toFixed(0)}</div><div style="font-size:12px;color:#666;margin-top:4px">本月收入</div></div>
         <div style="flex:1;min-width:120px;padding:14px;background:#F1F5F9;border-radius:10px;text-align:center"><div style="font-size:22px;font-weight:700;color:#DC2626">¥${expense.toFixed(0)}</div><div style="font-size:12px;color:#666;margin-top:4px">本月支出</div></div>
@@ -4267,7 +4269,7 @@ async function generateMonthlyReport(){
       <div style="font-size:13px;line-height:2;color:#444;padding:10px;background:#F8FAFC;border-radius:8px">${moodLine}</div>`:''}
       ${mInsp?`<h2 style="color:#0A2540;font-size:16px;border-left:4px solid #10B981;padding-left:10px;margin:20px 0 10px">灵感</h2>
       <div style="font-size:13px;color:#444">本月记录了 ${mInsp} 条灵感</div>`:''}
-      <p style="text-align:center;color:#999;font-size:11px;margin-top:32px">—— 生活工作台 · 保持觉醒 ——</p>
+      <p style="text-align:center;color:#999;font-size:11px;margin-top:32px">—— Lan工作台 · 保持觉醒 ——</p>
     </div>`;
     printToPDF(html);
     toast('月度报告已生成');
@@ -4700,7 +4702,7 @@ function showPwaGuide(){
     steps.innerHTML = `
       <div class="step"><span class="num">1</span><span>点击底部的「分享」按钮 ⬆️（向上的箭头）</span></div>
       <div class="step"><span class="num">2</span><span>在弹出菜单中选「添加到主屏幕」</span></div>
-      <div class="step"><span class="num">3</span><span>点击右上角「添加」即可，名字默认为「生活工作台」</span></div>
+      <div class="step"><span class="num">3</span><span>点击右上角「添加」即可，名字默认为「Lan工作台」</span></div>
     `;
   } else if(platform === 'android'){
     steps.innerHTML = `
