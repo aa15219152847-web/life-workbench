@@ -197,7 +197,7 @@ a{color:inherit;text-decoration:none}
   display:flex;align-items:center;gap:14px;
   padding:12px 14px;
   border-radius:var(--radius-md);
-  color:rgba(255,255,255,.45);
+  color:rgba(255,255,255,.72);
   font-size:13.5px;font-weight:500;
   white-space:nowrap;
   position:relative;
@@ -222,7 +222,7 @@ a{color:inherit;text-decoration:none}
 .sidebar:hover .nav-item .nav-label{opacity:1;transform:none}
 
 .sidebar-time{
-  font-size:11px;color:rgba(255,255,255,.45);
+  font-size:11px;color:rgba(255,255,255,.72);
   font-variant-numeric:tabular-nums;
   white-space:nowrap;
   opacity:0;transition:opacity .3s;
@@ -241,7 +241,6 @@ a{color:inherit;text-decoration:none}
   position:relative;
   z-index:1;
 }
-
 /* 粘性顶部栏 — 玻璃拟态 */
 .topbar{
   display:flex;align-items:center;justify-content:space-between;
@@ -254,10 +253,10 @@ a{color:inherit;text-decoration:none}
   display:none;
   width:40px;height:40px;border-radius:12px;
   align-items:center;justify-content:center;
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(12px);
   -webkit-backdrop-filter:blur(12px);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   color:var(--text-2);
   flex-shrink:0;
 }
@@ -265,16 +264,22 @@ a{color:inherit;text-decoration:none}
 .menu-btn svg{width:20px;height:20px}
 /* 抽屉遮罩（默认隐藏，仅移动端显示） */
 .sidebar-backdrop{display:none}
+.topbar-titles{
+  flex:1;min-width:0;
+  display:flex;align-items:baseline;gap:10px;
+}
 .topbar-titles h1{
   font-size:28px;font-weight:700;letter-spacing:-.8px;
   background:linear-gradient(135deg,#000000 0%,#0F1B2D 100%);
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;
   line-height:1.2;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 .topbar-titles .date{
   font-size:14px;color:var(--text-2);margin-top:4px;
   font-variant-numeric:tabular-nums;letter-spacing:.2px;
   font-weight:600;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 
 /* ============================================================
@@ -288,10 +293,10 @@ a{color:inherit;text-decoration:none}
   flex-shrink:0;
 }
 .ov-card{
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   padding:20px;
@@ -306,7 +311,7 @@ a{color:inherit;text-decoration:none}
   border-color:rgba(255,255,255,.75);
   transform:translateY(-2px);
   box-shadow:0 8px 30px rgba(10,37,64,.12);
-  background:rgba(255,255,255,.55);
+  background:rgba(255,255,255,.6);
 }
 .ov-card .ov-icon{
   position:absolute;top:18px;right:18px;
@@ -377,15 +382,15 @@ a{color:inherit;text-decoration:none}
    卡片通用 — 亮度差分层
    ============================================================ */
 .card-base{
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
 }
-.card-base:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.55)}
+.card-base:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6)}
 
 /* ============================================================
    待办 — 签名动效：完成时的粒子散开
@@ -393,17 +398,17 @@ a{color:inherit;text-decoration:none}
 .todo-item{
   display:flex;align-items:flex-start;gap:14px;
   padding:18px 20px;
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius-md);
   margin-bottom:10px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
   position:relative;
 }
-.todo-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.55);transform:translateX(2px)}
+.todo-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);transform:translateX(2px)}
 .todo-check{
   width:24px;height:24px;flex-shrink:0;
   border:1.5px solid var(--border-hover);
@@ -470,11 +475,11 @@ a{color:inherit;text-decoration:none}
   background:rgba(10,37,64,.08);
   border-radius:var(--radius-md);overflow:hidden;
   margin-bottom:16px;
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
 }
 .ls-cell{
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
   padding:20px 18px;
@@ -488,16 +493,16 @@ a{color:inherit;text-decoration:none}
 .ledger-item{
   display:flex;align-items:center;gap:14px;
   padding:16px 20px;
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
 }
-.ledger-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.55);transform:translateX(2px)}
+.ledger-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);transform:translateX(2px)}
 .ledger-icon{
   width:44px;height:44px;border-radius:12px;
   display:flex;align-items:center;justify-content:center;
@@ -520,11 +525,11 @@ a{color:inherit;text-decoration:none}
 .news-tabs{display:flex;gap:8px;margin-bottom:16px}
 .news-tab{
   padding:10px 22px;border-radius:24px;font-size:14px;font-weight:700;
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(12px);
   -webkit-backdrop-filter:blur(12px);
   color:var(--text-2);
-  border:1px solid rgba(255,255,255,.5);
+  border:1px solid rgba(255,255,255,.72);
   transition:all .2s var(--ease-standard);
 }
 .news-tab:hover{border-color:var(--border-hover)}
@@ -534,17 +539,17 @@ a{color:inherit;text-decoration:none}
 }
 .news-item{
   padding:18px 20px;
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   display:block;
   transition:all .25s var(--ease-out);
 }
-.news-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.55);transform:translateX(3px)}
+.news-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);transform:translateX(3px)}
 .news-title{font-size:16px;font-weight:700;line-height:1.45;letter-spacing:-.2px;color:var(--text)}
 .news-summary{font-size:14px;color:var(--text-2);margin-top:8px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500}
 .news-meta{display:flex;gap:10px;margin-top:12px;font-size:13px;color:var(--text-2);align-items:center;font-weight:500}
@@ -560,17 +565,17 @@ a{color:inherit;text-decoration:none}
    ============================================================ */
 .insp-item{
   padding:18px 20px;
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
   border-left:3px solid transparent;
 }
-.insp-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.55);border-left-color:var(--primary)}
+.insp-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);border-left-color:var(--primary)}
 .insp-content{font-size:16px;line-height:1.65;white-space:pre-wrap;word-break:break-word;letter-spacing:-.1px;color:var(--text);font-weight:500}
 .insp-meta{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
 .insp-time{font-size:13px;color:var(--text-2);font-variant-numeric:tabular-nums;font-weight:500}
@@ -580,16 +585,16 @@ a{color:inherit;text-decoration:none}
    ============================================================ */
 .plan-item{
   padding:20px;
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius-md);
   margin-bottom:10px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
 }
-.plan-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.55)}
+.plan-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6)}
 .plan-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .plan-title{font-size:17px;font-weight:700;flex:1;letter-spacing:-.3px;color:var(--text)}
 .plan-checkin-btn{
@@ -612,10 +617,10 @@ a{color:inherit;text-decoration:none}
    复盘
    ============================================================ */
 .review-form-card{
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   padding:24px;
@@ -624,7 +629,7 @@ a{color:inherit;text-decoration:none}
 .review-field label{display:block;font-size:13px;color:var(--text);margin-bottom:8px;letter-spacing:.3px;font-weight:700}
 .review-field textarea{
   width:100%;min-height:76px;padding:14px 16px;
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);
@@ -636,7 +641,7 @@ a{color:inherit;text-decoration:none}
 .mood-picker{display:flex;gap:8px}
 .mood-btn{
   flex:1;padding:14px;border-radius:var(--radius-sm);
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);
@@ -651,10 +656,10 @@ a{color:inherit;text-decoration:none}
 }
 .review-history-item{
   padding:18px 20px;
-  background:rgba(255,255,255,.45);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.55);
+  border:1px solid rgba(255,255,255,.6);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
@@ -720,7 +725,7 @@ a{color:inherit;text-decoration:none}
 .form-group label{display:block;font-size:13px;color:var(--text);margin-bottom:8px;letter-spacing:.3px;font-weight:700}
 .form-input,.form-select,.form-textarea{
   width:100%;padding:14px 16px;
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);
@@ -745,7 +750,7 @@ a{color:inherit;text-decoration:none}
 .chip-group{display:flex;flex-wrap:wrap;gap:8px}
 .chip{
   padding:10px 20px;border-radius:24px;font-size:14px;font-weight:700;
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);color:var(--text-2);
@@ -865,18 +870,20 @@ a{color:inherit;text-decoration:none}
 .bottom-tab{
   flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
   padding:6px 0;border-radius:12px;
-  color:rgba(255,255,255,.45);font-size:10px;font-weight:600;
+  color:rgba(255,255,255,.72);font-size:10px;font-weight:600;
   transition:all .2s;
 }
-.bottom-tab svg{width:22px;height:22px;stroke-width:1.8}
+.bottom-tab svg{width:22px;height:22px;stroke-width:2}
 .bottom-tab.active{color:#A5B4FC;background:rgba(99,91,255,.15)}
 @media(max-width:768px){
   :root{--sidebar-w:64px}
   .overview{grid-template-columns:repeat(2,1fr);gap:10px;padding:0 16px 10px}
   .ov-card:last-child{grid-column:1/-1}
-  .topbar{padding:calc(18px + var(--safe-top)) 16px 14px}
-  .content{padding:10px 16px calc(110px + var(--safe-bottom))}
+  .topbar{padding:calc(18px + var(--safe-top)) 16px 14px;gap:8px}
+  .content{padding:10px 16px calc(84px + var(--safe-bottom))}
   .topbar-titles h1{font-size:22px}
+  .topbar-titles{flex-direction:column;align-items:flex-start;gap:2px}
+  .topbar-titles .date{margin-top:0;font-size:12px}
   .ov-card .value{font-size:22px}
   .ov-card{padding:16px}
   .todo-actions,.plan-actions{opacity:1}
@@ -913,7 +920,7 @@ a{color:inherit;text-decoration:none}
     transition:opacity .3s;
   }
   .sidebar-backdrop.show{opacity:1;pointer-events:auto}
-  .main-area{height:100vh}
+  .main-area{height:100vh;height:100dvh}
   .bottom-tabs{display:flex}
   /* 移动端汉堡按钮 */
   .menu-btn{display:inline-flex}
@@ -964,7 +971,7 @@ a{color:inherit;text-decoration:none}
   transition:width .6s var(--ease-out);
 }
 .exp-text-mini{
-  font-size:9px;color:rgba(255,255,255,.55);text-align:center;white-space:nowrap;
+  font-size:9px;color:rgba(255,255,255,.6);text-align:center;white-space:nowrap;
 }
 .sidebar:hover .exp-text-mini{font-size:10px;color:rgba(255,255,255,.7)}
 
@@ -1053,7 +1060,7 @@ a{color:inherit;text-decoration:none}
 .quest-item{
   display:flex;align-items:center;gap:10px;padding:8px 10px;
   border-radius:var(--radius-xs);margin-bottom:6px;
-  background:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.72);
   transition:all .3s var(--ease-out);
 }
 .quest-item:last-child{margin-bottom:0}
@@ -1203,12 +1210,17 @@ a{color:inherit;text-decoration:none}
 .badge-icon{
   width:48px;height:48px;border-radius:50%;margin:0 auto 8px;
   display:flex;align-items:center;justify-content:center;
-  font-size:24px;
+  font-size:24px;line-height:1;
   background:var(--surface-3);
+  border:1px solid var(--border);
 }
 .badge-card.unlocked .badge-icon{
   background:var(--amber-grad);
   box-shadow:0 2px 12px rgba(199,168,75,.3);
+  border-color:transparent;
+}
+.badge-card.locked .badge-icon{
+  filter:grayscale(1);opacity:.75;
 }
 .badge-name{font-size:12px;font-weight:700;color:var(--text)}
 .badge-card.locked .badge-name{color:var(--text-4)}
@@ -1248,7 +1260,7 @@ a{color:inherit;text-decoration:none}
 .weread-book-list{display:flex;flex-direction:column;gap:6px}
 .weread-book-item{
   display:flex;align-items:center;gap:10px;padding:8px 10px;
-  border-radius:8px;background:rgba(255,255,255,.5);
+  border-radius:8px;background:rgba(255,255,255,.72);
 }
 .weread-book-cover{width:28px;height:40px;border-radius:3px;background:var(--surface-3);flex-shrink:0;overflow:hidden}
 .weread-book-info{flex:1;min-width:0}
