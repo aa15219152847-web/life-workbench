@@ -247,7 +247,24 @@ a{color:inherit;text-decoration:none}
   display:flex;align-items:center;justify-content:space-between;
   padding:calc(24px + var(--safe-top)) 36px 20px;
   flex-shrink:0;
+  gap:12px;
 }
+/* 移动端汉堡按钮（默认隐藏） */
+.menu-btn{
+  display:none;
+  width:40px;height:40px;border-radius:12px;
+  align-items:center;justify-content:center;
+  background:rgba(255,255,255,.5);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.55);
+  color:var(--text-2);
+  flex-shrink:0;
+}
+.menu-btn:hover{background:var(--surface-3);color:var(--text)}
+.menu-btn svg{width:20px;height:20px}
+/* 抽屉遮罩（默认隐藏，仅移动端显示） */
+.sidebar-backdrop{display:none}
 .topbar-titles h1{
   font-size:28px;font-weight:700;letter-spacing:-.8px;
   background:linear-gradient(135deg,#000000 0%,#0F1B2D 100%);
@@ -867,10 +884,39 @@ a{color:inherit;text-decoration:none}
   .modal{margin:0;max-width:100%;border-radius:20px}
   .review-form-card{padding:18px}
   .plan-stats{gap:20px}
-  /* 移动端：隐藏侧边栏，显示底部 Tab 栏 */
-  .sidebar{display:none}
+  /* 移动端：侧边栏改为抽屉式（默认滑出屏幕，点按钮滑入） */
+  .sidebar{
+    position:fixed;
+    top:0;left:0;bottom:0;
+    width:var(--sidebar-w-expanded);
+    max-width:82vw;
+    z-index:210;
+    align-items:flex-start;
+    transform:translateX(-105%);
+    transition:transform .35s var(--ease-out);
+    box-shadow:8px 0 32px rgba(10,37,64,.25);
+  }
+  .sidebar.drawer-open{transform:translateX(0)}
+  /* 抽屉打开时显示文字标签 */
+  .sidebar .nav-item{width:100%}
+  .sidebar .nav-item .nav-label{opacity:1;transform:none}
+  .sidebar .sidebar-time{opacity:1}
+  .sidebar .sidebar-logo{align-self:center}
+  .sidebar .sidebar-level{width:calc(100% - 16px)}
+  /* 抽屉遮罩 */
+  .sidebar-backdrop{
+    display:block;position:fixed;inset:0;z-index:205;
+    background:rgba(10,37,64,.45);
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(4px);
+    opacity:0;pointer-events:none;
+    transition:opacity .3s;
+  }
+  .sidebar-backdrop.show{opacity:1;pointer-events:auto}
   .main-area{height:100vh}
   .bottom-tabs{display:flex}
+  /* 移动端汉堡按钮 */
+  .menu-btn{display:inline-flex}
 }
 @media(max-width:480px){
   .sidebar:hover{width:var(--sidebar-w)}
@@ -1285,6 +1331,9 @@ a{color:inherit;text-decoration:none}
 <div class="main-area">
   <!-- 顶部 -->
   <div class="topbar">
+    <button class="menu-btn" id="menuBtn" onclick="toggleDrawer()" aria-label="菜单">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
     <div class="topbar-titles">
       <h1 id="hdrTitle">今日待办</h1>
       <div class="date" id="hdrDate"></div>
@@ -1749,6 +1798,9 @@ a{color:inherit;text-decoration:none}
   </button>
 </nav>
 
+<!-- 移动端抽屉遮罩 -->
+<div class="sidebar-backdrop" id="sidebarBackdrop" onclick="closeDrawer()"></div>
+
 <!-- 模态框 -->
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal" id="modalContent"></div>
@@ -2212,7 +2264,37 @@ function switchTab(tab){
   $('#hdrTitle').textContent = TAB_TITLES[tab];
   $('.content').scrollTop = 0;
   loadTabData(tab);
+  closeDrawer();
 }
+
+// 移动端抽屉侧边栏
+function toggleDrawer(){
+  const sb = $('.sidebar');
+  if(sb.classList.contains('drawer-open')) closeDrawer();
+  else openDrawer();
+}
+function openDrawer(){
+  $('.sidebar').classList.add('drawer-open');
+  $('#sidebarBackdrop').classList.add('show');
+}
+function closeDrawer(){
+  $('.sidebar').classList.remove('drawer-open');
+  $('#sidebarBackdrop').classList.remove('show');
+}
+// 左边缘右滑 → 打开抽屉（移动端手势）
+let touchStartX = 0;
+document.addEventListener('touchstart', e=>{
+  touchStartX = e.touches[0].clientX;
+}, {passive:true});
+document.addEventListener('touchend', e=>{
+  const dx = e.changedTouches[0].clientX - touchStartX;
+  const sb = $('.sidebar');
+  if(dx > 60 && touchStartX < 20 && !sb.classList.contains('drawer-open')){
+    openDrawer();
+  }else if(dx < -60 && sb.classList.contains('drawer-open')){
+    closeDrawer();
+  }
+}, {passive:true});
 $$('.nav-item').forEach(t=>t.addEventListener('click',()=>switchTab(t.dataset.tab)));
 $$('.bottom-tab').forEach(t=>t.addEventListener('click',()=>switchTab(t.dataset.tab)));
 
