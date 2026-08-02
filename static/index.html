@@ -1094,6 +1094,68 @@ html[data-theme="dark"] .lan-card{
   content:'...';animation:lanDot 1.2s infinite;
 }
 @keyframes lanDot{0%,20%{content:''}40%{content:'.'}60%{content:'..'}80%,100%{content:'...'}}
+/* 对话内联确认卡片 */
+.lan-action-card{
+  border-radius:var(--radius-md);padding:14px;
+  background:var(--surface);
+  border:1px solid var(--border-2);
+  box-shadow:0 6px 24px rgba(10,37,64,.08);
+  min-width:230px;max-width:100%;
+}
+.ac-title{
+  font-size:13px;font-weight:700;color:var(--primary);
+  margin-bottom:10px;display:flex;align-items:center;gap:6px;
+}
+.ac-rows{display:flex;flex-direction:column;gap:6px}
+.ac-row{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  font-size:12.5px;
+}
+.ac-row span{color:var(--text-4);flex-shrink:0}
+.ac-row b{color:var(--text);font-weight:600;text-align:right;word-break:break-all}
+.ac-row.ac-edit-row b{display:none}
+.ac-edit-row{flex-wrap:wrap}
+.ac-input{
+  flex:1;min-width:120px;padding:6px 10px;border-radius:8px;
+  border:1px solid var(--border-2);background:var(--surface-2);
+  font-size:12.5px;color:var(--text);outline:none;
+}
+.ac-input:focus{border-color:var(--primary);box-shadow:0 0 0 2px var(--primary-glow-2)}
+.ac-btns{display:flex;gap:8px;margin-top:12px}
+.ac-confirm{
+  flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;
+  background:var(--primary-grad);color:#fff;font-size:12.5px;font-weight:600;
+  transition:transform .2s var(--ease-out-quart),opacity .2s;
+}
+.ac-confirm:active{transform:scale(.96)}
+.ac-confirm:hover{opacity:.9}
+.ac-edit{
+  flex:1;padding:9px 0;border-radius:10px;cursor:pointer;
+  background:transparent;border:1px solid var(--border-2);
+  color:var(--text-3);font-size:12.5px;font-weight:600;
+}
+.ac-edit:hover{background:var(--surface-2)}
+html[data-theme="dark"] .lan-action-card{background:rgba(18,35,61,.85);border-color:rgba(255,255,255,.1)}
+html[data-theme="dark"] .ac-edit{color:var(--text-3)}
+html[data-theme="dark"] .ac-input{background:rgba(18,35,61,.6);border-color:rgba(255,255,255,.1);color:var(--text)}
+
+/* 主动层提醒卡 */
+.lan-proactive{
+  border-radius:var(--radius-md);padding:12px 14px;margin-bottom:14px;
+  background:linear-gradient(135deg,rgba(199,168,75,.08),rgba(99,91,255,.06));
+  border:1px solid var(--amber-glow);
+  font-size:12.5px;line-height:1.7;color:var(--text-2);
+}
+.lan-proactive .pa-title{font-weight:700;color:var(--amber);margin-bottom:2px}
+.lan-proactive .pa-actions{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+.lan-proactive .pa-btn{
+  padding:5px 14px;border-radius:8px;border:none;cursor:pointer;
+  background:var(--amber-grad);color:#fff;font-size:12px;font-weight:600;
+}
+.lan-proactive .pa-btn.sec{background:var(--surface-3);color:var(--text-3)}
+html[data-theme="dark"] .lan-proactive{background:rgba(18,35,61,.75);border-color:rgba(255,255,255,.1)}
+html[data-theme="dark"] .lan-proactive .pa-btn.sec{background:rgba(255,255,255,.1);color:var(--text-3)}
+
 .lan-act{
   margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;
 }
@@ -1475,11 +1537,15 @@ html[data-theme="dark"] .lan-card{
   <!-- 导航区 -->
   <nav class="sidebar-nav">
     <div class="nav-group-title">智能</div>
-    <button class="nav-item active" data-tab="cockpit" title="驾驶舱">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
-      <span class="nav-label">驾驶舱</span>
+    <button class="nav-item active" data-tab="lan" title="Lan智能体">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17h8v-2.3c1.8-1.2 3-3.3 3-5.7a7 7 0 0 0-7-7z"/><path d="M9 12h6M10 9h.01M14 9h.01"/><path d="M9 21h6"/></svg>
+      <span class="nav-label">Lan智能体</span>
     </button>
     <div class="nav-group-title">日常</div>
+    <button class="nav-item" data-tab="today" title="今日">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      <span class="nav-label">今日</span>
+    </button>
     <button class="nav-item" data-tab="todos" title="待办">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
       <span class="nav-label">待办</span>
@@ -1594,9 +1660,37 @@ html[data-theme="dark"] .lan-card{
   <div class="content">
 
     <!-- Lan 智能体 -->
-    <section class="section active" id="sec-cockpit">
+    <!-- Lan 智能体 · 独立对话页 -->
+    <section class="section active" id="sec-lan">
       <div class="section-header">
-        <div class="section-title">驾驶舱</div>
+        <div class="section-title">Lan 智能体</div>
+        <div class="section-count" id="lanModelCount">思维教练</div>
+      </div>
+      <!-- 主动层提醒卡（本地检测，异常才出现） -->
+      <div id="lanProactive"></div>
+      <!-- 对话区（沉浸式） -->
+      <div class="lan-chat" id="lanChat" style="min-height:44vh">
+        <div class="lan-msg lan-ai">
+          <div class="lan-bubble">你好，我是 <b>Lan</b> —— 你的思维教练。<br><br>我能看到你的待办、记账、复盘和灵感。你可以直接让我干活：<br><span style="color:var(--text-4)">「记一笔打车 30」「明天 9 点提醒我交报告」</span><br><br>也可以把我当教练：<span style="color:var(--text-4)">「帮我做今日复盘」「帮我出个学习计划」</span></div>
+        </div>
+      </div>
+      <div class="lan-chips" id="lanChips">
+        <button class="chip" onclick="lanQuickAsk('帮我分析一下本周状态')">分析本周</button>
+        <button class="chip" onclick="lanQuickAsk('帮我扩散一个想法')">扩散想法</button>
+        <button class="chip" onclick="lanQuickCoach('review')">复盘教练</button>
+        <button class="chip" onclick="lanQuickCoach('plan')">出学习计划</button>
+      </div>
+      <div class="lan-input-row">
+        <input class="form-input" id="lanInput" placeholder="记一笔 / 建待办 / 帮我复盘..." onkeydown="if(event.key==='Enter')lanSend()">
+        <button class="btn-primary" id="lanSendBtn" onclick="lanSend()" style="width:auto;padding:0 22px;margin:0;flex-shrink:0;border-radius:14px">发送</button>
+      </div>
+      <div class="note" style="margin-top:8px;text-align:center" id="lanApiHint">尚未配置 AI Key · <a href="javascript:openLanSettings()" style="color:var(--primary)">点击配置</a></div>
+    </section>
+
+    <!-- 今日概览（数据聚合页） -->
+    <section class="section" id="sec-today">
+      <div class="section-header">
+        <div class="section-title">今日概览</div>
         <div class="section-count" id="todayDate"></div>
       </div>
       <!-- 今日状态带：4 卡可点直达 -->
@@ -1635,36 +1729,8 @@ html[data-theme="dark"] .lan-card{
         <div style="font-size:13px;font-weight:700;color:var(--primary);margin-bottom:8px" id="yesterdayTitle"></div>
         <div id="yesterdayContent" style="font-size:13px;color:var(--text-2);line-height:1.7"></div>
       </div>
-      <!-- Lan 对话区（数据锚点） -->
-      <div class="lan-card" id="lanCard">
-        <div class="lan-card-head">
-          <div class="lan-avatar">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17h8v-2.3c1.8-1.2 3-3.3 3-5.7a7 7 0 0 0-7-7z"/><path d="M9 12h6M10 9h.01M14 9h.01"/><path d="M9 21h6"/></svg>
-          </div>
-          <div>
-            <div class="lan-card-title">Lan 思维教练</div>
-            <div class="lan-card-hint">已读取今日数据 · 问我任何问题</div>
-          </div>
-        </div>
-        <div class="lan-chat" id="lanChat">
-          <div class="lan-msg lan-ai">
-            <div class="lan-bubble">你好，我是 <b>Lan</b> —— 你的思维教练。<br><br>我能看到你今天的待办、支出和打卡状态。想聊什么？<br><br><span style="color:var(--text-4)">试试下面的快捷指令，或直接问我。</span></div>
-          </div>
-        </div>
-        <div class="lan-chips" id="lanChips">
-          <button class="chip" onclick="lanQuickAsk('帮我分析一下本周状态')">分析本周</button>
-          <button class="chip" onclick="lanQuickAsk('帮我扩散一个想法')">扩散想法</button>
-          <button class="chip" onclick="lanQuickAsk('给我今日行动建议')">今日建议</button>
-          <button class="chip" onclick="lanQuickAsk('帮我做今日复盘')">复盘教练</button>
-        </div>
-        <div class="lan-input-row">
-          <input class="form-input" id="lanInput" placeholder="问 Lan 任何问题..." onkeydown="if(event.key==='Enter')lanSend()">
-          <button class="btn-primary" id="lanSendBtn" onclick="lanSend()" style="width:auto;padding:0 22px;margin:0;flex-shrink:0;border-radius:14px">发送</button>
-        </div>
-        <div class="note" style="margin-top:8px;text-align:center" id="lanApiHint">尚未配置 AI Key · <a href="javascript:openLanSettings()" style="color:var(--primary)">点击配置</a></div>
-      </div>
       <!-- 今日行动清单 -->
-      <div class="section-header" style="margin-top:18px">
+      <div class="section-header" style="margin-top:4px">
         <div class="section-title">今日行动</div>
         <button class="sync-btn" onclick="switchTab('todos')">查看全部 →</button>
       </div>
@@ -2088,7 +2154,7 @@ let allReviewHistory = [];
 let reviewSearchTimer = null;
 
 const TAB_TITLES = {
-  cockpit:'驾驶舱', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
+  lan:'Lan 智能体', today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
   inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理'
 };
 
@@ -2558,7 +2624,7 @@ $$('.nav-item').forEach(t=>{
 });
 
 // 全局快捷键（桌面端）：1-9 切模块 / N 新建 / / 搜索 / Esc 关弹窗
-const TAB_KEYS = ['cockpit','todos','ledger','study','review','news','inspirations','badges','search'];
+const TAB_KEYS = ['lan','today','todos','ledger','study','review','news','inspirations','badges','search'];
 document.addEventListener('keydown', e=>{
   // 输入框内不触发
   if(e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) {
@@ -2577,7 +2643,8 @@ document.addEventListener('keydown', e=>{
 });
 
 function loadTabData(tab){
-  if(tab==='cockpit') loadToday();
+  if(tab==='lan') initLan();
+  else if(tab==='today') loadToday();
   else if(tab==='todos') loadTodos();
   else if(tab==='ledger') { loadLedger(); loadDreamJars(); }
   else if(tab==='news') loadNews(currentNewsCat);
@@ -2838,6 +2905,11 @@ async function buildLanContext(){
     if(todayReview){
       parts.push('今日复盘: ' + [todayReview.went_well,todayReview.went_wrong,todayReview.improvement].filter(Boolean).join(' / ').slice(0,120));
     }
+    // 回流层：采纳统计（Lan 建议的执行反馈）
+    const adopt = await metaGet('lanAdoptions');
+    if(adopt && adopt.count>0){
+      parts.push('你已采纳我的建议并完成 '+adopt.count+' 次（最近: '+(adopt.titles[adopt.titles.length-1]?.title||'')+'）');
+    }
   }catch(e){}
   return parts.join('\n');
 }
@@ -2866,12 +2938,57 @@ async function lanSend(){
   const text = input.value.trim();
   if(!text || lanTyping) return;
   input.value = '';
+  // 教练模式进行中 → 走教练流程
+  if(lanCoach){
+    lanAppend('me', escapeHtml(text));
+    lanCoachAnswer(text);
+    return;
+  }
+  // 对话即操作：意图检测（本地规则先行）
+  const intent = await lanDetectIntent(text);
+  if(intent){
+    lanAppend('me', escapeHtml(text));
+    // 复盘/计划类请求 → 教练模式（3 轮提问引导）
+    if((intent.intent==='review'||intent.intent==='plan') && /帮我|给我|做|出|制定/.test(text)){
+      lanStartCoach(intent.intent);
+      return;
+    }
+    if(LAN_AUTO.includes(intent.intent)){
+      lanTypingOn();
+      const res = await lanExecute(intent.intent, intent.fields);
+      lanTypingOff();
+      lanAppend('ai', res);
+    }else{
+      lanRenderCard(intent.intent, intent.fields);
+    }
+    return;
+  }
+  // 普通对话
   lanAppend('me', escapeHtml(text));
   lanHistory.push({role:'user', content:text});
   lanTypingOn();
   try{
     const reply = await lanAsk(text);
     lanTypingOff();
+    // 解析 DeepSeek 返回的操作标记（兜底意图识别）
+    const am = reply.match(/<<<ACTION:(\w+)\|(\{[\s\S]*?\})>>>/);
+    if(am){
+      const clean = reply.replace(am[0],'').trim();
+      if(clean) lanAppend('ai', clean);
+      try{
+        const fields = JSON.parse(am[2]);
+        if(LAN_AUTO.includes(am[1])){
+          const res = await lanExecute(am[1], fields);
+          lanAppend('ai', res);
+        }else{
+          lanRenderCard(am[1], fields);
+        }
+      }catch(e){
+        lanAppend('ai', '（操作解析失败，请手动操作）');
+      }
+      lanHistory.push({role:'assistant', content:reply});
+      return;
+    }
     const models = lanMatchModels(text);
     const modelBlock = models.length ? 
       `<br><br><div style="border-top:1px dashed var(--border);padding-top:8px;margin-top:8px;font-size:12.5px;color:var(--text-3)"><b>🧠 适用思维模型：</b><br>` +
@@ -2925,7 +3042,18 @@ ${ctx || '(暂无数据)'}
 1. 用中文，口语化、真诚、不啰嗦，200 字以内
 2. 先共情/理解，再给 1-2 条具体可执行的建议
 3. 引用匹配的思维模型，说明为什么适合此刻
-4. 结尾给出"下一步行动"（一句话，能转成待办）`;
+4. 结尾给出"下一步行动"（一句话，能转成待办）
+
+操作协议（重要）：如果用户想让你直接帮他操作工作台（记账/建待办/打卡/写复盘/建计划/记灵感），在回复的【最开头单独一行】输出操作标记，然后正文继续正常回答：
+<<<ACTION:类型|{"字段":"值"}>>>
+支持类型与字段：
+- ledger 记账：amount金额(number)、type类型(income收入/expense支出)、category分类、note备注
+- todo 待办：title事项、due_date日期(YYYY-MM-DD)、priority优先级(1高/2普通)、remind_time提醒时间(HH:MM)、category分类
+- checkin 打卡：hours小时(number)
+- review 复盘：went_well做得好的、went_wrong待改进、improvement改进方案
+- plan 学习计划：title名称、target_hours每天小时(number)、total_days天数(number)
+- insp 灵感：content内容
+示例：<<<ACTION:ledger|{"amount":30,"type":"expense","category":"交通","note":"打车"}>>>`;
   const res = await fetch('https://api.deepseek.com/chat/completions', {
     method:'POST',
     headers:{'Content-Type':'application/json','Authorization':'Bearer '+key},
@@ -2945,6 +3073,389 @@ ${ctx || '(暂无数据)'}
   }
   const data = await res.json();
   return data.choices[0].message.content.trim();
+}
+
+// ============================================================
+// Lan 对话即操作 — 意图识别 / 确认卡片 / 执行 / 教练模式
+// ============================================================
+// 低风险操作直接执行（追加式记录，可删改）；高风险需确认卡片
+const LAN_AUTO = ['ledger','checkin','insp'];
+const LAN_CONFIRM = ['todo','review','plan'];
+// 教练模式状态
+let lanCoach = null; // {type:'review'|'plan', step:0, answers:{}}
+
+// 意图规则（本地关键词先行）
+const LAN_INTENT_RULES = [
+  {intent:'ledger', kws:['记一笔','记账','花了','打车','买了','支出','收入','消费','充值','付款','付了']},
+  {intent:'todo',   kws:['提醒','明天','后天','待办','记得','要做','要写','要交','开会','汇报']},
+  {intent:'checkin',kws:['打卡','签到']},
+  {intent:'review', kws:['复盘']},
+  {intent:'plan',   kws:['学习计划','出个计划','制定计划','建个计划']},
+  {intent:'insp',   kws:['灵感','想法','记个念头']},
+];
+
+function lanLocalIntent(text){
+  for(const r of LAN_INTENT_RULES){
+    if(r.kws.some(k=>text.includes(k))) return r.intent;
+  }
+  return null;
+}
+
+function lanMatchCategory(text){
+  const cats = {
+    '餐饮':['吃','餐','饭','咖啡','奶茶','外卖','面','火锅'],
+    '交通':['打车','地铁','公交','加油','停车','车','高铁'],
+    '购物':['买','购','衣服','鞋','淘宝','京东','超市'],
+    '居住':['房租','水电','物业','燃气'],
+    '娱乐':['电影','游戏','唱','演出'],
+    '医疗':['药','医院','看病','体检'],
+  };
+  for(const c in cats){ if(cats[c].some(k=>text.includes(k))) return c; }
+  return '其他';
+}
+
+// 本地规则提取操作字段
+async function lanExtractFields(intent, text){
+  const f = {raw:text};
+  const num = text.match(/(\d+(?:\.\d+)?)/);
+  if(intent==='ledger'){
+    f.amount = num ? parseFloat(num[1]) : 0;
+    f.type = /收入|入账|赚|工资/.test(text) ? 'income' : 'expense';
+    f.category = lanMatchCategory(text);
+    f.note = text.replace(/记一笔|记账|花了|买了|支出|消费|付款|付了|收入|入账/g,'').replace(/\d+(?:\.\d+)?/g,'').replace(/[¥元]/g,'').trim().slice(0,20);
+    f.record_date = localDate();
+  }else if(intent==='todo'){
+    f.title = text.replace(/提醒我|提醒|明天|后天|待办|记得|我要|帮我/g,'').trim().slice(0,30) || text.slice(0,30);
+    const d = new Date();
+    if(/后天/.test(text)) d.setDate(d.getDate()+2);
+    else if(/明天/.test(text)) d.setDate(d.getDate()+1);
+    f.due_date = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+    f.priority = /重要|紧急|立刻|马上/.test(text) ? 1 : 2;
+    f.category = lanMatchCategory(text)==='其他' ? '生活' : lanMatchCategory(text);
+    const tm = text.match(/(\d{1,2})[点时:：](\d{0,2})/);
+    f.remind_time = tm ? String(tm[1]).padStart(2,'0')+':'+(tm[2]?String(tm[2]).padStart(2,'0'):'00') : null;
+  }else if(intent==='checkin'){
+    f.hours = num ? parseFloat(num[1]) : 1;
+  }else if(intent==='review'){
+    f.went_well = text.replace(/帮我|做|今日|复盘/g,'').trim().slice(0,60) || '';
+  }else if(intent==='plan'){
+    f.title = text.replace(/帮我|制定|建|个|学习计划|出个计划/g,'').trim().slice(0,20) || '学习计划';
+    f.target_hours = num ? parseFloat(num[1]) : 1;
+    const d = text.match(/(\d+)\s*天/);
+    f.total_days = d ? parseInt(d[1]) : 30;
+  }else if(intent==='insp'){
+    f.content = text.replace(/灵感|想法|记个念头|记录/g,'').trim() || text;
+  }
+  return f;
+}
+
+// 意图检测：本地规则 → DeepSeek 兜底（可选）
+async function lanDetectIntent(text){
+  const local = lanLocalIntent(text);
+  if(local) return {intent:local, fields: await lanExtractFields(local, text)};
+  return null;
+}
+
+// 渲染确认卡片（对话内联）
+function lanRenderCard(intent, fields){
+  const label = {ledger:'记账',todo:'待办',checkin:'打卡',review:'复盘',plan:'学习计划',insp:'灵感'}[intent]||'操作';
+  const rows = lanCardRows(intent, fields);
+  const card = document.createElement('div');
+  card.className = 'lan-action-card';
+  card.dataset.intent = intent;
+  card.dataset.fields = JSON.stringify(fields);
+  card.innerHTML = `<div class="ac-title">${label}确认</div>
+    <div class="ac-rows">${rows}</div>
+    <div class="ac-btns">
+      <button class="ac-confirm" onclick="lanConfirmCard(this)">确认写入</button>
+      <button class="ac-edit" onclick="lanEditCard(this)">修改</button>
+    </div>`;
+  const wrap = document.createElement('div');
+  wrap.className = 'lan-msg lan-ai';
+  wrap.appendChild(card);
+  const chat = $('#lanChat');
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+  return card;
+}
+
+function lanCardRows(intent, f){
+  const map = {
+    ledger: [['类型', f.type==='income'?'收入':'支出'],['金额','¥'+(f.amount||0)],['分类',f.category||'其他'],['日期',f.record_date||'今天']],
+    todo: [['事项',f.title||''],['日期',f.due_date||'今天'],['优先级',f.priority===1?'高':'普通'],['提醒',f.remind_time||'无']],
+    checkin: [['打卡时长',(f.hours||1)+' 小时']],
+    review: [['做得好的',f.went_well||'（待补充）']],
+    plan: [['计划名称',f.title||''],['每天',(f.target_hours||1)+' 小时'],['周期',(f.total_days||30)+' 天']],
+    insp: [['内容',f.content||'']],
+  };
+  return (map[intent]||[]).map(([k,v])=>`<div class="ac-row"><span>${k}</span><b>${escapeHtml(String(v))}</b></div>`).join('');
+}
+
+// 修改 → 字段变可编辑
+function lanEditCard(btn){
+  const card = btn.closest('.lan-action-card');
+  const intent = card.dataset.intent;
+  const f = JSON.parse(card.dataset.fields);
+  const defs = {
+    ledger:[['amount','金额',f.amount],['category','分类',f.category],['note','备注',f.note||'']],
+    todo:[['title','事项',f.title],['due_date','日期',f.due_date],['priority','优先级(1高/2普通)',f.priority]],
+    checkin:[['hours','时长',f.hours]],
+    review:[['went_well','做得好的',f.went_well]],
+    plan:[['title','名称',f.title],['target_hours','每天小时',f.target_hours],['total_days','天数',f.total_days]],
+    insp:[['content','内容',f.content]],
+  };
+  card.querySelector('.ac-rows').innerHTML = (defs[intent]||[]).map(([k,l,v])=>
+    `<div class="ac-row ac-edit-row"><span>${l}</span><input class="ac-input" data-f="${k}" value="${escapeHtml(String(v??''))}"></div>`).join('');
+  card.querySelector('.ac-btns').innerHTML = `
+    <button class="ac-confirm" onclick="lanSaveEdit(this)">保存并写入</button>
+    <button class="ac-edit" onclick="lanCancelEdit(this)">取消</button>`;
+  card.dataset.editing = '1';
+}
+
+function lanSaveEdit(btn){
+  const card = btn.closest('.lan-action-card');
+  const f = JSON.parse(card.dataset.fields);
+  card.querySelectorAll('.ac-input').forEach(inp=>{
+    const k = inp.dataset.f;
+    let v = inp.value;
+    if(k==='amount'||k==='hours'||k==='target_hours'||k==='total_days') v = parseFloat(v)||0;
+    if(k==='priority') v = parseInt(v)||2;
+    f[k] = v;
+  });
+  card.dataset.fields = JSON.stringify(f);
+  lanConfirmCard(btn);
+}
+
+function lanCancelEdit(btn){
+  const card = btn.closest('.lan-action-card');
+  const intent = card.dataset.intent;
+  const f = JSON.parse(card.dataset.fields);
+  card.querySelector('.ac-rows').innerHTML = lanCardRows(intent, f);
+  card.querySelector('.ac-btns').innerHTML = `
+    <button class="ac-confirm" onclick="lanConfirmCard(this)">确认写入</button>
+    <button class="ac-edit" onclick="lanEditCard(this)">修改</button>`;
+  delete card.dataset.editing;
+}
+
+// 确认执行
+async function lanConfirmCard(btn){
+  const card = btn.closest('.lan-action-card');
+  const intent = card.dataset.intent;
+  const f = JSON.parse(card.dataset.fields);
+  const res = await lanExecute(intent, f);
+  const wrap = card.closest('.lan-msg');
+  wrap.innerHTML = `<div class="lan-bubble">${res}</div><div class="lan-time">${new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}</div>`;
+  const chat = $('#lanChat');
+  chat.scrollTop = chat.scrollHeight;
+  loadOverview();
+}
+
+// 实际写入工作台
+async function lanExecute(intent, f){
+  try{
+    if(intent==='ledger'){
+      if(!f.amount || f.amount<=0) return '金额无效，请点「修改」重新填写';
+      await dbAdd('ledger',{type:f.type||'expense',amount:f.amount,category:f.category||'其他',note:f.note||'',record_date:f.record_date||localDate(),source:'lan'});
+      loadLedger(); autoBackup();
+      addExp(8, 'AI 记账');
+      return `已记入账本 · ${f.type==='income'?'收入':'支出'} ¥${f.amount}（${f.category||'其他'}）`;
+    }
+    if(intent==='todo'){
+      if(!f.title) return '待办内容为空，请点「修改」填写';
+      await dbAdd('todos',{title:f.title,category:f.category||'生活',priority:f.priority||2,due_date:f.due_date||localDate(),remind_time:f.remind_time||null,done:false,source:'lan'});
+      loadTodos(); autoBackup();
+      return `已加入待办 · ${f.title}${f.remind_time?'（'+f.remind_time+' 提醒）':''}`;
+    }
+    if(intent==='checkin'){
+      const plans = await dbAll('plans');
+      const today = localDate();
+      const checkins = await dbAll('checkins');
+      const target = plans.find(p=>!checkins.some(c=>c.plan_id===p.id&&c.checkin_date===today));
+      if(!target) return '今天所有计划都已打卡 ✅';
+      await dbAdd('checkins',{plan_id:target.id,checkin_date:today,hours:f.hours||1});
+      loadPlans(); autoBackup(); addExp(20,'AI 打卡');
+      return `已打卡 · ${target.title}（${f.hours||1} 小时）`;
+    }
+    if(intent==='review'){
+      const today = localDate();
+      const reviews = await dbAll('reviews');
+      const daySummary = await buildDaySummary();
+      const existing = reviews.find(r=>r.review_date===today);
+      if(existing){
+        if(f.went_well) existing.went_well = f.went_well;
+        if(f.went_wrong) existing.went_wrong = f.went_wrong;
+        if(f.improvement) existing.improvement = f.improvement;
+        if(f.mood) existing.mood = f.mood;
+        await dbPut('reviews', existing);
+      }else{
+        await dbAdd('reviews',{went_well:f.went_well||'',went_wrong:f.went_wrong||'',improvement:f.improvement||'',mood:f.mood||3,review_date:today,day_summary:daySummary});
+      }
+      loadReviews(); autoBackup(); addExp(20,'AI 复盘');
+      return '复盘已保存 ✅';
+    }
+    if(intent==='plan'){
+      if(!f.title) return '计划名称不能为空';
+      await dbAdd('plans',{title:f.title,target_hours:f.target_hours||1,total_days:f.total_days||30,start_date:localDate(),note:f.note||'',source:'lan'});
+      loadPlans(); autoBackup();
+      return `已创建学习计划 · ${f.title}（每天 ${f.target_hours||1}h × ${f.total_days||30} 天）`;
+    }
+    if(intent==='insp'){
+      if(!f.content) return '灵感内容为空';
+      await dbAdd('inspirations',{content:f.content,tags:[],naval_tags:[],rating:0,is_quote:false,created_at:new Date().toISOString(),source:'lan'});
+      loadInspirations(); autoBackup(); addExp(8,'AI 灵感');
+      return '灵感已记录 ✅';
+    }
+    return '操作完成';
+  }catch(e){ console.error(e); return '操作失败：'+e.message; }
+}
+
+// ============================================================
+// 教练模式 — 3 轮提问 → 自动生成草稿确认
+// ============================================================
+function lanStartCoach(type){
+  const flows = {
+    review:{
+      title:'复盘教练',
+      questions:[
+        '今天哪件事让你最有成就感？',
+        '有没有什么本来可以做、但没做的？',
+        '如果重来一次，你会怎么调整？'
+      ],
+      fields:['went_well','went_wrong','improvement']
+    },
+    plan:{
+      title:'计划教练',
+      questions:[
+        '这个计划的目标是什么？（比如：每天学英语）',
+        '每天能投入多少时间？',
+        '打算坚持多少天？'
+      ],
+      fields:['title','target_hours','total_days']
+    }
+  };
+  const flow = flows[type];
+  if(!flow) return;
+  lanCoach = {type, intent: type==='review'?'review':'plan', step:0, answers:{}, flow};
+  lanAppend('ai', `<b>${flow.title}</b> 开始。第 1 问：${flow.questions[0]}`);
+  lanCoach.step = 1;
+}
+
+function lanCoachAnswer(text){
+  if(!lanCoach) return;
+  const flow = lanCoach.flow;
+  const f = lanCoach.flow.fields[lanCoach.step-1];
+  let val = text.trim();
+  // 数字字段转换
+  if(f==='target_hours'||f==='total_days'){
+    const m = text.match(/(\d+(?:\.\d+)?)/);
+    val = m ? parseFloat(m[1]) : (f==='target_hours'?1:30);
+  }
+  lanCoach.answers[f] = val;
+  lanCoach.step++;
+  if(lanCoach.step <= 3){
+    lanAppend('ai', `收到。第 ${lanCoach.step} 问：${flow.questions[lanCoach.step-1]}`);
+  }else{
+    // 3 问完成 → 生成确认卡片
+    const a = lanCoach.answers;
+    const intent = lanCoach.intent;
+    const fields = lanCoach.type==='review'
+      ? {went_well:a.went_well||'',went_wrong:a.went_wrong||'',improvement:a.improvement||'',mood:3}
+      : {title:a.title||'学习计划',target_hours:+a.target_hours||1,total_days:+a.total_days||30};
+    lanCoach = null;
+    lanRenderCard(intent, fields);
+  }
+}
+
+// 教练模式入口（快捷指令/关键词触发）
+function lanQuickCoach(type){
+  lanAppend('me', type==='review' ? '帮我做今日复盘' : '帮我出个学习计划');
+  lanStartCoach(type);
+}
+
+// ============================================================
+// 主动层 — 本地检测 + 对话页提醒卡（异常才出现，不打扰）
+// ============================================================
+function daysBetween(d1, d2){
+  if(!d1) return 999;
+  const a = new Date(d1), b = new Date(d2);
+  return Math.round((b-a)/86400000);
+}
+
+async function showLanProactive(){
+  const box = $('#lanProactive');
+  if(!box) return;
+  const today = localDate();
+  if(localStorage.getItem('lan_proactive_date') === today) return;
+  const cards = [];
+
+  // 0. 晨间简报（当天首次打开 + 有今日待办）
+  try{
+    const todos = await dbAll('todos');
+    const todayTodos = todos.filter(t=>t.due_date===today && !t.done);
+    if(todayTodos.length){
+      cards.push({
+        title:'今日行动 · '+todayTodos.length+' 件待办',
+        msg: todayTodos.slice(0,3).map(t=>'· '+escapeHtml(t.title)).join('<br>') + (todayTodos.length>3 ? '<br>· …还有 '+ (todayTodos.length-3) + ' 件' : ''),
+        actions:[{label:'查看待办', click:"switchTab('todos')"}]
+      });
+    }
+    // 1. 晚间复盘引导（21 点后未复盘）
+    const reviews = await dbAll('reviews');
+    const h = new Date().getHours();
+    if(h >= 21 && !reviews.some(r=>r.review_date===today)){
+      cards.push({
+        title:'晚间复盘 · 3 分钟',
+        msg:'今天过得怎么样？让我陪你做一次 3 问复盘。',
+        actions:[{label:'开始复盘', click:"lanQuickCoach('review')"}]
+      });
+    }
+    // 2. 断卡唤醒（有计划但连续 ≥3 天未打卡）
+    const plans = await dbAll('plans');
+    const checkins = await dbAll('checkins');
+    if(plans.length){
+      const dates = checkins.map(c=>c.checkin_date).sort().reverse();
+      const gap = daysBetween(dates[0]||'', today);
+      if(gap >= 3){
+        cards.push({
+          title:'习惯断了吗？',
+          msg:'已有 '+gap+' 天没打卡了。习惯的复利，从今天这一刻重启。',
+          actions:[{label:'去打卡', click:"switchTab('study')"}]
+        });
+      }
+    }
+    // 3. 超预算 80%
+    const budget = await metaGet('monthlyBudget');
+    if(budget && budget.amount){
+      const ledger = await dbAll('ledger');
+      const m = today.slice(0,7);
+      const expense = ledger.filter(l=>l.type==='expense'&&l.record_date&&l.record_date.slice(0,7)===m).reduce((s,l)=>s+l.amount,0);
+      if(expense >= budget.amount*0.8){
+        cards.push({
+          title:'本月支出已用 80%',
+          msg:'本月已支出 ¥'+Math.round(expense)+'，预算 ¥'+budget.amount+'。要不要收敛一下？',
+          actions:[{label:'看账本', click:"switchTab('ledger')"}]
+        });
+      }
+    }
+    // 4. 灵感沉淀提议（≥10 条）
+    const insps = await dbAll('inspirations');
+    if(insps.length >= 10){
+      cards.push({
+        title:'灵感攒了不少',
+        msg:'已有 '+insps.length+' 条灵感。要不要让 Lan 帮你归纳成主题？',
+        actions:[{label:'归纳灵感', click:"lanQuickAsk('帮我归纳一下我的灵感')"}]
+      });
+    }
+  }catch(e){ console.error(e); }
+
+  if(!cards.length) return;
+  localStorage.setItem('lan_proactive_date', today);
+  box.innerHTML = cards.map(c=>`
+    <div class="lan-proactive">
+      <div class="pa-title">${c.title}</div>
+      <div>${c.msg}</div>
+      <div class="pa-actions">${c.actions.map(a=>`<button class="pa-btn" onclick="${a.click}">${a.label}</button>`).join('')}</div>
+    </div>`).join('');
 }
 
 function lanAction(type, label, desc){
@@ -3049,8 +3560,35 @@ async function toggleTodo(id){
     t.done_at = t.done ? new Date().toISOString() : null;
     await dbPut('todos',t);
     loadTodos(); loadOverview(); autoBackup();
-    if(t.done) addExp(10, '完成待办');
+    if(t.done){
+      addExp(10, '完成待办');
+      // 回流层：完成 Lan 建议的待办 → 采纳反馈 + 知行合一徽章
+      if(t.source==='lan'){
+        lanRecordAdoption(t.title);
+      }
+    }
   }catch(e){toast('操作失败')}
+}
+
+// 回流层：记录采纳 Lan 建议并完成
+async function lanRecordAdoption(title){
+  try{
+    const rec = await metaGet('lanAdoptions') || {count:0, titles:[], lastDate:''};
+    rec.count++;
+    rec.titles.push({title, date:localDate()});
+    if(rec.titles.length>20) rec.titles = rec.titles.slice(-20);
+    rec.lastDate = localDate();
+    await metaSet('lanAdoptions', rec);
+    // 额外经验 + 徽章
+    addExp(15, '采纳 Lan 建议');
+    const unlocked = await metaGet('unlockedBadges') || [];
+    if(rec.count>=1 && !unlocked.includes('zhixing_1')){
+      unlocked.push('zhixing_1');
+      await metaSet('unlockedBadges', unlocked);
+      toast('🏅 解锁徽章：知行合一（首次采纳 AI 建议并完成）');
+      if(typeof loadBadges==='function') loadBadges();
+    }
+  }catch(e){console.error(e)}
 }
 
 // 前端生成 .ics 日历文件 — 无需后端
@@ -4970,7 +5508,8 @@ function goToSearchResult(type){
 // FAB
 // ============================================================
 function onFabClick(){
-  if(currentTab==='cockpit') $('#lanInput').focus();
+  if(currentTab==='lan') $('#lanInput').focus();
+  else if(currentTab==='today') showTodoModal();
   else if(currentTab==='todos') showTodoModal();
   else if(currentTab==='ledger') showLedgerModal();
   else if(currentTab==='inspirations') showInspModal();
@@ -5008,6 +5547,7 @@ const BADGE_ICONS = {
   diamond:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20M9 3l3 6 3-6"/></svg>',
   question:   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5"/><path d="M12 17h.01"/></svg>',
   worm:       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v10a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v10a3 3 0 0 1 3-3h7z"/><path d="M10 8h.01M14 8h.01"/></svg>',
+  link:       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>',
 };
 
 const BADGES = [
@@ -5035,6 +5575,9 @@ const BADGES = [
 
   // 梦想徽章
   {id:'dream_done',  icon:'target',  name:'梦想成真',  desc:'达成一个梦想罐',  exp:100, hidden:false},
+
+  // AI 联动徽章
+  {id:'zhixing_1',   icon:'link',    name:'知行合一',  desc:'采纳 AI 建议并完成', exp:15, hidden:false},
 
   // 隐藏徽章
   {id:'night_owl',   icon:'moon',    name:'夜猫子',    desc:'深夜记录灵感',   exp:20,  hidden:true},
@@ -5361,6 +5904,8 @@ function registerSW(){
   loadTodos();
   loadSearchData();
   loadGamification();
+  initLan();
+  showLanProactive();
   loadBadges();
   // 数据变动后自动备份
   setInterval(autoBackup, 60000);
