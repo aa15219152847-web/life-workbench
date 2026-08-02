@@ -2120,6 +2120,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <div class="section-title">成就徽章</div>
       </div>
       <div id="badgeDashboard"></div>
+      <div id="trendDashboard" style="margin-bottom:16px"></div>
       <div class="badge-stats" id="badgeStats">
         <div class="badge-stat"><div class="v" id="badgeUnlocked">0</div><div class="l">已解锁</div></div>
         <div class="badge-stat"><div class="v" id="badgeLocked">0</div><div class="l">未解锁</div></div>
@@ -2240,6 +2241,25 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
           导入数据（会覆盖现有）
         </button>
         <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+      </div>
+
+      <!-- 云同步：同步码 AES-GCM 加密备份 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">云同步（换设备不丢数据）</div>
+        <div style="font-size:12.5px;color:var(--text-3);line-height:1.6;margin-bottom:14px">
+          设置一个同步码（≥8位），把全部数据<b>加密</b>后上传到云端。换设备时输入同一个同步码即可恢复。数据只认同步码，云端无法查看内容。
+        </div>
+        <div style="max-width:340px">
+          <div class="form-group">
+            <label>同步码</label>
+            <input class="form-input" type="text" id="syncCodeInput" placeholder="输入或设置同步码（≥8位）" autocomplete="off">
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="btn-primary" onclick="syncUpload()">加密上传</button>
+            <button class="btn-secondary" onclick="syncDownload()">云端恢复</button>
+          </div>
+        </div>
+        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">云端服务待配置 · 当前自动用剪贴板兜底（复制加密备份到另一台设备粘贴恢复）</div>
       </div>
 
       <!-- 自动备份说明 -->
@@ -3091,6 +3111,10 @@ const LAN_MODELS = [
 const LAN_KEY_STORE = 'lan_api_key';
 let lanHistory = [];
 let lanTyping = false;
+// 对话记忆：持久化到 meta（截断最近50条），Lan 记得聊过的内容
+const LAN_HISTORY_KEY = 'lanHistory';
+async function loadLanHistory(){ lanHistory = (await metaGet(LAN_HISTORY_KEY)) || []; }
+function lanPush(role, content){ lanHistory.push({role, content}); metaSet(LAN_HISTORY_KEY, lanHistory.slice(-50)); }
 
 function lanAppend(role, text, actions){
   const chat = $('#lanChat');
@@ -3130,10 +3154,91 @@ function lanTypingOff(){
 }
 
 // 上下文注入：收集工作台真实数据摘要
+// ============ 认知档案：从历史数据提炼"用户画像" ============
+function textTopWords(texts, n){
+  const stop = new Set(['的','了','我','你','他','她','它','我们','你们','他们','在','是','有','没','不','都','就','也','很','太','这','那','和','与','或','但','还','又','再','才','只','最','更','一个','什么','怎么','为什么','今天','明天','昨天','时候','自己','现在','然后','所以','因为','但是','可以','应该','需要','觉得','感觉','问题','事情','时间','工作','学习','生活','每天','一直','有点','真的','还是','没有','就是','不是','这个','那个','一下','一点']);
+  const freq = {};
+  for(const t of texts){
+    const s = String(t||'').replace(/[a-zA-Z0-9\s\d，。！？、,.!?;；:：""''（）()《》【】\-—]/g,'');
+    for(let i=0;i<s.length-1;i++){
+      const w = s.slice(i,i+2);
+      if(stop.has(w) || w.includes(' ')) continue;
+      freq[w] = (freq[w]||0)+1;
+    }
+  }
+  return Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,n||3).map(x=>x[0]);
+}
+async function buildUserProfile(){
+  try{
+    const today = localDate();
+    const lastDate = await metaGet('userProfileDate');
+    if(lastDate === today) return metaGet('userProfile');
+    const todos = await dbAll('todos');
+    const ledger = await dbAll('ledger');
+    const checkins = await dbAll('checkins');
+    const reviews = await dbAll('reviews');
+    const inspirations = await dbAll('inspirations');
+    const plans = await dbAll('plans');
+    const profile = {};
+    // 1. 进行中的目标
+    const active = plans.filter(p=>!p.done);
+    profile.goals = active.slice(0,3).map(p=>p.title);
+    // 2. 拖延信号：逾期未完成
+    const overdue = todos.filter(t=>!t.done && t.due_date && t.due_date < today);
+    profile.procrastination = overdue.length;
+    profile.procrastinationTop = overdue.length ? overdue.slice(0,3).map(t=>t.title)[0] : null;
+    // 3. 行动节奏：近7天/近30天打卡天数
+    const d7 = new Date(); d7.setDate(d7.getDate()-7);
+    const d30 = new Date(); d30.setDate(d30.getDate()-30);
+    const last30 = checkins.filter(c=>c.checkin_date >= localDateFrom(d30));
+    const last7 = last30.filter(c=>c.checkin_date >= localDateFrom(d7));
+    profile.checkin7 = [...new Set(last7.map(c=>c.checkin_date))].length;
+    profile.checkin30 = [...new Set(last30.map(c=>c.checkin_date))].length;
+    // 4. 情绪基线：近30天复盘心情均值 + 趋势
+    const moods = reviews.filter(r=>typeof r.mood==='number' && r.mood>=1 && r.mood<=5).slice(-30).map(r=>r.mood);
+    if(moods.length>=3){
+      const half = Math.floor(moods.length/2);
+      const a = moods.slice(0,half).reduce((s,v)=>s+v,0)/half;
+      const b = moods.slice(half).reduce((s,v)=>s+v,0)/(moods.length-half);
+      profile.moodAvg = (moods.reduce((s,v)=>s+v,0)/moods.length).toFixed(1);
+      profile.moodTrend = b > a+0.3 ? 'up' : (b < a-0.3 ? 'down' : 'flat');
+    }else if(moods.length){ profile.moodAvg = (moods.reduce((s,v)=>s+v,0)/moods.length).toFixed(1); }
+    // 5. 反复出现的瓶颈：复盘"待改进"高频词
+    const wrongTexts = reviews.map(r=>r.went_wrong).filter(Boolean);
+    if(wrongTexts.length >= 3) profile.bottlenecks = textTopWords(wrongTexts, 3);
+    // 6. 财务习惯：本月 vs 上月支出
+    const m = today.slice(0,7);
+    const prevM = new Date(); prevM.setDate(1); prevM.setMonth(prevM.getMonth()-1);
+    const pm = prevM.getFullYear()+'-'+String(prevM.getMonth()+1).padStart(2,'0');
+    const thisExp = ledger.filter(l=>l.type==='expense'&&l.record_date&&l.record_date.slice(0,7)===m).reduce((s,l)=>s+l.amount,0);
+    const prevExp = ledger.filter(l=>l.type==='expense'&&l.record_date&&l.record_date.slice(0,7)===pm).reduce((s,l)=>s+l.amount,0);
+    profile.expenseTrend = prevExp>0 ? Math.round((thisExp-prevExp)/prevExp*100) : null;
+    // 7. 灵感主题
+    if(inspirations.length>=5) profile.ideaTopics = textTopWords(inspirations.map(i=>i.content).slice(-40), 3);
+    await metaSet('userProfile', profile);
+    await metaSet('userProfileDate', today);
+    return profile;
+  }catch(e){ return null; }
+}
+function localDateFrom(d){
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+}
+
 async function buildLanContext(){
   const today = localDate();
   const parts = [];
   try{
+    // 认知档案优先注入（个性化核心）
+    const profile = await buildUserProfile();
+    if(profile){
+      if(profile.goals && profile.goals.length) parts.push('用户目标: '+profile.goals.join('、'));
+      if(profile.procrastination>0) parts.push('拖延中的待办 '+profile.procrastination+' 件，最久的是「'+profile.procrastinationTop+'」');
+      if(profile.checkin30>=0 && (profile.checkin7!==undefined)) parts.push('近7天打卡 '+profile.checkin7+' 天 / 近30天 '+profile.checkin30+' 天');
+      if(profile.moodAvg) parts.push('近30天心情均值 '+profile.moodAvg+'/5'+(profile.moodTrend==='up'?'（回升中）':profile.moodTrend==='down'?'（走低，需关注）':'（平稳）'));
+      if(profile.bottlenecks && profile.bottlenecks.length) parts.push('复盘反复出现: '+profile.bottlenecks.join('、'));
+      if(profile.expenseTrend!==null && profile.expenseTrend!==undefined) parts.push('本月支出较上月 '+(profile.expenseTrend>=0?'+':'')+profile.expenseTrend+'%');
+      if(profile.ideaTopics && profile.ideaTopics.length) parts.push('灵感高频主题: '+profile.ideaTopics.join('、'));
+    }
     const todos = await dbAll('todos');
     const todayTodos = todos.filter(t=>t.due_date===today);
     const undone = todayTodos.filter(t=>!t.done);
@@ -3284,7 +3389,7 @@ async function lanSend(){
   }
   // 普通对话
   lanAppend('me', escapeHtml(text));
-  lanHistory.push({role:'user', content:text});
+  lanPush('user', text);
   lanTypingOn();
   try{
     const reply = await lanAsk(text);
@@ -3305,7 +3410,7 @@ async function lanSend(){
       }catch(e){
         lanAppend('ai', '（操作解析失败，请手动操作）');
       }
-      lanHistory.push({role:'assistant', content:reply});
+      lanPush('assistant', reply);
       return;
     }
     const models = lanMatchModels(text);
@@ -3315,7 +3420,7 @@ async function lanSend(){
       `</div>` : '';
     const actions = [{type:'todo', label:'转今日待办', desc:reply.slice(0,80)}];
     lanAppend('ai', reply + modelBlock, actions);
-    lanHistory.push({role:'assistant', content:reply});
+    lanPush('assistant', reply);
   }catch(e){
     lanTypingOff();
     lanAppend('ai', '⚠️ 出错了：'+e.message+'<br><br>请检查 AI Key 配置是否有效。', []);
@@ -3324,7 +3429,7 @@ async function lanSend(){
 
 function lanQuickAsk(text){
   lanAppend('me', escapeHtml(text));
-  lanHistory.push({role:'user', content:text});
+  lanPush('user', text);
   lanTypingOn();
   lanAsk(text).then(reply=>{
     lanTypingOff();
@@ -3333,7 +3438,7 @@ function lanQuickAsk(text){
       `<br><br><div style="border-top:1px dashed var(--border);padding-top:8px;margin-top:8px;font-size:12.5px;color:var(--text-3)"><b>🧠 适用思维模型：</b><br>` +
       models.map(m=>`<b>${m.name}</b>（${m.src}）· ${m.one}`).join('<br>') + `</div>` : '';
     lanAppend('ai', reply + modelBlock, [{type:'todo', label:'转今日待办', desc:reply.slice(0,80)}]);
-    lanHistory.push({role:'assistant', content:reply});
+    lanPush('assistant', reply);
   }).catch(e=>{
     lanTypingOff();
     lanAppend('ai', '⚠️ 出错了：'+e.message, []);
@@ -3814,6 +3919,7 @@ function saveLanKey(){
 
 // 初始化 Lan 提示状态
 function initLan(){
+  loadLanHistory(); // 恢复对话记忆
   const hint = $('#lanApiHint');
   if(hint && localStorage.getItem(LAN_KEY_STORE)){
     hint.innerHTML = 'AI Key 已配置';
@@ -5662,6 +5768,99 @@ async function generateMonthlyReport(){
   }catch(e){ toast('生成失败'); console.error(e); }
 }
 
+// ============ 云同步：同步码 AES-GCM 加密备份 ============
+const CLOUD_SYNC_ENDPOINT = ''; // TODO: 明天填入 Cloudflare Worker 地址（如 https://xxx.workers.dev/sync）
+const SYNC_CODE_KEY = 'sync_code';
+const SYNC_SALT = 'lan-workbench-sync-v1';
+
+function syncBytesToB64(bytes){
+  let bin = '';
+  for(let i=0;i<bytes.length;i+=0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i+0x8000));
+  return btoa(bin);
+}
+function syncB64ToBytes(b64){
+  const bin = atob(b64);
+  const out = new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+async function syncGetKey(){
+  const input = $('#syncCodeInput');
+  let code = localStorage.getItem(SYNC_CODE_KEY) || (input ? input.value.trim() : '');
+  if(!code){ toast('请先输入同步码（≥8位）'); return null; }
+  if(code.length < 8){ toast('同步码至少 8 位'); return null; }
+  if(input) input.value = code;
+  localStorage.setItem(SYNC_CODE_KEY, code);
+  const enc = new TextEncoder();
+  const base = await crypto.subtle.importKey('raw', enc.encode(code), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2', salt:enc.encode(SYNC_SALT), iterations:120000, hash:'SHA-256'}, base, {name:'AES-GCM', length:256}, false, ['encrypt','decrypt']);
+}
+async function syncCollect(){
+  const stores = ['todos','ledger','inspirations','plans','checkins','reviews'];
+  const tables = {};
+  for(const s of stores) tables[s] = await dbAll(s);
+  return {v:1, savedAt:new Date().toISOString(), tables, meta: await dbAll('meta')};
+}
+async function syncUpload(){
+  const key = await syncGetKey();
+  if(!key) return;
+  try{
+    const data = await syncCollect();
+    const plain = new TextEncoder().encode(JSON.stringify(data));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, plain);
+    const payload = JSON.stringify({iv: syncBytesToB64(iv), data: syncBytesToB64(new Uint8Array(ct)), savedAt: data.savedAt});
+    let uploaded = false;
+    if(CLOUD_SYNC_ENDPOINT){
+      try{
+        const r = await fetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'put', body: payload})});
+        uploaded = r.ok;
+      }catch(e){ uploaded = false; }
+    }
+    if(uploaded){
+      $('#syncHint').textContent = '已加密上传到云端 · '+new Date().toLocaleString();
+      toast('云端同步完成');
+    }else{
+      try{ await navigator.clipboard.writeText(payload); $('#syncHint').textContent = '云端服务待配置 · 加密备份已复制到剪贴板，粘贴到另一台设备后用「云端恢复」导入'; toast('已复制加密备份（云端待配置）'); }
+      catch(e){ $('#syncHint').textContent = '云端待配置且剪贴板不可用，请先配置 CLOUD_SYNC_ENDPOINT'; toast('请配置云端服务'); }
+    }
+  }catch(e){ toast('加密上传失败: '+e.message); }
+}
+async function syncDownload(){
+  const key = await syncGetKey();
+  if(!key) return;
+  try{
+    let payload = null;
+    if(CLOUD_SYNC_ENDPOINT){
+      try{
+        const r = await fetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'get'})});
+        if(r.ok) payload = await r.json();
+      }catch(e){ payload = null; }
+    }
+    if(!payload){
+      const clip = await navigator.clipboard.readText().catch(()=>null);
+      if(!clip){ toast('云端未配置且剪贴板为空'); return; }
+      try{ payload = JSON.parse(clip); }catch(e){ toast('剪贴板内容不是有效备份'); return; }
+    }
+    if(!payload || !payload.iv || !payload.data){ toast('备份数据格式无效'); return; }
+    const iv = syncB64ToBytes(payload.iv);
+    const ct = syncB64ToBytes(payload.data);
+    const plain = await crypto.subtle.decrypt({name:'AES-GCM', iv}, key, ct);
+    const data = JSON.parse(new TextDecoder().decode(plain));
+    if(!data.tables){ toast('备份内容不完整'); return; }
+    const stores = Object.keys(data.tables);
+    for(const s of stores){
+      const all = await dbAll(s);
+      for(const it of all) await dbDelete(s, it.key !== undefined ? it.key : it.id);
+      for(const it of (data.tables[s]||[])) await dbPut(s, it);
+    }
+    if(data.meta) for(const it of data.meta) await dbPut('meta', it);
+    $('#syncHint').textContent = '已从云端/剪贴板恢复 · '+new Date().toLocaleString();
+    toast('恢复成功（'+stores.length+' 个模块）');
+    loadOverview(); loadTodos(); loadToday(); autoBackup();
+  }catch(e){ toast('恢复失败: '+e.message+'（同步码可能不正确）'); }
+}
+
 async function exportData(){
   try{
     const data = {
@@ -6035,6 +6234,84 @@ async function loadBadges(){
   $('#badgeLocked').textContent = BADGES.length - unlocked.length;
   $('#badgeHidden').textContent = hiddenCount;
   $('#badgeExp').textContent = badgeExp;
+  renderTrends(allData);
+}
+
+// ============ 趋势面板：支出/情绪/打卡 可视化（纯 SVG，零依赖） ============
+function renderTrends(d){
+  const el = $('#trendDashboard');
+  if(!el) return;
+  const now = new Date();
+  const today = localDate();
+  // —— 近6月支出折线 ——
+  const months = [];
+  for(let i=5;i>=0;i--){
+    const dt = new Date(now.getFullYear(), now.getMonth()-i, 1);
+    months.push({key:dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0'), label:String(dt.getMonth()+1)+'月'});
+  }
+  const expByMonth = months.map(m=>d.ledger.filter(l=>l.type==='expense'&&l.record_date&&l.record_date.slice(0,7)===m.key).reduce((s,l)=>s+l.amount,0));
+  const maxExp = Math.max(...expByMonth, 1);
+  // —— 近30天情绪曲线 ——
+  const moodDays = [];
+  for(let i=29;i>=0;i--){
+    const dt = new Date(now); dt.setDate(dt.getDate()-i);
+    const ds = dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');
+    const rv = d.reviews.find(r=>r.review_date===ds);
+    moodDays.push(rv && typeof rv.mood==='number' ? rv.mood : null);
+  }
+  const hasMood = moodDays.some(v=>v!==null);
+  // —— 近8周打卡次数（每周天数） ——
+  const weeks = [];
+  for(let i=7;i>=0;i--){
+    const end = new Date(now); end.setDate(end.getDate()-i*7);
+    const start = new Date(end); start.setDate(start.getDate()-6);
+    const sk = start.getFullYear()+'-'+String(start.getMonth()+1).padStart(2,'0')+'-'+String(start.getDate()).padStart(2,'0');
+    const ek = end.getFullYear()+'-'+String(end.getMonth()+1).padStart(2,'0')+'-'+String(end.getDate()).padStart(2,'0');
+    const cnt = new Set(d.checkins.filter(c=>c.checkin_date>=sk&&c.checkin_date<=ek).map(c=>c.checkin_date)).size;
+    weeks.push({label:'W'+String(8-i), cnt});
+  }
+  const maxWeek = Math.max(...weeks.map(w=>w.cnt), 1);
+
+  const svgW = 560, svgH = 96, padL = 34, padR = 8, padT = 10, padB = 18;
+  const plotW = svgW - padL - padR, plotH = svgH - padT - padB;
+  // 折线辅助函数
+  const pts = (arr, scale) => arr.map((v,i)=>`${(padL + plotW*i/Math.max(arr.length-1,1)).toFixed(1)},${(padT + plotH - (v||0)/scale*plotH).toFixed(1)}`).join(' ');
+  const line = (arr, scale) => `<polyline points="${pts(arr,scale)}" fill="none" stroke="#534AB7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>`;
+  const dots = (arr, scale) => arr.map((v,i)=>v>0?`<circle cx="${(padL + plotW*i/Math.max(arr.length-1,1)).toFixed(1)}" cy="${(padT + plotH - v/scale*plotH).toFixed(1)}" r="2.2" fill="#534AB7"/>`:'').join('');
+  const grid = `<line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT+plotH}" stroke="#D3D1C7" stroke-width="0.5"/><line x1="${padL}" y1="${padT+plotH}" x2="${svgW-padR}" y2="${padT+plotH}" stroke="#D3D1C7" stroke-width="0.5"/>`;
+  const labels = (arr, skip) => arr.map((v,i)=>i%skip===0?`<text x="${(padL + plotW*i/Math.max(arr.length-1,1)).toFixed(1)}" y="${svgH-4}" text-anchor="middle" style="font-size:11px;fill:#888780">${v}</text>`:'').join('');
+
+  let html = '';
+  // 卡片1：月度支出
+  html += `<div class="card-base" style="padding:16px;margin-bottom:12px">
+    <div style="font-size:13px;font-weight:500;color:var(--text-2);margin-bottom:10px">近 6 月支出趋势</div>
+    <svg viewBox="0 0 ${svgW} ${svgH}" width="100%" role="img">
+      ${grid}${line(expByMonth, maxExp)}${dots(expByMonth, maxExp)}${labels(months.map(m=>m.label), 1)}
+    </svg></div>`;
+  // 卡片2：情绪曲线
+  if(hasMood){
+    const moodVals = moodDays.map(v=>v||0);
+    html += `<div class="card-base" style="padding:16px;margin-bottom:12px">
+      <div style="font-size:13px;font-weight:500;color:var(--text-2);margin-bottom:10px">近 30 天心情曲线</div>
+      <svg viewBox="0 0 ${svgW} ${svgH}" width="100%" role="img">
+        ${grid}
+        <line x1="${padL}" y1="${padT+plotH*0.5}" x2="${svgW-padR}" y2="${padT+plotH*0.5}" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="3 3"/>
+        ${line(moodVals, 5)}
+        <circle cx="${padL+plotW*0.25}" cy="${padT+plotH*0.5}" r="2.2" fill="#888780"/>
+        <text x="${padL+plotW*0.25+8}" y="${padT+plotH*0.5+3}" style="font-size:11px;fill:#888780">中值</text>
+        ${labels(moodDays.map((_,i)=>i%5===0?String(30-i)+'天':''), 1)}
+      </svg></div>`;
+  }
+  // 卡片3：打卡热力周
+  html += `<div class="card-base" style="padding:16px;margin-bottom:12px">
+    <div style="font-size:13px;font-weight:500;color:var(--text-2);margin-bottom:10px">近 8 周打卡天数</div>
+    <svg viewBox="0 0 ${svgW} ${svgH}" width="100%" role="img">
+      ${grid}
+      ${weeks.map((w,i)=>`<rect x="${(padL + plotW*i/7).toFixed(1)}" y="${(padT + plotH - w.cnt/maxWeek*plotH).toFixed(1)}" width="${(plotW/7*0.62).toFixed(1)}" height="${Math.max(w.cnt/maxWeek*plotH,1).toFixed(1)}" rx="3" fill="#534AB7" opacity="${0.35+0.65*w.cnt/maxWeek}"/>`).join('')}
+      ${labels(weeks.map(w=>w.label), 1)}
+    </svg></div>`;
+
+  el.innerHTML = html;
 }
 
 function calcStreak(checkins){
