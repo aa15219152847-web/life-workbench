@@ -59,6 +59,11 @@
   --ease-standard:cubic-bezier(.4,0,.2,1);
   --glass:rgba(255,255,255,.88);
   --glass-border:rgba(10,37,64,.1);
+  /* 排版刻度 — 7 档字号 */
+  --fs-xs:12px;--fs-sm:13px;--fs-base:14px;--fs-lg:16px;--fs-xl:20px;--fs-2xl:24px;--fs-3xl:28px;
+  --fw-title:650;
+  /* 统一缓动 */
+  --ease-out-quart:cubic-bezier(.25,1,.5,1);
 }
 /* 暗色模式 — Navy 夜景（Lv5 解锁） */
 html[data-theme="dark"]{
@@ -108,6 +113,7 @@ html[data-theme="dark"] .form-textarea{
 html[data-theme="dark"] .pwa-guide-steps .step,
 html[data-theme="dark"] .quest-item{background:rgba(18,35,61,.6)}
 html[data-theme="dark"] .section-count{background:rgba(18,35,61,.6);border-color:rgba(255,255,255,.1)}
+html[data-theme="dark"] .lan-bubble{background:rgba(18,35,61,.75);border-color:rgba(255,255,255,.08)}
 html[data-theme="dark"] .mood-btn{background:rgba(18,35,61,.6);border-color:rgba(255,255,255,.1)}
 html[data-theme="dark"] .levelup-card{background:rgba(5,13,26,.95)}
 
@@ -270,9 +276,8 @@ a{color:inherit;text-decoration:none}
   display:flex;align-items:baseline;gap:10px;
 }
 .topbar-titles h1{
-  font-size:28px;font-weight:700;letter-spacing:-.8px;
-  background:linear-gradient(135deg,#000000 0%,#0F1B2D 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  font-size:var(--fs-3xl);font-weight:var(--fw-title);letter-spacing:-.8px;
+  color:var(--text);
   line-height:1.2;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
@@ -294,10 +299,10 @@ a{color:inherit;text-decoration:none}
   flex-shrink:0;
 }
 .ov-card{
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   padding:20px;
@@ -312,7 +317,7 @@ a{color:inherit;text-decoration:none}
   border-color:rgba(255,255,255,.75);
   transform:translateY(-2px);
   box-shadow:0 8px 30px rgba(10,37,64,.12);
-  background:rgba(255,255,255,.6);
+  background:rgba(255,255,255,.4);
 }
 .ov-card .ov-icon{
   position:absolute;top:18px;right:18px;
@@ -371,27 +376,27 @@ a{color:inherit;text-decoration:none}
 }
 .section-count{
   font-size:13px;color:var(--text-2);
-  background:rgba(255,255,255,.6);
+  background:rgba(255,255,255,.4);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   padding:5px 12px;border-radius:8px;
   font-variant-numeric:tabular-nums;font-weight:600;
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
 }
 
 /* ============================================================
    卡片通用 — 亮度差分层
    ============================================================ */
 .card-base{
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
 }
-.card-base:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6)}
+.card-base:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.4)}
 
 /* ============================================================
    待办 — 签名动效：完成时的粒子散开
@@ -399,17 +404,17 @@ a{color:inherit;text-decoration:none}
 .todo-item{
   display:flex;align-items:flex-start;gap:14px;
   padding:18px 20px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius-md);
   margin-bottom:10px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
   position:relative;
 }
-.todo-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);transform:translateX(2px)}
+.todo-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.4);transform:translateX(2px)}
 .todo-check{
   width:24px;height:24px;flex-shrink:0;
   border:1.5px solid var(--border-hover);
@@ -476,11 +481,11 @@ a{color:inherit;text-decoration:none}
   background:rgba(10,37,64,.08);
   border-radius:var(--radius-md);overflow:hidden;
   margin-bottom:16px;
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
 }
 .ls-cell{
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
   padding:20px 18px;
@@ -494,16 +499,16 @@ a{color:inherit;text-decoration:none}
 .ledger-item{
   display:flex;align-items:center;gap:14px;
   padding:16px 20px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
 }
-.ledger-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);transform:translateX(2px)}
+.ledger-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.4);transform:translateX(2px)}
 .ledger-icon{
   width:44px;height:44px;border-radius:12px;
   display:flex;align-items:center;justify-content:center;
@@ -526,11 +531,11 @@ a{color:inherit;text-decoration:none}
 .news-tabs{display:flex;gap:8px;margin-bottom:16px}
 .news-tab{
   padding:10px 22px;border-radius:24px;font-size:14px;font-weight:700;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(12px);
   -webkit-backdrop-filter:blur(12px);
   color:var(--text-2);
-  border:1px solid rgba(255,255,255,.72);
+  border:1px solid rgba(255,255,255,.62);
   transition:all .2s var(--ease-standard);
 }
 .news-tab:hover{border-color:var(--border-hover)}
@@ -540,17 +545,17 @@ a{color:inherit;text-decoration:none}
 }
 .news-item{
   padding:18px 20px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   display:block;
   transition:all .25s var(--ease-out);
 }
-.news-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);transform:translateX(3px)}
+.news-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.4);transform:translateX(3px)}
 .news-title{font-size:16px;font-weight:700;line-height:1.45;letter-spacing:-.2px;color:var(--text)}
 .news-summary{font-size:14px;color:var(--text-2);margin-top:8px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500}
 .news-meta{display:flex;gap:10px;margin-top:12px;font-size:13px;color:var(--text-2);align-items:center;font-weight:500}
@@ -566,17 +571,17 @@ a{color:inherit;text-decoration:none}
    ============================================================ */
 .insp-item{
   padding:18px 20px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
   border-left:3px solid transparent;
 }
-.insp-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6);border-left-color:var(--primary)}
+.insp-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.4);border-left-color:var(--primary)}
 .insp-content{font-size:16px;line-height:1.65;white-space:pre-wrap;word-break:break-word;letter-spacing:-.1px;color:var(--text);font-weight:500}
 .insp-meta{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
 .insp-time{font-size:13px;color:var(--text-2);font-variant-numeric:tabular-nums;font-weight:500}
@@ -586,16 +591,16 @@ a{color:inherit;text-decoration:none}
    ============================================================ */
 .plan-item{
   padding:20px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius-md);
   margin-bottom:10px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   transition:all .25s var(--ease-out);
 }
-.plan-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.6)}
+.plan-item:hover{border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.4)}
 .plan-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .plan-title{font-size:17px;font-weight:700;flex:1;letter-spacing:-.3px;color:var(--text)}
 .plan-checkin-btn{
@@ -618,10 +623,10 @@ a{color:inherit;text-decoration:none}
    复盘
    ============================================================ */
 .review-form-card{
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius);
   box-shadow:0 4px 24px rgba(10,37,64,.08);
   padding:24px;
@@ -630,7 +635,7 @@ a{color:inherit;text-decoration:none}
 .review-field label{display:block;font-size:13px;color:var(--text);margin-bottom:8px;letter-spacing:.3px;font-weight:700}
 .review-field textarea{
   width:100%;min-height:76px;padding:14px 16px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);
@@ -642,7 +647,7 @@ a{color:inherit;text-decoration:none}
 .mood-picker{display:flex;gap:8px}
 .mood-btn{
   flex:1;padding:14px;border-radius:var(--radius-sm);
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);
@@ -657,10 +662,10 @@ a{color:inherit;text-decoration:none}
 }
 .review-history-item{
   padding:18px 20px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(24px) saturate(1.6);
   -webkit-backdrop-filter:blur(24px) saturate(1.6);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   border-radius:var(--radius-md);
   margin-bottom:8px;
   box-shadow:0 4px 24px rgba(10,37,64,.08);
@@ -726,7 +731,7 @@ a{color:inherit;text-decoration:none}
 .form-group label{display:block;font-size:13px;color:var(--text);margin-bottom:8px;letter-spacing:.3px;font-weight:700}
 .form-input,.form-select,.form-textarea{
   width:100%;padding:14px 16px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);
@@ -751,7 +756,7 @@ a{color:inherit;text-decoration:none}
 .chip-group{display:flex;flex-wrap:wrap;gap:8px}
 .chip{
   padding:10px 20px;border-radius:24px;font-size:14px;font-weight:700;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(8px);
   -webkit-backdrop-filter:blur(8px);
   border:1px solid rgba(10,37,64,.1);color:var(--text-2);
@@ -765,10 +770,18 @@ a{color:inherit;text-decoration:none}
    ============================================================ */
 .empty{
   text-align:center;padding:72px 20px;color:var(--text-3);
+  display:flex;flex-direction:column;align-items:center;gap:6px;
 }
-.empty svg{width:56px;height:56px;opacity:.15;margin-bottom:16px}
-.empty p{font-size:15px;line-height:1.7;font-weight:600}
-.empty p span{color:var(--text-2);font-size:14px;font-weight:500}
+.empty svg{width:34px;height:34px;opacity:.45;margin-bottom:2px}
+.empty p{font-size:var(--fs-sm);line-height:1.7;font-weight:600;color:var(--text-2)}
+.empty p span{color:var(--text-4);font-size:var(--fs-xs);font-weight:500}
+.empty .empty-btn{
+  margin-top:10px;padding:8px 18px;border-radius:12px;border:none;cursor:pointer;
+  background:var(--primary-grad);color:#fff;font-size:var(--fs-xs);font-weight:600;
+  box-shadow:0 4px 14px var(--primary-glow-2);transition:transform .2s var(--ease-out-quart);
+}
+.empty .empty-btn:active{transform:scale(.95)}
+.empty .empty-btn:hover{opacity:.9}
 
 /* ============================================================
    Toast — 顶部胶囊
@@ -797,8 +810,16 @@ a{color:inherit;text-decoration:none}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* 列表项进入动画 — stagger */
-.list-item{animation:listIn .4s var(--ease-out) both}
+.list-item{animation:listIn .5s var(--ease-out-quart) both}
+.list-item:nth-child(2){animation-delay:.04s}
+.list-item:nth-child(3){animation-delay:.08s}
+.list-item:nth-child(4){animation-delay:.12s}
+.list-item:nth-child(5){animation-delay:.16s}
+.list-item:nth-child(6){animation-delay:.2s}
 @keyframes listIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+/* 徽章解锁弹跳 */
+@keyframes badgeUnlock{0%{transform:scale(.7);opacity:0}60%{transform:scale(1.07)}100%{transform:scale(1);opacity:1}}
+.badge-card.unlocked{animation:badgeUnlock .55s var(--ease-spring) backwards}
 
 /* ============================================================
    开机画面（Splash）
@@ -816,6 +837,18 @@ a{color:inherit;text-decoration:none}
   border:2px solid rgba(255,255,255,.15);
   box-shadow:0 12px 40px rgba(10,37,64,.5);
   animation:splashPop .7s var(--ease-spring) both;
+  position:relative;
+}
+.splash-logo::before{
+  content:'';position:absolute;inset:-4px;border-radius:32px;z-index:-1;
+  background:linear-gradient(135deg,rgba(212,175,55,.55),rgba(99,91,255,.35),rgba(212,175,55,.55));
+  background-size:220% 220%;
+  animation:splashHalo 2.6s var(--ease-standard) infinite;
+}
+@keyframes splashHalo{
+  0%{background-position:0% 50%;opacity:.7}
+  50%{background-position:100% 50%;opacity:1}
+  100%{background-position:0% 50%;opacity:.7}
 }
 .splash-logo img{
   width:100%;height:100%;object-fit:cover;
@@ -957,6 +990,76 @@ a{color:inherit;text-decoration:none}
    Lan 智能体 — 对话界面
    ============================================================ */
 .lan-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+/* ============================================================
+   驾驶舱 — 今日状态带 + Lan 对话区
+   ============================================================ */
+.cockpit-stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;
+  margin-bottom:14px;
+}
+.cp-stat{
+  display:flex;flex-direction:column;align-items:center;gap:4px;
+  padding:14px 6px 12px;border-radius:var(--radius-md);
+  background:rgba(255,255,255,.62);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,.4);
+  box-shadow:0 8px 32px rgba(10,37,64,.06);
+  cursor:pointer;transition:transform .25s var(--ease-out-quart),box-shadow .25s;
+  -webkit-tap-highlight-color:transparent;
+}
+.cp-stat:active{transform:scale(.95)}
+.cp-stat:hover{transform:translateY(-2px);box-shadow:0 12px 36px rgba(10,37,64,.1)}
+.cp-icon{
+  width:36px;height:36px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:2px;
+}
+.cp-icon svg{width:18px;height:18px}
+.cp-value{
+  font-size:var(--fs-lg);font-weight:800;color:var(--text);
+  font-variant-numeric:tabular-nums;letter-spacing:-.3px;line-height:1.2;
+}
+.cp-label{font-size:var(--fs-xs);color:var(--text-4);font-weight:600}
+/* Lan 卡片容器 */
+.lan-card{
+  border-radius:var(--radius);padding:18px 16px 14px;margin-bottom:18px;
+  background:rgba(255,255,255,.62);
+  backdrop-filter:blur(20px) saturate(1.3);-webkit-backdrop-filter:blur(20px) saturate(1.3);
+  border:1px solid rgba(255,255,255,.4);
+  box-shadow:0 8px 32px rgba(10,37,64,.06);
+}
+.lan-card-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.lan-avatar{
+  width:42px;height:42px;border-radius:14px;flex-shrink:0;
+  background:var(--primary-grad);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 16px var(--primary-glow-2);
+}
+.lan-avatar svg{width:22px;height:22px}
+.lan-card-title{font-size:var(--fs-sm);font-weight:700;color:var(--text)}
+.lan-card-hint{font-size:var(--fs-xs);color:var(--text-4);margin-top:1px}
+/* 数字专用对齐 */
+.value,.cp-value,.ls-cell .v,.badge-stat .v,.quest-exp,.streak-badge,.exp-text-mini{
+  font-variant-numeric:tabular-nums;
+}
+/* 深色下驾驶舱卡片 */
+html[data-theme="dark"] .cp-stat,
+html[data-theme="dark"] .lan-card{
+  background:rgba(18,35,61,.72);
+  border-color:rgba(255,255,255,.06);
+  box-shadow:0 8px 32px rgba(0,0,0,.25);
+}
+@media(max-width:768px){
+  .cockpit-stats{grid-template-columns:repeat(4,1fr);gap:6px}
+  .cp-stat{padding:12px 2px 10px}
+  .cp-icon{width:32px;height:32px;border-radius:10px}
+  .cp-icon svg{width:16px;height:16px}
+  .cp-value{font-size:var(--fs-base)}
+  .cp-label{font-size:10.5px}
+}
+/* ============================================================
+   Lan 智能体对话
+   ============================================================ */
 .lan-chat{
   display:flex;flex-direction:column;gap:12px;
   min-height:380px;max-height:56vh;overflow-y:auto;
@@ -967,10 +1070,10 @@ a{color:inherit;text-decoration:none}
 .lan-msg.lan-me{align-self:flex-end;align-items:flex-end}
 .lan-bubble{
   padding:12px 16px;border-radius:16px;font-size:14px;line-height:1.65;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   backdrop-filter:blur(16px);
   -webkit-backdrop-filter:blur(16px);
-  border:1px solid rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.4);
   box-shadow:0 2px 12px rgba(10,37,64,.06);
   color:var(--text);
   word-break:break-word;
@@ -984,6 +1087,9 @@ a{color:inherit;text-decoration:none}
 .lan-msg.lan-me .lan-time{align-self:flex-end}
 .lan-input-row{display:flex;gap:10px;align-items:center;margin-top:6px}
 .lan-input-row .form-input{flex:1}
+.lan-input-row:focus-within .form-input{
+  border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-glow-2),0 0 20px var(--primary-glow);
+}
 .lan-typing .lan-bubble::after{
   content:'...';animation:lanDot 1.2s infinite;
 }
@@ -1036,7 +1142,7 @@ a{color:inherit;text-decoration:none}
   transition:width .6s var(--ease-out);
 }
 .exp-text-mini{
-  font-size:9px;color:rgba(255,255,255,.6);text-align:center;white-space:nowrap;
+  font-size:9px;color:rgba(255,255,255,.4);text-align:center;white-space:nowrap;
 }
 .sidebar:hover .exp-text-mini{font-size:10px;color:rgba(255,255,255,.7)}
 
@@ -1125,7 +1231,7 @@ a{color:inherit;text-decoration:none}
 .quest-item{
   display:flex;align-items:center;gap:10px;padding:8px 10px;
   border-radius:var(--radius-xs);margin-bottom:6px;
-  background:rgba(255,255,255,.72);
+  background:rgba(255,255,255,.62);
   transition:all .3s var(--ease-out);
 }
 .quest-item:last-child{margin-bottom:0}
@@ -1328,7 +1434,7 @@ a{color:inherit;text-decoration:none}
 .weread-book-list{display:flex;flex-direction:column;gap:6px}
 .weread-book-item{
   display:flex;align-items:center;gap:10px;padding:8px 10px;
-  border-radius:8px;background:rgba(255,255,255,.72);
+  border-radius:8px;background:rgba(255,255,255,.62);
 }
 .weread-book-cover{width:28px;height:40px;border-radius:3px;background:var(--surface-3);flex-shrink:0;overflow:hidden}
 .weread-book-info{flex:1;min-width:0}
@@ -1369,15 +1475,11 @@ a{color:inherit;text-decoration:none}
   <!-- 导航区 -->
   <nav class="sidebar-nav">
     <div class="nav-group-title">智能</div>
-    <button class="nav-item active" data-tab="lan" title="Lan智能体">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17h8v-2.3c1.8-1.2 3-3.3 3-5.7a7 7 0 0 0-7-7z"/><path d="M9 12h6M10 9h.01M14 9h.01"/><path d="M9 21h6"/></svg>
-      <span class="nav-label">Lan智能体</span>
+    <button class="nav-item active" data-tab="cockpit" title="驾驶舱">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+      <span class="nav-label">驾驶舱</span>
     </button>
     <div class="nav-group-title">日常</div>
-    <button class="nav-item" data-tab="today" title="今日">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-      <span class="nav-label">今日</span>
-    </button>
     <button class="nav-item" data-tab="todos" title="待办">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
       <span class="nav-label">待办</span>
@@ -1386,7 +1488,6 @@ a{color:inherit;text-decoration:none}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 6-6"/></svg>
       <span class="nav-label">记账</span>
     </button>
-    <div class="nav-group-title">成长</div>
     <button class="nav-item" data-tab="study" title="学习">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
       <span class="nav-label">学习</span>
@@ -1395,11 +1496,7 @@ a{color:inherit;text-decoration:none}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.7 9.7 0 0 0-6.3 2.4L3 8"/><path d="M3 3v5h5M12 7v5l4 2"/></svg>
       <span class="nav-label">复盘</span>
     </button>
-    <button class="nav-item" data-tab="badges" title="成就">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      <span class="nav-label">成就</span>
-    </button>
-    <div class="nav-group-title">记录</div>
+    <div class="nav-group-title">更多</div>
     <button class="nav-item" data-tab="news" title="资讯">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6z"/></svg>
       <span class="nav-label">资讯</span>
@@ -1408,7 +1505,10 @@ a{color:inherit;text-decoration:none}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V18h6v-1.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>
       <span class="nav-label">灵感</span>
     </button>
-    <div class="nav-group-title">工具</div>
+    <button class="nav-item" data-tab="badges" title="成就">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <span class="nav-label">成就</span>
+    </button>
     <button class="nav-item" data-tab="search" title="搜索">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
       <span class="nav-label">搜索</span>
@@ -1494,45 +1594,77 @@ a{color:inherit;text-decoration:none}
   <div class="content">
 
     <!-- Lan 智能体 -->
-    <section class="section active" id="sec-lan">
+    <section class="section active" id="sec-cockpit">
       <div class="section-header">
-        <div class="section-title">Lan 智能体</div>
-        <div class="section-count" id="lanModelCount">思维教练</div>
-      </div>
-      <!-- 快捷指令 -->
-      <div class="lan-chips" id="lanChips">
-        <button class="chip" onclick="lanQuickAsk('帮我分析一下本周状态')">分析本周</button>
-        <button class="chip" onclick="lanQuickAsk('帮我扩散一个想法')">扩散想法</button>
-        <button class="chip" onclick="lanQuickAsk('给我今日行动建议')">今日建议</button>
-        <button class="chip" onclick="lanQuickAsk('帮我做今日复盘')">复盘教练</button>
-      </div>
-      <!-- 对话区 -->
-      <div class="lan-chat" id="lanChat">
-        <div class="lan-msg lan-ai">
-          <div class="lan-bubble">你好，我是 <b>Lan</b> —— 你的思维教练 🤖<br><br>我读得懂你的待办、记账、复盘和灵感，能从 30+ 大师思维模型中挑出最适合你的，帮你想清楚、做到位。<br><br><span style="color:var(--text-4)">试试上面的快捷指令，或直接问我任何问题。</span></div>
-        </div>
-      </div>
-      <!-- 输入区 -->
-      <div class="lan-input-row">
-        <input class="form-input" id="lanInput" placeholder="问 Lan 任何问题..." onkeydown="if(event.key==='Enter')lanSend()">
-        <button class="btn-primary" id="lanSendBtn" onclick="lanSend()" style="width:auto;padding:0 22px;margin:0;flex-shrink:0;border-radius:14px">发送</button>
-      </div>
-      <div class="note" style="margin-top:8px;text-align:center" id="lanApiHint">尚未配置 AI Key · <a href="javascript:openLanSettings()" style="color:var(--primary)">点击配置</a></div>
-    </section>
-
-    <!-- 今日 -->
-    <section class="section" id="sec-today">
-      <div class="section-header">
-        <div class="section-title">今日概览</div>
+        <div class="section-title">驾驶舱</div>
         <div class="section-count" id="todayDate"></div>
+      </div>
+      <!-- 今日状态带：4 卡可点直达 -->
+      <div class="cockpit-stats">
+        <button class="cp-stat" onclick="switchTab('todos')">
+          <div class="cp-icon" style="background:var(--primary-glow);color:var(--primary)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </div>
+          <div class="cp-value" id="cpTodos">0/0</div>
+          <div class="cp-label">待办完成</div>
+        </button>
+        <button class="cp-stat" onclick="switchTab('ledger')">
+          <div class="cp-icon" style="background:var(--red-glow);color:var(--red)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 6-6"/></svg>
+          </div>
+          <div class="cp-value" id="cpExpense">¥0</div>
+          <div class="cp-label">今日支出</div>
+        </button>
+        <button class="cp-stat" onclick="switchTab('study')">
+          <div class="cp-icon" style="background:var(--green-glow);color:var(--green)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
+          </div>
+          <div class="cp-value" id="cpCheckin">未打卡</div>
+          <div class="cp-label">习惯打卡</div>
+        </button>
+        <button class="cp-stat" onclick="switchTab('review')">
+          <div class="cp-icon" style="background:var(--amber-glow);color:var(--amber)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.7 9.7 0 0 0-6.3 2.4L3 8"/><path d="M3 3v5h5M12 7v5l4 2"/></svg>
+          </div>
+          <div class="cp-value" id="cpReview">待复盘</div>
+          <div class="cp-label">今日复盘</div>
+        </button>
       </div>
       <!-- 昨日复盘回顾 -->
       <div class="card-base" id="yesterdayCard" style="padding:16px;margin-bottom:14px;display:none">
-        <div style="font-size:13px;font-weight:700;color:var(--primary);margin-bottom:8px" id="yesterdayTitle">📋 昨日复盘回顾</div>
+        <div style="font-size:13px;font-weight:700;color:var(--primary);margin-bottom:8px" id="yesterdayTitle"></div>
         <div id="yesterdayContent" style="font-size:13px;color:var(--text-2);line-height:1.7"></div>
       </div>
+      <!-- Lan 对话区（数据锚点） -->
+      <div class="lan-card" id="lanCard">
+        <div class="lan-card-head">
+          <div class="lan-avatar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.4 1.2 4.5 3 5.7V17h8v-2.3c1.8-1.2 3-3.3 3-5.7a7 7 0 0 0-7-7z"/><path d="M9 12h6M10 9h.01M14 9h.01"/><path d="M9 21h6"/></svg>
+          </div>
+          <div>
+            <div class="lan-card-title">Lan 思维教练</div>
+            <div class="lan-card-hint">已读取今日数据 · 问我任何问题</div>
+          </div>
+        </div>
+        <div class="lan-chat" id="lanChat">
+          <div class="lan-msg lan-ai">
+            <div class="lan-bubble">你好，我是 <b>Lan</b> —— 你的思维教练。<br><br>我能看到你今天的待办、支出和打卡状态。想聊什么？<br><br><span style="color:var(--text-4)">试试下面的快捷指令，或直接问我。</span></div>
+          </div>
+        </div>
+        <div class="lan-chips" id="lanChips">
+          <button class="chip" onclick="lanQuickAsk('帮我分析一下本周状态')">分析本周</button>
+          <button class="chip" onclick="lanQuickAsk('帮我扩散一个想法')">扩散想法</button>
+          <button class="chip" onclick="lanQuickAsk('给我今日行动建议')">今日建议</button>
+          <button class="chip" onclick="lanQuickAsk('帮我做今日复盘')">复盘教练</button>
+        </div>
+        <div class="lan-input-row">
+          <input class="form-input" id="lanInput" placeholder="问 Lan 任何问题..." onkeydown="if(event.key==='Enter')lanSend()">
+          <button class="btn-primary" id="lanSendBtn" onclick="lanSend()" style="width:auto;padding:0 22px;margin:0;flex-shrink:0;border-radius:14px">发送</button>
+        </div>
+        <div class="note" style="margin-top:8px;text-align:center" id="lanApiHint">尚未配置 AI Key · <a href="javascript:openLanSettings()" style="color:var(--primary)">点击配置</a></div>
+      </div>
       <!-- 今日行动清单 -->
-      <div class="section-header" style="margin-top:4px">
+      <div class="section-header" style="margin-top:18px">
         <div class="section-title">今日行动</div>
         <button class="sync-btn" onclick="switchTab('todos')">查看全部 →</button>
       </div>
@@ -1544,7 +1676,7 @@ a{color:inherit;text-decoration:none}
       </div>
       <div class="daily-quests" id="todayQuests">
         <div class="daily-quests-head">
-          <div class="daily-quests-title">🔥 原子习惯 · 今日打卡</div>
+          <div class="daily-quests-title">原子习惯 · 今日打卡</div>
           <span class="streak-badge" id="todayStreak">连续 0 天</span>
         </div>
         <div id="todayCheckins"></div>
@@ -1573,7 +1705,7 @@ a{color:inherit;text-decoration:none}
       <!-- 每日任务 -->
       <div class="daily-quests">
         <div class="daily-quests-head">
-          <div class="daily-quests-title">🎯 每日任务</div>
+          <div class="daily-quests-title">每日任务</div>
           <div style="display:flex;align-items:center;gap:8px">
             <span class="streak-badge" id="comboBadge" style="display:none"></span>
             <div class="daily-quests-progress" id="questsProgress">0/5</div>
@@ -1671,7 +1803,7 @@ a{color:inherit;text-decoration:none}
       <!-- 《原子习惯》打卡热力图 -->
       <div class="habit-heatmap" id="habitHeatmap">
         <div class="dream-jars-head">
-          <div class="dream-jars-title">🔥 原子习惯 · 打卡热力图</div>
+          <div class="dream-jars-title">原子习惯 · 打卡热力图</div>
           <span class="streak-badge" id="streakBadge">连续 0 天</span>
         </div>
         <div class="heatmap-grid" id="heatmapGrid"></div>
@@ -1956,7 +2088,7 @@ let allReviewHistory = [];
 let reviewSearchTimer = null;
 
 const TAB_TITLES = {
-  lan:'Lan 智能体', today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
+  cockpit:'驾驶舱', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
   inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理'
 };
 
@@ -2287,7 +2419,7 @@ async function checkDailyQuests(){
   const comboEl = $('#comboBadge');
   if(comboEl){
     if((gameData.comboDays||0) >= 2){
-      comboEl.textContent = `🔥 连击 ${gameData.comboDays} 天`;
+      comboEl.textContent = `连击 ${gameData.comboDays} 天`;
       comboEl.style.display = 'inline-flex';
     }else{
       comboEl.style.display = 'none';
@@ -2314,6 +2446,21 @@ function fmtMoney(n){
   const sign = n < 0 ? '-' : '';
   const abs = Math.abs(n);
   return sign + '¥' + abs.toLocaleString('zh-CN',{minimumFractionDigits:0,maximumFractionDigits:2});
+}
+
+// 数字滚动动画（驾驶舱/概览数字质感）
+function animateNum(el, target, prefix, suffix, dur){
+  if(!el) return;
+  prefix = prefix||''; suffix = suffix||''; dur = dur||400;
+  const t0 = performance.now();
+  const from = 0;
+  const step = (now)=>{
+    const p = Math.min((now-t0)/dur, 1);
+    const eased = 1-Math.pow(1-p, 3);
+    el.textContent = prefix + Math.round(from+(target-from)*eased).toLocaleString('zh-CN') + suffix;
+    if(p<1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
 }
 function fmtDate(d){
   if(!d) return '';
@@ -2411,7 +2558,7 @@ $$('.nav-item').forEach(t=>{
 });
 
 // 全局快捷键（桌面端）：1-9 切模块 / N 新建 / / 搜索 / Esc 关弹窗
-const TAB_KEYS = ['lan','today','todos','ledger','news','inspirations','study','review','search','badges'];
+const TAB_KEYS = ['cockpit','todos','ledger','study','review','news','inspirations','badges','search'];
 document.addEventListener('keydown', e=>{
   // 输入框内不触发
   if(e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) {
@@ -2430,8 +2577,7 @@ document.addEventListener('keydown', e=>{
 });
 
 function loadTabData(tab){
-  if(tab==='lan') initLan();
-  else if(tab==='today') loadToday();
+  if(tab==='cockpit') loadToday();
   else if(tab==='todos') loadTodos();
   else if(tab==='ledger') { loadLedger(); loadDreamJars(); }
   else if(tab==='news') loadNews(currentNewsCat);
@@ -2491,6 +2637,24 @@ async function loadToday(){
     const today = localDate();
     $('#todayDate').textContent = fmtFullDate();
 
+    // 0. 今日状态带（驾驶舱顶部 4 卡）
+    const cpTodos = await dbAll('todos');
+    const todayTodoAll = cpTodos.filter(t=>t.due_date===today);
+    const doneToday = todayTodoAll.filter(t=>t.done).length;
+    $('#cpTodos').textContent = `${doneToday}/${todayTodoAll.length}`;
+    const cpLedger = await dbAll('ledger');
+    const todayExp = cpLedger.filter(l=>l.type==='expense'&&l.record_date===today).reduce((s,l)=>s+l.amount,0);
+    animateNum($('#cpExpense'), Math.round(todayExp), todayExp>0?'¥':'¥');
+    $('#cpExpense').style.color = todayExp>0 ? 'var(--red)' : '';
+    const cpCheckins = await dbAll('checkins');
+    const checked = cpCheckins.some(c=>c.checkin_date===today);
+    $('#cpCheckin').textContent = checked ? '已打卡' : '未打卡';
+    $('#cpCheckin').style.color = checked ? 'var(--green)' : '';
+    const cpReviews = await dbAll('reviews');
+    const reviewed = cpReviews.some(r=>r.review_date===today);
+    $('#cpReview').textContent = reviewed ? '已完成' : '待复盘';
+    $('#cpReview').style.color = reviewed ? 'var(--green)' : '';
+
     // 1. 昨日复盘回顾
     const y = new Date(); y.setDate(y.getDate()-1);
     const yStr = y.getFullYear()+'-'+String(y.getMonth()+1).padStart(2,'0')+'-'+String(y.getDate()).padStart(2,'0');
@@ -2499,7 +2663,7 @@ async function loadToday(){
     const yCard = $('#yesterdayCard');
     if(yReview && (yReview.improvement || yReview.went_well || yReview.went_wrong)){
       yCard.style.display = 'block';
-      $('#yesterdayTitle').textContent = `📋 昨日复盘 · ${fmtDate(yStr)} 回顾`;
+      $('#yesterdayTitle').textContent = `昨日复盘 · ${fmtDate(yStr)} 回顾`;
       const parts = [];
       if(yReview.improvement) parts.push(`<b style="color:var(--primary)">今日改进：</b>${escapeHtml(yReview.improvement)}`);
       if(yReview.went_well) parts.push(`<span style="color:var(--green)">✓</span> ${escapeHtml(yReview.went_well)}`);
@@ -2515,7 +2679,7 @@ async function loadToday(){
       .sort((a,b)=>(a.priority||3)-(b.priority||3));
     const actionsEl = $('#todayActions');
     if(!todayTodos.length){
-      actionsEl.innerHTML = `<div class="empty" style="padding:32px 20px"><p>今天没有待办事项<br><span>点击右下角 + 添加</span></p></div>`;
+      actionsEl.innerHTML = `<div class="empty" style="padding:32px 20px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><p>今天没有待办事项<br><span>清空也是好状态，来点新目标？</span></p><button class="empty-btn" onclick="showTodoModal()">添加待办</button></div>`;
     }else{
       actionsEl.innerHTML = todayTodos.slice(0,6).map(t=>`
         <div class="todo-item list-item" data-id="${t.id}">
@@ -2527,7 +2691,7 @@ async function loadToday(){
             <div class="todo-meta">
               ${t.category?`<span class="tag cat-${t.category==='工作'?'work':t.category==='学习'?'study':'life'}">${escapeHtml(t.category)}</span>`:''}
               ${t.priority===1?`<span class="tag p1">高优先级</span>`:''}
-              ${t.remind_time?`<span class="tag" style="background:var(--amber-glow);color:var(--amber)">⏰ ${t.remind_time}</span>`:''}
+              ${t.remind_time?`<span class="tag" style="background:var(--amber-glow);color:var(--amber)">${t.remind_time}</span>`:''}
             </div>
           </div>
         </div>
@@ -2539,10 +2703,10 @@ async function loadToday(){
     const checkins = await dbAll('checkins');
     const todayCheckins = checkins.filter(c=>c.checkin_date===today);
     const streak = calcStreak(checkins);
-    $('#todayStreak').textContent = `🔥 连续 ${streak} 天`;
+    $('#todayStreak').textContent = `连续 ${streak} 天`;
     const checkinEl = $('#todayCheckins');
     if(!plans.length){
-      checkinEl.innerHTML = `<div style="padding:16px;text-align:center;color:var(--text-4);font-size:12px">还没有学习计划，去「学习」页创建</div>`;
+      checkinEl.innerHTML = `<div class="empty" style="padding:20px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg><p>还没有学习计划<br><span>定个目标，每天打卡</span></p><button class="empty-btn" onclick="switchTab('study')">创建计划</button></div>`;
     }else{
       checkinEl.innerHTML = plans.map(p=>{
         const done = todayCheckins.some(c=>c.plan_id===p.id);
@@ -2565,7 +2729,7 @@ async function loadToday(){
     const inc = todayLedger.filter(l=>l.type==='income').reduce((s,l)=>s+l.amount,0);
     const ledgerEl = $('#todayLedger');
     if(!todayLedger.length){
-      ledgerEl.innerHTML = `<div style="padding:16px;text-align:center;color:var(--text-4);font-size:12px">今天还没记账</div>`;
+      ledgerEl.innerHTML = `<div class="empty" style="padding:20px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 6-6"/></svg><p>今天还没记账<br><span>花 5 秒记下第一笔</span></p><button class="empty-btn" onclick="showLedgerModal()">记一笔</button></div>`;
     }else{
       ledgerEl.innerHTML = `
         <div class="ledger-summary">
@@ -2813,7 +2977,7 @@ function saveLanKey(){
   if(!v){ toast('请输入 Key'); return; }
   localStorage.setItem(LAN_KEY_STORE, v);
   const hint = $('#lanApiHint');
-  if(hint) hint.innerHTML = '✅ AI Key 已配置';
+  if(hint) hint.innerHTML = 'AI Key 已配置';
   closeModal();
   toast('AI 已启用，试试提问吧');
 }
@@ -2822,7 +2986,7 @@ function saveLanKey(){
 function initLan(){
   const hint = $('#lanApiHint');
   if(hint && localStorage.getItem(LAN_KEY_STORE)){
-    hint.innerHTML = '✅ AI Key 已配置';
+    hint.innerHTML = 'AI Key 已配置';
   }
 }
 
@@ -2856,7 +3020,7 @@ async function loadTodos(){
             ${t.category?`<span class="tag cat-${t.category==='工作'?'work':t.category==='学习'?'study':'life'}">${escapeHtml(t.category)}</span>`:''}
             ${t.priority===1?`<span class="tag p1">高优先级</span>`:''}
             ${t.due_date?`<span class="tag">${fmtDate(t.due_date)}</span>`:''}
-            ${t.remind_time?`<span class="tag" style="background:var(--amber-glow);color:var(--amber)">⏰ ${t.remind_time}</span>`:''}
+            ${t.remind_time?`<span class="tag" style="background:var(--amber-glow);color:var(--amber)">${t.remind_time}</span>`:''}
             ${t.done&&t.done_at?`<span class="tag done-tag">${fmtDate(t.done_at)}完成</span>`:''}
           </div>
           ${t.remind_time&&!t.done?`<button class="remind-btn" onclick="event.stopPropagation();addToReminders(${t.id})">
@@ -3617,7 +3781,7 @@ function renderHeatmap(allCheckins){
     if(days[i].cnt>0) streak++;
     else break;
   }
-  badge.textContent = `🔥 连续 ${streak} 天`;
+  badge.textContent = `连续 ${streak} 天`;
 }
 
 async function studyCheckin(id){ showCheckinModal(id); }
@@ -4723,7 +4887,7 @@ async function loadSearchData(){
   const plans = await dbAll('plans');
   allSearchableData = [];
   for(const t of todos){
-    allSearchableData.push({type:'待办', id:t.id, title:t.title, subtitle:(t.category||'')+(t.remind_time?(' ⏰'+t.remind_time):''), date:t.due_date||t.created_at||''});
+    allSearchableData.push({type:'待办', id:t.id, title:t.title, subtitle:(t.category||'')+(t.remind_time?(' '+t.remind_time):''), date:t.due_date||t.created_at||''});
   }
   for(const l of ledger){
     allSearchableData.push({type:'记账', id:l.id, title:`${l.type==='income'?'收入':'支出'} ${l.category} ¥${l.amount}`, subtitle:l.note||'', date:l.record_date||l.created_at||''});
@@ -4806,8 +4970,7 @@ function goToSearchResult(type){
 // FAB
 // ============================================================
 function onFabClick(){
-  if(currentTab==='lan') $('#lanInput').focus();
-  else if(currentTab==='today') showTodoModal();
+  if(currentTab==='cockpit') $('#lanInput').focus();
   else if(currentTab==='todos') showTodoModal();
   else if(currentTab==='ledger') showLedgerModal();
   else if(currentTab==='inspirations') showInspModal();
