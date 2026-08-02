@@ -1595,7 +1595,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
   <!-- 顶部 -->
   <div class="topbar">
     <div class="topbar-titles">
-      <h1 id="hdrTitle">今日待办</h1>
+      <h1 id="hdrTitle">Lan 智能体</h1>
       <div class="date" id="hdrDate"></div>
     </div>
     <!-- 移动端头像+等级（桌面端隐藏） -->
@@ -5885,6 +5885,8 @@ function registerSW(){
   window.addEventListener('orientationchange', setViewport);
   await openDB();
   initTheme();
+  // 默认页是 Lan 对话页，顶部标题同步
+  $('#hdrTitle').textContent = TAB_TITLES.lan;
   $('#hdrDate').textContent = fmtFullDate();
   $('#sidebarTime').textContent = fmtTime();
   // 检查 IndexedDB 是否为空，如果空但有自动备份，恢复
