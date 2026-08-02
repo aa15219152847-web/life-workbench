@@ -1140,21 +1140,21 @@ html[data-theme="dark"] .ac-edit{color:var(--text-3)}
 html[data-theme="dark"] .ac-input{background:rgba(18,35,61,.6);border-color:rgba(255,255,255,.1);color:var(--text)}
 
 /* 主动层提醒卡 */
-.lan-proactive{
+.proactive-card{
   border-radius:var(--radius-md);padding:12px 14px;margin-bottom:14px;
   background:linear-gradient(135deg,rgba(199,168,75,.08),rgba(99,91,255,.06));
   border:1px solid var(--amber-glow);
   font-size:12.5px;line-height:1.7;color:var(--text-2);
 }
-.lan-proactive .pa-title{font-weight:700;color:var(--amber);margin-bottom:2px}
-.lan-proactive .pa-actions{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
-.lan-proactive .pa-btn{
+.proactive-card .pa-title{font-weight:700;color:var(--amber);margin-bottom:2px}
+.proactive-card .pa-actions{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+.proactive-card .pa-btn{
   padding:5px 14px;border-radius:8px;border:none;cursor:pointer;
   background:var(--amber-grad);color:#fff;font-size:12px;font-weight:600;
 }
-.lan-proactive .pa-btn.sec{background:var(--surface-3);color:var(--text-3)}
-html[data-theme="dark"] .lan-proactive{background:rgba(18,35,61,.75);border-color:rgba(255,255,255,.1)}
-html[data-theme="dark"] .lan-proactive .pa-btn.sec{background:rgba(255,255,255,.1);color:var(--text-3)}
+.proactive-card .pa-btn.sec{background:var(--surface-3);color:var(--text-3)}
+html[data-theme="dark"] .proactive-card{background:rgba(18,35,61,.75);border-color:rgba(255,255,255,.1)}
+html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,.1);color:var(--text-3)}
 
 .lan-act{
   margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;
@@ -1666,9 +1666,7 @@ html[data-theme="dark"] .lan-proactive .pa-btn.sec{background:rgba(255,255,255,.
         <div class="section-title">Lan 智能体</div>
         <div class="section-count" id="lanModelCount">思维教练</div>
       </div>
-      <!-- 主动层提醒卡（本地检测，异常才出现） -->
-      <div id="lanProactive"></div>
-      <!-- 对话区（沉浸式） -->
+      <!-- 对话区（沉浸式，纯对话） -->
       <div class="lan-chat" id="lanChat" style="min-height:44vh">
         <div class="lan-msg lan-ai">
           <div class="lan-bubble">你好，我是 <b>Lan</b> —— 你的思维教练。<br><br>我能看到你的待办、记账、复盘和灵感。你可以直接让我干活：<br><span style="color:var(--text-4)">「记一笔打车 30」「明天 9 点提醒我交报告」</span><br><br>也可以把我当教练：<span style="color:var(--text-4)">「帮我做今日复盘」「帮我出个学习计划」</span></div>
@@ -1693,6 +1691,8 @@ html[data-theme="dark"] .lan-proactive .pa-btn.sec{background:rgba(255,255,255,.
         <div class="section-title">今日概览</div>
         <div class="section-count" id="todayDate"></div>
       </div>
+      <!-- 主动层提醒卡（数据类提醒，放在今日页） -->
+      <div id="todayProactive"></div>
       <!-- 今日状态带：4 卡可点直达 -->
       <div class="cockpit-stats">
         <button class="cp-stat" onclick="switchTab('todos')">
@@ -3382,7 +3382,7 @@ function daysBetween(d1, d2){
 }
 
 async function showLanProactive(){
-  const box = $('#lanProactive');
+  const box = $('#todayProactive');
   if(!box) return;
   const today = localDate();
   if(localStorage.getItem('lan_proactive_date') === today) return;
@@ -3451,7 +3451,7 @@ async function showLanProactive(){
   if(!cards.length) return;
   localStorage.setItem('lan_proactive_date', today);
   box.innerHTML = cards.map(c=>`
-    <div class="lan-proactive">
+    <div class="proactive-card">
       <div class="pa-title">${c.title}</div>
       <div>${c.msg}</div>
       <div class="pa-actions">${c.actions.map(a=>`<button class="pa-btn" onclick="${a.click}">${a.label}</button>`).join('')}</div>
