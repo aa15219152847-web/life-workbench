@@ -2788,7 +2788,9 @@ document.addEventListener('touchstart', e=>{
   const sb = $('.sidebar');
   drag = {active:false, axis:null, mode:null, startX:t.clientX, startY:t.clientY, base:0, width:sb.offsetWidth||320};
   if(sb.classList.contains('drawer-open')){
-    // 抽屉已开：全屏左滑可关（竖直滚动不受影响，由轴锁定判定）
+    // 抽屉内部触摸 → 滚动/点击优先，绝不参与关闭拖拽（修复滚动列表时左右伸缩抖动）
+    if(e.target && e.target.closest && e.target.closest('.sidebar')) return;
+    // 抽屉外（遮罩/主内容区）左滑可关
     drag.active = true; drag.mode = 'close'; drag.base = 0;
   }else if(t.clientX <= DRAWER_EDGE){
     // 抽屉关闭：仅左边缘右滑可开
@@ -2802,7 +2804,7 @@ document.addEventListener('touchmove', e=>{
   const dx = t.clientX - drag.startX;
   const dy = t.clientY - drag.startY;
   if(!drag.axis){
-    if(Math.abs(dx) < 10 && Math.abs(dy) < 10) return; // 尚未决定方向
+    if(Math.abs(dx) < 12 && Math.abs(dy) < 12) return; // 尚未决定方向（阈值 12px，更抗抖动）
     drag.axis = Math.abs(dx) >= Math.abs(dy) ? 'x' : 'y';
     if(drag.axis === 'y'){ drag.active = false; return; } // 竖直滚动 → 交给原生，绝不干预
   }
