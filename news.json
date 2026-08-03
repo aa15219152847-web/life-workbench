@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-02 21:31",
+ "updated_at": "2026-08-03 12:43",
  "ai": [
+  {
+   "category": "ai",
+   "title": "自 2023 年，谷歌、亚马逊、微软等美国科技巨头已在 AI 领域砸下 1 万亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/114.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "经济学家汉克：AI 成本极高，难以大规模取代人力",
+   "summary": "",
+   "link": "https://www.ithome.com/0/984/835.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "说唱歌手 Fenix Flexin 单曲《Rubberz》走红，被质疑由 AI 生成",
@@ -136,176 +152,184 @@
    "link": "https://www.ithome.com/0/983/778.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "马斯克旗下 SpaceXAI 最智能 AI 语音模型，Grok Voice Think Fast 2.0 登场",
-   "summary": "",
-   "link": "https://www.ithome.com/0/983/587.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌推出 Lyria 3.5 音乐生成 AI 模型：提升旋律编排、人声表现更细腻",
-   "summary": "",
-   "link": "https://www.ithome.com/0/983/412.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "日本财务大臣：将于周一宣布东京与华盛顿采取联合行动遏制日元贬值。",
-   "summary": "日本财务大臣：将于周一宣布东京与华盛顿采取联合行动遏制日元贬值。",
-   "link": "https://wallstreetcn.com/news/global/3143740",
+   "title": "鼎龙股份：拟以1亿元-2亿元回购股份，回购价格不超过人民币128元/股。",
+   "summary": "鼎龙股份：拟以1亿元-2亿元回购股份，回购价格不超过人民币128元/股。",
+   "link": "https://wallstreetcn.com/news/global/3144164",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 20:08"
+   "published_at": "2026-08-03 12:41"
   },
   {
    "category": "finance",
-   "title": "摩洛哥内政部：在试图大规模越境进入休达期间，有10人溺水身亡，另有1人坠崖死亡。",
-   "summary": "摩洛哥内政部：在试图大规模越境进入休达期间，有10人溺水身亡，另有1人坠崖死亡。",
-   "link": "https://wallstreetcn.com/news/global/3143738",
+   "title": "科创板一晚连发31份回购增持公告，年内回购金额上限超百亿",
+   "summary": "8月3日晚间，科创板公司共披露回购进展公告29份、增持进展公告2份。其中，特宝生物已累计回购4.03亿元，联影医疗已累计回购2.83亿元。2026年以来至8月3日，科创板新增披露回购计划76家次，金额上限合计105.58亿元；新增披露增持计划28家次（含一次性增持），金额上限合计10.02亿元。（第一财经）",
+   "link": "https://wallstreetcn.com/news/global/3144162",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 19:57"
+   "published_at": "2026-08-03 12:40"
   },
   {
    "category": "finance",
-   "title": "提醒：周一（8月3日），Palantir、安森美半导体等将发布业绩报告； 周二，SpaceX、AMD",
-   "summary": "提醒：周一（8月3日），Palantir、安森美半导体等将发布业绩报告； 周二，SpaceX、AMD、卡特彼勒等将发布业绩报告； 周三，诺和诺德、闪迪、西部数据、迪士尼等发布业绩报告。",
-   "link": "https://wallstreetcn.com/news/global/3143737",
+   "title": "伊朗谴责美沙联合打击伊拉克民兵武装",
+   "summary": "当地时间8月3日，伊朗伊斯兰革命卫队最高领袖代表发表声明，谴责美军和沙特联合打击伊拉克境内的亲伊朗武装组织，并表示打击造成多名武装人员死亡。",
+   "link": "https://wallstreetcn.com/news/global/3144161",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 19:44"
+   "published_at": "2026-08-03 12:38"
   },
   {
    "category": "finance",
-   "title": "美国参议院筹款委员会发布融资立法草案的文本。",
-   "summary": "美国参议院筹款委员会发布融资立法草案的文本。",
-   "link": "https://wallstreetcn.com/news/global/3143736",
+   "title": "白宫国家经济委员会主任哈塞特：最近的报告显示通胀数据非常出色。 沃什正在推动积极的改变。",
+   "summary": "白宫国家经济委员会主任哈塞特：最近的报告显示通胀数据非常出色。 沃什正在推动积极的改变。",
+   "link": "https://wallstreetcn.com/news/global/3144160",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 19:38"
+   "published_at": "2026-08-03 12:37"
   },
   {
    "category": "finance",
-   "title": "报道：普睿司曼即将收购美国电气设备制造商安科",
-   "summary": "据知情人士透露，意大利普睿司曼（Prysmian）正就收购安科公司（Atkore Inc.）进行深入谈判。这笔针对安科的全现金交易可能在未来几天内宣布；尽管谈判已进入最后阶段，但仍有可能被推迟或告吹。 安科股价今年在纽约市场上涨了约15%，使其市值达到约25亿美元。普睿司曼的股价今年上涨了逾三分之一，市值约为363亿欧元（418亿美元）。安科总部位于伊利诺伊州哈维市（Harvey），主要生产用于布",
-   "link": "https://wallstreetcn.com/news/global/3143735",
+   "title": "高乐股份：全资子公司哈尔滨智辰科技有限公司与客户签署《算力服务合同》，由智辰科技向客户提供算力服务。",
+   "summary": "高乐股份：全资子公司哈尔滨智辰科技有限公司与客户签署《算力服务合同》，由智辰科技向客户提供算力服务。合同服务总金额为31.95亿元（含税），合同服务期限为5年。",
+   "link": "https://wallstreetcn.com/news/global/3144158",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 19:07"
+   "published_at": "2026-08-03 12:34"
   },
   {
    "category": "finance",
-   "title": "沙特外交大臣与伊朗外长讨论如何缓和地区局势。（沙特官方媒体SPA）",
-   "summary": "沙特外交大臣与伊朗外长讨论如何缓和地区局势。（沙特官方媒体SPA）",
-   "link": "https://wallstreetcn.com/news/global/3143732",
+   "title": "Visa将以24亿美元现金收购BioCatch",
+   "summary": "Visa已签署最终协议，将以24亿美元现金从Permira旗下基金及其他股东手中收购生物识别安全公司BioCatch。该交易预计将在Visa 2027财年第二季度末前完成，尚需获得监管批准。",
+   "link": "https://wallstreetcn.com/news/global/3144156",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 18:50"
+   "published_at": "2026-08-03 12:33"
   },
   {
    "category": "finance",
-   "title": "法国总理办公室针对外国投资制度发布声明：法国收紧关于非欧洲实体持股法国公司的制度。 非欧洲投资者若取",
-   "summary": "法国总理办公室针对外国投资制度发布声明：法国收紧关于非欧洲实体持股法国公司的制度。 非欧洲投资者若取得法国企业10%及以上股权，必须获得法国财政部批准。",
-   "link": "https://wallstreetcn.com/news/global/3143731",
+   "title": "今年以来全国共新开国际航空货运航线超100条",
+   "summary": "记者今天从中国物流与采购联合会了解到，今年以来，适应国际市场需求变化，我国国际航空货运航线不断增加，截至7月31日，新开国际航空货运航线超100条。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3144155",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 18:40"
+   "published_at": "2026-08-03 12:27"
   },
   {
    "category": "finance",
-   "title": "摩根大通：将美联储加息时间的预期提前至少半年",
-   "summary": "摩根大通美国利率策略主管Jay Barry等人预计，美联储将于2026年12月份加息（之前预计要等到2027年下半年才会行动），预计之后的联邦基金利率目标区间将为3.75%-4%。如果美国通胀再度上扬，FOMC可能会在9月份加息。“我们预计7月非农就业人口增加7.5万，失业率温和低上扬至4.3%。”上调2026年年底美国10年期国债收益率的预期至4.85%（之前预计为4.7%），将同期30年期美债",
-   "link": "https://wallstreetcn.com/news/global/3143730",
+   "title": "中国内地量子领域规格最高会议在深举办",
+   "summary": "为期三天的“第五届CCF量子计算大会暨大湾区量子科学论坛”3日在深圳开幕。此次大会是中国内地量子领域规格最高、贯通创新链与产业链的年度综合会议。大会以“量与智相融合，量超智共融算”为主题，由中国科学院院士、图灵奖获得者姚期智与中国科学院院士、国家最高科学技术奖获得者薛其坤共同担任大会主席，汇聚中国近千家高校、科研院所、领军企业、初创企业及创投机构约2400人。与会者共话量子科技前沿成果，推动量子科",
+   "link": "https://wallstreetcn.com/news/global/3144154",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 18:38"
+   "published_at": "2026-08-03 12:26"
   },
   {
    "category": "finance",
-   "title": "报道：阿斯利康与与百时美施贵宝讨论医药交易",
-   "summary": "据知情人士透露，英国制药商阿斯利康（AstraZeneca）一直在探讨与百时美施贵宝（Bristol Myers Squibb）合并的交易。若双方达成合作，将缔造全球最大的制药集团之一。（英国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3143727",
+   "title": "Strategy在7月27日至8月2日期间，出售了1,638枚比特币，总计售价1.0473亿美元。",
+   "summary": "Strategy在7月27日至8月2日期间，出售了1,638枚比特币，总计售价1.0473亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3144153",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 18:32"
+   "published_at": "2026-08-03 12:24"
   },
   {
    "category": "finance",
-   "title": "伊朗最高领袖：伊朗和伊拉克是两个紧密相连的民族，彼此相连。",
-   "summary": "伊朗最高领袖：伊朗和伊拉克是两个紧密相连的民族，彼此相连。",
-   "link": "https://wallstreetcn.com/news/global/3143725",
+   "title": "宁德时代：2026年中期分红向全体股东每10股派发14.11元",
+   "summary": "宁德时代公告，公司2026年中期分红方案以公司现有A股总股本4,408,354,619股剔除回购专用账户中已回购股份28,319,044股后的股本4,380,035,575股为基数，向全体股东每10股派发现金分红人民币14.11元（含税）。",
+   "link": "https://wallstreetcn.com/news/global/3144152",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 18:11"
+   "published_at": "2026-08-03 12:15"
   },
   {
    "category": "finance",
-   "title": "沙特外交部：沙特外交大臣分别与卡塔尔、约旦外交大臣通电话，商讨各方统一立场的重要性，致力于缓和局势，",
-   "summary": "沙特外交部：沙特外交大臣分别与卡塔尔、约旦外交大臣通电话，商讨各方统一立场的重要性，致力于缓和局势，抵制一切有损地区安全的行为。",
-   "link": "https://wallstreetcn.com/news/global/3143724",
+   "title": "中国信通院：2025年我国人工智能产业规模超1.2万亿元",
+   "summary": "中国信息通信研究院持续开展人工智能产业研究，并开展2025年人工智能产业规模测算。经测算，2025年我国人工智能产业规模超1.2万亿元，同比增长40%。截至2026年6月，人工智能企业数量超6600家，全球占比达到15%，已形成覆盖基础底座、模型框架、行业应用的完整产业体系。",
+   "link": "https://wallstreetcn.com/news/global/3144151",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 18:09"
+   "published_at": "2026-08-03 12:11"
   },
   {
    "category": "finance",
-   "title": "俄国防部：防空力量当天在俄罗斯各地区及黑海水域上空击落了245架乌克兰无人机。",
-   "summary": "俄国防部：防空力量当天在俄罗斯各地区及黑海水域上空击落了245架乌克兰无人机。",
-   "link": "https://wallstreetcn.com/news/global/3143721",
+   "title": "蔡奇看望慰问北戴河暑期休假专家",
+   "summary": "据新华社，受习近平总书记委托，中共中央政治局常委、中央书记处书记蔡奇3日在北戴河看望暑期休假专家，代表党中央、国务院向全国各条战线、各个领域的广大专家人才致以诚挚问候。",
+   "link": "https://wallstreetcn.com/news/global/3144150",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 17:51"
+   "published_at": "2026-08-03 12:07"
   },
   {
    "category": "finance",
-   "title": "卡塔尔外交部：首相兼外交部长强调，各方必须坚持对话，并确保霍尔木兹海峡的航行自由。",
-   "summary": "卡塔尔外交部：首相兼外交部长强调，各方必须坚持对话，并确保霍尔木兹海峡的航行自由。",
-   "link": "https://wallstreetcn.com/news/global/3143719",
+   "title": "香港证监会与中国证监会联合公布多项措施深化资本市场合作",
+   "summary": "据香港证券及期货事务监察委员会（香港证监会）3日消息，该委员会与中国证券监督管理委员会（中国证监会）联合公布一系列措施，以深化务实合作和协同发展，巩固提升香港国际金融中心地位。",
+   "link": "https://wallstreetcn.com/news/global/3144148",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 17:39"
+   "published_at": "2026-08-03 12:06"
   },
   {
    "category": "finance",
-   "title": "伊朗外长：伊朗与阿曼谈判接近完成",
-   "summary": "8月2日，伊朗外交部长阿拉格齐在政府内阁会议上介绍伊朗与阿曼谈判最新进展时表示，双方谈判目前进展顺利，已进入最后阶段，接近完成。 据伊朗方面7月26日消息，伊朗外交部发言人巴加埃表示，伊朗与阿曼就管理霍尔木兹海峡安全航运的共同原则及操作机制进行讨论，会谈“富有成效并取得一些进展”。阿拉格齐27日与阿曼以及沙特阿拉伯外交大臣分别通话，讨论霍尔木兹海峡事宜。根据伊朗外交部发表的声明，阿拉格齐在通话中强",
-   "link": "https://wallstreetcn.com/news/global/3143714",
+   "title": "波罗的海干散货运价指数涨4.06%，至2843点。",
+   "summary": "波罗的海干散货运价指数涨4.06%，至2843点。",
+   "link": "https://wallstreetcn.com/news/global/3144146",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 16:54"
+   "published_at": "2026-08-03 12:03"
   },
   {
    "category": "finance",
-   "title": "伊朗：与阿曼之间关于霍尔木兹海峡管理的磋商处于最终阶段，对话不涉及海峡的关闭或开放",
-   "summary": "伊朗外交部发言人Baghaei：我方与阿曼讨论在霍尔木兹海峡新开辟一条航道。 与阿曼之间关于霍尔木兹海峡管理的磋商处于最终阶段。 我们与阿曼就霍尔木兹海峡举行的谈判并非首次，我们有义务开展合作，以达成船舶通行机制。 与阿曼之间的磋商不涉及霍尔木兹海峡的开放或关闭。 华盛顿未按期允许霍尔木兹海峡航运恢复，并在期限届满前对我们发动攻击。 美国与地区部分势力合作，在霍尔木兹海峡强行开辟了一条南部航线，该",
-   "link": "https://wallstreetcn.com/news/global/3143712",
+   "title": "江阴银行：陈开成先生、倪志娟女士因工作调动，辞去本行副行长职务。",
+   "summary": "江阴银行：陈开成先生、倪志娟女士因工作调动，辞去本行副行长职务。",
+   "link": "https://wallstreetcn.com/news/global/3144145",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 16:36"
+   "published_at": "2026-08-03 12:02"
   },
   {
    "category": "finance",
-   "title": "伊朗革命卫队：将针对哈尼亚、阿亚图拉·哈梅内伊遇袭事件实施猛烈、毁灭性报复。",
-   "summary": "伊朗革命卫队：将针对哈尼亚、阿亚图拉·哈梅内伊遇袭事件实施猛烈、毁灭性报复。",
-   "link": "https://wallstreetcn.com/news/global/3143711",
+   "title": "英国国债延续涨势，10年期国债收益率日内下行10个基点至4.95%。",
+   "summary": "英国国债延续涨势，10年期国债收益率日内下行10个基点至4.95%。",
+   "link": "https://wallstreetcn.com/news/global/3144141",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 16:34"
+   "published_at": "2026-08-03 12:00"
   },
   {
    "category": "finance",
-   "title": "伊朗议会国家安全委员会：调停方正提供协助，以期重启与美国的谅解备忘录谈判。 各方正就所有议题交换意见",
-   "summary": "伊朗议会国家安全委员会：调停方正提供协助，以期重启与美国的谅解备忘录谈判。 各方正就所有议题交换意见。",
-   "link": "https://wallstreetcn.com/news/global/3143709",
+   "title": "阳光电源：拟以5亿元-10亿元回购股份，回购股份价格不超过人民币188元/股。",
+   "summary": "阳光电源：拟以5亿元-10亿元回购股份，回购股份价格不超过人民币188元/股。",
+   "link": "https://wallstreetcn.com/news/global/3144140",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 16:25"
+   "published_at": "2026-08-03 11:59"
   },
   {
    "category": "finance",
-   "title": "索尼影业最新一部电影《蜘蛛侠》全球首映票房9.27亿美元。",
-   "summary": "索尼影业最新一部电影《蜘蛛侠》全球首映票房9.27亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3143706",
+   "title": "ST任子行：公司股票将于2026年8月4日（星期二）停牌1天，2026年8月5日（星期三）开市起复牌",
+   "summary": "ST任子行：公司股票将于2026年8月4日（星期二）停牌1天，2026年8月5日（星期三）开市起复牌并撤销其他风险警示，公司证券简称由“ST任子行”变更为“任子行”。",
+   "link": "https://wallstreetcn.com/news/global/3144139",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 16:04"
+   "published_at": "2026-08-03 11:59"
   },
   {
    "category": "finance",
-   "title": "持续发酵，欧足联或将投票罢免因凡蒂诺",
-   "summary": "据英国方面当地时间8月1日消息，欧足联已要求国际足联主席因凡蒂诺辞职。若因凡蒂诺拒绝，欧足联准备对他发起不信任投票。 据了解，国际足联211个成员协会中有43家协会投票支持该不信任投票即可启动罢免程序，欧足联拥有55个成员协会。 欧足联的这一举动，是由于因凡蒂诺提出希望成立一家价值200亿美元（约合150亿英镑）的子公司，并通过融资42亿美元（约合31.6亿英镑），出售新成立的“国际足联前进计划（",
-   "link": "https://wallstreetcn.com/news/global/3143705",
+   "title": "纳斯达克100指数期货回吐日内全部涨幅，存储芯片概念股盘前走低，美光科技跌5%，SK海力士、闪迪跌超",
+   "summary": "纳斯达克100指数期货回吐日内全部涨幅，存储芯片概念股盘前走低，美光科技跌5%，SK海力士、闪迪跌超4%。",
+   "link": "https://wallstreetcn.com/news/global/3144136",
    "source": "华尔街见闻",
-   "published_at": "2026-08-02 16:04"
+   "published_at": "2026-08-03 11:58"
+  },
+  {
+   "category": "finance",
+   "title": "个人投资者用AI炮制谣言牟利被罚没48.5万元",
+   "summary": "四川证监局披露，1997年出生的个人投资者孙哲元，使用AI编造多篇关于纯碱生产的虚假文章并公开发布，阅读量合计近9000次，并在传播期间交易纯碱期货获利8.5万元。四川证监局没收其违法所得，并处以40万元罚款，合计罚没约48.5万元。",
+   "link": "https://wallstreetcn.com/news/global/3144135",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-03 11:49"
+  },
+  {
+   "category": "finance",
+   "title": "礼来盘前涨约1%，Olomorasib获美国FDA突破性疗法认定，用于胰腺癌治疗。",
+   "summary": "礼来盘前涨约1%，Olomorasib获美国FDA突破性疗法认定，用于胰腺癌治疗。",
+   "link": "https://wallstreetcn.com/news/global/3144133",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-03 11:48"
+  },
+  {
+   "category": "finance",
+   "title": "北方稀土金属镨市场开拓实现新突破",
+   "summary": "据北方稀土消息，今年以来，北方稀土国贸公司紧扣稀土永磁材料行业技术变革趋势，精准对接下游磁材企业轻量化发展需求，成功开辟轻稀土在无重稀土磁材领域全新应用赛道，上半年实现金属镨批量销售。",
+   "link": "https://wallstreetcn.com/news/global/3144132",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-03 11:45"
   }
  ]
 }
