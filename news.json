@@ -1,6 +1,102 @@
 {
- "updated_at": "2026-08-03 22:16",
+ "updated_at": "2026-08-04 10:19",
  "ai": [
+  {
+   "category": "ai",
+   "title": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/493.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Cloudflare 推出新开源库，为每个 AI 智能体配备独立工作计算机",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/457.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 助推独行创业者时代到来：1 个人可撑起公司 100 万美元年收入",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/453.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 辅助“推翻”考拉兹猜想失败，Lean 4.32.2 修复内核漏洞",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/448.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Linux 内核 7.2-rc6 发布，AI 助推创近年来第 6 个候选版提交量新高",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/393.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "美国政府完成先进 AI 模型自愿性评估框架制定，内容未公开",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/380.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "欧盟 AI 透明度新规生效：企业需明确标注 AI 生成内容，违者将被重罚",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/326.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "房价一晚超 2000 美元，OpenAI 邀请网红参加奢华品牌营销活动被批",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/317.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "全球第一！OpenRouter 称上周 DeepSeek-V4-Flash 调用超 7.22 万亿 Token 登顶",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/307.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软测试其首款自研全双工 AI 语音 MAI Realtime 模型：支持中文等 16 种语言、2 种风格",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/297.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "95 后投资者利用 AI 批量生成虚假消息趁机交易牟利，被罚 48.5 万元",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/294.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Hugging Face CEO 德朗格：中国正在赢得 AI 竞赛，而美国则在“各自为战”",
+   "summary": "",
+   "link": "https://www.ithome.com/0/985/268.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "全球最大云厂商亚马逊盘初涨超 4%，市值破 3 万亿美元创历史新高",
@@ -64,272 +160,176 @@
    "link": "https://www.ithome.com/0/984/649.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "珍稀图书遭粉碎用于 AI 训练引众怒，图书数据库 ISBNdb 下架 AI 相关测试页面",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/642.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "马斯克和奥尔特曼均认为人类已迈入 AI 奇点时代",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/519.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 宣布其 AI 模型触达全球超 10 亿活跃用户和 200 万家企业",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/446.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 奥尔特曼推介 Astra 模型：协同 AI 智能体工作，主打长周期任务能力",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/421.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "DeepSeek-V4-Flash 正式版跑分报告：AI 单任务成本比 GPT-5.6 Luna 低约 60%",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/417.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "消息称 Nothing 未来将转型 AI 优先公司，智能手机业务退居次位",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/246.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“小号”美国最强开源模型：Inkling-Small 登场，约 1/4 规模提供相近 AI 性能",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/207.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "新型 AI 蠕虫披露：白色小字篡改微软 Word 文档，可自我复制传播",
-   "summary": "",
-   "link": "https://www.ithome.com/0/984/134.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 挤压作家收入：14419 本小说洞察，约 20% 书籍 AI 含量超 25%",
-   "summary": "",
-   "link": "https://www.ithome.com/0/983/976.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "研究显示：AI 聊天机器人实施情感诈骗的能力已超越人类",
-   "summary": "",
-   "link": "https://www.ithome.com/0/983/865.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "欧盟计划投资 100 亿欧元建设 7 座 AI 超级工厂，发力追赶中美",
-   "summary": "",
-   "link": "https://www.ithome.com/0/983/814.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "亚马逊创始人杰夫·贝索斯出售价值40.7亿美元的股票。",
-   "summary": "亚马逊创始人杰夫·贝索斯出售价值40.7亿美元的股票。",
-   "link": "https://wallstreetcn.com/news/global/3144370",
+   "title": "市场监管总局召开深入贯彻落实公平竞争审查制度专项行动推进会",
+   "summary": "7月28日，市场监管总局在北京召开深入贯彻落实公平竞争审查制度专项行动推进会，听取有关地方工作进展情况，总结阶段性工作成效，部署推动下一阶段重点工作任务。总局党组成员、副局长孟扬出席会议并讲话。 专项行动围绕加快构建全国统一大市场，坚持问题导向，聚焦基层开展公平竞争审查存在的问题，针对性部署15项具体任务，指导各地结合实际扎实推进，取得阶段性工作成效，为公平竞争审查落地见效提供了有力保障。",
+   "link": "https://wallstreetcn.com/news/global/3144677",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 22:11"
+   "published_at": "2026-08-04 10:16"
   },
   {
    "category": "finance",
-   "title": "Coatue Management管理的对冲基金规模在7月份缩水8%，创逾一年来最差单月表现。",
-   "summary": "Coatue Management管理的对冲基金规模在7月份缩水8%，创逾一年来最差单月表现。",
-   "link": "https://wallstreetcn.com/news/global/3144369",
+   "title": "欧洲企业一改往年颓势 势创2023年以来最强业绩表现",
+   "summary": "欧洲企业正交出多年来最强劲的财报成绩单之一，分析师对多个行业的前景也愈发乐观，区域股票有望创下新高。从多项指标来看，本轮财报季都表现亮眼：MSCI欧洲指数的利润大幅增长14%，超过一半的成分股第二季度业绩超出预期。这两项指标均为2023年初以来最高水平。由于油价上涨，大宗商品板块仍然是主要贡献力量。但高盛数据显示，即使是欧斯托克600指数中的普通成分股，其每股收益也较上年同期增长7%，缩小了与标普",
+   "link": "https://wallstreetcn.com/news/global/3144676",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 22:08"
+   "published_at": "2026-08-04 10:13"
   },
   {
    "category": "finance",
-   "title": "美国参议院投票，有望围绕临时性融资草案通过程序性投票，该权宜性融资方案将帮助特朗普的联邦政府有资金持",
-   "summary": "美国参议院投票，有望围绕临时性融资草案通过程序性投票，该权宜性融资方案将帮助特朗普的联邦政府有资金持续运作至12月11日。",
-   "link": "https://wallstreetcn.com/news/global/3144368",
+   "title": "国家开发银行持续加大对12个重点革命老区金融支持力度",
+   "summary": "从国家开发银行了解到，近年来，国开行聚焦基础设施、特色产业、城乡协调发展等重点领域、薄弱环节，加大专项贷款、新型政策性金融工具等投放力度，助力把革命老区建设得更好，让老区人民过上幸福生活。截至2026年6月末，国开行在12个重点革命老区贷款余额较“十四五”初期增长33%。下一步，国开行还将围绕发展特色优势产业、区域城乡协调发展、补齐基础设施短板等重点领域，精准做好金融服务，为确保革命老区人民共享改",
+   "link": "https://wallstreetcn.com/news/global/3144674",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 22:04"
+   "published_at": "2026-08-04 10:07"
   },
   {
    "category": "finance",
-   "title": "美疾控中心：密歇根州报告两例环孢子虫病死亡病例",
-   "summary": "美国疾病控制和预防中心（CDC）3日证实，密歇根州报告两例环孢子虫病相关死亡病例，两名死者均患有严重基础疾病。这是自今年5月环孢子虫病在美持续蔓延以来首次报告相关死亡病例。 美国密歇根州卫生与公共服务部当天公布的最新数据显示，截至目前，密歇根州累计报告环孢子虫病病例11234例，其中193人住院治疗、两人死亡。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3144366",
+   "title": "7月两融新开户13.94万户，同比增长12.78%",
+   "summary": "中证数据有限责任公司披露，今年7月全市场两融新开户13.94万户，同比12.78%，环比下降22.12%。截至7月末，全市场融资融券账户总数达到1658.44万户。",
+   "link": "https://wallstreetcn.com/news/global/3144673",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 21:26"
+   "published_at": "2026-08-04 10:04"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.42%，报14681点。",
-   "summary": "富时A50期指连续夜盘收涨0.42%，报14681点。",
-   "link": "https://wallstreetcn.com/news/global/3144363",
+   "title": "Spotify第二季度营收47.8亿欧元，预期47.9亿欧元。 第二季度每股收益2.61欧元，去年同",
+   "summary": "Spotify第二季度营收47.8亿欧元，预期47.9亿欧元。 第二季度每股收益2.61欧元，去年同期每股亏损0.42欧元。 第二季度营业利润6.55亿欧元，同比增长61%。 第二季度月活跃用户数7.77亿，预期7.7818亿。 Spotify预计第三季度营收50亿欧元，市场预期49.3亿欧元。 Spotify预计第三季度营业利润6.70亿欧元，市场预期6.811亿欧元。 Spotify预计第三季",
+   "link": "https://wallstreetcn.com/news/global/3144672",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 21:15"
+   "published_at": "2026-08-04 10:04"
   },
   {
    "category": "finance",
-   "title": "Palantir在二季度与（某家）科技公司签署3.7亿美元合同。",
-   "summary": "Palantir在二季度与（某家）科技公司签署3.7亿美元合同。",
-   "link": "https://wallstreetcn.com/news/global/3144362",
+   "title": "百度文心助手连续登顶SuperCLUE等国内外榜单，记忆能力满分且免费开放",
+   "summary": "日前，国内权威测评机构SuperCLUE发布XClaw龙虾产品测评。百度文心助手（任务模式）在10款主流AI智能体中以97.62分位列第一。",
+   "link": "https://wallstreetcn.com/news/global/3144668",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 21:08"
+   "published_at": "2026-08-04 09:59"
   },
   {
    "category": "finance",
-   "title": "周一（8月3日）纽约尾盘，标普500股指期货最终涨1.52%，道指期货涨1.45%，纳斯达克100股",
-   "summary": "周一（8月3日）纽约尾盘，标普500股指期货最终涨1.52%，道指期货涨1.45%，纳斯达克100股指期货涨1.87%。 罗素2000股指期货涨1.83%。",
-   "link": "https://wallstreetcn.com/news/global/3144361",
+   "title": "东方电缆：2026年上半年净利润5.65亿元同比增19.41%",
+   "summary": "东方电缆公告，2026年上半年营业收入57.99亿元，同比增长30.85%。归属于上市公司股东的净利润5.65亿元，同比增长19.41%。归属于上市公司股东的扣除非经常性损益的净利润5.59亿元，同比增长21.03%。报告期内，公司无利润分配预案或公积金转增股本预案。",
+   "link": "https://wallstreetcn.com/news/global/3144667",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 21:05"
+   "published_at": "2026-08-04 09:58"
   },
   {
    "category": "finance",
-   "title": "周一（8月3日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7581元，较上",
-   "summary": "周一（8月3日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7581元，较上周五纽约尾盘跌57点，日内整体交投于6.7461-6.7593元区间。",
-   "link": "https://wallstreetcn.com/news/global/3144360",
+   "title": "摩根资产管理：回避日本国债 日本央行在加息方面“行动过慢”",
+   "summary": "摩根资产管理表示，相对于全球债券基准指数，减持或回避日本国债可以增加超额收益。业务负责人Myles Bradshaw表示，日本央行在政策正常化和加息方面依然“行动过慢”，这意味着仅靠日元干预不太可能改变该货币的基本面，也不太可能实质性地减缓其贬值步伐。日本央行可能加快加息步伐，“这对投资者而言显然是一个机会。市场目前消化每六个月加息一次，这似乎是一个很低的门槛”。",
+   "link": "https://wallstreetcn.com/news/global/3144666",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 21:04"
+   "published_at": "2026-08-04 09:57"
   },
   {
    "category": "finance",
-   "title": "OpenAI的CEO Altman被要求就AI安全事故向美国众议院介绍情况。",
-   "summary": "OpenAI的CEO Altman被要求就AI安全事故向美国众议院介绍情况。",
-   "link": "https://wallstreetcn.com/news/global/3144359",
+   "title": "中通客车：7月产量1367辆同比增35.48%，销量1138辆同比增12.34%",
+   "summary": "中通客车公告，2026年7月生产量1367辆，去年同期1009辆，单月同比变动35.48%；销售量1138辆，去年同期1013辆，单月同比变动12.34%。本年累计生产量8454辆，去年同期累计7137辆，累计同比变动18.45%；本年累计销售量8738辆，去年同期累计6852辆，累计同比变动27.52%。",
+   "link": "https://wallstreetcn.com/news/global/3144665",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 21:01"
+   "published_at": "2026-08-04 09:54"
   },
   {
    "category": "finance",
-   "title": "周一（8月3日）纽约尾盘，现货黄金涨0.21%，报4054.95美元/盎司，亚太盘初高开至4080.",
-   "summary": "周一（8月3日）纽约尾盘，现货黄金涨0.21%，报4054.95美元/盎司，亚太盘初高开至4080.87美元刷新日高，随后震荡下行、21:38刷新日低至4019.30美元。 COMEX黄金期货涨0.15%，报4113美元/盎司。 现货白银涨1.01%，报58.18美元/盎司，美股盘初也曾刷新日低至56.5694美元。 COMEX白银期货涨1.08%，报58.400美元/盎司。 COMEX铜期货涨0",
-   "link": "https://wallstreetcn.com/news/global/3144358",
+   "title": "多地密集下注脑机接口产业",
+   "summary": "2026年以来，脑机接口行业的热度持续攀升。“十五五”规划纲要提出前瞻布局未来产业，瞄准引领未来发展重点领域，构建未来产业全链条培育体系，推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点。2026年政府工作报告首次将脑机接口写入未来产业培育清单。北京、天津、上海等地密集出台脑机接口相关的产业政策，推动未来产业从实验室走向现实应用。（21财经）",
+   "link": "https://wallstreetcn.com/news/global/3144664",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:59"
+   "published_at": "2026-08-04 09:51"
   },
   {
    "category": "finance",
-   "title": "道明：干预势头可能短暂推动美元/日元跌至153",
-   "summary": "道明证券认为，干预的推动力可能会使美元/日元跌至153，但除非日本央行采取更多行动或美国财政部做出全面承诺，否则就只会暂时如此。“动能可能短暂推动美元/日元跌至153，但要没有日本央行的行动或美国财政部的全面承诺，我们不认为该货币对会大幅低于该水平，” Howard Du、Gennadiy Goldberg和Molly Brooks等策略师写道。“美日双边贸易动态、‘卖出美国’情绪复苏的风险、美国",
-   "link": "https://wallstreetcn.com/news/global/3144357",
+   "title": "中国核电投资控股的田湾核电8号机组全面转入调试阶段",
+   "summary": "8月3日，中核集团旗下中国核电投资控股的田湾核电8号机组完成冷态功能试验（以下简称冷试），标志着田湾核电8号机组由安装阶段全面转入调试阶段。田湾核电7、8号机组全部建成投产后，年发电量将达到188亿千瓦时。（界面新闻）",
+   "link": "https://wallstreetcn.com/news/global/3144662",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:31"
+   "published_at": "2026-08-04 09:47"
   },
   {
    "category": "finance",
-   "title": "美股大类资产类ETF多数收涨，纳指ETF、小盘股指ETF涨超1.7%，布油基金跌5%",
-   "summary": "周一（8月3日），纳指100 ETF收涨1.76%，罗素2000指数ETF涨1.72%，巴克莱美国可转债ETF、日元做多至少涨1.46%，标普500 ETF、道指ETF、农产品基金至少涨1.02%，新兴市场ETF、美国国债20+年ETF至少涨0.33%，大豆基金涨0.32%，黄金ETF涨0.05%。 做多美元指数收平，欧元做多跌0.2%，恐慌指数做多跌0.8%，美国布伦特油价基金跌5.06%。",
-   "link": "https://wallstreetcn.com/news/global/3144355",
+   "title": "国家发展改革委追加安排3亿元支持辽宁、吉林进一步做好灾后应急恢复。（新华社）",
+   "summary": "国家发展改革委追加安排3亿元支持辽宁、吉林进一步做好灾后应急恢复。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3144661",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:22"
+   "published_at": "2026-08-04 09:47"
   },
   {
    "category": "finance",
-   "title": "Snap二季度营收16亿美元，分析师预期15.4亿美元。 二季度日活用户数4.93亿，分析师预期4.",
-   "summary": "Snap二季度营收16亿美元，分析师预期15.4亿美元。 二季度日活用户数4.93亿，分析师预期4.8838亿。 二季度调整后EBITDA为2.5亿美元，分析师预期1.923亿美元。 预计三季度营收17亿-17.4亿美元，分析师预期17亿美元。 预计三季度调整后EBITDA为3亿-3.5亿美元，分析师预期3.276亿美元。 Snap美股盘后涨11%。",
-   "link": "https://wallstreetcn.com/news/global/3144353",
+   "title": "印度计划放宽对离岸基金的披露规定。（路透）",
+   "summary": "印度计划放宽对离岸基金的披露规定。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3144660",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:15"
+   "published_at": "2026-08-04 09:47"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块中，电信服务板块收涨4.3%——成分股Meta、谷歌A领跑，可选消费板块涨",
-   "summary": "标普500指数的11个板块中，电信服务板块收涨4.3%——成分股Meta、谷歌A领跑，可选消费板块涨2.68%，信息技术/科技板块涨1.62%，能源板块则收跌1.23%。",
-   "link": "https://wallstreetcn.com/news/global/3144352",
+   "title": "腾讯云：WorkBuddy5.0及以上版本上线「安全中心」",
+   "summary": "腾讯云宣布WorkBuddy5.0及以上版本正式上线「安全中心」。该版本中，越权操作实时拦截、删除文件自动进入回收站、修改文件可版本还原等核心管控能力默认开启。据介绍，此次上线的安全能力统一集中在「设置→安全中心」入口。用户打开WorkBuddy客户端，点击左下角头像进入“设置”页面，再点击“安全中心”，即可看见全部安全功能，并且默认开启。",
+   "link": "https://wallstreetcn.com/news/global/3144657",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:14"
+   "published_at": "2026-08-04 09:37"
   },
   {
    "category": "finance",
-   "title": "周一（8月3日），美股行业ETF多数收涨，全球航空业ETF涨4.44%，网络股指数ETF涨2.93%",
-   "summary": "周一（8月3日），美股行业ETF多数收涨，全球航空业ETF涨4.44%，网络股指数ETF涨2.93%，可选消费ETF、科技行业ETF、全球科技股指数ETF至少涨1.36%，能源业ETF跌1.28%。",
-   "link": "https://wallstreetcn.com/news/global/3144351",
+   "title": "阿里云：Qwen-Image-3.0正式上线千问AI平台，权威榜单国内第一",
+   "summary": "今日，阿里巴巴千问图像生成模型Qwen-Image-3.0正式上线千问AI平台，面向所有用户全部开放。旗舰版Qwen-Image-3.0-Pro与标准版Qwen-Image-3.0-Standard同时开放API，文生图0.18元/张起。API已在千问AI平台上线，海外用户可通过QwenCloud接入。在国际评测平台Arena.ai最新文生图榜单中，Qwen-Image-3.0位列国内第一。",
+   "link": "https://wallstreetcn.com/news/global/3144656",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:12"
+   "published_at": "2026-08-04 09:34"
   },
   {
    "category": "finance",
-   "title": "周一（8月3日），彭博电动汽车价格回报指数跌0.03%，报3352.55点。",
-   "summary": "周一（8月3日），彭博电动汽车价格回报指数跌0.03%，报3352.55点。",
-   "link": "https://wallstreetcn.com/news/global/3144350",
+   "title": "装载伊拉克石油的油轮已通过霍尔木兹海峡。（伊拉克国家通讯社）",
+   "summary": "装载伊拉克石油的油轮已通过霍尔木兹海峡。（伊拉克国家通讯社）",
+   "link": "https://wallstreetcn.com/news/global/3144652",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:09"
+   "published_at": "2026-08-04 09:30"
   },
   {
    "category": "finance",
-   "title": "Palantir二季度调整后每股收益（EPS）为0.41美元，分析师预期0.35美元。 二季度营收1",
-   "summary": "Palantir二季度调整后每股收益（EPS）为0.41美元，分析师预期0.35美元。 二季度营收19.4亿美元，分析师预期18.1亿美元。 预计全年营收81.5亿-81.6亿美元，公司原本预计76.5亿-76.6亿美元。 预计全年调整后运营利润48.9亿-49亿美元，分析师预期45.1亿美元。 Palantir美股盘后涨7%。",
-   "link": "https://wallstreetcn.com/news/global/3144349",
+   "title": "工信部：加强对道路机动车辆产品“激进式”创新设计风险隐患甄别和测试验证 加强组合驾驶辅助和自动驾驶功能安全评估",
+   "summary": "工业和信息化部装备工业一司8月4日组织道路机动车辆检验检测机构开展座谈，分析当前产品安全和检验检测工作形势，部署规范道路机动车辆检验检测行业竞争秩序、提升检验检测工作质量相关工作。会议要求，道路机动车辆检验检测机构要深入贯彻落实党中央、国务院决策部署，坚决抵制非理性竞争，严把产品检测关。",
+   "link": "https://wallstreetcn.com/news/global/3144649",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:06"
+   "published_at": "2026-08-04 09:25"
   },
   {
    "category": "finance",
-   "title": "安森美半导体二季度调整后每股收益（EPS）为0.74美元，分析师预期0.71美元。",
-   "summary": "安森美半导体二季度调整后每股收益（EPS）为0.74美元，分析师预期0.71美元。",
-   "link": "https://wallstreetcn.com/news/global/3144348",
+   "title": "机构：DRAM供不应求将延续至2027年，英伟达正考虑下调Rubin Ultra的HBM配置",
+   "summary": "根据集邦咨询最新的内存行业研究，DRAM供应短缺预计将持续到2027年。由于HBM4e的验证时间线仍存在不确定性，英伟达自2026年第三季度以来一直在重新评估Rubin Ultra 的HBM(高带宽内存)配置。虽然最初的计划是采用12层堆叠(12hi)的HBM4e配置，但英伟达目前正在并行评估多种设计方案——包括HBM4e 8hi、HBM4 12hi以及HBM4 8hi——最终的规格尚未敲定。除英",
+   "link": "https://wallstreetcn.com/news/global/3144647",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:05"
+   "published_at": "2026-08-04 09:18"
   },
   {
    "category": "finance",
-   "title": "Diamondback Energy二季度调整后每股收益（EPS）为6.48美元，分析师预期6.07",
-   "summary": "Diamondback Energy二季度调整后每股收益（EPS）为6.48美元，分析师预期6.07美元。",
-   "link": "https://wallstreetcn.com/news/global/3144347",
+   "title": "江苏银行业绩快报：上半年净利润218.76亿元，同比增长8.09%。",
+   "summary": "江苏银行业绩快报：上半年净利润218.76亿元，同比增长8.09%。",
+   "link": "https://wallstreetcn.com/news/global/3144648",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:05"
+   "published_at": "2026-08-04 09:18"
   },
   {
    "category": "finance",
-   "title": "波音涨8%，创2025年12月份以来最大单日涨幅。",
-   "summary": "波音涨8%，创2025年12月份以来最大单日涨幅。",
-   "link": "https://wallstreetcn.com/news/global/3144345",
+   "title": "全球风险越来越难定价 债券基金转向欧洲债券",
+   "summary": "瑞银资管和Guinness Global Investors一直在增持德国国债；Barings则卖出美国国债，转而增加对意大利、西班牙和法国国债的配置；Aviva Investors则表示，超配欧元区债券具有吸引力。Barings投资经理Brian Mangwiro表示，“有充分理由减少美国国债和英国国债的配置，转而投资欧洲债券。如果投资者追求的是更稳定的制度和政治环境，以及较低的经济增长和通胀，",
+   "link": "https://wallstreetcn.com/news/global/3144645",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:01"
+   "published_at": "2026-08-04 09:11"
   },
   {
    "category": "finance",
-   "title": "美股七巨头收盘播报｜周一（8月3日），美国科技股七巨头（Magnificent 7）指数涨3%，报2",
-   "summary": "美股七巨头收盘播报｜周一（8月3日），美国科技股七巨头（Magnificent 7）指数涨3%，报224.17点，最近三个交易日累计反弹8.06%。 “超大”市值科技股指数涨3.20%，报440.38点，最近三天也反弹8.81%。",
-   "link": "https://wallstreetcn.com/news/global/3144344",
+   "title": "中国央行7月公开市场国债买卖净投放500亿元",
+   "summary": "央行公布2026年7月各项工具流动性投放情况，中央银行贷款方面，常备借贷便利（SLF）净回笼10亿元；中期借贷便利（MLF）净投放1000亿元，抵押补充贷款（PSL）净回笼1161亿元；公开市场业务方面，7天期逆回购净投放2495亿元，公开国债买卖净投放500亿元；中央国库现金管理净投放300亿元。",
+   "link": "https://wallstreetcn.com/news/global/3144643",
    "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:01"
-  },
-  {
-   "category": "finance",
-   "title": "中概指数收涨超0.7%，KWEB涨约0.9%，金山云涨约7%，日月光半导体、阿里涨超4%",
-   "summary": "纳斯达克金龙中国指数收涨0.75%，报6647.91点。 ETF中，中概互联网指数ETF（KWEB）收涨0.88%，中国科技指数ETF（CQQQ）收跌0.22%。 MSCI新兴市场ex中国ETF（EMXC）收涨0.49%，德银嘉实沪深300指数ETF（ASHR）收跌0.82%，trackersHarvest中证50（ASHS）收跌1.09%。",
-   "link": "https://wallstreetcn.com/news/global/3144343",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-03 20:00"
+   "published_at": "2026-08-04 09:10"
   }
  ]
 }
