@@ -1,6 +1,78 @@
 {
- "updated_at": "2026-08-05 22:32",
+ "updated_at": "2026-08-06 10:17",
  "ai": [
+  {
+   "category": "ai",
+   "title": "OpenAI 披露攻击 Hugging Face 前，AI 智能体秘密建立内部留言板",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/553.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "报告称《时代》杂志为 AI 爬虫设计 Markdown 格式页面，内嵌广告内容",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/506.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/493.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "雷神水冷迷你 AI 工作站体验：176W 峰值性能，AI 创作的得力助手",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/358.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "“AI 教父”辛顿：人工智能可能会发展出自己的目标，这很可怕",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/346.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "【IT之家开箱】雷神水冷迷你 AI 工作站图赏：你的桌面 Agent“小黑匣”",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/345.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "上线仅 1 周，微软撤回 M365 Copilot 的“AI 引用黑名单”功能",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/342.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "挑战 Codex 等，Meta 推出其首个编程 AI 智能体工具 Muse Code",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/268.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌 DeepMind 重组：哈萨比斯转任首席科学家，聚焦通用人工智能应用",
+   "summary": "",
+   "link": "https://www.ithome.com/0/986/265.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "报告称 2026 普利策奖 5 个获奖和 3 个入围项目披露使用 AI 创新高",
@@ -88,240 +160,192 @@
    "link": "https://www.ithome.com/0/985/651.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic CEO 达里奥内部言论曝光，担忧员工上班只为钱",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/649.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/493.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Cloudflare 推出新开源库，为每个 AI 智能体配备独立工作计算机",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/457.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 助推独行创业者时代到来：1 个人可撑起公司 100 万美元年收入",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/453.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 辅助“推翻”考拉兹猜想失败，Lean 4.32.2 修复内核漏洞",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/448.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Linux 内核 7.2-rc6 发布，AI 助推创近年来第 6 个候选版提交量新高",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/393.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "美国政府完成先进 AI 模型自愿性评估框架制定，内容未公开",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/380.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "欧盟 AI 透明度新规生效：企业需明确标注 AI 生成内容，违者将被重罚",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/326.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "房价一晚超 2000 美元，OpenAI 邀请网红参加奢华品牌营销活动被批",
-   "summary": "",
-   "link": "https://www.ithome.com/0/985/317.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "港股公司逾330份半年度业绩预告，预喜和扭亏数量占比超五成",
-   "summary": "截至8月5日，已有332家港股上市公司预告上半年业绩。其中，178家企业净利润同比上升或扭亏为盈，占比超过五成。74家企业预计上半年净利润同比增长上限超过100%。港股公司上半年整体呈现“盈利修复、结构分化”特征，其中有色金属、证券期货、科技板块盈利增速较高。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3145637",
+   "title": "花旗：将闪迪目标价从2500美元下调至2100美元。",
+   "summary": "花旗：将闪迪目标价从2500美元下调至2100美元。",
+   "link": "https://wallstreetcn.com/news/global/3145987",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:31"
+   "published_at": "2026-08-06 10:17"
   },
   {
    "category": "finance",
-   "title": "上证报：需求旺盛景气度高，光模块“噪音”影响有限",
-   "summary": "受一则涉及光模块出口的传闻影响，8月5日A股开盘后，光模块龙头企业“易中天”（新易盛、中际旭创、天孚通信）股价大幅低开。对此，多位业内人士表示，早在2025年，市场就传出过光模块等产品可能被限制的消息，行业对此已有预判并做了部分准备。短、中期看，鉴于旺盛的市场需求，中国的庞大产能、超高效率、更低成本等因素，海外严格禁止进口中国光模块的可能性较小，产业受到冲击相对有限；但长期看，中国厂商部分海外市场",
-   "link": "https://wallstreetcn.com/news/global/3145636",
+   "title": "兴发集团：拟定增募资不超过30亿元，用于桥沟磷矿280万吨/年采矿工程、桥沟磷矿500万吨/年选矿项",
+   "summary": "兴发集团：拟定增募资不超过30亿元，用于桥沟磷矿280万吨/年采矿工程、桥沟磷矿500万吨/年选矿项目（一期）、偿还银行贷款。",
+   "link": "https://wallstreetcn.com/news/global/3145986",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:30"
+   "published_at": "2026-08-06 10:16"
   },
   {
    "category": "finance",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 08:35 美国旧金山联储主席戴利（2027年FOMC票委）在ESRI（经济与社会研究协会）讲话； ② 09:30 澳大利亚6月出口、进口、商品及服务贸易帐； ③ 时间待定 SpaceX解禁潮将至：1160亿美元股票进入流通； ④ 时间待定 马斯克旗下AI Grok 4.6即将发布； ⑤ 14:00 德国6月工厂订单； ⑥ 16:00 欧洲央行公布经济公报； ⑦ 20:30 美国7月25日当周",
-   "link": "https://wallstreetcn.com/news/global/3145635",
+   "title": "中阿（根廷）两国央行续签双边本币互换协议",
+   "summary": "经国务院批准，近日中国人民银行与阿根廷中央银行续签了双边本币互换协议，互换规模为1300亿元人民币/28万亿阿根廷比索，协议有效期五年，经双方同意可以展期。",
+   "link": "https://wallstreetcn.com/news/global/3145984",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:30"
+   "published_at": "2026-08-06 10:13"
   },
   {
    "category": "finance",
-   "title": "7月银行理财规模增长6500亿元，固收类产品仍为主力",
-   "summary": "最新数据显示，7月银行理财规模延续稳步上行态势，环比增加约6500亿元。产品结构方面，固收类产品仍为主力，规模占比近八成。业内人士认为，在“资产荒”与市场波动并行的背景下，银行理财机构应在提升投研能力和加强投资者陪伴方面持续深耕。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3145634",
+   "title": "SK海力士：Solidigm子公司正审议约5万亿韩元的Pre-IPO融资。",
+   "summary": "SK海力士：Solidigm子公司正审议约5万亿韩元的Pre-IPO融资。",
+   "link": "https://wallstreetcn.com/news/global/3145982",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:22"
+   "published_at": "2026-08-06 10:09"
   },
   {
    "category": "finance",
-   "title": "首批新模式浮动管理费基金规模重回220亿元",
-   "summary": "今年以来，新模式浮动管理费基金新发实现常态化，首批产品在二季度末的规模更是达到226.7亿元，较去年末翻倍。Choice数据显示，首批新模式浮动管理费基金成立以来的平均回报超过30%，近半数产品的业绩超过20%。其中，华商致远回报混合成立以来的回报最高，超过170%，嘉实成长共赢混合成立以来也实现了净值翻倍。此外，易方达成长进取混合等成立以来的涨幅也较靠前。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3145633",
+   "title": "爱丽家居：如公司股票价格进一步异常上涨，公司可能再次申请停牌核查。",
+   "summary": "爱丽家居：如公司股票价格进一步异常上涨，公司可能再次申请停牌核查。",
+   "link": "https://wallstreetcn.com/news/global/3145981",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:21"
+   "published_at": "2026-08-06 10:05"
   },
   {
    "category": "finance",
-   "title": "报道：继OpenAI、Anthropic之后，Meta的AI模型也入侵其他公司的系统",
-   "summary": "Meta的AI模型在测试期间进入互联网，对另外一家公司发动网络攻击。 Meta的Muse Spark 1.1模型突破了对方公司的安全系统。（The Information）",
-   "link": "https://wallstreetcn.com/news/global/3145632",
+   "title": "马东辉启动内部改革，理想直面被模仿困境",
+   "summary": "从多方信源处获悉，7月最后一个工作日，理想汽车发布了一份任命公告。为了提升产品竞争力，经研发技术委员会的批准，公司将分批设立跨领域融合的产品和技术创新工作组。",
+   "link": "https://wallstreetcn.com/news/global/3145980",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:20"
+   "published_at": "2026-08-06 10:02"
   },
   {
    "category": "finance",
-   "title": "债市走出超预期行情，10年期国债收益率盘中跌破1.7%",
-   "summary": "近期，债市走出超预期行情。8月5日，债市做多情绪延续，10年期国债活跃券收益率盘中一度跌破1.7%关键关口，30年期国债活跃券收益率继续处于年内低位附近。业内人士表示，本轮债市突破并非单一利好驱动，而是政策想象空间打开、资金面均衡偏松、机构行为切换及风险偏好回落等多重因素共同作用的结果。不过，10年期国债收益率下破1.7%后并未快速远离这一关键点位，显示市场在关键关口仍有分歧。后续债市能否进一步打",
-   "link": "https://wallstreetcn.com/news/global/3145631",
+   "title": "江钨装备：公司无注入矿山资产的安排或活动",
+   "summary": "江钨装备公告称，公司股票近期多次大幅上涨并触及异常波动，8月6日再次涨停。公司关注到有媒体发布相关报道称，公司可能择机注入矿山资产，引起市场关注与讨论。经公司自查，公司无注入矿山资产的安排或活动，公司目前主营业务为磁选装备的研发、生产与销售，生产经营活动正常，主营业务未发生变化。",
+   "link": "https://wallstreetcn.com/news/global/3145974",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:17"
+   "published_at": "2026-08-06 09:57"
   },
   {
    "category": "finance",
-   "title": "32只ETF密集成立，机构投资者加速入场",
-   "summary": "在三季度以来的震荡行情中，机构加快了ETF新品入市步伐。Choice数据显示，7月1日至8月5日，已成立了32只ETF，发行规模合计达76.12亿元。从这些新成立ETF的“买主”看，机构投资者身影频频出现。以华安中证工程机械主题ETF为例，截至7月31日，前十名基金份额持有人均为机构投资者。与此同时，ETF产品阵营有望持续扩容。据Choice资讯统计，截至8月5日，有21只ETF正在发行，另有4只",
-   "link": "https://wallstreetcn.com/news/global/3145630",
+   "title": "马云罕见海外投资布局公示",
+   "summary": "8月6日消息，阿里巴巴创办人马云作出近年罕见的海外投资布局——旗下云锋基金参与投资美国旧金山AI保险初创公司Corgi，这亦是云锋基金已知的首笔美国交易。该基金过往投资组合主要集中在中国市场。云锋基金在此轮融资中向Corgi投入约3000万美元（约2.34亿港元），为该公司的参投方之一。（一财）",
+   "link": "https://wallstreetcn.com/news/global/3145971",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:16"
+   "published_at": "2026-08-06 09:47"
   },
   {
    "category": "finance",
-   "title": "闪迪2026财年分析师电话会议要点总结",
-   "summary": "一、创纪录的财务业绩与业绩指引。 1、第四季度业绩表现： 营收达89.65亿美元（季环比增长51%，同比增长372%），超出指引上限。环比增长中，约三分之一来自出货量（Bits）增长，三分之二来自价格上涨。 2、毛利率与每股收益（EPS）：Non-GAAP毛利率升至84.6%（上一季度为78.4%）；Non-GAAP EPS达39.25美元（指引区间为30–33美元）。 3、现金流与资本回报：运营",
-   "link": "https://wallstreetcn.com/news/global/3145629",
+   "title": "享界汽车宣布，享界G9 预售24小时订单突破10300台，Ultra及Ultra+版本占比达90%。",
+   "summary": "享界汽车宣布，享界G9 预售24小时订单突破10300台，Ultra及Ultra+版本占比达90%。",
+   "link": "https://wallstreetcn.com/news/global/3145970",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:16"
+   "published_at": "2026-08-06 09:44"
   },
   {
    "category": "finance",
-   "title": "摩根大通：科技股交易在经历惨烈抛售后，散户影响力或将加大",
-   "summary": "据摩根大通对科技、媒体和电信板块股票多空对冲基金初步数据的评估，科技股交易在经历7月的惨烈抛售后，可能正变得更加依赖散户投资者，波动性也将加剧。 摩根大通策略师帕尼吉尔佐格卢（Nikolaos Panigirtzoglou）等人认为，Pivotal Path的数据显示，此类对冲基金在7月亏损超过10%。这一回撤幅度尚未计入Situational Awareness基金——该基金在半导体和科技股遭遇",
-   "link": "https://wallstreetcn.com/news/global/3145627",
+   "title": "行云科技：在手算力长单超150亿元 客户主动加价扩量",
+   "summary": "行云科技发布投资者关系活动记录表公告，截至2026年7月末，公司在手算力、存储类3-5年期长期框架订单规模超154.04亿元，合作客户涵盖头部央企上市公司及头部大模型研发机构。2026年7月，公司三笔核心订单先后获客户加价扩量，其中头部大模型客户订单金额涨幅超201%、算力规模翻倍；央企客户租金整体上调79%；其余核心订单综合涨价13.5%。所有加价均发生在首批设备交付验收后。",
+   "link": "https://wallstreetcn.com/news/global/3145969",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 22:08"
+   "published_at": "2026-08-06 09:37"
   },
   {
    "category": "finance",
-   "title": "贝佐斯年内首次减持亚马逊股票，套现3.5亿美元",
-   "summary": "亚马逊股价周一创纪录新高之际，贝佐斯（Jeff Bezos）出售了价值近3.5亿美元的亚马逊股票，这是他今年首次出售该公司股份。 周三盘后发布的Form 4申报文件中披露了这笔交易。这位亿万富豪两天前在另一份文件中表示，计划出售最多1500万股亚马逊股票，价值超过40亿美元，此次出售仅占该计划的一小部分。 即使在此次出售后，贝佐斯仍以8.16%的持股比例遥遥领先，为亚马逊最大股东。",
-   "link": "https://wallstreetcn.com/news/global/3145623",
+   "title": "专家辟谣“车市半年发了五六百款新车”",
+   "summary": "针对上半年上市新车超500款的行业热议数据，中国汽车流通协会专家李颜伟今日在社交平台上表示，2026年1-6月国内全新车型仅约165款，市面流传500至600款的说法并不严谨。",
+   "link": "https://wallstreetcn.com/news/global/3145968",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:45"
+   "published_at": "2026-08-06 09:33"
   },
   {
    "category": "finance",
-   "title": "巴西央行降息25个基点，至14%。 央行称，劳动力市场条件紧俏。 主要CPI和基本CPI失速。 密切",
-   "summary": "巴西央行降息25个基点，至14%。 央行称，劳动力市场条件紧俏。 主要CPI和基本CPI失速。 密切留意CPI预期的进一步脱锚问题。 通胀风险仍然高于平时。 预计2028年一季度通胀同比升幅为3.2%。",
-   "link": "https://wallstreetcn.com/news/global/3145622",
+   "title": "美国7月挑战者企业裁员人数同比 -46.1%，前值 -4.5%。",
+   "summary": "美国7月挑战者企业裁员人数同比 -46.1%，前值 -4.5%。",
+   "link": "https://wallstreetcn.com/news/global/3145965",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:35"
+   "published_at": "2026-08-06 09:30"
   },
   {
    "category": "finance",
-   "title": "周三（8月5日），美国科技股七巨头（Magnificent 7）指数跌0.28%，报226.01点，",
-   "summary": "周三（8月5日），美国科技股七巨头（Magnificent 7）指数跌0.28%，报226.01点，美股早盘高开低走，北京时间21:33刷新日高至229.56点、00:12刷新日低至225.05点，之后持稳于226点附近。成分股中，谷歌A收跌4.03%——在标普500指数所有成分股里跌幅靠前，特斯拉、亚马逊、微软至多跌1.77%，Meta、苹果至多收涨0.52%，英伟达涨3.43%。 “超大”市值",
-   "link": "https://wallstreetcn.com/news/global/3145619",
+   "title": "万科2029年到期美元债势创2个月最大涨幅",
+   "summary": "万科2029年11月到期美元债势创2026年5月11日以来最大涨幅。该公司3.5%债券每1美元涨1.9美分，至50.2美分。2027年11月到期的3.975%债券每1美元涨2.4美分，至54.9美分。",
+   "link": "https://wallstreetcn.com/news/global/3145964",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:24"
+   "published_at": "2026-08-06 09:28"
   },
   {
    "category": "finance",
-   "title": "Beyond Meat二季度调整后每股亏损0.09美元，符合分析师预期。",
-   "summary": "Beyond Meat二季度调整后每股亏损0.09美元，符合分析师预期。",
-   "link": "https://wallstreetcn.com/news/global/3145618",
+   "title": "博杰股份：连续3日涨幅偏离值累计超20%，公司澄清相关业务尚处初步布局",
+   "summary": "博杰股份公告，公司股票于2026年8月4日、5日、6日连续3个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。公司关注到市场就“光通信磷化铟”“半导体”“光模块”“液冷”“人形机器人”“MLCC”等业务开展讨论并澄清：公司持有鼎泰芯源11.049%股权，其连续3年亏损，对业绩不构成重大影响；博捷芯2025年营收占公司营收2.78%；广浩捷光耦合设备尚未实现营收；液冷模组未独立确认收入",
+   "link": "https://wallstreetcn.com/news/global/3145963",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:22"
+   "published_at": "2026-08-06 09:21"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收跌0.35%，报14840点。",
-   "summary": "富时A50期指连续夜盘收跌0.35%，报14840点。",
-   "link": "https://wallstreetcn.com/news/global/3145614",
+   "title": "五粮液：截至本公告披露之日，五粮液集团公司通过深圳证券交易所交易系统以集中竞价交易方式累计增持公司股",
+   "summary": "五粮液：截至本公告披露之日，五粮液集团公司通过深圳证券交易所交易系统以集中竞价交易方式累计增持公司股份241.13万股，占公司总股本的0.06%，增持金额为1.99亿元。",
+   "link": "https://wallstreetcn.com/news/global/3145961",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:15"
+   "published_at": "2026-08-06 09:20"
   },
   {
    "category": "finance",
-   "title": "明晟公司（MSCI）表示，其8月指数调整公告定将于8月12日发布，且将在概要公告发布后即刻向客户提供",
-   "summary": "明晟公司（MSCI）表示，其8月指数调整公告定将于8月12日发布，且将在概要公告发布后即刻向客户提供详细的调仓信息。",
-   "link": "https://wallstreetcn.com/news/global/3145613",
+   "title": "郑商所发布风险提示函",
+   "summary": "郑州商品交易所8月6日发布风险提示函：近期影响尿素市场的不确定性因素较多，请各会员单位切实加强投资者教育和风险防范工作，提醒投资者理性参与，合规交易。",
+   "link": "https://wallstreetcn.com/news/global/3145960",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:09"
+   "published_at": "2026-08-06 09:20"
   },
   {
    "category": "finance",
-   "title": "周三（8月5日）纽约尾盘，标普500股指期货最终跌0.04%，道指期货涨0.61%，纳斯达克100股",
-   "summary": "周三（8月5日）纽约尾盘，标普500股指期货最终跌0.04%，道指期货涨0.61%，纳斯达克100股指期货跌0.85%。 罗素2000股指期货跌0.54%。",
-   "link": "https://wallstreetcn.com/news/global/3145612",
+   "title": "高盛、摩根大通大幅增持中际旭创，持仓比例分别升至12.19%和13.72%",
+   "summary": "据香港交易所披露，高盛对中际旭创H股的多头持仓比例于2026年8月3日从11.65%增至12.19%。摩根大通（JPMorgan）对中际旭创H股的多头持仓比例于2026年7月31日从5.6%增至13.72%。",
+   "link": "https://wallstreetcn.com/news/global/3145957",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:07"
+   "published_at": "2026-08-06 09:14"
   },
   {
    "category": "finance",
-   "title": "周三（8月5日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.7482元，较周",
-   "summary": "周三（8月5日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.7482元，较周二纽约尾盘跌2点，日内整体交投于6.7449-6.7501元区间。",
-   "link": "https://wallstreetcn.com/news/global/3145611",
+   "title": "派拓公司（Palo Alto Networks）美股盘前短线跳水跌近2%，此前网信办对派拓公司在华销",
+   "summary": "派拓公司（Palo Alto Networks）美股盘前短线跳水跌近2%，此前网信办对派拓公司在华销售产品启动网络安全审查。",
+   "link": "https://wallstreetcn.com/news/global/3145958",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:06"
+   "published_at": "2026-08-06 09:11"
   },
   {
    "category": "finance",
-   "title": "亚马逊旗下AWS与Anthropic、OpenAI构建合作伙伴关系。 三方将围绕AWS Contin",
-   "summary": "亚马逊旗下AWS与Anthropic、OpenAI构建合作伙伴关系。 三方将围绕AWS Continuum工作流合作。",
-   "link": "https://wallstreetcn.com/news/global/3145610",
+   "title": "传音控股：拟发行不超过1.32亿股H股获中国证监会备案。",
+   "summary": "传音控股：拟发行不超过1.32亿股H股获中国证监会备案。",
+   "link": "https://wallstreetcn.com/news/global/3145954",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:04"
+   "published_at": "2026-08-06 09:04"
   },
   {
    "category": "finance",
-   "title": "私募资本涌入新兴市场，竞相为AI基础设施建设提供资金",
-   "summary": "私人投资者正向发展中国家的人工智能（AI）项目注入越来越多的资金，推动2026年上半年的交易量创下历史新高。据全球私募资本协会的数据显示，与股票市场不同（AI热潮在股市中主要集中在韩国和中国台湾），私募资本正涌入多个国家的AI项目，涵盖数据中心和数字基础设施领域，包括拉丁美洲和非洲。 数据显示，私募股权、风险投资和私募信贷基金的资金流入在2026年上半年达到88亿美元，超过了2025年全年的总额。",
-   "link": "https://wallstreetcn.com/news/global/3145609",
+   "title": "百奥赛图：预计上半年净利润2.36亿元至2.46亿元，同比增加391.87%至412.71%。",
+   "summary": "百奥赛图：预计上半年净利润2.36亿元至2.46亿元，同比增加391.87%至412.71%。",
+   "link": "https://wallstreetcn.com/news/global/3145953",
    "source": "华尔街见闻",
-   "published_at": "2026-08-05 21:04"
+   "published_at": "2026-08-06 09:04"
+  },
+  {
+   "category": "finance",
+   "title": "网信办对派拓公司在华销售产品启动网络安全审查",
+   "summary": "为保障关键信息基础设施安全稳定运行，防范网络安全风险隐患，维护国家安全，依据《中华人民共和国国家安全法》《中华人民共和国网络安全法》，网络安全审查办公室按照《网络安全审查办法》，对派拓公司（Palo Alto Networks）在华销售的产品实施网络安全审查。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3145951",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-06 09:03"
+  },
+  {
+   "category": "finance",
+   "title": "北京电网最大负荷达到2939.9万千瓦，创历史新高",
+   "summary": "8月6日12时03分，北京电网最大负荷达到2939.9万千瓦，创历史新高。国网北京市电力公司消息，空调等降温负荷增长明显，占比达到45%。（北京日报）",
+   "link": "https://wallstreetcn.com/news/global/3145950",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-06 09:02"
+  },
+  {
+   "category": "finance",
+   "title": "欧元区6月零售销售同比 0.7%，预期 1%，前值 1.6%。",
+   "summary": "欧元区6月零售销售同比 0.7%，预期 1%，前值 1.6%。",
+   "link": "https://wallstreetcn.com/news/global/3145948",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-06 09:00"
   }
  ]
 }
