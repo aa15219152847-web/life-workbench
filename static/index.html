@@ -1738,6 +1738,10 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg>
           <span class="nav-label">数据</span>
         </button>
+        <button class="nav-item" id="pro-nav-item" data-tab="upgrade" title="升级 PRO">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span class="nav-label">升级 PRO</span>
+        </button>
         <button class="nav-item" onclick="toggleTheme()" title="主题">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
           <span class="nav-label">主题</span>
@@ -2271,6 +2275,73 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
           <span>• 如果数据被误清，打开时自动恢复最近备份</span>
         </div>
       </div>
+
+      <!-- 产品仪表盘（管理员视角，埋点数据） -->
+      <div class="card-base" style="padding:16px;margin-top:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px">产品仪表盘 <span class="pro-badge" style="display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;color:#fff;margin-left:6px;vertical-align:middle">内部</span></div>
+        <div style="font-size:12px;color:var(--text-3)">自埋点数据 · 仅存本机 · 每周导出一次做分析</div>
+        <div id="product-dashboard"></div>
+      </div>
+    </section>
+
+    <!-- ============ 升级 PRO 页面 ============ -->
+    <section class="section" id="sec-upgrade">
+      <div class="section-header">
+        <div class="section-title">升级 PRO</div>
+        <div class="pro-badge" id="pro-quota" style="padding:3px 10px;border-radius:20px;font-size:12px;color:#fff;background:var(--text-4)"></div>
+      </div>
+
+      <!-- 权益对比 -->
+      <div class="card-base" style="padding:20px;margin-bottom:16px;text-align:center">
+        <div style="font-size:26px;font-weight:700;color:var(--accent,#d4af37)">¥99<span style="font-size:14px;font-weight:400;color:var(--text-3)"> / 年</span></div>
+        <div style="font-size:12px;color:var(--text-3);margin:4px 0 16px">或 ¥9 / 月 · 支持独立开发者持续维护</div>
+        <table style="width:100%;font-size:13px;text-align:left;border-collapse:collapse">
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:8px 4px;color:var(--text-3)">AI 智能体对话</td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">每日 10 次</span> → <strong style="color:var(--accent,#d4af37)">无限</strong></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:8px 4px;color:var(--text-3)">云同步（多设备）</td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">同步码手动</span> → <strong style="color:var(--accent,#d4af37)">全自动</strong></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:8px 4px;color:var(--text-3)">导出格式</td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">JSON</span> → <strong style="color:var(--accent,#d4af37)">Excel/PDF/Word</strong></td>
+          </tr>
+          <tr>
+            <td style="padding:8px 4px;color:var(--text-3)">高级主题 & 徽章</td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">基础</span> → <strong style="color:var(--accent,#d4af37)">全部解锁</strong></td>
+          </tr>
+        </table>
+        <button class="btn-primary" onclick="openLicenseModal()" style="width:100%;margin-top:18px;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff">
+          兑换码激活 PRO
+        </button>
+        <div style="font-size:11px;color:var(--text-4);margin-top:10px">
+          微信支付即将上线 · 当前先用兑换码（种子用户赠送/爱发电购买）
+        </div>
+      </div>
+
+      <!-- License 兑换码输入 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:14px;font-weight:600;color:var(--text);margin-bottom:10px">兑换码</div>
+        <div class="form-group">
+          <input class="form-input" type="text" id="license-input" placeholder="输入兑换码，如 xxxxxxxx.abcdef..." style="width:100%">
+        </div>
+        <button class="btn-primary" onclick="redeemLicense()" style="width:100%">立即激活</button>
+        <div style="font-size:12px;color:var(--text-4);margin-top:10px;line-height:1.6">
+          兑换码由 <code>payload.hmac</code> 组成，支持离线校验（PWA 特性）。种子用户通过微信群/爱发电获取。
+        </div>
+      </div>
+
+      <!-- 帮助 -->
+      <div class="card-base" style="padding:16px">
+        <div style="font-size:14px;font-weight:600;color:var(--text);margin-bottom:10px">为什么收费</div>
+        <div style="font-size:13px;color:var(--text-2);line-height:1.7">
+          <span>• 独立开发、无广告、数据 100% 本地</span><br>
+          <span>• 你的订阅直接决定功能迭代速度</span><br>
+          <span>• 购买后 7 天内不满意可退（联系我即可）</span>
+        </div>
+      </div>
     </section>
 
   </div>
@@ -2342,7 +2413,8 @@ let reviewSearchTimer = null;
 
 const TAB_TITLES = {
   lan:'Lan 智能体', today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
-  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理'
+  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理',
+  upgrade:'升级 PRO'
 };
 
 // ============================================================
@@ -2458,6 +2530,235 @@ function metaGet(key){
 }
 function metaSet(key,value){
   return dbPut('meta',{key,value});
+}
+
+// ============================================================
+// 商业化 — PRO 订阅 / 免费额度 / License / 埋点（T1.2 T1.4 T1.5）
+// ============================================================
+const PRO_KEY = 'lan_pro';              // PRO 状态 {expire: timestamp} 存 IndexedDB
+const PRO_TRIAL_DAYS = 0;               // 赠送试用天数（0=不送）
+const FREE_AI_DAILY = 10;               // 免费版每日 AI 次数
+const PRO_PRICE_MONTH = 9;              // PRO 月价（展示用）
+const PRO_PRICE_YEAR = 99;              // PRO 年价（展示用）
+
+// ---- License 签发公钥（HMAC 验签用，与 Worker 端密钥配套）----
+// 说明：正式上线时由 Worker 生成兑换码：<payload>.<hmac_hex>
+// 前端用下面这个 key 验签（此处为示例密钥，上线前请与 Worker 端一致）
+const LICENSE_HMAC_KEY = 'lan-workbench-license-v1-secret';
+
+function isPro(){
+  const p = localStorage.getItem(PRO_KEY);
+  if(!p) return false;
+  try{
+    const o = JSON.parse(p);
+    return o && o.expire && o.expire > Date.now();
+  }catch(e){ return false; }
+}
+function proExpireDate(){
+  const p = localStorage.getItem(PRO_KEY);
+  if(!p) return null;
+  try{ return new Date(JSON.parse(p).expire); }catch(e){ return null; }
+}
+function setPro(ms){
+  localStorage.setItem(PRO_KEY, JSON.stringify({expire: Date.now()+ms, at: Date.now()}));
+  renderProUI();
+  toast('🎉 PRO 已激活');
+}
+function openUpgrade(){
+  const sec = document.getElementById('sec-upgrade');
+  if(sec){ sec.classList.remove('hidden'); }
+  switchTab('upgrade');
+}
+// PRO 生效入口（支付/兑换码验证成功后调用）
+function activatePro(months){
+  setPro(months*30*24*3600*1000);
+  trackEvent('pro_activated', {months});
+}
+
+// ---- 免费额度（每日 AI 对话次数）----
+async function getTodayAiCount(){
+  const t = localDate();
+  const m = await metaGet('aiUsage') || {};
+  if(m.date !== t) return 0;
+  return m.count || 0;
+}
+async function incrAiCount(){
+  const t = localDate();
+  const m = await metaGet('aiUsage') || {};
+  m.date = t;
+  m.count = (m.count||0)+1;
+  await metaSet('aiUsage', m);
+}
+async function canUseAi(){
+  if(isPro()) return {ok:true};
+  const c = await getTodayAiCount();
+  return {ok: c < FREE_AI_DAILY, used:c, left: Math.max(0, FREE_AI_DAILY-c)};
+}
+async function guardAi(){
+  const r = await canUseAi();
+  if(r.ok) return true;
+  showAiLimitToast(r);
+  return false;
+}
+function showAiLimitToast(r){
+  toast(`免费版每日 AI 对话 ${FREE_AI_DAILY} 次已用完，升级 PRO 无限畅聊`);
+  openUpgradeModal();
+}
+function openUpgradeModal(){
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">升级 PRO · 无限 AI</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:13px;color:var(--text-2);line-height:1.8;margin-bottom:14px">
+      免费版每日 AI 对话 <b>${FREE_AI_DAILY}</b> 次已用完。<br>
+      升级 PRO 解锁：无限 AI 对话、全自动云同步、Excel/PDF 导出、全部高级主题。
+    </div>
+    <div style="font-size:22px;font-weight:700;color:var(--accent,#d4af37);margin-bottom:14px">¥99 / 年 <span style="font-size:12px;color:var(--text-3);font-weight:400">或 ¥9/月</span></div>
+    <button class="btn-primary" style="width:100%;margin-bottom:8px;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="openLicenseModal()">有兑换码？立即激活</button>
+    <button class="btn-secondary" style="width:100%" onclick="closeModal()">暂不升级</button>
+  `);
+}
+
+// ---- License 兑换码（HMAC-SHA256 验签）----
+async function licenseHmac(msg){
+  const enc = new TextEncoder();
+  const key = await crypto.subtle.importKey('raw', enc.encode(LICENSE_HMAC_KEY), {name:'HMAC', hash:'SHA-256'}, false, ['sign']);
+  const sig = await crypto.subtle.sign('HMAC', key, enc.encode(msg));
+  return Array.from(new Uint8Array(sig)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+async function verifyLicense(code){
+  try{
+    const s = code.trim();
+    const idx = s.lastIndexOf('.');
+    if(idx<0) return {ok:false, msg:'兑换码格式错误'};
+    const payload = s.slice(0,idx);
+    const sig = s.slice(idx+1);
+    const calc = await licenseHmac(payload);
+    if(calc !== sig.toLowerCase()) return {ok:false, msg:'兑换码校验失败'};
+    const o = JSON.parse(atob(payload));
+    if(o.expire && o.expire < Date.now()) return {ok:false, msg:'兑换码已过期'};
+    return {ok:true, data:o};
+  }catch(e){
+    return {ok:false, msg:'兑换码无效'};
+  }
+}
+async function redeemLicense(){
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">兑换码激活 PRO</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text-3);line-height:1.7;margin-bottom:12px">
+      输入兑换码（格式：<code>payload.hmac</code>），支持离线校验。
+    </div>
+    <div class="form-group">
+      <input class="form-input" type="text" id="license-input" placeholder="粘贴兑换码..." style="width:100%">
+    </div>
+    <button class="btn-primary" style="width:100%" onclick="doRedeem()">立即激活</button>
+  `);
+}
+async function doRedeem(){
+  const input = document.getElementById('license-input');
+  const code = input ? input.value : '';
+  if(!code){ toast('请输入兑换码'); return; }
+  const r = await verifyLicense(code);
+  if(!r.ok){ toast(r.msg); return; }
+  const months = r.data.months || 12;
+  activatePro(months);
+  closeModal();
+}
+
+// ---- 埋点（自埋点，数据只存本地 IndexedDB，不接外部分析）----
+async function trackEvent(name, data){
+  try{
+    const t = localDate();
+    const m = await metaGet('trackEvents') || {};
+    if(!m[t]) m[t] = [];
+    m[t].push({n:name, d:data||{}, ts:Date.now()});
+    if(m[t].length > 5000) m[t].splice(0, m[t].length-5000); // 防爆
+    await metaSet('trackEvents', m);
+  }catch(e){ /* 埋点失败不影响主流程 */ }
+}
+// 激活埋点（首次打开）
+async function trackActivate(){
+  const m = await metaGet('activation') || {};
+  const t = localDate();
+  if(!m.first){ m.first = t; }
+  m.last = t;
+  const days = m.days || {};
+  days[t] = (days[t]||0)+1;
+  m.days = days;
+  await metaSet('activation', m);
+}
+// 产品仪表盘数据汇总（管理员视角）
+async function buildProductDashboard(){
+  const act = await metaGet('activation') || {};
+  const ev = await metaGet('trackEvents') || {};
+  const days = Object.keys(act.days||{}).sort();
+  const d7 = days.slice(-7);
+  const d7active = d7.filter(d=>(act.days||{})[d]>0).length;
+  let aiTotal = 0, aiToday = 0;
+  const today = localDate();
+  Object.keys(ev).forEach(d=>{
+    const list = ev[d]||[];
+    const ai = list.filter(e=>e.n==='ai_ask').length;
+    aiTotal += ai;
+    if(d===today) aiToday = ai;
+  });
+  const totalEvents = Object.keys(ev).reduce((s,d)=>s+(ev[d]||[]).length, 0);
+  const mods = {};
+  Object.keys(ev).forEach(d=>{
+    (ev[d]||[]).forEach(e=>{ if(e.n==='mod_use') mods[e.d?.mod] = (mods[e.d?.mod]||0)+1; });
+  });
+  return {
+    firstDay: act.first || '-',
+    totalActiveDays: days.length,
+    d7Active: d7active,
+    aiTotal, aiToday,
+    totalEvents,
+    topMods: Object.entries(mods).sort((a,b)=>b[1]-a[1]).slice(0,5),
+  };
+}
+async function renderProductDashboard(){
+  const el = document.getElementById('product-dashboard');
+  if(!el) return;
+  const d = await buildProductDashboard();
+  el.innerHTML = `
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px">
+      <div class="stat-cell"><div class="stat-num">${d.totalActiveDays}</div><div class="stat-label">累计活跃天数</div></div>
+      <div class="stat-cell"><div class="stat-num">${d.d7Active}</div><div class="stat-label">近7天活跃</div></div>
+      <div class="stat-cell"><div class="stat-num">${d.aiTotal}</div><div class="stat-label">AI 总对话</div></div>
+      <div class="stat-cell"><div class="stat-num">${d.aiToday}</div><div class="stat-label">今日 AI</div></div>
+    </div>
+    <div style="font-size:12px;color:var(--text-tertiary);margin-top:10px">
+      首用：${d.firstDay} ｜ 事件总数：${d.totalEvents}
+    </div>
+    ${d.topMods.length?`<div style="font-size:12px;color:var(--text-secondary);margin-top:6px">高频模块：${d.topMods.map(([m,c])=>m+'(x'+c+')').join('、')}</div>`:''}
+  `;
+}
+
+// ---- PRO 状态 UI 渲染 ----
+function renderProUI(){
+  const badges = document.querySelectorAll('.pro-badge');
+  badges.forEach(b=>{
+    b.textContent = isPro() ? 'PRO' : '免费版';
+    b.style.background = isPro() ? 'var(--accent, #d4af37)' : 'var(--text-tertiary, #888)';
+  });
+  const nav = document.getElementById('pro-nav-item');
+  if(nav){
+    const label = nav.querySelector('.nav-label');
+    if(label) label.textContent = isPro() ? 'PRO 已开通' : '升级 PRO';
+  }
+  const quota = document.getElementById('pro-quota');
+  if(quota){
+    quota.innerHTML = isPro()
+      ? '<span style="color:var(--accent,#d4af37)">PRO · 无限 AI</span>'
+      : `免费版 · AI 每日 ${FREE_AI_DAILY} 次`;
+  }
+}
+function openLicenseModal(){
+  redeemLicense();
 }
 
 // ============================================================
@@ -2755,6 +3056,7 @@ function toast(msg){
 // ============================================================
 function switchTab(tab){
   currentTab = tab;
+  trackEvent('mod_use', {mod:tab});
   document.body.classList.toggle('no-fab', tab==='lan');
   $$('.section').forEach(s=>s.classList.remove('active'));
   $('#sec-'+tab).classList.add('active');
@@ -2763,6 +3065,7 @@ function switchTab(tab){
   $('.content').scrollTop = 0;
   loadTabData(tab);
   closeDrawer();
+  if(tab==='data') renderProductDashboard();
 }
 
 // 移动端抽屉侧边栏 — 拖拽跟手 + 弹性收放
@@ -3446,11 +3749,16 @@ function lanQuickAsk(text){
 }
 
 async function lanAsk(text){
+  // 付费墙：免费版每日限次（PRO 无限制）
+  const guard = await guardAi();
+  if(!guard) throw new Error('AI_QUOTA_EXCEEDED');
   const key = localStorage.getItem(LAN_KEY_STORE);
   if(!key){
     openLanSettings();
     throw new Error('未配置 AI Key');
   }
+  trackEvent('ai_ask', {len:(text||'').length});
+  await incrAiCount();
   const ctx = await buildLanContext();
   const models = lanMatchModels(text);
   const system = `你是「Lan工作台」内置的思维教练，名字叫 Lan。
@@ -6506,6 +6814,10 @@ function registerSW(){
   initLan();
   showLanProactive();
   loadBadges();
+  // 商业化初始化：埋点激活 + PRO 状态渲染
+  trackActivate();
+  renderProUI();
+  renderProductDashboard();
   // 数据变动后自动备份
   setInterval(autoBackup, 60000);
   setInterval(loadSearchData, 120000); // 每2分钟刷新搜索索引
