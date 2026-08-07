@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lan工作台 · 商业化执行手册（90 天任务卡）</title>
+<style>
+:root{
+  --bg:#0A2540; --bg2:#0F2A4A; --surface:#12233F; --surface2:#0E1B30;
+  --gold:#C7A84B; --gold2:#D4AF37; --primary:#635BFF; --green:#10B981;
+  --red:#EF4444; --amber:#F59E0B; --text:#E8EDF5; --text2:#A9B7CC; --text3:#718096; --text4:#4A5A72;
+  --border:rgba(255,255,255,.08); --radius:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif;
+  background:linear-gradient(160deg,#0A2540 0%,#0D1B30 55%,#091523 100%);
+  color:var(--text);font-size:14.5px;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:880px;margin:0 auto;padding:0 18px 80px}
+.hero{padding:56px 16px 40px;text-align:center}
+.hero .tag{display:inline-block;font-size:11px;letter-spacing:3px;color:var(--gold);border:1px solid rgba(199,168,75,.35);padding:4px 14px;border-radius:999px;background:rgba(199,168,75,.06)}
+.hero h1{font-size:28px;font-weight:800;margin-top:16px}
+.hero .sub{font-size:13px;color:var(--text3);margin-top:8px}
+.legend{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px;font-size:12px}
+.legend .it{display:flex;align-items:center;gap:6px;color:var(--text3)}
+.dot{width:10px;height:10px;border-radius:3px;display:inline-block}
+.dot.ai{background:var(--primary)}
+.dot.you{background:var(--gold)}
+.dot.both{background:linear-gradient(90deg,var(--primary) 50%,var(--gold) 50%)}
+/* 任务卡 */
+.sprint{margin-top:36px}
+.sp-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.sp-num{width:36px;height:36px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:800;color:#0A2540;background:linear-gradient(135deg,var(--gold2),var(--gold))}
+.sp-head h2{font-size:19px;font-weight:800}
+.sp-head .goal{font-size:12px;color:var(--text3);margin-left:auto;text-align:right}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;margin-bottom:12px}
+.card .top{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.card .id{font-size:11px;font-weight:800;color:var(--gold);letter-spacing:1px}
+.card h3{font-size:15px;font-weight:700;color:var(--text)}
+.card .who{margin-left:auto;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.card .who.ai{background:rgba(99,91,255,.15);color:#A5B4FC}
+.card .who.you{background:rgba(199,168,75,.15);color:var(--gold2)}
+.card .who.both{background:linear-gradient(90deg,rgba(99,91,255,.15),rgba(199,168,75,.15));color:#C9D3E4}
+.card p{color:var(--text2);font-size:13.5px;margin-bottom:6px}
+.card p b{color:var(--text)}
+.card .do{background:var(--surface2);border-radius:10px;padding:12px 14px;margin-top:8px;font-size:13px}
+.card .do .t{font-size:11px;font-weight:800;color:var(--green);letter-spacing:1px;margin-bottom:6px}
+.card .do ol,.card .do ul{margin-left:18px;color:var(--text2)}
+.card .do li{margin-bottom:4px}
+.card .do li b{color:var(--text)}
+.card .done{border-left:3px solid var(--green)}
+.card .pass{font-size:12px;color:var(--green);font-weight:700;margin-top:8px;padding-top:8px;border-top:1px dashed rgba(255,255,255,.1)}
+/* 表格 */
+.tbl{width:100%;border-collapse:collapse;font-size:12.5px;margin:8px 0}
+.tbl th{background:rgba(255,255,255,.05);color:var(--gold2);font-weight:700;text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
+.tbl td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.05);color:var(--text2);vertical-align:top}
+.tbl td b{color:var(--text)}
+/* 话术 */
+.say{background:#0B1830;border:1px dashed rgba(199,168,75,.35);border-radius:10px;padding:12px 16px;margin:8px 0;font-size:13px;color:var(--text2);line-height:1.9}
+.say .l{font-size:10.5px;color:var(--gold);font-weight:800;letter-spacing:1px;margin-bottom:4px}
+.foot{text-align:center;font-size:11px;color:var(--text4);margin-top:50px;padding-top:18px;border-top:1px solid var(--border)}
+@media(max-width:480px){
+  .hero h1{font-size:22px}
+  .sp-head .goal{display:none}
+  .card{padding:15px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="hero">
+  <div class="tag">执行手册 · 可勾选任务卡</div>
+  <h1>Lan 工作台 · 90 天商业化执行手册</h1>
+  <div class="sub">配套《商业化可行性方案 v1.0》使用 · 每个任务标注负责人、做法、完成标准</div>
+  <div class="legend">
+    <span class="it"><span class="dot ai"></span> 我可以直接代做</span>
+    <span class="it"><span class="dot you"></span> 需你本人操作</span>
+    <span class="it"><span class="dot both"></span> 我搭好 + 你配合验证</span>
+  </div>
+</div>
+
+<!-- ==================== SPRINT 1 ==================== -->
+<div class="sprint">
+  <div class="sp-head">
+    <div class="sp-num">01</div>
+    <h2>Sprint 1 · 产品付费化改造</h2>
+    <div class="goal">第 1-30 天 · 目标：产品能收费 + 30-100 个种子用户</div>
+  </div>
+
+  <div class="card done">
+    <div class="top"><span class="id">T1.0</span><h3>✅ 已完成：产品底座</h3><span class="who ai">AI 已做</span></div>
+    <p>Lan 工作台当前已具备：9 大功能模块、AI 智能体（DeepSeek 接入）、语音输入、对话即操作、游戏化系统、PWA 离线、本地 IndexedDB 存储、全量压力测试脚本。</p>
+    <p class="pass">已完成，无需重复</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.1</span><h3>⚠️ 进行中：云同步（PRO 第一付费点）</h3><span class="who both">代码完成 · 差你注册 Cloudflare</span></div>
+    <p>纯本地存储的最大风险是"换设备/清缓存即丢数据"。云同步既是刚需卖点，也是 PRO 的核心权益。选型对比：</p>
+    <table class="tbl">
+      <tr><th>方案</th><th>成本</th><th>优点</th><th>缺点</th><th>建议</th></tr>
+      <tr><td><b>方案 A · 同步码</b><br>（数据加密后存对象存储/粘贴板）</td><td>¥0</td><td>零后端、零账号、隐私最强</td><td>同步是手动/半自动</td><td>⭐ 第一步先做（1-2 天）</td></tr>
+      <tr><td><b>方案 B · Cloudflare Workers + KV</b></td><td>免费档 10 万请求/天</td><td>全自动同步 + 后续支付回调复用</td><td>需要配置 CF 账号（免费）</td><td>⭐ 付费墙上线前完成</td></tr>
+      <tr><td>方案 C · Supabase</td><td>免费档 500MB</td><td>功能全、有现成 Auth</td><td>国内访问需注意；学习成本略高</td><td>备选</td></tr>
+    </table>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li><b>第一步 ✅（AI 已完成）</b>：同步码已实现——AES-GCM 256 加密（PBKDF2 120k 迭代）+ 剪贴板兜底（syncUpload/syncDownload，commit a7b4b4e）</li>
+        <li><b>第二步 ⏳（等你注册）</b>：你注册 Cloudflare 免费账号 → 把 Worker 模板（cloud-sync-worker.js）部署 → 地址填入 index.html `CLOUD_SYNC_ENDPOINT`（当前为空）</li>
+        <li><b>第三步</b>：PRO 用户解锁云同步，免费用户保留本地+同步码</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：两部设备数据互通，PRO 解锁后全自动同步（⏳ 待 Cloudflare 配置）</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.2</span><h3>✅ 已完成：付费墙（AI 限次 + PRO 解锁）</h3><span class="who ai">AI 已做 · commit d8b55d8</span></div>
+    <p>Freemium 的核心是"免费版足够好用但留付费钩子"。参考基准：行业 freemium 转化 2-5%，且付费层应保留 30-40% 深度功能。</p>
+    <div class="do"><div class="t">执行（已上线）</div>
+      <ol>
+        <li><b>免费版限制 ✅</b>：AI 对话每日 10 次（用完弹升级引导 modal，不锁死功能）</li>
+        <li><b>PRO 解锁 ✅</b>：localStorage `lan_pro` 存过期时间戳，到期自动降级回免费版（isPro() 校验）</li>
+        <li><b>升级入口 ✅</b>：侧边栏"升级 PRO"入口 + 独立升级页（sec-upgrade 权益对比 + 兑换码激活）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：免费用户第 11 次 AI 对话看到升级页（✅ 已实现）；PRO 用户无限制（✅ 已实现）</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.3</span><h3>支付闭环（能真实收钱）</h3><span class="who both">我搭 + 你办资质</span></div>
+    <p>推荐路径：<b>Cloudflare Workers 做支付回调 + 发码 + License 校验</b>（复用 T1.1 的 Worker，零额外服务器成本），微信支付 Native 扫码。你负责办商户资质（清单见 T2.1）。</p>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li><b>我先做</b>：设计并写好支付流程代码骨架（下单页 → 生成二维码 → 回调验签 → 发放 License → 写入 KV）</li>
+        <li><b>你办</b>：个体工商户执照 → 微信支付商户号（见 T2.1）→ 给我商户号/API 密钥/回调地址</li>
+        <li><b>我接</b>：填入凭证联调，上线"支付 → 自动解锁 PRO"全流程</li>
+        <li><b>兜底</b>：联调期间先用"人工发码"（用户付款截图 → 你手动发兑换码），保证不阻塞收费</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：真实支付 1 元测试单成功 → 自动解锁 PRO</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.4</span><h3>✅ 已完成：License 校验（防白嫖 + 支持离线）</h3><span class="who ai">AI 已做 · commit d8b55d8</span></div>
+    <div class="do"><div class="t">执行（已上线）</div>
+      <ol>
+        <li><b>兑换码制 ✅</b>：`issue-license.js` 生成 HMAC-SHA256 签名兑换码（payload.hmac 格式，含有效期），前端 WebCrypto 验签 → <b>离线也能解锁</b></li>
+        <li><b>签名算法 ✅</b>：HMAC-SHA256，密钥 `LICENSE_HMAC_KEY` 前端只验签；上线前建议改成强密钥并放 Worker 端</li>
+        <li><b>防共享</b>：设备指纹（可选，初期放宽，先跑通流程）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：离线状态下输入兑换码能解锁 PRO（✅ 已实现并验证）</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.5</span><h3>✅ 已完成：埋点（看自己产品的真实数据）</h3><span class="who ai">AI 已做 · commit d8b55d8</span></div>
+    <p>不引入外部分析（国内访问 GA 不稳 + 隐私卖点），利用工作台自身能力做"自埋点"：</p>
+    <div class="do"><div class="t">执行（已上线）</div>
+      <ol>
+        <li>✅ 本地记录事件：<b>激活</b>（trackActivate 首开/每日）、<b>留存</b>（日期序列）、<b>AI 对话数/日</b>（ai_ask）、<b>各模块使用次数</b>（mod_use）</li>
+        <li>✅ 「数据管理」页已加<b>"产品仪表盘"</b>：累计活跃天数、近7天活跃、AI 总对话/今日、高频模块 Top5</li>
+        <li>关键指标定期导出汇总（每周自己看一次，替代 GA）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：能回答"今天多少人用、留存多少、AI 用得多不多"（✅ 已实现）</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.6</span><h3>种子用户招募（30-100 人）</h3><span class="who you">你主做 + 我给模板</span></div>
+    <p><b>渠道优先级</b>：① 即刻（效率工具氛围浓）② 小红书（自律/效率人群聚集）③ 你现有的微信群/朋友圈 ④ 相关讨论群（效率/记账/自律）</p>
+    <div class="say">
+      <div class="l">种子用户邀请话术（直接复制改名字）</div>
+      你好，我独立开发了一个「AI 个人成长工作台」：待办+记账+复盘+习惯 全在一个 App，内置 AI 教练能根据你的数据给建议、语音记录、帮你复盘。<br>
+      产品已经能用了（免费），想找 30 位愿意"真实使用 2 周"的朋友，收集反馈打磨产品。<br>
+      愿意的话我拉你进反馈群，2 周后我会送你 3 个月 PRO（上线后价值 ¥33）。介意的话也欢迎直接体验，提任何意见都行。<br>
+      👉 体验地址：https://aa15219152847-web.github.io/life-workbench/
+    </div>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li>按上面话术，每个渠道发一轮，目标拉满 30 人进群</li>
+        <li>进群后发<b>3 个问题问卷</b>（用腾讯问卷/问卷星）：① 你现在用什么工具管理待办/记账/复盘？② 最烦它的一个点？③ 如果 AI 能自动帮你记+给建议，你愿不愿意每月付 8 块钱？</li>
+        <li>每周在群里发一次"本周更新了什么"（制造期待 + 收集反馈）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：群内 ≥30 人，问卷 ≥20 份，≥10 人明确表示愿付费</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T1.7</span><h3>付费预演（验证意愿，不阻塞正式收费）</h3><span class="who both">我给方案</span></div>
+    <p>参照 flomo：上线后立刻收费验证，原预期几百元、实际当月上万。你不需要等全部做好才收费。</p>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li>在爱发电/面包多挂"支持者 ¥99/年"档位（个体户开通前先用这两个平台，它们替你处理收款）</li>
+        <li>种子群里发：'付费墙还在做，想先支持的朋友可以去爱发电，正式版上线后凭记录直接开通 PRO'</li>
+        <li>统计 30 天内自愿付费人数与金额</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准（Sprint 1 达标线）：次周留存 &gt;30% 且 ≥10 人付费，金额 ≥¥500</p>
+  </div>
+</div>
+
+<!-- ==================== SPRINT 2 ==================== -->
+<div class="sprint">
+  <div class="sp-head">
+    <div class="sp-num">02</div>
+    <h2>Sprint 2 · 合规与正式收费</h2>
+    <div class="goal">第 31-60 天 · 目标：合法收钱 + 付费用户 ≥50</div>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T2.1</span><h3>注册个体工商户（收款主体）</h3><span class="who you">你本人办理</span></div>
+    <div class="do"><div class="t">步骤清单</div>
+      <ol>
+        <li><b>线上办</b>：微信/支付宝搜"电子营业执照"小程序，或当地政务 App（如"浙里办/粤省事"）→ 个体工商户设立登记，经营范围填"软件开发、信息技术服务、互联网信息服务"</li>
+        <li>成本约 ¥300-500（刻章+公告费），<b>1 周内下证</b>，全程线上</li>
+        <li>拿到执照后：<b>银行开户</b>（可选，微信支付个体户可用法人个人卡收单，一般无需对公户）</li>
+        <li>⚠️ 注意：个体户经营所得个税按年申报，收入 10 万内税负很低（月 3 万内免增值税政策按最新规定执行）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：拿到营业执照照片</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T2.2</span><h3>开通微信支付 / 支付宝商户号</h3><span class="who you">你本人办理</span></div>
+    <div class="do"><div class="t">步骤清单</div>
+      <ol>
+        <li>微信支付商户平台（pay.weixin.qq.com）→ 注册 → 个体工商户入驻 → 提交执照/法人身份证/结算账户</li>
+        <li>费率：标准 0.6%，可申请行业优惠（软件服务类有的 0.2-0.38%，先按 0.6 算）</li>
+        <li>审核 1-3 个工作日 → 拿到 <b>商户号 + API 密钥 + 证书</b> → 交给我接入 T1.3 的支付流程</li>
+        <li>支付宝同理（开放平台 → 当面付/电脑网站支付）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：给我商户凭证，支付闭环联调通过</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T2.3</span><h3>软件著作权（为安卓上架做准备）</h3><span class="who you">你提交 + 我给材料</span></div>
+    <div class="do"><div class="t">步骤清单</div>
+      <ol>
+        <li>中国版权保护中心（ccopyright.com.cn）→ 计算机软件著作权登记</li>
+        <li>材料：申请表 + 源代码前 30 页后 30 页（我从现有代码导出整理给你）+ 文档说明（我代写）</li>
+        <li>普通登记约 ¥300-800 / 1-2 个月；着急可加急（¥800-1500 / 1-2 周）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准：拿到软著证书（不急，Sprint 3 末前拿到即可）</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T2.4</span><h3>正式定价上线 + 权益文案</h3><span class="who ai">我直接做</span></div>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li>定价确认：免费版（AI 10 次/日）→ PRO <b>¥99/年</b>（无限 AI + 云同步 + 全模型库 + 月度报告）→ PRO+ <b>¥149/年</b>（+ 书摘教练 + V4 Pro 模型 + 知识库导出）</li>
+        <li>上线「升级 PRO」落地页（我写文案 + 设计）：突出 3 个价值点——"AI 教练无限聊""多设备云同步""数据永不丢"</li>
+        <li>把爱发电/面包多的"支持者"迁移到正式支付（凭购买记录发兑换码）</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准（Sprint 2 达标线）：正式支付跑通，付费用户 ≥50</p>
+  </div>
+</div>
+
+<!-- ==================== SPRINT 3 ==================== -->
+<div class="sprint">
+  <div class="sp-head">
+    <div class="sp-num">03</div>
+    <h2>Sprint 3 · 增长放量</h2>
+    <div class="goal">第 61-90 天 · 目标：月新增激活 &gt;3000，付费 ≥150</div>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T3.1</span><h3>小红书内容矩阵（主要获客渠道）</h3><span class="who both">我写稿 + 你发布</span></div>
+    <p>竞品验证：一木记账在小红书/抖音有 15 万+ 条自发安利内容。你的目标不是直接卖货，是让"AI 工作台"这个词被搜索到。</p>
+    <div class="do"><div class="t">30 个选题方向（每周 3-5 篇）</div>
+      <ul>
+        <li><b>痛点类（10 篇）</b>：「记账总是坚持不下去？」「复盘写了就忘？试试 AI 帮你总结」「待办做了十年，第一次有 AI 提醒我为什么拖延」</li>
+        <li><b>场景类（10 篇）</b>：「上班族的一页工作台」「考研人的自律面板」「用 AI 教练做周复盘」「语音记账 3 秒搞定」</li>
+        <li><b>对比类（5 篇）</b>：「Notion vs 我的极简工作台」「滴答清单用户 + AI 教练 = ？」「一个 App 装下待办+记账+复盘」</li>
+        <li><b>干货类（5 篇）</b>：「我的周复盘模板」「预算管理实操」「习惯养成的数据化方法」</li>
+      </ul>
+      <p style="margin-top:6px">每篇配 1-2 张工作台截图（我帮你生成截图素材），标题带关键词「AI 工作台」「自律」「记账」「复盘」。</p>
+    </div>
+    <p class="pass">通过标准：笔记总曝光 ≥10 万，引流到站 ≥1,000 人</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T3.2</span><h3>B 站长视频 + 知乎回答</h3><span class="who both">我写脚本 + 你录/发</span></div>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li><b>B 站视频</b>（1 条，6-8 分钟）：「我用 AI 教练管理自己的生活一整年」——开头讲痛点（工具换来换去坚持不下去），中段展示工作台真实使用（录制屏幕），结尾给下载地址。脚本我写，你录屏配音</li>
+        <li><b>知乎</b>：回答 5 个高热度问题——「有哪些好用的记账 App？」「如何坚持复盘？」「效率工具真的能提升效率吗？」——每个回答植入工作台（先给干货再软植入）</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T3.3</span><h3>邀请裂变 + 博主测评</h3><span class="who you">你执行 + 我给方案</span></div>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li><b>裂变</b>：邀请 3 个新用户激活 → 送 1 个月 PRO（生成邀请链接/邀请码，我在后台加）</li>
+        <li><b>测评</b>：找 3-5 个效率类博主（小红书 1-5 万粉即可，费用 0-1000 元/篇，用小号/免费置换），提供截图素材 + 话术</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T3.4</span><h3>上架安卓应用市场</h3><span class="who both">我打包 + 你提交</span></div>
+    <div class="do"><div class="t">执行</div>
+      <ol>
+        <li>用 Capacitor/Tauri 把 PWA 包成安卓 APK（我搭构建，你本地出包）——目标：华为/小米/Vivo/Oppo 四大市场（一木记账靠这四大市场荣誉获得大量免费曝光）</li>
+        <li>需要：软著证书（T2.3）+ 个体工商户执照 + 各市场开发者账号（免费注册）</li>
+        <li>应用名称：Lan工作台；一句话简介："AI 私人成长教练：待办·记账·复盘·习惯 一站式管理"</li>
+      </ol>
+    </div>
+    <p class="pass">通过标准（Sprint 3 达标线）：累计激活 &gt;5,000，付费 ≥150，转化 ≥2%</p>
+  </div>
+</div>
+
+<!-- ==================== 持续 ==================== -->
+<div class="sprint">
+  <div class="sp-head">
+    <div class="sp-num">04</div>
+    <h2>持续运营 · 每周必做</h2>
+    <div class="goal">贯穿全周期</div>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T4.1</span><h3>每周指标复盘（30 分钟）</h3><span class="who both">我给模板</span></div>
+    <table class="tbl">
+      <tr><th>指标</th><th>看什么</th><th>健康阈值</th><th>异常时的动作</th></tr>
+      <tr><td>激活</td><td>本周新增激活数</td><td>爬坡增长</td><td>停更就降 → 补内容</td></tr>
+      <tr><td>次周留存</td><td>新用户第 8 天还来吗</td><td>&gt;30%</td><td>&lt;20% → 产品核心体验问题，停增长先改产品</td></tr>
+      <tr><td>AI 使用频次</td><td>人均对话数/日</td><td>≥1 次/日</td><td>&lt;0.5 → AI 价值没被感知，优化引导</td></tr>
+      <tr><td>免费→付费转化</td><td>付费数/激活数</td><td>2-5%</td><td>&lt;2% → 免费版太完整或付费钩子不够</td></tr>
+      <tr><td><b>续费率</b></td><td>到期用户续费比例</td><td>首年 ≥40%</td><td>生死线！提前 30 天做续费提醒+权益提醒</td></tr>
+      <tr><td>AI 成本</td><td>API 月账单</td><td>≤收入 25%</td><td>超了 → 收紧免费额度/精简上下文</td></tr>
+    </table>
+    <p class="pass">通过标准：每周一 30 分钟填完这张表，异常项当周有动作</p>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="id">T4.2</span><h3>产品迭代节奏（双周制）</h3><span class="who ai">我执行</span></div>
+    <div class="do"><div class="t">固定节奏</div>
+      <ol>
+        <li>每两周一个版本：一半时间做「用户反馈 Top 3」（从反馈群/问卷筛），一半时间做「增长相关」（付费墙优化/裂变/分享卡）</li>
+        <li>每次发布 = 改代码 → 跑压力测试（已有 stress_test.js）→ push → 轮询验证线上 → 群里发更新说明</li>
+        <li>每月末：对账（收入/成本/转化），校准下月目标——用《可行性方案》6.2 的财务模型</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="foot">
+  Lan 工作台 · 商业化执行手册 · 配套《商业化可行性方案 v1.0》<br>
+  标注「AI 代做」的任务随时可开工 · 标注「你本人」的任务建议按顺序办理
+</div>
+
+</div>
+</body>
+</html>
