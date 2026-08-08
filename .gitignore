@@ -27,3 +27,7 @@ keepalive.sh
 CURRENT_URL.txt
 RESTORE_GUIDE.md
 *.bak.*
+
+# 兑换码台账（敏感，仅本地）
+codes-ledger.json
+ledger-export-*.json

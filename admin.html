@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lan工作台 · 兑换码管理平台</title>
+<style>
+  :root{--bg:#f6f7f9;--card:#fff;--line:#e5e7eb;--text:#111827;--text2:#6b7280;--gold:#b8860b;--gold2:#d4af37;--red:#dc2626;--green:#059669;--blue:#2563eb}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);padding:24px 16px 60px;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto}
+  h1{font-size:22px;margin-bottom:4px}
+  .sub{color:var(--text2);font-size:13px;margin-bottom:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:16px}
+  .card h2{font-size:15px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  label{display:block;font-size:13px;color:var(--text2);margin:10px 0 4px}
+  input,select,button{font-size:14px;font-family:inherit}
+  input[type=text],input[type=number],input[type=password],select{width:100%;max-width:320px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff}
+  button{padding:9px 18px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer;margin:4px 6px 4px 0}
+  button.primary{background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff;font-weight:600}
+  button.small{padding:4px 10px;font-size:12px}
+  .row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}
+  .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:6px}
+  .stat{background:#fafafb;border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+  .stat .n{font-size:24px;font-weight:700}
+  .stat .t{font-size:12px;color:var(--text2)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;word-break:break-all}
+  th{color:var(--text2);font-weight:600;background:#fafafb;font-size:12px}
+  .badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600}
+  .b-unused{background:#ecfdf5;color:var(--green)}
+  .b-used{background:#fef2f2;color:var(--red)}
+  .b-expired{background:#f3f4f6;color:var(--text2)}
+  .err{color:var(--red);font-size:13px;margin-top:8px}
+  .ok{color:var(--green);font-size:13px;margin-top:8px}
+  .muted{color:var(--text2);font-size:12px}
+  .code-box{background:#0f172a;color:#e2e8f0;border-radius:8px;padding:10px 12px;font-size:12px;font-family:Consolas,monospace;max-height:200px;overflow:auto;white-space:pre-wrap;word-break:break-all}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+  .filter-btn{padding:5px 12px;font-size:12px;border-radius:20px}
+  .filter-btn.on{background:#111827;color:#fff;border-color:#111827}
+  .hide{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Lan工作台 · 兑换码管理平台</h1>
+  <div class="sub">发码 · 核销记录 · 统计 · 台账导出 · 数据存储于 Cloudflare KV</div>
+
+  <div class="card">
+    <h2>管理密钥</h2>
+    <div class="row">
+      <input type="password" id="adminKey" placeholder="输入管理密钥（管理员专属）" style="flex:1;max-width:420px">
+      <button class="primary" onclick="saveKey()">保存</button>
+      <button onclick="testConn()">测试云端连接</button>
+    </div>
+    <div id="connMsg" class="muted" style="margin-top:8px">密钥保存在本机浏览器，云端 Worker 通过 X-Admin-Key 鉴权。</div>
+  </div>
+
+  <div class="card hide" id="statCard">
+    <h2>概览</h2>
+    <div class="stat-grid" id="statGrid"></div>
+  </div>
+
+  <div class="card hide" id="issueCard">
+    <h2>批量发码</h2>
+    <div class="row">
+      <div>
+        <label>时长</label>
+        <select id="issueMonths">
+          <option value="1">1 个月（月付）</option>
+          <option value="3">3 个月（季付）</option>
+          <option value="12">12 个月（年付）</option>
+        </select>
+      </div>
+      <div>
+        <label>数量</label>
+        <input type="number" id="issueCount" value="5" min="1" max="100" style="width:90px">
+      </div>
+      <div>
+        <label>批次备注</label>
+        <input type="text" id="issueBatch" placeholder="如：种子用户 2026-08" style="width:180px">
+      </div>
+      <button class="primary" onclick="issueCodes()">生成并登记</button>
+      <button onclick="exportIssued()">复制本批发码</button>
+    </div>
+    <div id="issueResult"></div>
+  </div>
+
+  <div class="card hide" id="listCard">
+    <h2>兑换码列表</h2>
+    <div class="toolbar">
+      <button class="filter-btn on" data-f="all" onclick="setFilter('all',this)">全部</button>
+      <button class="filter-btn" data-f="unused" onclick="setFilter('unused',this)">未用</button>
+      <button class="filter-btn" data-f="used" onclick="setFilter('used',this)">已用</button>
+      <span style="flex:1"></span>
+      <button class="small" onclick="refreshList()">刷新</button>
+      <button class="small" onclick="exportLedger()">导出台账 JSON</button>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th>状态</th><th>兑换码</th><th>时长</th><th>批次</th><th>激活时间</th><th>设备</th></tr></thead>
+        <tbody id="codeRows"></tbody>
+      </table>
+    </div>
+    <div id="listMsg" class="muted" style="margin-top:10px"></div>
+  </div>
+</div>
+
+<script>
+var WORKER = 'https://lan-workbench-sync.aa15219152847.workers.dev';
+var LICENSE_HMAC_KEY = 'bae65342981bdfa1b9daea36b2126c79844d0f0de2961c4d411e2adcdc8c2e60';
+var filter = 'all';
+var codes = [];
+var issuedLast = [];
+
+function getKey(){ return localStorage.getItem('lan_admin_key') || ''; }
+function saveKey(){
+  var k = document.getElementById('adminKey').value.trim();
+  if(!k){ alert('请输入管理密钥'); return; }
+  localStorage.setItem('lan_admin_key', k);
+  document.getElementById('connMsg').textContent = '密钥已保存。';
+  refreshList();
+}
+function headers(){
+  return { 'Content-Type':'application/json', 'X-Admin-Key': getKey() };
+}
+async function api(action, body){
+  var resp = await fetch(WORKER, { method:'POST', headers:headers(), body: JSON.stringify(Object.assign({action:action}, body||{})) });
+  return await resp.json();
+}
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function fmtTime(ts){ if(!ts) return '-'; try{ return new Date(ts).toLocaleString('zh-CN'); }catch(e){ return '-'; } }
+function monthLabel(m){ return {1:'1个月',3:'3个月',12:'12个月'}[m] || (m+'个月'); }
+
+async function testConn(){
+  var r = await api('code_stats');
+  document.getElementById('connMsg').textContent = r.ok ? '云端连接正常。' : ('云端不可达或密钥错误：' + (r.error||'') + '（若显示 network error，说明当前网络连不上 workers.dev）');
+}
+
+async function refreshList(){
+  if(!getKey()){ return; }
+  var r = await api('code_list');
+  if(!r.ok){
+    if(r.error === 'unauthorized'){ document.getElementById('listMsg').textContent = '管理密钥错误或未保存。'; }
+    else{ document.getElementById('listMsg').textContent = '云端不可达：' + (r.error||'网络错误'); }
+    return;
+  }
+  codes = r.items || [];
+  document.getElementById('statCard').classList.remove('hide');
+  document.getElementById('issueCard').classList.remove('hide');
+  document.getElementById('listCard').classList.remove('hide');
+  var now = Date.now();
+  var used = codes.filter(function(c){ return c.status === 'used'; }).length;
+  var unused = codes.filter(function(c){ return c.status === 'unused'; }).length;
+  document.getElementById('statGrid').innerHTML =
+    '<div class="stat"><div class="n">'+codes.length+'</div><div class="t">累计发码</div></div>' +
+    '<div class="stat"><div class="n">'+unused+'</div><div class="t">未使用</div></div>' +
+    '<div class="stat"><div class="n">'+used+'</div><div class="t">已激活</div></div>' +
+    '<div class="stat"><div class="n">'+(codes.length ? Math.round(used/codes.length*100)+'%' : '0%')+'</div><div class="t">激活率</div></div>';
+  renderRows();
+}
+
+function setFilter(f, btn){
+  filter = f;
+  document.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('on'); });
+  if(btn) btn.classList.add('on');
+  renderRows();
+}
+
+function renderRows(){
+  var rows = codes.filter(function(c){ return filter==='all' || c.status===filter; });
+  if(!rows.length){ document.getElementById('codeRows').innerHTML = '<tr><td colspan="6" class="muted">暂无记录</td></tr>'; document.getElementById('listMsg').textContent = '共 ' + codes.length + ' 条，当前筛选 ' + rows.length + ' 条'; return; }
+  document.getElementById('codeRows').innerHTML = rows.map(function(c){
+    var badge = c.status==='used' ? '<span class="badge b-used">已用</span>' : '<span class="badge b-unused">未用</span>';
+    return '<tr><td>'+badge+'</td><td style="font-family:Consolas,monospace;font-size:12px">'+esc(c.code)+'</td><td>'+monthLabel(c.months)+'</td><td>'+esc(c.batch)+'</td><td>'+fmtTime(c.usedAt)+'</td><td>'+esc(c.device||'-')+'</td></tr>';
+  }).join('');
+  document.getElementById('listMsg').textContent = '共 ' + codes.length + ' 条，当前筛选 ' + rows.length + ' 条';
+}
+
+async function hmac(msg){
+  var enc = new TextEncoder();
+  var key = await crypto.subtle.importKey('raw', enc.encode(LICENSE_HMAC_KEY), {name:'HMAC', hash:'SHA-256'}, false, ['sign']);
+  var sig = await crypto.subtle.sign('HMAC', key, enc.encode(msg));
+  return Array.from(new Uint8Array(sig)).map(function(b){ return b.toString(16).padStart(2,'0'); }).join('');
+}
+
+async function makeCode(months){
+  var payload = { v:1, months:months, issue:Date.now(), exp:Date.now() + months*30*24*3600*1000 };
+  var body = btoa(JSON.stringify(payload)).replace(/=+$/,'');
+  var sig = await hmac(body);
+  return body + '.' + sig;
+}
+
+async function issueCodes(){
+  var months = parseInt(document.getElementById('issueMonths').value, 10);
+  var count = parseInt(document.getElementById('issueCount').value, 10) || 1;
+  if(count > 100){ count = 100; }
+  var batch = document.getElementById('issueBatch').value.trim() || ('batch-' + new Date().toISOString().slice(0,10));
+  document.getElementById('issueResult').innerHTML = '<div class="muted">正在生成并登记 ' + count + ' 个兑换码…</div>';
+  var out = [], okN = 0, failN = 0;
+  for(var i = 0; i < count; i++){
+    var code = await makeCode(months);
+    var r = await api('code_issue', { code:code, months:months, batch:batch });
+    if(r.ok){ okN++; out.push(code); }
+    else{ failN++; }
+  }
+  issuedLast = out;
+  document.getElementById('issueResult').innerHTML =
+    '<div class="ok">成功登记 ' + okN + ' 个' + (failN ? '，失败 ' + failN + ' 个（可能码重复或云端不可达）' : '') + '</div>' +
+    (okN ? '<div class="code-box">' + out.join('\n') + '</div>' : '');
+  refreshList();
+}
+
+function exportIssued(){
+  if(!issuedLast.length){ alert('先点「生成并登记」'); return; }
+  var blob = new Blob([issuedLast.join('\n')], {type:'text/plain'});
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'lan-codes-' + new Date().toISOString().slice(0,10) + '.txt';
+  a.click();
+}
+
+function exportLedger(){
+  var data = { exportedAt:new Date().toISOString(), total:codes.length, items:codes };
+  var blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'lan-codes-ledger-' + new Date().toISOString().slice(0,10) + '.json';
+  a.click();
+}
+
+(function(){
+  var saved = getKey();
+  if(saved){ document.getElementById('adminKey').value = saved; refreshList(); }
+})();
+</script>
+</body>
+</html>

@@ -2292,12 +2292,12 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
 
       <!-- 权益对比 -->
       <div class="card-base" style="padding:20px;margin-bottom:16px;text-align:center">
-        <div style="font-size:26px;font-weight:700;color:var(--accent,#d4af37)">¥99<span style="font-size:14px;font-weight:400;color:var(--text-3)"> / 年</span></div>
-        <div style="font-size:12px;color:var(--text-3);margin:4px 0 16px">或 ¥9 / 月 · 支持独立开发者持续维护</div>
+        <div style="font-size:26px;font-weight:700;color:var(--accent,#d4af37)">¥199.9<span style="font-size:14px;font-weight:400;color:var(--text-3)"> / 年</span></div>
+        <div style="font-size:12px;color:var(--text-3);margin:4px 0 16px">月付 ¥29.9 · 季付 ¥69.9 · 年付 ¥199.9（折合 ¥16.7/月）</div>
         <table style="width:100%;font-size:13px;text-align:left;border-collapse:collapse">
           <tr style="border-bottom:1px solid var(--line)">
             <td style="padding:8px 4px;color:var(--text-3)">AI 智能体对话</td>
-            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">每日 10 次</span> → <strong style="color:var(--accent,#d4af37)">无限</strong></td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">每日 3 次</span> → <strong style="color:var(--accent,#d4af37)">无限</strong></td>
           </tr>
           <tr style="border-bottom:1px solid var(--line)">
             <td style="padding:8px 4px;color:var(--text-3)">云同步（多设备）</td>
@@ -2536,9 +2536,10 @@ function metaSet(key,value){
 // ============================================================
 const PRO_KEY = 'lan_pro';              // PRO 状态 {expire: timestamp} 存 IndexedDB
 const PRO_TRIAL_DAYS = 0;               // 赠送试用天数（0=不送）
-const FREE_AI_DAILY = 10;               // 免费版每日 AI 次数
-const PRO_PRICE_MONTH = 9;              // PRO 月价（展示用）
-const PRO_PRICE_YEAR = 99;              // PRO 年价（展示用）
+const FREE_AI_DAILY = 3;                // 免费版每日 AI 次数
+const PRO_PRICE_MONTH = 29.9;           // PRO 月价（展示用）
+const PRO_PRICE_QUARTER = 69.9;         // PRO 季价（展示用）
+const PRO_PRICE_YEAR = 199.9;           // PRO 年价（展示用）
 
 // ---- License 签发公钥（HMAC 验签用，与 Worker 端密钥配套）----
 // 说明：正式上线时由 Worker 生成兑换码：<payload>.<hmac_hex>
@@ -2613,7 +2614,7 @@ function openUpgradeModal(){
       免费版每日 AI 对话 <b>${FREE_AI_DAILY}</b> 次已用完。<br>
       升级 PRO 解锁：无限 AI 对话、全自动云同步、Excel/PDF 导出、全部高级主题。
     </div>
-    <div style="font-size:22px;font-weight:700;color:var(--accent,#d4af37);margin-bottom:14px">¥99 / 年 <span style="font-size:12px;color:var(--text-3);font-weight:400">或 ¥9/月</span></div>
+    <div style="font-size:22px;font-weight:700;color:var(--accent,#d4af37);margin-bottom:14px">¥199.9 / 年 <span style="font-size:12px;color:var(--text-3);font-weight:400">或 ¥29.9/月 · ¥69.9/季</span></div>
     <button class="btn-primary" style="width:100%;margin-bottom:8px;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="openLicenseModal()">有兑换码？立即激活</button>
     <button class="btn-secondary" style="width:100%" onclick="closeModal()">暂不升级</button>
   `);
@@ -2666,8 +2667,32 @@ async function doRedeem(){
   const r = await verifyLicense(code);
   if(!r.ok){ toast(r.msg); return; }
   const months = r.data.months || 12;
-  activatePro(months);
-  closeModal();
+  // 云端核销（一次一码）：Worker 可达则按核销结果；不可达/未登记则降级本地激活
+  let online = null;
+  if(CLOUD_SYNC_ENDPOINT){
+    try{
+      const resp = await syncFetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'code_activate', code, device: getDeviceId()})});
+      if(resp.ok) online = await resp.json();
+    }catch(e){ online = null; }
+  }
+  if(online && online.ok){
+    activatePro(months);
+    closeModal();
+    toast('兑换码核销成功，PRO 已激活');
+  } else if(online && online.error === 'already_used'){
+    toast('该兑换码已被其他设备使用');
+  } else {
+    // 离线 / 码未登记：本地激活（兼容无网络场景）
+    activatePro(months);
+    closeModal();
+    toast(online && online.error === 'not_registered' ? '已激活（该码未在云端登记，暂无法核销）' : '已激活（离线模式，未云端核销）');
+  }
+}
+// 设备唯一标识（核销记录用）
+function getDeviceId(){
+  let id = localStorage.getItem('lan_device_id');
+  if(!id){ id = 'dev-' + Math.random().toString(36).slice(2,10) + Date.now().toString(36); localStorage.setItem('lan_device_id', id); }
+  return id;
 }
 
 // ---- 埋点（自埋点，数据只存本地 IndexedDB，不接外部分析）----
