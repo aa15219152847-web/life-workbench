@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lan工作台 · Cloudflare 云同步部署手册</title>
+<style>
+  body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;max-width:860px;margin:0 auto;padding:32px 20px 80px;background:#f7f8fa;color:#1f2937;line-height:1.75}
+  h1{font-size:26px;margin-bottom:4px}
+  h2{font-size:20px;margin:40px 0 14px;padding-bottom:8px;border-bottom:2px solid #d4af37;color:#111827}
+  h3{font-size:16px;margin:24px 0 8px;color:#374151}
+  .sub{color:#6b7280;font-size:14px;margin-bottom:24px}
+  .step{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:18px 22px;margin:16px 0}
+  .step-title{font-size:16px;font-weight:700;color:#111827;margin-bottom:10px}
+  .step-title .num{display:inline-block;background:#d4af37;color:#fff;border-radius:50%;width:26px;height:26px;text-align:center;line-height:26px;font-size:14px;margin-right:8px}
+  code{background:#f3f4f6;border:1px solid #e5e7eb;border-radius:4px;padding:1px 6px;font-family:Consolas,Monaco,monospace;font-size:13px;color:#b45309}
+  pre{background:#0f172a;color:#e2e8f0;border-radius:10px;padding:16px 18px;overflow-x:auto;font-size:13px;line-height:1.6}
+  pre code{background:none;border:none;color:inherit;padding:0}
+  .warn{background:#fff7ed;border:1px solid #fdba74;border-radius:10px;padding:12px 16px;margin:14px 0;font-size:14px}
+  .warn b{color:#c2410c}
+  .tip{background:#ecfdf5;border:1px solid #6ee7b7;border-radius:10px;padding:12px 16px;margin:14px 0;font-size:14px}
+  .tip b{color:#047857}
+  table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px;background:#fff}
+  th,td{border:1px solid #e5e7eb;padding:9px 12px;text-align:left}
+  th{background:#f9fafb;font-weight:600}
+  .check{list-style:none;padding:0}
+  .check li{padding:6px 0 6px 28px;position:relative}
+  .check li::before{content:"✓";position:absolute;left:4px;color:#059669;font-weight:700}
+  .path{background:#f3f4f6;border-radius:6px;padding:2px 8px;font-family:Consolas,monospace;font-size:13px}
+  .btn{display:inline-block;background:#d4af37;color:#fff;padding:4px 14px;border-radius:6px;font-weight:600}
+  .muted{color:#9ca3af;font-size:13px}
+</style>
+</head>
+<body>
+
+<h1>Cloudflare 云同步部署手册</h1>
+<div class="sub">Lan工作台 · 给「云同步」和「兑换码核销」接上云端 · 预计用时 15~20 分钟 · 全部免费</div>
+
+<div class="warn"><b>开始前请确认：</b>你有两个东西在手边——① 一个能收邮件的邮箱；② 电脑上能打开 <code>dash.cloudflare.com</code>（建议用 Chrome/Edge）。本手册全程不需要信用卡。</div>
+
+<h2>你要做的 6 件事（总览）</h2>
+<ol>
+  <li>注册 Cloudflare 账号（约 3 分钟）</li>
+  <li>创建 Worker 并粘贴代码（约 5 分钟）</li>
+  <li>创建 KV 存储空间（约 2 分钟）</li>
+  <li>把 KV 绑定到 Worker（约 2 分钟，<b>最关键一步</b>）</li>
+  <li>部署 Worker 并测试（约 3 分钟）</li>
+  <li>把地址填进前端代码并推送上线（约 5 分钟）</li>
+</ol>
+
+<!-- ================= 第 1 步 ================= -->
+<h2>第一步：注册 Cloudflare 账号</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>打开注册页</div>
+  浏览器打开：<code>https://dash.cloudflare.com/sign-up</code>
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>填写注册信息</div>
+  <ul>
+    <li><b>Email</b>：填你的常用邮箱（建议 Gmail 或 QQ/163 邮箱均可）</li>
+    <li><b>Password</b>：填一个密码（至少 8 位，建议字母+数字+符号）</li>
+    <li>点 <span class="btn">Sign Up</span>（注册）按钮</li>
+  </ul>
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">3</span>验证邮箱</div>
+  去邮箱收信，找到 Cloudflare 发来的验证邮件，点邮件里的<b>确认链接</b>。没收到就检查垃圾箱，或等 1 分钟再点一次「重新发送」。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">4</span>跳过域名引导</div>
+  登录后可能会问你要不要添加网站（Add a site）——<b>直接跳过/不添加</b>，我们不需要域名，你只用 Workers 服务。<br>
+  如果看到 "Choose a plan" 之类的页面，选免费的 <b>Free</b> 计划即可（不要选 Pro 或 Enterprise）。
+</div>
+
+<div class="tip"><b>完成标志：</b>进入 <code>dash.cloudflare.com</code> 首页，能看到你注册的邮箱和账号信息。</div>
+
+<!-- ================= 第 2 步 ================= -->
+<h2>第二步：创建 Worker 并粘贴代码</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>进入 Workers 页面</div>
+  登录后，在左侧菜单栏找到 <span class="path">Workers &amp; Pages</span>（图标是一个方块拼图），点击进入。<br>
+  <span class="muted">如果没看到左侧菜单，点左上角 Cloudflare logo 回到首页，再找 Workers &amp; Pages。</span>
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>创建一个 Worker</div>
+  在 Workers &amp; Pages 页面点蓝色按钮 <span class="btn">Create application</span>（创建应用）→ 再点 <span class="btn">Create Worker</span>（创建 Worker）。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">3</span>给 Worker 起名</div>
+  在 <b>Name</b> 输入框里填：<code>lan-workbench-sync</code><br>
+  <span class="muted">（名字可以随意，但建议用这个，后面好认）</span><br>
+  点 <span class="btn">Deploy</span>（部署）→ 会跳转到 Worker 管理页。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">4</span>打开代码编辑器</div>
+  在 Worker 管理页点 <b>Edit code</b>（编辑代码），会打开一个在线代码编辑器（左边是代码，右边是预览）。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">5</span>粘贴代码（重要！全部替换）</div>
+  <div class="warn"><b>先全选删除</b>编辑器里默认的示例代码（Ctrl+A 全选 → Delete），<b>再把下面这段完整代码粘贴进去</b>：</div>
+<pre><code>export default {
+  async fetch(request, env, ctx) {
+    const cors = {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    };
+    if (request.method === 'OPTIONS') {
+      return new Response(null, { status: 204, headers: cors });
+    }
+    if (request.method !== 'POST') {
+      return new Response(JSON.stringify({ ok: false, error: 'method not allowed' }), { status: 405, headers: { ...cors, 'Content-Type': 'application/json' } });
+    }
+    try {
+      const body = await request.json();
+      if (body.action === 'put') {
+        if (!body.body || typeof body.body !== 'string') {
+          return new Response(JSON.stringify({ ok: false, error: 'empty body' }), { status: 400, headers: { ...cors, 'Content-Type': 'application/json' } });
+        }
+        const parsed = JSON.parse(body.body);
+        const savedAt = parsed && parsed.savedAt ? parsed.savedAt : new Date().toISOString();
+        await env.SYNC_KV.put('lan_sync', body.body, { metadata: { savedAt } });
+        return new Response(JSON.stringify({ ok: true, savedAt }), { status: 200, headers: { ...cors, 'Content-Type': 'application/json' } });
+      }
+      if (body.action === 'get') {
+        const val = await env.SYNC_KV.get('lan_sync');
+        if (!val) {
+          return new Response(JSON.stringify({ ok: false, error: 'no backup yet' }), { status: 404, headers: { ...cors, 'Content-Type': 'application/json' } });
+        }
+        return new Response(val, { status: 200, headers: { ...cors, 'Content-Type': 'application/json' } });
+      }
+      return new Response(JSON.stringify({ ok: false, error: 'unknown action' }), { status: 400, headers: { ...cors, 'Content-Type': 'application/json' } });
+    } catch (e) {
+      return new Response(JSON.stringify({ ok: false, error: e.message }), { status: 500, headers: { ...cors, 'Content-Type': 'application/json' } });
+    }
+  },
+};</code></pre>
+  <div class="warn"><b>注意：</b>这段代码里有一处不能改——<code>env.SYNC_KV</code>。第四步绑定的 KV 变量名必须和它完全一致，否则会报错。</div>
+</div>
+
+<!-- ================= 第 3 步 ================= -->
+<h2>第三步：创建 KV 存储空间</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>回到 Workers &amp; Pages 首页</div>
+  点左侧菜单 <span class="path">Workers &amp; Pages</span> 回到列表页，然后点 <b>KV</b> 标签（在页面顶部，和 Workers 并列）。<br>
+  <span class="muted">新版界面里 KV 入口在：左侧菜单 Workers &amp; Pages 下方，或页面顶部的 KV 选项卡。</span>
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>创建 KV 空间</div>
+  点 <span class="btn">Create a namespace</span>（创建命名空间）→ 名称填：<code>lan-sync-kv</code> → 点 <span class="btn">Add</span>（添加）。
+</div>
+<div class="tip"><b>KV 是什么：</b>就是一个云端"小柜子"，用来存你的加密备份数据。免费额度每天 10 万次读取、1000 次写入，个人项目完全够用。容量上限 1GB（实际单个 key 最大 25MB，你的加密备份一般只有几十~几百 KB，放心）。</div>
+
+<!-- ================= 第 4 步 ================= -->
+<h2>第四步：把 KV 绑定到 Worker（最关键一步）</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>进入 Worker 的设置</div>
+  回到 <span class="path">Workers &amp; Pages</span> → 点你创建的 <b>lan-workbench-sync</b> → 点顶部 <b>Settings</b>（设置）标签页。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>找到 KV bindings</div>
+  在 Settings 页往下滚动，左侧或页面里找到 <b>Bindings</b>（绑定）区域，里面有 <b>KV namespace bindings</b>，点 <span class="btn">Add binding</span>（添加绑定）。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">3</span>填写绑定（三处都要对）</div>
+  <table>
+    <tr><th>字段</th><th>填什么</th><th>说明</th></tr>
+    <tr><td>Variable name</td><td><code>SYNC_KV</code></td><td><b>必须全大写，必须叫 SYNC_KV</b>，和代码一致</td></tr>
+    <tr><td>Namespace</td><td><code>lan-sync-kv</code></td><td>选第三步创建的那个</td></tr>
+  </table>
+  点 <span class="btn">Save</span>（保存）。<br>
+  <div class="warn"><b>最容易错的一步：</b>Variable name 填成小写 <code>sync_kv</code> 或别的名字，会导致部署后上传报错 "SYNC_KV is not defined"。填完先截图留底。</div>
+</div>
+
+<!-- ================= 第 5 步 ================= -->
+<h2>第五步：部署 Worker 并获取地址</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>保存并部署代码</div>
+  回到代码编辑器（Edit code），右上角点 <span class="btn">Deploy</span>（部署）按钮。等几秒，出现 "Success" 或 "已部署" 字样。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>复制 Worker 地址</div>
+  在 Worker 管理页能看到一个 <b>xxx.workers.dev</b> 格式的地址（你的专属子域），例如：<code>lan-workbench-sync.你的名字.workers.dev</code><br>
+  点地址右边的<b>复制图标</b>，存到记事本里。<b>这就是后面要填进前端的地址。</b>
+</div>
+
+<!-- ================= 第 6 步 ================= -->
+<h2>第六步：测试 Worker（可选但推荐）</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>用浏览器直接测</div>
+  新开一个浏览器标签页，地址栏输入你的 Worker 地址并回车。页面会显示 JSON：<br>
+<pre><code>{"ok":false,"error":"method not allowed"}</code></pre>
+  <span class="muted">显示这个说明 Worker 正常运行（它只接受 POST 请求，浏览器访问是 GET，所以返回这个提示，属正常现象）。</span>
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>用命令行测写入/读取（推荐）</div>
+  打开电脑的「命令提示符」或终端，运行下面两条命令（把地址换成你的）：<br>
+<pre><code>curl -X POST https://你的地址.workers.dev -H "Content-Type: application/json" -d "{\"action\":\"put\",\"body\":\"{\\\"savedAt\\\":\\\"2026-08-09T00:00:00Z\\\",\\\"hello\\\":\\\"world\\\"}\"}"
+curl -X POST https://你的地址.workers.dev -H "Content-Type: application/json" -d "{\"action\":\"get\"}"</code></pre>
+  第一条应返回 <code>{"ok":true,"savedAt":"..."}</code>，第二条应返回你刚存的内容。两条都通，说明云端存储 OK。
+</div>
+
+<!-- ================= 第 7 步 ================= -->
+<h2>第七步：把地址填进前端代码</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>打开项目里的 index.html</div>
+  用 VS Code（或任意文本编辑器）打开 <code>life-workbench-git/index.html</code>，按 Ctrl+F 搜索：<code>CLOUD_SYNC_ENDPOINT</code>，找到这一行：<br>
+<pre><code>const CLOUD_SYNC_ENDPOINT = ''; // TODO: 明天填入 Cloudflare Worker 地址（如 https://xxx.workers.dev/sync）</code></pre>
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>把地址填进去</div>
+  改成（<b>注意：填的是你的 Worker 地址，不要带 /sync 后缀</b>）：<br>
+<pre><code>const CLOUD_SYNC_ENDPOINT = 'https://lan-workbench-sync.你的名字.workers.dev';</code></pre>
+  保存文件。
+</div>
+
+<!-- ================= 第 8 步 ================= -->
+<h2>第八步：提交推送，让线上生效</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>提交并推送</div>
+  在项目目录打开终端，执行：<br>
+<pre><code>git add index.html
+git commit -m "feat: 启用云同步（Cloudflare Worker 已配置）"
+git push origin main</code></pre>
+  推送后 Cloudflare Pages 会自动重新构建，大约 1~2 分钟后线上生效。
+</div>
+
+<!-- ================= 第 9 步 ================= -->
+<h2>第九步：在工作台里验证（最终确认）</h2>
+<div class="step">
+  <div class="step-title"><span class="num">1</span>打开线上工作台</div>
+  访问你的工作台网址，进入「数据」页 → 找到「云同步」卡片（如果被折叠，先展开「数据管理」）。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">2</span>上传测试</div>
+  输入一个同步码（至少 8 位，例如 <code>mytest123</code>）→ 点 <b>加密上传</b>。出现「云端同步完成」提示，就成功了。
+</div>
+<div class="step">
+  <div class="step-title"><span class="num">3</span>恢复测试（换设备模拟）</div>
+  换一台设备（或开无痕窗口）打开工作台 → 数据页 → 输入同一个同步码 → 点 <b>云端恢复</b>，看到数据回来了就大功告成。
+</div>
+
+<!-- ================= 排查 ================= -->
+<h2>常见问题排查</h2>
+<table>
+  <tr><th>现象</th><th>原因 / 解决办法</th></tr>
+  <tr><td>「加密上传失败: SYNC_KV is not defined」</td><td>第四步 KV 绑定没生效或变量名不对。回到 Worker → Settings → Bindings 检查变量名是否为大写 <code>SYNC_KV</code>，重新保存后再部署一次。</td></tr>
+  <tr><td>「云端待配置」提示一直出现</td><td>前端 <code>CLOUD_SYNC_ENDPOINT</code> 还是空字符串。检查 index.html 是否填了地址并已 push 上线（线上可能有缓存，强刷 Ctrl+Shift+R）。</td></tr>
+  <tr><td>浏览器打开 Worker 地址显示 method not allowed</td><td>正常现象，Worker 只接受 POST。用第六步的 curl 命令测试。</td></tr>
+  <tr><td>上传成功但恢复是旧数据</td><td>KV 的 key 是固定的 <code>lan_sync</code>，所有用同一个同步码的用户共用一个备份槽位。这是单用户备份设计，多用户版本在兑换码管理后台方案里再做。</td></tr>
+  <tr><td>国内访问 worker 地址慢/超时</td><td>workers.dev 子域在国内网络偶尔不稳定。可以后续给 Worker 绑定你自己的域名（需要已备案域名）或用代理，属可选优化。</td></tr>
+  <tr><td>提示同步码错误</td><td>同步码用于本地派生 AES 密钥，恢复时用错码会解密失败，提示「同步码可能不正确」。换回原来的码即可。</td></tr>
+</table>
+
+<h2>免费额度一览（放心用）</h2>
+<table>
+  <tr><th>资源</th><th>免费额度</th><th>你的用量</th></tr>
+  <tr><td>Workers 请求</td><td>10 万次/天</td><td>每天几十次，绰绰有余</td></tr>
+  <tr><td>KV 读取</td><td>10 万次/天</td><td>同上</td></tr>
+  <tr><td>KV 写入</td><td>1000 次/天</td><td>每次同步 1 次写入</td></tr>
+  <tr><td>KV 容量</td><td>1GB</td><td>加密备份几百 KB，几乎不占</td></tr>
+</table>
+
+<div class="warn"><b>隐私说明：</b>云端只存 AES-GCM 加密后的密文，服务端无法查看内容。加密密钥由你的同步码在本机派生，云端没有任何密钥材料——同步码就是你的数据钥匙，务必自己保管好，忘了就恢复不了。</div>
+
+<div class="tip"><b>做完之后：</b>云同步启用后，建议顺手把「数据页 → 数据管理」里的说明文案看一眼，确认同步提示不再是"云端服务待配置"。之后我们可以继续做兑换码管理后台（方案A），把核销和发码也接到这个 Worker 上。</div>
+
+</body>
+</html>

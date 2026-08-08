@@ -1,0 +1,9 @@
+# Lan工作台 · 云同步 Worker 部署配置
+# 用法：CLOUDFLARE_API_TOKEN=<token> CLOUDFLARE_ACCOUNT_ID=<account> npx wrangler deploy
+name = "lan-workbench-sync"
+main = "cloud-sync-worker.js"
+compatibility_date = "2026-08-09"
+
+[[kv_namespaces]]
+binding = "SYNC_KV"
+id = "215b1221ef164a5c9011717250a7eacd"
