@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-08-08 14:16",
+ "updated_at": "2026-08-08 19:48",
  "ai": [
+  {
+   "category": "ai",
+   "title": "内部“一路绿灯”：消息称 WorkBuddy 已成腾讯 AI 应用战略优先级最高产品之一",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/446.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "OpenAI 下一代 AI 模型 Astra 数学成果遭抄袭指控",
@@ -152,17 +160,33 @@
    "link": "https://www.ithome.com/0/986/779.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "减少游戏卡顿：消息称英伟达研发 SSD 当额外显存技术",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/777.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
+  {
+   "category": "finance",
+   "title": "钟睒睒：感性消费被线上购物平台扼杀，必须限制平台能力",
+   "summary": "8月8日消息，今日，农夫山泉创始人、董事长钟睒睒做客央视财经《对话》直播节目。直播中，谈及目前在生活中普及的电商平台，钟睒睒表示，平台是一种特殊的中间商，“这个中间商无处不在，把城市的很多零售商都‘杀’光了。”他说。他认为，城市中的许多店铺是根据感性来消费的，但目前这种消费已经被扼杀。“把年轻人都吸引到手机屏幕里，创造性和感性在哪里？”因此，他表示必须限制平台的能力。",
+   "link": "https://wallstreetcn.com/news/global/3147027",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-08 14:48"
+  },
+  {
+   "category": "finance",
+   "title": "加拿大已经在贸易磋商中向美国做出让步。 加方希望，阻止特朗普在不到两周的时间内加征50%关税的计划。",
+   "summary": "加拿大已经在贸易磋商中向美国做出让步。 加方希望，阻止特朗普在不到两周的时间内加征50%关税的计划。 加拿大要求与美国达成一项全面协议。（纽约时报）",
+   "link": "https://wallstreetcn.com/news/global/3147026",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-08 14:41"
+  },
+  {
+   "category": "finance",
+   "title": "美参议院通过临时拨款法案，暂缓政府“停摆”风险",
+   "summary": "美国国会参议院8日通过一项联邦政府临时拨款法案，以避免联邦政府在现行预算到期后“停摆”。 美国参议院以90票赞成、6票反对的结果通过这一拨款法案，以让大部分联邦政府机构在当前资金支持水平下运转至12月11日。",
+   "link": "https://wallstreetcn.com/news/global/3147025",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-08 14:29"
+  },
   {
    "category": "finance",
    "title": "一船只在阿曼以东海域遭袭起火",
@@ -282,30 +306,6 @@
    "link": "https://wallstreetcn.com/news/global/3146998",
    "source": "华尔街见闻",
    "published_at": "2026-08-08 11:55"
-  },
-  {
-   "category": "finance",
-   "title": "伊朗外长：伊朗与阿曼就霍尔木兹海峡管理达成协议已非常接近",
-   "summary": "据Telegram声明，伊朗外交部长Abbas Araghchi在新闻发布会上表示：”我们在确定通航路线方面已非常接近达成协议，但海峡的开放还取决于其他条件，包括美国违反《伊斯兰堡协议》的赔偿问题。”与阿曼谈判中的临时航线将被作为主航线的基础。",
-   "link": "https://wallstreetcn.com/news/global/3146996",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-08 11:35"
-  },
-  {
-   "category": "finance",
-   "title": "伊朗媒体发布伊朗最高领袖视频",
-   "summary": "伊朗迈赫尔通讯社8月8日在社交媒体发布了一段关于伊朗最高领袖穆杰塔巴·哈梅内伊的视频。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3146994",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-08 10:51"
-  },
-  {
-   "category": "finance",
-   "title": "2026年度总票房破240亿",
-   "summary": "据灯塔专业版数据，截至8月8日，2026年度大盘票房（含预售）突破240亿，《飞驰人生3》《功夫女足》《给阿嬷的情书》《镖人：风起大漠》《八仙！》暂列年度票房前五名。",
-   "link": "https://wallstreetcn.com/news/global/3146993",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-08 10:51"
   }
  ]
 }
