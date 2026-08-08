@@ -11,7 +11,7 @@
  */
 const crypto = require('crypto');
 
-const SECRET = process.env.LICENSE_SECRET || 'lan-workbench-license-v1-secret';
+const SECRET = process.env.LICENSE_SECRET || 'bae65342981bdfa1b9daea36b2126c79844d0f0de2961c4d411e2adcdc8c2e60';
 
 function makeCode(months) {
   const payload = {

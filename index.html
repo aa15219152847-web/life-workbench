@@ -2143,76 +2143,6 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <div class="section-title">数据备份与恢复</div>
       </div>
 
-      <!-- 按条件导出 -->
-      <div class="card-base" style="padding:16px;margin-bottom:16px">
-        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:14px">按条件导出</div>
-
-        <!-- 模块选择 -->
-        <div class="form-group">
-          <label>选择模块</label>
-          <div class="chip-group" id="exportModules">
-            <button class="chip active" data-val="all">全部</button>
-            <button class="chip" data-val="todos">待办</button>
-            <button class="chip" data-val="ledger">记账</button>
-            <button class="chip" data-val="inspirations">灵感</button>
-            <button class="chip" data-val="reviews">复盘</button>
-            <button class="chip" data-val="plans">学习</button>
-          </div>
-        </div>
-
-        <!-- 时间范围 -->
-        <div class="form-group">
-          <label>时间范围</label>
-          <div class="chip-group" id="exportRange">
-            <button class="chip active" data-val="all">全部时间</button>
-            <button class="chip" data-val="year">按年</button>
-            <button class="chip" data-val="month">按月</button>
-            <button class="chip" data-val="custom">自定义</button>
-          </div>
-        </div>
-
-        <!-- 年份选择（按年时显示） -->
-        <div class="form-group" id="exportYearGroup" style="display:none">
-          <label>选择年份</label>
-          <input class="form-input" type="number" id="exportYear" value="2026" style="max-width:120px">
-        </div>
-
-        <!-- 月份选择（按月时显示） -->
-        <div class="form-group" id="exportMonthGroup" style="display:none">
-          <label>选择月份</label>
-          <input class="form-input" type="month" id="exportMonth">
-        </div>
-
-        <!-- 自定义日期范围 -->
-        <div class="form-row" id="exportCustomGroup" style="display:none">
-          <div class="form-group">
-            <label>开始日期</label>
-            <input class="form-input" type="date" id="exportDateFrom">
-          </div>
-          <div class="form-group">
-            <label>结束日期</label>
-            <input class="form-input" type="date" id="exportDateTo">
-          </div>
-        </div>
-
-        <!-- 格式选择 -->
-        <div class="form-group">
-          <label>导出格式</label>
-          <div class="chip-group" id="exportFormat">
-            <button class="chip active" data-val="json">JSON</button>
-            <button class="chip" data-val="excel">Excel</button>
-            <button class="chip" data-val="pdf">PDF</button>
-            <button class="chip" data-val="word">Word</button>
-          </div>
-        </div>
-
-        <button class="btn-primary" onclick="exportFiltered()" style="width:100%">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          导出数据
-        </button>
-        <div id="exportPreview" style="margin-top:10px;font-size:12.5px;color:var(--text-4)"></div>
-      </div>
-
       <!-- 月度报告 -->
       <div class="card-base" style="padding:16px;margin-bottom:16px">
         <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">📊 月度报告</div>
@@ -2230,21 +2160,88 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         </button>
       </div>
 
-      <!-- 全量备份与恢复 -->
-      <div class="card-base" style="padding:16px;margin-bottom:16px">
-        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">全量备份</div>
-        <div style="font-size:12.5px;color:var(--text-3);line-height:1.6;margin-bottom:14px">
-          一键导出所有数据为JSON备份文件，或从备份文件恢复。
+      <!-- 数据管理（导出/导入，隐藏层级：数据页 → 数据管理 → 展开） -->
+      <div class="card-base" style="padding:14px 16px;margin-bottom:16px">
+        <div onclick="toggleDataPanel()" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+          <div>
+            <div style="font-size:13px;color:var(--text-3)">数据管理</div>
+            <div style="font-size:11px;color:var(--text-4)">备份、导出与数据归档</div>
+          </div>
+          <span id="dataPanelArrow" style="color:var(--text-4);font-size:12px">展开</span>
         </div>
-        <button class="btn-primary" onclick="exportData()">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          导出全部数据
-        </button>
-        <button class="btn-secondary" onclick="document.getElementById('importFile').click()">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
-          导入数据（会覆盖现有）
-        </button>
-        <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+        <div id="dataPanelBody" style="display:none;margin-top:14px;border-top:1px solid var(--border-tertiary);padding-top:14px">
+          <div style="font-size:14px;font-weight:600;color:var(--text);margin-bottom:6px">导出数据</div>
+          <div id="exportPermHint" style="font-size:12px;color:var(--text-4);line-height:1.7;margin-bottom:12px"></div>
+          <div class="form-group">
+            <label>选择模块</label>
+            <div class="chip-group" id="exportModules">
+              <button class="chip active" data-val="inspirations">灵感</button>
+              <button class="chip" data-val="plans">学习</button>
+              <button class="chip pro-chip" data-val="all" style="display:none">全部</button>
+              <button class="chip pro-chip" data-val="todos" style="display:none">待办</button>
+              <button class="chip pro-chip" data-val="ledger" style="display:none">记账</button>
+              <button class="chip pro-chip" data-val="reviews" style="display:none">复盘</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>时间范围</label>
+            <div class="chip-group" id="exportRange">
+              <button class="chip active" data-val="all">全部时间</button>
+              <button class="chip" data-val="year">按年</button>
+              <button class="chip" data-val="month">按月</button>
+              <button class="chip" data-val="custom">自定义</button>
+            </div>
+          </div>
+          <div class="form-group" id="exportYearGroup" style="display:none">
+            <label>选择年份</label>
+            <input class="form-input" type="number" id="exportYear" value="2026" style="max-width:120px">
+          </div>
+          <div class="form-group" id="exportMonthGroup" style="display:none">
+            <label>选择月份</label>
+            <input class="form-input" type="month" id="exportMonth">
+          </div>
+          <div class="form-row" id="exportCustomGroup" style="display:none">
+            <div class="form-group">
+              <label>开始日期</label>
+              <input class="form-input" type="date" id="exportDateFrom">
+            </div>
+            <div class="form-group">
+              <label>结束日期</label>
+              <input class="form-input" type="date" id="exportDateTo">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>导出格式</label>
+            <div class="chip-group" id="exportFormat">
+              <button class="chip active" data-val="json">JSON</button>
+              <button class="chip" data-val="excel">Excel</button>
+              <button class="chip" data-val="pdf">PDF</button>
+              <button class="chip" data-val="word">Word</button>
+            </div>
+          </div>
+          <button class="btn-primary" onclick="exportFiltered()" style="width:100%">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            导出数据
+          </button>
+          <div id="exportPreview" style="margin-top:10px;font-size:12.5px;color:var(--text-4)"></div>
+
+          <div id="fullExportWrap" style="margin-top:14px;border-top:1px dashed var(--border-tertiary);padding-top:12px;display:none">
+            <div style="font-size:12px;color:var(--text-3);margin-bottom:8px">完整备份（含全部模块）</div>
+            <button class="btn-secondary" onclick="exportData()" style="width:100%">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              导出全部数据（JSON 全量）
+            </button>
+          </div>
+
+          <div style="margin-top:14px;border-top:1px dashed var(--border-tertiary);padding-top:12px">
+            <div style="font-size:12px;color:var(--text-3);margin-bottom:8px">从备份恢复（会覆盖现有数据）</div>
+            <button class="btn-secondary" onclick="document.getElementById('importFile').click()" style="width:100%">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+              导入备份文件
+            </button>
+            <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)">
+          </div>
+        </div>
       </div>
 
       <!-- 云同步：同步码 AES-GCM 加密备份 -->
@@ -2543,8 +2540,8 @@ const PRO_PRICE_YEAR = 99;              // PRO 年价（展示用）
 
 // ---- License 签发公钥（HMAC 验签用，与 Worker 端密钥配套）----
 // 说明：正式上线时由 Worker 生成兑换码：<payload>.<hmac_hex>
-// 前端用下面这个 key 验签（此处为示例密钥，上线前请与 Worker 端一致）
-const LICENSE_HMAC_KEY = 'lan-workbench-license-v1-secret';
+// 前端用下面这个 key 验签（2026-08-09 已更换为强密钥，与 issue-license.js 默认值一致）
+const LICENSE_HMAC_KEY = 'bae65342981bdfa1b9daea36b2126c79844d0f0de2961c4d411e2adcdc8c2e60';
 
 function isPro(){
   const p = localStorage.getItem(PRO_KEY);
@@ -2637,7 +2634,9 @@ async function verifyLicense(code){
     const calc = await licenseHmac(payload);
     if(calc !== sig.toLowerCase()) return {ok:false, msg:'兑换码校验失败'};
     const o = JSON.parse(atob(payload));
-    if(o.expire && o.expire < Date.now()) return {ok:false, msg:'兑换码已过期'};
+    // 字段名是 exp（签发截止），兼容旧字段 expire
+    const expAt = o.exp || o.expire;
+    if(expAt && expAt < Date.now()) return {ok:false, msg:'兑换码已过期'};
     return {ok:true, data:o};
   }catch(e){
     return {ok:false, msg:'兑换码无效'};
@@ -2756,6 +2755,8 @@ function renderProUI(){
       ? '<span style="color:var(--accent,#d4af37)">PRO · 无限 AI</span>'
       : `免费版 · AI 每日 ${FREE_AI_DAILY} 次`;
   }
+  // PRO 状态变化时同步刷新数据管理面板的导出权限
+  if(typeof renderExportPerms === 'function') renderExportPerms();
 }
 function openLicenseModal(){
   redeemLicense();
@@ -5819,10 +5820,15 @@ async function getFilteredData(){
     dateTo = $('#exportDateTo').value || null;
   }
 
-  // 获取数据
+  // 获取数据（免费用户仅可导出非核心模块：灵感/学习；核心模块为 PRO 权益）
   const result = {};
-  const modules = mod==='all' ? ['todos','ledger','inspirations','reviews','plans'] : [mod];
   const modLabels = {todos:'待办',ledger:'记账',inspirations:'灵感',reviews:'复盘',plans:'学习'};
+  const ALL_MODS = ['todos','ledger','inspirations','reviews','plans'];
+  const FREE_MODS = ['inspirations','plans'];
+  let mods = mod==='all' ? ALL_MODS : [mod];
+  if(!isPro()) mods = mods.filter(m=>FREE_MODS.includes(m));
+  if(mods.length===0) mods = ['inspirations'];
+  const modules = mods;
   const dateFields = {todos:'due_date',ledger:'record_date',inspirations:'created_at',reviews:'review_date',plans:'start_date'};
 
   for(const m of modules){
@@ -6071,9 +6077,27 @@ async function generateMonthlyReport(){
       <div style="font-size:13px;color:#444">本月记录了 ${mInsp} 条灵感</div>`:''}
       <p style="text-align:center;color:#999;font-size:11px;margin-top:32px">—— Lan工作台 · 保持觉醒 ——</p>
     </div>`;
-    printToPDF(html);
+    // 只查看：应用内弹窗预览；打印/导出能力仅 PRO 可用
+    const pro = isPro();
+    const printBtn = pro
+      ? `<div style="text-align:center;margin-top:18px"><button class="btn-primary" onclick="printMonthlyReport()" style="width:100%">打印 / 另存为 PDF</button></div>`
+      : `<div style="text-align:center;margin-top:14px;font-size:12px;color:var(--text-4)">报告仅支持在线查看 · 导出为 PRO 权益</div>`;
+    openModal(`
+      <div class="modal-head">
+        <div class="modal-title">月度报告</div>
+        <button class="modal-close" onclick="closeModal()">关闭</button>
+      </div>
+      <div id="monthlyReportBody" style="font-size:13px">${html}</div>
+      ${printBtn}
+    `);
     toast('月度报告已生成');
   }catch(e){ toast('生成失败'); console.error(e); }
+}
+// 打印月度报告（PRO 专属：免费用户只查看不导出）
+function printMonthlyReport(){
+  const body = document.getElementById('monthlyReportBody');
+  if(!body) return;
+  printToPDF(body.innerHTML);
 }
 
 // ============ 云同步：同步码 AES-GCM 加密备份 ============
@@ -6107,7 +6131,10 @@ async function syncCollect(){
   const stores = ['todos','ledger','inspirations','plans','checkins','reviews'];
   const tables = {};
   for(const s of stores) tables[s] = await dbAll(s);
-  return {v:1, savedAt:new Date().toISOString(), tables, meta: await dbAll('meta')};
+  // 携带 PRO 授权状态（仅在云同步加密通道内传输；手动导出文件不含授权，防止备份泄露变相传播 PRO）
+  let proState = null;
+  try{ proState = localStorage.getItem(PRO_KEY); }catch(e){}
+  return {v:2, savedAt:new Date().toISOString(), tables, meta: await dbAll('meta'), proState};
 }
 async function syncUpload(){
   const key = await syncGetKey();
@@ -6163,6 +6190,11 @@ async function syncDownload(){
       for(const it of (data.tables[s]||[])) await dbPut(s, it);
     }
     if(data.meta) for(const it of data.meta) await dbPut('meta', it);
+    // 恢复 PRO 授权状态（换设备不丢会员身份）
+    if(data.proState){
+      try{ localStorage.setItem(PRO_KEY, data.proState); }catch(e){}
+      renderProUI();
+    }
     $('#syncHint').textContent = '已从云端/剪贴板恢复 · '+new Date().toLocaleString();
     toast('恢复成功（'+stores.length+' 个模块）');
     loadOverview(); loadTodos(); loadToday(); autoBackup();
@@ -6171,17 +6203,17 @@ async function syncDownload(){
 
 async function exportData(){
   try{
-    const data = {
-      todos: await dbAll('todos'),
-      ledger: await dbAll('ledger'),
-      inspirations: await dbAll('inspirations'),
-      plans: await dbAll('plans'),
-      checkins: await dbAll('checkins'),
-      reviews: await dbAll('reviews'),
-      meta: await dbAll('meta'),
-      exportDate: new Date().toISOString(),
-      version: '1.1'
-    };
+    const pro = isPro();
+    // 免费用户仅打包非核心模块（灵感/学习）；完整备份为 PRO 权益
+    const include = pro
+      ? ['todos','ledger','inspirations','plans','checkins','reviews','meta']
+      : ['inspirations','plans'];
+    const data = {};
+    for(const k of include) data[k] = await dbAll(k);
+    const freeCount = (data.inspirations||[]).length + (data.plans||[]).length;
+    if(!pro && freeCount===0){ toast('暂无可导出的数据'); return; }
+    data.exportDate = new Date().toISOString();
+    data.version = '1.1';
     const blob = new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -6192,7 +6224,8 @@ async function exportData(){
     document.body.removeChild(a);
     setTimeout(()=>URL.revokeObjectURL(url), 3000);
     localStorage.setItem(BACKUP_KEY, String(Date.now()));
-    toast('数据已导出');
+    if(pro) toast('数据已导出');
+    else toast(`已导出可用模块（${freeCount} 条）· 完整数据为 PRO 权益`);
   }catch(e){toast('导出失败');console.error(e)}
 }
 
@@ -6235,6 +6268,48 @@ async function importData(event){
     console.error(e);
   }
   event.target.value = '';
+}
+
+// ============================================================
+// 数据管理面板（隐藏层级：数据页 → 数据管理 → 展开）
+// ============================================================
+function toggleDataPanel(){
+  const body = document.getElementById('dataPanelBody');
+  const arr = document.getElementById('dataPanelArrow');
+  if(!body) return;
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  if(arr) arr.textContent = open ? '展开' : '收起';
+  if(!open) renderExportPerms();
+}
+// 根据用户等级渲染导出权限（免费：仅灵感/学习；PRO：全部 + 全量备份）
+function renderExportPerms(){
+  const body = document.getElementById('dataPanelBody');
+  if(!body) return;
+  const pro = isPro();
+  document.querySelectorAll('#exportModules .chip').forEach(ch=>{
+    const v = ch.dataset.val;
+    const free = (v==='inspirations' || v==='plans');
+    ch.style.display = (pro || free) ? '' : 'none';
+  });
+  const active = document.querySelector('#exportModules .chip.active');
+  if(active && !pro){
+    const v = active.dataset.val;
+    if(v!=='inspirations' && v!=='plans'){
+      active.classList.remove('active');
+      const fb = document.querySelector('#exportModules .chip[data-val="inspirations"]');
+      if(fb) fb.classList.add('active');
+    }
+  }
+  const fw = document.getElementById('fullExportWrap');
+  if(fw) fw.style.display = pro ? '' : 'none';
+  const hint = document.getElementById('exportPermHint');
+  if(hint){
+    hint.innerHTML = pro
+      ? '已解锁完整导出：全部模块选择 + JSON 全量备份。'
+      : '免费版可导出 <b>灵感、学习</b> 模块；完整数据导出为 <span class="pro-badge" style="display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;color:#fff;margin:0 2px;vertical-align:middle">PRO 权益</span>，<a href="javascript:openUpgrade()" style="color:var(--accent,#d4af37)">升级解锁</a>。';
+  }
+  updateExportPreview();
 }
 
 // ============================================================
