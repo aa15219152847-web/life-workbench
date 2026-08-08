@@ -6127,6 +6127,16 @@ async function syncGetKey(){
   const base = await crypto.subtle.importKey('raw', enc.encode(code), 'PBKDF2', false, ['deriveKey']);
   return crypto.subtle.deriveKey({name:'PBKDF2', salt:enc.encode(SYNC_SALT), iterations:120000, hash:'SHA-256'}, base, {name:'AES-GCM', length:256}, false, ['encrypt','decrypt']);
 }
+// 带超时的 fetch（云端不可达时 12 秒内返回，避免请求挂起导致"点击无反应"）
+async function syncFetch(url, opts){
+  const ctrl = new AbortController();
+  const timer = setTimeout(()=>ctrl.abort(), 12000);
+  try{
+    return await fetch(url, {...opts, signal: ctrl.signal});
+  }finally{
+    clearTimeout(timer);
+  }
+}
 async function syncCollect(){
   const stores = ['todos','ledger','inspirations','plans','checkins','reviews'];
   const tables = {};
@@ -6139,6 +6149,7 @@ async function syncCollect(){
 async function syncUpload(){
   const key = await syncGetKey();
   if(!key) return;
+  toast('正在加密上传…');
   try{
     const data = await syncCollect();
     const plain = new TextEncoder().encode(JSON.stringify(data));
@@ -6148,7 +6159,7 @@ async function syncUpload(){
     let uploaded = false;
     if(CLOUD_SYNC_ENDPOINT){
       try{
-        const r = await fetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'put', body: payload})});
+        const r = await syncFetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'put', body: payload})});
         uploaded = r.ok;
       }catch(e){ uploaded = false; }
     }
@@ -6156,25 +6167,26 @@ async function syncUpload(){
       $('#syncHint').textContent = '已加密上传到云端 · '+new Date().toLocaleString();
       toast('云端同步完成');
     }else{
-      try{ await navigator.clipboard.writeText(payload); $('#syncHint').textContent = '云端服务待配置 · 加密备份已复制到剪贴板，粘贴到另一台设备后用「云端恢复」导入'; toast('已复制加密备份（云端待配置）'); }
-      catch(e){ $('#syncHint').textContent = '云端待配置且剪贴板不可用，请先配置 CLOUD_SYNC_ENDPOINT'; toast('请配置云端服务'); }
+      try{ await navigator.clipboard.writeText(payload); $('#syncHint').textContent = '云端连接失败（网络不可达）· 加密备份已复制到剪贴板，粘贴到另一台设备后用「云端恢复」导入'; toast('云端不可达，已复制加密备份到剪贴板'); }
+      catch(e){ $('#syncHint').textContent = '云端与剪贴板均不可用，请检查网络'; toast('上传失败：请检查网络'); }
     }
   }catch(e){ toast('加密上传失败: '+e.message); }
 }
 async function syncDownload(){
   const key = await syncGetKey();
   if(!key) return;
+  toast('正在连接云端…');
   try{
     let payload = null;
     if(CLOUD_SYNC_ENDPOINT){
       try{
-        const r = await fetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'get'})});
+        const r = await syncFetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'get'})});
         if(r.ok) payload = await r.json();
       }catch(e){ payload = null; }
     }
     if(!payload){
       const clip = await navigator.clipboard.readText().catch(()=>null);
-      if(!clip){ toast('云端未配置且剪贴板为空'); return; }
+      if(!clip){ toast('云端不可达且剪贴板为空'); return; }
       try{ payload = JSON.parse(clip); }catch(e){ toast('剪贴板内容不是有效备份'); return; }
     }
     if(!payload || !payload.iv || !payload.data){ toast('备份数据格式无效'); return; }
