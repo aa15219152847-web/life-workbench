@@ -2258,9 +2258,11 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
           <div style="display:flex;gap:8px;flex-wrap:wrap">
             <button class="btn-primary" onclick="syncUpload()">加密上传</button>
             <button class="btn-secondary" onclick="syncDownload()">云端恢复</button>
+            <button class="btn-secondary" onclick="document.getElementById('syncFileInput').click()">从备份文件恢复</button>
+            <input type="file" id="syncFileInput" accept=".json,.txt" style="display:none" onchange="syncDownload()">
           </div>
         </div>
-        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">云端服务待配置 · 当前自动用剪贴板兜底（复制加密备份到另一台设备粘贴恢复）</div>
+        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">云端不可达时自动降级：剪贴板备份 → 下载加密备份文件</div>
       </div>
 
       <!-- 自动备份说明 -->
@@ -6167,8 +6169,24 @@ async function syncUpload(){
       $('#syncHint').textContent = '已加密上传到云端 · '+new Date().toLocaleString();
       toast('云端同步完成');
     }else{
-      try{ await navigator.clipboard.writeText(payload); $('#syncHint').textContent = '云端连接失败（网络不可达）· 加密备份已复制到剪贴板，粘贴到另一台设备后用「云端恢复」导入'; toast('云端不可达，已复制加密备份到剪贴板'); }
-      catch(e){ $('#syncHint').textContent = '云端与剪贴板均不可用，请检查网络'; toast('上传失败：请检查网络'); }
+      // 剪贴板 → 下载文件，逐级兜底（下载不依赖剪贴板权限）
+      let saved = false;
+      try{
+        await navigator.clipboard.writeText(payload);
+        $('#syncHint').textContent = '云端连接失败（网络不可达）· 加密备份已复制到剪贴板，粘贴到另一台设备后用「云端恢复」导入';
+        toast('云端不可达，备份已复制到剪贴板');
+        saved = true;
+      }catch(e){}
+      if(!saved){
+        try{
+          downloadBlob(new Blob([payload],{type:'application/json'}), `workbench-sync-${localDate()}.txt`);
+          $('#syncHint').textContent = '云端与剪贴板均不可用 · 已下载加密备份文件，换设备时点「从备份文件恢复」选择该文件导入';
+          toast('已下载加密备份文件');
+        }catch(e){
+          $('#syncHint').textContent = '云端/剪贴板/下载均不可用，请检查网络与浏览器设置';
+          toast('上传失败：请检查网络');
+        }
+      }
     }
   }catch(e){ toast('加密上传失败: '+e.message); }
 }
@@ -6186,9 +6204,18 @@ async function syncDownload(){
     }
     if(!payload){
       const clip = await navigator.clipboard.readText().catch(()=>null);
-      if(!clip){ toast('云端不可达且剪贴板为空'); return; }
-      try{ payload = JSON.parse(clip); }catch(e){ toast('剪贴板内容不是有效备份'); return; }
+      if(clip){
+        try{ payload = JSON.parse(clip); }catch(e){}
+      }
     }
+    if(!payload){
+      // 从用户选择的备份文件读取（上传失败时下载的 .txt 文件）
+      const f = document.getElementById('syncFileInput')?.files?.[0];
+      if(f){
+        try{ payload = JSON.parse(await f.text()); }catch(e){ payload = null; }
+      }
+    }
+    if(!payload){ toast('云端/剪贴板均不可用，且未选择备份文件'); return; }
     if(!payload || !payload.iv || !payload.data){ toast('备份数据格式无效'); return; }
     const iv = syncB64ToBytes(payload.iv);
     const ct = syncB64ToBytes(payload.data);
