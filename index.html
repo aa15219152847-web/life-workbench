@@ -2297,7 +2297,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <table style="width:100%;font-size:13px;text-align:left;border-collapse:collapse">
           <tr style="border-bottom:1px solid var(--line)">
             <td style="padding:8px 4px;color:var(--text-3)">AI 智能体对话</td>
-            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">每日 3 次</span> → <strong style="color:var(--accent,#d4af37)">无限</strong></td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">每日 3 次</span> → <strong style="color:var(--accent,#d4af37)">每月 200 万 token</strong></td>
           </tr>
           <tr style="border-bottom:1px solid var(--line)">
             <td style="padding:8px 4px;color:var(--text-3)">云同步（多设备）</td>
@@ -2540,6 +2540,8 @@ const FREE_AI_DAILY = 3;                // 免费版每日 AI 次数
 const PRO_PRICE_MONTH = 29.9;           // PRO 月价（展示用）
 const PRO_PRICE_QUARTER = 69.9;         // PRO 季价（展示用）
 const PRO_PRICE_YEAR = 199.9;           // PRO 年价（展示用）
+const PRO_MONTHLY_TOKEN = 2000000;      // PRO 每月 AI 额度（token，≈每天20次对话）
+const PRO_OVERAGE_PRICE = 5.2;          // 超额单价（元/百万 token，成本+30%，展示用）
 
 // ---- License 签发公钥（HMAC 验签用，与 Worker 端密钥配套）----
 // 说明：正式上线时由 Worker 生成兑换码：<payload>.<hmac_hex>
@@ -2575,7 +2577,7 @@ function activatePro(months){
   trackEvent('pro_activated', {months});
 }
 
-// ---- 免费额度（每日 AI 对话次数）----
+// ---- 免费额度（每日次数）+ PRO 月度 token 额度 ----
 async function getTodayAiCount(){
   const t = localDate();
   const m = await metaGet('aiUsage') || {};
@@ -2589,30 +2591,66 @@ async function incrAiCount(){
   m.count = (m.count||0)+1;
   await metaSet('aiUsage', m);
 }
+// PRO 月度 token 用量（按月重置）
+async function getProTokenUsed(){
+  const m = await metaGet('proTokenUsage') || {};
+  const month = localDate().slice(0,7);
+  if(m.month !== month) return {month, used:0};
+  return {month, used:m.used||0};
+}
+async function incrProToken(amount){
+  const {month, used} = await getProTokenUsed();
+  await metaSet('proTokenUsage', {month, used: used + (amount||0)});
+}
 async function canUseAi(){
-  if(isPro()) return {ok:true};
+  if(isPro()){
+    const {used} = await getProTokenUsed();
+    if(used < PRO_MONTHLY_TOKEN) return {ok:true, pro:true, used, total:PRO_MONTHLY_TOKEN};
+    return {ok:false, pro:true, used, total:PRO_MONTHLY_TOKEN, left:0};
+  }
   const c = await getTodayAiCount();
   return {ok: c < FREE_AI_DAILY, used:c, left: Math.max(0, FREE_AI_DAILY-c)};
 }
 async function guardAi(){
   const r = await canUseAi();
   if(r.ok) return true;
-  showAiLimitToast(r);
+  if(r.pro){
+    showProQuotaToast(r);
+  } else {
+    showAiLimitToast(r);
+  }
   return false;
 }
 function showAiLimitToast(r){
-  toast(`免费版每日 AI 对话 ${FREE_AI_DAILY} 次已用完，升级 PRO 无限畅聊`);
+  toast(`免费版每日 AI 对话 ${FREE_AI_DAILY} 次已用完，升级 PRO 解锁每月 200 万 token`);
   openUpgradeModal();
+}
+function showProQuotaToast(r){
+  const usedW = Math.round(r.used/10000)/100;
+  const totalW = Math.round(r.total/10000)/100;
+  toast(`本月 AI 额度已用完（${usedW}万/${totalW}万 token）`);
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">本月 AI 额度已用完</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:13px;color:var(--text-2);line-height:1.8;margin-bottom:14px">
+      本月已使用 <b>${usedW} 万</b> token（额度 ${totalW} 万）。<br>
+      超额部分按 <b>¥${PRO_OVERAGE_PRICE}/百万 token</b> 计费，加量包功能即将上线。<br>
+      当前如需继续使用，可联系管理员购买加量包。
+    </div>
+    <button class="btn-primary" style="width:100%" onclick="closeModal()">知道了</button>
+  `);
 }
 function openUpgradeModal(){
   openModal(`
     <div class="modal-head">
-      <div class="modal-title">升级 PRO · 无限 AI</div>
+      <div class="modal-title">升级 PRO</div>
       <button class="modal-close" onclick="closeModal()">关闭</button>
     </div>
     <div style="font-size:13px;color:var(--text-2);line-height:1.8;margin-bottom:14px">
       免费版每日 AI 对话 <b>${FREE_AI_DAILY}</b> 次已用完。<br>
-      升级 PRO 解锁：无限 AI 对话、全自动云同步、Excel/PDF 导出、全部高级主题。
+      升级 PRO 解锁：<b>每月 200 万 token</b> AI（≈每天20次）、全自动云同步、Excel/PDF 导出、全部高级主题。
     </div>
     <div style="font-size:22px;font-weight:700;color:var(--accent,#d4af37);margin-bottom:14px">¥199.9 / 年 <span style="font-size:12px;color:var(--text-3);font-weight:400">或 ¥29.9/月 · ¥69.9/季</span></div>
     <button class="btn-primary" style="width:100%;margin-bottom:8px;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="openLicenseModal()">有兑换码？立即激活</button>
@@ -2778,9 +2816,14 @@ function renderProUI(){
   }
   const quota = document.getElementById('pro-quota');
   if(quota){
-    quota.innerHTML = isPro()
-      ? '<span style="color:var(--accent,#d4af37)">PRO · 无限 AI</span>'
-      : `免费版 · AI 每日 ${FREE_AI_DAILY} 次`;
+    if(isPro()){
+      getProTokenUsed().then(({used})=>{
+        const pct = Math.min(100, Math.round(used/PRO_MONTHLY_TOKEN*100));
+        quota.innerHTML = `<span style="color:var(--accent,#d4af37)">PRO · 本月 AI ${pct}%</span>`;
+      });
+    } else {
+      quota.innerHTML = `免费版 · AI 每日 ${FREE_AI_DAILY} 次`;
+    }
   }
   // PRO 状态变化时同步刷新数据管理面板的导出权限
   if(typeof renderExportPerms === 'function') renderExportPerms();
@@ -3777,7 +3820,8 @@ function lanQuickAsk(text){
 }
 
 async function lanAsk(text){
-  // 付费墙：免费版每日限次（PRO 无限制）
+  // 付费墙：免费版每日限次；PRO 按月度 token 额度
+  const pro = isPro();
   const guard = await guardAi();
   if(!guard) throw new Error('AI_QUOTA_EXCEEDED');
   const key = localStorage.getItem(LAN_KEY_STORE);
@@ -3786,7 +3830,7 @@ async function lanAsk(text){
     throw new Error('未配置 AI Key');
   }
   trackEvent('ai_ask', {len:(text||'').length});
-  await incrAiCount();
+  if(!pro) await incrAiCount(); // 免费按次数计（请求前防刷）
   const ctx = await buildLanContext();
   const models = lanMatchModels(text);
   const system = `你是「Lan工作台」内置的思维教练，名字叫 Lan。
@@ -3832,6 +3876,10 @@ ${ctx || '(暂无数据)'}
     throw new Error(err.error?.message || ('HTTP '+res.status));
   }
   const data = await res.json();
+  // PRO 按 token 计量（仅成功调用计费）
+  if(pro && data.usage && data.usage.total_tokens){
+    await incrProToken(data.usage.total_tokens || 0);
+  }
   return data.choices[0].message.content.trim();
 }
 
