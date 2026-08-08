@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-08-07 20:23",
+ "updated_at": "2026-08-08 04:32",
  "ai": [
+  {
+   "category": "ai",
+   "title": "微软预告 Win10/Win11 经典版 Outlook 更新：基于上下文 AI 解释用户选中文本",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/274.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软 Win10/Win11 新版 Outlook 收件箱塞入 Copilot，AI 摘要过去 8 小时邮件",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/271.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "内存占用约 35MB：网友 AI 自制开源工具，避免华硕 RTX 5080 和 5090 显卡烧熔",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/262.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Claude Code v2.1.224 现支持 AI 跨会话消息传递",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/256.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "新 AI 预估全球冰川蕴藏约 15 万立方千米的冰，融化可抬升海平面 32.3 厘米",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/225.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "谁是 DeepSeek V4 Flash 最佳编程搭档？Composio 测试 Codex 等 4 个 AI 工具",
@@ -120,224 +160,152 @@
    "link": "https://www.ithome.com/0/986/553.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "报告称《时代》杂志为 AI 爬虫设计 Markdown 格式页面，内嵌广告内容",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/506.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/493.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "雷神水冷迷你 AI 工作站体验：176W 峰值性能，AI 创作的得力助手",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/358.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“AI 教父”辛顿：人工智能可能会发展出自己的目标，这很可怕",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/346.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "【IT之家开箱】雷神水冷迷你 AI 工作站图赏：你的桌面 Agent“小黑匣”",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/345.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "根据美国证券交易委员会（SEC）披露文件：alphabet提交文件申请发行最高额度250亿美元的分系",
-   "summary": "根据美国证券交易委员会（SEC）披露文件：alphabet提交文件申请发行最高额度250亿美元的分系列中期票据。",
-   "link": "https://wallstreetcn.com/news/global/3146917",
+   "title": "金饰克价重返1300元",
+   "summary": "国内黄金饰品价格对比显示，国内多家品牌足金饰品价格重返1300元，其中周生生足金饰品报1315元/克，周大福报价1308元/克，老庙黄金报价1310元/克。",
+   "link": "https://wallstreetcn.com/news/global/3146965",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:16"
+   "published_at": "2026-08-08 04:13"
   },
   {
    "category": "finance",
-   "title": "美联储：美国上周银行存款19.363万亿美元，之前一周19.400万亿美元。",
-   "summary": "美联储：美国上周银行存款19.363万亿美元，之前一周19.400万亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3146916",
+   "title": "消息人士：马斯克拒绝让乌克兰用“星链”打击俄境内目标",
+   "summary": "据美国方面7日消息披露，美国太空探索技术公司（SpaceX）创始人马斯克明确拒绝允许乌克兰军方利用SpaceX旗下卫星互联网系统“星链”打击俄罗斯境内目标。美国方面援引乌前国防部长费多罗夫两名“身边人”消息称，费多罗夫此前一直在推动利用“星链”打击俄罗斯境内目标，曾尝试通过私下渠道与马斯克接触，但遭到后者拒绝。“截至目前，（马斯克）没有作出同意的决定。”（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3146964",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:16"
+   "published_at": "2026-08-08 04:13"
   },
   {
    "category": "finance",
-   "title": "Palantir收涨10.32%，报172.01美元，本周累计上涨39.78%。",
-   "summary": "Palantir收涨10.32%，报172.01美元，本周累计上涨39.78%。",
-   "link": "https://wallstreetcn.com/news/global/3146915",
+   "title": "2026年8月票房破15亿",
+   "summary": "据灯塔专业版，截至8月8日，2026年8月总票房（含预售）突破15亿，《蜘蛛侠：崭新之日》《八仙！》《功夫女足》《年会不能停！2》《痴迷》暂列8月票房榜前五。",
+   "link": "https://wallstreetcn.com/news/global/3146963",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:13"
+   "published_at": "2026-08-08 04:00"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块中，原材料、可选消费、信息技术/科技板块至少涨1.25%，电信板块跌0.3",
-   "summary": "标普500指数的11个板块中，原材料、可选消费、信息技术/科技板块至少涨1.25%，电信板块跌0.35%，能源板块跌1.16%。",
-   "link": "https://wallstreetcn.com/news/global/3146914",
+   "title": "雪佛兰将停止在中国市场销售？通用汽车仍未正面回应",
+   "summary": "近日，有消息称，雪佛兰品牌将停止在中国市场销售。通用汽车方面回应称，会继续在中国生产雪佛兰产品，并且积极探索在美国以外的海外市场机遇。同时，依旧会为现有的中国雪佛兰车主提供完善的售后服务保障。8月5日，上汽集团与通用汽车签署合资续约协议，将上汽通用合资期限延长20年至2047年。但对于中国市场的销售问题，通用汽车方面并没有正面回应。（21财经）",
+   "link": "https://wallstreetcn.com/news/global/3146960",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:10"
+   "published_at": "2026-08-08 03:03"
   },
   {
    "category": "finance",
-   "title": "据特朗普媒体科技临时CEO Kevin McGurn，特朗普媒体退出与Crypto.com相关的两笔",
-   "summary": "据特朗普媒体科技临时CEO Kevin McGurn，特朗普媒体退出与Crypto.com相关的两笔交易。（Axios）",
-   "link": "https://wallstreetcn.com/news/global/3146913",
+   "title": "全球首个长时储能一体化产业园在菏泽量产",
+   "summary": "据大众日报，8月7日，菏泽海辰储能生产车间，全球首款1175Ah千安时长时储能电芯下线，标志着海辰储能全球首个长时储能一体化产业园（山东菏泽基地）在菏泽鲁西新区正式量产，填补山东长时储能核心装备制造领域空白。",
+   "link": "https://wallstreetcn.com/news/global/3146959",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:08"
+   "published_at": "2026-08-08 02:55"
   },
   {
    "category": "finance",
-   "title": "周五（8月7日），美股行业ETF多数收涨，生物科技指数ETF涨2.46%，网络股指数ETF涨2.09",
-   "summary": "周五（8月7日），美股行业ETF多数收涨，生物科技指数ETF涨2.46%，网络股指数ETF涨2.09%，半导体ETF涨1.96%，科技行业ETF、全球科技股指数ETF至多涨1.42%，银行业ETF、全球航空业ETF、区域银行ETF至多跌0.37%，能源业ETF跌1.17%。",
-   "link": "https://wallstreetcn.com/news/global/3146912",
+   "title": "优化口岸营商环境，深圳推出19条硬举措",
+   "summary": "据深视新闻，为持续营造市场化、法治化、国际化一流口岸营商环境，深入贯彻落实党的二十大和二十届历次全会精神，贯彻落实国家、省、市关于优化营商环境的决策部署，深圳市口岸办和深圳海关会同深圳市优化口岸营商环境工作组各成员单位，认真研究制定《深圳市2026年优化口岸营商环境若干措施》，推出19条工作举措。",
+   "link": "https://wallstreetcn.com/news/global/3146958",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:07"
+   "published_at": "2026-08-08 02:54"
   },
   {
    "category": "finance",
-   "title": "周五（8月7日），彭博电动汽车价格回报指数2.16%，报3475.48点，本周累计上涨3.63%。",
-   "summary": "周五（8月7日），彭博电动汽车价格回报指数2.16%，报3475.48点，本周累计上涨3.63%。",
-   "link": "https://wallstreetcn.com/news/global/3146911",
+   "title": "中国东方电气集团原党组副书记、董事宋致远被查",
+   "summary": "中国东方电气集团有限公司原党组副书记、董事宋致远涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3146955",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:03"
+   "published_at": "2026-08-08 02:00"
   },
   {
    "category": "finance",
-   "title": "爱彼迎收涨17%，创2020年12月份以来最大单日涨幅。",
-   "summary": "爱彼迎收涨17%，创2020年12月份以来最大单日涨幅。",
-   "link": "https://wallstreetcn.com/news/global/3146910",
+   "title": "禁止“抱团”抬价！东北明确新能源集中报价仅限同省同集团",
+   "summary": "据中国电力报，国家能源局东北监管局日前印发《东北区域集中式新能源发电企业集中报价工作实施方案（试行）》，对辽宁、吉林、黑龙江三省集中式风电、光伏发电企业的市场报价行为作出系统性规范。其中明确，原则上仅允许同一集团（同一母公司、同一控股股东、同一实际控制人等）内同一省的新能源发电企业进行集中报价，禁止跨集团、跨省集中报价。禁止具有竞争关系的经营者达成固定或变更商品关系的垄断协议。",
+   "link": "https://wallstreetcn.com/news/global/3146954",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:01"
+   "published_at": "2026-08-08 01:54"
   },
   {
    "category": "finance",
-   "title": "SpaceX收涨15.8%，报133.11美元，最近两天涨23%。",
-   "summary": "SpaceX收涨15.8%，报133.11美元，最近两天涨23%。",
-   "link": "https://wallstreetcn.com/news/global/3146909",
+   "title": "英伟达将向黑石集团支持的电力公司Lancium投资最多30亿美元，该公司是Stargate的幕后电力",
+   "summary": "英伟达将向黑石集团支持的电力公司Lancium投资最多30亿美元，该公司是Stargate的幕后电力供应商。（The Information）",
+   "link": "https://wallstreetcn.com/news/global/3146953",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:01"
+   "published_at": "2026-08-08 01:28"
   },
   {
    "category": "finance",
-   "title": "纳斯达克金龙中国指数初步收涨0.8%，本周累涨约0.3%。 热门中概股里，再鼎医药初步收涨12.2%",
-   "summary": "纳斯达克金龙中国指数初步收涨0.8%，本周累涨约0.3%。 热门中概股里，再鼎医药初步收涨12.2%，大全新能源涨8.8%，晶科能源涨6%，世纪互联涨5%，腾讯涨1.8%，拼多多、阿里巴巴涨超1%，日月光半导体大致持平。 ETF中，ASHS初步收涨2.5%，CQQQ涨1.7%，KWEB涨0.8%。",
-   "link": "https://wallstreetcn.com/news/global/3146908",
+   "title": "上海国投先导参与投资智微凌峰基金",
+   "summary": "近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
+   "link": "https://wallstreetcn.com/news/global/3146952",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:00"
+   "published_at": "2026-08-08 01:12"
   },
   {
    "category": "finance",
-   "title": "本周，标普累涨约3.5%，道指累涨约3%，纳指累涨5%，存储芯片指数跌约1.9%，半导体指数涨8.6",
-   "summary": "本周，标普累涨约3.5%，道指累涨约3%，纳指累涨5%，存储芯片指数跌约1.9%，半导体指数涨8.6%——周二高开以来持续高位窄幅震荡，科技股七巨头指数涨4.7%，降息赢家指数涨5.2%。 周五非农日当天，标普500指数初步收涨0.6%，原材料、可选消费、科技板块涨超1%，能源板块跌1.3%。 纳斯达克100指数初步收涨1.2%，成分股中，爱彼迎初步收涨17.1%，SpaceX涨14.5%，微芯科",
-   "link": "https://wallstreetcn.com/news/global/3146906",
+   "title": "黑龙江2026年第1号洪水洪峰预计今晚抵达同江站",
+   "summary": "从黑龙江省水文水资源中心了解到，松花江2026年第1号洪水洪峰已通过同江段汇入黑龙江。受松花江来水顶托和上游来水双重影响，黑龙江2026年第1号洪水洪峰预计今晚（8日）抵达黑龙江干流同江站，同江市已启动防汛三级应急响应。目前，防汛物资已全部前置到堤防一线，抢险力量24小时值班值守，全力防范应对。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3146951",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 20:00"
+   "published_at": "2026-08-08 01:12"
   },
   {
    "category": "finance",
-   "title": "雪佛龙：预计年底资本开支处于指引区间180亿-190亿美元的低端。",
-   "summary": "雪佛龙：预计年底资本开支处于指引区间180亿-190亿美元的低端。",
-   "link": "https://wallstreetcn.com/news/global/3146904",
+   "title": "日本防卫省2027年度拟申请预算创新高",
+   "summary": "据日本方面8月7日援引多名相关人士的消息称，日本防卫省计划向财务省申请迄今最高的约8.9万亿日元，作为2027年度的防卫预算。由于包含大量未明确具体金额的申请项目，预计政府年底敲定的预算案中列入的防卫费可能进一步增加。据悉，防卫省申请的预算金额是根据2022年通过的《防卫力整备计划》计算得出的。该文件将2023至2027年度的防卫总开支目标定为43万亿日元。",
+   "link": "https://wallstreetcn.com/news/global/3146948",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:45"
+   "published_at": "2026-08-08 00:55"
   },
   {
    "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：日本当局与特朗普政府干预过后，8月4日当周，对冲基金将日元空头仓",
-   "summary": "美国商品期货交易委员会（CFTC）：日本当局与特朗普政府干预过后，8月4日当周，对冲基金将日元空头仓位砍半。 杠杆基金将墨西哥比索净多头头寸推升至2025年12月以来最高水平。",
-   "link": "https://wallstreetcn.com/news/global/3146902",
+   "title": "贷款利率定价基准“换锚” 利率市场化再进一步",
+   "summary": "近期，多家商业银行落地以DR（存款类金融机构间债券回购利率）为定价基准的企业贷款，标志着我国贷款利率定价基准多元化的探索提速。专家表示，持续丰富贷款定价参考基准，构建多元化基准利率体系，既是稳步推进利率市场化改革的重要举措，也有助于提升货币政策传导效能，更好地服务实体经济各类经营主体。 (中证报)",
+   "link": "https://wallstreetcn.com/news/global/3146945",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:42"
+   "published_at": "2026-08-08 00:27"
   },
   {
    "category": "finance",
-   "title": "伊朗官员称已与阿曼就霍尔木兹海峡通行问题明确总体框架",
-   "summary": "7日获悉，伊朗议会国家安全与外交政策委员会发言人哈桑·卡什卡维表示，伊朗与阿曼已明确霍尔木兹海峡航运相关的谅解备忘录的总体框架，最终文本及具体细节将于近期对外公布。8月6日，伊朗方面公开拟议的霍尔木兹海峡战略管理方案初步文本细节，内容包括禁止敌对方面通过海峡等，违反规定者将被处以最高达货物价值20%的罚款。",
-   "link": "https://wallstreetcn.com/news/global/3146901",
+   "title": "部分中小银行逆势上调存款利率",
+   "summary": "在年内多数中小银行延续存款利率下调趋势的背景下，近日，广东、湖北等地部分农商行、村镇银行逆势上调存款利率，涉及一年期至五年期等多个期限的存款品种，调整幅度最高达33个基点。目前中小银行存款利率调整呈现两极分化态势。受访专家认为，在净息差压力之下，中小银行调降存款利率依旧是主流，部分中小银行阶段性调升存款利率，以缓解存款到期流失，但并不普遍。 (证券日报)",
+   "link": "https://wallstreetcn.com/news/global/3146943",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:37"
+   "published_at": "2026-08-08 00:25"
   },
   {
    "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：截至8月4日当周，投机者将芝加哥期货交易所（CBOT）美国国债期",
-   "summary": "美国商品期货交易委员会（CFTC）：截至8月4日当周，投机者将芝加哥期货交易所（CBOT）美国国债期货净空头头寸减少41,225份合约，至176,272份合约。 将CBOT美国2年期国债期货净空头头寸减少120,346份合约，至1,004,228份合约。 将CBOT美国5年期国债期货净空头头寸增加179,319份合约，至1,325,719份合约。 将CBOT美国2年期国债期货净空头头寸减少120,",
-   "link": "https://wallstreetcn.com/news/global/3146900",
+   "title": "生物制造驶入发展快车道 产业资本密集布局",
+   "summary": "近期生物制造赛道产业与资本动作密集。多家初创企业相继完成新一轮融资，华润双鹤、鲁抗医药等上市公司持续加大布局力度，产业落地节奏显著提速。业内人士认为，生物制造行业正处于从技术创新向产业应用加速转化的关键期。在技术突破、政策支持和资本涌入的多重驱动下，行业有望在未来5—10年实现规模化发展，成为全球制造业绿色转型的重要引擎。中国凭借完备的发酵产业基础和持续的政策支持，有望在全球生物制造竞争中占据重要",
+   "link": "https://wallstreetcn.com/news/global/3146944",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:36"
+   "published_at": "2026-08-07 23:42"
   },
   {
    "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：8月4日当周，投机者所持NYMEX WTI原油净多头头寸减少7,",
-   "summary": "美国商品期货交易委员会（CFTC）：8月4日当周，投机者所持NYMEX WTI原油净多头头寸减少7,257手合约，至101,050手合约。 所持布伦特与WTI原油净多头头寸降低至274,577手合约，创三周新低。 所持NYMEX天然气净空头头寸达到93,629手合约，创六年新高。",
-   "link": "https://wallstreetcn.com/news/global/3146899",
+   "title": "OpenAI首席执行官Altman称：正推进Astra全面开放使用。",
+   "summary": "OpenAI首席执行官Altman称：正推进Astra全面开放使用。",
+   "link": "https://wallstreetcn.com/news/global/3146942",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:33"
+   "published_at": "2026-08-07 22:57"
   },
   {
    "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：8月4日当周，投机者所持COMEX黄金净多头头寸增加12,070",
-   "summary": "美国商品期货交易委员会（CFTC）：8月4日当周，投机者所持COMEX黄金净多头头寸增加12,070手合约，至132,398手合约，创逾六个月新高。 所持COMEX白银净多头头寸增加至11,067手合约，创四周新高。 所持COMEX铜净多头头寸增加至77,796手合约，创逾五年新高。 所持NYMEX铂金净多头头寸增加至10,882手合约，创逾两个月新高。 所持NYMEX钯金净多头头寸减少至5,42",
-   "link": "https://wallstreetcn.com/news/global/3146898",
+   "title": "美国CFTC已要求预测市场平台避免使用美式赌博赔率进行营销",
+   "summary": "美国商品期货交易委员会（CFTC）已要求预测市场平台避免使用美式赌博赔率（moneyline odds）进行营销，提醒相关企业须遵守美国衍生品交易法律，不得在上市、招揽或广告产品时采用”欺骗性”做法。一封信件显示，该机构向CFTC监管对象发出警告，提醒企业须遵守美国衍生品交易法律，不得在上市、招揽或广告产品时采用”欺骗性”做法。",
+   "link": "https://wallstreetcn.com/news/global/3146941",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:33"
+   "published_at": "2026-08-07 22:57"
   },
   {
    "category": "finance",
-   "title": "摩根大通上调科技债发行预期，今年供应规模将超过5000亿美元",
-   "summary": "摩根大通预计，今年科技相关企业债券发行规模将超过5000亿美元。该行将2026年科技、媒体和电信行业债务发行规模预期从此前的4500亿美元上调至5400亿美元，理由是大型科技企业增加支出正在引领人工智能投资周期。",
-   "link": "https://wallstreetcn.com/news/global/3146897",
+   "title": "美铜暗盘跌破6.7美元，日内跌幅1.6%。",
+   "summary": "美铜暗盘跌破6.7美元，日内跌幅1.6%。",
+   "link": "https://wallstreetcn.com/news/global/3146939",
    "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:30"
-  },
-  {
-   "category": "finance",
-   "title": "周五（8月7日）纽约尾盘，美元兑日元跌0.56%，报157.55日元，美国非农就业报告出炉时跳水，本",
-   "summary": "周五（8月7日）纽约尾盘，美元兑日元跌0.56%，报157.55日元，美国非农就业报告出炉时跳水，本周累计上涨0.08%，整体交投区间为155.23-158.57日元。 欧元兑日元跌0.18%，本周累涨0.40%；英镑兑日元跌0.20%，本周累涨0.26%。",
-   "link": "https://wallstreetcn.com/news/global/3146896",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:28"
-  },
-  {
-   "category": "finance",
-   "title": "美元指数在非农日跌0.4%",
-   "summary": "周五（8月7日）纽约尾盘，ICE美元指数跌0.41%，报99.524点，北京时间20:30发布美国非农就业报告之前大致持稳于99.9附近、数据发布时瞬间跳水、20:49刷新日低至99.403、之后低位企稳，本周累计下跌0.38%，整体呈现出M形走势。 彭博美元指数跌0.43%，报1200.38点，本周累跌0.54%，整体交投区间为1207.51-1199.22点。",
-   "link": "https://wallstreetcn.com/news/global/3146894",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:25"
-  },
-  {
-   "category": "finance",
-   "title": "随着 SpaceX 收购临近，Cursor 规划品牌及其他多项调整",
-   "summary": "据知情人士透露，Cursor在周四的全员大会上告知员工，SpaceX最早可能于下周末完成对这家代码初创公司600亿美元的收购，并提示未来数月内，Cursor品牌或将在新产品上逐步停用。例如，Cursor即将推出的通用智能代理（内部代号 “Sand”），或将采用Grok Bot作为品牌名称。Cursor暂无计划立刻更改现有工具的名称，包括其广受欢迎的Cursor代码助手。交易完成的确切时间取决于能否",
-   "link": "https://wallstreetcn.com/news/global/3146891",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:20"
-  },
-  {
-   "category": "finance",
-   "title": "本周，ICE原糖期货累涨12.48%，ICE白糖期货涨9.34%。 ICE阿拉比卡咖啡期货累涨0.4",
-   "summary": "本周，ICE原糖期货累涨12.48%，ICE白糖期货涨9.34%。 ICE阿拉比卡咖啡期货累涨0.42%，咖啡“C”期货跌0.32%。罗布斯塔咖啡期货涨0.16%。 纽约可可期货累涨5.62%，周五（8月7日）纽约尾盘，报5847美元/吨，周一涨幅突出。伦敦可可期货累涨1.83%。 芝加哥WCE双低油菜籽期货累涨1.54%。 ICE棉花期货累涨3.17%。",
-   "link": "https://wallstreetcn.com/news/global/3146890",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-07 19:19"
+   "published_at": "2026-08-07 22:51"
   }
  ]
 }
