@@ -1714,7 +1714,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
     </div>
     <div class="nav-group" data-group="more">
       <button class="nav-group-title">更多
-        <span class="nav-group-count">7</span>
+        <span class="nav-group-count">8</span>
         <svg class="nav-group-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
       </button>
       <div class="nav-group-body">
@@ -1725,6 +1725,10 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <button class="nav-item" data-tab="inspirations" title="灵感">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V18h6v-1.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>
           <span class="nav-label">灵感</span>
+        </button>
+        <button class="nav-item" data-tab="knowledge" title="知识库">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span class="nav-label">知识库</span>
         </button>
         <button class="nav-item" data-tab="badges" title="成就">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
@@ -2032,6 +2036,68 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <div id="wereadBookList" style="font-size:11px;color:var(--text-4)">点击同步，将微信读书的划线和笔记导入为灵感</div>
       </div>
       <div id="inspList"></div>
+    </section>
+
+    <!-- 知识库（粘贴提炼 / 个人原则 / 对话联动） -->
+    <section class="section" id="sec-knowledge">
+      <div class="section-header">
+        <div class="section-title">知识库</div>
+        <div class="section-count" id="kbCount">0 条</div>
+      </div>
+      <div style="font-size:12.5px;color:var(--text-3);line-height:1.7;margin-bottom:14px">
+        你的第二大脑：粘贴文章/书摘提炼成知识点卡片；复盘自动沉淀个人原则。Lan 对话时会自动检索引用它们。
+      </div>
+
+      <!-- 粘贴提炼 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px">📥 粘贴文章 / 书摘 → 提炼卡片</div>
+        <div style="font-size:12px;color:var(--text-4);line-height:1.6;margin-bottom:12px">
+          AI 会提炼出：观点 · 适用场景 · 一句话行动（消耗少量 AI 额度）
+        </div>
+        <div class="form-group">
+          <textarea class="form-textarea" id="kbPasteText" style="min-height:140px" placeholder="粘贴一篇文章的核心段落、公众号文章、微信读书划线…（300 字以内效果最好）"></textarea>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+          <select class="form-input" id="kbSource" style="max-width:140px;flex:1">
+            <option value="article">📄 文章</option>
+            <option value="weread">📖 书摘</option>
+            <option value="idea">💡 想法/笔记</option>
+          </select>
+          <button class="btn-primary" onclick="extractKnowledge()" style="flex:2">AI 提炼为卡片</button>
+        </div>
+        <div id="kbExtractHint" style="font-size:12px;color:var(--text-4)"></div>
+      </div>
+
+      <!-- 手动添加 -->
+      <div class="card-base" style="padding:14px 16px;margin-bottom:16px">
+        <div onclick="toggleKbAdd()" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+          <span style="font-size:13px;color:var(--text-3)">✍️ 手动添加一条知识</span>
+          <span id="kbAddArrow" style="color:var(--text-4);font-size:12px">展开</span>
+        </div>
+        <div id="kbAddBody" style="display:none;margin-top:12px">
+          <div class="form-group"><label>观点 / 标题</label><input class="form-input" id="kbManualTitle" placeholder="如：专注的秘诀是减少切换"></div>
+          <div class="form-group"><label>适用场景</label><input class="form-input" id="kbManualScene" placeholder="如：工作被打断时"></div>
+          <div class="form-group"><label>一句话行动</label><input class="form-input" id="kbManualAction" placeholder="如：用番茄钟锁 25 分钟"></div>
+          <div style="display:flex;gap:8px">
+            <select class="form-input" id="kbManualType" style="max-width:130px">
+              <option value="card">📇 知识点</option>
+              <option value="principle">📌 个人原则</option>
+            </select>
+            <button class="btn-primary" onclick="addKnowledgeManual()" style="flex:1">保存</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 列表 -->
+      <div class="form-group">
+        <label>我的知识</label>
+        <div class="chip-group" id="kbFilter">
+          <button class="chip active" data-val="all">全部</button>
+          <button class="chip" data-val="card">📇 知识点</button>
+          <button class="chip" data-val="principle">📌 个人原则</button>
+        </div>
+      </div>
+      <div id="kbList"></div>
     </section>
 
     <!-- 学习 -->
@@ -2508,7 +2574,7 @@ let reviewSearchTimer = null;
 
 const TAB_TITLES = {
   lan:'Lan 智能体', today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
-  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', growth:'成长进度', data:'数据管理',
+  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', growth:'成长进度', knowledge:'知识库', data:'数据管理',
   upgrade:'升级 PRO'
 };
 
@@ -2516,7 +2582,7 @@ const TAB_TITLES = {
 // IndexedDB — 本地数据持久化
 // ============================================================
 const DB_NAME = 'LifeWorkbench';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 let db = null;
 
 function openDB(){
@@ -2552,6 +2618,11 @@ function openDB(){
       }
       if(!d.objectStoreNames.contains('meta')){
         d.createObjectStore('meta',{keyPath:'key'});
+      }
+      if(!d.objectStoreNames.contains('knowledge')){
+        const s = d.createObjectStore('knowledge',{keyPath:'id',autoIncrement:true});
+        s.createIndex('type','type',{unique:false});
+        s.createIndex('created_at','created_at',{unique:false});
       }
     };
     req.onsuccess = e=>{ db = e.target.result; resolve(db); };
@@ -3413,6 +3484,7 @@ function loadTabData(tab){
   else if(tab==='ledger') { loadLedger(); loadDreamJars(); }
   else if(tab==='news') loadNews(currentNewsCat);
   else if(tab==='inspirations') loadInspirations();
+  else if(tab==='knowledge') loadKnowledge();
   else if(tab==='study') loadPlans();
   else if(tab==='review') loadReviews();
   else if(tab==='search') {}
@@ -3957,6 +4029,7 @@ async function lanAsk(text){
   }
   trackEvent('ai_ask', {len:(text||'').length});
   const ctx = await buildLanContext();
+  const kbCtx = await buildKnowledgeContext(text);
   const models = lanMatchModels(text);
   const system = `你是「Lan工作台」内置的思维教练，名字叫 Lan。
 你的使命：结合用户真实的日常生活数据（待办/记账/打卡/复盘），调用大师思维模型，帮用户把书里的智慧落实到行动。
@@ -3966,6 +4039,9 @@ ${models.map(m=>`【${m.name}·${m.src}】${m.one}。适用：${m.scene.join('/'
 
 用户当前数据：
 ${ctx || '(暂无数据)'}
+
+用户知识库（若与问题相关请引用，不相关可忽略）：
+${kbCtx || '(暂无知识库)'}
 
 回答要求：
 1. 用中文，口语化、真诚、不啰嗦，200 字以内
@@ -5394,6 +5470,8 @@ async function saveReview(){
       addExp(20, '完成复盘');
     }
     loadReviews(); loadOverview(); autoBackup();
+    // 复盘自动沉淀个人原则（静默，不阻塞保存）
+    sedimentPrinciples(data);
   }catch(e){toast('保存失败');console.error(e)}
 }
 
@@ -6675,6 +6753,177 @@ function showGrowthReport(wd){
 function printGrowthReport(){
   const body = document.getElementById('growthReportBody');
   if(body) printToPDF(body.innerHTML);
+}
+
+// ============ 知识库（粘贴提炼 / 复盘沉淀原则 / 对话检索联动）============
+let kbFilter = 'all';
+let kbAllItems = [];
+// 静默 AI 调用：无 key / 无额度 / 失败均静默返回 null（不弹窗、不打扰），成功按实际 token 扣费
+async function lanQuiet(text){
+  const key = localStorage.getItem(LAN_KEY_STORE);
+  if(!key) return null;
+  try{
+    const r = await canUseAi();
+    if(!r.ok) return null;
+    const res = await fetch('https://api.deepseek.com/chat/completions', {
+      method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+key},
+      body: JSON.stringify({model:'deepseek-chat', messages:[{role:'user', content:text}], max_tokens:300, temperature:0.7})
+    });
+    if(!res.ok) return null;
+    const data = await res.json();
+    if(data.usage && data.usage.total_tokens) await deductAiToken(data.usage.total_tokens || 0);
+    return data.choices[0].message.content.trim();
+  }catch(e){ return null; }
+}
+// 从 AI 返回文本中容错解析 JSON 卡片
+function parseKbJson(txt){
+  if(!txt) return null;
+  const m = txt.match(/\{[\s\S]*\}/);
+  if(!m) return null;
+  try{
+    const o = JSON.parse(m[0]);
+    if(o && (o.title || o.scene || o.action)) return o;
+  }catch(e){}
+  return null;
+}
+async function loadKnowledge(){
+  try{
+    kbAllItems = (await dbAll('knowledge')).sort((a,b)=>(b.created_at||'').localeCompare(a.created_at||''));
+    const cnt = $('#kbCount');
+    if(cnt) cnt.textContent = `${kbAllItems.length} 条`;
+    renderKnowledgeList();
+    bindKbChips();
+  }catch(e){ console.error(e); }
+}
+function bindKbChips(){
+  const group = document.getElementById('kbFilter');
+  if(!group) return;
+  group.querySelectorAll('.chip').forEach(ch=>{
+    ch.onclick = ()=>{
+      group.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+      ch.classList.add('active');
+      kbFilter = ch.dataset.val;
+      renderKnowledgeList();
+    };
+  });
+}
+function renderKnowledgeList(){
+  const el = $('#kbList');
+  if(!el) return;
+  const items = kbFilter==='all' ? kbAllItems : kbAllItems.filter(k=>k.type===kbFilter);
+  if(items.length===0){
+    el.innerHTML = `<div style="text-align:center;padding:28px 0;color:var(--text-4);font-size:12.5px">
+      ${kbFilter==='principle' ? '还没有沉淀的个人原则。完成几次复盘后，Lan 会自动从你的复盘中提炼。' : '还没有知识卡片。粘贴一篇文章或书摘，让 AI 帮你提炼成卡片。'}</div>`;
+    return;
+  }
+  el.innerHTML = items.map(k=>{
+    const isP = k.type==='principle';
+    const srcLabel = ({article:'📄 文章', weread:'📖 书摘', idea:'💡 想法', review:'🪞 复盘沉淀', manual:'✍️ 手动'})[k.source] || '📇 知识';
+    const time = (k.created_at||'').slice(0,10);
+    return `<div class="card-base" style="padding:14px 16px;margin-bottom:10px;border-left:3px solid ${isP?'#d4af37':'#6366f1'}">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
+        <div style="font-size:13.5px;font-weight:600;color:var(--text);line-height:1.5;flex:1">${isP?'📌 ':''}${escapeHtml(k.title||'')}</div>
+        <button class="btn-secondary" style="flex-shrink:0;padding:2px 8px;font-size:10.5px" onclick="deleteKnowledge(${k.id})">删除</button>
+      </div>
+      ${k.scene?`<div style="font-size:12px;color:var(--text-3);margin-top:6px"><b>适用：</b>${escapeHtml(k.scene)}</div>`:''}
+      ${k.action?`<div style="font-size:12px;color:var(--text-3);margin-top:3px"><b>行动：</b>${escapeHtml(k.action)}</div>`:''}
+      <div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--text-4);margin-top:8px">
+        <span>${srcLabel}</span>
+        <span>${time}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+async function extractKnowledge(){
+  const text = $('#kbPasteText').value.trim();
+  if(!text){ toast('请先粘贴内容'); return; }
+  const source = $('#kbSource').value;
+  const hint = $('#kbExtractHint');
+  if(hint) hint.textContent = '⏳ AI 正在提炼（消耗少量额度）…';
+  try{
+    const key = localStorage.getItem(LAN_KEY_STORE);
+    if(!key){ toast('请先在 Lan 设置中配置 AI Key'); openLanSettings(); if(hint) hint.textContent=''; return; }
+    const r = await canUseAi();
+    if(!r.ok){ showQuotaEmptyToast(!!isPro()); if(hint) hint.textContent=''; return; }
+    const txt = await lanAsk(`请把下面的内容提炼成一张"知识点卡片"，只输出 JSON（不要输出任何其他内容）：{"title":"一句话观点","scene":"适用场景","action":"一句话行动"}\n内容：${text.slice(0,1200)}`);
+    const o = parseKbJson(txt);
+    const card = o
+      ? {type:'card', source, title:String(o.title||text.slice(0,40)).slice(0,100), scene:String(o.scene||'').slice(0,200), action:String(o.action||'').slice(0,120), created_at:new Date().toISOString()}
+      : {type:'card', source, title:text.slice(0,60), scene:'', action:'', created_at:new Date().toISOString(), raw:(txt||'').slice(0,200)};
+    await dbAdd('knowledge', card);
+    if(hint) hint.textContent = '';
+    $('#kbPasteText').value = '';
+    toast('已提炼并保存');
+    loadKnowledge();
+  }catch(e){
+    if(hint) hint.textContent = '';
+    toast('提炼失败：'+e.message);
+    console.error(e);
+  }
+}
+function toggleKbAdd(){
+  const body = $('#kbAddBody');
+  const arrow = $('#kbAddArrow');
+  if(!body) return;
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  if(arrow) arrow.textContent = open ? '展开' : '收起';
+}
+async function addKnowledgeManual(){
+  const title = $('#kbManualTitle').value.trim();
+  const scene = $('#kbManualScene').value.trim();
+  const action = $('#kbManualAction').value.trim();
+  const type = $('#kbManualType').value;
+  if(!title){ toast('请填写观点/标题'); return; }
+  await dbAdd('knowledge', {type, source:'manual', title, scene, action, created_at:new Date().toISOString()});
+  $('#kbManualTitle').value=''; $('#kbManualScene').value=''; $('#kbManualAction').value='';
+  toast('已保存');
+  loadKnowledge();
+}
+async function deleteKnowledge(id){
+  await dbDelete('knowledge', id);
+  toast('已删除');
+  loadKnowledge();
+}
+// 复盘自动沉淀个人原则（静默：无 key/无额度/失败都不打扰；每日最多 2 条；同原则去重）
+async function sedimentPrinciples(review){
+  try{
+    const text = [review.went_well, review.went_wrong, review.improvement].filter(Boolean).join('。');
+    if(text.length < 20) return;
+    const key = localStorage.getItem(LAN_KEY_STORE);
+    if(!key) return;
+    const r = await canUseAi();
+    if(!r.ok) return;
+    const today = localDate();
+    const pm = await metaGet('kbPrincipleLog') || {};
+    if(pm.date === today && (pm.count||0) >= 2) return;
+    const txt = await lanQuiet(`从这段复盘内容中提炼出 1 条"个人原则"（从经验中得出的、以后可以反复遵循的行为准则）。只输出 JSON（不要输出其他内容）：{"title":"原则一句话","scene":"什么时候适用"}\n复盘：${text.slice(0,800)}`);
+    const o = parseKbJson(txt);
+    if(!o || !o.title) return;
+    const exist = await dbAll('knowledge');
+    if(exist.some(k=>k.type==='principle' && k.title===o.title)) return;
+    await dbAdd('knowledge', {type:'principle', source:'review', title:String(o.title).slice(0,80), scene:String(o.scene||'').slice(0,200), action:'', created_at:new Date().toISOString()});
+    await metaSet('kbPrincipleLog', {date: today, count: (pm.date===today?pm.count:0)+1});
+  }catch(e){}
+}
+// 对话联动：检索相关知识点/原则注入（关键词匹配；无匹配取最近 4 条）
+async function buildKnowledgeContext(text){
+  try{
+    const all = await dbAll('knowledge');
+    if(all.length===0) return '';
+    const recent = all.sort((a,b)=>(b.created_at||'').localeCompare(a.created_at||'')).slice(0,40);
+    const kws = textTopWords([text||''], 6);
+    const scored = recent.map(k=>{
+      const hay = ((k.title||'')+(k.scene||'')+(k.action||'')).toLowerCase();
+      let s = 0;
+      for(const w of kws){ if(w && hay.includes(w)) s++; }
+      return {k, s};
+    }).sort((a,b)=>b.s-a.s);
+    const picks = scored.some(x=>x.s>0) ? scored.filter(x=>x.s>0).slice(0,4) : scored.slice(0,4);
+    if(picks.length===0) return '';
+    return picks.map(({k})=>`【${k.type==='principle'?'原则':'知识'}】${k.title||''}${k.scene?`（适用：${k.scene}）`:''}${k.action?`（行动：${k.action}）`:''}`).join('\n');
+  }catch(e){ return ''; }
 }
 
 function printToPDF(html){
