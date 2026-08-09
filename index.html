@@ -2297,7 +2297,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <table style="width:100%;font-size:13px;text-align:left;border-collapse:collapse">
           <tr style="border-bottom:1px solid var(--line)">
             <td style="padding:8px 4px;color:var(--text-3)">AI 智能体对话</td>
-            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">每日 3 次</span> → <strong style="color:var(--accent,#d4af37)">每月 200 万 token</strong></td>
+            <td style="padding:8px 4px;text-align:right"><span style="color:var(--text-3)">体验 50 次</span> → <strong style="color:var(--accent,#d4af37)">每月 200 万 token</strong></td>
           </tr>
           <tr style="border-bottom:1px solid var(--line)">
             <td style="padding:8px 4px;color:var(--text-3)">云同步（多设备）</td>
@@ -2330,6 +2330,16 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <div style="font-size:12px;color:var(--text-4);margin-top:10px;line-height:1.6">
           兑换码由 <code>payload.hmac</code> 组成，支持离线校验（PWA 特性）。种子用户通过微信群/爱发电获取。
         </div>
+      </div>
+
+      <!-- AI 额度（token 中间商入口，充值待支付上线） -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:14px;font-weight:600;color:var(--text);margin-bottom:6px">AI 额度</div>
+        <div style="font-size:12px;color:var(--text-3);line-height:1.7;margin-bottom:10px">
+          所有 AI 对话按实际 token 消耗计费。免费体验 50 次 / PRO 每月 200 万（未用完滚存 1 个月）/ 超额按量充值。
+        </div>
+        <div id="quotaDetail" style="font-size:13px;font-weight:600;color:var(--accent,#d4af37);margin-bottom:12px">计算中…</div>
+        <button class="btn-secondary" style="width:100%" onclick="toast('AI 额度充值即将上线，当前可联系管理员购买加量包')">充值 AI 额度（即将上线）</button>
       </div>
 
       <!-- 帮助 -->
@@ -2536,11 +2546,11 @@ function metaSet(key,value){
 // ============================================================
 const PRO_KEY = 'lan_pro';              // PRO 状态 {expire: timestamp} 存 IndexedDB
 const PRO_TRIAL_DAYS = 0;               // 赠送试用天数（0=不送）
-const FREE_AI_DAILY = 3;                // 免费版每日 AI 次数
+const FREE_TRIAL_TOKEN = 150000;        // 免费体验包：注册一次性送 ≈50 次对话
 const PRO_PRICE_MONTH = 29.9;           // PRO 月价（展示用）
 const PRO_PRICE_QUARTER = 69.9;         // PRO 季价（展示用）
 const PRO_PRICE_YEAR = 199.9;           // PRO 年价（展示用）
-const PRO_MONTHLY_TOKEN = 2000000;      // PRO 每月 AI 额度（token，≈每天20次对话）
+const PRO_MONTHLY_TOKEN = 2000000;      // PRO 每月 AI 额度（token，≈每天20次对话），未用完滚存1个月
 const PRO_OVERAGE_PRICE = 5.2;          // 超额单价（元/百万 token，成本+30%，展示用）
 
 // ---- License 签发公钥（HMAC 验签用，与 Worker 端密钥配套）----
@@ -2577,69 +2587,79 @@ function activatePro(months){
   trackEvent('pro_activated', {months});
 }
 
-// ---- 免费额度（每日次数）+ PRO 月度 token 额度 ----
-async function getTodayAiCount(){
-  const t = localDate();
-  const m = await metaGet('aiUsage') || {};
-  if(m.date !== t) return 0;
-  return m.count || 0;
+// ---- 统一 AI 额度模型（token 计费）----
+// 全站只有一种计量：token 额度。来源：免费体验包（一次性）/ PRO 月度额度（滚存1个月）/ 未来充值
+// 存储：IndexedDB meta 'aiBalance' → {tokens, month, trialUsed}
+async function getAiBalance(){
+  const b = await metaGet('aiBalance') || {};
+  if(isPro()) await ensureProTopup();
+  else await ensureTrial();
+  return metaGet('aiBalance').then(x => (x && x.tokens) || 0);
 }
-async function incrAiCount(){
-  const t = localDate();
-  const m = await metaGet('aiUsage') || {};
-  m.date = t;
-  m.count = (m.count||0)+1;
-  await metaSet('aiUsage', m);
-}
-// PRO 月度 token 用量（按月重置）
-async function getProTokenUsed(){
-  const m = await metaGet('proTokenUsage') || {};
+// PRO：每月自动到账 200 万 token，未用完滚存 1 个月（间隔超过1个月则清零）
+async function ensureProTopup(){
+  if(!isPro()) return; // 仅 PRO 可到账
+  const b = await metaGet('aiBalance') || {};
   const month = localDate().slice(0,7);
-  if(m.month !== month) return {month, used:0};
-  return {month, used:m.used||0};
+  if(b.month === month) return;
+  let rollover = 0;
+  if(b.month){
+    const gap = monthGap(b.month, month);
+    if(gap <= 1) rollover = b.tokens || 0; // 只滚存相邻月份
+  }
+  await metaSet('aiBalance', { tokens: rollover + PRO_MONTHLY_TOKEN, month, trialUsed: !!b.trialUsed });
 }
-async function incrProToken(amount){
-  const {month, used} = await getProTokenUsed();
-  await metaSet('proTokenUsage', {month, used: used + (amount||0)});
+// 免费用户：首次使用送体验包（一次性）
+async function ensureTrial(){
+  if(isPro()) return; // PRO 用户不再叠加体验包
+  const b = await metaGet('aiBalance') || {};
+  if(b.trialUsed) return;
+  await metaSet('aiBalance', { tokens: FREE_TRIAL_TOKEN + (b.tokens || 0), month: b.month, trialUsed: true });
+}
+function monthGap(a, b){
+  const [ay, am] = a.split('-').map(Number);
+  const [by, bm] = b.split('-').map(Number);
+  return (by - ay) * 12 + (bm - am);
+}
+// 扣减额度（AI 调用成功后按实际 token 扣）
+async function deductAiToken(amount){
+  const b = await metaGet('aiBalance') || {};
+  const tokens = Math.max(0, (b.tokens || 0) - (amount || 0));
+  await metaSet('aiBalance', { ...b, tokens });
+  return tokens;
 }
 async function canUseAi(){
-  if(isPro()){
-    const {used} = await getProTokenUsed();
-    if(used < PRO_MONTHLY_TOKEN) return {ok:true, pro:true, used, total:PRO_MONTHLY_TOKEN};
-    return {ok:false, pro:true, used, total:PRO_MONTHLY_TOKEN, left:0};
-  }
-  const c = await getTodayAiCount();
-  return {ok: c < FREE_AI_DAILY, used:c, left: Math.max(0, FREE_AI_DAILY-c)};
+  if(isPro()) await ensureProTopup();
+  else await ensureTrial();
+  const b = await metaGet('aiBalance') || {};
+  const bal = b.tokens || 0;
+  return { ok: bal > 0, balance: bal, pro: !!isPro(), trialUsed: !!b.trialUsed };
 }
 async function guardAi(){
   const r = await canUseAi();
   if(r.ok) return true;
   if(r.pro){
-    showProQuotaToast(r);
+    showQuotaEmptyToast(true);
   } else {
-    showAiLimitToast(r);
+    showQuotaEmptyToast(false);
   }
   return false;
 }
-function showAiLimitToast(r){
-  toast(`免费版每日 AI 对话 ${FREE_AI_DAILY} 次已用完，升级 PRO 解锁每月 200 万 token`);
-  openUpgradeModal();
-}
-function showProQuotaToast(r){
-  const usedW = Math.round(r.used/10000)/100;
-  const totalW = Math.round(r.total/10000)/100;
-  toast(`本月 AI 额度已用完（${usedW}万/${totalW}万 token）`);
+// 额度用尽弹窗（统一：免费体验包用尽 / PRO 额度用尽）
+function showQuotaEmptyToast(isProUser){
+  const title = isProUser ? '本月 AI 额度已用完' : '体验额度已用完';
+  const body = isProUser
+    ? `本月 ${Math.round(PRO_MONTHLY_TOKEN/10000)} 万 token 额度已用完。<br>超额按 <b>¥${PRO_OVERAGE_PRICE}/百万 token</b> 计费，充值功能即将上线，当前可联系管理员购买加量包。`
+    : `免费体验额度（约 50 次对话）已用完。<br>升级 PRO 获得每月 <b>${Math.round(PRO_MONTHLY_TOKEN/10000)} 万</b> token（≈每天20次），或等待充值功能上线后按量购买。`;
+  toast(title);
   openModal(`
     <div class="modal-head">
-      <div class="modal-title">本月 AI 额度已用完</div>
+      <div class="modal-title">${title}</div>
       <button class="modal-close" onclick="closeModal()">关闭</button>
     </div>
-    <div style="font-size:13px;color:var(--text-2);line-height:1.8;margin-bottom:14px">
-      本月已使用 <b>${usedW} 万</b> token（额度 ${totalW} 万）。<br>
-      超额部分按 <b>¥${PRO_OVERAGE_PRICE}/百万 token</b> 计费，加量包功能即将上线。<br>
-      当前如需继续使用，可联系管理员购买加量包。
-    </div>
-    <button class="btn-primary" style="width:100%" onclick="closeModal()">知道了</button>
+    <div style="font-size:13px;color:var(--text-2);line-height:1.8;margin-bottom:14px">${body}</div>
+    ${isProUser ? '' : `<button class="btn-primary" style="width:100%;margin-bottom:8px;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="closeModal();openUpgradeModal()">升级 PRO</button>`}
+    <button class="btn-secondary" style="width:100%" onclick="closeModal()">${isProUser ? '知道了' : '暂不升级'}</button>
   `);
 }
 function openUpgradeModal(){
@@ -2649,8 +2669,7 @@ function openUpgradeModal(){
       <button class="modal-close" onclick="closeModal()">关闭</button>
     </div>
     <div style="font-size:13px;color:var(--text-2);line-height:1.8;margin-bottom:14px">
-      免费版每日 AI 对话 <b>${FREE_AI_DAILY}</b> 次已用完。<br>
-      升级 PRO 解锁：<b>每月 200 万 token</b> AI（≈每天20次）、全自动云同步、Excel/PDF 导出、全部高级主题。
+      体验额度用完后，升级 PRO 解锁：<b>每月 200 万 token</b> AI（≈每天20次，未用完滚存1个月）、全自动云同步、Excel/PDF 导出、全部高级主题。
     </div>
     <div style="font-size:22px;font-weight:700;color:var(--accent,#d4af37);margin-bottom:14px">¥199.9 / 年 <span style="font-size:12px;color:var(--text-3);font-weight:400">或 ¥29.9/月 · ¥69.9/季</span></div>
     <button class="btn-primary" style="width:100%;margin-bottom:8px;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="openLicenseModal()">有兑换码？立即激活</button>
@@ -2817,16 +2836,37 @@ function renderProUI(){
   const quota = document.getElementById('pro-quota');
   if(quota){
     if(isPro()){
-      getProTokenUsed().then(({used})=>{
+      ensureProTopup().then(()=>{
+        return metaGet('aiBalance');
+      }).then(b=>{
+        const used = Math.max(0, PRO_MONTHLY_TOKEN - (b.tokens || 0));
         const pct = Math.min(100, Math.round(used/PRO_MONTHLY_TOKEN*100));
         quota.innerHTML = `<span style="color:var(--accent,#d4af37)">PRO · 本月 AI ${pct}%</span>`;
       });
     } else {
-      quota.innerHTML = `免费版 · AI 每日 ${FREE_AI_DAILY} 次`;
+      ensureTrial().then(()=>{
+        return metaGet('aiBalance');
+      }).then(b=>{
+        const left = Math.max(0, (b.tokens || 0));
+        const pct = Math.min(100, Math.round(left/FREE_TRIAL_TOKEN*100));
+        quota.innerHTML = `体验额度 ${pct}%`;
+      });
     }
   }
   // PRO 状态变化时同步刷新数据管理面板的导出权限
   if(typeof renderExportPerms === 'function') renderExportPerms();
+  // 升级页 AI 额度详情
+  const qd = document.getElementById('quotaDetail');
+  if(qd){
+    ensureProTopup().then(()=>ensureTrial()).then(()=>metaGet('aiBalance')).then(b=>{
+      const bal = Math.max(0, (b.tokens || 0));
+      const pro = isPro();
+      const total = pro ? PRO_MONTHLY_TOKEN : FREE_TRIAL_TOKEN;
+      const used = Math.max(0, total - bal);
+      const pct = Math.min(100, Math.round(used / total * 100));
+      qd.textContent = `${pro ? 'PRO' : '免费'} · 已用 ${pct}% · 剩余 ${(Math.round(bal/10000)/100).toFixed(2)} 万 token`;
+    });
+  }
 }
 function openLicenseModal(){
   redeemLicense();
@@ -3820,8 +3860,7 @@ function lanQuickAsk(text){
 }
 
 async function lanAsk(text){
-  // 付费墙：免费版每日限次；PRO 按月度 token 额度
-  const pro = isPro();
+  // 付费墙：统一 AI 额度（token）——免费体验包 / PRO 月度额度
   const guard = await guardAi();
   if(!guard) throw new Error('AI_QUOTA_EXCEEDED');
   const key = localStorage.getItem(LAN_KEY_STORE);
@@ -3830,7 +3869,6 @@ async function lanAsk(text){
     throw new Error('未配置 AI Key');
   }
   trackEvent('ai_ask', {len:(text||'').length});
-  if(!pro) await incrAiCount(); // 免费按次数计（请求前防刷）
   const ctx = await buildLanContext();
   const models = lanMatchModels(text);
   const system = `你是「Lan工作台」内置的思维教练，名字叫 Lan。
@@ -3876,9 +3914,9 @@ ${ctx || '(暂无数据)'}
     throw new Error(err.error?.message || ('HTTP '+res.status));
   }
   const data = await res.json();
-  // PRO 按 token 计量（仅成功调用计费）
-  if(pro && data.usage && data.usage.total_tokens){
-    await incrProToken(data.usage.total_tokens || 0);
+  // 按实际 token 扣减额度（仅成功调用计费）
+  if(data.usage && data.usage.total_tokens){
+    await deductAiToken(data.usage.total_tokens || 0);
   }
   return data.choices[0].message.content.trim();
 }
