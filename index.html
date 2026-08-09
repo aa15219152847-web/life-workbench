@@ -2035,6 +2035,14 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         </div>
         <div id="wereadBookList" style="font-size:11px;color:var(--text-4)">点击同步，将微信读书的划线和笔记导入为灵感</div>
       </div>
+      <!-- 抖音兴趣导入 -->
+      <div class="weread-sync" style="margin-top:10px">
+        <div class="weread-sync-head">
+          <div class="weread-sync-title" style="color:var(--text)">📱 抖音 · 兴趣导入</div>
+          <button class="weread-sync-btn" onclick="importDouyin()">粘贴分享</button>
+        </div>
+        <div style="font-size:11px;color:var(--text-4)">粘贴抖音分享文本，AI 提取你的兴趣点 → 生成灵感与待办</div>
+      </div>
       <div id="inspList"></div>
     </section>
 
@@ -3967,21 +3975,28 @@ async function lanSend(){
   try{
     const reply = await lanAsk(text);
     lanTypingOff();
-    // 解析 DeepSeek 返回的操作标记（兜底意图识别）
-    const am = reply.match(/<<<ACTION:(\w+)\|(\{[\s\S]*?\})>>>/);
-    if(am){
-      const clean = reply.replace(am[0],'').trim();
+    // 解析 DeepSeek 返回的操作标记（兜底意图识别，支持批量多条）
+    const ams = [...reply.matchAll(/<<<ACTION:(\w+)\|(\{[\s\S]*?\})>>>/g)];
+    if(ams && ams.length){
+      const clean = reply.replace(/<<<ACTION:(\w+)\|(\{[\s\S]*?\})>>>/g,'').trim();
       if(clean) lanAppend('ai', clean);
-      try{
-        const fields = JSON.parse(am[2]);
-        if(LAN_AUTO.includes(am[1])){
-          const res = await lanExecute(am[1], fields);
-          lanAppend('ai', res);
-        }else{
-          lanRenderCard(am[1], fields);
+      const results = [];
+      for(const am of ams){
+        try{
+          const fields = JSON.parse(am[2]);
+          if(LAN_AUTO.includes(am[1])){
+            const res = await lanExecute(am[1], fields);
+            results.push(res);
+          }else{
+            lanRenderCard(am[1], fields);
+          }
+        }catch(e){
+          results.push('（操作解析失败，请手动操作）');
         }
-      }catch(e){
-        lanAppend('ai', '（操作解析失败，请手动操作）');
+      }
+      if(results.length){
+        const batchMsg = results.length>1 ? '✅ 已执行 '+results.length+' 项操作：\n'+results.map(r=>'· '+r).join('\n') : results[0];
+        lanAppend('ai', batchMsg);
       }
       lanPush('assistant', reply);
       return;
@@ -4049,16 +4064,22 @@ ${kbCtx || '(暂无知识库)'}
 3. 引用匹配的思维模型，说明为什么适合此刻
 4. 结尾给出"下一步行动"（一句话，能转成待办）
 
-操作协议（重要）：如果用户想让你直接帮他操作工作台（记账/建待办/打卡/写复盘/建计划/记灵感），在回复的【最开头单独一行】输出操作标记，然后正文继续正常回答：
+操作协议（重要）：如果用户想让你直接帮他操作工作台（记账/建待办/打卡/写复盘/建计划/记灵感/记住重要的事），在回复的【最开头单独一行】输出操作标记，然后正文继续正常回答：
 <<<ACTION:类型|{"字段":"值"}>>>
 支持类型与字段：
 - ledger 记账：amount金额(number)、type类型(income收入/expense支出)、category分类、note备注
 - todo 待办：title事项、due_date日期(YYYY-MM-DD)、priority优先级(1高/2普通)、remind_time提醒时间(HH:MM)、category分类
 - checkin 打卡：hours小时(number)
-- review 复盘：went_well做得好的、went_wrong待改进、improvement改进方案
+- review 复盘：went_well做得好的、went_wrong待改进、improvement改进方案、mood心情(1-5)
 - plan 学习计划：title名称、target_hours每天小时(number)、total_days天数(number)
 - insp 灵感：content内容
-示例：<<<ACTION:ledger|{"amount":30,"type":"expense","category":"交通","note":"打车"}>>>`;
+- memory 记住重要的事：title事项、date日期(YYYY-MM-DD，可省略)、kind类型(event纪念日/deadline截止/other)
+- 用户口述多项记录时（如"打车30、午饭25、买书60"或一次说了多件事），【逐条输出多行 ACTION 标记】，每行一条，全部放在回复最开头
+- 当用户描述一天经历/心情时，可主动用 review 类型生成完整复盘草稿（三项+mood 全填），供用户确认
+示例（批量记账）：<<<ACTION:ledger|{"amount":30,"type":"expense","category":"交通","note":"打车"}>>>
+<<<ACTION:ledger|{"amount":25,"type":"expense","category":"餐饮","note":"午饭"}>>>
+
+安全边界（绝对禁止，违反会出事故）：你只能执行上述 7 种操作。绝对不允许输出导出、导入、删除、清空、转账、发消息、修改设置等任何其他类型的操作标记——这些操作必须让用户手动完成。`;
   const res = await fetch('https://api.deepseek.com/chat/completions', {
     method:'POST',
     headers:{'Content-Type':'application/json','Authorization':'Bearer '+key},
@@ -4088,7 +4109,7 @@ ${kbCtx || '(暂无知识库)'}
 // Lan 对话即操作 — 意图识别 / 确认卡片 / 执行 / 教练模式
 // ============================================================
 // 低风险操作直接执行（追加式记录，可删改）；高风险需确认卡片
-const LAN_AUTO = ['ledger','checkin','insp'];
+const LAN_AUTO = ['ledger','checkin','insp','memory'];
 const LAN_CONFIRM = ['todo','review','plan'];
 // 教练模式状态
 let lanCoach = null; // {type:'review'|'plan', step:0, answers:{}}
@@ -4097,6 +4118,7 @@ let lanCoach = null; // {type:'review'|'plan', step:0, answers:{}}
 const LAN_INTENT_RULES = [
   {intent:'ledger', kws:['记一笔','记账','花了','打车','买了','支出','收入','消费','充值','付款','付了']},
   {intent:'todo',   kws:['提醒','明天','后天','待办','记得','要做','要写','要交','开会','汇报']},
+  {intent:'memory', kws:['记住','别忘了','重要的事','纪念日','记一下']},
   {intent:'checkin',kws:['打卡','签到']},
   {intent:'review', kws:['复盘']},
   {intent:'plan',   kws:['学习计划','出个计划','制定计划','建个计划']},
@@ -4154,6 +4176,21 @@ async function lanExtractFields(intent, text){
     f.total_days = d ? parseInt(d[1]) : 30;
   }else if(intent==='insp'){
     f.content = text.replace(/灵感|想法|记个念头|记录/g,'').trim() || text;
+  }else if(intent==='memory'){
+    f.title = text.replace(/记住|别忘了|重要的事|纪念日|记一下|帮我/g,'').trim().slice(0,40) || text.trim().slice(0,40);
+    // 解析日期：X月X日 / 2026-08-20 / 下周X / 明天 / 后天
+    let date = null;
+    const ymd = text.match(/(20\d{2})[年/-](\d{1,2})[月/-](\d{1,2})日?/);
+    const md = text.match(/(\d{1,2})月(\d{1,2})日/);
+    const d = new Date();
+    if(ymd){ date = ymd[1]+'-'+String(+ymd[2]).padStart(2,'0')+'-'+String(+ymd[3]).padStart(2,'0'); }
+    else if(md){
+      const ny = +md[1]>=d.getMonth()+1 || (+md[1]===d.getMonth()+1 && +md[2]>=d.getDate()) ? d.getFullYear() : d.getFullYear()+1;
+      date = ny+'-'+String(+md[1]).padStart(2,'0')+'-'+String(+md[2]).padStart(2,'0');
+    }else if(/后天/.test(text)){ d.setDate(d.getDate()+2); date = fmtDate(d); }
+    else if(/明天/.test(text)){ d.setDate(d.getDate()+1); date = fmtDate(d); }
+    f.date = date;
+    f.kind = /截止|提交|交|到期|ddl|deadline/i.test(text) ? 'deadline' : (/纪念|生日|周年/.test(text) ? 'event' : 'other');
   }
   return f;
 }
@@ -4167,7 +4204,7 @@ async function lanDetectIntent(text){
 
 // 渲染确认卡片（对话内联）
 function lanRenderCard(intent, fields){
-  const label = {ledger:'记账',todo:'待办',checkin:'打卡',review:'复盘',plan:'学习计划',insp:'灵感'}[intent]||'操作';
+  const label = {ledger:'记账',todo:'待办',checkin:'打卡',review:'复盘',plan:'学习计划',insp:'灵感',memory:'记住'}[intent]||'操作';
   const rows = lanCardRows(intent, fields);
   const card = document.createElement('div');
   card.className = 'lan-action-card';
@@ -4314,7 +4351,16 @@ async function lanExecute(intent, f){
       loadInspirations(); autoBackup(); addExp(8,'AI 灵感');
       return '灵感已记录 ✅';
     }
-    return '操作完成';
+    if(intent==='memory'){
+      if(!f.title) return '要记住的内容为空';
+      const date = (f.date||'').match(/^\d{4}-\d{2}-\d{2}$/) ? f.date : null;
+      const reminders = await metaGet('reminders') || [];
+      reminders.push({id:Date.now(), title:String(f.title).slice(0,100), date, kind:f.kind||'other', created_at:new Date().toISOString()});
+      await metaSet('reminders', reminders);
+      return `已记住 · ${f.title}${date?'（'+date+'）':''}${date&&date<=localDate()?'，就是今天！':''}`;
+    }
+    // 未知/高风险操作类型：不执行（安全硬边界）
+    return '该操作类型不被支持，已忽略（如需导出/删除/管理类操作，请手动进行）';
   }catch(e){ console.error(e); return '操作失败：'+e.message; }
 }
 
@@ -4455,6 +4501,70 @@ async function showLanProactive(){
         actions:[{label:'归纳灵感', click:"lanQuickAsk('帮我归纳一下我的灵感')"}]
       });
     }
+    // 5. 逾期待办提醒
+    const overdue = todos.filter(t=>!t.done && t.due_date && t.due_date < today);
+    if(overdue.length){
+      cards.push({
+        title:'⚠️ 有 '+overdue.length+' 件逾期待办',
+        msg: overdue.slice(0,3).map(t=>'· '+escapeHtml(t.title)+'（'+t.due_date+'）').join('<br>') + (overdue.length>3?('<br>· …还有 '+(overdue.length-3)+' 件'):''),
+        actions:[{label:'去处理', click:"switchTab('todos')"}]
+      });
+    }
+    // 6. 情绪感知：近 7 天心情明显低于上一周且偏低
+    const recentReviews = reviews.filter(r=>r.review_date && r.review_date>=addDays(today,-6) && r.mood>=1 && r.mood<=5);
+    const olderReviews = reviews.filter(r=>r.review_date && r.review_date<addDays(today,-6) && r.review_date>=addDays(today,-13) && r.mood>=1 && r.mood<=5);
+    if(recentReviews.length>=3 && olderReviews.length>=2){
+      const avgA = recentReviews.reduce((s,r)=>s+r.mood,0)/recentReviews.length;
+      const avgB = olderReviews.reduce((s,r)=>s+r.mood,0)/olderReviews.length;
+      if(avgA <= avgB-0.8 && avgA <= 2.5){
+        cards.push({
+          title:'🌧 最近心情有点低落',
+          msg:'最近 7 天的心情（'+(+avgA.toFixed(1))+'/5）比上一周低了不少。要不要和 Lan 聊聊，或者今晚写个复盘？',
+          actions:[{label:'找 Lan 聊聊', click:"switchTab('lan')"},{label:'去复盘', click:"switchTab('review')"}]
+        });
+      }
+    }
+    // 7. 重要事件提醒（今天及未来 7 天，来自"记住重要的事"）
+    const reminders = await metaGet('reminders') || [];
+    const upcoming = reminders.filter(r=>r.date && r.date>=today && r.date<=addDays(today,7));
+    if(upcoming.length){
+      const sorted = upcoming.sort((a,b)=>(a.date||'').localeCompare(b.date||''));
+      const first = sorted[0];
+      const dleft = daysBetween(today, first.date);
+      cards.push({
+        title: first.date===today ? '📌 就是今天：'+escapeHtml(first.title) : '📌 还有 '+dleft+' 天：'+escapeHtml(first.title),
+        msg: sorted.slice(0,3).map(r=>'· '+escapeHtml(r.title)+'（'+r.date+'）').join('<br>'),
+        actions:[]
+      });
+    }
+    // 8. AI 体验额度快用完提醒（免费用户）
+    const bal = await metaGet('aiBalance') || {};
+    if(!isPro() && bal.tokens>0 && bal.tokens < FREE_TRIAL_TOKEN*0.15){
+      cards.push({
+        title:'AI 体验额度快用完了',
+        msg:'还剩约 '+Math.round(bal.tokens/1000)+'k token（约 '+Math.round(bal.tokens/3000)+' 次对话）。用完可升级 PRO，每月 200 万 token。',
+        actions:[{label:'升级 PRO', click:"switchTab('upgrade')"}]
+      });
+    }
+    // 9. 连续 7 天打卡庆祝（仪式感）
+    if(checkins.length){
+      const last7 = [...new Set(checkins.filter(c=>c.checkin_date>addDays(today,-7)&&c.checkin_date<=today).map(c=>c.checkin_date))];
+      if(last7.length>=7){
+        cards.push({
+          title:'🎉 连续 7 天打卡达成！',
+          msg:'你做到了！习惯的复利正在积累，继续保持这个节奏。',
+          actions:[{label:'查看热力图', click:"switchTab('study')"}]
+        });
+      }
+    }
+    // 10. 时段问候（仪式感，当天首开第一张）
+    const hour = new Date().getHours();
+    const greet = hour<6?'🌌 夜深了，注意休息' : hour<11?'☀️ 早安' : hour<14?'🌤 午安' : hour<18?'🍵 下午好' : '🌙 晚上好';
+    cards.unshift({
+      title: greet,
+      msg: '新的一天，保持节奏。'+(todayTodos.length ? '今天有 '+todayTodos.length+' 件待办等着你。' : '今天还没有待办，可以自由安排。'),
+      actions:[]
+    });
   }catch(e){ console.error(e); }
 
   if(!cards.length) return;
@@ -5225,6 +5335,73 @@ async function importWereadPaste(){
   }
   toast(`已导入 ${count} 条书摘`);
   addExp(count*3, '导入书摘');
+  closeModal(); loadInspirations(); loadOverview(); autoBackup();
+}
+
+// ============ 抖音兴趣导入（粘贴分享文本 → AI 提炼 → 灵感/待办）============
+function importDouyin(){
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">📱 导入抖音兴趣</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12px;color:var(--text-3);line-height:1.7;margin-bottom:14px">
+      在抖音 App 中点作品「分享」→「复制链接」，把整段分享文本粘贴到下方。<br>
+      AI 会提取你感兴趣的主题 → 生成灵感，并可一键转为待办。
+    </div>
+    <div class="form-group">
+      <textarea class="form-textarea" id="dyPaste" style="min-height:160px" placeholder="8.88 abc:/ 复制打开抖音，看看【健身干货】的作品… #自律 #健身 https://v.douyin.com/xxx/"></textarea>
+    </div>
+    <div id="dyResult" style="font-size:12.5px;color:var(--text-2);line-height:1.8;margin-bottom:10px"></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn-primary" onclick="extractDouyin()" style="flex:1">AI 提炼兴趣</button>
+      <button class="btn-secondary" onclick="dySave(true)" style="flex:1;display:none" id="dySaveBtn">存为灵感 + 建待办</button>
+      <button class="btn-secondary" onclick="dySave(false)" style="flex:1;display:none" id="dySaveInspBtn">只存灵感</button>
+    </div>
+  `);
+}
+let dyParsed = null; // {topics:[], action:''}
+async function extractDouyin(){
+  const text = $('#dyPaste').value.trim();
+  if(!text){ toast('请先粘贴抖音分享文本'); return; }
+  const key = localStorage.getItem(LAN_KEY_STORE);
+  if(!key){ toast('请先在 Lan 设置中配置 AI Key'); openLanSettings(); return; }
+  const r = await canUseAi();
+  if(!r.ok){ showQuotaEmptyToast(!!isPro()); return; }
+  $('#dyResult').textContent = '⏳ AI 正在提取你的兴趣点…';
+  try{
+    const clean = text.replace(/https?:\/\/\S+/g,'').replace(/复制打开抖音|看看|的作品|#\S+/g,'').trim();
+    const txt = await lanAsk(`这是用户从抖音分享的一段文本（可能包含作品标题、话题）。请提取用户的兴趣主题，并给出一件可以去做的事。只输出 JSON：{"topics":["兴趣主题1","兴趣主题2"],"action":"一件可以做的事"}\n文本：${(clean||text).slice(0,600)}`);
+    const m = txt.match(/\{[\s\S]*\}/);
+    const o = m ? (()=>{try{return JSON.parse(m[0])}catch(e){return null}})() : null;
+    if(!o || (!(o.topics&&o.topics.length) && !o.action)){
+      $('#dyResult').textContent = '⚠️ 提炼失败，请换一段更完整的分享文本重试';
+      return;
+    }
+    dyParsed = {topics: (o.topics||[]).slice(0,3).map(t=>String(t).slice(0,60)), action: String(o.action||'').slice(0,80)};
+    const html = [];
+    if(dyParsed.topics.length) html.push('<b>你的兴趣点：</b><br>'+dyParsed.topics.map(t=>'· '+escapeHtml(t)).join('<br>'));
+    if(dyParsed.action) html.push('<b>可以做的事：</b>'+escapeHtml(dyParsed.action));
+    $('#dyResult').innerHTML = html.join('<br>');
+    $('#dySaveBtn').style.display = ''; $('#dySaveInspBtn').style.display = '';
+    toast('提炼完成，确认保存方式');
+  }catch(e){ $('#dyResult').textContent = '⚠️ 提炼失败：'+e.message; console.error(e); }
+}
+async function dySave(withTodo){
+  if(!dyParsed){ toast('请先提炼'); return; }
+  let n = 0;
+  for(const t of dyParsed.topics){
+    await dbAdd('inspirations',{content:t, tags:[], naval_tags:[], rating:0, is_quote:false, created_at:new Date().toISOString(), source:'douyin'});
+    n++;
+  }
+  let todoMsg = '';
+  if(withTodo && dyParsed.action){
+    await dbAdd('todos',{title:dyParsed.action, category:'生活', priority:2, due_date:localDate(), remind_time:null, done:false, source:'douyin'});
+    todoMsg = '，并已建待办「'+dyParsed.action+'」';
+  }
+  toast(`已保存 ${n} 条灵感${todoMsg}`);
+  addExp(n*3, '导入抖音兴趣');
+  dyParsed = null;
   closeModal(); loadInspirations(); loadOverview(); autoBackup();
 }
 
