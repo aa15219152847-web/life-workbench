@@ -1714,7 +1714,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
     </div>
     <div class="nav-group" data-group="more">
       <button class="nav-group-title">更多
-        <span class="nav-group-count">6</span>
+        <span class="nav-group-count">7</span>
         <svg class="nav-group-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
       </button>
       <div class="nav-group-body">
@@ -1729,6 +1729,10 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <button class="nav-item" data-tab="badges" title="成就">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           <span class="nav-label">成就</span>
+        </button>
+        <button class="nav-item" data-tab="growth" title="成长">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 4 3 5-6"/><path d="M17 8h3v3"/></svg>
+          <span class="nav-label">成长</span>
         </button>
         <button class="nav-item" data-tab="search" title="搜索">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
@@ -2137,6 +2141,88 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
       <div class="badge-wall" id="badgeWallLocked"></div>
     </section>
 
+    <!-- 成长进度（六维评分 / 雷达 / PR / 预警 / 目标 / 周报） -->
+    <section class="section" id="sec-growth">
+      <div class="section-header">
+        <div class="section-title">成长进度</div>
+      </div>
+      <div style="font-size:12.5px;color:var(--text-3);line-height:1.7;margin-bottom:14px">
+        每天用你的真实数据（待办/打卡/账本/复盘/灵感）计算 6 个维度得分，可视化你的努力与回报。
+      </div>
+
+      <!-- 总进度 + 里程碑 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <div style="font-size:15px;font-weight:600;color:var(--text)">📈 本周成长总分</div>
+          <div id="growthLevelBadge" style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--bg-2);color:var(--text-3)">等级计算中…</div>
+        </div>
+        <div id="growthTotalBar" style="height:26px;border-radius:13px;background:var(--bg-2);overflow:hidden;position:relative;margin-bottom:6px">
+          <div id="growthTotalFill" style="height:100%;width:0%;border-radius:13px;background:linear-gradient(90deg,#6366f1,#8b5cf6);transition:width 1s var(--ease-out-quart)"></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text-3)">
+          <span id="growthTotalText">--</span>
+          <span id="growthTotalDelta">--</span>
+        </div>
+        <div id="growthMilestones" style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap"></div>
+      </div>
+
+      <!-- 六维卡片 -->
+      <div class="form-group">
+        <label>六大维度</label>
+      </div>
+      <div id="growthDims" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:16px"></div>
+
+      <!-- 雷达图 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px">🕸️ 六维雷达</div>
+        <div style="font-size:12px;color:var(--text-4);margin-bottom:10px">本周均值 vs 上周均值（内圈=上周）</div>
+        <canvas id="growthRadar" style="width:100%;max-width:340px;aspect-ratio:1;display:block;margin:0 auto"></canvas>
+      </div>
+
+      <!-- 个人纪录 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">🏆 个人纪录</div>
+        <div id="growthPRs" style="font-size:12.5px;color:var(--text-3);line-height:1.9">计算中…</div>
+      </div>
+
+      <!-- 下滑预警 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px;display:none" id="growthAlertCard">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">⚠️ 需要留意的下滑</div>
+        <div id="growthAlerts" style="font-size:12.5px;color:var(--text-3);line-height:1.9"></div>
+      </div>
+
+      <!-- 目标绑定（缺点修复引导） -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px">🎯 想改变什么？</div>
+        <div style="font-size:12px;color:var(--text-4);line-height:1.6;margin-bottom:10px">
+          选择一个你想改掉的缺点，工作台会用对应维度的分数跟踪你的进步，让努力看得见。
+        </div>
+        <div id="growthGoalList" style="margin-bottom:10px"></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <select id="growthGoalDim" class="form-input" style="max-width:150px;flex:1">
+            <option value="action">⚡ 行动力（拖延）</option>
+            <option value="focus">🎯 专注投入（注意力涣散）</option>
+            <option value="self">🔥 坚持自律（三分钟热度）</option>
+            <option value="finance">💰 财务自律（乱花钱）</option>
+            <option value="mood">🌈 情绪状态（情绪低落）</option>
+            <option value="reflect">🪞 反思深度（不总结）</option>
+          </select>
+          <input class="form-input" type="number" id="growthGoalTarget" value="70" min="40" max="95" style="max-width:90px" placeholder="目标分">
+          <button class="btn-primary" onclick="addGrowthGoal()" style="flex-shrink:0">定下目标</button>
+        </div>
+      </div>
+
+      <!-- 成长周报 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px">📋 成长周报</div>
+        <div style="font-size:12px;color:var(--text-4);line-height:1.6;margin-bottom:12px">
+          每周日自动生成：本周六维走势、个人纪录、下滑提醒与下周建议（AI 文案版）。
+        </div>
+        <div id="growthWeeklyStatus" style="font-size:12px;color:var(--text-3);margin-bottom:10px"></div>
+        <button class="btn-primary" onclick="generateGrowthReport()" style="width:100%">生成本周成长周报</button>
+      </div>
+    </section>
+
     <!-- 数据管理 -->
     <section class="section" id="sec-data">
       <div class="section-header">
@@ -2422,7 +2508,7 @@ let reviewSearchTimer = null;
 
 const TAB_TITLES = {
   lan:'Lan 智能体', today:'今日概览', todos:'今日待办', ledger:'收支记账', news:'每日资讯',
-  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', data:'数据管理',
+  inspirations:'灵感记录', study:'学习计划', review:'每日复盘', search:'全局搜索', badges:'成就徽章', growth:'成长进度', data:'数据管理',
   upgrade:'升级 PRO'
 };
 
@@ -3331,6 +3417,7 @@ function loadTabData(tab){
   else if(tab==='review') loadReviews();
   else if(tab==='search') {}
   else if(tab==='badges') loadBadges();
+  else if(tab==='growth') loadGrowth();
   else if(tab==='data') {}
 }
 
@@ -6128,6 +6215,466 @@ function generatePDFHTML(data, modLabels){
   html += `<p style="text-align:center;color:#888;font-size:11px;margin-top:32px">共 ${total} 条数据 · Lan工作台自动生成</p>`;
   html += '</div>';
   return html;
+}
+
+// ============ 成长进度系统（六维评分 / 雷达 / PR / 预警 / 目标 / 周报）============
+const GROWTH_DIMS = [
+  {key:'action',  name:'行动力',   icon:'⚡', desc:'按时完成待办',     color:'#6366f1'},
+  {key:'focus',   name:'专注投入', icon:'🎯', desc:'学习打卡时长',     color:'#8b5cf6'},
+  {key:'self',    name:'坚持自律', icon:'🔥', desc:'计划打卡执行',     color:'#f59e0b'},
+  {key:'finance', name:'财务自律', icon:'💰', desc:'预算内支出',       color:'#10b981'},
+  {key:'mood',    name:'情绪状态', icon:'🌈', desc:'复盘心情稳定',     color:'#ec4899'},
+  {key:'reflect', name:'反思深度', icon:'🪞', desc:'复盘与灵感沉淀',   color:'#06b6d4'}
+];
+function fmtDate(dt){
+  return dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0');
+}
+function addDays(ds, n){
+  const dt = new Date(ds+'T00:00:00'); dt.setDate(dt.getDate()+n); return fmtDate(dt);
+}
+function weekStartOf(ds){
+  const dt = new Date(ds+'T00:00:00');
+  dt.setDate(dt.getDate()-((dt.getDay()+6)%7));
+  return fmtDate(dt);
+}
+// 单日六维评分（规则引擎，纯本地零成本）
+async function computeDayScores(dateStr){
+  const todos = await dbAll('todos');
+  const plans = await dbAll('plans');
+  const checkins = await dbAll('checkins');
+  const ledger = await dbAll('ledger');
+  const reviews = await dbAll('reviews');
+  const inspirations = await dbAll('inspirations');
+
+  // ⚡ 行动力：当日待办完成率（无待办=中性60）
+  const dueTodos = todos.filter(t=>t.due_date===dateStr);
+  const doneTodos = dueTodos.filter(t=>t.done).length;
+  const action = dueTodos.length===0 ? 60 : Math.round(100*doneTodos/dueTodos.length);
+
+  // 🎯 专注投入：当日打卡时长 vs 全部计划目标时长
+  const dayCheckins = checkins.filter(c=>c.checkin_date===dateStr);
+  const hours = dayCheckins.reduce((s,c)=>s+(c.hours||1),0);
+  const targetSum = plans.reduce((s,p)=>s+(p.target_hours||0),0);
+  const focus = targetSum>0 ? Math.min(100, Math.round(100*hours/targetSum)) : (dayCheckins.length>0 ? 75 : 50);
+
+  // 🔥 坚持自律：当日打卡计划数 / 计划总数
+  const donePlans = new Set(dayCheckins.map(c=>c.plan_id)).size;
+  const self = plans.length===0 ? 60 : Math.round(100*Math.min(donePlans,plans.length)/plans.length);
+
+  // 💰 财务自律：日均预算（月收入80%/天数）内支出；无支出=满分；当月无收入=中性
+  const month = dateStr.slice(0,7);
+  const mLedger = ledger.filter(l=>l.record_date && l.record_date.slice(0,7)===month);
+  const mIncome = mLedger.filter(l=>l.type==='income').reduce((s,l)=>s+l.amount,0);
+  const dayExp = mLedger.filter(l=>l.type==='expense' && l.record_date===dateStr).reduce((s,l)=>s+l.amount,0);
+  const daysInMonth = new Date(+dateStr.slice(0,4), +dateStr.slice(5,7), 0).getDate();
+  let finance;
+  if(dayExp===0){ finance = 100; }
+  else if(mIncome>0){
+    const dailyBudget = Math.max(1, mIncome*0.8/daysInMonth);
+    finance = Math.max(0, Math.round(100 - Math.max(0,(dayExp-dailyBudget))/dailyBudget*50));
+  } else { finance = 60; }
+  if(mLedger.some(l=>l.record_date===dateStr)) finance = Math.min(100, finance+5);
+
+  // 🌈 情绪状态：当日复盘心情×20（无复盘=中性60）
+  const dayReview = reviews.find(r=>r.review_date===dateStr);
+  const mood = (dayReview && dayReview.mood) ? Math.round(dayReview.mood*20) : 60;
+
+  // 🪞 反思深度：复盘40+内容30+灵感30
+  let reflect = 40;
+  if(dayReview){
+    reflect += 40;
+    const len = ((dayReview.went_well||'')+(dayReview.went_wrong||'')+(dayReview.improvement||'')).length;
+    if(len>30) reflect += 30;
+  }
+  const dayInsp = inspirations.filter(i=>(i.created_at||'').slice(0,10)===dateStr).length;
+  if(dayInsp>0) reflect = Math.min(100, reflect+30);
+
+  const total = Math.round((action+focus+self+finance+mood+reflect)/6);
+  return {date:dateStr, action, focus, self, finance, mood, reflect, total};
+}
+// 取某日快照（有缓存则用缓存，缺失实时回算，懒回填）
+async function getGrowthSnapshot(dateStr){
+  const hist = await metaGet('growthHistory') || {v:1, days:{}};
+  if(hist.days[dateStr]) return hist.days[dateStr];
+  const sc = await computeDayScores(dateStr);
+  hist.days[dateStr] = sc;
+  const keys = Object.keys(hist.days).sort();
+  while(keys.length>150) delete hist.days[keys.shift()];
+  await metaSet('growthHistory', hist);
+  return sc;
+}
+// 周均值（startDate=周一；未来日期跳过）
+async function weekAvg(startDate){
+  const sum = {action:0,focus:0,self:0,finance:0,mood:0,reflect:0,total:0};
+  let cnt = 0;
+  const today = localDate();
+  for(let i=0;i<7;i++){
+    const d = addDays(startDate, i);
+    if(d>today) break;
+    const s = await getGrowthSnapshot(d);
+    sum.action+=s.action; sum.focus+=s.focus; sum.self+=s.self;
+    sum.finance+=s.finance; sum.mood+=s.mood; sum.reflect+=s.reflect;
+    sum.total+=s.total; cnt++;
+  }
+  if(cnt===0) return null;
+  const avg = {total: Math.round(sum.total/cnt)};
+  for(const k of ['action','focus','self','finance','mood','reflect']) avg[k] = Math.round(sum[k]/cnt);
+  return avg;
+}
+// 里程碑等级：青铜≥5天60 / 白银≥14天70 / 黄金≥30天80
+async function getGrowthLevel(){
+  const hist = await metaGet('growthHistory') || {days:{}};
+  const calc = thr => {
+    let streak=0, max=0, d=localDate();
+    for(let i=0;i<150;i++){
+      const s = hist.days[d];
+      if(s && s.total>=thr){ streak++; if(streak>max) max=streak; } else streak=0;
+      d = addDays(d,-1);
+    }
+    return max;
+  };
+  const bronze=calc(60), silver=calc(70), gold=calc(80);
+  if(gold>=30) return {level:'gold', name:'黄金', color:'#E8B73C', cur:gold, next:null, need:0, icon:'🥇'};
+  if(silver>=14) return {level:'silver', name:'白银', color:'#9EA7B3', cur:silver, next:'黄金', need:30, icon:'🥈'};
+  if(bronze>=5) return {level:'bronze', name:'青铜', color:'#B08D57', cur:bronze, next:'白银', need:14, icon:'🥉'};
+  return {level:'none', name:'起步', color:'var(--text-4)', cur:bronze, next:'青铜', need:5, icon:'🌱'};
+}
+// 个人纪录（只升不降，破纪录标记 🎉）
+async function computeGrowthPRs(){
+  const checkins = await dbAll('checkins');
+  const reviews = await dbAll('reviews');
+  const streakOf = arr => {
+    const days = [...new Set(arr)].sort();
+    let best=0, cur=0, end=null;
+    for(let i=0;i<days.length;i++){
+      cur = (i>0 && addDays(days[i-1],1)===days[i]) ? cur+1 : 1;
+      if(cur>best){ best=cur; end=days[i]; }
+    }
+    return {v:best, at:end};
+  };
+  const cStreak = streakOf(checkins.map(c=>c.checkin_date).filter(Boolean));
+  const rStreak = streakOf(reviews.map(r=>r.review_date).filter(Boolean));
+  const byDay = {};
+  for(const c of checkins){ if(c.checkin_date) byDay[c.checkin_date] = (byDay[c.checkin_date]||0)+(c.hours||1); }
+  let fBest=0, fDay=null;
+  for(const [d,h] of Object.entries(byDay)){ if(h>fBest){ fBest=h; fDay=d; } }
+  const cur = {streak:cStreak, reviewStreak:rStreak, focusDay:{v:Math.round(fBest*10)/10, at:fDay}};
+  const old = await metaGet('growthPRs') || {};
+  const out = {};
+  for(const k of Object.keys(cur)){
+    const ov = (old[k] && old[k].v) || 0;
+    const nv = cur[k].v || 0;
+    if(nv>ov){ out[k] = {...cur[k], _new:true}; }
+    else out[k] = old[k] || cur[k];
+  }
+  await metaSet('growthPRs', out);
+  return out;
+}
+// 下滑预警：某维连续4天递减（含今天）
+async function computeGrowthAlerts(){
+  const hist = await metaGet('growthHistory') || {days:{}};
+  const alerts = [];
+  for(const k of GROWTH_DIMS.map(d=>d.key)){
+    const vals = [];
+    for(let i=0;i<4;i++){
+      const s = hist.days[addDays(localDate(), -i)];
+      if(s && s[k]!=null) vals.push(s[k]);
+    }
+    if(vals.length>=4 && vals[0]<vals[1] && vals[1]<vals[2] && vals[2]<vals[3]){
+      alerts.push({dim:k, from:vals[3], to:vals[0]});
+    }
+  }
+  return alerts;
+}
+// 目标绑定（缺点修复引导）
+async function getGrowthGoals(){ return await metaGet('growthGoals') || []; }
+async function addGrowthGoal(){
+  const dim = $('#growthGoalDim').value;
+  const target = Math.min(95, Math.max(40, parseInt($('#growthGoalTarget').value)||70));
+  const goals = await getGrowthGoals();
+  if(goals.some(g=>g.dim===dim)){ toast('该维度已有目标'); return; }
+  goals.push({id: Date.now(), dim, target, createdAt: localDate()});
+  await metaSet('growthGoals', goals);
+  renderGrowthGoals();
+  toast('目标已设定，开始跟踪进步');
+}
+async function removeGrowthGoal(id){
+  const goals = await getGrowthGoals();
+  await metaSet('growthGoals', goals.filter(g=>g.id!==id));
+  renderGrowthGoals();
+  toast('目标已移除');
+}
+async function renderGrowthGoals(){
+  const el = $('#growthGoalList');
+  if(!el) return;
+  const goals = await getGrowthGoals();
+  const thisW = await weekAvg(weekStartOf(localDate()));
+  if(goals.length===0){
+    el.innerHTML = '<div style="font-size:12px;color:var(--text-4)">还没有设定目标。选一个想改掉的缺点，工作台会用对应维度的分数跟踪你的进步。</div>';
+    return;
+  }
+  el.innerHTML = goals.map(g=>{
+    const d = GROWTH_DIMS.find(x=>x.key===g.dim);
+    const cur = (thisW && thisW[g.dim]!=null) ? thisW[g.dim] : 0;
+    const gap = Math.max(0, g.target-cur);
+    const pct = Math.min(100, Math.round(cur/Math.max(1,g.target)*100));
+    return `<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)">
+      <span style="font-size:18px">${d.icon}</span>
+      <div style="flex:1;min-width:0">
+        <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text)">
+          <span>改善「${d.name}」 <span style="color:var(--text-4)">目标 ${g.target} 分</span></span>
+          <span style="font-weight:700;color:${d.color}">${cur} 分</span>
+        </div>
+        <div style="height:6px;border-radius:3px;background:var(--bg-2);overflow:hidden;margin-top:4px">
+          <div style="height:100%;width:${pct}%;border-radius:3px;background:${d.color}"></div>
+        </div>
+        <div style="font-size:10.5px;color:var(--text-4);margin-top:2px">${gap<=0?'🎉 已达到目标！':`还差 ${gap} 分达标`}</div>
+      </div>
+      <button class="btn-secondary" style="flex-shrink:0;padding:4px 10px;font-size:11px" onclick="removeGrowthGoal(${g.id})">移除</button>
+    </div>`;
+  }).join('');
+}
+// 六维卡片渲染
+function renderGrowthDims(thisW, lastW){
+  const el = $('#growthDims');
+  if(!el) return;
+  el.innerHTML = GROWTH_DIMS.map(d=>{
+    const v = thisW ? thisW[d.key] : 0;
+    const lv = (lastW && lastW[d.key]!=null) ? lastW[d.key] : null;
+    const deltaHtml = (lv==null)
+      ? '<span>暂无上周</span>'
+      : (v>=lv ? `<span style="color:#10b981">▲ +${v-lv}</span>` : `<span style="color:#ef4444">▼ ${v-lv}</span>`);
+    return `<div class="card-base" style="padding:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <span style="font-size:13px;font-weight:600;color:var(--text)">${d.icon} ${d.name}</span>
+        <span style="font-size:16px;font-weight:800;color:${d.color}">${v}</span>
+      </div>
+      <div style="height:6px;border-radius:3px;background:var(--bg-2);overflow:hidden;margin-bottom:4px">
+        <div style="height:100%;width:${v}%;border-radius:3px;background:${d.color};transition:width 1s var(--ease-out-quart)"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--text-4)">
+        <span>${d.desc}</span>${deltaHtml}
+      </div>
+    </div>`;
+  }).join('');
+}
+// 六维雷达图（Canvas 手绘，内圈虚线=上周）
+function drawGrowthRadar(thisW, lastW){
+  const cv = document.getElementById('growthRadar');
+  if(!cv || !thisW) return;
+  const dpr = window.devicePixelRatio||1;
+  const cssW = cv.clientWidth || 320;
+  const cssH = cssW;
+  cv.width = cssW*dpr; cv.height = cssH*dpr;
+  const ctx = cv.getContext('2d');
+  ctx.scale(dpr,dpr);
+  const cx=cssW/2, cy=cssH/2, R=Math.min(cssW,cssH)/2-26, N=GROWTH_DIMS.length;
+  const ang = i => -Math.PI/2 + i*2*Math.PI/N;
+  const pt = (i,r)=>[cx+r*Math.cos(ang(i)), cy+r*Math.sin(ang(i))];
+  const cs = getComputedStyle(document.body);
+  const lineC = cs.getPropertyValue('--line').trim() || '#e5e7eb';
+  const textC = cs.getPropertyValue('--text-3').trim() || '#6b7280';
+  ctx.clearRect(0,0,cssW,cssH);
+  for(let g=1;g<=4;g++){
+    const r=R*g/4;
+    ctx.beginPath();
+    for(let i=0;i<=N;i++){ const [x,y]=pt(i%N,r); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+    ctx.strokeStyle=lineC; ctx.lineWidth=1; ctx.stroke();
+  }
+  for(let i=0;i<N;i++){
+    const [x,y]=pt(i,R);
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(x,y); ctx.strokeStyle=lineC; ctx.stroke();
+    const [lx,ly]=pt(i,R+15);
+    ctx.fillStyle=textC; ctx.font='11px sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+    ctx.fillText(GROWTH_DIMS[i].name, lx, ly);
+  }
+  if(lastW){
+    ctx.beginPath();
+    for(let i=0;i<=N;i++){ const [x,y]=pt(i%N, R*(lastW[GROWTH_DIMS[i%N].key]||0)/100); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+    ctx.closePath();
+    ctx.fillStyle='rgba(148,163,184,.15)'; ctx.fill();
+    ctx.strokeStyle='#94a3b8'; ctx.lineWidth=1.5; ctx.setLineDash([4,4]); ctx.stroke(); ctx.setLineDash([]);
+  }
+  ctx.beginPath();
+  for(let i=0;i<=N;i++){ const [x,y]=pt(i%N, R*(thisW[GROWTH_DIMS[i%N].key]||0)/100); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); }
+  ctx.closePath();
+  ctx.fillStyle='rgba(99,102,241,.15)'; ctx.fill();
+  ctx.strokeStyle='#6366f1'; ctx.lineWidth=2; ctx.stroke();
+  for(let i=0;i<N;i++){
+    const [x,y]=pt(i, R*(thisW[GROWTH_DIMS[i].key]||0)/100);
+    ctx.beginPath(); ctx.arc(x,y,2.5,0,Math.PI*2); ctx.fillStyle='#6366f1'; ctx.fill();
+  }
+}
+// 成长页主加载
+async function loadGrowth(){
+  try{
+    await getGrowthSnapshot(localDate());
+    const wStart = weekStartOf(localDate());
+    const thisW = await weekAvg(wStart);
+    const lastW = await weekAvg(addDays(wStart,-7));
+
+    const fill = $('#growthTotalFill');
+    if(fill) fill.style.width = (thisW?thisW.total:0)+'%';
+    const tt = $('#growthTotalText');
+    if(tt) tt.textContent = thisW ? `本周均值 ${thisW.total} 分` : '暂无数据，开始使用后生成';
+    const td = $('#growthTotalDelta');
+    if(td){
+      td.innerHTML = (thisW && lastW)
+        ? (thisW.total>=lastW.total
+          ? `<span style="color:#10b981">▲ 比上周 +${thisW.total-lastW.total} 分</span>`
+          : `<span style="color:#ef4444">▼ 比上周 ${thisW.total-lastW.total} 分</span>`)
+        : '';
+    }
+
+    const lv = await getGrowthLevel();
+    const lb = $('#growthLevelBadge');
+    if(lb){
+      lb.textContent = `${lv.icon} ${lv.name}${lv.next?` · 距${lv.next}还差 ${Math.max(0,lv.need-lv.cur)} 天达标`:''}`;
+      lb.style.background = lv.level==='none' ? 'var(--bg-2)' : lv.color;
+      lb.style.color = '#fff';
+    }
+    const ms = $('#growthMilestones');
+    if(ms){
+      ms.innerHTML = [
+        ['🥉 青铜','连续 5 天 ≥60 分'],['🥈 白银','连续 14 天 ≥70 分'],['🥇 黄金','连续 30 天 ≥80 分']
+      ].map(([n,d])=>`<span style="font-size:11px;padding:4px 10px;border-radius:16px;background:var(--bg-2);color:var(--text-3)">${n} ${d}</span>`).join('');
+    }
+
+    renderGrowthDims(thisW, lastW);
+    drawGrowthRadar(thisW, lastW);
+
+    const prs = await computeGrowthPRs();
+    const prEl = $('#growthPRs');
+    if(prEl){
+      const line = (icon, v, at, unit, label) => v>0
+        ? `${icon} 最长连续${label} <b>${v} ${unit}</b>（${at||''}）${prs.streak&&prs.streak._new&&label==='打卡'?' <span style="color:#f59e0b">🎉 新纪录！</span>':''}` : null;
+      const lines = [];
+      lines.push(prs.streak&&prs.streak.v>0 ? `🔥 最长连续打卡 <b>${prs.streak.v} 天</b>（${prs.streak.at||''}）${prs.streak._new?' <span style="color:#f59e0b">🎉 新纪录！</span>':''}` : '🔥 打卡纪录：暂无');
+      lines.push(prs.reviewStreak&&prs.reviewStreak.v>0 ? `🪞 最长连续复盘 <b>${prs.reviewStreak.v} 天</b>（${prs.reviewStreak.at||''}）${prs.reviewStreak._new?' <span style="color:#f59e0b">🎉 新纪录！</span>':''}` : '🪞 复盘纪录：暂无');
+      lines.push(prs.focusDay&&prs.focusDay.v>0 ? `🎯 单日专注最长 <b>${prs.focusDay.v} 小时</b>（${prs.focusDay.at||''}）${prs.focusDay._new?' <span style="color:#f59e0b">🎉 新纪录！</span>':''}` : '🎯 专注纪录：暂无');
+      prEl.innerHTML = lines.join('<br>');
+    }
+
+    const alerts = await computeGrowthAlerts();
+    const ac = $('#growthAlertCard'), ae = $('#growthAlerts');
+    if(ac && ae){
+      if(alerts.length){
+        ac.style.display = '';
+        ae.innerHTML = alerts.map(a=>{
+          const d = GROWTH_DIMS.find(x=>x.key===a.dim);
+          return `${d.icon} <b>${d.name}</b> 连续 3 天下滑（${a.from} → ${a.to}），<span style="color:var(--text-4)">可以看看哪里出了问题</span>`;
+        }).join('<br>');
+      } else ac.style.display = 'none';
+    }
+
+    await renderGrowthGoals();
+
+    const wm = await metaGet('growthWeekly') || {};
+    const wd = wm[wStart];
+    const ws = $('#growthWeeklyStatus');
+    if(ws){
+      if(new Date().getDay()===0 && !wd) ws.innerHTML = '📌 今天是周日，本周成长周报还没生成，点下面按钮生成你的本周洞察 👇';
+      else if(wd) ws.innerHTML = `✅ 本周周报已生成（${wd.ai?'AI 文案版':'数据版'}）· ${new Date(wd.at).toLocaleString()}，点下方按钮重新查看`;
+      else ws.innerHTML = '本周暂无周报，随时可以生成（每周日会自动提醒）';
+    }
+  }catch(e){ console.error('growth error', e); }
+}
+// 周报 HTML（本地数据版模板）
+function buildGrowthReportHtml(thisW, lastW, prs, alerts, goals){
+  const dimRows = GROWTH_DIMS.map(d=>{
+    const v = thisW?thisW[d.key]:0;
+    const lv = (lastW && lastW[d.key]!=null) ? lastW[d.key] : null;
+    const dv = (lv==null) ? '—' : (v>=lv?`▲ +${v-lv}`:`▼ ${v-lv}`);
+    return `<tr><td style="padding:7px 4px;color:#555">${d.icon} ${d.name}</td><td style="text-align:right;padding:7px 4px;font-weight:700;color:#0A2540">${v}</td><td style="text-align:right;padding:7px 4px;color:${lv==null?'#999':(v>=lv?'#059669':'#DC2626')}">${dv}</td></tr>`;
+  }).join('');
+  const prLines = [
+    prs.streak&&prs.streak.v>0?`最长连续打卡 ${prs.streak.v} 天`:null,
+    prs.reviewStreak&&prs.reviewStreak.v>0?`最长连续复盘 ${prs.reviewStreak.v} 天`:null,
+    prs.focusDay&&prs.focusDay.v>0?`单日专注最长 ${prs.focusDay.v} 小时`:null
+  ].filter(Boolean).join(' · ') || '暂无纪录';
+  const alertLines = alerts.length
+    ? alerts.map(a=>{ const d=GROWTH_DIMS.find(x=>x.key===a.dim); return `${d.icon}${d.name} 连续 3 天下滑（${a.from}→${a.to}）`; }).join('<br>')
+    : '本周没有明显下滑维度，状态稳定 👍';
+  const goalLines = goals.length
+    ? goals.map(g=>{ const d=GROWTH_DIMS.find(x=>x.key===g.dim); const cur=thisW?thisW[g.dim]:0; return `${d.icon}${d.name}：${cur}/${g.target} 分${cur>=g.target?' ✅':''}`; }).join('<br>')
+    : '未设定改进目标';
+  const sorted = GROWTH_DIMS.map(d=>({d, v:thisW?thisW[d.key]:0})).sort((a,b)=>a.v-b.v);
+  const best = sorted[sorted.length-1], worst = sorted[0];
+  const advice = `下周建议：继续巩固「${best.d.name}」的优势（本周 ${best.v} 分）；重点关注「${worst.d.name}」（本周 ${worst.v} 分）——试着每天完成一件相关的小行动，下周日再来看变化。`;
+  return `<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif;padding:24px;color:#0F1B2D">
+    <h1 style="text-align:center;color:#0A2540;margin-bottom:4px">📈 本周成长周报</h1>
+    <p style="text-align:center;color:#888;font-size:13px;margin-bottom:24px">Lan工作台 · ${weekStartOf(localDate())} ~ ${localDate()}</p>
+    <div style="padding:14px;background:#F1F5F9;border-radius:10px;text-align:center;margin-bottom:20px">
+      <div style="font-size:34px;font-weight:800;color:#6366F1">${thisW?thisW.total:0}<span style="font-size:14px;color:#888;font-weight:400"> / 100</span></div>
+      <div style="font-size:12px;color:#666;margin-top:2px">本周成长总分${lastW?`（上周 ${lastW.total}）`:''}</div>
+    </div>
+    <h2 style="color:#0A2540;font-size:16px;border-left:4px solid #6366F1;padding-left:10px;margin:18px 0 8px">六大维度</h2>
+    <table style="width:100%;border-collapse:collapse;font-size:13px"><tr style="background:#F1F5F9"><th style="text-align:left;padding:8px">维度</th><th style="text-align:right;padding:8px">本周</th><th style="text-align:right;padding:8px">较上周</th></tr>${dimRows}</table>
+    <h2 style="color:#0A2540;font-size:16px;border-left:4px solid #C7A84B;padding-left:10px;margin:18px 0 8px">个人纪录</h2>
+    <div style="font-size:13px;color:#444;line-height:1.9">${prLines}</div>
+    <h2 style="color:#0A2540;font-size:16px;border-left:4px solid #DC2626;padding-left:10px;margin:18px 0 8px">下滑提醒</h2>
+    <div style="font-size:13px;color:#444;line-height:1.9">${alertLines}</div>
+    <h2 style="color:#0A2540;font-size:16px;border-left:4px solid #10B981;padding-left:10px;margin:18px 0 8px">改进目标</h2>
+    <div style="font-size:13px;color:#444;line-height:1.9">${goalLines}</div>
+    <div style="margin-top:18px;padding:12px;background:#EEF2FF;border-radius:8px;font-size:13px;color:#3730A3;line-height:1.7">💡 ${advice}</div>
+    <p style="text-align:center;color:#999;font-size:11px;margin-top:28px">—— Lan工作台 · 努力看得见 ——</p>
+  </div>`;
+}
+// 生成周报：本地模板 + AI 文案升级（有 key 且有额度时）
+async function generateGrowthReport(){
+  const wStart = weekStartOf(localDate());
+  const wm = await metaGet('growthWeekly') || {};
+  const wd = wm[wStart];
+  if(wd){ showGrowthReport(wd); return; }
+  toast('正在生成周报…');
+  try{
+    const thisW = await weekAvg(wStart);
+    const lastW = await weekAvg(addDays(wStart,-7));
+    const prs = await computeGrowthPRs();
+    const alerts = await computeGrowthAlerts();
+    const goals = await getGrowthGoals();
+    let html = buildGrowthReportHtml(thisW, lastW, prs, alerts, goals);
+    let ai = false;
+    const hasKey = !!localStorage.getItem(LAN_KEY_STORE);
+    if(hasKey){
+      try{
+        const dataLines = GROWTH_DIMS.map(d=>`${d.name}:${thisW?thisW[d.key]:0}分${lastW&&lastW[d.key]!=null?`（上周${lastW[d.key]}）`:''}`).join('，');
+        const txt = await lanAsk(`你是用户的生活成长教练。根据以下本周真实数据，写一段 150~250 字的中文周报文案：先一句话总结本周状态，然后指出 1 个亮点、1 个需要注意的问题，最后给出下周 1 个具体可执行的小建议。语气温暖但诚实，不用客套话：\n数据：${dataLines}\n总分：${thisW?thisW.total:0}（上周 ${lastW?lastW.total:'无'}）\n下滑维度：${alerts.map(a=>a.dim).join('、')||'无'}\n个人纪录：${prs.streak&&prs.streak.v>0?'连续打卡'+prs.streak.v+'天':''}${prs.reviewStreak&&prs.reviewStreak.v>0?'，连续复盘'+prs.reviewStreak.v+'天':''}`);
+        if(txt && txt.trim().length>10){
+          html = `<div style="font-family:PingFang SC,Microsoft YaHei,sans-serif;padding:24px;color:#0F1B2D">
+            <h1 style="text-align:center;color:#0A2540;margin-bottom:4px">📈 本周成长周报</h1>
+            <p style="text-align:center;color:#888;font-size:13px;margin-bottom:20px">Lan工作台 · ${wStart} ~ ${localDate()} · AI 文案版</p>
+            <div style="line-height:2;font-size:14px;color:#333;white-space:pre-wrap">${txt.replace(/</g,'&lt;')}</div>
+            <p style="text-align:center;color:#999;font-size:11px;margin-top:28px">—— Lan工作台 · 努力看得见 ——</p>
+          </div>`;
+          ai = true;
+        }
+      }catch(e){ /* AI 失败降级本地模板 */ }
+    }
+    wm[wStart] = {html, ai, at: Date.now(), week: wStart};
+    await metaSet('growthWeekly', wm);
+    showGrowthReport(wm[wStart]);
+    toast(ai ? '周报已生成（AI 文案版）' : '周报已生成（数据版）');
+  }catch(e){ toast('生成失败'); console.error(e); }
+}
+function showGrowthReport(wd){
+  if(!wd) return;
+  const pro = isPro();
+  const printBtn = pro
+    ? `<div style="text-align:center;margin-top:18px"><button class="btn-primary" onclick="printGrowthReport()" style="width:100%">打印 / 另存为 PDF</button></div>`
+    : `<div style="text-align:center;margin-top:14px;font-size:12px;color:var(--text-4)">报告仅支持在线查看 · 导出为 PRO 权益</div>`;
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">成长周报</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div id="growthReportBody" style="font-size:13px">${wd.html}</div>
+    ${printBtn}
+  `);
+}
+function printGrowthReport(){
+  const body = document.getElementById('growthReportBody');
+  if(body) printToPDF(body.innerHTML);
 }
 
 function printToPDF(html){
