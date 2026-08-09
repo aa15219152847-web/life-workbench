@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-08-09 04:48",
+ "updated_at": "2026-08-09 08:25",
  "ai": [
+  {
+   "category": "ai",
+   "title": "李开复：AI 时代人的优势在“右脑”，可以做出数据不能预测的事情",
+   "summary": "",
+   "link": "https://www.ithome.com/0/987/554.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "Meta CTO：AI 省下的时间，不是用来休假的",
@@ -152,17 +160,49 @@
    "link": "https://www.ithome.com/0/986/869.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "GPT-5 上线 1 周年之际：OpenAI 面向 AI 智能体推出 Agent Plugins 规范",
-   "summary": "",
-   "link": "https://www.ithome.com/0/986/816.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
+  {
+   "category": "finance",
+   "title": "伊朗外长再重申目前未与美国谈判",
+   "summary": "伊朗外长阿拉格齐今天（8月9日）表示，目前伊朗与美国之间没有进行任何谈判，但斡旋方仍在努力寻找恢复谈判的途径。伊朗认为，在美国就此前违反相关承诺的行为作出弥补之前，不具备重新启动谈判的条件。（CCTV国际时讯）",
+   "link": "https://wallstreetcn.com/news/global/3147062",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-09 08:23"
+  },
+  {
+   "category": "finance",
+   "title": "苹果回应删除接入千问手册：没收到通知，中国大陆还没推出“Apple智能使用千问”功能",
+   "summary": "针对删除《在Mac上配合Apple智能使用千问》使用文档一事，苹果客服最新回应称：“我们有功能或新项目发布时，都会提前收到通知，目前并没有收到相关通知，中国大陆还没推出‘Apple智能使用千问’相关功能。”昨日，一篇名为《在Mac上配合Apple智能使用千问》的支持文档现身苹果官网Mac简体中文使用手册，明确提到Apple智能可配合阿里巴巴千问模型工作。但该文发布不到24小时后被苹果方面删除。今年",
+   "link": "https://wallstreetcn.com/news/global/3147061",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-09 08:13"
+  },
+  {
+   "category": "finance",
+   "title": "药明康德：美国地区法院批准公司初步禁令，禁止美国国防部执行或实施1260H认定",
+   "summary": "公司于2026年6月12日发布了《自愿性公告》，就美国国防部将药明康德列入国防部1260H名单的认定提起诉讼。继公司于2026年6月11日对国防部提起诉讼后，公司于2026年6月29日向美国哥伦比亚特区联邦地区法院提出了初步禁令动议，寻求禁止国防部执行、实施1260H认定或依据1260H认定采取任何其他行动。 美国时间2026年8月7日，法院就公司的初步禁令动议作出了裁决。公司对法院批准公司所申请",
+   "link": "https://wallstreetcn.com/news/global/3147057",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-09 07:43"
+  },
+  {
+   "category": "finance",
+   "title": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。",
+   "summary": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。",
+   "link": "https://wallstreetcn.com/news/global/3147055",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-09 07:37"
+  },
+  {
+   "category": "finance",
+   "title": "摩尔线程：上半年净亏损1156.3万元，较上年同期收窄2.59亿元",
+   "summary": "上半年，公司实现营业收入17.36亿元，较上年同期增长147.42%。公司毛利总额达到9.89亿元，较上年同期增长103.78%。整体毛利率水平达到56.95%。归属于上市公司股东的净利润-1156.31万元，亏损金额较上年同期收窄2.59亿元，收窄比例达95.73%。 归属于上市公司股东的扣除非经常性损益后的净利润-1.51亿元，亏损金额较上年同期收窄1.66亿元，收窄比例达52.37%。",
+   "link": "https://wallstreetcn.com/news/global/3147054",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-09 07:36"
+  },
   {
    "category": "finance",
    "title": "苹果官网已删除Apple智能接入阿里千问页面",
@@ -274,22 +314,6 @@
    "link": "https://wallstreetcn.com/news/global/3147026",
    "source": "华尔街见闻",
    "published_at": "2026-08-08 14:41"
-  },
-  {
-   "category": "finance",
-   "title": "美参议院通过临时拨款法案，暂缓政府“停摆”风险",
-   "summary": "美国国会参议院8日通过一项联邦政府临时拨款法案，以避免联邦政府在现行预算到期后“停摆”。 美国参议院以90票赞成、6票反对的结果通过这一拨款法案，以让大部分联邦政府机构在当前资金支持水平下运转至12月11日。",
-   "link": "https://wallstreetcn.com/news/global/3147025",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-08 14:29"
-  },
-  {
-   "category": "finance",
-   "title": "一船只在阿曼以东海域遭袭起火",
-   "summary": "英国海上贸易行动办公室（UKMTO）当地时间8日收到报告称，阿曼海塞卜以东18海里处发生一起突发事件。经核实的消息来源报告称，一艘船只遭“不明投射物”击中并引发火灾，目前火势已被扑灭。消息称船员均安全。有关部门正在对事件展开调查。英国海上贸易行动办公室建议过往船只谨慎航行。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3147020",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-08 13:46"
   }
  ]
 }
