@@ -306,6 +306,13 @@ a{color:inherit;text-decoration:none}
   flex-shrink:0;
   gap:12px;
 }
+/* 顶部账号区（登录/注册入口） */
+.auth-zone{
+  display:flex;align-items:center;gap:8px;flex-shrink:0;
+}
+@media (max-width:640px){
+  .auth-zone .auth-username{display:none}
+}
 /* 抽屉遮罩（默认隐藏，仅移动端显示） */
 .sidebar-backdrop{display:none}
 .topbar-titles{
@@ -1767,6 +1774,8 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
       <h1 id="hdrTitle">Lan 智能体</h1>
       <div class="date" id="hdrDate"></div>
     </div>
+    <!-- 账号区（登录/注册入口，桌面端显示） -->
+    <div class="auth-zone" id="authZone"></div>
     <!-- 移动端头像+等级（桌面端隐藏） -->
     <div class="topbar-user" id="topbarUser" style="display:none;align-items:center;gap:10px;flex-shrink:0">
       <div class="level-badge" id="mLevelBadge" style="width:34px;height:34px;font-size:13px">1</div>
@@ -2404,11 +2413,11 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         </div>
       </div>
 
-      <!-- 云同步：同步码 AES-GCM 加密备份 -->
+      <!-- 云同步：登录 + 同步码 AES-GCM 加密备份 -->
       <div class="card-base" style="padding:16px;margin-bottom:16px">
         <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:10px">云同步（换设备不丢数据）</div>
         <div style="font-size:12.5px;color:var(--text-3);line-height:1.6;margin-bottom:14px">
-          设置一个同步码（≥8位），把全部数据<b>加密</b>后上传到云端。换设备时输入同一个同步码即可恢复。数据只认同步码，云端无法查看内容。
+          所有用户统一登录后使用。设置一个同步码（≥8位），把全部数据<b>加密</b>后上传到<b>你的账号</b>云端。换设备登录同一账号、输入同一同步码即可恢复。数据只认同步码，云端无法查看内容。
         </div>
         <div style="max-width:340px">
           <div class="form-group">
@@ -2422,7 +2431,18 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
             <input type="file" id="syncFileInput" accept=".json,.txt" style="display:none" onchange="syncDownload()">
           </div>
         </div>
-        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">云端不可达时自动降级：剪贴板备份 → 下载加密备份文件</div>
+        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">需先登录账号（右上角「登录 / 注册」）。云端地址默认走自定义域名（国内外均可达）；不可达时自动降级：剪贴板备份 → 下载加密备份文件</div>
+        <div style="margin-top:10px;font-size:12px;color:var(--text-3)">
+          <div onclick="toggleSyncAdv()" style="cursor:pointer;user-select:none">▸ 高级：备用云端地址（国内网络直连）</div>
+          <div id="syncAdvBody" style="display:none;margin-top:8px">
+            <input class="form-input" type="text" id="syncEndpointInput" placeholder="https://api.你的域名.com" style="max-width:340px">
+            <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+              <button class="btn-secondary" onclick="applySyncEndpoint(false)">保存备用地址</button>
+              <button class="btn-secondary" onclick="applySyncEndpoint(true)">恢复默认</button>
+            </div>
+            <div style="margin-top:6px;color:var(--text-4);font-size:11.5px">云端地址默认走自定义域名，国内外均可达；如需切换备用地址，在此填写后自动生效，无需改代码。</div>
+          </div>
+        </div>
       </div>
 
       <!-- 自动备份说明 -->
@@ -2711,6 +2731,148 @@ function metaSet(key,value){
 // ============================================================
 const PRO_KEY = 'lan_pro';              // PRO 状态 {expire: timestamp} 存 IndexedDB
 const PRO_TRIAL_DAYS = 0;               // 赠送试用天数（0=不送）
+
+// ============================================================
+// 账号体系 — 统一登录通道（所有用户注册/登录后使用云端能力）
+// 凭据：localStorage 'lan_username' + 'lan_session'（Worker 签发的会话 token）
+// 密码只在本机 PBKDF2 派生为哈希后传输，云端不落明文
+// ============================================================
+const AUTH_USER_KEY = 'lan_username';
+const AUTH_TOKEN_KEY = 'lan_session';
+const AUTH_ITERATIONS = 200000;   // PBKDF2 迭代次数（与 Worker 默认一致）
+function getUserId(){ try{ const u = localStorage.getItem(AUTH_USER_KEY); return u && u.trim() ? u.trim() : null; }catch(e){ return null; } }
+function getSession(){ try{ const t = localStorage.getItem(AUTH_TOKEN_KEY); return t && t.trim() ? t.trim() : null; }catch(e){ return null; } }
+// 密码派生：PBKDF2(SHA-256)，盐 = username:salt（用户名参与，避免跨用户哈希雷同）
+async function derivePasswordHash(username, password, salt, iterations){
+  const enc = new TextEncoder();
+  const base = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveBits']);
+  const bits = await crypto.subtle.deriveBits({name:'PBKDF2', salt: enc.encode(username + ':' + salt), iterations: iterations || AUTH_ITERATIONS, hash:'SHA-256'}, base, 256);
+  return Array.from(new Uint8Array(bits)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+// 云端 POST 助手（复用 12s 超时通道）
+async function authPost(body){
+  const ep = getSyncEndpoint();
+  if(!ep) return null;
+  try{ return await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)}); }
+  catch(e){ return null; }
+}
+// 顶部账号区渲染
+function renderAuthUI(){
+  const zone = document.getElementById('authZone');
+  if(!zone) return;
+  const u = getUserId();
+  if(u){
+    zone.innerHTML = `
+      <div style="display:flex;align-items:center;gap:8px;background:rgba(127,127,127,.08);border:1px solid var(--line);border-radius:20px;padding:5px 6px 5px 12px">
+        <span class="auth-username" style="font-size:12.5px;color:var(--text);font-weight:600">👤 ${escapeHtml(u)}</span>
+        <button class="btn-secondary" style="padding:3px 10px;font-size:12px" onclick="doLogout()">退出</button>
+      </div>`;
+  }else{
+    zone.innerHTML = `<button class="btn-secondary" style="padding:6px 14px;font-size:13px" onclick="openAuthModal('login')">登录 / 注册</button>`;
+  }
+}
+// 登录/注册 Modal
+function openAuthModal(mode){
+  const isReg = mode === 'register';
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">${isReg ? '注册账号' : '登录'}</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text-3);line-height:1.7;margin-bottom:12px">
+      ${isReg ? '注册后自动登录。' : '登录后'}可使用<b>云同步</b>（多设备加密备份）等云端能力。密码仅在本机派生为哈希后上传，云端不存明文。
+    </div>
+    <div class="form-group"><label>用户名</label><input class="form-input" type="text" id="authUser" placeholder="3-32位：字母/数字/下划线" autocomplete="username"></div>
+    <div class="form-group"><label>密码</label><input class="form-input" type="password" id="authPass" placeholder="${isReg ? '至少 8 位' : '输入密码'}" autocomplete="${isReg ? 'new-password' : 'current-password'}"></div>
+    <button class="btn-primary" style="width:100%" onclick="doAuth('${isReg ? 'register' : 'login'}')">${isReg ? '注册并登录' : '登录'}</button>
+    <div style="font-size:12px;color:var(--text-3);margin-top:12px;text-align:center;line-height:2">
+      ${isReg ? '已有账号？<a href="javascript:openAuthModal(\'login\')" style="color:var(--primary)">去登录</a>'
+              : '还没有账号？<a href="javascript:openAuthModal(\'register\')" style="color:var(--primary)">免费注册</a>'}
+      <br><a href="javascript:openPrivacyModal()" style="color:var(--text-4)">隐私政策</a>
+    </div>
+  `);
+  setTimeout(()=>{ const i = document.getElementById('authUser'); if(i) i.focus(); }, 50);
+}
+// 注册 / 登录主流程
+async function doAuth(mode){
+  const u = document.getElementById('authUser')?.value.trim();
+  const p = document.getElementById('authPass')?.value;
+  if(!u || !/^[A-Za-z0-9_]{3,32}$/.test(u)){ toast('用户名需 3-32 位字母/数字/下划线'); return; }
+  if(!p){ toast('请输入密码'); return; }
+  if(mode === 'register' && p.length < 8){ toast('密码至少 8 位'); return; }
+  const btn = document.querySelector('#modal-root .btn-primary') || document.querySelector('.modal .btn-primary');
+  if(btn){ btn.disabled = true; btn.textContent = mode === 'register' ? '注册中…' : '登录中…'; }
+  try{
+    if(mode === 'register'){
+      // 注册：前端生成随机盐并派生
+      const salt = btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(16)))).replace(/=+$/, '');
+      const hash = await derivePasswordHash(u, p, salt, AUTH_ITERATIONS);
+      const r = await authPost({action:'register', username:u, salt, hash, iterations:AUTH_ITERATIONS});
+      if(!r) return toast('无法连接云端，请检查网络');
+      const j = await r.json().catch(()=>({ok:false, error:'bad response'}));
+      if(!j.ok) return toast(j.error === 'username_taken' ? '该用户名已被注册，请直接登录' : ('注册失败：' + (j.error || '')));
+      localStorage.setItem(AUTH_USER_KEY, u);
+      if(j.token) localStorage.setItem(AUTH_TOKEN_KEY, j.token);
+      closeModal(); renderAuthUI(); renderProUI();
+      toast('注册成功，欢迎使用 Lan 工作台');
+    }else{
+      // 登录：取盐 → 派生 → 登录
+      const r0 = await authPost({action:'getsalt', username:u});
+      if(!r0) return toast('无法连接云端，请检查网络');
+      const g = await r0.json().catch(()=>({ok:false}));
+      if(!g.ok) return toast('云端异常：' + (g.error || ''));
+      const hash = await derivePasswordHash(u, p, g.salt, g.iterations || AUTH_ITERATIONS);
+      const r = await authPost({action:'login', username:u, hash});
+      if(!r) return toast('无法连接云端，请检查网络');
+      const j = await r.json().catch(()=>({ok:false, error:'bad response'}));
+      if(!j.ok) return toast(j.error === 'auth_failed' ? '用户名或密码错误' : ('登录失败：' + (j.error || '')));
+      localStorage.setItem(AUTH_USER_KEY, u);
+      if(j.token) localStorage.setItem(AUTH_TOKEN_KEY, j.token);
+      closeModal(); renderAuthUI(); renderProUI();
+      toast('登录成功，欢迎回来 ' + u);
+    }
+  }finally{
+    if(btn){ btn.disabled = false; btn.textContent = mode === 'register' ? '注册并登录' : '登录'; }
+  }
+}
+function doLogout(){
+  localStorage.removeItem(AUTH_USER_KEY);
+  localStorage.removeItem(AUTH_TOKEN_KEY);
+  renderAuthUI();
+  toast('已退出登录（云端备份仍保留，重新登录即可恢复）');
+}
+// 隐私政策（合规三件套：数据最小化 + 密码哈希 + 政策页）
+function openPrivacyModal(){
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">隐私政策</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text-2);line-height:1.9;max-height:58vh;overflow:auto;padding-right:4px">
+      <b style="color:var(--text)">一、我们收集什么</b><br>
+      仅收集<b>用户名</b>与<b>密码哈希</b>（PBKDF2-SHA256 派生，20 万次迭代）。云端不存储你的明文密码，也不存储任何工作台内容。<br><br>
+      <b style="color:var(--text)">二、你的数据在哪里</b><br>
+      待办、记账、灵感、复盘等数据默认只保存在<b>本机浏览器</b>（IndexedDB）。只有在你主动点击「加密上传」后，数据才会以 AES-GCM 加密形式备份到云端，云端无法查看内容，解密密钥（同步码）仅你本人持有。<br><br>
+      <b style="color:var(--text)">三、我们如何使用信息</b><br>
+      账号信息仅用于登录验证与按用户隔离的云备份服务，不用于广告，不出售，不共享给任何第三方。<br><br>
+      <b style="color:var(--text)">四、数据保留与删除</b><br>
+      你可以随时在「数据」页删除本机全部数据；删除账号请联系管理员（admin@gameoflifelan.xyz），将一并清除云端账号与加密备份。<br><br>
+      <b style="color:var(--text)">五、未成年人</b><br>
+      本产品面向成年人；未成年人使用需征得监护人同意。<br><br>
+      <b style="color:var(--text)">六、政策更新</b><br>
+      如政策有重大变更，我们会在应用内公告。继续使用即视为接受更新后的政策。<br><br>
+      <div style="font-size:11.5px;color:var(--text-4)">生效日期：2026-08-12 · Lan工作台</div>
+    </div>
+  `);
+}
+
+// Token 包余额（独立预留字段 meta 'tokenPack'，不混入 PRO 月度 aiBalance；方案定稿后接入展示与消费）
+async function addTokenBalance(n){
+  if(!n || n <= 0) return;
+  const b = (await metaGet('tokenPack')) || {};
+  b.tokens = (b.tokens || 0) + n;
+  await metaSet('tokenPack', b);
+}
 const FREE_TRIAL_TOKEN = 150000;        // 免费体验包：注册一次性送 ≈50 次对话
 const PRO_PRICE_MONTH = 29.9;           // PRO 月价（展示用）
 const PRO_PRICE_QUARTER = 69.9;         // PRO 季价（展示用）
@@ -2888,15 +3050,28 @@ async function doRedeem(){
   if(!code){ toast('请输入兑换码'); return; }
   const r = await verifyLicense(code);
   if(!r.ok){ toast(r.msg); return; }
+  const isTokens = r.data.type === 'tokens';
   const months = r.data.months || 12;
+  const codeTokens = r.data.tokens || 0;
   // 云端核销（一次一码）：Worker 可达则按核销结果；不可达/未登记则降级本地激活
   let online = null;
-  if(CLOUD_SYNC_ENDPOINT){
+  const ep = getSyncEndpoint();
+  if(ep){
     try{
-      const resp = await syncFetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'code_activate', code, device: getDeviceId()})});
+      const resp = await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'code_activate', code, device: getDeviceId()})});
       if(resp.ok) online = await resp.json();
     }catch(e){ online = null; }
   }
+  // ---- Token 包码（底座预留：核销后 tokens 计入本地 tokenPack 余额）----
+  if(isTokens){
+    const granted = (online && online.ok && online.tokens) ? online.tokens : codeTokens;
+    if(online && online.error === 'already_used'){ toast('该兑换码已被其他设备使用'); return; }
+    await addTokenBalance(granted);
+    closeModal();
+    toast(`Token 包已到账：+${(granted/10000).toLocaleString()} 万 token`);
+    return;
+  }
+  // ---- PRO 时长码（原逻辑）----
   if(online && online.ok){
     activatePro(months);
     closeModal();
@@ -7187,9 +7362,34 @@ function printMonthlyReport(){
 }
 
 // ============ 云同步：同步码 AES-GCM 加密备份 ============
-const CLOUD_SYNC_ENDPOINT = 'https://lan-workbench-sync.aa15219152847.workers.dev';
+const CLOUD_SYNC_ENDPOINT = 'https://api.gameoflifelan.xyz';
 const SYNC_CODE_KEY = 'sync_code';
 const SYNC_SALT = 'lan-workbench-sync-v1';
+// 云端端点可覆盖：默认 workers.dev（部分网络不可达），可在「数据管理 → 备用云端地址」填入自定义域名后自动生效，无需改代码
+function getSyncEndpoint(){
+  try{ const o = localStorage.getItem('sync_endpoint_override'); if(o && o.trim()) return o.trim(); }catch(e){}
+  return CLOUD_SYNC_ENDPOINT;
+}
+function saveSyncEndpoint(v){
+  try{ localStorage.setItem('sync_endpoint_override', (v||'').trim()); }catch(e){}
+}
+function toggleSyncAdv(){
+  const body = document.getElementById('syncAdvBody');
+  if(!body) return;
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  if(!open){ const i = document.getElementById('syncEndpointInput'); if(i) i.value = getSyncEndpoint(); }
+}
+function applySyncEndpoint(reset){
+  const i = document.getElementById('syncEndpointInput');
+  let v = reset ? '' : (i ? i.value.trim() : '');
+  if(!reset && v && !/^https?:\/\//.test(v)){ toast('地址需以 http(s):// 开头'); return; }
+  saveSyncEndpoint(v);
+  if(i) i.value = getSyncEndpoint();
+  const hint = document.getElementById('syncHint');
+  if(hint) hint.textContent = v ? '已设置备用云端地址：' + v + '（云同步/核销将走该地址）' : '已恢复默认云端地址';
+  toast(reset ? '已恢复默认地址' : '备用地址已保存');
+}
 
 function syncBytesToB64(bytes){
   let bin = '';
@@ -7233,6 +7433,8 @@ async function syncCollect(){
   return {v:2, savedAt:new Date().toISOString(), tables, meta: await dbAll('meta'), proState};
 }
 async function syncUpload(){
+  const uid = getUserId();
+  if(!uid){ toast('请先登录账号（右上角「登录 / 注册」）再使用云同步'); openAuthModal('login'); return; }
   const key = await syncGetKey();
   if(!key) return;
   toast('正在加密上传…');
@@ -7243,9 +7445,11 @@ async function syncUpload(){
     const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, plain);
     const payload = JSON.stringify({iv: syncBytesToB64(iv), data: syncBytesToB64(new Uint8Array(ct)), savedAt: data.savedAt});
     let uploaded = false;
-    if(CLOUD_SYNC_ENDPOINT){
+    const ep = getSyncEndpoint();
+    if(ep){
       try{
-        const r = await syncFetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'put', body: payload})});
+        const r = await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'put', body: payload, token: getSession()})});
+        if(r.status === 401){ toast('登录已失效，请重新登录后再上传'); openAuthModal('login'); return; }
         uploaded = r.ok;
       }catch(e){ uploaded = false; }
     }
@@ -7275,14 +7479,18 @@ async function syncUpload(){
   }catch(e){ toast('加密上传失败: '+e.message); }
 }
 async function syncDownload(){
+  const uid = getUserId();
+  if(!uid){ toast('请先登录账号（右上角「登录 / 注册」）再使用云同步'); openAuthModal('login'); return; }
   const key = await syncGetKey();
   if(!key) return;
   toast('正在连接云端…');
   try{
     let payload = null;
-    if(CLOUD_SYNC_ENDPOINT){
+    const ep = getSyncEndpoint();
+    if(ep){
       try{
-        const r = await syncFetch(CLOUD_SYNC_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'get'})});
+        const r = await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'get', token: getSession()})});
+        if(r.status === 401){ toast('登录已失效，请重新登录后再恢复'); openAuthModal('login'); return; }
         if(r.ok) payload = await r.json();
       }catch(e){ payload = null; }
     }
@@ -8012,9 +8220,10 @@ function registerSW(){
   initLan();
   showLanProactive();
   loadBadges();
-  // 商业化初始化：埋点激活 + PRO 状态渲染
+  // 商业化初始化：埋点激活 + PRO 状态渲染 + 登录态渲染
   trackActivate();
   renderProUI();
+  renderAuthUI();
   renderProductDashboard();
   // 数据变动后自动备份
   setInterval(autoBackup, 60000);
