@@ -922,6 +922,70 @@ body.no-fab .fab{opacity:0;pointer-events:none;transform:scale(.7) translateY(10
 @keyframes splashSlide{from{transform:translateX(-100%)}to{transform:translateX(300%)}}
 
 /* ============================================================
+   全屏登录页（AuthGate）：未登录时整页拦截，一键登录/注册
+   ============================================================ */
+.auth-gate{
+  position:fixed;inset:0;z-index:900;
+  display:flex;align-items:center;justify-content:center;
+  background:
+    radial-gradient(1200px 800px at 18% -8%,rgba(212,175,55,.13),transparent 55%),
+    radial-gradient(900px 700px at 108% 112%,rgba(64,120,255,.11),transparent 52%),
+    var(--bg);
+  transition:opacity .45s ease,visibility .45s;
+  padding:20px;
+}
+.auth-gate.hide{opacity:0;visibility:hidden;pointer-events:none}
+.auth-card{
+  width:min(420px,100%);
+  background:var(--card,#fff);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:36px 32px 24px;
+  box-shadow:0 24px 80px rgba(0,0,0,.16);
+  text-align:center;
+  animation:authIn .5s var(--ease-out) both;
+}
+@keyframes authIn{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+.auth-logo{width:64px;height:64px;border-radius:18px;margin:0 auto 14px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.16)}
+.auth-logo img{width:100%;height:100%;object-fit:cover}
+.auth-title{font-size:22px;font-weight:700;color:var(--text);letter-spacing:.5px}
+.auth-sub{font-size:12.5px;color:var(--text-3);margin:6px 0 22px;line-height:1.7}
+.auth-field{text-align:left;margin-bottom:12px}
+.auth-field label{display:block;font-size:12px;color:var(--text-3);margin-bottom:5px}
+.auth-field input{
+  width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:12px;
+  background:var(--bg,#f6f7f9);color:var(--text);font-size:14px;outline:none;
+  transition:border-color .2s,background .2s;box-sizing:border-box;
+}
+.auth-field input:focus{border-color:var(--accent,#d4af37);background:var(--card,#fff)}
+.auth-btn{
+  width:100%;padding:12px;border:none;border-radius:12px;font-size:15px;font-weight:600;color:#fff;
+  background:linear-gradient(135deg,#d4af37,#b8860b);cursor:pointer;margin-top:6px;
+  transition:opacity .2s,transform .1s;
+}
+.auth-btn:hover{opacity:.92}
+.auth-btn:active{transform:scale(.99)}
+.auth-btn:disabled{opacity:.6;cursor:wait}
+.auth-err{min-height:20px;font-size:12px;color:#dc2626;margin-top:10px;line-height:1.5;white-space:pre-line}
+.auth-foot{font-size:12px;color:var(--text-4);margin-top:18px;line-height:1.9}
+.auth-foot a{color:var(--accent,#d4af37);cursor:pointer;text-decoration:none}
+/* 顶部用户胶囊（点击进个人中心） */
+.user-chip{
+  display:inline-flex;align-items:center;gap:7px;padding:4px 12px 4px 5px;
+  border:1px solid var(--line);border-radius:20px;
+  background:rgba(127,127,127,.08);cursor:pointer;font-size:12.5px;color:var(--text);
+  transition:opacity .2s;
+}
+.user-chip:hover{opacity:.82}
+.user-chip-avatar{
+  width:24px;height:24px;border-radius:50%;
+  background:linear-gradient(135deg,#d4af37,#b8860b);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0;
+}
+.user-chip-name{max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.user-chip-arrow{color:var(--text-3);font-size:10px}
+
+/* ============================================================
    PWA 安装引导
    ============================================================ */
 .pwa-guide{
@@ -1663,6 +1727,30 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
   <div class="splash-title">Lan工作台</div>
   <div class="splash-sub">LAN WORKBENCH</div>
   <div class="splash-bar"></div>
+</div>
+
+<!-- 全屏登录页：未登录时整页拦截；一键登录，没有账号自动注册 -->
+<div class="auth-gate" id="authGate">
+  <div class="auth-card">
+    <div class="auth-logo"><img src="avatar.png" alt="Lan工作台"></div>
+    <div class="auth-title">Lan 工作台</div>
+    <div class="auth-sub">登录即用 · 没有账号自动注册<br>数据加密备份 · 多设备同步</div>
+    <div class="auth-field">
+      <label>用户名</label>
+      <input type="text" id="authUser" placeholder="3-32位：字母/数字/下划线" autocomplete="username">
+    </div>
+    <div class="auth-field">
+      <label>密码</label>
+      <input type="password" id="authPass" placeholder="至少 8 位" autocomplete="new-password" onkeydown="if(event.key==='Enter')doAuthOneTap()">
+    </div>
+    <button class="auth-btn" id="authBtn" onclick="doAuthOneTap()">登录 / 注册</button>
+    <div class="auth-err" id="authErr"></div>
+    <div class="auth-foot">
+      <a onclick="authOffline()">先离线使用</a>
+      &nbsp;·&nbsp;
+      <a onclick="openPrivacyModal()">隐私政策</a>
+    </div>
+  </div>
 </div>
 
 <!-- 侧边栏 -->
@@ -2431,7 +2519,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
             <input type="file" id="syncFileInput" accept=".json,.txt" style="display:none" onchange="syncDownload()">
           </div>
         </div>
-        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">需先登录账号（右上角「登录 / 注册」）。云端地址默认走自定义域名（国内外均可达）；不可达时自动降级：剪贴板备份 → 下载加密备份文件</div>
+        <div class="note" id="syncHint" style="margin-top:10px;font-size:12px;color:var(--text-4)">需先登录账号（打开即是登录页）。云端地址默认走自定义域名（国内外均可达）；不可达时自动降级：剪贴板备份 → 下载加密备份文件</div>
         <div style="margin-top:10px;font-size:12px;color:var(--text-3)">
           <div onclick="toggleSyncAdv()" style="cursor:pointer;user-select:none">▸ 高级：备用云端地址（国内网络直连）</div>
           <div id="syncAdvBody" style="display:none;margin-top:8px">
@@ -2756,90 +2844,149 @@ async function authPost(body){
   try{ return await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)}); }
   catch(e){ return null; }
 }
-// 顶部账号区渲染
+// 顶部账号区渲染：未登录 →「登录」按钮（打开全屏登录）；已登录 → 用户胶囊（点开个人中心）
 function renderAuthUI(){
   const zone = document.getElementById('authZone');
   if(!zone) return;
   const u = getUserId();
   if(u){
     zone.innerHTML = `
-      <div style="display:flex;align-items:center;gap:8px;background:rgba(127,127,127,.08);border:1px solid var(--line);border-radius:20px;padding:5px 6px 5px 12px">
-        <span class="auth-username" style="font-size:12.5px;color:var(--text);font-weight:600">👤 ${escapeHtml(u)}</span>
-        <button class="btn-secondary" style="padding:3px 10px;font-size:12px" onclick="doLogout()">退出</button>
-      </div>`;
+      <button class="user-chip" onclick="openProfileModal()" title="个人中心">
+        <span class="user-chip-avatar">👤</span>
+        <span class="user-chip-name">${escapeHtml(u)}</span>
+        <span class="user-chip-arrow">▾</span>
+      </button>`;
   }else{
-    zone.innerHTML = `<button class="btn-secondary" style="padding:6px 14px;font-size:13px" onclick="openAuthModal('login')">登录 / 注册</button>`;
+    zone.innerHTML = `<button class="btn-secondary" style="padding:6px 14px;font-size:13px" onclick="openAuthGate()">登录</button>`;
   }
 }
-// 登录/注册 Modal
-function openAuthModal(mode){
-  const isReg = mode === 'register';
-  openModal(`
-    <div class="modal-head">
-      <div class="modal-title">${isReg ? '注册账号' : '登录'}</div>
-      <button class="modal-close" onclick="closeModal()">关闭</button>
-    </div>
-    <div style="font-size:12.5px;color:var(--text-3);line-height:1.7;margin-bottom:12px">
-      ${isReg ? '注册后自动登录。' : '登录后'}可使用<b>云同步</b>（多设备加密备份）等云端能力。密码仅在本机派生为哈希后上传，云端不存明文。
-    </div>
-    <div class="form-group"><label>用户名</label><input class="form-input" type="text" id="authUser" placeholder="3-32位：字母/数字/下划线" autocomplete="username"></div>
-    <div class="form-group"><label>密码</label><input class="form-input" type="password" id="authPass" placeholder="${isReg ? '至少 8 位' : '输入密码'}" autocomplete="${isReg ? 'new-password' : 'current-password'}"></div>
-    <button class="btn-primary" style="width:100%" onclick="doAuth('${isReg ? 'register' : 'login'}')">${isReg ? '注册并登录' : '登录'}</button>
-    <div style="font-size:12px;color:var(--text-3);margin-top:12px;text-align:center;line-height:2">
-      ${isReg ? '已有账号？<a href="javascript:openAuthModal(\'login\')" style="color:var(--primary)">去登录</a>'
-              : '还没有账号？<a href="javascript:openAuthModal(\'register\')" style="color:var(--primary)">免费注册</a>'}
-      <br><a href="javascript:openPrivacyModal()" style="color:var(--text-4)">隐私政策</a>
-    </div>
-  `);
-  setTimeout(()=>{ const i = document.getElementById('authUser'); if(i) i.focus(); }, 50);
+// 显示全屏登录页
+function openAuthGate(){
+  const gate = document.getElementById('authGate');
+  if(gate) gate.classList.remove('hide');
+  const err = document.getElementById('authErr'); if(err) err.textContent = '';
+  setTimeout(()=>{ const i = document.getElementById('authUser'); if(i) i.focus(); }, 60);
 }
-// 注册 / 登录主流程
-async function doAuth(mode){
+// 离线使用（云端不可达或暂不登录：数据仅存本机）
+function authOffline(){
+  const gate = document.getElementById('authGate');
+  if(gate) gate.classList.add('hide');
+  renderAuthUI();
+  toast('离线模式：数据仅存本机，登录后可云同步');
+}
+// 登录完成统一收尾
+function finishAuth(u, j){
+  localStorage.setItem(AUTH_USER_KEY, u);
+  if(j && j.token) localStorage.setItem(AUTH_TOKEN_KEY, j.token);
+  const gate = document.getElementById('authGate');
+  if(gate) gate.classList.add('hide');
+  renderAuthUI(); renderProUI();
+}
+// 一键登录 / 注册：有账号直接登录；没有账号自动注册
+async function doAuthOneTap(){
   const u = document.getElementById('authUser')?.value.trim();
   const p = document.getElementById('authPass')?.value;
-  if(!u || !/^[A-Za-z0-9_]{3,32}$/.test(u)){ toast('用户名需 3-32 位字母/数字/下划线'); return; }
-  if(!p){ toast('请输入密码'); return; }
-  if(mode === 'register' && p.length < 8){ toast('密码至少 8 位'); return; }
-  const btn = document.querySelector('#modal-root .btn-primary') || document.querySelector('.modal .btn-primary');
-  if(btn){ btn.disabled = true; btn.textContent = mode === 'register' ? '注册中…' : '登录中…'; }
+  const err = document.getElementById('authErr');
+  const btn = document.getElementById('authBtn');
+  const say = (m)=>{ if(err) err.textContent = m || ''; };
+  say('');
+  if(!u || !/^[A-Za-z0-9_]{3,32}$/.test(u)){ say('用户名需 3-32 位字母/数字/下划线'); return; }
+  if(!p){ say('请输入密码'); return; }
+  if(btn){ btn.disabled = true; btn.textContent = '验证中…'; }
   try{
-    if(mode === 'register'){
-      // 注册：前端生成随机盐并派生
-      const salt = btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(16)))).replace(/=+$/, '');
-      const hash = await derivePasswordHash(u, p, salt, AUTH_ITERATIONS);
-      const r = await authPost({action:'register', username:u, salt, hash, iterations:AUTH_ITERATIONS});
-      if(!r) return toast('无法连接云端，请检查网络');
-      const j = await r.json().catch(()=>({ok:false, error:'bad response'}));
-      if(!j.ok) return toast(j.error === 'username_taken' ? '该用户名已被注册，请直接登录' : ('注册失败：' + (j.error || '')));
-      localStorage.setItem(AUTH_USER_KEY, u);
-      if(j.token) localStorage.setItem(AUTH_TOKEN_KEY, j.token);
-      closeModal(); renderAuthUI(); renderProUI();
-      toast('注册成功，欢迎使用 Lan 工作台');
-    }else{
-      // 登录：取盐 → 派生 → 登录
-      const r0 = await authPost({action:'getsalt', username:u});
-      if(!r0) return toast('无法连接云端，请检查网络');
-      const g = await r0.json().catch(()=>({ok:false}));
-      if(!g.ok) return toast('云端异常：' + (g.error || ''));
-      const hash = await derivePasswordHash(u, p, g.salt, g.iterations || AUTH_ITERATIONS);
-      const r = await authPost({action:'login', username:u, hash});
-      if(!r) return toast('无法连接云端，请检查网络');
-      const j = await r.json().catch(()=>({ok:false, error:'bad response'}));
-      if(!j.ok) return toast(j.error === 'auth_failed' ? '用户名或密码错误' : ('登录失败：' + (j.error || '')));
-      localStorage.setItem(AUTH_USER_KEY, u);
-      if(j.token) localStorage.setItem(AUTH_TOKEN_KEY, j.token);
-      closeModal(); renderAuthUI(); renderProUI();
-      toast('登录成功，欢迎回来 ' + u);
+    // 1. 取盐（云端不存在的用户返回伪盐，防枚举）
+    const r0 = await authPost({action:'getsalt', username:u});
+    if(!r0){ say('无法连接云端，请检查网络，或点「先离线使用」'); return; }
+    const g = await r0.json().catch(()=>({ok:false}));
+    if(!g.ok){ say('云端异常：' + (g.error || '未知错误')); return; }
+    // 2. 用云端盐派生 → 尝试登录
+    const hash = await derivePasswordHash(u, p, g.salt, g.iterations || AUTH_ITERATIONS);
+    const r = await authPost({action:'login', username:u, hash});
+    if(!r){ say('无法连接云端，请检查网络'); return; }
+    const j = await r.json().catch(()=>({ok:false, error:'bad response'}));
+    if(j.ok){
+      finishAuth(u, j);
+      toast('欢迎回来，' + u);
+      return;
     }
+    if(j.error !== 'auth_failed'){ say('登录失败：' + (j.error || '未知错误')); return; }
+    // 3. 登录失败 → 自动注册（无账号场景）
+    if(p.length < 8){ say('该账号不存在，且密码不足 8 位（新注册需 ≥8 位）'); return; }
+    const salt = btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(16)))).replace(/=+$/, '');
+    const rh = await derivePasswordHash(u, p, salt, AUTH_ITERATIONS);
+    const rr = await authPost({action:'register', username:u, salt, hash:rh, iterations:AUTH_ITERATIONS});
+    if(!rr){ say('网络异常，注册失败，请重试'); return; }
+    const rj = await rr.json().catch(()=>({ok:false, error:'bad response'}));
+    if(rj.ok){
+      finishAuth(u, rj);
+      toast('注册成功，欢迎使用 Lan 工作台 🎉');
+      return;
+    }
+    if(rj.error === 'username_taken'){ say('该用户名已存在，但密码不正确'); }
+    else{ say('注册失败：' + (rj.error || '未知错误')); }
   }finally{
-    if(btn){ btn.disabled = false; btn.textContent = mode === 'register' ? '注册并登录' : '登录'; }
+    if(btn){ btn.disabled = false; btn.textContent = '登录 / 注册'; }
   }
 }
+// 退出登录 → 回到全屏登录页
 function doLogout(){
+  closeModal();
   localStorage.removeItem(AUTH_USER_KEY);
   localStorage.removeItem(AUTH_TOKEN_KEY);
-  renderAuthUI();
+  renderAuthUI(); renderProUI();
+  const gate = document.getElementById('authGate');
+  if(gate) gate.classList.remove('hide');
   toast('已退出登录（云端备份仍保留，重新登录即可恢复）');
+}
+// 个人中心：账号 / Token 余额 / 成长进度 / 退出
+async function openProfileModal(){
+  const u = getUserId();
+  if(!u){ openAuthGate(); return; }
+  const [bal, pack, gd] = await Promise.all([
+    ensureProTopup().then(()=>ensureTrial()).then(()=>metaGet('aiBalance')).catch(()=>null),
+    metaGet('tokenPack').catch(()=>null),
+    metaGet('gameData').catch(()=>null)
+  ]);
+  const tokens = (bal && bal.tokens) || 0;
+  const packTokens = (pack && pack.tokens) || 0;
+  const pro = isPro();
+  const proText = pro
+    ? ('PRO · 有效期至 ' + (proExpireDate() ? proExpireDate().toLocaleDateString('zh-CN') : '—'))
+    : '免费用户（兑换码可升级）';
+  const exp = (gd && gd.exp) || 0;
+  const info = getLevelInfo(exp);
+  const lvText = `Lv.${info.cur.lv} ${info.cur.name}` + (info.isMax ? '（满级）' : ` · ${info.expInLevel}/${info.expForNext}`);
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">个人中心</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="text-align:center;margin-bottom:16px">
+      <div style="width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#d4af37,#b8860b);color:#fff;font-size:24px;display:flex;align-items:center;justify-content:center;margin:0 auto 8px">👤</div>
+      <div style="font-size:16px;font-weight:700;color:var(--text)">${escapeHtml(u)}</div>
+      <div style="font-size:12px;color:var(--text-3);margin-top:3px">${pro ? '⭐ ' : ''}${proText}</div>
+    </div>
+    <div style="background:var(--bg,#f6f7f9);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px">
+      <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px">
+        <span style="color:var(--text-3)">AI Token 余额</span>
+        <span style="color:var(--accent,#d4af37);font-weight:700">${(tokens/10000).toLocaleString()} 万</span>
+      </div>
+      ${packTokens > 0 ? `<div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px">
+        <span style="color:var(--text-3)">Token 包</span>
+        <span style="color:var(--accent,#d4af37);font-weight:700">${(packTokens/10000).toLocaleString()} 万</span>
+      </div>` : ''}
+      <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px">
+        <span style="color:var(--text-3)">成长进度</span>
+        <span style="color:var(--text);font-weight:600">${lvText}</span>
+      </div>
+      <div style="height:6px;background:var(--line);border-radius:3px;margin-top:6px;overflow:hidden">
+        <div style="height:100%;width:${info.progress || 0}%;background:linear-gradient(90deg,#d4af37,#b8860b);border-radius:3px"></div>
+      </div>
+    </div>
+    <button class="btn-primary" style="width:100%;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="closeModal();openUpgradeModal()">升级 PRO / 兑换码</button>
+    <button class="btn-secondary" style="width:100%;margin-top:8px;color:var(--red,#dc2626)" onclick="doLogout()">退出登录</button>
+    <div style="font-size:11px;color:var(--text-4);text-align:center;margin-top:12px">云端备份按账号保存 · <a href="javascript:openPrivacyModal()" style="color:var(--text-3)">隐私政策</a></div>
+  `);
 }
 // 隐私政策（合规三件套：数据最小化 + 密码哈希 + 政策页）
 function openPrivacyModal(){
@@ -7434,7 +7581,7 @@ async function syncCollect(){
 }
 async function syncUpload(){
   const uid = getUserId();
-  if(!uid){ toast('请先登录账号（右上角「登录 / 注册」）再使用云同步'); openAuthModal('login'); return; }
+  if(!uid){ toast('请先登录账号再使用云同步'); openAuthGate(); return; }
   const key = await syncGetKey();
   if(!key) return;
   toast('正在加密上传…');
@@ -7449,7 +7596,7 @@ async function syncUpload(){
     if(ep){
       try{
         const r = await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'put', body: payload, token: getSession()})});
-        if(r.status === 401){ toast('登录已失效，请重新登录后再上传'); openAuthModal('login'); return; }
+        if(r.status === 401){ toast('登录已失效，请重新登录后再上传'); openAuthGate(); return; }
         uploaded = r.ok;
       }catch(e){ uploaded = false; }
     }
@@ -7480,7 +7627,7 @@ async function syncUpload(){
 }
 async function syncDownload(){
   const uid = getUserId();
-  if(!uid){ toast('请先登录账号（右上角「登录 / 注册」）再使用云同步'); openAuthModal('login'); return; }
+  if(!uid){ toast('请先登录账号再使用云同步'); openAuthGate(); return; }
   const key = await syncGetKey();
   if(!key) return;
   toast('正在连接云端…');
@@ -7490,7 +7637,7 @@ async function syncDownload(){
     if(ep){
       try{
         const r = await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({action:'get', token: getSession()})});
-        if(r.status === 401){ toast('登录已失效，请重新登录后再恢复'); openAuthModal('login'); return; }
+        if(r.status === 401){ toast('登录已失效，请重新登录后再恢复'); openAuthGate(); return; }
         if(r.ok) payload = await r.json();
       }catch(e){ payload = null; }
     }
@@ -8235,6 +8382,14 @@ function registerSW(){
   registerSW();
   if(!isStandalone()){
     setTimeout(showPwaGuide, 1500);
+  }
+  // 登录态检查：未登录 → 显示全屏登录页；已登录 → 直接进入
+  const gate = $('#authGate');
+  if(getUserId()){
+    if(gate) gate.classList.add('hide');
+  }else{
+    if(gate) gate.classList.remove('hide');
+    setTimeout(()=>{ const ai = $('#authUser'); if(ai) ai.focus(); }, 1000);
   }
   // 初始化完成 → 淡出开机画面
   const splash = $('#splash');
