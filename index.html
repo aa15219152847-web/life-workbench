@@ -969,21 +969,6 @@ body.no-fab .fab{opacity:0;pointer-events:none;transform:scale(.7) translateY(10
 .auth-err{min-height:20px;font-size:12px;color:#dc2626;margin-top:10px;line-height:1.5;white-space:pre-line}
 .auth-foot{font-size:12px;color:var(--text-4);margin-top:18px;line-height:1.9}
 .auth-foot a{color:var(--accent,#d4af37);cursor:pointer;text-decoration:none}
-/* 顶部用户胶囊（点击进个人中心） */
-.user-chip{
-  display:inline-flex;align-items:center;gap:7px;padding:4px 12px 4px 5px;
-  border:1px solid var(--line);border-radius:20px;
-  background:rgba(127,127,127,.08);cursor:pointer;font-size:12.5px;color:var(--text);
-  transition:opacity .2s;
-}
-.user-chip:hover{opacity:.82}
-.user-chip-avatar{
-  width:24px;height:24px;border-radius:50%;
-  background:linear-gradient(135deg,#d4af37,#b8860b);color:#fff;
-  display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0;
-}
-.user-chip-name{max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.user-chip-arrow{color:var(--text-3);font-size:10px}
 
 /* ============================================================
    PWA 安装引导
@@ -2904,18 +2889,12 @@ async function authPost(body){
   try{ return await syncFetch(ep, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)}); }
   catch(e){ return null; }
 }
-// 顶部账号区渲染：未登录 →「登录」按钮（打开全屏登录）；已登录 → 用户胶囊（跳到左侧「我的」）
+// 顶部账号区：已登录不占顶部（账号入口在左侧「我的」）；未登录（离线进入后）显示登录按钮
 function renderAuthUI(){
   const zone = document.getElementById('authZone');
   if(!zone) return;
-  const u = getUserId();
-  if(u){
-    zone.innerHTML = `
-      <button class="user-chip" onclick="switchTab('profile')" title="我的">
-        <span class="user-chip-avatar">👤</span>
-        <span class="user-chip-name">${escapeHtml(u)}</span>
-        <span class="user-chip-arrow">▾</span>
-      </button>`;
+  if(getUserId()){
+    zone.innerHTML = '';
   }else{
     zone.innerHTML = `<button class="btn-secondary" style="padding:6px 14px;font-size:13px" onclick="openAuthGate()">登录</button>`;
   }
