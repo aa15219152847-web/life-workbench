@@ -971,6 +971,32 @@ body.no-fab .fab{opacity:0;pointer-events:none;transform:scale(.7) translateY(10
 .auth-foot a{color:var(--accent,#d4af37);cursor:pointer;text-decoration:none}
 
 /* ============================================================
+   工作台自定义 — 名称 / 皮肤 / 头像 / 自定义背景
+   ============================================================ */
+.sidebar-brand{
+  font-size:12.5px;color:rgba(255,255,255,.82);font-weight:600;letter-spacing:.5px;
+  margin:2px 0 10px;max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  opacity:0;transform:translateX(-6px);transition:opacity .2s,transform .2s;
+}
+.sidebar:hover .sidebar-brand,.sidebar.drawer-open .sidebar-brand{opacity:1;transform:none}
+/* 自定义背景（上传图片做皮肤）：两层合成，暗色模式自动加深遮罩 */
+body.custom-bg{
+  background-image:linear-gradient(rgba(248,250,252,.86),rgba(248,250,252,.86)), var(--wb-bg);
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+html[data-theme="dark"] body.custom-bg{
+  background-image:linear-gradient(rgba(10,21,38,.9),rgba(10,21,38,.9)), var(--wb-bg);
+}
+/* 皮肤色块 */
+.skin-swatch{
+  width:30px;height:30px;border-radius:50%;border:2px solid var(--line);
+  cursor:pointer;transition:transform .15s,box-shadow .15s;position:relative;padding:0;
+}
+.skin-swatch:hover{transform:scale(1.12)}
+.skin-swatch.on{border-color:var(--text);box-shadow:0 0 0 3px rgba(0,0,0,.07)}
+.skin-swatch.on::after{content:'✓';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+
+/* ============================================================
    PWA 安装引导
    ============================================================ */
 .pwa-guide{
@@ -1743,6 +1769,7 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
   <!-- 中控区 -->
   <div class="sidebar-control">
     <div class="sidebar-logo"><img src="avatar.png" alt="avatar"></div>
+    <div class="sidebar-brand" id="sidebarBrand">Lan工作台</div>
     <div class="sidebar-level" id="sidebarLevel">
       <div class="level-badge" id="levelBadge">1</div>
       <div class="level-name" id="levelName">觉醒者</div>
@@ -2098,12 +2125,11 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
     <section class="section" id="sec-news">
       <div class="section-header">
         <div class="section-title">每日资讯</div>
+        <div class="section-count">
+          <button class="chip" onclick="openNewsManage()" style="font-size:12px">▤ 管理板块</button>
+        </div>
       </div>
-      <div class="news-tabs">
-        <button class="news-tab active" data-news="ai">AI 热点</button>
-        <button class="news-tab" data-news="finance">财经资讯</button>
-        <span id="newsUpdated" style="margin-left:auto;align-self:center;font-size:11px;color:var(--text-4)"></span>
-      </div>
+      <div class="news-tabs" id="newsTabs"></div>
       <div id="newsList"></div>
     </section>
 
@@ -2656,6 +2682,40 @@ html[data-theme="dark"] .proactive-card .pa-btn.sec{background:rgba(255,255,255,
         <button class="btn-secondary" style="width:100%;margin-top:10px" onclick="switchTab('growth')">查看成长详情</button>
       </div>
 
+      <!-- 外观与标识 -->
+      <div class="card-base" style="padding:16px;margin-bottom:16px">
+        <div style="font-size:15px;font-weight:600;color:var(--text);margin-bottom:4px">外观与标识</div>
+        <div style="font-size:12px;color:var(--text-3);margin-bottom:12px">自定义工作台名称、皮肤、头像与背景，仅保存在本机。</div>
+        <div class="form-group">
+          <label>工作台名称</label>
+          <div style="display:flex;gap:8px">
+            <input class="form-input" type="text" id="wbNameInput" placeholder="Lan工作台" style="flex:1" maxlength="16">
+            <button class="btn-secondary" onclick="saveWbName()" style="flex-shrink:0">保存</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>皮肤</label>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center" id="skinBox"></div>
+        </div>
+        <div class="form-group">
+          <label>头像</label>
+          <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+            <img id="wbAvatarPreview" src="avatar.png" style="width:44px;height:44px;border-radius:12px;object-fit:cover">
+            <button class="btn-secondary" onclick="document.getElementById('wbAvatarFile').click()">上传头像</button>
+            <button class="btn-secondary" onclick="resetWbAvatar()">恢复默认</button>
+            <input type="file" id="wbAvatarFile" accept="image/*" style="display:none" onchange="uploadWbAvatar(event)">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>背景图（上传喜欢的图片做皮肤）</label>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="btn-secondary" onclick="document.getElementById('wbBgFile').click()">上传背景图</button>
+            <button class="btn-secondary" onclick="resetWbBg()">恢复默认</button>
+            <input type="file" id="wbBgFile" accept="image/*" style="display:none" onchange="uploadWbBg(event)">
+          </div>
+        </div>
+      </div>
+
       <!-- 账号与隐私 -->
       <div class="card-base" style="padding:16px">
         <div style="font-size:14px;font-weight:600;color:var(--text);margin-bottom:8px">账号与隐私</div>
@@ -3014,7 +3074,141 @@ async function renderProfilePage(){
   if(bar) bar.style.width = (info.progress || 0) + '%';
   const sub = $('#profileSub');
   if(sub) sub.textContent = pro ? 'PRO 用户' : '免费用户';
+  // 外观与标识表单回填
+  const nameInput = $('#wbNameInput');
+  if(nameInput) nameInput.value = localStorage.getItem('wb_name') || '';
+  const av = localStorage.getItem('wb_avatar');
+  const avPrev = $('#wbAvatarPreview');
+  if(avPrev) avPrev.src = av || 'avatar.png';
+  renderSkinBox();
 }
+// ============================================================
+// 工作台自定义 — 名称 / 皮肤 / 头像 / 背景（localStorage 持久化）
+// ============================================================
+const WB_SKINS = {
+  gold:   {name:'藏金',   c1:'#C7A84B', c2:'#B8860B'},
+  blue:   {name:'青蓝',   c1:'#2563EB', c2:'#1D4ED8'},
+  violet: {name:'紫罗兰', c1:'#8B5CF6', c2:'#7C3AED'},
+  green:  {name:'翡翠',   c1:'#059669', c2:'#047857'},
+  rose:   {name:'玫瑰',   c1:'#E11D48', c2:'#BE123C'},
+  ocean:  {name:'海洋',   c1:'#0891B2', c2:'#0E7490'},
+};
+function hexToRgba(hex, a){
+  const h = String(hex||'').replace('#','');
+  const n = parseInt(h, 16);
+  if(isNaN(n)) return `rgba(199,168,75,${a})`;
+  return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;
+}
+// 应用皮肤（预设 key 或自定义 hex）
+function applySkin(v){
+  const r = document.documentElement.style;
+  const s = WB_SKINS[v];
+  if(s){
+    r.setProperty('--accent', s.c1);
+    r.setProperty('--accent-2', s.c2);
+    r.setProperty('--primary', s.c1);
+    r.setProperty('--primary-2', s.c2);
+    r.setProperty('--primary-grad', `linear-gradient(135deg,${s.c1} 0%,${s.c2} 100%)`);
+    r.setProperty('--primary-glow', hexToRgba(s.c1,.1));
+    localStorage.setItem('wb_skin', v);
+  }else if(/^#[0-9a-fA-F]{6}$/.test(v||'')){
+    r.setProperty('--accent', v);
+    r.setProperty('--accent-2', v);
+    r.setProperty('--primary', v);
+    r.setProperty('--primary-2', v);
+    r.setProperty('--primary-grad', `linear-gradient(135deg,${v} 0%,${v} 100%)`);
+    r.setProperty('--primary-glow', hexToRgba(v,.1));
+    localStorage.setItem('wb_skin', v);
+  }
+}
+function getCurrentSkinKey(){
+  const v = localStorage.getItem('wb_skin');
+  return (v && WB_SKINS[v]) ? v : null;
+}
+// 应用全部自定义（init 时调用）
+function applyCustomization(){
+  const name = localStorage.getItem('wb_name');
+  if(name){
+    const b = $('#sidebarBrand'); if(b) b.textContent = name;
+    document.title = name;
+  }
+  const av = localStorage.getItem('wb_avatar');
+  if(av){
+    document.querySelectorAll('.sidebar-logo img, .auth-logo img').forEach(img=>{ if(img) img.src = av; });
+  }
+  const skin = localStorage.getItem('wb_skin');
+  if(skin) applySkin(skin);
+  const bg = localStorage.getItem('wb_bg');
+  if(bg){
+    document.documentElement.style.setProperty('--wb-bg', `url("${bg}")`);
+    document.body.classList.add('custom-bg');
+  }
+}
+function saveWbName(){
+  const v = document.getElementById('wbNameInput')?.value.trim();
+  if(v && v.length > 16){ toast('名称最多 16 个字'); return; }
+  if(v) localStorage.setItem('wb_name', v); else localStorage.removeItem('wb_name');
+  applyCustomization();
+  toast(v ? '工作台名称已更新' : '已恢复默认名称');
+}
+function renderSkinBox(){
+  const box = document.getElementById('skinBox');
+  if(!box) return;
+  const cur = getCurrentSkinKey();
+  box.innerHTML = Object.entries(WB_SKINS).map(([k,s])=>
+    `<button class="skin-swatch${k===cur?' on':''}" style="background:linear-gradient(135deg,${s.c1},${s.c2})" title="${s.name}" onclick="pickWbSkin('${k}')"></button>`
+  ).join('') +
+  `<label class="skin-swatch" title="自定义颜色" style="background:conic-gradient(#f00,#ff0,#0f0,#0ff,#00f,#f0f,#f00);cursor:pointer">
+     <input type="color" id="wbSkinCustom" style="opacity:0;position:absolute;inset:0;cursor:pointer" onchange="pickWbSkin(this.value)">
+   </label>`;
+}
+function pickWbSkin(v){
+  applySkin(v);
+  renderSkinBox();
+  const s = WB_SKINS[v];
+  toast(s ? ('皮肤已切换：' + s.name) : '已应用自定义颜色');
+}
+function uploadWbAvatar(e){
+  const f = e.target.files[0];
+  if(!f) return;
+  if(f.size > 2*1024*1024){ toast('图片需小于 2MB'); return; }
+  const rd = new FileReader();
+  rd.onload = ()=>{
+    localStorage.setItem('wb_avatar', rd.result);
+    applyCustomization();
+    const p = $('#wbAvatarPreview'); if(p) p.src = rd.result;
+    toast('头像已更新');
+  };
+  rd.readAsDataURL(f);
+  e.target.value = '';
+}
+function resetWbAvatar(){
+  localStorage.removeItem('wb_avatar');
+  applyCustomization();
+  const p = $('#wbAvatarPreview'); if(p) p.src = 'avatar.png';
+  toast('已恢复默认头像');
+}
+function uploadWbBg(e){
+  const f = e.target.files[0];
+  if(!f) return;
+  if(f.size > 3*1024*1024){ toast('图片需小于 3MB'); return; }
+  const rd = new FileReader();
+  rd.onload = ()=>{
+    localStorage.setItem('wb_bg', rd.result);
+    document.documentElement.style.setProperty('--wb-bg', `url("${rd.result}")`);
+    document.body.classList.add('custom-bg');
+    toast('背景已应用');
+  };
+  rd.readAsDataURL(f);
+  e.target.value = '';
+}
+function resetWbBg(){
+  localStorage.removeItem('wb_bg');
+  document.documentElement.style.removeProperty('--wb-bg');
+  document.body.classList.remove('custom-bg');
+  toast('已恢复默认背景');
+}
+
 // 隐私政策（合规三件套：数据最小化 + 密码哈希 + 政策页）
 function openPrivacyModal(){
   openModal(`
@@ -3839,7 +4033,7 @@ function loadTabData(tab){
   else if(tab==='today') loadToday();
   else if(tab==='todos') loadTodos();
   else if(tab==='ledger') { loadLedger(); loadDreamJars(); }
-  else if(tab==='news') loadNews(currentNewsCat);
+  else if(tab==='news') { renderNewsTabs(); loadNews(currentNewsCat); }
   else if(tab==='inspirations') loadInspirations();
   else if(tab==='knowledge') loadKnowledge();
   else if(tab==='study') loadPlans();
@@ -5396,25 +5590,68 @@ async function editLedger(id){
 }
 
 // ============================================================
-// 资讯 — 前端 RSS 获取（通过 rss2json / allorigins）
+// 资讯 — 板块系统（多板块 + 用户自定义显示）
 // ============================================================
-$$('.news-tab').forEach(t=>t.addEventListener('click',()=>{
-  $$('.news-tab').forEach(x=>x.classList.remove('active'));
-  t.classList.add('active');
-  currentNewsCat = t.dataset.news;
-  loadNews(currentNewsCat);
-}));
-
-const RSS_FEEDS = {
-  ai: [
-    'https://www.36kr.com/feed',
-    'https://feeds.feedburner.com/ruanyifeng',
-  ],
-  finance: [
-    'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml',
-    'https://www.ftchinese.com/rss/news',
-  ]
+const NEWS_CATS = {
+  ai:      {name:'AI 热点', feeds:['https://www.36kr.com/feed','https://www.ruanyifeng.com/blog/atom.xml']},
+  finance: {name:'财经',    feeds:['https://www.ftchinese.com/rss/news','https://feeds.bbci.co.uk/zhongwen/simp/rss.xml']},
+  tech:    {name:'科技数码', feeds:['https://sspai.com/feed','https://www.cnbeta.com.tw/backend.php']},
+  science: {name:'科学',    feeds:['https://www.guokr.com/rss/']},
+  dev:     {name:'开发者',   feeds:['https://www.infoq.cn/feed']},
 };
+// 用户启用的板块（localStorage 'news_cats'；未设置=全部）
+function getEnabledNewsCats(){
+  try{
+    const saved = JSON.parse(localStorage.getItem('news_cats') || '');
+    if(Array.isArray(saved) && saved.length) return saved.filter(k=>NEWS_CATS[k]);
+  }catch(e){}
+  return Object.keys(NEWS_CATS);
+}
+// 渲染板块 tab（动态，按用户设置）
+function renderNewsTabs(){
+  const wrap = $('#newsTabs');
+  if(!wrap) return;
+  const enabled = getEnabledNewsCats();
+  if(!enabled.includes(currentNewsCat)) currentNewsCat = enabled[0] || 'ai';
+  wrap.innerHTML = enabled.map(k=>`<button class="news-tab${k===currentNewsCat?' active':''}" data-news="${k}">${NEWS_CATS[k].name}</button>`).join('') +
+    '<span id="newsUpdated" style="margin-left:auto;align-self:center;font-size:11px;color:var(--text-4)"></span>';
+  $$('.news-tab').forEach(t=>t.addEventListener('click',()=>{
+    $$('.news-tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    currentNewsCat = t.dataset.news;
+    loadNews(currentNewsCat);
+  }));
+}
+// 管理板块弹窗（勾选显示哪些板块）
+function openNewsManage(){
+  const all = Object.keys(NEWS_CATS);
+  const enabled = getEnabledNewsCats();
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">管理资讯板块</div>
+      <button class="modal-close" onclick="closeModal()">关闭</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text-3);margin-bottom:12px">勾选要显示的板块，随时可改。未勾选的板块不再显示。</div>
+    <div id="newsCatsBox">
+      ${all.map(k=>`
+        <label style="display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px;cursor:pointer">
+          <input type="checkbox" data-ck="${k}" ${enabled.includes(k)?'checked':''} style="width:16px;height:16px;accent-color:var(--accent,#d4af37)">
+          <span style="font-size:14px;color:var(--text)">${NEWS_CATS[k].name}</span>
+        </label>`).join('')}
+    </div>
+    <button class="btn-primary" style="width:100%;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="saveNewsCats()">保存</button>
+  `);
+}
+function saveNewsCats(){
+  const enabled = [...document.querySelectorAll('#newsCatsBox input:checked')].map(i=>i.dataset.ck);
+  if(!enabled.length){ toast('至少保留一个板块'); return; }
+  localStorage.setItem('news_cats', JSON.stringify(enabled));
+  if(!enabled.includes(currentNewsCat)) currentNewsCat = enabled[0];
+  closeModal();
+  renderNewsTabs();
+  loadNews(currentNewsCat);
+  toast('板块设置已保存');
+}
 
 async function loadNews(cat){
   const list = $('#newsList');
@@ -5437,10 +5674,10 @@ async function loadNews(cat){
       }
     }catch(e){ items = []; }
 
-    // news.json 不可用 → 回退 RSS
+    // news.json 不可用 → 回退 RSS（按板块源）
     if(!items.length){
       fetchedFrom = 'rss';
-      const feeds = RSS_FEEDS[cat]||RSS_FEEDS.ai;
+      const feeds = (NEWS_CATS[cat] || NEWS_CATS.ai).feeds;
       const allItems = [];
       for(const url of feeds){
         try{
@@ -6294,6 +6531,87 @@ async function submitLedger(id){
     loadLedger(); loadOverview(); autoBackup();
     checkBudgetAlert();
   }catch(e){toast('操作失败');console.error(e)}
+}
+
+// ============================================================
+// 快捷记账 — iPhone 背面轻点3下 → 截图 → 提取文本 → 打开 URL
+// URL 形如：https://www.gameoflifelan.xyz/?quickadd=打车30元
+// ============================================================
+function parseQuickAdd(text){
+  const t = (text||'').trim();
+  const isIncome = /收|入账|工资|奖金|赚|返|报销/.test(t);
+  const type = isIncome ? 'income' : 'expense';
+  // 金额：优先带单位（元/块/¥）；否则取最后一个数字（避免"2张80"取到2）
+  const mUnit = t.match(/(\d+(?:\.\d+)?)\s*[元块¥￥]/);
+  const mNums = [...t.matchAll(/\d+(?:\.\d+)?/g)];
+  const amount = mUnit ? parseFloat(mUnit[1]) : (mNums.length ? parseFloat(mNums[mNums.length-1][0]) : 0);
+  let category = '其他';
+  if(isIncome){
+    if(/工资|薪/.test(t)) category = '工资';
+    else if(/奖金|绩效/.test(t)) category = '奖金';
+    else if(/投资|理财|利息|基金|股票/.test(t)) category = '投资';
+  }else{
+    if(/书|课|学费|教育|培训/.test(t)) category = '教育';
+    else if(/餐|吃|饭|外卖|奶茶|咖啡|早餐|午餐|晚餐|夜宵|面|喝|水果/.test(t)) category = '餐饮';
+    else if(/车|打车|出租|地铁|公交|油费|停车|高铁|机票/.test(t)) category = '交通';
+    else if(/买|购物|衣|鞋|服|包|淘宝|京东|数码|手机/.test(t)) category = '购物';
+    else if(/电影|游戏|票|娱乐|唱|旅|玩/.test(t)) category = '娱乐';
+    else if(/房|租|水费|电费|燃气|物业/.test(t)) category = '住房';
+    else if(/医|药|挂号|体检/.test(t)) category = '医疗';
+  }
+  const note = t
+    .replace(/\d+(?:\.\d+)?/g,'')
+    .replace(/(?:收|入账|工资|奖金|赚|返|报销)/g,'')
+    .replace(/[元块毛¥￥张个]/g,'')
+    .trim();
+  return {type, amount, category, note: note || (isIncome?'收入':'支出')};
+}
+function openQuickAddConfirm(data){
+  window._quickAddData = data;
+  const typeLabel = data.type==='income' ? '收入' : '支出';
+  const color = data.type==='income' ? 'var(--green,#059669)' : 'var(--red,#dc2626)';
+  openModal(`
+    <div class="modal-head">
+      <div class="modal-title">快捷记账</div>
+      <button class="modal-close" onclick="closeModal()">取消</button>
+    </div>
+    <div style="font-size:12.5px;color:var(--text-3);margin-bottom:14px">从截图/快捷指令识别到一笔账，确认后保存：</div>
+    <div style="background:var(--bg,#f6f7f9);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:14px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;font-size:22px;font-weight:700;color:${color}">
+        <span>${typeLabel}</span><span>¥${data.amount}</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--text-3);margin-top:8px">
+        <span>分类</span><span style="color:var(--text);font-weight:600">${data.category}</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--text-3);margin-top:4px">
+        <span>备注</span><span style="color:var(--text)">${escapeHtml(data.note)}</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:13px;color:var(--text-3);margin-top:4px">
+        <span>日期</span><span style="color:var(--text)">${localDate()}</span>
+      </div>
+    </div>
+    <button class="btn-primary" style="width:100%;background:linear-gradient(135deg,#d4af37,#b8860b);border:none;color:#fff" onclick="saveQuickAdd()">保存这笔账</button>
+  `);
+}
+async function saveQuickAdd(){
+  const d = window._quickAddData;
+  if(!d) return;
+  await dbAdd('ledger',{type:d.type, amount:d.amount, category:d.category, note:d.note, record_date:localDate(), created_at:new Date().toISOString()});
+  closeModal();
+  window._quickAddData = null;
+  loadLedger(); loadOverview(); autoBackup(); checkBudgetAlert();
+  addExp(8,'记账');
+  toast((d.type==='income'?'收入':'支出')+' ¥'+d.amount+' 已入账');
+}
+// 页面 URL 携带 ?quickadd= 时自动弹出（快捷指令入口）
+function handleQuickAddParam(){
+  try{
+    const params = new URLSearchParams(location.search);
+    const text = params.get('quickadd') || params.get('qa');
+    if(!text || !text.trim()) return;
+    openQuickAddConfirm(parseQuickAdd(text));
+    history.replaceState(null, '', location.pathname + location.hash);
+  }catch(e){}
 }
 
 function showInspModal(it){
@@ -8372,6 +8690,7 @@ function registerSW(){
   initNavGroups();
   await openDB();
   initTheme();
+  applyCustomization();
   // 默认页是 Lan 对话页，顶部标题同步
   $('#hdrTitle').textContent = TAB_TITLES.lan;
   $('#hdrDate').textContent = fmtFullDate();
@@ -8425,6 +8744,8 @@ function registerSW(){
     setTimeout(()=>splash.classList.add('hide'), 800);
     setTimeout(()=>splash.remove(), 1500);
   }
+  // 快捷记账（?quickadd= 参数，iPhone 快捷指令入口）
+  handleQuickAddParam();
 })();
 </script>
 </body>
