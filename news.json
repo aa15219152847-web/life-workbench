@@ -1,6 +1,38 @@
 {
- "updated_at": "2026-08-13 20:07",
+ "updated_at": "2026-08-14 05:49",
  "ai": [
+  {
+   "category": "ai",
+   "title": "Sonos Ace Ultra 高端耳机渲染图曝光，可 AI 语音控制智能家居",
+   "summary": "",
+   "link": "https://www.ithome.com/0/989/691.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能",
+   "summary": "",
+   "link": "https://www.ithome.com/0/989/518.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "有望超 SpaceX 成全球最大 IPO：曝 Anthropic 计划 10 月上市，估值 2 万亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/0/989/505.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "备战 IPO 上市：彭博社称 2026 年 OpenAI 年化营收有望翻番达 400 亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/0/989/490.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "OpenAI 奥尔特曼：6 个月内 AI 将实现“完美理解用户使用情境”",
@@ -120,224 +152,200 @@
    "link": "https://www.ithome.com/0/988/266.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个",
-   "summary": "",
-   "link": "https://www.ithome.com/0/988/227.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "美参议员致信 OpenAI、Meta、Anthropic 公司 CEO，要求其暂停 AI 开发",
-   "summary": "",
-   "link": "https://www.ithome.com/0/988/093.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "新调查显示：AI 时代下，超八成家长和老师认为学生应具备更强的数据素养",
-   "summary": "",
-   "link": "https://www.ithome.com/0/988/056.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "飞猪推出旅行 AI 产品“飞猪帮帮”，能帮用户订机酒、做攻略",
-   "summary": "",
-   "link": "https://www.ithome.com/0/988/010.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "WORKDAY股价收盘上涨18%，创2016年以来最佳单日表现。",
-   "summary": "WORKDAY股价收盘上涨18%，创2016年以来最佳单日表现。",
-   "link": "https://wallstreetcn.com/news/global/3149307",
+   "title": "A股算力租赁概念探底回升，网宿科技涨超17%，行云科技涨超10%，数据港、奥飞数据、利通电子跟涨。",
+   "summary": "A股算力租赁概念探底回升，网宿科技涨超17%，行云科技涨超10%，数据港、奥飞数据、利通电子跟涨。",
+   "link": "https://wallstreetcn.com/news/global/3149511",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 20:06"
+   "published_at": "2026-08-14 05:44"
   },
   {
    "category": "finance",
-   "title": "美国证券交易委员会文件：先锋资本管理有限责任公司披露持有 SpaceX 2660 万股 A 类股份。",
-   "summary": "美国证券交易委员会文件：先锋资本管理有限责任公司披露持有 SpaceX 2660 万股 A 类股份。",
-   "link": "https://wallstreetcn.com/news/global/3149306",
+   "title": "日本5年期国债收益率上行1个基点，至2.130%。",
+   "summary": "日本5年期国债收益率上行1个基点，至2.130%。",
+   "link": "https://wallstreetcn.com/news/global/3149509",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 20:06"
+   "published_at": "2026-08-14 05:42"
   },
   {
    "category": "finance",
-   "title": "周四（8月13日），万得美国科技股七巨头（Magnificent 7）指数涨0.82%。 特斯拉涨3",
-   "summary": "周四（8月13日），万得美国科技股七巨头（Magnificent 7）指数涨0.82%。 特斯拉涨3.80%，Meta Platforms涨2.74%，苹果涨1.01%，微软涨0.90%，英伟达涨0.56%，谷歌涨0.44%，亚马逊跌0.80%。",
-   "link": "https://wallstreetcn.com/news/global/3149305",
+   "title": "消息人士：日本央行最早将于9月加息，并考虑此后加快加息步伐。（路透）",
+   "summary": "消息人士：日本央行最早将于9月加息，并考虑此后加快加息步伐。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3149508",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 20:05"
+   "published_at": "2026-08-14 05:41"
   },
   {
    "category": "finance",
-   "title": "美股三大指数集体收涨，道指涨0.13%，纳指涨0.81%，标普500指数涨0.65%。 存储板块大涨",
-   "summary": "美股三大指数集体收涨，道指涨0.13%，纳指涨0.81%，标普500指数涨0.65%。 存储板块大涨，闪迪涨13.67%，西部数据、海力士涨超7%。光通信板块走低，Coherent跌约8%，Lumentum、康宁、Applied Optoelectronics跌超5%。",
-   "link": "https://wallstreetcn.com/news/global/3149304",
+   "title": "中国台湾证交所加权股价指数收低0.5%报45,811.01点。",
+   "summary": "中国台湾证交所加权股价指数收低0.5%报45,811.01点。",
+   "link": "https://wallstreetcn.com/news/global/3149506",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 20:02"
+   "published_at": "2026-08-14 05:35"
   },
   {
    "category": "finance",
-   "title": "伊朗官员重申霍尔木兹海峡处于关闭状态",
-   "summary": "当地时间13日晚，伊朗伊斯兰革命卫队海军司令阿里·阿兹马伊表示，目前霍尔木兹海峡处于关闭状态，伊方对海峡内相关动向保持“全面、坚决掌控”，任何活动都不会脱离伊朗伊斯兰革命卫队海军的监控。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3149303",
+   "title": "智谱将发布GLM-5.3模型",
+   "summary": "智谱在声明中表示，下一代模型GLM-5.3将带来更强的编程能力，有助于缩小与AI排行榜头部模型（如Anthropic的Fable 5）之间的差距。GLM-5.3建立在与其6月发布的前代模型相同的7000亿参数基础模型之上。",
+   "link": "https://wallstreetcn.com/news/global/3149504",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:53"
+   "published_at": "2026-08-14 05:34"
   },
   {
    "category": "finance",
-   "title": "截至8月13日，已有30余家北交所上市公司披露2026年半年报，企业成长成色初现。总体来看，已披露半",
-   "summary": "截至8月13日，已有30余家北交所上市公司披露2026年半年报，企业成长成色初现。总体来看，已披露半年报的公司业绩表现抢眼，约三分之一企业上半年归母净利润同比增长超80%。算力服务、新能源、半导体等高景气赛道成为拉动业绩增长的核心引擎，凸显北交所“专精特新”企业的成长活力。（经济参考报）",
-   "link": "https://wallstreetcn.com/news/global/3149302",
+   "title": "江苏：支持火箭卫星总体、卫星载荷等领域龙头企业对接资本市场，加快上市步伐",
+   "summary": "《江苏省商业航天高质量发展三年行动计划（2026-2028年）》印发。其中提到，推动企业跃升发展。支持火箭卫星总体、卫星载荷等领域龙头企业对接资本市场，加快上市步伐。支持测控通信载荷、卫星激光通信、卫星电源系统等核心配套企业成长为单项冠军和专精特新“小巨人”企业。在卫星应用服务、航天新材料、基础元器件等领域培育一批创新型中小企业；建立工作机制。组建省航空航天产业发展工作专班，加强跨部门协作，积极争",
+   "link": "https://wallstreetcn.com/news/global/3149503",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:51"
+   "published_at": "2026-08-14 05:33"
   },
   {
    "category": "finance",
-   "title": "美媒：“华盛顿”号航母将前往中东接替“林肯”号",
-   "summary": "据美国《华尔街日报》13日报道，美国准备派遣“华盛顿”号航母前往中东，接替舰上生活条件、船员心理健康等遭质疑的“林肯”号航母。报道援引美国官员的话说，该轮换计划在人们对“林肯”号航母生活条件提出担忧之前就已制定。 据美国海军学会新闻网报道，以日本为基地的“华盛顿”号航母打击群于5月离开日本横须贺基地。该航母本月13日在一艘巡洋舰和一艘驱逐舰的伴随下，通过新加坡海峡后进入了马六甲海峡。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3149301",
+   "title": "创业板指午后翻绿，此前一度涨超1.3%。",
+   "summary": "创业板指午后翻绿，此前一度涨超1.3%。",
+   "link": "https://wallstreetcn.com/news/global/3149498",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:50"
+   "published_at": "2026-08-14 05:16"
   },
   {
    "category": "finance",
-   "title": "美国PPI数据公布日，美债收益率普遍下挫",
-   "summary": "周四（8月13日）纽约尾盘，美国10年期国债收益率下跌4.57个基点，美国PPI数据公布后快速下行。 两年期美债收益率跌4.82个基点，亚太盘初以来横盘小幅震荡，PPI数据公布后同样快速下行。30年期美债收益率跌4.28个基点，报5.214%。 10年期通胀保值国债（TIPS）收益率跌4.16个基点，至2.378%；30年期TIPS收益率跌3.20个基点，至2.985%。",
-   "link": "https://wallstreetcn.com/news/global/3149300",
+   "title": "机构：预估至2030年全球LED通用照明市场规模有望达609.42亿美元",
+   "summary": "TrendForce集邦咨询最新报告指出，受宏观经济复苏迟缓、地缘因素及企业资本支出保守影响，全球LED照明市场需求短期内仍处调整阶段，欧美中三大核心市场成长动能有限。然而，在全球能效法规、节能改造与净零排放(ESG)目标带动下，照明厂商加速摆脱传统价格竞争，积极朝向智能照明与特殊专业场景等高附加价值领域发展，推动产业由“量的扩张”迈向“产品结构与应用价值升级”。集邦咨询预估至2030年，全球LE",
+   "link": "https://wallstreetcn.com/news/global/3149495",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:48"
+   "published_at": "2026-08-14 05:14"
   },
   {
    "category": "finance",
-   "title": "欧债收益率集体下跌，英国10年期国债收益率跌1.9个基点报4.951%，法国10年期国债收益率跌3.",
-   "summary": "欧债收益率集体下跌，英国10年期国债收益率跌1.9个基点报4.951%，法国10年期国债收益率跌3.5个基点报3.943%，德国10年期国债收益率跌2.9个基点报3.129%，意大利10年期国债收益率跌4.8个基点报3.893%，西班牙10年期国债收益率跌3.8个基点报3.560%。",
-   "link": "https://wallstreetcn.com/news/global/3149299",
+   "title": "恒生科技指数跌幅扩大至2%，京东跌超10%，美团跌近6%。",
+   "summary": "恒生科技指数跌幅扩大至2%，京东跌超10%，美团跌近6%。",
+   "link": "https://wallstreetcn.com/news/global/3149493",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:43"
+   "published_at": "2026-08-14 05:07"
   },
   {
    "category": "finance",
-   "title": "WTI 9月原油期货下跌2.02美元，收于每桶81.25美元，跌幅为2.43%。 布伦特10月原油期",
-   "summary": "WTI 9月原油期货下跌2.02美元，收于每桶81.25美元，跌幅为2.43%。 布伦特10月原油期货下跌1.91美元，收于每桶87.07美元，跌幅为2.15%。",
-   "link": "https://wallstreetcn.com/news/global/3149297",
+   "title": "恒生指数午后跌幅扩大至1%。",
+   "summary": "恒生指数午后跌幅扩大至1%。",
+   "link": "https://wallstreetcn.com/news/global/3149491",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:32"
+   "published_at": "2026-08-14 05:01"
   },
   {
    "category": "finance",
-   "title": "周四（8月13日）纽约尾盘，美元兑日元涨0.05%，报159.51日元，日内交投区间为159.016",
-   "summary": "周四（8月13日）纽约尾盘，美元兑日元涨0.05%，报159.51日元，日内交投区间为159.016-159.560日元。",
-   "link": "https://wallstreetcn.com/news/global/3149295",
+   "title": "2026年度总票房破250亿",
+   "summary": "据灯塔专业版数据，截至8月14日，2026年度大盘票房（含预售）突破250亿，《飞驰人生3》《功夫女足》《给阿嬷的情书》《八仙！》《镖人：风起大漠》暂列年度票房前五名。",
+   "link": "https://wallstreetcn.com/news/global/3149489",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:27"
+   "published_at": "2026-08-14 04:53"
   },
   {
    "category": "finance",
-   "title": "周四（8月13日）纽约尾盘，ICE美元指数下跌0.05%，报99.964点，日内交投区间为99.67",
-   "summary": "周四（8月13日）纽约尾盘，ICE美元指数下跌0.05%，报99.964点，日内交投区间为99.672-99.972点。 彭博美元指数跌0.05%，报1203.75点。",
-   "link": "https://wallstreetcn.com/news/global/3149294",
+   "title": "交易员称，印度央行可能干预了汇市以支撑卢比。",
+   "summary": "交易员称，印度央行可能干预了汇市以支撑卢比。",
+   "link": "https://wallstreetcn.com/news/global/3149488",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:24"
+   "published_at": "2026-08-14 04:43"
   },
   {
    "category": "finance",
-   "title": "周四（8月13日）伦敦基本金属多数下跌，LME期铜涨0.02%，报14135.5美元/吨。 LME期",
-   "summary": "周四（8月13日）伦敦基本金属多数下跌，LME期铜涨0.02%，报14135.5美元/吨。 LME期锡涨0.01%，报55825.0美元/吨。 LME期锌跌0.32%，报3745.0美元/吨。 LME期铅跌1.00%，报1890.5美元/吨。 LME期镍跌1.11%，报16760.0美元/吨。 LME期铝跌2.19%，报3238.0美元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3149293",
+   "title": "国家防减救灾委、应急管理部启动国家四级救灾应急响应，调拨中央救灾物资，指导支持河南做好暴雨洪涝灾害救",
+   "summary": "国家防减救灾委、应急管理部启动国家四级救灾应急响应，调拨中央救灾物资，指导支持河南做好暴雨洪涝灾害救灾救助工作。",
+   "link": "https://wallstreetcn.com/news/global/3149486",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:19"
+   "published_at": "2026-08-14 04:41"
   },
   {
    "category": "finance",
-   "title": "英国石油公司：与阿布扎比国家石油公司旗下国际能源投资平台 XRG 以及 UCC 油气控股达成合作，各",
-   "summary": "英国石油公司：与阿布扎比国家石油公司旗下国际能源投资平台 XRG 以及 UCC 油气控股达成合作，各方持有均等的作业权益份额。",
-   "link": "https://wallstreetcn.com/news/global/3149292",
+   "title": "雄忻高铁正线铺轨全部完成",
+   "summary": "日前，在雄安新区的雄忻高铁铺轨施工现场，随着建设者将最后一对长钢轨平稳铺设就位，标志着雄忻高铁正线铺轨全部完成，为线路按期开通运营奠定了坚实基础。",
+   "link": "https://wallstreetcn.com/news/global/3149485",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:16"
+   "published_at": "2026-08-14 04:40"
   },
   {
    "category": "finance",
-   "title": "英国石油公司：获委内瑞拉玻利瓦尔共和国政府授予三角洲平台地区洛兰油田二期勘探开采许可。",
-   "summary": "英国石油公司：获委内瑞拉玻利瓦尔共和国政府授予三角洲平台地区洛兰油田二期勘探开采许可。",
-   "link": "https://wallstreetcn.com/news/global/3149291",
+   "title": "凌创电机：公司订单已排到2028年",
+   "summary": "据南京发布，一个“小圆盘”正在全球动力市场掀起巨浪，它叫“轴向磁通电机”，最近在中国实现首次规模化量产。在南京市江宁汤山度假区，刚成立4年的南京凌创电机技术有限公司（简称“凌创电机”），自主研发的轴向磁通电机也迎来新进展。目前，公司订单已排到2028年，产品在手订单金额突破1000万元，一条自动化轴向磁通电机产线预计年底投用。据悉，随着年底自动化轴向磁通电机产线的投用，公司电机产能将增加至2万台，",
+   "link": "https://wallstreetcn.com/news/global/3149483",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:15"
+   "published_at": "2026-08-14 04:35"
   },
   {
    "category": "finance",
-   "title": "现货黄金失守4350美元/盎司，日内跌1.40%。",
-   "summary": "现货黄金失守4350美元/盎司，日内跌1.40%。",
-   "link": "https://wallstreetcn.com/news/global/3149290",
+   "title": "北约击落一架进入拉脱维亚领空的无人机。",
+   "summary": "北约击落一架进入拉脱维亚领空的无人机。",
+   "link": "https://wallstreetcn.com/news/global/3149482",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:14"
+   "published_at": "2026-08-14 04:33"
   },
   {
    "category": "finance",
-   "title": "俄外长：将扣押西方国家船只作为对等反制",
-   "summary": "俄罗斯外交部长拉夫罗夫13日对俄媒表示，俄方将“自行决定”扣押哪些西方国家船只，作为对西方国家扣押俄船只行为的反制。 拉夫罗夫说，西方国家把“强盗行径和海盗行为”当作官方政策，俄罗斯将从服务于西方国家利益的船只中自主选择扣押目标，至于如何处理“将由俄方自行决定”。 西方国家指责俄罗斯利用油轮等商用船只逃避西方制裁，将这些商用船只称为“影子舰队”。欧洲多国近来在相关水域拦截多艘所谓俄“影子舰队”船只",
-   "link": "https://wallstreetcn.com/news/global/3149289",
+   "title": "中国财政部今日发行国债，10年期品种加权平均中标利率为1.66%，为去年7月来最低。 30年期国债加",
+   "summary": "中国财政部今日发行国债，10年期品种加权平均中标利率为1.66%，为去年7月来最低。 30年期国债加权平均中标利率2.14%，为去年11月来最低。",
+   "link": "https://wallstreetcn.com/news/global/3149481",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:12"
+   "published_at": "2026-08-14 04:32"
   },
   {
    "category": "finance",
-   "title": "沙特阿拉伯国防部：多国海上防御联盟第三次规划会议于吉达召开，共有 39 个国家参与。",
-   "summary": "沙特阿拉伯国防部：多国海上防御联盟第三次规划会议于吉达召开，共有 39 个国家参与。",
-   "link": "https://wallstreetcn.com/news/global/3149288",
+   "title": "早间要闻汇总",
+   "summary": "创业板指冲高回落涨0.65%，CPO概念股集体走强。 恒指半日跌0.9%，恒生科技指数跌1.8%，华虹宏力跌超12%。 美财长称将对伊朗实施前所未见措施。 京东集团港股盘中跌超10%，财报显示上市以来首现季度营收下滑。 报道：苹果未来几个月将在中国发布一套AI工具，该AI模型的训练得到阿里巴巴的支持。",
+   "link": "https://wallstreetcn.com/news/global/3149480",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:10"
+   "published_at": "2026-08-14 04:30"
   },
   {
    "category": "finance",
-   "title": "纽约联储：交易台计划进行约170亿美元的再投资购买；8月14日至9月14日期间不进行储备管理购买。",
-   "summary": "纽约联储：交易台计划进行约170亿美元的再投资购买；8月14日至9月14日期间不进行储备管理购买。",
-   "link": "https://wallstreetcn.com/news/global/3149287",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 14:45 法国7月CPI终值； ② 待定 国内成品油开启新一轮调价窗口； ③ 16:30 中国香港第二季度GDP终值； ④ 17:00 欧元区第二季度GDP修正值； ⑤ 20:30 美国7月零售销售，加拿大6月批发销售； ⑥ 22:00 美国8月密歇根大学消费者信心指数初值，美国6月商业库存； ⑦ 次日01:00 美国至8月14日当周石油钻井总数； 微信小程序搜索“见闻历”，了解更多。",
+   "link": "https://wallstreetcn.com/news/global/3149479",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:05"
+   "published_at": "2026-08-14 04:30"
   },
   {
    "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.7450元，较上一交易日夜盘收盘涨9个基点。",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.7450元，较上一交易日夜盘收盘涨9个基点。",
-   "link": "https://wallstreetcn.com/news/global/3149286",
+   "title": "苹果未来几个月将在中国发布一套AI工具，该AI模型的训练得到阿里巴巴的支持。（路透）",
+   "summary": "苹果未来几个月将在中国发布一套AI工具，该AI模型的训练得到阿里巴巴的支持。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3149477",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:05"
+   "published_at": "2026-08-14 04:30"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.63%。 恒生科技指数主连夜盘收涨0.71%。",
-   "summary": "恒生指数主连夜盘收跌0.63%。 恒生科技指数主连夜盘收涨0.71%。",
-   "link": "https://wallstreetcn.com/news/global/3149285",
+   "title": "SK集团董事长崔泰源表示，SK海力士正考虑以合资方式建设新的存储芯片工厂，以降低传统行业盛衰周期下巨",
+   "summary": "SK集团董事长崔泰源表示，SK海力士正考虑以合资方式建设新的存储芯片工厂，以降低传统行业盛衰周期下巨额资本支出和产能过剩带来的风险。",
+   "link": "https://wallstreetcn.com/news/global/3149476",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 19:04"
+   "published_at": "2026-08-14 04:29"
   },
   {
    "category": "finance",
-   "title": "Workday涨幅扩大至30%。",
-   "summary": "Workday涨幅扩大至30%。",
-   "link": "https://wallstreetcn.com/news/global/3149283",
+   "title": "投入翻倍仍谋划赴美建厂！SK崔泰源预判明年存储芯片供应缺口最大",
+   "summary": "综合韩联社Infomax、美国消费者新闻与商业频道(CNBC)报道，SK集团会长崔泰源作出预判，明年存储芯片行业将遭遇史上最严重供应短缺。当地时间13日，崔泰源在采访中直言：“明年大概率会是存储芯片供应缺口最大的一年。我们正全力扩充产能，稳固自身在存储市场的份额。”被问及是否计划在美国兴建存储晶圆厂时，崔泰源回应：“我们有赴美建厂的意愿，眼下难题是寻找合适选址。”（中新经纬）",
+   "link": "https://wallstreetcn.com/news/global/3149475",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 18:53"
+   "published_at": "2026-08-14 04:28"
   },
   {
    "category": "finance",
-   "title": "受Workday被收购报道影响，AI应用软件股集体冲高，Cloudflare、MongoDB涨超6%",
-   "summary": "受Workday被收购报道影响，AI应用软件股集体冲高，Cloudflare、MongoDB涨超6%，Palantir、赛富时涨超4%，Applovin、ServiceNow涨超3%； 扩展科技软件行业ETF-iShares (IGV.US)涨超2%。",
-   "link": "https://wallstreetcn.com/news/global/3149282",
+   "title": "尼泊尔西部山体滑坡致10人死亡2人失踪",
+   "summary": "尼泊尔西部罗尔帕县警方13日通报，持续强降雨引发的山体滑坡造成10人死亡，另有2人下落不明。通报说，滑坡12日晚发生在罗尔帕县一处偏远丘陵地带，当地一个小村落几乎被夷为平地。当地警方发言人什雷斯塔告诉新华社记者，救援人员在滑坡现场找到5具遇难者遗体，另有5具遗体在数公里外的比乌坦县被发现。警方表示，搜救工作仍在进行中，因受灾区域位置偏远，相关工作面临较大困难。",
+   "link": "https://wallstreetcn.com/news/global/3149474",
    "source": "华尔街见闻",
-   "published_at": "2026-08-13 18:49"
+   "published_at": "2026-08-14 04:27"
+  },
+  {
+   "category": "finance",
+   "title": "美军否认“林肯”号航母人员死亡等传闻",
+   "summary": "美军中央司令部13日发表声明称，部署在中东的“亚伯拉罕·林肯”号航母上水兵斗殴致死、自杀念头激增等情况的媒体报道不实，称该航母上无服役人员死亡。",
+   "link": "https://wallstreetcn.com/news/global/3149473",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-14 04:20"
   }
  ]
 }
