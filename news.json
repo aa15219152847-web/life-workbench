@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-08-14 20:05",
+ "updated_at": "2026-08-15 03:09",
  "ai": [
+  {
+   "category": "ai",
+   "title": "微软 Copilot Notebooks 扩展支持 Markdown，强化 AI 资料分析",
+   "summary": "",
+   "link": "https://www.ithome.com/0/990/013.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌 Gemini 将推新选项：关闭 AI 生成图片 / 视频 / 音乐的可见水印",
+   "summary": "",
+   "link": "https://www.ithome.com/0/989/997.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "70 天超 10 款模型：CNBC 称美国限制反而催化中国 AI 创新，加速进入全球企业业务体系",
@@ -128,192 +144,168 @@
    "link": "https://www.ithome.com/0/988/556.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "李开复：中国开源大模型让美国人很担忧",
-   "summary": "",
-   "link": "https://www.ithome.com/0/988/466.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "马斯克赞同 Cloudflare 预测：未来 5 年内 AI 流量将超人类互联网用量 1000 倍",
-   "summary": "",
-   "link": "https://www.ithome.com/0/988/284.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "印度拟向拥有成熟技术的外国核反应堆开放核电市场",
-   "summary": "根据印度核能法案下的拟议规则和法规，企业在获得正式许可证之前，可先获得原则性批准，以开展供应商谈判、前期开发工作并取得项目用地。 获得许可证后，核电项目将接受涵盖设计、选址、建设、调试和运营等环节的分阶段监管审查。监管机构还将拥有在项目关键阶段叫停工程的权力。",
-   "link": "https://wallstreetcn.com/news/global/3149870",
+   "title": "澳研究人员利用干细胞培育出人类心脏瓣膜组织",
+   "summary": "澳大利亚研究人员日前利用干细胞在实验室培育出人类心脏瓣膜组织，可用于研究心脏瓣膜的发育和病变过程，并可用于测试相关疾病的治疗方法。研究成果已发表在美国《细胞－干细胞》杂志上。",
+   "link": "https://wallstreetcn.com/news/global/3149934",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:58"
+   "published_at": "2026-08-15 03:05"
   },
   {
    "category": "finance",
-   "title": "派拉蒙与华纳兄弟探索合并协议项下所有监管条件均已满足。",
-   "summary": "派拉蒙与华纳兄弟探索合并协议项下所有监管条件均已满足。",
-   "link": "https://wallstreetcn.com/news/global/3149868",
+   "title": "印度总理莫迪：印度计划在一年内对1000万青年进行人工智能（AI）技能培训。 印度将为青年提供免费在",
+   "summary": "印度总理莫迪：印度计划在一年内对1000万青年进行人工智能（AI）技能培训。 印度将为青年提供免费在线考试辅导课程。",
+   "link": "https://wallstreetcn.com/news/global/3149933",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:53"
+   "published_at": "2026-08-15 03:04"
   },
   {
    "category": "finance",
-   "title": "Stripe与Advent洽谈收购PayPal。",
-   "summary": "Stripe与Advent洽谈收购PayPal。",
-   "link": "https://wallstreetcn.com/news/global/3149867",
+   "title": "印度总理莫迪：印度需要吸引更多全球游客。",
+   "summary": "印度总理莫迪：印度需要吸引更多全球游客。",
+   "link": "https://wallstreetcn.com/news/global/3149932",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:51"
+   "published_at": "2026-08-15 02:59"
   },
   {
    "category": "finance",
-   "title": "甲骨文：AI数据中心园区项目朱庇特计划仍按计划推进，我们将继续与合作伙伴密切合作，推动该项目向前发展",
-   "summary": "甲骨文：AI数据中心园区项目朱庇特计划仍按计划推进，我们将继续与合作伙伴密切合作，推动该项目向前发展。甲骨文跌幅收窄，现跌3.5%，此前一度跌4.7%。",
-   "link": "https://wallstreetcn.com/news/global/3149866",
+   "title": "古巴外长谴责美国对古实施极限施压和经济扼杀政策",
+   "summary": "古巴外交部长罗德里格斯14日谴责美国政府对古巴实施极限施压和经济扼杀政策，指出美方行径意在削弱古巴政府提供基本商品和服务的能力，以引发社会动荡。",
+   "link": "https://wallstreetcn.com/news/global/3149931",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:38"
+   "published_at": "2026-08-15 02:57"
   },
   {
    "category": "finance",
-   "title": "CFTC：投机者增持原油、黄金净多头",
-   "summary": "美国商品期货交易委员会（CFTC）数据显示，截至8月11日当周，投机者继续增持原油和黄金净多头头寸。其中，WTI原油投机净多头增加4034份合约，至105860份；COMEX黄金净多头增加9470份，至141868份；COMEX铜净多头增加3085份，至80880份。白银净多头则减少755份，至10312份。 债市方面，投机者对美国国债的空头持仓分化，5年期国债期货净空头减少84963份至124.",
-   "link": "https://wallstreetcn.com/news/global/3149865",
+   "title": "美以官员披露：白宫敦促内塔尼亚胡公开谴责以色列定居者“封锁”巴勒斯坦民房行为",
+   "summary": "据路透社报道，美国与以色列官员当地时间14日表示，美国希望以色列总理内塔尼亚胡公开谴责以色列定居者对约旦河西岸一个巴勒斯坦村庄实施围困的行为。此前，以色列定居者对约旦河西岸城市纳布卢斯以南古斯拉村的三处民房实施“封锁”，阻止居民进出，并切断水电供应。",
+   "link": "https://wallstreetcn.com/news/global/3149928",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:38"
+   "published_at": "2026-08-15 02:53"
   },
   {
    "category": "finance",
-   "title": "AMD发行47.5亿美元债券，创公司最高规模发债纪录",
-   "summary": "美国芯片制造商超威半导体，也就是AMD，当地时间13日发行债券，将筹集资金47.5亿美元。创下公司最高规模发债纪录。预计债券于8月17日完成交割。 AMD13日在官网公布的文件显示，此次发行的债券分为四档，期限分别为3年、5年、7年和10年。票面利率介于4.6%至5.5%之间。其中10年期债券较美国10年期国债溢价90个基点。本次募集资金将用于一般企业用途，其中可能包括偿还债务。公开信息显示，AM",
-   "link": "https://wallstreetcn.com/news/global/3149864",
+   "title": "印度总理莫迪：印度需要加快改革步伐。 印度将迈向下一阶段的改革。 印度工厂应具备竞争力并保持产品质量",
+   "summary": "印度总理莫迪：印度需要加快改革步伐。 印度将迈向下一阶段的改革。 印度工厂应具备竞争力并保持产品质量。",
+   "link": "https://wallstreetcn.com/news/global/3149927",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:34"
+   "published_at": "2026-08-15 02:49"
   },
   {
    "category": "finance",
-   "title": "美元指数14日下跌",
-   "summary": "衡量美元对六种主要货币的美元指数当天下跌0.3%，在汇市尾市收于99.667。 截至纽约汇市尾市，1欧元兑换1.1566美元，高于前一交易日的1.1529美元；1英镑兑换1.3533美元，高于前一交易日的1.3485美元。 1美元兑换159.38日元，低于前一交易日的159.51日元；1美元兑换0.8131瑞士法郎，低于前一交易日的0.8139瑞士法郎；1美元兑换1.3877加元，低于前一交易日的",
-   "link": "https://wallstreetcn.com/news/global/3149863",
+   "title": "内蒙古自治区人大财政经济委员会主任委员冯玉臻接受审查调查",
+   "summary": "中央纪委国家监委网站8月15日通报，据内蒙古自治区纪委监委消息：内蒙古自治区人大财政经济委员会主任委员冯玉臻涉嫌严重违纪违法，目前正接受内蒙古自治区纪委监委纪律审查和监察调查。",
+   "link": "https://wallstreetcn.com/news/global/3149926",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:26"
+   "published_at": "2026-08-15 02:41"
   },
   {
    "category": "finance",
-   "title": "国际油价14日上涨",
-   "summary": "截至当天收盘，纽约商品交易所9月交货的轻质原油期货价格上涨1.15美元，收于每桶82.40美元，涨幅为1.42%；10月交货的伦敦布伦特原油期货价格上涨1.45美元，收于每桶88.52美元，涨幅为1.67%。",
-   "link": "https://wallstreetcn.com/news/global/3149862",
+   "title": "截至目前，2026年暑期档电影票房（含预售）突破95亿元，连续36天单日票房过亿。2026年度电影总",
+   "summary": "截至目前，2026年暑期档电影票房（含预售）突破95亿元，连续36天单日票房过亿。2026年度电影总票房（含预售）突破252亿元。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3149925",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:22"
+   "published_at": "2026-08-15 02:40"
   },
   {
    "category": "finance",
-   "title": "博通AI客户融资平台引担忧，盘中股价跌近7%",
-   "summary": "美国银行分析师估计，博通为AI芯片客户搭建的融资平台到2029年年中可能累积高达3700亿美元的优先债务，仅2027年新增发行就可能达到约1500亿美元，该估算基于20吉瓦的数据中心规模。 债务由融资平台承担，并非博通直接背负，但博通已为部分客户租赁付款提供担保，首笔交易担保规模约290亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3149860",
+   "title": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。 未来7-8年内印度将新建多达8座芯片工厂。",
+   "summary": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。 未来7-8年内印度将新建多达8座芯片工厂。 预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。 印度必须寻求替代能源。",
+   "link": "https://wallstreetcn.com/news/global/3149921",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:20"
+   "published_at": "2026-08-15 02:32"
   },
   {
    "category": "finance",
-   "title": "布伦特原油期货结算价为每桶88.52美元，上涨1.45美元，涨幅1.67%。",
-   "summary": "布伦特原油期货结算价为每桶88.52美元，上涨1.45美元，涨幅1.67%。",
-   "link": "https://wallstreetcn.com/news/global/3149858",
+   "title": "美国陆军暂停所有“阿帕奇”直升机训练任务",
+   "summary": "美国陆军14日发表声明说，在一架“阿帕奇”军用直升机日前坠毁致两名士兵丧生后，美国陆军决定暂停所有“阿帕奇”直升机训练任务。声明说，陆军高层已下令暂停AH-64“阿帕奇”直升机的训练任务，“停飞令将持续生效，直至我们对事故的根本原因有更深入了解”。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3149919",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:09"
+   "published_at": "2026-08-15 02:18"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收涨0.61%。 恒生科技指数主连夜盘收涨0.81%。",
-   "summary": "恒生指数主连夜盘收涨0.61%。 恒生科技指数主连夜盘收涨0.81%。",
-   "link": "https://wallstreetcn.com/news/global/3149857",
+   "title": "中消协发布绿色消费指南，涵盖四大领域50条行动建议",
+   "summary": "今天（15日）是第四个全国生态日，中国消费者协会今天发布《中国消费者绿色消费指南（2026版）》。指南重点围绕“3060”碳达峰碳中和目标，以日常生活为基础，帮助消费者增加绿色消费知识，提升绿色消费信心，培养可持续生活方式。指南立足于我国社会文化背景与居民日常生活场景，系统性提出50条行动建议，内容涵盖饮食、出行、能源、日用品四大消费领域，包括倡导“光盘行动”、减少一次性餐具使用，倡导低碳出行，鼓",
+   "link": "https://wallstreetcn.com/news/global/3149918",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:08"
+   "published_at": "2026-08-15 02:16"
   },
   {
    "category": "finance",
-   "title": "特朗普料将出席白宫预测市场会议",
-   "summary": "据悉，特朗普预计将出席白宫举行的预测市场会议，Coinbase、a16z、Kalshi等公司将参与。 此次会议正值美国预测市场快速扩张之际，相关平台近期面临监管和消费者保护方面的关注。",
-   "link": "https://wallstreetcn.com/news/global/3149855",
+   "title": "今年以来港股IPO基石投资额同比增长158.3%",
+   "summary": "截至8月14日，年内共有102家公司在港交所上市，募资总额达3287.58亿港元，同比增长154.17%。其中，84家公司IPO引入了基石投资者，涉及951笔投资，同比增长291%；基石投资额1392.1亿港元，同比增长158.3%。（证券日报）",
+   "link": "https://wallstreetcn.com/news/global/3149917",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 19:00"
+   "published_at": "2026-08-15 01:47"
   },
   {
    "category": "finance",
-   "title": "摩根大通终止与Polymarket的银行合作关系。",
-   "summary": "摩根大通终止与Polymarket的银行合作关系。",
-   "link": "https://wallstreetcn.com/news/global/3149854",
+   "title": "阿联酋称一船只在霍尔木兹海峡遭袭",
+   "summary": "据阿联酋通讯社15日报道，阿布扎比国家石油公司称该公司一艘船只14日晚在霍尔木兹海峡航行时遭袭。事件未造成人员伤亡。",
+   "link": "https://wallstreetcn.com/news/global/3149916",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 18:43"
+   "published_at": "2026-08-15 01:33"
   },
   {
    "category": "finance",
-   "title": "上期所原油期货主力合约夜盘收涨2.60%，报569.30元人民币/桶。 沪银2609合约夜盘收涨0.",
-   "summary": "上期所原油期货主力合约夜盘收涨2.60%，报569.30元人民币/桶。 沪银2609合约夜盘收涨0.68%，报15820元/千克。 沪金2609合约夜盘收涨0.63%，报949.66元/克。",
-   "link": "https://wallstreetcn.com/news/global/3149853",
+   "title": "本周机构扎堆调研，A股六家公司接待超百家机构",
+   "summary": "本周（8月10日—8月14日）A股共有72家上市公司接待机构投资者调研。从赚钱效应来看，超四成机构调研公司周内实现正收益，炬光科技以22.65%涨幅位居第一，盛弘股份、药石科技、科德数控涨超10%。热门调研标的方面，随着半年报陆续披露，本周机构扎堆调研情况较为明显，共有6家公司接待超过百家机构调研。九号公司-WD、鹏鼎控股接待超200家机构调研，盛弘股份、恒逸石化、广合科技、悍高集团4家公司接待1",
+   "link": "https://wallstreetcn.com/news/global/3149915",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 18:35"
+   "published_at": "2026-08-15 01:03"
   },
   {
    "category": "finance",
-   "title": "甲骨文股价跌至盘中低点4.3%",
-   "summary": "用于甲骨文数据中心的天然气管道项目已被推迟至2027年2月。",
-   "link": "https://wallstreetcn.com/news/global/3149852",
+   "title": "上百家A股公司计划半年度现金分红，总额超900亿元",
+   "summary": "随着2026年半年报披露进入密集期，A股上市公司分红预案接连出炉。Wind数据显示，截至目前，包括已公布现金分红比例但未公布具体分红金额的公司，已有上百家公司发布了2026年半年度利润分配方案，合计分红金额达931.62亿元。其中，头部企业的“大手笔”尤为引人注目。中国移动拟每股派息2.51元，以截至6月30日的总股本计算，合计分红金额达544.26亿元，位居榜首。宁德时代紧随其后，公司拟每股派息",
+   "link": "https://wallstreetcn.com/news/global/3149912",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 18:20"
+   "published_at": "2026-08-15 00:57"
   },
   {
    "category": "finance",
-   "title": "白宫新闻秘书莱维特表示，美国还有更多施压伊朗的手段。美国可以继续惩罚伊朗并削弱其经济。",
-   "summary": "白宫新闻秘书莱维特表示，美国还有更多施压伊朗的手段。美国可以继续惩罚伊朗并削弱其经济。",
-   "link": "https://wallstreetcn.com/news/global/3149851",
+   "title": "美国能源信息署（EIA）：预计8月美国原油产量平均为1383万桶/日（7月为1382万桶/日）；9月",
+   "summary": "美国能源信息署（EIA）：预计8月美国原油产量平均为1383万桶/日（7月为1382万桶/日）；9月平均产量预计为1377万桶/日。 预计8月美国天然气产量平均为1226亿立方英尺/日（7月为1220亿立方英尺/日）；9月平均产量预计为1232亿立方英尺/日。",
+   "link": "https://wallstreetcn.com/news/global/3149911",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 18:20"
+   "published_at": "2026-08-15 00:32"
   },
   {
    "category": "finance",
-   "title": "Tiger Global披露二季度13F持仓： 减持Alphabet、博通、Spotify、Meta",
-   "summary": "Tiger Global披露二季度13F持仓： 减持Alphabet、博通、Spotify、Meta等；同时新建AMD、希捷、Visa、丹纳赫等仓位。 增持Intuit、Corpay、Reddit、MercadoLibre等；退出AppLovin、Netflix、Zscaler、Procore等。",
-   "link": "https://wallstreetcn.com/news/global/3149850",
+   "title": "“创系列”指数密集上新，基金公司火速布局产品",
+   "summary": "近日，“创系列”指数密集上新——创业板光伏指数、创业板智能驾驶指数、创业板机器人指数等陆续发布。在持续丰富的指数供给带动下，公募基金下半年已上报30多只创业板相关产品，同时密集布局科创板细分赛道与科技主题主动权益类基金，资本市场服务新质生产力的工具谱系日趋完善。（上证报）",
+   "link": "https://wallstreetcn.com/news/global/3149910",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 18:19"
+   "published_at": "2026-08-15 00:21"
   },
   {
    "category": "finance",
-   "title": "智利国有铜业公司Codelco将关闭Chuquicamata和Ministro Hales矿区。",
-   "summary": "智利国有铜业公司Codelco将关闭Chuquicamata和Ministro Hales矿区。",
-   "link": "https://wallstreetcn.com/news/global/3149849",
+   "title": "二季度险资持股每日盘点",
+   "summary": "Wind数据统计显示，8月15日，险资现身19只个股前十大流通股东，合计持股118.67亿股，合计持股市值达1261.78亿元。从险资持股市值来看，平安银行、贵州茅台、科达利排名居前，持股市值分别为1145.96亿元、66.20亿元、13.15亿元。",
+   "link": "https://wallstreetcn.com/news/global/3149909",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 18:04"
+   "published_at": "2026-08-15 00:17"
   },
   {
    "category": "finance",
-   "title": "博通股价跌幅扩大至6.7%，创6月5日以来最大单日跌幅。",
-   "summary": "博通股价跌幅扩大至6.7%，创6月5日以来最大单日跌幅。",
-   "link": "https://wallstreetcn.com/news/global/3149848",
+   "title": "二季度社保基金持股每日盘点",
+   "summary": "上市公司半年报持续披露，Wind数据统计显示，8月15日，社保基金现身20只个股前十大流通股东，合计持股3.05亿股，合计持股市值达70.68亿元。大华股份、良信股份、梅花生物持股数量居前，分别为0.60亿股、0.41亿股、0.38亿股。从社保基金持股市值来看，生益科技、大华股份、星网锐捷排名居前，持股市值分别为16.55亿元、9.84亿元、6.28亿元。",
+   "link": "https://wallstreetcn.com/news/global/3149908",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 17:59"
+   "published_at": "2026-08-15 00:17"
   },
   {
    "category": "finance",
-   "title": "印度自8月15日起将汽油出口暴利税从每升3.5卢比降至零，将航空涡轮燃料出口暴利税从每升22卢比下调",
-   "summary": "印度自8月15日起将汽油出口暴利税从每升3.5卢比降至零，将航空涡轮燃料出口暴利税从每升22卢比下调至19.5卢比，将柴油出口暴利税从每升25.5卢比下调至24卢比。",
-   "link": "https://wallstreetcn.com/news/global/3149847",
+   "title": "A股半年报盘点",
+   "summary": "8月15日，A股共132家上市公司披露2026年半年报，其中115家盈利，17家亏损，17家营收超50亿元，8家净利润超10亿元。从净利润增幅来看，38家公司净利润增幅超50%，昂立教育、复旦张江、必易微排名居前，上半年净利润增幅分别为977.30%、545.57%、526.55%。",
+   "link": "https://wallstreetcn.com/news/global/3149904",
    "source": "华尔街见闻",
-   "published_at": "2026-08-14 17:56"
-  },
-  {
-   "category": "finance",
-   "title": "VIX指数跌幅扩大，触及12月30日以来的盘中最低点。",
-   "summary": "VIX指数跌幅扩大，触及12月30日以来的盘中最低点。",
-   "link": "https://wallstreetcn.com/news/global/3149846",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-14 17:51"
+   "published_at": "2026-08-15 00:05"
   }
  ]
 }
