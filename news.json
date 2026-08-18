@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-08-17 19:44",
+ "updated_at": "2026-08-18 03:13",
  "ai": [
+  {
+   "category": "ai",
+   "title": "OpenAI 前高管：相信 AI 能治愈所有疾病，但光靠大模型远远不够",
+   "summary": "",
+   "link": "https://www.ithome.com/0/990/910.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "一夜暴富的 AI 亿万富豪：买房之后，狂扫私人飞机、超跑、游艇",
@@ -144,136 +152,208 @@
    "link": "https://www.ithome.com/0/989/505.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "备战 IPO 上市：彭博社称 2026 年 OpenAI 年化营收有望翻番达 400 亿美元",
-   "summary": "",
-   "link": "https://www.ithome.com/0/989/490.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "国际足联（FIFA）已经将首席运营官（COO）Kevin Lamour免职。（英国天空新闻）",
-   "summary": "国际足联（FIFA）已经将首席运营官（COO）Kevin Lamour免职。（英国天空新闻）",
-   "link": "https://wallstreetcn.com/news/global/3150670",
+   "title": "创业板指跌超2%，沪指跌0.64%，深成指跌1.62%，AI应用、算力租赁、医药医疗、软件开发等方向",
+   "summary": "创业板指跌超2%，沪指跌0.64%，深成指跌1.62%，AI应用、算力租赁、医药医疗、软件开发等方向跌幅居前，沪深京三市下跌个股近4200只。",
+   "link": "https://wallstreetcn.com/news/global/3150811",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:44"
+   "published_at": "2026-08-18 03:09"
   },
   {
    "category": "finance",
-   "title": "美国30年期国债收益率涨超5个基点，创2007年以来新高",
-   "summary": "周一（8月17日）纽约尾盘，美国10年期国债收益率涨2.98个基点，报4.7219%，日线图上，7月13日涨穿4.6%，7月23日以来持续交投于4.7%附近。 两年期美债收益率涨1.04个基点，报4.1795%；30年期美债收益率涨5.10个基点，报5.3103%，北京时间15:38刷新日低至5.2382%，随后持续走高、02:21达到5.3146%，逼近2007年6月13日顶部5.4376%、2",
-   "link": "https://wallstreetcn.com/news/global/3150669",
+   "title": "越南股指VN指数涨幅扩大至1%。",
+   "summary": "越南股指VN指数涨幅扩大至1%。",
+   "link": "https://wallstreetcn.com/news/global/3150808",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:43"
+   "published_at": "2026-08-18 03:04"
   },
   {
    "category": "finance",
-   "title": "Anthropic年化收入在IPO之前超过650亿美元",
-   "summary": "据知情人士透露，Anthropic PBC基于当前业绩推算，年化收入有望超过650亿美元，较去年底的增长速度翻了七倍以上。该公司用于根据较短时间段推算全年收入的指标——收入运行率（run rate），截至7月底已达到650亿美元。Anthropic是在向投资者进行例行情况更新时披露了上述数据。营收的急剧加速，进一步巩固了Anthropic的上市计划。Anthropic与OpenAI均已秘密递交上市",
-   "link": "https://wallstreetcn.com/news/global/3150668",
+   "title": "2026上合组织数字经济论坛将于9月14日至16日举办",
+   "summary": "从国家数据局了解到，2026上合组织数字经济论坛将于9月14日至16日在新疆乌鲁木齐举办，本届论坛的主题为“数连上合 智启未来”。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3150807",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:37"
+   "published_at": "2026-08-18 03:03"
   },
   {
    "category": "finance",
-   "title": "报道：美国对加拿大汽车现行25%的关税有可能下调至15%",
-   "summary": "美国官员提议仅将美国本土价值部分从加拿大车辆15%关税中予以扣除，但加拿大官员希望全部北美地区价值部分都获得扣除。 媒体援引知情的谈判消息人士报道称，美加双方正在磋商，在扣除部分价值成分后，美国对加拿大汽车现行25%的关税有可能下调至15%。部分北美汽车行业官员认为，以上两种方案均优于美国目前对加拿大汽车征收25%关税的现状，日本、韩国及欧盟的汽车关税税率为15%。",
-   "link": "https://wallstreetcn.com/news/global/3150667",
+   "title": "隔夜SHIBOR报1.3610%，下降0.10个基点。 7天SHIBOR报1.3800%，下降0.5",
+   "summary": "隔夜SHIBOR报1.3610%，下降0.10个基点。 7天SHIBOR报1.3800%，下降0.54个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
+   "link": "https://wallstreetcn.com/news/global/3150805",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:35"
+   "published_at": "2026-08-18 03:01"
   },
   {
    "category": "finance",
-   "title": "特斯拉准备8月份发布Cybercab，该公司计划在美国得州奥斯汀公开投放这种没有方向盘的出租车车型。",
-   "summary": "特斯拉准备8月份发布Cybercab，该公司计划在美国得州奥斯汀公开投放这种没有方向盘的出租车车型。（The Information）",
-   "link": "https://wallstreetcn.com/news/global/3150665",
+   "title": "企业微信全面升级CLI与MCP，主流AI Agent可直接接入",
+   "summary": "企业微信全面升级CLI与MCP能力，WorkBuddy、Deepseek Harness、Minimax Code等主流AI Agent均可直接接入企业微信调用企微能力完成任务，企业也可基于开放接口接入自建Agent。",
+   "link": "https://wallstreetcn.com/news/global/3150804",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:28"
+   "published_at": "2026-08-18 02:58"
   },
   {
    "category": "finance",
-   "title": "周一（8月17日）纽约尾盘，美元兑日元涨0.10%，报159.47日元，日内交投区间为158.85-",
-   "summary": "周一（8月17日）纽约尾盘，美元兑日元涨0.10%，报159.47日元，日内交投区间为158.85-159.60日元，北京时间15:42刷新日低、随后逐步上扬。 欧元兑日元涨0.17%，报184.63日元；英镑兑日元涨0.13%，报215.952日元。",
-   "link": "https://wallstreetcn.com/news/global/3150664",
+   "title": "富时中国A50指数期货下跌1%。",
+   "summary": "富时中国A50指数期货下跌1%。",
+   "link": "https://wallstreetcn.com/news/global/3150803",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:21"
+   "published_at": "2026-08-18 02:58"
   },
   {
    "category": "finance",
-   "title": "周一（8月17日）纽约尾盘，ICE美元指数跌0.04%，报99.627点，全天处于下跌状态、交投区间",
-   "summary": "周一（8月17日）纽约尾盘，ICE美元指数跌0.04%，报99.627点，全天处于下跌状态、交投区间为99.647-99.294点，整体呈现出V形走势、北京时间16:30刷新日低。 彭博美元指数跌0.07%，报1200.29点，日内交投区间为1200.79-1197.34点。",
-   "link": "https://wallstreetcn.com/news/global/3150663",
+   "title": "麦格理：美国在联合干预中或仅买进5亿美元的日元 示范效应的震撼大",
+   "summary": "麦格理外汇及利率策略主管Gareth Berry表示，美日联合干预对日元产生的“示范效应”，其“震撼远大于干预资金的规模”。",
+   "link": "https://wallstreetcn.com/news/global/3150801",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:20"
+   "published_at": "2026-08-18 02:51"
   },
   {
    "category": "finance",
-   "title": "周一（8月17日）纽约尾盘，ICE原糖期货涨1.81%，ICE白糖期货涨2.37%。 ICE阿拉比卡",
-   "summary": "周一（8月17日）纽约尾盘，ICE原糖期货涨1.81%，ICE白糖期货涨2.37%。 ICE阿拉比卡咖啡期货涨2.74%，咖啡“C”期货涨1.07%。罗布斯塔咖啡期货涨1.50%。 纽约可可期货涨5.28%，报6078美元/吨。伦敦可可期货涨4.69%。 芝加哥WCE双低油菜籽期货涨0.93%。 ICE棉花期货涨0.85%。",
-   "link": "https://wallstreetcn.com/news/global/3150662",
+   "title": "恒生科技指数日内跌幅扩大至2%，智谱跌超15%，MINIMAX跌超13%。",
+   "summary": "恒生科技指数日内跌幅扩大至2%，智谱跌超15%，MINIMAX跌超13%。",
+   "link": "https://wallstreetcn.com/news/global/3150799",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:13"
+   "published_at": "2026-08-18 02:46"
   },
   {
    "category": "finance",
-   "title": "芝加哥大豆期货涨约2%，大豆油涨超2.6%",
-   "summary": "周一（8月17日）纽约尾盘，彭博谷物分类指数涨1.14%，报32.4651点，美股开盘以来持续走高，最近两个交易日累计上涨3.50%。 CBOT玉米期货涨1.19%，报4.89美元/蒲式耳。 CBOT小麦期货跌0.04%，报6.8925美元/蒲式耳。 CBOT大豆期货涨1.97%，报12.16美元/蒲式耳，最近四天累计上涨4.04%；豆粕期货涨0.79%，豆油期货涨2.62%。 CBOT瘦肉猪期货",
-   "link": "https://wallstreetcn.com/news/global/3150660",
+   "title": "韩国首尔综指跌超1%。",
+   "summary": "韩国首尔综指跌超1%。",
+   "link": "https://wallstreetcn.com/news/global/3150798",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:07"
+   "published_at": "2026-08-18 02:45"
   },
   {
    "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.7417元，较上周五夜盘收盘涨5点。成交量311",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.7417元，较上周五夜盘收盘涨5点。成交量311.47亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3150656",
+   "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报153750元/吨，较上日16:30价",
+   "summary": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报153750元/吨，较上日16:30价格上涨1000元/吨。",
+   "link": "https://wallstreetcn.com/news/global/3150796",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:01"
+   "published_at": "2026-08-18 02:34"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.27%，报25355点。 恒生科技指数主连夜盘收跌0.15%，报4779点。",
-   "summary": "恒生指数主连夜盘收跌0.27%，报25355点。 恒生科技指数主连夜盘收跌0.15%，报4779点。",
-   "link": "https://wallstreetcn.com/news/global/3150655",
+   "title": "截至早盘收盘，日经225指数跌1.6%，东证指数跌0.5%。",
+   "summary": "截至早盘收盘，日经225指数跌1.6%，东证指数跌0.5%。",
+   "link": "https://wallstreetcn.com/news/global/3150795",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 19:00"
+   "published_at": "2026-08-18 02:31"
   },
   {
    "category": "finance",
-   "title": "WTI 9月原油期货收涨2.10美元，涨幅2.55%，报84.50美元/桶，北京时间01:00以来显",
-   "summary": "WTI 9月原油期货收涨2.10美元，涨幅2.55%，报84.50美元/桶，北京时间01:00以来显著上涨。 布伦特10月原油期货收涨2.35美元，涨幅2.65%，报90.87美元/桶。 中东Abu Dhabi Murban原油期货涨6.74%，报95.45美元/桶。 NYMEX 9月天然气期货收报2.69美元/百万英热单位。 NYMEX 9月汽油期货收报3.2701美元/加仑，NYMEX 9月取",
-   "link": "https://wallstreetcn.com/news/global/3150650",
+   "title": "韩国首尔综指回吐此前3.4%的涨幅转跌。",
+   "summary": "韩国首尔综指回吐此前3.4%的涨幅转跌。",
+   "link": "https://wallstreetcn.com/news/global/3150794",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 18:31"
+   "published_at": "2026-08-18 02:30"
   },
   {
    "category": "finance",
-   "title": "上期所原油期货2609合约夜盘收涨4.91%，报596.50元人民币/桶。 沪金夜盘收涨0.41%，",
-   "summary": "上期所原油期货2609合约夜盘收涨4.91%，报596.50元人民币/桶。 沪金夜盘收涨0.41%，沪银收涨0.82%。",
-   "link": "https://wallstreetcn.com/news/global/3150649",
+   "title": "台湾证交所加权股价指数下跌1.1%。",
+   "summary": "台湾证交所加权股价指数下跌1.1%。",
+   "link": "https://wallstreetcn.com/news/global/3150793",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 18:30"
+   "published_at": "2026-08-18 02:25"
   },
   {
    "category": "finance",
-   "title": "美国30年期国债收益率达到5.31%，创最近十九年新高。",
-   "summary": "美国30年期国债收益率达到5.31%，创最近十九年新高。",
-   "link": "https://wallstreetcn.com/news/global/3150647",
+   "title": "创业板指、科创50均跌超1%，沪指跌0.16%，深成指跌0.78%，AI应用、算力租赁、影视、软件开",
+   "summary": "创业板指、科创50均跌超1%，沪指跌0.16%，深成指跌0.78%，AI应用、算力租赁、影视、软件开发等方向跌幅居前，沪深京三市下跌个股超3600只。",
+   "link": "https://wallstreetcn.com/news/global/3150792",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 18:14"
+   "published_at": "2026-08-18 02:22"
   },
   {
    "category": "finance",
-   "title": "苹果股东因AI版权指控起诉公司高管",
-   "summary": "一项新的投资者诉讼称，苹果公司的高管及董事在训练人工智能模型时已知存在版权侵权行为，这可能导致公司面临潜在法律责任及声誉损害。 根据股东Phil Rosen于上周五在美国加州北区联邦地区法院提起的股东派生诉讼，苹果的高管及董事会成员”明知或罔顾后果地”导致公司从事版权侵权行为，违反了其信义义务并存在恶意行为。",
-   "link": "https://wallstreetcn.com/news/global/3150642",
+   "title": "北京发行3年期一般债地方债，规模7.3007亿元，发行利率1.2900%，边际倍数1.07倍，倍数预",
+   "summary": "北京发行3年期一般债地方债，规模7.3007亿元，发行利率1.2900%，边际倍数1.07倍，倍数预期1.27； 北京发行5年期一般债地方债，规模11.5000亿元，发行利率1.4300%，边际倍数1.06倍，倍数预期1.41； 北京发行7年期一般债地方债，规模12.9000亿元，发行利率1.5600%，边际倍数1.98倍，倍数预期1.54； 北京发行10年期一般债地方债，规模41.9600亿元，",
+   "link": "https://wallstreetcn.com/news/global/3150789",
    "source": "华尔街见闻",
-   "published_at": "2026-08-17 18:05"
+   "published_at": "2026-08-18 02:20"
+  },
+  {
+   "category": "finance",
+   "title": "美股期货小幅走低，标普500指数期货跌0.2%，纳斯达克100指数期货跌0.4%。",
+   "summary": "美股期货小幅走低，标普500指数期货跌0.2%，纳斯达克100指数期货跌0.4%。",
+   "link": "https://wallstreetcn.com/news/global/3150788",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 02:14"
+  },
+  {
+   "category": "finance",
+   "title": "文昌商业发射场1、2号工位已实现常态化运营 卫星超级工厂进入试生产",
+   "summary": "据海南日报，8月17日上午，海南省“开局起步‘十五五’”系列主题新闻发布会迎来市县层面第二场——文昌市专场。文昌国际航天城管理局副局长袁世英表示，文昌着力提升发射制造能级，目前商业发射场1、2号工位已实现常态化运营，卫星超级工厂进入试生产，海上回收平台和测控系统加速建设。今年年底前，3、4号新工位将具备发射能力，卫星超级工厂首星同步下线，中国商火、快舟空间、天兵科技、箭元科技等火箭链重大项目已陆续",
+   "link": "https://wallstreetcn.com/news/global/3150787",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 02:14"
+  },
+  {
+   "category": "finance",
+   "title": "特朗普和加拿大总理卡尼周一就贸易问题通话。",
+   "summary": "特朗普和加拿大总理卡尼周一就贸易问题通话。",
+   "link": "https://wallstreetcn.com/news/global/3150785",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 02:10"
+  },
+  {
+   "category": "finance",
+   "title": "A股半导体板块早盘拉升，立昂微直线涨停，优迅股份、有研硅、西安奕材涨超10%，上海合晶、沪硅产业、有",
+   "summary": "A股半导体板块早盘拉升，立昂微直线涨停，优迅股份、有研硅、西安奕材涨超10%，上海合晶、沪硅产业、有研新材跟涨。",
+   "link": "https://wallstreetcn.com/news/global/3150784",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 02:06"
+  },
+  {
+   "category": "finance",
+   "title": "印尼股指JCI涨1.1%，至三个月来最高水平。",
+   "summary": "印尼股指JCI涨1.1%，至三个月来最高水平。",
+   "link": "https://wallstreetcn.com/news/global/3150782",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 02:04"
+  },
+  {
+   "category": "finance",
+   "title": "受贿数额特别巨大，检察机关依法对刘慧涉嫌受贿案提起公诉",
+   "summary": "从最高人民检察院获悉，十三届全国政协教科卫体委员会副主任刘慧涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对刘慧作出逮捕决定，并指定由山东省菏泽市人民检察院审查起诉。近日，菏泽市人民检察院已向菏泽市中级人民法院提起公诉。",
+   "link": "https://wallstreetcn.com/news/global/3150780",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 02:01"
+  },
+  {
+   "category": "finance",
+   "title": "恒生科技指数日内跌幅扩大至1%。智谱跌超12%，MINIMAX跌超9%。",
+   "summary": "恒生科技指数日内跌幅扩大至1%。智谱跌超12%，MINIMAX跌超9%。",
+   "link": "https://wallstreetcn.com/news/global/3150778",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 01:53"
+  },
+  {
+   "category": "finance",
+   "title": "日经225指数日内跌幅扩大至1%。",
+   "summary": "日经225指数日内跌幅扩大至1%。",
+   "link": "https://wallstreetcn.com/news/global/3150776",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 01:48"
+  },
+  {
+   "category": "finance",
+   "title": "中国10年期国债期货升至纪录高位。",
+   "summary": "中国10年期国债期货升至纪录高位。",
+   "link": "https://wallstreetcn.com/news/global/3150775",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 01:47"
+  },
+  {
+   "category": "finance",
+   "title": "美国30年期国债收益率升至5.321%，创2007年中期以来最高。",
+   "summary": "美国30年期国债收益率升至5.321%，创2007年中期以来最高。",
+   "link": "https://wallstreetcn.com/news/global/3150774",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-18 01:47"
   }
  ]
 }
