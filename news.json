@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-08-18 19:41",
+ "updated_at": "2026-08-19 03:26",
  "ai": [
+  {
+   "category": "ai",
+   "title": "Anthropic 预告 Claude Code 将整合 /design 命令",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/488.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软 Copilot AI 漏洞被披露：恶意链接绕过用户确认窃取隐私数据",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/423.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "外媒用 Codex AI 开发 macOS 27 工具，提高菜单栏电量可读性",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/407.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 辅助撰写提案涌入美国国会：充斥细节错误，拖慢审核进度",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/404.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "入侵 Hugging Face 事件后，OpenAI 放缓模型训练并加强安全监控",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/387.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "腾讯云将在马来西亚设立首个云区域，同步推进本地 AI 人才培养计划",
@@ -120,200 +160,200 @@
    "link": "https://www.ithome.com/0/990/013.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌 Gemini 将推新选项：关闭 AI 生成图片 / 视频 / 音乐的可见水印",
-   "summary": "",
-   "link": "https://www.ithome.com/0/989/997.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "70 天超 10 款模型：CNBC 称美国限制反而催化中国 AI 创新，加速进入全球企业业务体系",
-   "summary": "",
-   "link": "https://www.ithome.com/0/989/804.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "MiniMax-Music3 音乐模型发布：AI 生成最长 5 分钟歌曲",
-   "summary": "",
-   "link": "https://www.ithome.com/0/989/722.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Sonos Ace Ultra 高端耳机渲染图曝光，可 AI 语音控制智能家居",
-   "summary": "",
-   "link": "https://www.ithome.com/0/989/691.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "Aco Brasil：巴西7月钢铁进口同比下滑37.8%、出口同比下降2.6%，粗钢产量同比增长0.",
-   "summary": "Aco Brasil：巴西7月钢铁进口同比下滑37.8%、出口同比下降2.6%，粗钢产量同比增长0.1%。",
-   "link": "https://wallstreetcn.com/news/global/3151309",
+   "title": "创业板指跌超5%，科创50指数跌超6%。",
+   "summary": "创业板指跌超5%，科创50指数跌超6%。",
+   "link": "https://wallstreetcn.com/news/global/3151466",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:40"
+   "published_at": "2026-08-19 03:22"
   },
   {
    "category": "finance",
-   "title": "周二（8月18日）纽约尾盘，美元兑日元涨0.09%，报159.61日元，日内交投区间为159.30-",
-   "summary": "周二（8月18日）纽约尾盘，美元兑日元涨0.09%，报159.61日元，日内交投区间为159.30-159.78日元。 欧元兑日元涨0.06%，报184.78日元；英镑兑日元涨0.04%，报216.051日元。",
-   "link": "https://wallstreetcn.com/news/global/3151308",
+   "title": "加拿大总理卡尼：与美国的贸易谈判取得“实质性进展”。 贸易谈判“仍有重要工作要做”。",
+   "summary": "加拿大总理卡尼：与美国的贸易谈判取得“实质性进展”。 贸易谈判“仍有重要工作要做”。",
+   "link": "https://wallstreetcn.com/news/global/3151464",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:34"
+   "published_at": "2026-08-19 03:18"
   },
   {
    "category": "finance",
-   "title": "委内瑞拉国家石油公司（PDVSA）：委内瑞拉原油产量到月底将达到124.5万桶/日。",
-   "summary": "委内瑞拉国家石油公司（PDVSA）：委内瑞拉原油产量到月底将达到124.5万桶/日。",
-   "link": "https://wallstreetcn.com/news/global/3151306",
+   "title": "嫦娥七号器箭组合体完成垂直转运，计划近日择机实施发射",
+   "summary": "今天，嫦娥七号探测器和长征五号遥十四运载火箭在中国文昌航天发射场完成技术区相关工作，器箭组合体已垂直转运至发射区。 嫦娥七号探测器、长征五号遥十四运载火箭分别于4月、7月运抵发射场，先后完成了总装、测试等准备工作。目前，发射场设施设备状态良好，后续将按计划开展发射前各项功能检查、联合测试、推进剂加注等工作，计划近日择机实施发射。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3151463",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:34"
+   "published_at": "2026-08-19 03:17"
   },
   {
    "category": "finance",
-   "title": "伊朗最高国家安全委员会秘书雷扎伊：美国在霍尔木兹海峡的失利，标志波斯湾进入“后美国时代秩序”。",
-   "summary": "伊朗最高国家安全委员会秘书雷扎伊：美国在霍尔木兹海峡的失利，标志波斯湾进入“后美国时代秩序”。",
-   "link": "https://wallstreetcn.com/news/global/3151304",
+   "title": "美国宣布制裁日本籍国际刑事法院院长",
+   "summary": "美国国务卿鲁比奥18日发表声明称，美国当天对国际刑事法院院长、日本籍的赤根智子等两名国际刑事法院官员实施制裁。根据声明，另一名遭制裁的是国际刑事法院高级出庭律师、塞内加尔籍的阿卜杜拉耶·塞耶。声明称，这两人“直接参与了国际刑事法院针对那些未同意接受其管辖的国家的官员所进行的调查、逮捕、拘留或起诉行动”。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3151462",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:31"
+   "published_at": "2026-08-19 03:13"
   },
   {
    "category": "finance",
-   "title": "美国SEC公布加密货币监管方案，推进数字资产监管进程",
-   "summary": "美国证券交易委员会（SEC）提议豁免部分数字资产发行免于提交证券注册声明，豁免额度分别为最高500万美元和最高7500万美元。 该提案对发行方提出了相关要求，包括提交财务报表并满足持续信息披露义务，同时设立安全港条款，将相关资产排除在证券法中”投资合约”的定义之外。 该提案出台之际，里程碑式的加密立法在国会陷入停滞，SEC主席强调，要制定能够保护数字资产行业的”面向未来”的规则，立法仍然不可或缺。",
-   "link": "https://wallstreetcn.com/news/global/3151303",
+   "title": "王兴兴成90后新首富",
+   "summary": "8月19日，宇树科技正式登陆科创板，开盘价为1100元/股，暴涨629.44%，对应总市值来到4449亿元。该公司创始人王兴兴的账面身家随之飙升至超千亿元，超过上市前的对应股权总市值约183.12亿元，刷新国内90后创业者的财富纪录。此前2025年《新财富杂志》发布的90后企业家名单显示，影石创新创始人刘靖康曾以202亿元身家拿下90后新首富。（界面）",
+   "link": "https://wallstreetcn.com/news/global/3151461",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:29"
+   "published_at": "2026-08-19 03:08"
   },
   {
    "category": "finance",
-   "title": "伊朗宣布两名法国外交人员为“不受欢迎的人”",
-   "summary": "伊朗外交部当地时间18日发表声明说，鉴于两名法国驻伊朗使馆外交人员存在违反《维也纳外交关系公约》的行为，伊方决定将其列为“不受欢迎的人”，禁止其进入伊朗。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3151302",
+   "title": "韩元兑美元自去年10月以来首次升破1400关口。",
+   "summary": "韩元兑美元自去年10月以来首次升破1400关口。",
+   "link": "https://wallstreetcn.com/news/global/3151458",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:28"
+   "published_at": "2026-08-19 03:05"
   },
   {
    "category": "finance",
-   "title": "周二（8月18日）纽约尾盘，ICE美元指数持平，报99.638点，日内交投区间为99.521-99.",
-   "summary": "周二（8月18日）纽约尾盘，ICE美元指数持平，报99.638点，日内交投区间为99.521-99.693点。 彭博美元指数涨0.08%，报1201.24点，日内交投区间为1199.46-1201.60点。",
-   "link": "https://wallstreetcn.com/news/global/3151301",
+   "title": "国台办回应台“汉光”演习：“台独”分裂是台海和平稳定的最大威胁",
+   "summary": "国务院台办举行例行新闻发布会。有记者问：近期民进党当局举行所谓“汉光42号演习”，首度纳入移动电话网络降速演练。岛内社会质疑这种“断网”演练导致民众不能叫外卖，也无法使用支付卡消费，正常生活受到影响。请问发言人对此有何评论？",
+   "link": "https://wallstreetcn.com/news/global/3151455",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:28"
+   "published_at": "2026-08-19 03:02"
   },
   {
    "category": "finance",
-   "title": "叙利亚发现数吨核材料，将接受国际原子能机构监督",
-   "summary": "国际原子能机构总干事格罗西18日在与叙利亚过渡政府外交部长希巴尼举行的联合新闻发布会上表示，在叙方近期向该机构报告的一处地点发现数吨核材料。希巴尼表示，这些核材料将由叙方保管并接受国际原子能机构监督。这些核材料“不构成危险”，将继续由叙过渡政府保管，并接受国际原子能机构的监督。格罗西说，该地点存放“数吨”可能被滥用的核材料，强调全面清点这些材料并将其置于国际监督之下的重要性。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3151300",
+   "title": "隔夜SHIBOR报1.3810%，上涨2.00个基点。 7天SHIBOR报1.3850%，上涨0.5",
+   "summary": "隔夜SHIBOR报1.3810%，上涨2.00个基点。 7天SHIBOR报1.3850%，上涨0.50个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
+   "link": "https://wallstreetcn.com/news/global/3151454",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:27"
+   "published_at": "2026-08-19 03:01"
   },
   {
    "category": "finance",
-   "title": "委内瑞拉央行：二季度石油相关活动环比增长9.10%，非石油部门增长5.79%。",
-   "summary": "委内瑞拉央行：二季度石油相关活动环比增长9.10%，非石油部门增长5.79%。",
-   "link": "https://wallstreetcn.com/news/global/3151299",
+   "title": "澳洲联储副主席Andrew Hauser：通胀率太高了。 澳大利亚正面临过度的产能压力。 需要降低经",
+   "summary": "澳洲联储副主席Andrew Hauser：通胀率太高了。 澳大利亚正面临过度的产能压力。 需要降低经济中的需求，放缓消费。 对通胀面临的上行风险感到担忧。 如果通胀率不下行，将需要再次加息。 西方世界面临的最大挑战是生产率。",
+   "link": "https://wallstreetcn.com/news/global/3151452",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:25"
+   "published_at": "2026-08-19 02:52"
   },
   {
    "category": "finance",
-   "title": "美国得州证券交易所迎来首批一级上市ETF",
-   "summary": "美国得克萨斯州证券交易所将迎来其首批一级上市标的：两只聚焦本州经济的小型交易所交易基金宣布计划转入该市场。这两只基金——得州股票指数基金（Texas Equity Index）和得州石油指数基金（Texas Oil Index）——将在获得监管批准后，于9月迁至TXSE Group Inc.位于达拉斯的新交易所。 此举是得州证券交易所发展进程中的一个里程碑，该交易所正试图从纽约证券交易所和纳斯达克",
-   "link": "https://wallstreetcn.com/news/global/3151298",
+   "title": "美国贸易代表办公室：美加协议将包括所有美国商品的市场准入。",
+   "summary": "美国贸易代表办公室：美加协议将包括所有美国商品的市场准入。",
+   "link": "https://wallstreetcn.com/news/global/3151450",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:24"
+   "published_at": "2026-08-19 02:46"
   },
   {
    "category": "finance",
-   "title": "美国得州电网预测用电需求将创纪录，高温加剧、风力减弱",
-   "summary": "美国得克萨斯州电力可靠性委员会（ERCOT）预测，面临新一轮酷暑，8月20-24日，每日峰值用电需求都将超过当前91.089吉瓦（GW）的历史纪录。到周五，ERCOT电网的日风力发电量可能较当前水平下降多达5吉瓦，并将在下周持续低于正常水平。风力低迷与本周可能出现的峰值负荷，对当地电网的需求管理构成了又一次考验。",
-   "link": "https://wallstreetcn.com/news/global/3151296",
+   "title": "白宫发布暂停对加拿大加征关税的公告。",
+   "summary": "白宫发布暂停对加拿大加征关税的公告。",
+   "link": "https://wallstreetcn.com/news/global/3151449",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:23"
+   "published_at": "2026-08-19 02:38"
   },
   {
    "category": "finance",
-   "title": "美银将纽元视为厄尔尼诺对冲工具",
-   "summary": "美国银行策略师表示，金融市场对即将到来的厄尔尼诺现象给全球食品供应链带来的风险定价不足，并建议买入纽元来对冲相关影响。 该行策略师Oliver Levingston和Ralf Preusser指出，这一周期性天气模式可能引发至少自1950年以来最剧烈的季节性变化，并带来”广泛的农业供应冲击风险”。他们写道，澳大利亚和阿根廷的小麦收成、巴西的玉米和糖产量，以及亚洲的糖产量均易受冲击。但新西兰的出口反",
-   "link": "https://wallstreetcn.com/news/global/3151295",
+   "title": "财政部1个月期国库现金定存中标利率为1.62%，上次为1.64%；3个月期国库现金定存中标利率为1.",
+   "summary": "财政部1个月期国库现金定存中标利率为1.62%，上次为1.64%；3个月期国库现金定存中标利率为1.67%，上次为1.67%。",
+   "link": "https://wallstreetcn.com/news/global/3151448",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:20"
+   "published_at": "2026-08-19 02:34"
   },
   {
    "category": "finance",
-   "title": "美国多家石油生产商料将在当地时间周二与委内瑞拉石油公司PDVSA签署协议。 当天，在得州休斯敦有签字",
-   "summary": "美国多家石油生产商料将在当地时间周二与委内瑞拉石油公司PDVSA签署协议。 当天，在得州休斯敦有签字仪式。（Politico）",
-   "link": "https://wallstreetcn.com/news/global/3151289",
+   "title": "上海张江高新技术产业开发区发展“十五五”规划：加快大飞机关键材料与核心零部件检验检测等平台建设",
+   "summary": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦民用航空发动机、机载系统、复合材料、航空制造装备、新型低空航空器等细分领域，发挥龙头企业牵引作用，以整机带动技术攻关和本土产业链培育，推动实施航空发动机研制工程等重点项目，加快大飞机关键材料与核心零部件检验检测等平台建设，提升适航审定等配套服务保障能力。支持临港园聚焦大飞机产业链，紫竹高新区聚焦航电系统开发，金",
+   "link": "https://wallstreetcn.com/news/global/3151447",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:01"
+   "published_at": "2026-08-19 02:34"
   },
   {
    "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.7454元，较周一夜盘收盘跌37点。成交量383",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.7454元，较周一夜盘收盘跌37点。成交量383.96亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3151288",
+   "title": "截至早盘收盘，日经225指数跌2.6%，东证指数跌2.7%。",
+   "summary": "截至早盘收盘，日经225指数跌2.6%，东证指数跌2.7%。",
+   "link": "https://wallstreetcn.com/news/global/3151446",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:01"
+   "published_at": "2026-08-19 02:32"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.30%，报15048点。 恒生科技指数主连夜盘收跌0.95%，报4700点。",
-   "summary": "恒生指数主连夜盘收跌0.30%，报15048点。 恒生科技指数主连夜盘收跌0.95%，报4700点。",
-   "link": "https://wallstreetcn.com/news/global/3151287",
+   "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报152000元/吨，较上日16:30价",
+   "summary": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报152000元/吨，较上日16:30价格下跌1000元/吨。",
+   "link": "https://wallstreetcn.com/news/global/3151445",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 19:00"
+   "published_at": "2026-08-19 02:32"
   },
   {
    "category": "finance",
-   "title": "盖茨支持的TerraPower将于今年宣布第二座核电站",
-   "summary": "TerraPower LLC是美国唯一一家正在建设公用事业级核电站的公司，该公司预计将于今年宣布其下一个项目——该项目计划服务于一座数据中心。该公司首席执行官克里斯·勒贝克（Chris Levesque）表示，这将使这家由比尔·盖茨支持的公司有望在2027年为其第二个项目破土动工。他拒绝透露客户身份。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3151286",
+   "title": "科创50指数跌超5%，成分股华虹宏力跌超10%，盛美上海、寒武纪、拓荆科技、佰维存储跌超7%。",
+   "summary": "科创50指数跌超5%，成分股华虹宏力跌超10%，盛美上海、寒武纪、拓荆科技、佰维存储跌超7%。",
+   "link": "https://wallstreetcn.com/news/global/3151444",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 18:59"
+   "published_at": "2026-08-19 02:30"
   },
   {
    "category": "finance",
-   "title": "周二（8月18日）纽约尾盘，ICE原糖期货涨3.62%、整体呈现出N形走势，ICE白糖期货涨3.44",
-   "summary": "周二（8月18日）纽约尾盘，ICE原糖期货涨3.62%、整体呈现出N形走势，ICE白糖期货涨3.44%。 ICE阿拉比卡咖啡期货涨5.53%，咖啡“C”期货涨4.31%、美股开盘以来持续走高。罗布斯塔咖啡期货涨2.14%。 纽约可可期货跌2.39%，报5924美元/吨。伦敦可可期货跌1.83%。 芝加哥WCE双低油菜籽期货跌2.79%，美股开盘之前大致持平、之后持续下挫。 ICE棉花期货跌0.08",
-   "link": "https://wallstreetcn.com/news/global/3151285",
+   "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
+   "summary": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、徐汇园、漕河泾园等为示范引领的人工智能先导产业集群。提升智能计算能力，突破光计算、类脑等颠覆性芯片架构，构建超算智算融合、云边端协同的自主算力体系，建设浦江公共算力服务平台。",
+   "link": "https://wallstreetcn.com/news/global/3151442",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 18:57"
+   "published_at": "2026-08-19 02:29"
   },
   {
    "category": "finance",
-   "title": "美元兑加元涨0.3%，刷新日高至1.3910。",
-   "summary": "美元兑加元涨0.3%，刷新日高至1.3910。",
-   "link": "https://wallstreetcn.com/news/global/3151284",
+   "title": "恒指拉升转涨，此前一度跌0.6%。小米涨超4%。",
+   "summary": "恒指拉升转涨，此前一度跌0.6%。小米涨超4%。",
+   "link": "https://wallstreetcn.com/news/global/3151440",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 18:55"
+   "published_at": "2026-08-19 02:26"
   },
   {
    "category": "finance",
-   "title": "芝加哥小麦期货跌约1.8%，大豆油跌1.7%",
-   "summary": "周二（8月18日）纽约尾盘，彭博谷物分类指数跌0.55%，报32.2859点，美股开盘之前维持小幅上涨的状态、之后持续下挫。 CBOT玉米期货跌0.36%，CBOT小麦期货跌1.78%。 CBOT大豆期货跌0.06%，报12.1525美元/蒲式耳，豆粕期货跌0.19%，豆油期货跌1.71%。 CBOT瘦肉猪期货跌1.22%，活牛期货涨0.17%，饲牛期货涨0.44%。",
-   "link": "https://wallstreetcn.com/news/global/3151283",
+   "title": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方",
+   "summary": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+   "link": "https://wallstreetcn.com/news/global/3151439",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 18:49"
+   "published_at": "2026-08-19 02:18"
   },
   {
    "category": "finance",
-   "title": "OpenAI：我们已暂停部分前沿模型强化学习训练",
-   "summary": "OpenAI首席执行官Sam Altman：我们已暂停部分前沿模型强化学习训练，以确保能够针对当前全新能力水平，达到相应的对齐、安全与监控标准。 模型迭代如今发展极快，我们此前便表态过，一旦认为模型能力的发展超出安全与对齐工作的推进速度，就会采取行动。 我们高度重视人工智能安全。我们认为整个行业必须就通用安全标准开展协同，但在此期间我们也会采取单边行动。 我们预计，安全层面的信心将愈发决定人工智能",
-   "link": "https://wallstreetcn.com/news/global/3151282",
+   "title": "特朗普：推迟对加拿大加征50%关税三天时间。 加拿大与美国之间已有协议，等待文件最终敲定。 Keys",
+   "summary": "特朗普：推迟对加拿大加征50%关税三天时间。 加拿大与美国之间已有协议，等待文件最终敲定。 Keystone XL输油管道或将重新运作。",
+   "link": "https://wallstreetcn.com/news/global/3151437",
    "source": "华尔街见闻",
-   "published_at": "2026-08-18 18:46"
+   "published_at": "2026-08-19 02:16"
+  },
+  {
+   "category": "finance",
+   "title": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
+   "summary": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89%。上述订单具备明确转化预期，但收入转化需要一定时间周期。其中，设计服务订单通常需9—12个月设计研发周期；量产服务业务订单受客户产品出货规划、合作晶圆厂产能排期等因素影响，从签约开始通常需6—18个月完整生产交付周期。",
+   "link": "https://wallstreetcn.com/news/global/3151436",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-19 02:12"
+  },
+  {
+   "category": "finance",
+   "title": "印尼基准股指日内跌1%。",
+   "summary": "印尼基准股指日内跌1%。",
+   "link": "https://wallstreetcn.com/news/global/3151434",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-19 02:03"
+  },
+  {
+   "category": "finance",
+   "title": "宇树科技核心技术人员身家过亿元",
+   "summary": "8月19日，宇树科技登陆科创板，开盘后涨超500%，市值超3500亿元。在发行前，宇树科技设有股权激励平台上海宇翼。招股书显示，发行前上海宇翼持有公司股份3982.86万股，持股比例为10.9414%。机械结构负责人杨知雨、销服体系负责人陈立、算法与软件负责人张阳光通过上海宇翼间接持有公司股份比例分别为0.49%、0.26%、0.15%。若按照3500亿元市值计算，他们持有的公司市值分别达到17.",
+   "link": "https://wallstreetcn.com/news/global/3151432",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-19 02:01"
+  },
+  {
+   "category": "finance",
+   "title": "新股N双英涨幅扩大至200%，触发二次临停。",
+   "summary": "新股N双英涨幅扩大至200%，触发二次临停。",
+   "link": "https://wallstreetcn.com/news/global/3151430",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-19 01:52"
   }
  ]
 }
