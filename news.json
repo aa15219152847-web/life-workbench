@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-08-19 19:36",
+ "updated_at": "2026-08-20 03:25",
  "ai": [
+  {
+   "category": "ai",
+   "title": "谷歌在搜索和 Gemini 中推出多款全新 AI 学习工具，含交互式可视化内容、3D 模拟等",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/993.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "补齐最后拼图：开发 4 年后 AI 编程语言 Mojo 完全开源",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/914.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软升级 Win11 任务管理器，可视化 AI 工作负载",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/901.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/871.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "OpenAI 扩展零数据留存安全机制，自动化分析跨交互风险",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/868.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "“微信重大更新”引围观，总结 / 点评 / 修图长本事了！更有发图 / 表情彻底加强",
@@ -112,216 +152,200 @@
    "link": "https://www.ithome.com/0/990/910.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "一夜暴富的 AI 亿万富豪：买房之后，狂扫私人飞机、超跑、游艇",
-   "summary": "",
-   "link": "https://www.ithome.com/0/990/629.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "准确率 87%-91%，AI 可通过图片视觉线索识别拍照地点",
-   "summary": "",
-   "link": "https://www.ithome.com/0/990/420.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 热潮推高存储需求，德国 DDR5 内存价格暴涨至去年同期近 5 倍",
-   "summary": "",
-   "link": "https://www.ithome.com/0/990/417.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "建模交易平台 CGTrader：AI 生成的 3D 模型数量激增，但销售额仅占 1%",
-   "summary": "",
-   "link": "https://www.ithome.com/0/990/414.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "彭博社称支付巨头 Stripe 敲定收购 AI 初创公司 OpenRouter，金额超 70 亿美元",
-   "summary": "",
-   "link": "https://www.ithome.com/0/990/410.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "皮尤调查：美国年轻人对AI态度日益敌视 担心技术进步导致大规模失业",
-   "summary": "皮尤研究中心的一项调查显示，美国劳动力市场中最年轻的一批人对人工智能的疑虑日益增加，担心这项技术的进步会导致大规模失业。6月数据显示，自皮尤2021年开始进行这项调查以来，30岁以下成年人中首次有多数人表示对AI的担忧多于兴奋。这与大多数其他年龄群体的态度趋于一致，但变化尤其明显的是，最年轻群体已从过去最看好AI潜力的一群人，转变为如今对这项技术最持怀疑态度的群体之一。调查显示，在这一年龄段中，接",
-   "link": "https://wallstreetcn.com/news/global/3151917",
+   "title": "江苏光伏装机容量突破1亿千瓦",
+   "summary": "国网江苏省电力有限公司最新统计数据显示，截至2026年7月底，江苏省光伏发电累计装机容量突破1亿千瓦，达10008万千瓦，占全省电力总装机的比重超38%，超过煤电、气电和风电等，成为全省第一大电源。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3152067",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:35"
+   "published_at": "2026-08-20 03:19"
   },
   {
    "category": "finance",
-   "title": "特朗普：美国已就储备 “大规模” 比特币及其他加密货币的相关计划展开讨论。",
-   "summary": "特朗普：美国已就储备 “大规模” 比特币及其他加密货币的相关计划展开讨论。",
-   "link": "https://wallstreetcn.com/news/global/3151916",
+   "title": "王兴兴：具身智能的“ChatGPT时刻”最快2到3年，最慢5到10年到来",
+   "summary": "8月20日，“人形机器人第一股”宇树科技登陆科创板次日，该公司创始人、董事长王兴兴在2026世界机器人大会上发表题为《从展品到产品：人形机器人产业的下一个十年》主题演讲。王兴兴认为，判断具身智能是否迎来类似ChatGPT的产业临界点，可以采用一个相对直观的标准：将一台机器人带入任意陌生环境或普通家庭后，它能够根据语音、语言指令，自主完成约80%的任务。（在80%的陌生场景中，通过语音或文字指令，机",
+   "link": "https://wallstreetcn.com/news/global/3152065",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:34"
+   "published_at": "2026-08-20 03:14"
   },
   {
    "category": "finance",
-   "title": "特朗普：下周将与 “AI 行业人士” 举行会晤。",
-   "summary": "特朗普：下周将与 “AI 行业人士” 举行会晤。",
-   "link": "https://wallstreetcn.com/news/global/3151915",
+   "title": "印尼5年期国债收益率下行20个基点，至逾两个月新低。",
+   "summary": "印尼5年期国债收益率下行20个基点，至逾两个月新低。",
+   "link": "https://wallstreetcn.com/news/global/3152064",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:30"
+   "published_at": "2026-08-20 03:04"
   },
   {
    "category": "finance",
-   "title": "周三（8月19日）纽约尾盘，ICE美元指数下跌0.83%，刷新日高至98.662点，整体持续下挫。",
-   "summary": "周三（8月19日）纽约尾盘，ICE美元指数下跌0.83%，刷新日高至98.662点，整体持续下挫。",
-   "link": "https://wallstreetcn.com/news/global/3151914",
+   "title": "隔夜SHIBOR报1.3840%，上涨0.30个基点。 7天SHIBOR报1.3900%，上涨0.5",
+   "summary": "隔夜SHIBOR报1.3840%，上涨0.30个基点。 7天SHIBOR报1.3900%，上涨0.50个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
+   "link": "https://wallstreetcn.com/news/global/3152062",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:28"
+   "published_at": "2026-08-20 03:01"
   },
   {
    "category": "finance",
-   "title": "伦敦基本金属多数上涨，LME期铜涨0.46%报14051.5美元/吨。 LME期镍涨2.26%报17",
-   "summary": "伦敦基本金属多数上涨，LME期铜涨0.46%报14051.5美元/吨。 LME期镍涨2.26%报17130.0美元/吨。 LME期锡涨1.11%报55425.0美元/吨。 LME期锌涨0.57%报3714.0美元/吨。 LME期铝涨0.54%报3238.0美元/吨。 LME期铅跌0.05%报1886.0美元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3151912",
+   "title": "瑞士银行计划首次发行熊猫债不超过20亿元",
+   "summary": "瑞士银行有限公司公告，计划首次发行熊猫债，筹资不超过20亿元人民币。募集资金说明书显示，发行期限5年期，预计不超过30%的募集资金净额将用于境内业务，剩余部分预计将由发行人以离岸人民币的形式汇往境外。",
+   "link": "https://wallstreetcn.com/news/global/3152061",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:26"
+   "published_at": "2026-08-20 03:00"
   },
   {
    "category": "finance",
-   "title": "税务部门为机器人企业提供全生命周期的涉税辅导，通过合规申报释放政策红利，帮助企业解决复杂的涉税难题，",
-   "summary": "税务部门为机器人企业提供全生命周期的涉税辅导，通过合规申报释放政策红利，帮助企业解决复杂的涉税难题，已成为助推机器人产业发展不可或缺的重要力量。 国家税务总局最新数据显示，今年上半年，现行支持科技创新主要政策和制造业发展政策减税降费及退税1.91万亿元，其中，研发费用加计扣除等支持企业创新投入和技术转让的政策减税降费达6596亿元。海淀区税务局目前分三阶段为辖区企业开展全周期精准涉税辅导，助力企业",
-   "link": "https://wallstreetcn.com/news/global/3151911",
+   "title": "棕榈油期货升至2024年12月以来最高水平。",
+   "summary": "棕榈油期货升至2024年12月以来最高水平。",
+   "link": "https://wallstreetcn.com/news/global/3152058",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:23"
+   "published_at": "2026-08-20 02:54"
   },
   {
    "category": "finance",
-   "title": "特朗普：国会需要通过《清晰法案》。",
-   "summary": "特朗普：国会需要通过《清晰法案》。",
-   "link": "https://wallstreetcn.com/news/global/3151910",
+   "title": "MiniMax发布Agent工作台MiniMax Design，推动H3模型商业化",
+   "summary": "8月20日，MiniMax发布多模态创作Agent工作台MiniMax Design。作为H3开源后首个官方Harness，该产品在H3基础上进一步解决任务规划与协作问题，推动模型走向商业内容生产。",
+   "link": "https://wallstreetcn.com/news/global/3152057",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:20"
+   "published_at": "2026-08-20 02:45"
   },
   {
    "category": "finance",
-   "title": "美国商品期货交易委员会主席：明天我将在会议上就后续监管路径公布更多细节。",
-   "summary": "美国商品期货交易委员会主席：明天我将在会议上就后续监管路径公布更多细节。",
-   "link": "https://wallstreetcn.com/news/global/3151909",
+   "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报150950元/吨，较上日16:30价",
+   "summary": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报150950元/吨，较上日16:30价格下跌500元/吨。",
+   "link": "https://wallstreetcn.com/news/global/3152053",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:19"
+   "published_at": "2026-08-20 02:34"
   },
   {
    "category": "finance",
-   "title": "现货白银日内涨幅4.74%，现报66.32美元/盎司。",
-   "summary": "现货白银日内涨幅4.74%，现报66.32美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3151907",
+   "title": "截至早盘收盘，日经225指数涨1%，东证指数涨0.9%。",
+   "summary": "截至早盘收盘，日经225指数涨1%，东证指数涨0.9%。",
+   "link": "https://wallstreetcn.com/news/global/3152052",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:14"
+   "published_at": "2026-08-20 02:32"
   },
   {
    "category": "finance",
-   "title": "现货黄金站上4500美元/盎司，为6月4日以来首次，日内上涨3.89%。",
-   "summary": "现货黄金站上4500美元/盎司，为6月4日以来首次，日内上涨3.89%。",
-   "link": "https://wallstreetcn.com/news/global/3151906",
+   "title": "中澳海关执法部门联合侦破一起跨国烟草走私案",
+   "summary": "中国海关缉私部门与澳大利亚边境执法部门开展联合执法行动，成功侦破一起跨国烟草走私案件。中澳执法部门共查获走私卷烟9000余万支，取得联合打击跨国烟草走私重大成果。",
+   "link": "https://wallstreetcn.com/news/global/3152051",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 19:11"
+   "published_at": "2026-08-20 02:30"
   },
   {
    "category": "finance",
-   "title": "伊朗央行行长：目前尚未有任何被冻结的资金解冻",
-   "summary": "当地时间8月19日获悉，伊朗央行行长表示，目前尚未有任何被冻结的资金解冻。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3151904",
+   "title": "机构：2026年上半年全球人形机器人出货量同比增长近300%",
+   "summary": "Counterpoint Research的人形机器人研究表明，2026年上半年，全球人形机器人出货量突破2.2万台，相比2025年同期增长接近300%，保持高速增长的良好势头。Counterpoint Research预计2026年全球人形机器人出货量将突破5万台，同比增长210%。展望未来五年，服务业与工业场景将接续文娱商演、科教数采，成为驱动人形机器人需求增长的核心引擎。同时，人形机器人厂商",
+   "link": "https://wallstreetcn.com/news/global/3152048",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:54"
+   "published_at": "2026-08-20 02:18"
   },
   {
    "category": "finance",
-   "title": "布伦特原油期货结算价为每桶91.62美元，上涨60美分，涨幅0.66%。",
-   "summary": "布伦特原油期货结算价为每桶91.62美元，上涨60美分，涨幅0.66%。",
-   "link": "https://wallstreetcn.com/news/global/3151903",
+   "title": "山西发行5年期一般债地方债，规模7.6971亿元，发行利率1.4900%，边际倍数17.23倍，倍数",
+   "summary": "山西发行5年期一般债地方债，规模7.6971亿元，发行利率1.4900%，边际倍数17.23倍，倍数预期1.49； 山西发行10年期一般债地方债，规模65.0000亿元，发行利率1.7400%，边际倍数3.21倍，倍数预期1.74； 山西发行10年期其他专项地方债，规模0.9000亿元，发行利率1.7400%，边际倍数1.33倍，倍数预期1.74； 山西发行15年期其他专项地方债，规模1.5000",
+   "link": "https://wallstreetcn.com/news/global/3152047",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:45"
+   "published_at": "2026-08-20 02:16"
   },
   {
    "category": "finance",
-   "title": "美军称已使65艘商船改变航线",
-   "summary": "当地时间8月19日，美国中央司令部在社交平台发文称，美军继续执行对伊朗的海上封锁，截至8月19日，美军已引导65艘商船改变航向，使3艘商船丧失航行能力，并登临检查了2艘商船。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3151901",
+   "title": "中国商务部公布对原产于美国、欧盟、台湾地区和日本的进口共聚聚甲醛反倾销措施相关企业税率继承的决定。",
+   "summary": "中国商务部公布对原产于美国、欧盟、台湾地区和日本的进口共聚聚甲醛反倾销措施相关企业税率继承的决定。",
+   "link": "https://wallstreetcn.com/news/global/3152046",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:39"
+   "published_at": "2026-08-20 02:14"
   },
   {
    "category": "finance",
-   "title": "芯片企业Fractile与Anthropic达成交易后寻求65亿美元估值",
-   "summary": "据悉，Fractile正就一轮融资进入深度谈判，投前估值65亿美元，本轮计划募资约6亿美元。 三个月前该公司完成2.2亿美元融资，由Accel、Founders Fund以及Factorial Funds风投机构领投，投后估值约10亿美元。 Fractile已与Anthropic达成初步协议，向后者出售价值约2.5亿美元的芯片，双方计划未来扩大这份合同规模。",
-   "link": "https://wallstreetcn.com/news/global/3151900",
+   "title": "中国240小时过境免签“朋友圈”扩展至57国",
+   "summary": "国家移民管理局8月20日发布公告，自2026年8月20日起，吉尔吉斯斯坦、越南公民可适用240小时过境免签政策和海南30天入境免签政策来华。至此，240小时过境免签政策适用国家增至57国，海南30天入境免签政策适用国家增至61国。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3152043",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:35"
+   "published_at": "2026-08-20 02:08"
   },
   {
    "category": "finance",
-   "title": "原油期货主力合约夜盘收跌0.70%，报581.2元人民币/桶。 沪银2609合约夜盘收涨2.56%，",
-   "summary": "原油期货主力合约夜盘收跌0.70%，报581.2元人民币/桶。 沪银2609合约夜盘收涨2.56%，沪金2609合约收涨2.12%。",
-   "link": "https://wallstreetcn.com/news/global/3151899",
+   "title": "报道：三星计划公布超100万亿韩元股东回报计划",
+   "summary": "据MoneyToday报道，三星电子计划在本月召开董事会会议后，最终确定并公布一项总额超过100万亿韩元的股东回报计划。公司计划将50%的自由现金流用于股东回报，具体举措预计将主要集中于现金分红。该措施公布后，三星计划根据现金流及盈利状况，继续考量追加股东回报措施。",
+   "link": "https://wallstreetcn.com/news/global/3152042",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:32"
+   "published_at": "2026-08-20 02:06"
   },
   {
    "category": "finance",
-   "title": "花旗建议买入20年期美国国债，称增加回购预示着收益率见顶",
-   "summary": "花旗集团建议客户买入长期美国国债，此前美国财政部宣布计划将较长期债券的回购规模“至少”翻一番。花旗表示，此举可能意味着收益率见顶。 由Jason Williams领衔的策略师预计，20年期美国国债收益率将从目前约5.2%降至4.9% 策略师们写道：“美国财政部的行动应该会向市场发出非常强烈的信号。今天的行动，加上通胀降温，为未来几个月的强劲上涨创造了条件” 他们写道，如果收益率届时仍未企稳，美国财",
-   "link": "https://wallstreetcn.com/news/global/3151898",
+   "title": "受贿数额特别巨大，交通银行原副行长侯维栋被提起公诉",
+   "summary": "从最高人民检察院获悉，交通银行股份有限公司原党委委员、副行长侯维栋涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。经最高人民检察院指定管辖，重庆市人民检察院依法以涉嫌受贿罪对侯维栋作出逮捕决定。近日，重庆市人民检察院第五分院已向重庆市第五中级人民法院提起公诉。",
+   "link": "https://wallstreetcn.com/news/global/3152041",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:27"
+   "published_at": "2026-08-20 02:03"
   },
   {
    "category": "finance",
-   "title": "“朱雀”归来实现哪些突破，如何更好实现火箭复用？",
-   "summary": "8月19日早晨，朱雀三号遥二运载火箭发射升空。火箭二子级将搭载的鸿鹄03星准确送入预定轨道，火箭一子级按预定程序，首次实现了陆地回收，这也是此次发射需要进行的关键验证，标志着我国重复使用运载火箭技术取得了重大突破。 实现精准陆地回收的背后，是哪些技术在突破？ 朱雀三号运载火箭，是由国家航天局批复立项的新一代低成本、大运力、高频次、重复使用液氧甲烷运载火箭型号。发射升空137秒之后，火箭一二级分离，",
-   "link": "https://wallstreetcn.com/news/global/3151897",
+   "title": "A股CPO概念股震荡拉升，太辰光涨超12%，中京电子此前涨停，天准科技、仕佳光子、德科立、联特科技涨",
+   "summary": "A股CPO概念股震荡拉升，太辰光涨超12%，中京电子此前涨停，天准科技、仕佳光子、德科立、联特科技涨超6%。",
+   "link": "https://wallstreetcn.com/news/global/3152039",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:24"
+   "published_at": "2026-08-20 02:02"
   },
   {
    "category": "finance",
-   "title": "优步、VERNE和小马智行在克罗地亚萨格勒布推出自动驾驶出行服务。",
-   "summary": "优步、VERNE和小马智行在克罗地亚萨格勒布推出自动驾驶出行服务。",
-   "link": "https://wallstreetcn.com/news/global/3151896",
+   "title": "新加坡警方表示正在调查铁矿石贸易巨头Radiant World。",
+   "summary": "新加坡警方表示正在调查铁矿石贸易巨头Radiant World。",
+   "link": "https://wallstreetcn.com/news/global/3152035",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 18:21"
+   "published_at": "2026-08-20 01:59"
   },
   {
    "category": "finance",
-   "title": "Meta：面向小型企业推出全新Meta AI功能。",
-   "summary": "Meta：面向小型企业推出全新Meta AI功能。",
-   "link": "https://wallstreetcn.com/news/global/3151893",
+   "title": "北京亦庄：将加快实现10万台套级具身智能机器人规模量产",
+   "summary": "据“北京亦庄”公众号消息，8月19日，2026世界机器人大会在北京亦庄开幕。在“开放合作”主论坛上，北京经开区工委委员、管委会副主任李全发布“北京机域”——人机共融具身智能新社会建设构想。北京亦庄将加快打造100款可实际落地的特色机器人产品，推动其在1000种细分领域实现应用；加快实现10万台套级具身智能机器人规模量产，形成100万套关键核心零部件生产能力。",
+   "link": "https://wallstreetcn.com/news/global/3152033",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 17:56"
+   "published_at": "2026-08-20 01:56"
   },
   {
    "category": "finance",
-   "title": "英伟达拟对其AI数据供应商Mercor进行投资，估值达200亿美元",
-   "summary": "这家企业协助该芯片厂商开发开源AI模型，本轮融资对应的企业估值为200亿美元。现有投资方General Catalyst正洽谈牵头本轮融资。 Mercor过往绝大部分收入来自OpenAI、谷歌、Anthropic等闭源AI模型厂商。但随着英伟达重点布局用于对标全球顶尖开源模型的Nemotron开源大模型，来自英伟达的业务收入正在增长。（The Information）",
-   "link": "https://wallstreetcn.com/news/global/3151892",
+   "title": "韩国首尔综指日内涨幅扩大至6%。",
+   "summary": "韩国首尔综指日内涨幅扩大至6%。",
+   "link": "https://wallstreetcn.com/news/global/3152031",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 17:50"
+   "published_at": "2026-08-20 01:46"
   },
   {
    "category": "finance",
-   "title": "美国拟将加拿大钢铝关税减半",
-   "summary": "据悉，美加一份暂定贸易协议拟将加拿大部分钢铝出口产品关税下调至25%。相关细节尚未敲定，预计不会一刀切全面适用。部分含该类金属的衍生品可能适用不同税率。 纽柯钢铁（Nucor）与钢铁动力公司（Steel Dynamics）跌幅扩大，双双触及盘中最低点。",
-   "link": "https://wallstreetcn.com/news/global/3151891",
+   "title": "宇树科技创始人王兴兴：我们尚未大规模推广人形机器人，因目前整个效率和它的泛用性能力还不够高。 全世界",
+   "summary": "宇树科技创始人王兴兴：我们尚未大规模推广人形机器人，因目前整个效率和它的泛用性能力还不够高。 全世界具身智能的最大瓶颈是模型的输入和输出跟真实世界有偏差。 可能未来机器人发展比我预估的还会更快一点，是一个全新的起点，全新的开始。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3152028",
    "source": "华尔街见闻",
-   "published_at": "2026-08-19 17:45"
+   "published_at": "2026-08-20 01:39"
+  },
+  {
+   "category": "finance",
+   "title": "A股航运板块早盘走强，凤凰航运涨停，中远海能、招商轮船、海通发展、国航远洋、兴通股份跟涨。",
+   "summary": "A股航运板块早盘走强，凤凰航运涨停，中远海能、招商轮船、海通发展、国航远洋、兴通股份跟涨。",
+   "link": "https://wallstreetcn.com/news/global/3152027",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-20 01:38"
+  },
+  {
+   "category": "finance",
+   "title": "日本40年期国债收益率下行9.5个基点至4.055%。",
+   "summary": "日本40年期国债收益率下行9.5个基点至4.055%。",
+   "link": "https://wallstreetcn.com/news/global/3152024",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-20 01:34"
+  },
+  {
+   "category": "finance",
+   "title": "澳大利亚7月全职就业人口变动 1.63万人，前值 2.93万人。",
+   "summary": "澳大利亚7月全职就业人口变动 1.63万人，前值 2.93万人。",
+   "link": "https://wallstreetcn.com/news/global/3152023",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-20 01:30"
   }
  ]
 }
