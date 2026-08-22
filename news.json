@@ -1,11 +1,188 @@
 {
- "updated_at": "2026-08-22 13:47",
- "ai": [],
+ "updated_at": "2026-08-22 19:12",
+ "ai": [
+  {
+   "category": "ai",
+   "title": "神秘 Ox Alpha AI 模型限免上架：DeepSWE 跑分碾压 Claude Fable 5，线索指向智谱",
+   "summary": "",
+   "link": "https://www.ithome.com/0/993/003.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "冲击全球最大 IPO：曝 Anthropic 招股书把美国公众对 AI 的抵制情绪列为关键风险",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/941.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "冲击全球最大 IPO：曝 Anthropic 募资 1000 亿美元，目标估值 2 万亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/910.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "浙江杭州一男子轻信 AI 推荐的“散心路线”，独自攀登“浙西三尖”童公尖最终被困深山",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/710.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "马斯克 15 年前神预言成真后再加码 AI 战场：中国是迄今最强竞争对手",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/654.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "美光 CEO 桑杰 · 梅赫罗特拉：AI 已彻底改变内存行业周期性格局",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/645.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "爱奇艺 CEO 龚宇：将坚定 All in AI 战略，同时全力推进非中心化社交媒体转型",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/594.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/428.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "消息称博通拟通过最新 AI 相关债务融资，筹资超 600 亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/420.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/076.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
+   "summary": "",
+   "link": "https://www.ithome.com/0/992/008.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌在搜索和 Gemini 中推出多款全新 AI 学习工具，含交互式可视化内容、3D 模拟等",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/993.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "补齐最后拼图：开发 4 年后 AI 编程语言 Mojo 完全开源",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/914.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软升级 Win11 任务管理器，可视化 AI 工作负载",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/901.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/871.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "OpenAI 扩展零数据留存安全机制，自动化分析跨交互风险",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/868.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "“微信重大更新”引围观，总结 / 点评 / 修图长本事了！更有发图 / 表情彻底加强",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/818.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 称 Claude Desktop 后台启动速度比 1 个月前快了约 2 倍",
+   "summary": "",
+   "link": "https://www.ithome.com/0/991/635.htm",
+   "source": "IT之家",
+   "published_at": ""
+  }
+ ],
  "finance": [
   {
    "category": "finance",
-   "title": "8月21日深夜，大约1600万桶石油被运出霍尔木兹海峡。（Axios）",
-   "summary": "8月21日深夜，大约1600万桶石油被运出霍尔木兹海峡。（Axios）",
+   "title": "加拿大总理卡尼：我们从未抱有幻想。 从一开始我们就认清，美国已经变了。 加拿大正变得愈发强大，对美国",
+   "summary": "加拿大总理卡尼：我们从未抱有幻想。 从一开始我们就认清，美国已经变了。 加拿大正变得愈发强大，对美国的依赖正在降低。 美方最后一刻提出的修改内容也涉及汽车行业，对美墨加协定的未来而言“不是好消息”。 加拿大将在相关行业提供关税保护。 美方拒绝下调中重型卡车关税。 （谈美国提议的最后修改）美国试图限制加拿大签署其他贸易协定的权限。 昨晚，我已指示我方谈判人员返回渥太华。 我们无法接受美方给出的条件，",
+   "link": "https://wallstreetcn.com/news/global/3153414",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-22 15:28"
+  },
+  {
+   "category": "finance",
+   "title": "加拿大将对价值约200亿美元的美国商品征收报复性关税",
+   "summary": "加拿大总理卡尼：将在未来几天公布新关税措施的细节。 对美国的报复性关税将于9月8日生效。 加拿大针对美国的反制措施将集中在钢铁、乳制品等行业。 我们原本愿意取消对美国的报复性关税。 我们愿意在美方谈判中取消针对战略行业的剩余报复性关税，尤其是钢铁、铝和汽车领域。 针对美国商品的报复性关税将于劳工节后的周二生效。 美国的要求暴露了其对经济伙伴关系承诺的局限性。 原以为协议即将达成，但新条款出现后（我",
+   "link": "https://wallstreetcn.com/news/global/3153413",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-22 15:22"
+  },
+  {
+   "category": "finance",
+   "title": "湖北省委书记关志鸥会见光谷“梧桐树计划”企业家",
+   "summary": "湖北省委书记关志鸥8月22日在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。 长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、",
+   "link": "https://wallstreetcn.com/news/global/3153412",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-22 13:56"
+  },
+  {
+   "category": "finance",
+   "title": "研究发现运动时释放的一种分子可增强肌肉功能",
+   "summary": "英国利兹大学牵头的一项研究发现，运动时释放的一种分子是肌肉适应运动所需的关键物质。这种分子有助于增强肌肉力量和耐力，帮助抵御肌肉损伤，还可能成为治疗2型糖尿病引起肌肉损伤的潜在靶点。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3153411",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-22 13:49"
+  },
+  {
+   "category": "finance",
+   "title": "美官员：约40艘油轮21日晚通过霍尔木兹海峡",
+   "summary": "据美国媒体Axios在22日援引三名美国官员的话报道，21日晚间，有约40艘油轮通过霍尔木兹海峡南侧航道，向外运出原油约1600万桶。（新华社）",
    "link": "https://wallstreetcn.com/news/global/3153410",
    "source": "华尔街见闻",
    "published_at": "2026-08-22 13:45"
@@ -153,38 +330,6 @@
    "link": "https://wallstreetcn.com/news/global/3153382",
    "source": "华尔街见闻",
    "published_at": "2026-08-22 11:29"
-  },
-  {
-   "category": "finance",
-   "title": "2026绿色算力大会签约13个项目，总投资1361亿元",
-   "summary": "2026绿色算力（人工智能）大会在呼和浩特召开。发布仪式上，《绿色算力发展研究报告（2026年）》《“东数西算”枢纽节点绿色算力指数研究报告（2026年）》等一批成果集中发布。《“东数西算”枢纽节点绿色算力指数研究报告(2026年)》指出，内蒙古、京津冀、贵州等全国一体化算力网络国家枢纽节点绿色算力发展处于领先水平。签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，",
-   "link": "https://wallstreetcn.com/news/global/3153381",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 11:28"
-  },
-  {
-   "category": "finance",
-   "title": "外资加速涌入中国高技术产业",
-   "summary": "中国商务部最新数据显示，今年1至7月，中国高技术产业吸引外资继续保持较快增长，占全国实际使用外资的比重较去年明显提升，引资结构进一步优化。今年1至7月，全国实际使用外资金额4383.3亿元人民币，新设立外商投资企业超3.7万家，同比增长4.4%。从行业看，制造业实际使用外资1094.3亿元人民币，服务业实际使用外资3199.5亿元人民币。高技术产业实际使用外资1823.1亿元人民币，同比增长32.",
-   "link": "https://wallstreetcn.com/news/global/3153380",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 11:27"
-  },
-  {
-   "category": "finance",
-   "title": "“降级”20年 这颗“前行星”刷新太阳系认知",
-   "summary": "8月24日，冥王星“降级”整整20年。2006年的这一天，它退出太阳系“九大行星”之列，被归为矮行星。20年来，它的“身份”降了级，人类对它的认识却不断升级。其间，人类探测器近距离飞掠冥王星，让这个望远镜中的暗弱光点，变成一个拥有冰原、山脉，甚至可能藏着地下海洋的复杂世界。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3153377",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 11:19"
-  },
-  {
-   "category": "finance",
-   "title": "伊朗武装部队总参谋长视察地下基地",
-   "summary": "伊朗武装部队总参谋长阿卜杜拉希今天（8月22日）视察了一处地下国防工业生产基地。他表示，过去一年，伊朗国防工业在生产速度和质量上“取得了令人瞩目的进步”，在相关专业人员的努力下，“伊朗生产出性能更优、质量更高的装备，且产量远超以往”。（CCTV国际时讯）",
-   "link": "https://wallstreetcn.com/news/global/3153376",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 11:16"
   }
  ]
 }
