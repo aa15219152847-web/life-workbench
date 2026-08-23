@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-08-23 03:33",
+ "updated_at": "2026-08-23 07:52",
  "ai": [
+  {
+   "category": "ai",
+   "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
+   "summary": "",
+   "link": "https://www.ithome.com/0/993/188.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "神秘 Ox Alpha AI 模型限免上架：DeepSWE 跑分碾压 Claude Fable 5，线索指向智谱",
@@ -136,17 +144,65 @@
    "link": "https://www.ithome.com/0/991/818.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 称 Claude Desktop 后台启动速度比 1 个月前快了约 2 倍",
-   "summary": "",
-   "link": "https://www.ithome.com/0/991/635.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
+  {
+   "category": "finance",
+   "title": "中国石化：上半年净利润256.27亿元，同比增长19.3%。",
+   "summary": "中国石化：上半年净利润256.27亿元，同比增长19.3%。",
+   "link": "https://wallstreetcn.com/news/global/3153441",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 07:32"
+  },
+  {
+   "category": "finance",
+   "title": "阿里宣布800亿港元新股配售，即获超额认购",
+   "summary": "阿里巴巴今日宣布向美国境外的非美国人士配售新股，配售总金额为800亿港元。据悉此轮配售已获超额认购，其中主权财富基金等高质量长线做多投资者需求强劲。 知情人士称，本次配售启动后很快获得超额认购。主权财富基金等高质量长线做多投资者的踊跃认购，源于阿里AI投入清晰可见的回报路径——在算力持续供不应求、AI相关产品收入和毛利持续提升的支撑下，资本开支预计3年内，甚至2.5年到2年即可收回。因此，相比短期",
+   "link": "https://wallstreetcn.com/news/global/3153438",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 07:22"
+  },
+  {
+   "category": "finance",
+   "title": "陈茂波：香港特区政府全方位推动AI落地和普及应用",
+   "summary": "香港特区政府财政司司长陈茂波23日发表网志表示，人工智能（AI）热潮正为香港经济与消费市场增添强劲动力。特区政府正全方位推动AI在各个领域的落地与普及应用。他指出，在技术迅速发展的同时，提升劳动力的AI技能成为关键。今年特区政府财政预算案已拨款5000万元推出“全民AI培训”计划。通过数码港、科技园和生产力促进局等多方合作，目标在今明两年举办超过200项活动，预计惠及约5万人次。此外，雇员再培训局",
+   "link": "https://wallstreetcn.com/news/global/3153436",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 07:01"
+  },
+  {
+   "category": "finance",
+   "title": "i茅台增加贵州茅台酒产品上午投放时段",
+   "summary": "据贵州茅台，i茅台APP内贵州茅台酒产品的每日投放时段作出优化调整：自8月24日09:00起，在原有20:00、20:09晚间投放时段基础上，开设09:00、09:09上午投放时段，产品购买规则不变。",
+   "link": "https://wallstreetcn.com/news/global/3153434",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 06:57"
+  },
+  {
+   "category": "finance",
+   "title": "小米：将在明天14点以图文直播形式举办玄戒芯片技术沟通会。届时，芯片负责人朱丹将带来最新进展。",
+   "summary": "小米：将在明天14点以图文直播形式举办玄戒芯片技术沟通会。届时，芯片负责人朱丹将带来最新进展。",
+   "link": "https://wallstreetcn.com/news/global/3153433",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 06:17"
+  },
+  {
+   "category": "finance",
+   "title": "泰康保险集团聘任总裁刘挺军为CEO，董事长陈东升不再兼任",
+   "summary": "8月22日，在成立30周年之际，泰康保险集团宣布治理结构调整：创始人、董事长陈东升先生不再兼任首席执行官，回归并专注公司战略、团队、风险、文化以及重大事项决策，继续发挥核心领导作用；聘任公司总裁刘挺军先生出任公司首席执行官。 泰康保险集团表示，这是该公司推进新寿险战略，持续加强经营管理团队的专业化、年轻化的主动调整。此决定已于8月20日获泰康保险集团第四届七次董事会审议通过。泰康保险集团称，本次调",
+   "link": "https://wallstreetcn.com/news/global/3153432",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 05:58"
+  },
+  {
+   "category": "finance",
+   "title": "阿里拟配售新股，全部投入AI建设",
+   "summary": "阿里巴巴宣布拟向美国境外的非美国人士配售新股，配售总金额为800亿港元。这也是阿里巴巴2019年港股上市以来首次启动新股配售。本次配售所得款项净额将100%用于投资全栈AI能力，加强AI基础设施建设，进一步巩固阿里在AI领域的全球领先地位。",
+   "link": "https://wallstreetcn.com/news/global/3153430",
+   "source": "华尔街见闻",
+   "published_at": "2026-08-23 04:40"
+  },
   {
    "category": "finance",
    "title": "蔚来李斌：中国汽车行业正在进入四个新阶段",
@@ -242,78 +298,6 @@
    "link": "https://wallstreetcn.com/news/global/3153410",
    "source": "华尔街见闻",
    "published_at": "2026-08-22 13:45"
-  },
-  {
-   "category": "finance",
-   "title": "加拿大总理卡尼将于（多伦多）当地时间11:00针对美国挑起的关税问题讲话。",
-   "summary": "加拿大总理卡尼将于（多伦多）当地时间11:00针对美国挑起的关税问题讲话。",
-   "link": "https://wallstreetcn.com/news/global/3153409",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 13:38"
-  },
-  {
-   "category": "finance",
-   "title": "众擎机器人发布仿人脑具身智能引擎EngineAI Awaken",
-   "summary": "8月22日，世界机器人大会WRC期间，众擎机器人CTO李力耘系统阐释了公司全栈具身智能技术路线与全新AI模型架构，并发布仿人脑具身智能引擎EngineAI Awaken。据介绍，该引擎通过融合WAM与VLA模型，机器人仅需2小时实机部署与微调训练，长程动作成功率即可超过98%，实现低样本条件下的高效泛化。目前，该架构已与众擎自研力控关节、灵巧手及机器人本体进行整合。",
-   "link": "https://wallstreetcn.com/news/global/3153408",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 13:37"
-  },
-  {
-   "category": "finance",
-   "title": "美国贸易代表格里尔：关于与加拿大的贸易磋商还没有新的打算。 美方采取行动，来应对加拿大采取的报复行动",
-   "summary": "美国贸易代表格里尔：关于与加拿大的贸易磋商还没有新的打算。 美方采取行动，来应对加拿大采取的报复行动。（福克斯新闻）",
-   "link": "https://wallstreetcn.com/news/global/3153406",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 13:27"
-  },
-  {
-   "category": "finance",
-   "title": "DeepSeek再次调价",
-   "summary": "DeepSeek网站8月22日显示，DeepSeek API开放平台将于2026年8月23日（周日）00:00起，优化峰谷计费规则。调整后，周末（周六及周日）全天将不再区分峰谷时段，统一按低谷时段价格计费。 此前，DeepSeek发布API调价公告，自北京时间8月17日0:00起，DeepSeek全面上调API价格并执行峰谷定价，闲时价格为高峰时段价格的一半。高峰时段为北京时间9:00—12:00",
-   "link": "https://wallstreetcn.com/news/global/3153405",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 13:22"
-  },
-  {
-   "category": "finance",
-   "title": "俄罗斯国家原子能公司向伊朗布什尔核电站派回工作人员",
-   "summary": "据俄罗斯国际文传电讯社（Interfax）援引该公司首席执行官阿列克谢·利哈乔夫（Alexey Likhachev）的话报道，俄罗斯国有原子能企业Rosatom正继续向伊朗布什尔核电站派回员工。 利哈乔夫表示，目前已有42名俄罗斯专家重返该核电站。他说：”如果一切顺利，今年秋天我们将把人员增至100人。”他同时补充道，目前该设施的局势平稳。",
-   "link": "https://wallstreetcn.com/news/global/3153404",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 13:19"
-  },
-  {
-   "category": "finance",
-   "title": "阿波罗：AI正压低薪资，但尚未导致裁员",
-   "summary": "阿波罗全球管理公司首席经济学家Torsten Slok表示，AI对就业市场的冲击”微乎其微”，但其影响正体现在薪资增长放缓上。Slok与Sania Edlich的分析发现，高AI暴露度岗位的薪资增速比低暴露度岗位慢6.7%，且这一效应在低收入群体中更为明显。Slok表示，AI加速了企业创办的速度，目前新企业注册量已达历史最高水平；AI的主导效应是催生了一个更具活力的经济体，人们可以更快地将创意转化",
-   "link": "https://wallstreetcn.com/news/global/3153402",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 12:46"
-  },
-  {
-   "category": "finance",
-   "title": "伊朗称过去一年国防装备产量整体翻番",
-   "summary": "据伊朗迈赫尔通讯社22日报道，伊朗国防部发言人礼萨·塔拉埃-尼克接受伊朗国家电视台采访时表示，过去一年来，伊朗武器和国防装备的产量翻了一番。",
-   "link": "https://wallstreetcn.com/news/global/3153403",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 12:45"
-  },
-  {
-   "category": "finance",
-   "title": "伊拉克希望伊朗向其油轮发放特别通行许可",
-   "summary": "据伊朗伊斯兰共和国通讯社22日报道，在伊朗伊斯兰议会议长卡利巴夫访问伊拉克期间，伊拉克方面提出，希望伊朗给伊拉克油轮发放通过霍尔木兹海峡的特别通行许可。 报道说，伊拉克此前已通过各种渠道多次向伊朗提出该请求，伊朗目前允许部分伊拉克油轮通过霍尔木兹海峡。",
-   "link": "https://wallstreetcn.com/news/global/3153401",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 12:43"
-  },
-  {
-   "category": "finance",
-   "title": "俄罗斯副总理诺瓦克：俄罗斯当前面临汽油供应紧张问题。 但国内柴油与航空燃油供应充足。 俄罗斯多家炼油",
-   "summary": "俄罗斯副总理诺瓦克：俄罗斯当前面临汽油供应紧张问题。 但国内柴油与航空燃油供应充足。 俄罗斯多家炼油厂近期已完成检修，并开始供应更多燃料。 政府尚未决定是否解除目前有效期至9月1日的柴油出口禁令，“我们将密切关注事态发展，并根据需要迅速做出决定。”",
-   "link": "https://wallstreetcn.com/news/global/3153398",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-22 12:38"
   }
  ]
 }
