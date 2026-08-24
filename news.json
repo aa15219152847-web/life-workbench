@@ -1,6 +1,38 @@
 {
- "updated_at": "2026-08-24 03:38",
+ "updated_at": "2026-08-24 08:31",
  "ai": [
+  {
+   "category": "ai",
+   "title": "消息称字节整合 AI 生产力：TRAE、扣子并入豆包，将推统一办公品牌“豆包工作”",
+   "summary": "",
+   "link": "https://www.ithome.com/0/993/604.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "三星新愿景：让 HBM 不只是内存",
+   "summary": "",
+   "link": "https://www.ithome.com/0/993/592.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "全部用于投资全栈 AI 能力，消息称阿里 800 亿港元配售获近 3 倍超额认购",
+   "summary": "",
+   "link": "https://www.ithome.com/0/993/561.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "消息称知名 AI 研究员 Luke Metz 离开 OpenAI，加入 Meta 超级智能实验室",
+   "summary": "",
+   "link": "https://www.ithome.com/0/993/480.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
@@ -120,224 +152,184 @@
    "link": "https://www.ithome.com/0/991/901.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
-   "summary": "",
-   "link": "https://www.ithome.com/0/991/871.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 扩展零数据留存安全机制，自动化分析跨交互风险",
-   "summary": "",
-   "link": "https://www.ithome.com/0/991/868.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“微信重大更新”引围观，总结 / 点评 / 修图长本事了！更有发图 / 表情彻底加强",
-   "summary": "",
-   "link": "https://www.ithome.com/0/991/818.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "日本拍卖10年期国债，认购倍数3.51。",
-   "summary": "日本拍卖10年期国债，认购倍数3.51。",
-   "link": "https://wallstreetcn.com/news/global/3153635",
+   "title": "欧盟六国要求对石油公司征税",
+   "summary": "记者获悉，德国、西班牙、葡萄牙、意大利、波兰和奥地利6个欧盟成员国财政部长日前联名致信欧盟轮值主席国爱尔兰，呼吁欧盟成员国在9月举行的欧盟财长会议上讨论一项机制，对因霍尔木兹海峡封锁、能源供应冲击而获得“暴利”的石油公司征税。",
+   "link": "https://wallstreetcn.com/news/global/3153781",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:36"
+   "published_at": "2026-08-24 08:30"
   },
   {
    "category": "finance",
-   "title": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融",
-   "summary": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
-   "link": "https://wallstreetcn.com/news/global/3153634",
+   "title": "鼎际得：2026年上半年净利润4357.81万元，同比增长931.10%",
+   "summary": "鼎际得公告，2026年上半年营业收入7.04亿元，同比增长60.51%；归属于上市公司股东的净利润4357.81万元，同比增长931.10%。报告期内公司不进行利润分配和公积金转增股本。",
+   "link": "https://wallstreetcn.com/news/global/3153780",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:34"
+   "published_at": "2026-08-24 08:28"
   },
   {
    "category": "finance",
-   "title": "恒生科技指数日内跌幅扩大至4%，MINIMAX跌近10%。",
-   "summary": "恒生科技指数日内跌幅扩大至4%，MINIMAX跌近10%。",
-   "link": "https://wallstreetcn.com/news/global/3153631",
+   "title": "东方明珠：上半年归母净利润4.22亿元，同比增长22.65%。",
+   "summary": "东方明珠：上半年归母净利润4.22亿元，同比增长22.65%。",
+   "link": "https://wallstreetcn.com/news/global/3153779",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:32"
+   "published_at": "2026-08-24 08:26"
   },
   {
    "category": "finance",
-   "title": "上证指数早盘收报3877.30点，跌0.71%。 深证成指早盘收报13750.12点，跌2.44%。",
-   "summary": "上证指数早盘收报3877.30点，跌0.71%。 深证成指早盘收报13750.12点，跌2.44%。 创业板指早盘收报3421.50点，跌3.50%。 沪深300早盘收报4560.85点，跌1.26%。 科创50早盘收报1599.65点，跌3.26%。 中证500早盘收报7692.53点，跌2.06%。 中证1000早盘收报7450.56点，跌1.99%。",
-   "link": "https://wallstreetcn.com/news/global/3153629",
+   "title": "惠而浦：上半年归母净利润1.77亿元，同比下降17.79%。",
+   "summary": "惠而浦：上半年归母净利润1.77亿元，同比下降17.79%。",
+   "link": "https://wallstreetcn.com/news/global/3153778",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:31"
+   "published_at": "2026-08-24 08:25"
   },
   {
    "category": "finance",
-   "title": "8月24日午间收评：创业板指半日跌3.5%，生物医药、算力硬件股集体下挫",
-   "summary": "市场早间震荡调整，创业板指跌超3%。煤炭板块逆势走强，上海能源、美锦能源涨停。农业股表现活跃，登海种业涨停，秋乐种业涨超10%。下跌反面，生物医药板块下挫，双鹭药业接近跌停；算力硬件股下挫，共进股份触及跌停。午间收盘沪指跌0.71%，深成指跌2.44%，创业板跌3.5%。",
-   "link": "https://wallstreetcn.com/news/global/3153628",
+   "title": "章源钨业：2026年上半年净利润6.88亿元，同比增长497.38%",
+   "summary": "章源钨业公告，2026年上半年营业收入58.47亿元，同比增长143.71%；归属于上市公司股东的净利润6.88亿元，同比增长497.38%。",
+   "link": "https://wallstreetcn.com/news/global/3153776",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:30"
+   "published_at": "2026-08-24 08:25"
   },
   {
    "category": "finance",
-   "title": "MSCI亚太指数下跌1%至274.23点。",
-   "summary": "MSCI亚太指数下跌1%至274.23点。",
-   "link": "https://wallstreetcn.com/news/global/3153626",
+   "title": "金价连破三道关口 水贝金条销量大涨",
+   "summary": "近期，国际金价快速反弹。上周，国际现货黄金连续突破4400美元、4500美元和4600美元三道整数关口，周涨幅超过5%。国内黄金零售市场也随之波动。作为全国黄金珠宝市场的“风向标”，深圳水贝市场周末迎来了一波客流小高峰。在调研中发现，随着金价在高位波动，消费者不再盲目“求大”，转而青睐“轻量化”与“高颜值”兼具的产品。多家商户表示，工艺精湛的小克重产品已经成为当前绝对的销售主力。",
+   "link": "https://wallstreetcn.com/news/global/3153775",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:30"
+   "published_at": "2026-08-24 08:24"
   },
   {
    "category": "finance",
-   "title": "国债期货早盘收盘，30年期主力合约涨0.22%，10年期主力合约涨0.06%，5年期主力合约涨0.0",
-   "summary": "国债期货早盘收盘，30年期主力合约涨0.22%，10年期主力合约涨0.06%，5年期主力合约涨0.04%，2年期主力合约涨0.01%。",
-   "link": "https://wallstreetcn.com/news/global/3153625",
+   "title": "美元兑日元延续涨势，上涨0.2%至159.25。",
+   "summary": "美元兑日元延续涨势，上涨0.2%至159.25。",
+   "link": "https://wallstreetcn.com/news/global/3153774",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:30"
+   "published_at": "2026-08-24 08:23"
   },
   {
    "category": "finance",
-   "title": "OpenAI前员工Luke Metz已加入Meta Platforms的超级智能实验室。（Axios",
-   "summary": "OpenAI前员工Luke Metz已加入Meta Platforms的超级智能实验室。（Axios）",
-   "link": "https://wallstreetcn.com/news/global/3153624",
+   "title": "第32次亚太经合组织中小企业部长会议将在广州举行",
+   "summary": "从工业和信息化部了解到，第32次APEC中小企业部长会议将于9月4日在广东省广州市举行。本次会议以“创新驱动 合作共赢”为主题，各方将共同探讨促进亚太中小企业发展的合作路径。",
+   "link": "https://wallstreetcn.com/news/global/3153773",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:23"
+   "published_at": "2026-08-24 08:23"
   },
   {
    "category": "finance",
-   "title": "宁波1宗宅地溢价25.83%成交",
-   "summary": "8月24日，宁波1宗高新区新明街道宅地出让，规划建筑面积31404平方米，容积率1.5，起始价5.5亿元，起始楼面价17505元/平方米。最终经过72轮激烈竞价，中海以总价6.92亿元竞得该地块，成交楼面价22027元/平方米，溢价率25.83%。",
-   "link": "https://wallstreetcn.com/news/global/3153623",
+   "title": "英国海上贸易行动办公室：沙特附近一油轮遭袭起火",
+   "summary": "英国海上贸易行动办公室8月24日发布警告称，确认接获一起海上安全事件报告。事件发生在沙特阿拉伯延布港以西约63海里（约117公里）处，一艘油轮遭不明射弹击中，导致主甲板起火。",
+   "link": "https://wallstreetcn.com/news/global/3153772",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:22"
+   "published_at": "2026-08-24 08:22"
   },
   {
    "category": "finance",
-   "title": "全国累计收购小麦超9000万吨",
-   "summary": "目前，我国夏粮旺季收购进入高峰。国家粮食和物资储备局24日发布最新数据显示，全国各类粮食经营主体累计收购小麦超9000万吨。南方早籼稻迎来集中上市。各地收购工作有序开展，收购进展整体顺利。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3153622",
+   "title": "习近平将同约旦国王阿卜杜拉二世举行会谈",
+   "summary": "8月24日下午，国家主席习近平将在北京人民大会堂同来华进行国事访问的约旦哈希姆王国国王阿卜杜拉二世举行会谈。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3153770",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:22"
+   "published_at": "2026-08-24 08:21"
   },
   {
    "category": "finance",
-   "title": "韩国首尔综指跌幅扩大至3%。",
-   "summary": "韩国首尔综指跌幅扩大至3%。",
-   "link": "https://wallstreetcn.com/news/global/3153619",
+   "title": "瑞晟智能：2026年上半年净利润2652.42万元，同比增长609.31%",
+   "summary": "瑞晟智能公告，2026年上半年营业收入2.79亿元，同比增长50.84%；归属于上市公司股东的净利润2652.42万元，同比增长609.31%。",
+   "link": "https://wallstreetcn.com/news/global/3153768",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:17"
+   "published_at": "2026-08-24 08:18"
   },
   {
    "category": "finance",
-   "title": "泰国股指SET指数下跌1%。",
-   "summary": "泰国股指SET指数下跌1%。",
-   "link": "https://wallstreetcn.com/news/global/3153618",
+   "title": "事关燃气燃烧器具及相关产品 95张CCC认证证书被撤销",
+   "summary": "记者今天了解到，市场监管总局部署实施2026年度流通领域燃气燃烧器具及安全附件产品CCC认证有效性抽查，监督和追溯认证机构认证有效性，压实生产企业质量安全主体责任。本次抽查坚持“产品+机构”双覆盖原则，共计抽查200批次产品，覆盖燃气燃烧器具及安全附件领域全部6类产品及全部5家CCC指定认证机构。",
+   "link": "https://wallstreetcn.com/news/global/3153767",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:13"
+   "published_at": "2026-08-24 08:17"
   },
   {
    "category": "finance",
-   "title": "阿里视频大模型Wan3.0正式上线，单段30秒，文档、ppt也能变视频",
-   "summary": "8月24日，阿里巴巴视频生成大模型Wan3.0正式上线。该模型在生成时长、万能创作、全能参考以及真实世界还原等维度全面升级，单次可生成30秒视频，并首次支持doc、xls、ppt、pdf、md等文档格式输入，力求准确还原真实世界。Wan3.0在角色、道具、声音、空间关系、风格等细粒度维度均可稳定保持。（硬AI）",
-   "link": "https://wallstreetcn.com/news/global/3153617",
+   "title": "伊拉克石油部发言人：目前所有油田的原油产量超过300万桶/日，南部港口出口量为220万桶/日。（路透",
+   "summary": "伊拉克石油部发言人：目前所有油田的原油产量超过300万桶/日，南部港口出口量为220万桶/日。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3153766",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:02"
+   "published_at": "2026-08-24 08:17"
   },
   {
    "category": "finance",
-   "title": "隔夜SHIBOR报1.4190%，下降1.50个基点。 7天SHIBOR报1.4320%，上涨0.6",
-   "summary": "隔夜SHIBOR报1.4190%，下降1.50个基点。 7天SHIBOR报1.4320%，上涨0.64个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
-   "link": "https://wallstreetcn.com/news/global/3153616",
+   "title": "联合国常务副秘书长日前来华出席“人工智能与人类发展”对话会，外交部回应",
+   "summary": "外交部发言人林剑主持例行记者会。有记者提问，我们注意到，继联合国秘书长古特雷斯来华出席2026世界人工智能大会暨人工智能全球治理高级别会议后，联合国常务副秘书长日前在西安出席“人工智能与人类发展”对话会。发言人能否进一步介绍有关情况？ 林剑表示，8月20日至21日，“人工智能与人类发展”对话会在西安举行。此次对话会由中国外交部和联合国共同主办，联合国常务副秘书长阿明娜出席并致辞，对话成果将向第81",
+   "link": "https://wallstreetcn.com/news/global/3153764",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 03:01"
+   "published_at": "2026-08-24 08:15"
   },
   {
    "category": "finance",
-   "title": "市场监管总局发布酱香型白酒掺杂食用酒精筛查检验方法",
-   "summary": "市场监管总局近日发布《食品补充检验方法 酱香型白酒中掺杂食用酒精的筛查》。该项筛查检验方法建立了全国酱香型白酒数据库，覆盖全国酱酒主产区100余家企业、300多款产品，覆盖面广、代表性强。方法依托原位电离—高分辨质谱检测技术，搭配化学计量学算法建立精准鉴别模型，检测速度快、判别准确率高，可实现批量样品快速筛查，为打击酱香型白酒掺杂掺假行为提供了坚实技术保障。下一步，各地市场监管部门将进一步加大生产",
-   "link": "https://wallstreetcn.com/news/global/3153614",
+   "title": "广期所发布关于违规案件处理情况的公告：近期，广期所调查审理了9起违规案件，决定对19名违规客户实施纪",
+   "summary": "广期所发布关于违规案件处理情况的公告：近期，广期所调查审理了9起违规案件，决定对19名违规客户实施纪律处分。请各会员单位和交易者提高合规和风险意识，严格遵守法律法规和交易所各项规则，自觉维护期货市场秩序。",
+   "link": "https://wallstreetcn.com/news/global/3153761",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:53"
+   "published_at": "2026-08-24 08:14"
   },
   {
    "category": "finance",
-   "title": "创业板指跌超3%，沪指跌0.45%，深成指跌1.92%，生物医药、算力硬件、半导体芯片、消费电子等方",
-   "summary": "创业板指跌超3%，沪指跌0.45%，深成指跌1.92%，生物医药、算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超4100只。",
-   "link": "https://wallstreetcn.com/news/global/3153612",
+   "title": "大商所：开展部分化工品期货服务出口定价试点项目",
+   "summary": "大连商品交易所发布公告。为更好发挥期货市场功能，服务化工实体企业出口贸易定价，提升大宗商品价格国际影响力，大连商品交易所决定开展部分化工品期货服务出口定价试点项目。",
+   "link": "https://wallstreetcn.com/news/global/3153759",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:39"
+   "published_at": "2026-08-24 08:13"
   },
   {
    "category": "finance",
-   "title": "国内金价重回千元 多家银行积存金克价涨破1000元",
-   "summary": "8月24日，多家银行积存金克价涨破1000元。截至24日上午10时15分，工商银行积存金报1005.69元/克，如意积存金报1017.48元/克；建设银行黄金积存价格报1008.89元/克；农业银行存金通报1018元/克；中国银行积存金报1022.29元/克。上海黄金交易所官网显示，截至24日上午10时20分，Au99.99报1006元/克。（中新经纬）",
-   "link": "https://wallstreetcn.com/news/global/3153607",
+   "title": "字节AI生产力整合：TRAE、扣子并入豆包，将推统一办公品牌“豆包工作”",
+   "summary": "字节跳动对旗下的办公AI产品完成了一轮团队整合：TRAE、扣子（Coze）团队将整体并入豆包体系，其中TRAE Work、扣子将与豆包在工作场景的产品能力进行整合；TRAE IDE及CLI将作为豆包品牌下的编程产品线持续发展。调整后，以上产品和运营团队向豆包产品负责人赵祺汇报。 此次调整后，字节也进一步明确了豆包的AI主干业务定位，将AI办公类产品的重心集中到豆包。我们同时获悉，豆包最快将于本周内",
+   "link": "https://wallstreetcn.com/news/global/3153756",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:33"
+   "published_at": "2026-08-24 08:09"
   },
   {
    "category": "finance",
-   "title": "截至早盘收盘，日经225指数跌0.1%，东证指数涨0.3%。",
-   "summary": "截至早盘收盘，日经225指数跌0.1%，东证指数涨0.3%。",
-   "link": "https://wallstreetcn.com/news/global/3153606",
+   "title": "港股收盘：恒生指数收跌1.89%，恒生科技指数收跌3.61%，科技股集体走低，阿里巴巴跌超8%；中芯",
+   "summary": "港股收盘：恒生指数收跌1.89%，恒生科技指数收跌3.61%，科技股集体走低，阿里巴巴跌超8%；中芯国际跌超7%，兆易创新跌超6%；智谱跌超10%。",
+   "link": "https://wallstreetcn.com/news/global/3153755",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:32"
+   "published_at": "2026-08-24 08:09"
   },
   {
    "category": "finance",
-   "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报161000元/吨，较上日16:30价",
-   "summary": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报161000元/吨，较上日16:30价格上涨7500元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3153605",
+   "title": "外交部：将适时发布约旦国王阿卜杜拉二世访华的更多信息。（澎湃）",
+   "summary": "外交部：将适时发布约旦国王阿卜杜拉二世访华的更多信息。（澎湃）",
+   "link": "https://wallstreetcn.com/news/global/3153754",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:31"
+   "published_at": "2026-08-24 08:07"
   },
   {
    "category": "finance",
-   "title": "国家统计局：8月中旬生猪（外三元）价格环比上涨5.8%",
-   "summary": "国家统计局发布2026年8月中旬流通领域重要生产资料市场价格变动情况。据对全国流通领域9大类50种重要生产资料市场价格的监测显示，2026年8月中旬与8月上旬相比，33种产品价格上涨，14种下降，3种持平。其中，生猪(外三元)价格为11.0元/千克，环比上涨5.8%。",
-   "link": "https://wallstreetcn.com/news/global/3153600",
+   "title": "国家能源局：截至7月底，我国电动汽车充电基础设施（枪）总数达到2368.3万个",
+   "summary": "国家能源局发布2026年7月全国电动汽车充电设施数据。根据国家充电设施监测服务平台数据，截至2026年7月底，我国电动汽车充电基础设施（枪）总数达到2368.3万个，同比增长41.9%。其中，公共充电设施（枪）509.9万个，同比增长21.3%，额定总功率达到2.55亿千瓦，单枪平均功率约为49.97千瓦；私人充电设施（枪）1858.4万个，同比增长48.8%，私人充电设施报装用电容量达到1.60",
+   "link": "https://wallstreetcn.com/news/global/3153753",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:18"
+   "published_at": "2026-08-24 08:05"
   },
   {
    "category": "finance",
-   "title": "越南股指VN指数上涨1.2%，FTSE将把27只股票加入其新兴市场指数。",
-   "summary": "越南股指VN指数上涨1.2%，FTSE将把27只股票加入其新兴市场指数。",
-   "link": "https://wallstreetcn.com/news/global/3153599",
+   "title": "LME铜注册仓单增加5.14万吨，为5月以来最大增幅。",
+   "summary": "LME铜注册仓单增加5.14万吨，为5月以来最大增幅。",
+   "link": "https://wallstreetcn.com/news/global/3153752",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:17"
+   "published_at": "2026-08-24 08:05"
   },
   {
    "category": "finance",
-   "title": "受贿数额特别巨大 新疆维吾尔自治区政协原副主席金之镇被提起公诉",
-   "summary": "从最高人民检察院获悉，新疆维吾尔自治区政协原党组成员、副主席金之镇涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对金之镇作出逮捕决定，并指定由湖南省岳阳市人民检察院审查起诉。近日，岳阳市人民检察院已向岳阳市中级人民法院提起公诉。",
-   "link": "https://wallstreetcn.com/news/global/3153597",
+   "title": "中印尼在全面战略对话机制是否会推动更多旗舰项目？外交部回应",
+   "summary": "外交部发言人林剑主持例行记者会。有记者提问，中国与印尼在高水平合作机制下实施了一些旗舰项目，比如雅万高铁项目。现在中国和印尼建立了全面战略对话机制，在这一机制下，两国是否会推动更多类似雅万高铁这样的项目建设？ 林剑表示，中国印尼的全面战略对话机制是双方落实两国元首共识的重要举措，旨在深化各领域的务实合作，推进中印尼命运共同体建设，为两国人民带来实实在在的利益。",
+   "link": "https://wallstreetcn.com/news/global/3153751",
    "source": "华尔街见闻",
-   "published_at": "2026-08-24 02:01"
-  },
-  {
-   "category": "finance",
-   "title": "韩国首尔综指跌幅扩大至2.3%。",
-   "summary": "韩国首尔综指跌幅扩大至2.3%。",
-   "link": "https://wallstreetcn.com/news/global/3153594",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-24 01:59"
-  },
-  {
-   "category": "finance",
-   "title": "香港恒生指数跌幅扩大至2%，阿里巴巴跌10%。",
-   "summary": "香港恒生指数跌幅扩大至2%，阿里巴巴跌10%。",
-   "link": "https://wallstreetcn.com/news/global/3153591",
-   "source": "华尔街见闻",
-   "published_at": "2026-08-24 01:55"
+   "published_at": "2026-08-24 08:03"
   }
  ]
 }
