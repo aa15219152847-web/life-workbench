@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-09-02 04:41",
+ "updated_at": "2026-09-02 11:24",
  "ai": [
+  {
+   "category": "ai",
+   "title": "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/501.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "美国呼吁 G20 成员国对 AI 监管采取克制态度，避免制定过多新规则",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/474.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "马斯克预测 10 年内全球人形机器人超 10 亿台，每台产出是人类 5 倍",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/440.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/408.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现有望超越所有 AI 竞品",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/401.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "谷歌 AI 图片设计工具 Pics 上线，Docs / Slides 办公套件可直接调用修图",
@@ -14,6 +54,14 @@
    "title": "Meta 发布首个实时音频感知 AI 模型，支持 20 余人分轨转写",
    "summary": "",
    "link": "https://www.ithome.com/0/997/218.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌推出智能体视频理解功能：提升 Gemini 模型视频分析准确率，大幅降本减耗",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/190.htm",
    "source": "IT之家",
    "published_at": ""
   },
@@ -112,224 +160,168 @@
    "link": "https://www.ithome.com/0/996/124.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "预估为 GPT-6 AI 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/120.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "9 月 14 日起，Pro / Max / Team 用户 Claude Code 标准周限额永久 +25%",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/097.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“史上最大规模版权盗窃”：索尼与华纳联合起诉 Anthropic，指控其大规模盗用版权音乐训练 AI 模型",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/095.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 人才争夺加码：台积电 2026Q2 奖金约为 360 亿新台币，同比增 50.6%",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/073.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "少 1 个展开步骤：部分谷歌搜索测试默认进入 AI 模式，下移传统蓝链搜索结果",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/062.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "巴基斯坦KSE-100指数日内下跌1%。",
-   "summary": "巴基斯坦KSE-100指数日内下跌1%。",
-   "link": "https://wallstreetcn.com/news/global/3159003",
+   "title": "美国商务部长卢特尼克：市场将会趋于稳定。 债券市场将推动收益率回落。",
+   "summary": "美国商务部长卢特尼克：市场将会趋于稳定。 债券市场将推动收益率回落。",
+   "link": "https://wallstreetcn.com/news/global/3159234",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 04:37"
+   "published_at": "2026-09-02 11:21"
   },
   {
    "category": "finance",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 15:10 欧洲央行管委Wunsch讲话； ② 20:15 美国8月ADP就业人数（小非农）； ③ 21:45 加拿大央行公布利率决定； ④ 22:00 美国7月耐用品订单终值，7月工厂订单； ⑤ 22:30 美国能源信息署（EIA）发布 ⑥ 次日02:00 美联储发布褐皮书； ⑦ 美股盘后 博通、Snowflake、C3.ai、惠与（HPE）发布业绩报告； ⑧ 次日04:10 新西兰联储主席",
-   "link": "https://wallstreetcn.com/news/global/3159002",
+   "title": "Uber盘前涨超1%，公司将在重组中裁员3300人，以减少管理层级。",
+   "summary": "Uber盘前涨超1%，公司将在重组中裁员3300人，以减少管理层级。",
+   "link": "https://wallstreetcn.com/news/global/3159233",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 04:30"
+   "published_at": "2026-09-02 11:21"
   },
   {
    "category": "finance",
-   "title": "早间要闻汇总",
-   "summary": "创业板指半日跌超2%，军工板块逆势大涨。 恒指半日跌近1%，恒生科技指数跌1.5%，智谱、蔚来跌超5%。 亚太股市普跌，日经225指数盘中跌超3%，韩国首尔综指跌近4%，日本国债收益率全线走高。 上市第11个交易日，宇树科技股价腰斩。 新西兰联储升息25个基点，称将继续关注通胀风险。 日本央行行长植田和男放鹰“暗示9月加息”：货币条件仍然宽松，我们希望继续加息。 欧洲央行管委Makhlouf：欧洲",
-   "link": "https://wallstreetcn.com/news/global/3159001",
+   "title": "英国国债跌幅收窄，10年期国债收益率上行4个基点至5.26%。",
+   "summary": "英国国债跌幅收窄，10年期国债收益率上行4个基点至5.26%。",
+   "link": "https://wallstreetcn.com/news/global/3159232",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 04:30"
+   "published_at": "2026-09-02 11:20"
   },
   {
    "category": "finance",
-   "title": "日本2年期国债收益率上行5个基点至1.85%，日本5年期国债收益率上行5个基点至2.305%。",
-   "summary": "日本2年期国债收益率上行5个基点至1.85%，日本5年期国债收益率上行5个基点至2.305%。",
-   "link": "https://wallstreetcn.com/news/global/3159000",
+   "title": "布伦特原油日内跌幅达0.5%，报94.16美元/桶。",
+   "summary": "布伦特原油日内跌幅达0.5%，报94.16美元/桶。",
+   "link": "https://wallstreetcn.com/news/global/3159231",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 04:29"
+   "published_at": "2026-09-02 11:16"
   },
   {
    "category": "finance",
-   "title": "日经225指数日内跌幅扩大至3%。",
-   "summary": "日经225指数日内跌幅扩大至3%。",
-   "link": "https://wallstreetcn.com/news/global/3158997",
+   "title": "英国首相伯纳姆：市场动荡源于保守党增加债务的记录。 我们提前设定预算日期以缩短投机期。 本届政府将以",
+   "summary": "英国首相伯纳姆：市场动荡源于保守党增加债务的记录。 我们提前设定预算日期以缩短投机期。 本届政府将以财政责任为基础。",
+   "link": "https://wallstreetcn.com/news/global/3159229",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 04:14"
+   "published_at": "2026-09-02 11:13"
   },
   {
    "category": "finance",
-   "title": "欧洲央行管委Makhlouf：欧洲央行必须做好进一步升息的准备。 对欧元区通胀感到“不安”。 欧洲央",
-   "summary": "欧洲央行管委Makhlouf：欧洲央行必须做好进一步升息的准备。 对欧元区通胀感到“不安”。 欧洲央行下周的利率决定不会令人意外。 通胀预期“处于良好水平”。 预计欧洲央行将略微上调欧元区经济增长预期。 尚未看到第二轮通胀效应的迹象。（英国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3158996",
+   "title": "中国人民银行公布2026年第二季度支付体系运行总体情况",
+   "summary": "中国央行：截至二季度末，全国共开立银行账户156.58亿户。开立单位银行账户1.25亿户，其中，基本存款账户8679.59万户；开立个人银行账户155.32亿户。",
+   "link": "https://wallstreetcn.com/news/global/3159228",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 04:09"
+   "published_at": "2026-09-02 11:12"
   },
   {
    "category": "finance",
-   "title": "印度股指SENSEX指数日内下跌1%。",
-   "summary": "印度股指SENSEX指数日内下跌1%。",
-   "link": "https://wallstreetcn.com/news/global/3158993",
+   "title": "荷兰央行已将86吨黄金从纽约和渥太华转运至伦敦，以提升黄金的可交易性。（路透）",
+   "summary": "荷兰央行已将86吨黄金从纽约和渥太华转运至伦敦，以提升黄金的可交易性。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3159227",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:56"
+   "published_at": "2026-09-02 11:11"
   },
   {
    "category": "finance",
-   "title": "MSCI亚太指数日内下跌2%。",
-   "summary": "MSCI亚太指数日内下跌2%。",
-   "link": "https://wallstreetcn.com/news/global/3158992",
+   "title": "中国船舶：下属子公司联合签订逾10亿美元造船合同",
+   "summary": "中国船舶：控股子公司广船国际联合中国船舶工业贸易有限公司与某知名船东签订10艘8,200车LNG双燃料动力汽车运输船新造船合同，合同总金额逾10亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3159226",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:54"
+   "published_at": "2026-09-02 11:10"
   },
   {
    "category": "finance",
-   "title": "韩国财长提名人：物价稳定是首要任务。通胀压力将得到缓解。（韩联社）",
-   "summary": "韩国财长提名人：物价稳定是首要任务。通胀压力将得到缓解。（韩联社）",
-   "link": "https://wallstreetcn.com/news/global/3158991",
+   "title": "美国商务部长卢特尼克：加拿大对美国“缺乏尊重”。",
+   "summary": "美国商务部长卢特尼克：加拿大对美国“缺乏尊重”。",
+   "link": "https://wallstreetcn.com/news/global/3159224",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:53"
+   "published_at": "2026-09-02 11:09"
   },
   {
    "category": "finance",
-   "title": "中国财政部发行91天期债券，规模350亿元，发行利率1.1464%，边际利率1.1988%，预期1.",
-   "summary": "中国财政部发行91天期债券，规模350亿元，发行利率1.1464%，边际利率1.1988%，预期1.0900%，投标倍数3.56倍，边际倍数1.62倍； 中国财政部发行182天期债券，规模600亿元，发行利率1.2227%，边际利率1.2715%，预期1.1500%，投标倍数3.26倍，边际倍数1.14倍。",
-   "link": "https://wallstreetcn.com/news/global/3158988",
+   "title": "8月A股新开户239.73万户",
+   "summary": "据上交所数据，2026年8月A股新开户239.73万户，同比去年8月265.03万户下降10.0%；2026年前8个月已累计新开2521.4万户，同比增长46.0%。",
+   "link": "https://wallstreetcn.com/news/global/3159221",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:42"
+   "published_at": "2026-09-02 11:06"
   },
   {
    "category": "finance",
-   "title": "中国财政部发行30年期债券，规模730亿元，发行利率2.1405%，预期2.1400%，投标倍数5.",
-   "summary": "中国财政部发行30年期债券，规模730亿元，发行利率2.1405%，预期2.1400%，投标倍数5.88倍，边际倍数1.47倍。",
-   "link": "https://wallstreetcn.com/news/global/3158987",
+   "title": "中国东航董事长王志清：进一步精细成本管控 积极参与浦东机场四期扩建",
+   "summary": "在中国东航集团旗下中国东航、东航物流中期联合业绩说明会上，中国东航董事长王志清就燃油成本管控、C919客机机队运营进展、参与浦东机场四期扩建情况等话题与投资者展开互动交流。",
+   "link": "https://wallstreetcn.com/news/global/3159220",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:38"
+   "published_at": "2026-09-02 11:05"
   },
   {
    "category": "finance",
-   "title": "星宇股份董事长回应“解约应届生”：正在政府部门指导下妥善落实相关措施",
-   "summary": "9月2日，常州星宇车灯股份有限公司召开网络业绩说明会，在回应近期用工事件相关舆情时，星宇股份董事长兼总经理周晓萍表示，公司高度关注近期舆情，已就事件的真实情况公开发布致歉信并正在政府部门的指导下妥善落实相关措施。“公司对披露真实情况的媒体监督表示衷心感谢，公司深刻反省并真诚道歉。同时，公司对部分媒体的不实报道也已通过网信和网安部门进行投诉和举报，维护公司的合法权益。”她提到。（澎湃新闻）",
-   "link": "https://wallstreetcn.com/news/global/3158985",
+   "title": "燧原科技：科创板IPO网上发行最终中签率0.02455315%。",
+   "summary": "燧原科技：科创板IPO网上发行最终中签率0.02455315%。",
+   "link": "https://wallstreetcn.com/news/global/3159218",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:33"
+   "published_at": "2026-09-02 11:03"
   },
   {
    "category": "finance",
-   "title": "上证指数早盘收报3947.26点，跌0.82%。 深证成指早盘收报13635.33点，跌1.71%。",
-   "summary": "上证指数早盘收报3947.26点，跌0.82%。 深证成指早盘收报13635.33点，跌1.71%。 创业板指早盘收报3319.39点，跌2.18%。 沪深300早盘收报4553.99点，跌1.25%。 科创50早盘收报1625.81点，跌1.32%。 中证500早盘收报7751.01点，跌1.37%。 中证1000早盘收报7595.59点，跌1.25%。",
-   "link": "https://wallstreetcn.com/news/global/3158982",
+   "title": "美国8月28日当周MBA抵押贷款申请活动指数周环比 0.8%，前值 -1%。",
+   "summary": "美国8月28日当周MBA抵押贷款申请活动指数周环比 0.8%，前值 -1%。",
+   "link": "https://wallstreetcn.com/news/global/3159217",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:31"
+   "published_at": "2026-09-02 11:00"
   },
   {
    "category": "finance",
-   "title": "9月2日午间收评：创业板指半日跌超2%，军工板块逆势大涨",
-   "summary": "1、市场早间震荡调整，创业板指跌超2%。军工板块逆势大涨，晟楠科技、内蒙一机、建设工业、长城军工等多股涨停。油气股表现活跃，石化机械、贵州燃气涨停。电网设备板块拉升，神马电力、杭电股份、远东股份等涨停。下跌方面，农业股集体调整，红四方、敦煌种业、新农种业跌停。个股跌多涨少，沪深京三市超4000股飘绿，上午半天成交1.23万亿。午间收盘沪指跌0.82%，深成指跌1.71%，创业板跌2.18%。 2、",
-   "link": "https://wallstreetcn.com/news/global/3158981",
+   "title": "以色列5座海水淡化厂因海水浑浊继续停运",
+   "summary": "据以色列媒体9月1日援引政府部门的消息报道，由于海水浑浊度再次上升，以色列位于地中海沿岸的6座海水淡化厂中，有5座当天继续停运。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3159213",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:30"
+   "published_at": "2026-09-02 10:54"
   },
   {
    "category": "finance",
-   "title": "国债期货早盘收盘，30年期主力合约跌0.07%，10年期主力合约跌0.01%，5年期主力合约跌0.0",
-   "summary": "国债期货早盘收盘，30年期主力合约跌0.07%，10年期主力合约跌0.01%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
-   "link": "https://wallstreetcn.com/news/global/3158979",
+   "title": "伯克希尔哈撒韦首席执行官格雷格.阿贝尔：伯克希尔哈撒韦对谷歌母公司Alphabet的押注，是受该公司",
+   "summary": "伯克希尔哈撒韦首席执行官格雷格.阿贝尔：伯克希尔哈撒韦对谷歌母公司Alphabet的押注，是受该公司人工智能优势的推动。 将人工智能数据中心视为伯克希尔哈撒韦能源的重要机会，愿意承接超大规模企业的数据中心能源需求。 对美国楼市的押注是长期行为，不会快速复苏。",
+   "link": "https://wallstreetcn.com/news/global/3159212",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:30"
+   "published_at": "2026-09-02 10:51"
   },
   {
    "category": "finance",
-   "title": "南部战区位中国黄岩岛领海领空及周边区域组织战备警巡",
-   "summary": "9月2日，中国人民解放军南部战区组织海空兵力位中国黄岩岛领海领空及周边海空域开展战备警巡。黄岩岛是中国固有领土。8月份以来，战区部队组织海空兵力持续加强黄岩岛领海周边海空域巡逻警戒，进一步强化有关海空域管控力度，有力有效应对各类侵权挑衅行径，坚决捍卫国家主权安全，坚定维护南海地区和平稳定。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3158978",
+   "title": "陈吉宁会见中国进出口银行董事长陈怀宇、行长王春英及国际企业机构代表",
+   "summary": "上海市委书记陈吉宁今天下午会见了来沪出席第四届国际船舶融资论坛的中国进出口银行董事长陈怀宇、行长王春英以及国际企业机构代表。",
+   "link": "https://wallstreetcn.com/news/global/3159211",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:25"
+   "published_at": "2026-09-02 10:50"
   },
   {
    "category": "finance",
-   "title": "第十五届中国知识产权年会将围绕人工智能与知识产权设置多个议题",
-   "summary": "今天（2日）从第十五届中国知识产权年会媒体吹风会上了解到，年会将围绕人工智能与知识产权设置多个议题。聚焦AI知识产权治理的法律维度，围绕大模型训练数据的版权合法性、AIGC生成物的可版权性、人机共创场景下的侵权责任分担、AI工具在专利检索和商标监测中的实务应用等前沿议题展开研讨，从司法、行政、产业三个维度探讨AI时代知识产权规则的演进方向。",
-   "link": "https://wallstreetcn.com/news/global/3158977",
+   "title": "章建平退出中际旭创前十大股东名单",
+   "summary": "中际旭创公告，公司于8月31日召开董事会会议审议通过了回购公司股份方案的议案，并披露董事会公告回购股份决议的前一个交易日（即2026年8月31日）登记在册的前十名股东和前十名无限售条件股东的名称及持股数量、比例的情况。最新数据显示，章建平退出中际旭创前十大股东名单。此前，据中际旭创8月21日公布的2026年半年报显示，章建平新进成为第九大股东，持有593.48万股，占总股本比例0.53%。",
+   "link": "https://wallstreetcn.com/news/global/3159208",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:22"
+   "published_at": "2026-09-02 10:40"
   },
   {
    "category": "finance",
-   "title": "西藏吉隆口岸核心区域救援通道已基本打通",
-   "summary": "9月2日上午10点，通往吉隆口岸核心区域救援通道陆路通道已基本打通，救援人员、救援物资和部分装备已通过陆路通道进入核心区并开展深入救援工作。 （新华社）",
-   "link": "https://wallstreetcn.com/news/global/3158975",
+   "title": "比亚迪：积极响应合规指引，将规范海外价格管理体系、严守公平竞争底线",
+   "summary": "比亚迪发文表示，将以《汽车行业境外竞争行为与合规建设指引》为行动遵循，持续完善海外全链条合规管理体系：规范海外价格管理体系、严守公平竞争底线、保障消费者合法权益；同时落实各项法规要求，夯实本地化服务，履行企业社会责任，助力中国汽车产业高质量出海。",
+   "link": "https://wallstreetcn.com/news/global/3159207",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:10"
+   "published_at": "2026-09-02 10:39"
   },
   {
    "category": "finance",
-   "title": "隔夜SHIBOR报1.3630%，下降0.10个基点。 7天SHIBOR报1.3770%，下降1.4",
-   "summary": "隔夜SHIBOR报1.3630%，下降0.10个基点。 7天SHIBOR报1.3770%，下降1.40个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
-   "link": "https://wallstreetcn.com/news/global/3158973",
+   "title": "微博：个别群体因对某线下演艺活动环节安排存在分歧煽动粉丝拨打政务服务热线举报施压，相关账号被禁言",
+   "summary": "微博社区公告，近期网络上出现个别群体因对某线下演艺活动环节安排存在分歧，从而煽动粉丝大量拨打政务服务热线进行集中举报施压的不良风气。为防范此类非理性行为在社区蔓延，站方迅速开展主动排查，发现站内亦有极个别账号发布了相关煽动性言论。",
+   "link": "https://wallstreetcn.com/news/global/3159206",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 03:01"
+   "published_at": "2026-09-02 10:39"
   },
   {
    "category": "finance",
-   "title": "美欧宇航员太空行走为国际空间站安装设备",
-   "summary": "美国航空航天局9月1日表示，国际空间站两名宇航员当天完成近7小时的太空行走任务，为国际空间站安装设备并开展维护工作，同时采集空间站外部样本以进行微生物检测。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3158971",
+   "title": "北京人形机器人创新中心宣布其开源数据集下载量突破2000万，数据训练基地已交付近3万小时数据",
+   "summary": "北京人形机器人创新中心宣布，其开源数据集RoboMIND在一个月内全球下载量实现翻倍增长，突破2000万。",
+   "link": "https://wallstreetcn.com/news/global/3159204",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 02:55"
-  },
-  {
-   "category": "finance",
-   "title": "今年前7个月医保共拨付即时结算资金9457.31亿元",
-   "summary": "今天（2日）上午，国家医保局召开新闻发布会，发布按病种付费3.0版分组方案和技术规范。国家医保局有关负责人介绍，DRG/DIP结算清算提质增效。在即时结算方面，今年前7个月，全国医保部门共拨付医药机构即时结算资金9457.31亿元，占本地月结算资金的95.51%；覆盖定点医药机构75.22万家，占定点医药机构的90.17%。即时结算年度目标，即2026年底前实现即时结算资金占本地医保基金月结算资金",
-   "link": "https://wallstreetcn.com/news/global/3158969",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-02 02:54"
-  },
-  {
-   "category": "finance",
-   "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
-   "summary": "9月2日，阿里更新旗舰模型Qwen3.8-Max，性能较旧版本显著提升。在针对编程（Coding）和专业办公（Cowork）进行专项后训练后，Qwen3.8-Max新版本整体性能增强。在聚焦前端编程能力（WebDev）的全球权威三方榜单CodeArena中，提升22分至1691分，领先Claude Opus5、Kimi K3等一众模型，位居总榜第一。同时，CodeArena更新的模型性价比榜单（帕",
-   "link": "https://wallstreetcn.com/news/global/3158964",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-02 02:37"
+   "published_at": "2026-09-02 10:36"
   }
  ]
 }
