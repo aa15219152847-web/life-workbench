@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-09-01 21:05",
+ "updated_at": "2026-09-02 04:41",
  "ai": [
+  {
+   "category": "ai",
+   "title": "谷歌 AI 图片设计工具 Pics 上线，Docs / Slides 办公套件可直接调用修图",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/263.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Meta 发布首个实时音频感知 AI 模型，支持 20 余人分轨转写",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/218.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "研究显示：保险理赔员成为美国最反感 AI 的职业群体",
@@ -136,160 +152,184 @@
    "link": "https://www.ithome.com/0/996/062.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/053.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "推广 Claude 遭网友狂喷，加拿大博主称使用 AI 正成为社交禁忌",
-   "summary": "",
-   "link": "https://www.ithome.com/0/995/969.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "戴尔：公司全年运营费用率约为营收的8%，为该公司42年历史上最低水平。",
-   "summary": "戴尔：公司全年运营费用率约为营收的8%，为该公司42年历史上最低水平。",
-   "link": "https://wallstreetcn.com/news/global/3158774",
+   "title": "巴基斯坦KSE-100指数日内下跌1%。",
+   "summary": "巴基斯坦KSE-100指数日内下跌1%。",
+   "link": "https://wallstreetcn.com/news/global/3159003",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:57"
+   "published_at": "2026-09-02 04:37"
   },
   {
    "category": "finance",
-   "title": "戴尔科技CFO：在客户解决方案集团业务中，将继续平衡客户需求与供应可得性，以实现盈利性份额增长。",
-   "summary": "戴尔科技CFO：在客户解决方案集团业务中，将继续平衡客户需求与供应可得性，以实现盈利性份额增长。",
-   "link": "https://wallstreetcn.com/news/global/3158773",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 15:10 欧洲央行管委Wunsch讲话； ② 20:15 美国8月ADP就业人数（小非农）； ③ 21:45 加拿大央行公布利率决定； ④ 22:00 美国7月耐用品订单终值，7月工厂订单； ⑤ 22:30 美国能源信息署（EIA）发布 ⑥ 次日02:00 美联储发布褐皮书； ⑦ 美股盘后 博通、Snowflake、C3.ai、惠与（HPE）发布业绩报告； ⑧ 次日04:10 新西兰联储主席",
+   "link": "https://wallstreetcn.com/news/global/3159002",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:55"
+   "published_at": "2026-09-02 04:30"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数找那个0.5%，外汇指数涨0.1%。",
-   "summary": "明晟公司MSCI新兴市场股票指数找那个0.5%，外汇指数涨0.1%。",
-   "link": "https://wallstreetcn.com/news/global/3158772",
+   "title": "早间要闻汇总",
+   "summary": "创业板指半日跌超2%，军工板块逆势大涨。 恒指半日跌近1%，恒生科技指数跌1.5%，智谱、蔚来跌超5%。 亚太股市普跌，日经225指数盘中跌超3%，韩国首尔综指跌近4%，日本国债收益率全线走高。 上市第11个交易日，宇树科技股价腰斩。 新西兰联储升息25个基点，称将继续关注通胀风险。 日本央行行长植田和男放鹰“暗示9月加息”：货币条件仍然宽松，我们希望继续加息。 欧洲央行管委Makhlouf：欧洲",
+   "link": "https://wallstreetcn.com/news/global/3159001",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:54"
+   "published_at": "2026-09-02 04:30"
   },
   {
    "category": "finance",
-   "title": "周二（9月1日）纽约尾盘，现货黄金跌2.48%，报4327.29美元/盎司，整体持续下挫。 现货白银",
-   "summary": "周二（9月1日）纽约尾盘，现货黄金跌2.48%，报4327.29美元/盎司，整体持续下挫。 现货白银跌3.70%，报64.1123美元/盎司。 COMEX铜期货跌2.31%，报6.5330美元/磅。 在美股时段交易的费城金银指数收跌3.88%，报391.81点，跳空低开之后，整体冲高回落。 在全球市场全天交易的纽约证交所ARCA金矿开采商指数跌3.32%，报2742.58点。 在美股时段交易的原材",
-   "link": "https://wallstreetcn.com/news/global/3158770",
+   "title": "日本2年期国债收益率上行5个基点至1.85%，日本5年期国债收益率上行5个基点至2.305%。",
+   "summary": "日本2年期国债收益率上行5个基点至1.85%，日本5年期国债收益率上行5个基点至2.305%。",
+   "link": "https://wallstreetcn.com/news/global/3159000",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:49"
+   "published_at": "2026-09-02 04:29"
   },
   {
    "category": "finance",
-   "title": "戴尔科技CEO：需求正扩展至新云、主权云及企业客户；客户数量已突破6500家。 目前现有在用服务器中",
-   "summary": "戴尔科技CEO：需求正扩展至新云、主权云及企业客户；客户数量已突破6500家。 目前现有在用服务器中，大部分仍为第14代或更早的旧型号，我们认为未来将迎来规模可观、潜力持久的服务器更新换代机遇。",
-   "link": "https://wallstreetcn.com/news/global/3158768",
+   "title": "日经225指数日内跌幅扩大至3%。",
+   "summary": "日经225指数日内跌幅扩大至3%。",
+   "link": "https://wallstreetcn.com/news/global/3158997",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:41"
+   "published_at": "2026-09-02 04:14"
   },
   {
    "category": "finance",
-   "title": "行业周报：美国上周API原油库存减少260万桶",
-   "summary": "美国石油协会（API）数据显示，上周，美国API原油库存 -260万桶，之前一周 +420万桶。 上周API库欣原油库存 +20万桶，前值 +100万桶。 上周API成品油汽油库存 +30万桶（前值 -320万桶）、馏分油库存 -30万桶（前值 -50万桶）。",
-   "link": "https://wallstreetcn.com/news/global/3158767",
+   "title": "欧洲央行管委Makhlouf：欧洲央行必须做好进一步升息的准备。 对欧元区通胀感到“不安”。 欧洲央",
+   "summary": "欧洲央行管委Makhlouf：欧洲央行必须做好进一步升息的准备。 对欧元区通胀感到“不安”。 欧洲央行下周的利率决定不会令人意外。 通胀预期“处于良好水平”。 预计欧洲央行将略微上调欧元区经济增长预期。 尚未看到第二轮通胀效应的迹象。（英国金融时报）",
+   "link": "https://wallstreetcn.com/news/global/3158996",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:37"
+   "published_at": "2026-09-02 04:09"
   },
   {
    "category": "finance",
-   "title": "苹果：新任CEO John Ternus获批准2027财年年度股权奖励目标价值为5500万美元。 J",
-   "summary": "苹果：新任CEO John Ternus获批准2027财年年度股权奖励目标价值为5500万美元。 John Ternus获授按比例计算的限制性股票单位奖励，2026财年目标价值250万美元。 蒂姆·库克获批2027财年股权激励计划目标价值为4500万美元。 蒂姆·库克年薪定为200万美元，自2026年9月26日起生效。",
-   "link": "https://wallstreetcn.com/news/global/3158765",
+   "title": "印度股指SENSEX指数日内下跌1%。",
+   "summary": "印度股指SENSEX指数日内下跌1%。",
+   "link": "https://wallstreetcn.com/news/global/3158993",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:33"
+   "published_at": "2026-09-02 03:56"
   },
   {
    "category": "finance",
-   "title": "OpenAI：在筹备发布Astra模型之际，我们致力于让能力持续增强的人工智能做到安全可控，并实现广",
-   "summary": "OpenAI：在筹备发布Astra模型之际，我们致力于让能力持续增强的人工智能做到安全可控，并实现广泛可用。 Astra在网络安全能力方面取得重大进展，达到了我们《准备度框架》中的关键阈值。 我们对外公开该模型的评估方式、防护措施如何随模型能力同步迭代，以及我们将持续钻研改进的方向。",
-   "link": "https://wallstreetcn.com/news/global/3158764",
+   "title": "MSCI亚太指数日内下跌2%。",
+   "summary": "MSCI亚太指数日内下跌2%。",
+   "link": "https://wallstreetcn.com/news/global/3158992",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:32"
+   "published_at": "2026-09-02 03:54"
   },
   {
    "category": "finance",
-   "title": "戴尔科技预计2027财年营收指引区间为1920亿美元+/-20亿美元。 预计三季度营收指引区间为49",
-   "summary": "戴尔科技预计2027财年营收指引区间为1920亿美元+/-20亿美元。 预计三季度营收指引区间为490亿美元+/-5亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3158762",
+   "title": "韩国财长提名人：物价稳定是首要任务。通胀压力将得到缓解。（韩联社）",
+   "summary": "韩国财长提名人：物价稳定是首要任务。通胀压力将得到缓解。（韩联社）",
+   "link": "https://wallstreetcn.com/news/global/3158991",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:28"
+   "published_at": "2026-09-02 03:53"
   },
   {
    "category": "finance",
-   "title": "黄金ETF收跌超2.8%，领跌美股大类资产类ETF，布油基金涨超5.1%",
-   "summary": "周二（9月1日），黄金ETF收跌2.86%，纳斯达克100 ETF跌1.27%，罗素2000指数ETF跌1.14%，巴克莱美国可转债ETF跌1.06%，道指ETF、标普500 ETF至多跌0.72%，美国国债20+年ETF跌0.41%，新兴市场ETF、日元做多、欧元做多、美国房地产ETF至多跌0.37%，做多美元指数涨0.32%，农产品基金涨0.58%，大豆基金涨1.98%，美国布伦特油价基金涨5",
-   "link": "https://wallstreetcn.com/news/global/3158761",
+   "title": "中国财政部发行91天期债券，规模350亿元，发行利率1.1464%，边际利率1.1988%，预期1.",
+   "summary": "中国财政部发行91天期债券，规模350亿元，发行利率1.1464%，边际利率1.1988%，预期1.0900%，投标倍数3.56倍，边际倍数1.62倍； 中国财政部发行182天期债券，规模600亿元，发行利率1.2227%，边际利率1.2715%，预期1.1500%，投标倍数3.26倍，边际倍数1.14倍。",
+   "link": "https://wallstreetcn.com/news/global/3158988",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:26"
+   "published_at": "2026-09-02 03:42"
   },
   {
    "category": "finance",
-   "title": "OpenAI：Astra模型已达到“网络安全准备框架”规定的关键网络安全能力阈值。 Astra模型要",
-   "summary": "OpenAI：Astra模型已达到“网络安全准备框架”规定的关键网络安全能力阈值。 Astra模型要求在开发过程中、正式发布前落实更强有力的安全保障措施。",
-   "link": "https://wallstreetcn.com/news/global/3158760",
+   "title": "中国财政部发行30年期债券，规模730亿元，发行利率2.1405%，预期2.1400%，投标倍数5.",
+   "summary": "中国财政部发行30年期债券，规模730亿元，发行利率2.1405%，预期2.1400%，投标倍数5.88倍，边际倍数1.47倍。",
+   "link": "https://wallstreetcn.com/news/global/3158987",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:24"
+   "published_at": "2026-09-02 03:38"
   },
   {
    "category": "finance",
-   "title": "Global X网络安全ETF跌5.03%，纳斯达克网络安全ETF跌3.94%，ETFMG网络安全E",
-   "summary": "Global X网络安全ETF跌5.03%，纳斯达克网络安全ETF跌3.94%，ETFMG网络安全ETF跌4.38%",
-   "link": "https://wallstreetcn.com/news/global/3158758",
+   "title": "星宇股份董事长回应“解约应届生”：正在政府部门指导下妥善落实相关措施",
+   "summary": "9月2日，常州星宇车灯股份有限公司召开网络业绩说明会，在回应近期用工事件相关舆情时，星宇股份董事长兼总经理周晓萍表示，公司高度关注近期舆情，已就事件的真实情况公开发布致歉信并正在政府部门的指导下妥善落实相关措施。“公司对披露真实情况的媒体监督表示衷心感谢，公司深刻反省并真诚道歉。同时，公司对部分媒体的不实报道也已通过网信和网安部门进行投诉和举报，维护公司的合法权益。”她提到。（澎湃新闻）",
+   "link": "https://wallstreetcn.com/news/global/3158985",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:23"
+   "published_at": "2026-09-02 03:33"
   },
   {
    "category": "finance",
-   "title": "戴尔科技美股盘后涨幅扩大至11%，该公司强势上调全年营收指引。",
-   "summary": "戴尔科技美股盘后涨幅扩大至11%，该公司强势上调全年营收指引。",
-   "link": "https://wallstreetcn.com/news/global/3158757",
+   "title": "上证指数早盘收报3947.26点，跌0.82%。 深证成指早盘收报13635.33点，跌1.71%。",
+   "summary": "上证指数早盘收报3947.26点，跌0.82%。 深证成指早盘收报13635.33点，跌1.71%。 创业板指早盘收报3319.39点，跌2.18%。 沪深300早盘收报4553.99点，跌1.25%。 科创50早盘收报1625.81点，跌1.32%。 中证500早盘收报7751.01点，跌1.37%。 中证1000早盘收报7595.59点，跌1.25%。",
+   "link": "https://wallstreetcn.com/news/global/3158982",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:21"
+   "published_at": "2026-09-02 03:31"
   },
   {
    "category": "finance",
-   "title": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:",
-   "summary": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。",
-   "link": "https://wallstreetcn.com/news/global/3158756",
+   "title": "9月2日午间收评：创业板指半日跌超2%，军工板块逆势大涨",
+   "summary": "1、市场早间震荡调整，创业板指跌超2%。军工板块逆势大涨，晟楠科技、内蒙一机、建设工业、长城军工等多股涨停。油气股表现活跃，石化机械、贵州燃气涨停。电网设备板块拉升，神马电力、杭电股份、远东股份等涨停。下跌方面，农业股集体调整，红四方、敦煌种业、新农种业跌停。个股跌多涨少，沪深京三市超4000股飘绿，上午半天成交1.23万亿。午间收盘沪指跌0.82%，深成指跌1.71%，创业板跌2.18%。 2、",
+   "link": "https://wallstreetcn.com/news/global/3158981",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:20"
+   "published_at": "2026-09-02 03:30"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块中，可选消费板块收跌1.89%，工业、原材料、信息技术/科技板块至少跌1%",
-   "summary": "标普500指数的11个板块中，可选消费板块收跌1.89%，工业、原材料、信息技术/科技板块至少跌1%，电信板块跌0.53%，能源板块涨1.54%。",
-   "link": "https://wallstreetcn.com/news/global/3158755",
+   "title": "国债期货早盘收盘，30年期主力合约跌0.07%，10年期主力合约跌0.01%，5年期主力合约跌0.0",
+   "summary": "国债期货早盘收盘，30年期主力合约跌0.07%，10年期主力合约跌0.01%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
+   "link": "https://wallstreetcn.com/news/global/3158979",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:17"
+   "published_at": "2026-09-02 03:30"
   },
   {
    "category": "finance",
-   "title": "周二（9月1日），美股行业ETF多数下跌，全球航空业ETF收跌2.14%，半导体ETF跌2.05%，",
-   "summary": "周二（9月1日），美股行业ETF多数下跌，全球航空业ETF收跌2.14%，半导体ETF跌2.05%，网络股指数ETF跌1.83%，可选消费ETF、科技行业ETF、工业指数ETF至多跌1.72%，全球科技股指数ETF跌1.25%，生物科技指数ETF涨0.85%，能源业ETF涨1.27%。",
-   "link": "https://wallstreetcn.com/news/global/3158754",
+   "title": "南部战区位中国黄岩岛领海领空及周边区域组织战备警巡",
+   "summary": "9月2日，中国人民解放军南部战区组织海空兵力位中国黄岩岛领海领空及周边海空域开展战备警巡。黄岩岛是中国固有领土。8月份以来，战区部队组织海空兵力持续加强黄岩岛领海周边海空域巡逻警戒，进一步强化有关海空域管控力度，有力有效应对各类侵权挑衅行径，坚决捍卫国家主权安全，坚定维护南海地区和平稳定。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3158978",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:16"
+   "published_at": "2026-09-02 03:25"
   },
   {
    "category": "finance",
-   "title": "约旦Aqaba和Mafraq传出防空警报。（Almamlaka）",
-   "summary": "约旦Aqaba和Mafraq传出防空警报。（Almamlaka）",
-   "link": "https://wallstreetcn.com/news/global/3158752",
+   "title": "第十五届中国知识产权年会将围绕人工智能与知识产权设置多个议题",
+   "summary": "今天（2日）从第十五届中国知识产权年会媒体吹风会上了解到，年会将围绕人工智能与知识产权设置多个议题。聚焦AI知识产权治理的法律维度，围绕大模型训练数据的版权合法性、AIGC生成物的可版权性、人机共创场景下的侵权责任分担、AI工具在专利检索和商标监测中的实务应用等前沿议题展开研讨，从司法、行政、产业三个维度探讨AI时代知识产权规则的演进方向。",
+   "link": "https://wallstreetcn.com/news/global/3158977",
    "source": "华尔街见闻",
-   "published_at": "2026-09-01 20:14"
+   "published_at": "2026-09-02 03:22"
+  },
+  {
+   "category": "finance",
+   "title": "西藏吉隆口岸核心区域救援通道已基本打通",
+   "summary": "9月2日上午10点，通往吉隆口岸核心区域救援通道陆路通道已基本打通，救援人员、救援物资和部分装备已通过陆路通道进入核心区并开展深入救援工作。 （新华社）",
+   "link": "https://wallstreetcn.com/news/global/3158975",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-02 03:10"
+  },
+  {
+   "category": "finance",
+   "title": "隔夜SHIBOR报1.3630%，下降0.10个基点。 7天SHIBOR报1.3770%，下降1.4",
+   "summary": "隔夜SHIBOR报1.3630%，下降0.10个基点。 7天SHIBOR报1.3770%，下降1.40个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
+   "link": "https://wallstreetcn.com/news/global/3158973",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-02 03:01"
+  },
+  {
+   "category": "finance",
+   "title": "美欧宇航员太空行走为国际空间站安装设备",
+   "summary": "美国航空航天局9月1日表示，国际空间站两名宇航员当天完成近7小时的太空行走任务，为国际空间站安装设备并开展维护工作，同时采集空间站外部样本以进行微生物检测。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3158971",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-02 02:55"
+  },
+  {
+   "category": "finance",
+   "title": "今年前7个月医保共拨付即时结算资金9457.31亿元",
+   "summary": "今天（2日）上午，国家医保局召开新闻发布会，发布按病种付费3.0版分组方案和技术规范。国家医保局有关负责人介绍，DRG/DIP结算清算提质增效。在即时结算方面，今年前7个月，全国医保部门共拨付医药机构即时结算资金9457.31亿元，占本地月结算资金的95.51%；覆盖定点医药机构75.22万家，占定点医药机构的90.17%。即时结算年度目标，即2026年底前实现即时结算资金占本地医保基金月结算资金",
+   "link": "https://wallstreetcn.com/news/global/3158969",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-02 02:54"
+  },
+  {
+   "category": "finance",
+   "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
+   "summary": "9月2日，阿里更新旗舰模型Qwen3.8-Max，性能较旧版本显著提升。在针对编程（Coding）和专业办公（Cowork）进行专项后训练后，Qwen3.8-Max新版本整体性能增强。在聚焦前端编程能力（WebDev）的全球权威三方榜单CodeArena中，提升22分至1691分，领先Claude Opus5、Kimi K3等一众模型，位居总榜第一。同时，CodeArena更新的模型性价比榜单（帕",
+   "link": "https://wallstreetcn.com/news/global/3158964",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-02 02:37"
   }
  ]
 }
