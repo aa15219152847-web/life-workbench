@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-09-02 11:24",
+ "updated_at": "2026-09-02 16:38",
  "ai": [
+  {
+   "category": "ai",
+   "title": "研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感",
+   "summary": "",
+   "link": "https://www.ithome.com/0/997/657.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在",
@@ -152,176 +160,168 @@
    "link": "https://www.ithome.com/0/996/179.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
-   "summary": "",
-   "link": "https://www.ithome.com/0/996/124.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "美国商务部长卢特尼克：市场将会趋于稳定。 债券市场将推动收益率回落。",
-   "summary": "美国商务部长卢特尼克：市场将会趋于稳定。 债券市场将推动收益率回落。",
-   "link": "https://wallstreetcn.com/news/global/3159234",
+   "title": "雪佛龙与委内瑞拉政府签订石油协议。 委内瑞拉与雪佛龙签署奥里诺科重油带合资项目奖金协议。",
+   "summary": "雪佛龙与委内瑞拉政府签订石油协议。 委内瑞拉与雪佛龙签署奥里诺科重油带合资项目奖金协议。",
+   "link": "https://wallstreetcn.com/news/global/3159387",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:21"
+   "published_at": "2026-09-02 16:33"
   },
   {
    "category": "finance",
-   "title": "Uber盘前涨超1%，公司将在重组中裁员3300人，以减少管理层级。",
-   "summary": "Uber盘前涨超1%，公司将在重组中裁员3300人，以减少管理层级。",
-   "link": "https://wallstreetcn.com/news/global/3159233",
+   "title": "汇率追踪网站显示，伊朗货币兑美元汇率跌至历史新低，超过220万里亚尔兑换1美元。（路透）",
+   "summary": "汇率追踪网站显示，伊朗货币兑美元汇率跌至历史新低，超过220万里亚尔兑换1美元。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3159386",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:21"
+   "published_at": "2026-09-02 16:29"
   },
   {
    "category": "finance",
-   "title": "英国国债跌幅收窄，10年期国债收益率上行4个基点至5.26%。",
-   "summary": "英国国债跌幅收窄，10年期国债收益率上行4个基点至5.26%。",
-   "link": "https://wallstreetcn.com/news/global/3159232",
+   "title": "摩根大通投行联席负责人：并购与IPO业务储备项目持续增加。 企业董事会正围绕增长议题展开讨论。 并购",
+   "summary": "摩根大通投行联席负责人：并购与IPO业务储备项目持续增加。 企业董事会正围绕增长议题展开讨论。 并购交易规模有望突破2021年历史高位。",
+   "link": "https://wallstreetcn.com/news/global/3159385",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:20"
+   "published_at": "2026-09-02 16:19"
   },
   {
    "category": "finance",
-   "title": "布伦特原油日内跌幅达0.5%，报94.16美元/桶。",
-   "summary": "布伦特原油日内跌幅达0.5%，报94.16美元/桶。",
-   "link": "https://wallstreetcn.com/news/global/3159231",
+   "title": "优步与Delivery Hero交易预计2027年下半年完成交割，Delivery Hero董事会称",
+   "summary": "优步与Delivery Hero交易预计2027年下半年完成交割，Delivery Hero董事会称优步的收购报价公允、充分。",
+   "link": "https://wallstreetcn.com/news/global/3159384",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:16"
+   "published_at": "2026-09-02 16:18"
   },
   {
    "category": "finance",
-   "title": "英国首相伯纳姆：市场动荡源于保守党增加债务的记录。 我们提前设定预算日期以缩短投机期。 本届政府将以",
-   "summary": "英国首相伯纳姆：市场动荡源于保守党增加债务的记录。 我们提前设定预算日期以缩短投机期。 本届政府将以财政责任为基础。",
-   "link": "https://wallstreetcn.com/news/global/3159229",
+   "title": "Soitec预计第二财季营收增长大约50%，之前预计增长超30%。",
+   "summary": "Soitec预计第二财季营收增长大约50%，之前预计增长超30%。",
+   "link": "https://wallstreetcn.com/news/global/3159383",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:13"
+   "published_at": "2026-09-02 16:16"
   },
   {
    "category": "finance",
-   "title": "中国人民银行公布2026年第二季度支付体系运行总体情况",
-   "summary": "中国央行：截至二季度末，全国共开立银行账户156.58亿户。开立单位银行账户1.25亿户，其中，基本存款账户8679.59万户；开立个人银行账户155.32亿户。",
-   "link": "https://wallstreetcn.com/news/global/3159228",
+   "title": "雪佛龙一度涨约0.6%，报212.72美元，有望创收盘历史新高，该公司将投资70亿美元、将自家在委内",
+   "summary": "雪佛龙一度涨约0.6%，报212.72美元，有望创收盘历史新高，该公司将投资70亿美元、将自家在委内瑞拉的石油产量翻倍。",
+   "link": "https://wallstreetcn.com/news/global/3159381",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:12"
+   "published_at": "2026-09-02 16:10"
   },
   {
    "category": "finance",
-   "title": "荷兰央行已将86吨黄金从纽约和渥太华转运至伦敦，以提升黄金的可交易性。（路透）",
-   "summary": "荷兰央行已将86吨黄金从纽约和渥太华转运至伦敦，以提升黄金的可交易性。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3159227",
+   "title": "俄罗斯7月零售销售同比增长5.3%，预期增长5.2%。 7月GDP同比增长0.6%。",
+   "summary": "俄罗斯7月零售销售同比增长5.3%，预期增长5.2%。 7月GDP同比增长0.6%。",
+   "link": "https://wallstreetcn.com/news/global/3159380",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:11"
+   "published_at": "2026-09-02 16:02"
   },
   {
    "category": "finance",
-   "title": "中国船舶：下属子公司联合签订逾10亿美元造船合同",
-   "summary": "中国船舶：控股子公司广船国际联合中国船舶工业贸易有限公司与某知名船东签订10艘8,200车LNG双燃料动力汽车运输船新造船合同，合同总金额逾10亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3159226",
+   "title": "卢特尼克：Anthropic已重新站到特朗普政府认可立场",
+   "summary": "美国商务部长卢特尼克表示，在经历数月对峙之后，特朗普政府如今重新信任人工智能企业Anthropic。当被问及是否信任Anthropic首席执行官达里奥·阿莫代伊时，卢特尼克表示：“我们信任Anthropic。他们按我们的要求完成了相关工作，现已重新站到正确立场。所以答案是：是的。” （Axios）",
+   "link": "https://wallstreetcn.com/news/global/3159378",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:10"
+   "published_at": "2026-09-02 15:59"
   },
   {
    "category": "finance",
-   "title": "美国商务部长卢特尼克：加拿大对美国“缺乏尊重”。",
-   "summary": "美国商务部长卢特尼克：加拿大对美国“缺乏尊重”。",
-   "link": "https://wallstreetcn.com/news/global/3159224",
+   "title": "英国10年期国债收益率创2007年以来新高，一度逼近5.29%",
+   "summary": "周三（9月2日）欧市尾盘，英国10年期国债收益率涨0.8个基点，报5.228%，北京时间17:15达到5.289%，逼近2007年三季度顶部5.564%、2000年一季度最高位5.899%、以及1998年一季度最高位6.307%，19:00-20:00显著回吐涨幅。 两年期英债收益率涨1.0个基点，报4.616%。 30年期英债收益率涨0.9个基点，50年期英债收益率涨1.0个基点。 2/10年期",
+   "link": "https://wallstreetcn.com/news/global/3159377",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:09"
+   "published_at": "2026-09-02 15:59"
   },
   {
    "category": "finance",
-   "title": "8月A股新开户239.73万户",
-   "summary": "据上交所数据，2026年8月A股新开户239.73万户，同比去年8月265.03万户下降10.0%；2026年前8个月已累计新开2521.4万户，同比增长46.0%。",
-   "link": "https://wallstreetcn.com/news/global/3159221",
+   "title": "乌克兰国家石油天然气公司（Naftogaz）称，挪威应该公司请求扣押一艘俄罗斯船只。",
+   "summary": "乌克兰国家石油天然气公司（Naftogaz）称，挪威应该公司请求扣押一艘俄罗斯船只。",
+   "link": "https://wallstreetcn.com/news/global/3159376",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:06"
+   "published_at": "2026-09-02 15:58"
   },
   {
    "category": "finance",
-   "title": "中国东航董事长王志清：进一步精细成本管控 积极参与浦东机场四期扩建",
-   "summary": "在中国东航集团旗下中国东航、东航物流中期联合业绩说明会上，中国东航董事长王志清就燃油成本管控、C919客机机队运营进展、参与浦东机场四期扩建情况等话题与投资者展开互动交流。",
-   "link": "https://wallstreetcn.com/news/global/3159220",
+   "title": "谷歌发布Gemini 3.8 Flash推理模型",
+   "summary": "Alphabet旗下谷歌公司宣布，最新的Gemini 3.8 Flash模型今日起面向Pro及Ultra用户开放。 Gemini 3.8 Flash性能进一步增强，能够输出更可靠、更全面的回复，既可针对日常话题给出可落地的建议，也可胜任文本分析、复杂编程等深度任务。 针对网络防御发布Fairwind项目，项目合作伙伴包括埃森哲、麦肯锡、帕洛阿尔托网络，项目仅限政府机构及可信合作伙伴参与。",
+   "link": "https://wallstreetcn.com/news/global/3159374",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:05"
+   "published_at": "2026-09-02 15:44"
   },
   {
    "category": "finance",
-   "title": "燧原科技：科创板IPO网上发行最终中签率0.02455315%。",
-   "summary": "燧原科技：科创板IPO网上发行最终中签率0.02455315%。",
-   "link": "https://wallstreetcn.com/news/global/3159218",
+   "title": "伊朗说在波斯湾北部查获38.2万升走私燃油",
+   "summary": "据伊朗媒体2日报道，伊朗边防部队日前在波斯湾北部海域扣押一艘涉嫌走私燃油的外国拖船，查获38.2万升柴油，并逮捕11名外国籍嫌疑人。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3159372",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:03"
+   "published_at": "2026-09-02 15:39"
   },
   {
    "category": "finance",
-   "title": "美国8月28日当周MBA抵押贷款申请活动指数周环比 0.8%，前值 -1%。",
-   "summary": "美国8月28日当周MBA抵押贷款申请活动指数周环比 0.8%，前值 -1%。",
-   "link": "https://wallstreetcn.com/news/global/3159217",
+   "title": "明晟公司MSCI北欧国家指数大致持平，报400.10点。 在十个板块中，北欧工业板块跌幅最大。 软件",
+   "summary": "明晟公司MSCI北欧国家指数大致持平，报400.10点。 在十个板块中，北欧工业板块跌幅最大。 软件解决方案供应商Octave Intelligence Plc.跌3.2%，在一众北欧个股里表现最差。",
+   "link": "https://wallstreetcn.com/news/global/3159371",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 11:00"
+   "published_at": "2026-09-02 15:37"
   },
   {
    "category": "finance",
-   "title": "以色列5座海水淡化厂因海水浑浊继续停运",
-   "summary": "据以色列媒体9月1日援引政府部门的消息报道，由于海水浑浊度再次上升，以色列位于地中海沿岸的6座海水淡化厂中，有5座当天继续停运。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3159213",
+   "title": "追觅将在IFA展示百余款产品，ECHO系列家庭服务机器人将亮相",
+   "summary": "9月2日晚间消息，IFA 2026期间，追觅将集中展示覆盖超过16个品类的百余款产品及多项首创技术，涵盖智能清洁、生活环境电器、个人护理、擦窗和小厨电等多个家庭场景。追觅还将首次集中呈现由全域感知系统、家庭通用模型和智能控制系统构成的三大物理AI技术底座，并展示处于研发阶段的ECHO系列家庭服务机器人。（新浪科技）",
+   "link": "https://wallstreetcn.com/news/global/3159370",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:54"
+   "published_at": "2026-09-02 15:36"
   },
   {
    "category": "finance",
-   "title": "伯克希尔哈撒韦首席执行官格雷格.阿贝尔：伯克希尔哈撒韦对谷歌母公司Alphabet的押注，是受该公司",
-   "summary": "伯克希尔哈撒韦首席执行官格雷格.阿贝尔：伯克希尔哈撒韦对谷歌母公司Alphabet的押注，是受该公司人工智能优势的推动。 将人工智能数据中心视为伯克希尔哈撒韦能源的重要机会，愿意承接超大规模企业的数据中心能源需求。 对美国楼市的押注是长期行为，不会快速复苏。",
-   "link": "https://wallstreetcn.com/news/global/3159212",
+   "title": "美国财政部拍卖四个月期国债，得标利率3.855%，投标倍数2.78。",
+   "summary": "美国财政部拍卖四个月期国债，得标利率3.855%，投标倍数2.78。",
+   "link": "https://wallstreetcn.com/news/global/3159369",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:51"
+   "published_at": "2026-09-02 15:32"
   },
   {
    "category": "finance",
-   "title": "陈吉宁会见中国进出口银行董事长陈怀宇、行长王春英及国际企业机构代表",
-   "summary": "上海市委书记陈吉宁今天下午会见了来沪出席第四届国际船舶融资论坛的中国进出口银行董事长陈怀宇、行长王春英以及国际企业机构代表。",
-   "link": "https://wallstreetcn.com/news/global/3159211",
+   "title": "GE Vernova签署协议，助力修复委内瑞拉电网；该协议项下项目将在未来六个月内落地。",
+   "summary": "GE Vernova签署协议，助力修复委内瑞拉电网；该协议项下项目将在未来六个月内落地。",
+   "link": "https://wallstreetcn.com/news/global/3159368",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:50"
+   "published_at": "2026-09-02 15:31"
   },
   {
    "category": "finance",
-   "title": "章建平退出中际旭创前十大股东名单",
-   "summary": "中际旭创公告，公司于8月31日召开董事会会议审议通过了回购公司股份方案的议案，并披露董事会公告回购股份决议的前一个交易日（即2026年8月31日）登记在册的前十名股东和前十名无限售条件股东的名称及持股数量、比例的情况。最新数据显示，章建平退出中际旭创前十大股东名单。此前，据中际旭创8月21日公布的2026年半年报显示，章建平新进成为第九大股东，持有593.48万股，占总股本比例0.53%。",
-   "link": "https://wallstreetcn.com/news/global/3159208",
+   "title": "德国DAX 30指数初步收跌0.57%，报25821.81点。 法国股指初步收跌0.23%，意大利股",
+   "summary": "德国DAX 30指数初步收跌0.57%，报25821.81点。 法国股指初步收跌0.23%，意大利股指初步收跌0.25%、银行指数跌0.18%，英国股指初步收跌0.27%。",
+   "link": "https://wallstreetcn.com/news/global/3159367",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:40"
+   "published_at": "2026-09-02 15:30"
   },
   {
    "category": "finance",
-   "title": "比亚迪：积极响应合规指引，将规范海外价格管理体系、严守公平竞争底线",
-   "summary": "比亚迪发文表示，将以《汽车行业境外竞争行为与合规建设指引》为行动遵循，持续完善海外全链条合规管理体系：规范海外价格管理体系、严守公平竞争底线、保障消费者合法权益；同时落实各项法规要求，夯实本地化服务，履行企业社会责任，助力中国汽车产业高质量出海。",
-   "link": "https://wallstreetcn.com/news/global/3159207",
+   "title": "欧洲STOXX 600指数初步收跌0.27%，报645.73点。 欧元区STOXX 50指数初步收跌",
+   "summary": "欧洲STOXX 600指数初步收跌0.27%，报645.73点。 欧元区STOXX 50指数初步收跌0.17%，报6357.88点。 富时泛欧绩优300指数初步收跌0.25%，报2578.75点。",
+   "link": "https://wallstreetcn.com/news/global/3159366",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:39"
+   "published_at": "2026-09-02 15:30"
   },
   {
    "category": "finance",
-   "title": "微博：个别群体因对某线下演艺活动环节安排存在分歧煽动粉丝拨打政务服务热线举报施压，相关账号被禁言",
-   "summary": "微博社区公告，近期网络上出现个别群体因对某线下演艺活动环节安排存在分歧，从而煽动粉丝大量拨打政务服务热线进行集中举报施压的不良风气。为防范此类非理性行为在社区蔓延，站方迅速开展主动排查，发现站内亦有极个别账号发布了相关煽动性言论。",
-   "link": "https://wallstreetcn.com/news/global/3159206",
+   "title": "荷兰将86吨黄金储备存放地从美加转至伦敦，以便在危机时期快速动用",
+   "summary": "荷兰央行已将价值约120亿美元的黄金储备从美国纽约和加拿大渥太华转移至伦敦，称此举的理由是担忧全球地缘政治动荡加剧。 今年3-8月间，荷兰央行将约86吨黄金转移至伦敦，占其原先存放在美国和加拿大黄金储备的四分之一以上。伦敦目前存放着荷兰近三分之一的黄金储备，为占比最大的存放地。",
+   "link": "https://wallstreetcn.com/news/global/3159364",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:39"
+   "published_at": "2026-09-02 15:29"
   },
   {
    "category": "finance",
-   "title": "北京人形机器人创新中心宣布其开源数据集下载量突破2000万，数据训练基地已交付近3万小时数据",
-   "summary": "北京人形机器人创新中心宣布，其开源数据集RoboMIND在一个月内全球下载量实现翻倍增长，突破2000万。",
-   "link": "https://wallstreetcn.com/news/global/3159204",
+   "title": "谷歌高管：法院驳回美国司法部拆分相关工具的提案，我方对此深表欣慰，这些工具助力中小企业触达新客户并实",
+   "summary": "谷歌高管：法院驳回美国司法部拆分相关工具的提案，我方对此深表欣慰，这些工具助力中小企业触达新客户并实现业务增长。",
+   "link": "https://wallstreetcn.com/news/global/3159363",
    "source": "华尔街见闻",
-   "published_at": "2026-09-02 10:36"
+   "published_at": "2026-09-02 15:27"
   }
  ]
 }
