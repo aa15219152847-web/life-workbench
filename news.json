@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05 15:17",
+ "updated_at": "2026-09-05 20:26",
  "ai": [
   {
    "category": "ai",
@@ -165,6 +165,14 @@
  "finance": [
   {
    "category": "finance",
+   "title": "希腊总理公布2027年22亿欧元经济扶持计划",
+   "summary": "希腊总理Kyriakos Mitsotakis公布了一揽子价值22亿欧元的经济措施，旨在缓解生活成本危机。希腊总理宣布的这些措施重点支持个体经营者、退休人员、农民和多子女家庭等群体，并包括上调最低工资。官方预计2026年预算将超额完成目标，这使政府有空间向多个群体发放补贴和减税，同时不会危及希腊的财政状况。",
+   "link": "https://wallstreetcn.com/news/global/3160905",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-05 18:59"
+  },
+  {
+   "category": "finance",
    "title": "上海市国资委系统人工智能专题研讨班开班",
    "summary": "9月5日，上海市国资委系统人工智能专题研讨班开班。上海市副市长贺青指出，要深刻把握人工智能发展大势，切实增强转型的紧迫感和责任感。深刻认识人工智能已成为大国博弈的战略制高点，正在改写科研范式、产业逻辑，重塑企业的决策机制、组织形态和人的角色。",
    "link": "https://wallstreetcn.com/news/global/3160900",
@@ -290,22 +298,6 @@
    "link": "https://wallstreetcn.com/news/global/3160877",
    "source": "华尔街见闻",
    "published_at": "2026-09-05 08:34"
-  },
-  {
-   "category": "finance",
-   "title": "尼泊尔泥石流灾害中1名受困中国公民获救",
-   "summary": "当地时间9月5日，1名受困中国公民在尼泊尔北部热索瓦泥石流受灾地区获救。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3160875",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 08:12"
-  },
-  {
-   "category": "finance",
-   "title": "扎波罗热核电站周边实施临时停火 以抢修外部供电线路",
-   "summary": "国际原子能机构总干事格罗西9月5日表示，在该机构斡旋下，扎波罗热核电站周边再次实施局部临时停火，以便抢修受损输电线路，恢复核电站外部供电。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3160874",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 08:08"
   }
  ]
 }
