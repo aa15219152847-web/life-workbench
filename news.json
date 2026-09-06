@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-09-05 20:26",
+ "updated_at": "2026-09-06 04:45",
  "ai": [
+  {
+   "category": "ai",
+   "title": "开源安卓应用商店 F-Droid 考虑效仿 Debian AI 政策：允许使用 AI，最终责任由贡献者承担",
+   "summary": "",
+   "link": "https://www.ithome.com/0/998/895.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "微软发布 MAI-Image-2.6-Flash：生图速度是全球最佳 AI 模型的 2 倍",
@@ -152,17 +160,25 @@
    "link": "https://www.ithome.com/0/997/737.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol",
-   "summary": "",
-   "link": "https://www.ithome.com/0/997/728.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
+  {
+   "category": "finance",
+   "title": "国内首款，长沙造具身智能机器人拿下欧盟CE“护照”",
+   "summary": "据湖南日报，长沙长泰机器人有限公司近日收到一份来自欧洲的“硬核快递”，其自主研发的具身智能绕线机器人通过欧盟CE认证，成为国内首款获此认证的工业具身智能机器人产品。CE认证是产品进入欧盟市场的安全准入“护照”。",
+   "link": "https://wallstreetcn.com/news/global/3160917",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-06 03:08"
+  },
+  {
+   "category": "finance",
+   "title": "美国方面消息称，“凯洛”号油轮今日在阿曼湾沉没。",
+   "summary": "美国方面消息称，“凯洛”号油轮今日在阿曼湾沉没。",
+   "link": "https://wallstreetcn.com/news/global/3160912",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-06 00:47"
+  },
   {
    "category": "finance",
    "title": "希腊总理公布2027年22亿欧元经济扶持计划",
@@ -258,46 +274,6 @@
    "link": "https://wallstreetcn.com/news/global/3160886",
    "source": "华尔街见闻",
    "published_at": "2026-09-05 10:18"
-  },
-  {
-   "category": "finance",
-   "title": "研究称OpenAI智能体“劫持”网站开展“协作”",
-   "summary": "一项新发布的独立研究显示，一批与美国开放人工智能研究中心（OpenAI）相关的人工智能体今年早些时候“劫持”了一个德国网站，用于相互传递信息，分享测试任务答案和突破运行环境限制的方法。",
-   "link": "https://wallstreetcn.com/news/global/3160884",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 09:53"
-  },
-  {
-   "category": "finance",
-   "title": "国家发改委安排2000万元支持江西暴雨洪涝灾后应急恢复",
-   "summary": "国家发展改革委紧急安排中央预算内投资2000万元，支持江西省做好暴雨洪涝灾害灾后应急恢复，重点用于灾区受损道路、水利等基础设施和学校、医院等公共服务设施灾后应急恢复建设，推动尽快恢复正常生产生活秩序。",
-   "link": "https://wallstreetcn.com/news/global/3160883",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 09:49"
-  },
-  {
-   "category": "finance",
-   "title": "8月深圳新建商品房成交3467套",
-   "summary": "深圳市房地产中介协会发布最新数据显示，8月份，深圳新建商品房成交3467套，环比下降23.0%，同比增长4.8%；深圳二手住宅录得5108套，环比下降2.3%，同比增长7.6%。今年1-8月，深圳二手房累计录得约4.84万套，同比增长4.7%。",
-   "link": "https://wallstreetcn.com/news/global/3160881",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 09:30"
-  },
-  {
-   "category": "finance",
-   "title": "我国粮食企业年工业总产值超4万亿元",
-   "summary": "从5日在湖南省长沙市举行的第八届中国粮食交易大会了解到，我国粮食企业年工业总产值已超4万亿元。国家粮食和物资储备局局长刘焕鑫介绍，截至目前，全国粮食企业达到2.4万家，年实现工业总产值超4万亿元，三分之一以上省份产值超过千亿元，全国共形成33个省级区域公用品牌、117个市县级粮食区域公用品牌。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3160878",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 08:35"
-  },
-  {
-   "category": "finance",
-   "title": "兰州榆中官方通报“莴笋收购环节染色”：立案查处6家企业",
-   "summary": "9月5日，甘肃兰州榆中县农业农村局、榆中县市场监管局发布情况通报：针对网上反映的“莴笋收购环节染色”相关问题，榆中县农业农村局、市场监管局近日对全县53家蔬菜收购仓储经营主体进行了联合执法监督检查，发现有6家企业在莴笋收购环节违法使用了果绿食品添加剂，即依法对其进行立案查处。同时，对其他蔬菜收购仓储经营主体进行了集体约谈警示。",
-   "link": "https://wallstreetcn.com/news/global/3160877",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-05 08:34"
   }
  ]
 }
