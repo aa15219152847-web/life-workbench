@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-09-10 11:25",
+ "updated_at": "2026-09-10 16:28",
  "ai": [
+  {
+   "category": "ai",
+   "title": "德军正评估 30 款 AI 工具，计划 2027 年起用于加快战场决策",
+   "summary": "",
+   "link": "https://www.ithome.com/1/000/981.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "李开复：AI 没有办法承担责任",
@@ -128,216 +136,200 @@
    "link": "https://www.ithome.com/0/998/693.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "美国加州登山者轻信谷歌 Gemini 路线信息，最终被困山上",
-   "summary": "",
-   "link": "https://www.ithome.com/0/998/684.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "新一批国家组织高值医用耗材集采纳入23个品种",
-   "summary": "记者9月10日从国家医保局获悉，第七批国家组织高值医用耗材集采在天津开标，产生拟中选结果，23个品种采购成功，148家企业517个产品获得拟中选资格，相关产品主要用于消化道疾病内镜手术治疗。此次集采主要覆盖消化道球囊扩张导管，食道、肠道、胆道、胰管支架，消化道导丝等，患者预计2027年1月左右可使用上此次集采中选产品。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3163242",
+   "title": "Vantage Data Centers寻求从太平洋投资管理公司（PIMCO，品浩）与PGIM获取2",
+   "summary": "Vantage Data Centers寻求从太平洋投资管理公司（PIMCO，品浩）与PGIM获取20亿美元贷款。（英国金融时报）",
+   "link": "https://wallstreetcn.com/news/global/3163387",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:21"
+   "published_at": "2026-09-10 16:12"
   },
   {
    "category": "finance",
-   "title": "远望谷：拟收购光泰通信100%股权 标的公司主营光通信器件与模块的自动化耦合设备等",
-   "summary": "远望谷公告称，公司与深圳光泰通信设备有限公司及其股东签订股权投资意向书，拟收购光泰通信100%股权。标的公司主要业务包括为客户提供光通信器件与模块的自动化耦合设备和测试仪表、自动化测试解决方案。",
-   "link": "https://wallstreetcn.com/news/global/3163240",
+   "title": "特朗普的委内瑞拉石油项目计划到2028年将产量提高150%",
+   "summary": "获美国政府支持的委内瑞拉原油生产商北美蓝色能源伙伴公司（NABEP）计划，在短短两年多的时间内将原油产量翻一番以上，这是特朗普政府推动提高该南美国家产量计划的一部分。该公司目前的产量约为20万桶/日，目标是到2028年底将产量提高至50万桶/日，该计划将由内部现金流提供资金。 部分分析师认为NABEP的计划显得雄心勃勃，担忧包括该业务的服务端以及为支持扩张可能需要筹集资金。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3163386",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:11"
+   "published_at": "2026-09-10 16:11"
   },
   {
    "category": "finance",
-   "title": "也门胡塞武装攻占红海港口城市穆哈",
-   "summary": "也门政府军军官10日说，也门西南部塔伊兹省战略要地、红海港口城市穆哈当天被胡塞武装攻占。这名不愿透露姓名的政府军当地军官表示，在经历数小时激烈交火后，政府军被迫向南撤至位于穆哈与曼德海峡之间的祖巴卜地区，胡塞武装进入穆哈。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3163238",
+   "title": "谷歌公司针对微软Windows 10和11推出Gemini APP。",
+   "summary": "谷歌公司针对微软Windows 10和11推出Gemini APP。",
+   "link": "https://wallstreetcn.com/news/global/3163385",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:09"
+   "published_at": "2026-09-10 16:08"
   },
   {
    "category": "finance",
-   "title": "泰国拟实施差异化电动车消费税",
-   "summary": "泰国财政部消费税局局长Pornchai Thiraveja周四在财政部会议后表示，国家电动汽车政策委员会周四原则上同意引入三级消费税税率结构，对泰国国内制造的电动汽车征收最低税率，对完全进口的车型征收最高税率。部分使用进口零部件的车辆，将适用中间税率。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3163237",
+   "title": "黄仁勋：网络安全是AI的下一个重要应用场景",
+   "summary": "英伟达CEO黄仁勋出席高盛会议时表示：网络安全是AI的下一个重要应用场景。",
+   "link": "https://wallstreetcn.com/news/global/3163384",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:08"
+   "published_at": "2026-09-10 16:06"
   },
   {
    "category": "finance",
-   "title": "欧洲央行9月利率决议看点前瞻",
-   "summary": "①市场普遍预计欧洲央行将加息25个基点，为今年以来第二次加息。 ②市场关注焦点转向官员们对今年晚些时候第三次加息持多大的开放态度。 ③拉加德的新闻发布会措辞将成为市场解读政策方向的关键线索。分析人士认为，拉加德将重申数据依赖的立场，但不会对未来利率路径做出承诺。 ④欧洲央行将同步公布最新的宏观经济预测，市场预计经济增长预测可能小幅上调；通胀预测可能因能源价格而上修，但核心通胀预测预计变化不大。 ⑤",
-   "link": "https://wallstreetcn.com/news/global/3163234",
+   "title": "布伦特原油突破107美元/桶关口，涨幅将近6%。 也门胡塞武装向毗邻战略要道曼德海峡的红海沿岸地区推",
+   "summary": "布伦特原油突破107美元/桶关口，涨幅将近6%。 也门胡塞武装向毗邻战略要道曼德海峡的红海沿岸地区推进，在夺取红海南端附近城市穆哈的行动中已取得进展，有消息称该也门港口城市已被攻占。 航运安全顾问比约恩·贝伦斯（Bjorn Beirens）表示，穆哈的失守”无疑会对该地区的海上安全产生影响”。",
+   "link": "https://wallstreetcn.com/news/global/3163383",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:05"
+   "published_at": "2026-09-10 16:04"
   },
   {
    "category": "finance",
-   "title": "捷荣技术：折叠屏及AI液冷业务收入占比均不超过1%",
-   "summary": "捷荣技术公告，公司股票于2026年9月8日、2026年9月9日、2026年9月10日连续三个交易日收盘价格跌幅偏离值累计超过20%，构成异常波动。公司称，折叠屏、AI液冷相关精密结构件业务收入占公司营业收入比重极低，均不超过公司2026年上半年营业收入的1%，对经营业绩不构成重大影响；公司基本面及主营业务未发生重大变化。截至2026年9月10日，公司股票收盘价为14.99元/股，行业最新滚动市盈率",
-   "link": "https://wallstreetcn.com/news/global/3163233",
+   "title": "微软针对AI分享安全参与框架（Safe participation framework）。",
+   "summary": "微软针对AI分享安全参与框架（Safe participation framework）。",
+   "link": "https://wallstreetcn.com/news/global/3163382",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:05"
+   "published_at": "2026-09-10 16:02"
   },
   {
    "category": "finance",
-   "title": "现货铂金下跌近3%，报1839.52美元/盎司。",
-   "summary": "现货铂金下跌近3%，报1839.52美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3163232",
+   "title": "房地美：美国上周30年期按揭贷款/抵押贷款利率6.76%，创2025年6月以来新高；前值6.71%。",
+   "summary": "房地美：美国上周30年期按揭贷款/抵押贷款利率6.76%，创2025年6月以来新高；前值6.71%。",
+   "link": "https://wallstreetcn.com/news/global/3163381",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:04"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "中国人民银行副行长宣昌能会见新加坡金融管理局副行长梁新松",
-   "summary": "2026年9月10日，中国人民银行副行长宣昌能会见新加坡金融管理局副行长梁新松。双方就当前经济金融形势和中新金融合作等议题进行了交流。",
-   "link": "https://wallstreetcn.com/news/global/3163231",
+   "title": "美国能源信息署（EIA）：美国上周EIA原油库存减少39.1万桶，彭博用户预计减少11.1万桶、分析",
+   "summary": "美国能源信息署（EIA）：美国上周EIA原油库存减少39.1万桶，彭博用户预计减少11.1万桶、分析师预期下降127.183万桶，之前一周下降445.0万桶。",
+   "link": "https://wallstreetcn.com/news/global/3163380",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:03"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "土耳其央行维持基准回购利率在37.00%不变，符合预期。",
-   "summary": "土耳其央行维持基准回购利率在37.00%不变，符合预期。",
-   "link": "https://wallstreetcn.com/news/global/3163229",
+   "title": "美国9月4日当周EIA库欣地区原油库存变动 -68.4万桶，前值 8万桶。",
+   "summary": "美国9月4日当周EIA库欣地区原油库存变动 -68.4万桶，前值 8万桶。",
+   "link": "https://wallstreetcn.com/news/global/3163379",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 11:00"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "工信部电子信息司召开电子元器件产业发展座谈会",
-   "summary": "会议指出，新一轮科技革命和产业变革加速演进，电子元器件作为支撑信息技术发展的基石作用日益凸显。做好电子元器件产业基础梳理和产业发展技术脉络分析，对于研判“十五五”时期产业发展路径、明确重点方向、优化政策供给具有重要意义。会议强调，要准确把握“十五五”时期电子元器件产业发展面临的新形势新任务，坚持系统观念，加强统筹协调，扎实做好各项基础性研究工作。要凝聚行业合力，充分发挥行业协会、研究机构和重点企业",
-   "link": "https://wallstreetcn.com/news/global/3163228",
+   "title": "美国9月4日当周EIA汽油库存变动 126.9万桶，前值 -117.3万桶。",
+   "summary": "美国9月4日当周EIA汽油库存变动 126.9万桶，前值 -117.3万桶。",
+   "link": "https://wallstreetcn.com/news/global/3163378",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:59"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "报道：伊朗暂停对外国船舶征收10%的运费附加费",
-   "summary": "伊朗下令暂时停止对外国船舶承运的进出口石油和液化天然气等货物征收相当于运费10%的费用。暂停征收这项费用旨在降低石油、天然气和液态石油产品的运输成本。这项措施可能鼓励外国船队承运更多进出伊朗的货物。（法尔斯通讯社）",
-   "link": "https://wallstreetcn.com/news/global/3163225",
+   "title": "美国9月4日当周EIA精炼厂设备利用率变化 -0.2%，前值 0.6%。",
+   "summary": "美国9月4日当周EIA精炼厂设备利用率变化 -0.2%，前值 0.6%。",
+   "link": "https://wallstreetcn.com/news/global/3163377",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:58"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "梅西百货第二季度净销售额48.7亿美元，同比增长1.1%。 第二季度调整后每股收益63美分，预期36",
-   "summary": "梅西百货第二季度净销售额48.7亿美元，同比增长1.1%。 第二季度调整后每股收益63美分，预期36美分。 第二季度同店销售增长2.7%，预期增长0.86%。 梅西百货预计全年同店销售增长1%至1.5%，市场预期增长0.99%。 梅西百货预计全年调整后每股收益2.15至2.35美元，此前预期为2.00至2.20美元，市场预期2.25美元。 梅西百货预计全年净销售额216.8亿至218.3亿美元，此",
-   "link": "https://wallstreetcn.com/news/global/3163224",
+   "title": "美国9月4日当周EIA精炼油库存变动 208.7万桶，前值 79.6万桶。",
+   "summary": "美国9月4日当周EIA精炼油库存变动 208.7万桶，前值 79.6万桶。",
+   "link": "https://wallstreetcn.com/news/global/3163376",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:55"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "现货白银日内跌幅达2.0%，报65.9美元/盎司。",
-   "summary": "现货白银日内跌幅达2.0%，报65.9美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3163223",
+   "title": "美国9月4日当周EIA原油库存变动 -39.1万桶，前值 -445万桶。",
+   "summary": "美国9月4日当周EIA原油库存变动 -39.1万桶，前值 -445万桶。",
+   "link": "https://wallstreetcn.com/news/global/3163375",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:53"
+   "published_at": "2026-09-10 16:00"
   },
   {
    "category": "finance",
-   "title": "阿尔及利亚宣布与阿联酋断交",
-   "summary": "据阿尔及利亚方面10日消息，阿尔及利亚宣布与阿联酋断绝外交关系。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3163221",
+   "title": "周四（9月10日）欧市尾盘，ICE英国天然气期货涨3.57%，报204.720便士/千卡，北京时间2",
+   "summary": "周四（9月10日）欧市尾盘，ICE英国天然气期货涨3.57%，报204.720便士/千卡，北京时间20:34曾达到207.270便士。 TTF基准荷兰天然气期货zhang 2.92%，报81.762欧元/兆瓦时。 ICE欧盟碳排放交易许可（期货价格）涨0.42%，报85.40欧元/吨。",
+   "link": "https://wallstreetcn.com/news/global/3163374",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:47"
+   "published_at": "2026-09-10 15:59"
   },
   {
    "category": "finance",
-   "title": "2026年亚太经合组织（APEC）工商领导人峰会将于11月17日至18日在深圳举办",
-   "summary": "记者9月10日从中国贸促会获悉，2026年亚太经合组织（APEC）工商领导人峰会将于11月17日至18日在深圳举办。",
-   "link": "https://wallstreetcn.com/news/global/3163220",
+   "title": "英国两年期国债收益率涨超17个基点，长端英债收益率创历史新高",
+   "summary": "周四（9月10日）欧市尾盘，英国10年期国债收益率涨11.3个基点，报5.374%，整体持续走高，逼近2007年7月20日盘中最高位5.432%、当年7月9日顶部5.564%。 两年期英债收益率涨17.4个基点，报4.871%，逼近2023年10月19日顶部5.068%、当年7月6日顶部5.561%。 30年期英债收益率涨5.4个基点，报5.930%，逼近1998年一季度最高位6.258%；50年",
+   "link": "https://wallstreetcn.com/news/global/3163373",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:47"
+   "published_at": "2026-09-10 15:56"
   },
   {
    "category": "finance",
-   "title": "山东青岛北海造船厂一货轮火灾事故已造成20人遇难。（央视）",
-   "summary": "山东青岛北海造船厂一货轮火灾事故已造成20人遇难。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3163219",
+   "title": "阿联酋：政府打算对德国投资400亿欧元。",
+   "summary": "阿联酋：政府打算对德国投资400亿欧元。",
+   "link": "https://wallstreetcn.com/news/global/3163372",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:41"
+   "published_at": "2026-09-10 15:55"
   },
   {
    "category": "finance",
-   "title": "美元兑日元上涨0.3%，至日内高点154.08。",
-   "summary": "美元兑日元上涨0.3%，至日内高点154.08。",
-   "link": "https://wallstreetcn.com/news/global/3163218",
+   "title": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。",
+   "summary": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。",
+   "link": "https://wallstreetcn.com/news/global/3163371",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:40"
+   "published_at": "2026-09-10 15:50"
   },
   {
    "category": "finance",
-   "title": "2025年我国银行业国际结算量超13万亿美元",
-   "summary": "从中国银行业协会最新发布的《中国贸易金融行业发展报告（2025—2026）》了解到，近年来，我国实体经济基本面稳健、配套政策体系持续完善，银行业贸易金融各项业务实现稳步增长。",
-   "link": "https://wallstreetcn.com/news/global/3163217",
+   "title": "沙特考虑合并艺电（EA）与Savvy的游戏业务。",
+   "summary": "沙特考虑合并艺电（EA）与Savvy的游戏业务。",
+   "link": "https://wallstreetcn.com/news/global/3163370",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:39"
+   "published_at": "2026-09-10 15:50"
   },
   {
    "category": "finance",
-   "title": "现货黄金日内跌幅达0.5%，报4379.54美元/盎司。",
-   "summary": "现货黄金日内跌幅达0.5%，报4379.54美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3163216",
+   "title": "美债市场出现大额期权交易，押注10年期收益率升破5%",
+   "summary": "美债市场出现了一宗大额期权交易，押注国债抛售势头将推动10年期收益率升破5%。 这笔期权交易支付的权利金约为1,400万美元，在衍生品市场上规模相当可观。此前，交易员称市场已经出现一波幕后对冲活动，为抛盘推波助澜。如果10年期美国国债收益率升至约5.1%，这笔交易将达到盈亏平衡点；如果收益率升至5.2%，收益将增至约1,500万美元。10年期收益率上一次达到这一水平是在2007年。 油价上涨可能进",
+   "link": "https://wallstreetcn.com/news/global/3163369",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:38"
+   "published_at": "2026-09-10 15:40"
   },
   {
    "category": "finance",
-   "title": "COMEX铜期货跌超4%，伦铜跌近3%。报道称白宫尚未就精炼铜关税作出决定。",
-   "summary": "COMEX铜期货跌超4%，伦铜跌近3%。报道称白宫尚未就精炼铜关税作出决定。",
-   "link": "https://wallstreetcn.com/news/global/3163215",
+   "title": "明晟公司MSCI北欧国家指数跌0.9%，报396.80点。 在十个板块中，北欧工业板块跌幅最大。 工",
+   "summary": "明晟公司MSCI北欧国家指数跌0.9%，报396.80点。 在十个板块中，北欧工业板块跌幅最大。 工业机械解决方案供应商Metso Oyj跌4.5%，在一众北欧个股里表现最差。",
+   "link": "https://wallstreetcn.com/news/global/3163368",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:36"
+   "published_at": "2026-09-10 15:37"
   },
   {
    "category": "finance",
-   "title": "伦铜跌2%，COMEX铜期货跌3.5%。",
-   "summary": "伦铜跌2%，COMEX铜期货跌3.5%。",
-   "link": "https://wallstreetcn.com/news/global/3163214",
+   "title": "美国财政部拍卖四周期国债，得标利率3.775%，投标倍数2.81。 拍卖八周期国债，得标利率3.84",
+   "summary": "美国财政部拍卖四周期国债，得标利率3.775%，投标倍数2.81。 拍卖八周期国债，得标利率3.845%，投标倍数2.82。",
+   "link": "https://wallstreetcn.com/news/global/3163367",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:31"
+   "published_at": "2026-09-10 15:32"
   },
   {
    "category": "finance",
-   "title": "纳斯达克以210亿美元估值投资加密货币交易所Kraken的母公司Payward。（彭博）",
-   "summary": "纳斯达克以210亿美元估值投资加密货币交易所Kraken的母公司Payward。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3163213",
+   "title": "美国芝加哥商业交易所集团（CME Group）将于12月7日推出CME证券清算服务，旨在提升美国国债",
+   "summary": "美国芝加哥商业交易所集团（CME Group）将于12月7日推出CME证券清算服务，旨在提升美国国债市场的清算能力、选择多样性及资本效率。",
+   "link": "https://wallstreetcn.com/news/global/3163366",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:28"
+   "published_at": "2026-09-10 15:30"
   },
   {
    "category": "finance",
-   "title": "香港金管局、香港交易所、迪拜金管局和纳斯达克迪拜成立策略工作小组深化两地金融市场合作",
-   "summary": "香港金管局、香港交易所、迪拜金管局和纳斯达克迪拜今日（9月10日）联合宣布成立策略工作小组，以加强香港与迪拜国际金融中心的金融市场之间的联系。策略工作小组由香港与迪拜国际金融中心的监管机构与交易所组成，旨在探索在可持续金融、伊斯兰金融、创新及整体资本市场的发展与联通等方面的机遇及合作措施，助力两地市场持续增长及提升吸引力。",
-   "link": "https://wallstreetcn.com/news/global/3163212",
+   "title": "德国DAX 30指数初步收跌0.79%，报25374.93点。 法国股指初步收跌0.50%，意大利股",
+   "summary": "德国DAX 30指数初步收跌0.79%，报25374.93点。 法国股指初步收跌0.50%，意大利股指初步收跌0.06%、银行指数跌0.09%，英国股指初步收跌0.57%。",
+   "link": "https://wallstreetcn.com/news/global/3163365",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:26"
+   "published_at": "2026-09-10 15:30"
   },
   {
    "category": "finance",
-   "title": "蚂蚁灵波LingBot-World 2.0开源三款模型",
-   "summary": "蚂蚁灵波科技宣布开放三款模型：LingBot-World 2.0 Small（1.3B）、LingBot-World 2.0 Bidirectional 和LingBot-World 2.0 Causal Pretrain。本次开源的LingBot-World 2.0 Small采用1.3B参数规模，面向消费级单卡GPU设计，可在单卡上实现实时生成。（蚂蚁灵波科技微信公号）",
-   "link": "https://wallstreetcn.com/news/global/3163211",
+   "title": "欧洲STOXX 600指数初步收跌0.60%，报636.59点。 欧元区STOXX 50指数初步收跌",
+   "summary": "欧洲STOXX 600指数初步收跌0.60%，报636.59点。 欧元区STOXX 50指数初步收跌0.60%，报6273.44点。 富时泛欧绩优300指数初步收跌0.62%，报2542.09点。",
+   "link": "https://wallstreetcn.com/news/global/3163364",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:24"
-  },
-  {
-   "category": "finance",
-   "title": "报道：印尼矿企Amman Mineral已选定银行为其安排香港上市事宜",
-   "summary": "据知情人士透露，印尼最大的铜金生产商之一PT Amman Mineral Internasional已选定银行为其安排香港上市事宜，可能至少筹集10亿美元。知情人士表示，已在雅加达上市的Amman Mineral正与中信证券和摩根士丹利合作，发行工作最早可能在明年进行。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3163210",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-10 10:21"
+   "published_at": "2026-09-10 15:30"
   }
  ]
 }
