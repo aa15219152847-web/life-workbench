@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-10 16:28",
+ "updated_at": "2026-09-10 20:54",
  "ai": [
   {
    "category": "ai",
@@ -141,195 +141,163 @@
  "finance": [
   {
    "category": "finance",
-   "title": "Vantage Data Centers寻求从太平洋投资管理公司（PIMCO，品浩）与PGIM获取2",
-   "summary": "Vantage Data Centers寻求从太平洋投资管理公司（PIMCO，品浩）与PGIM获取20亿美元贷款。（英国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3163387",
+   "title": "高盛集团测试与Meta关联的数据中心债券需求。",
+   "summary": "高盛集团测试与Meta关联的数据中心债券需求。",
+   "link": "https://wallstreetcn.com/news/global/3163483",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:12"
+   "published_at": "2026-09-10 20:46"
   },
   {
    "category": "finance",
-   "title": "特朗普的委内瑞拉石油项目计划到2028年将产量提高150%",
-   "summary": "获美国政府支持的委内瑞拉原油生产商北美蓝色能源伙伴公司（NABEP）计划，在短短两年多的时间内将原油产量翻一番以上，这是特朗普政府推动提高该南美国家产量计划的一部分。该公司目前的产量约为20万桶/日，目标是到2028年底将产量提高至50万桶/日，该计划将由内部现金流提供资金。 部分分析师认为NABEP的计划显得雄心勃勃，担忧包括该业务的服务端以及为支持扩张可能需要筹集资金。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3163386",
+   "title": "WTI原油日内涨幅达8.0%，报103.84美元/桶。",
+   "summary": "WTI原油日内涨幅达8.0%，报103.84美元/桶。",
+   "link": "https://wallstreetcn.com/news/global/3163482",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:11"
+   "published_at": "2026-09-10 20:46"
   },
   {
    "category": "finance",
-   "title": "谷歌公司针对微软Windows 10和11推出Gemini APP。",
-   "summary": "谷歌公司针对微软Windows 10和11推出Gemini APP。",
-   "link": "https://wallstreetcn.com/news/global/3163385",
+   "title": "WTI原油日内涨幅达7.5%，报103.33美元/桶；布伦特原油日内涨幅达7.5%，报108.85美",
+   "summary": "WTI原油日内涨幅达7.5%，报103.33美元/桶；布伦特原油日内涨幅达7.5%，报108.85美元/桶。",
+   "link": "https://wallstreetcn.com/news/global/3163481",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:08"
+   "published_at": "2026-09-10 20:37"
   },
   {
    "category": "finance",
-   "title": "黄仁勋：网络安全是AI的下一个重要应用场景",
-   "summary": "英伟达CEO黄仁勋出席高盛会议时表示：网络安全是AI的下一个重要应用场景。",
-   "link": "https://wallstreetcn.com/news/global/3163384",
+   "title": "新兴市场外汇指数创7月份以来最大单日跌幅，投资者关注美联储加息风险",
+   "summary": "明晟公司MSCI新兴市场股票指数跌0.6%，发展中国家外汇指数跌0.2%。 国际油价集体大涨，WTI原油期货在电子交易盘涨7.27%报103.03美元/桶，布伦特原油期货涨7.04%报108.34美元/桶。",
+   "link": "https://wallstreetcn.com/news/global/3163480",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:06"
+   "published_at": "2026-09-10 20:30"
   },
   {
    "category": "finance",
-   "title": "布伦特原油突破107美元/桶关口，涨幅将近6%。 也门胡塞武装向毗邻战略要道曼德海峡的红海沿岸地区推",
-   "summary": "布伦特原油突破107美元/桶关口，涨幅将近6%。 也门胡塞武装向毗邻战略要道曼德海峡的红海沿岸地区推进，在夺取红海南端附近城市穆哈的行动中已取得进展，有消息称该也门港口城市已被攻占。 航运安全顾问比约恩·贝伦斯（Bjorn Beirens）表示，穆哈的失守”无疑会对该地区的海上安全产生影响”。",
-   "link": "https://wallstreetcn.com/news/global/3163383",
+   "title": "美国两年期国债收益率涨15个基点，报4.58%，创2024年以来新高。",
+   "summary": "美国两年期国债收益率涨15个基点，报4.58%，创2024年以来新高。",
+   "link": "https://wallstreetcn.com/news/global/3163479",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:04"
+   "published_at": "2026-09-10 20:25"
   },
   {
    "category": "finance",
-   "title": "微软针对AI分享安全参与框架（Safe participation framework）。",
-   "summary": "微软针对AI分享安全参与框架（Safe participation framework）。",
-   "link": "https://wallstreetcn.com/news/global/3163382",
+   "title": "北美科技软件股指数ETF跌0.62%，Global X网络安全ETF跌0.54%，纳斯达克网络安全E",
+   "summary": "北美科技软件股指数ETF跌0.62%，Global X网络安全ETF跌0.54%，纳斯达克网络安全ETF跌0.34%，ETFMG网络安全ETF跌0.41%。",
+   "link": "https://wallstreetcn.com/news/global/3163478",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:02"
+   "published_at": "2026-09-10 20:24"
   },
   {
    "category": "finance",
-   "title": "房地美：美国上周30年期按揭贷款/抵押贷款利率6.76%，创2025年6月以来新高；前值6.71%。",
-   "summary": "房地美：美国上周30年期按揭贷款/抵押贷款利率6.76%，创2025年6月以来新高；前值6.71%。",
-   "link": "https://wallstreetcn.com/news/global/3163381",
+   "title": "标普500指数的11个板块中，原材料板块收跌1.48%，公用事业板块跌1%，信息技术/科技板块跌0.",
+   "summary": "标普500指数的11个板块中，原材料板块收跌1.48%，公用事业板块跌1%，信息技术/科技板块跌0.94%，能源板块跌0.42%，电信板块涨0.25%。",
+   "link": "https://wallstreetcn.com/news/global/3163477",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:22"
   },
   {
    "category": "finance",
-   "title": "美国能源信息署（EIA）：美国上周EIA原油库存减少39.1万桶，彭博用户预计减少11.1万桶、分析",
-   "summary": "美国能源信息署（EIA）：美国上周EIA原油库存减少39.1万桶，彭博用户预计减少11.1万桶、分析师预期下降127.183万桶，之前一周下降445.0万桶。",
-   "link": "https://wallstreetcn.com/news/global/3163380",
+   "title": "周四（9月10日），美股行业ETF普遍收跌，半导体ETF跌2.44%，全球科技股指数ETF、科技行业",
+   "summary": "周四（9月10日），美股行业ETF普遍收跌，半导体ETF跌2.44%，全球科技股指数ETF、科技行业ETF、生物科技指数ETF至多跌1.53%，网络股指数跌0.84%，能源业ETF跌0.58%，银行业ETF涨0.43%，区域银行ETF涨0.49%。",
+   "link": "https://wallstreetcn.com/news/global/3163475",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:21"
   },
   {
    "category": "finance",
-   "title": "美国9月4日当周EIA库欣地区原油库存变动 -68.4万桶，前值 8万桶。",
-   "summary": "美国9月4日当周EIA库欣地区原油库存变动 -68.4万桶，前值 8万桶。",
-   "link": "https://wallstreetcn.com/news/global/3163379",
+   "title": "周四（9月10日），彭博电动汽车价格回报指数跌1.73%，报3359.80点，亚太盘初显著下跌，北京",
+   "summary": "周四（9月10日），彭博电动汽车价格回报指数跌1.73%，报3359.80点，亚太盘初显著下跌，北京时间09:30以来低位震荡、16:00以来平缓地持续扩大跌幅。",
+   "link": "https://wallstreetcn.com/news/global/3163474",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:19"
   },
   {
    "category": "finance",
-   "title": "美国9月4日当周EIA汽油库存变动 126.9万桶，前值 -117.3万桶。",
-   "summary": "美国9月4日当周EIA汽油库存变动 126.9万桶，前值 -117.3万桶。",
-   "link": "https://wallstreetcn.com/news/global/3163378",
+   "title": "甲骨文第一财季调整后营收193.5亿美元，分析师预期191.3亿美元。 第一财季软件许可收入6.55",
+   "summary": "甲骨文第一财季调整后营收193.5亿美元，分析师预期191.3亿美元。 第一财季软件许可收入6.55亿美元，分析师预期7.188亿美元。 第一财季软件支持营收49亿美元，分析师预期48.8亿美元。 第一财季云智能营收（IAAS）为73.9亿美元，分析师预期71.9亿美元。 第一财季软件营收55.5亿美元，分析师预期56.7亿美元。 第一财季资本开支285亿美元，分析师预期198亿美元。 预计202",
+   "link": "https://wallstreetcn.com/news/global/3163473",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:11"
   },
   {
    "category": "finance",
-   "title": "美国9月4日当周EIA精炼厂设备利用率变化 -0.2%，前值 0.6%。",
-   "summary": "美国9月4日当周EIA精炼厂设备利用率变化 -0.2%，前值 0.6%。",
-   "link": "https://wallstreetcn.com/news/global/3163377",
+   "title": "Adobe第三财季营收67.6亿美元，分析师预期67亿美元。 第三财季调整后每股收益（EPS）为6.",
+   "summary": "Adobe第三财季营收67.6亿美元，分析师预期67亿美元。 第三财季调整后每股收益（EPS）为6.3美元，分析师预期6.08美元。 预计全年营收265.8亿-266.3亿美元，公司原本预计265亿-266亿美元。 预计全年调整后EPS为24.45-24.50美元，原本预计24.35-24.45美元。 预计第四财季营收68亿-68.5亿美元，分析师预期68.5亿美元。 预计第四财季调整后EPS为6",
+   "link": "https://wallstreetcn.com/news/global/3163471",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:06"
   },
   {
    "category": "finance",
-   "title": "美国9月4日当周EIA精炼油库存变动 208.7万桶，前值 79.6万桶。",
-   "summary": "美国9月4日当周EIA精炼油库存变动 208.7万桶，前值 79.6万桶。",
-   "link": "https://wallstreetcn.com/news/global/3163376",
+   "title": "报道：黑石准备购买比此前披露数量更多的TPU",
+   "summary": "据知情人士透露，黑石集团预计将购买远超其在5月份宣布与谷歌成立新合资企业时所披露数量的张量处理单元（TPU）。黑石寻求额外购买数“倍”于此前规模的TPU。（The Information）",
+   "link": "https://wallstreetcn.com/news/global/3163469",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:05"
   },
   {
    "category": "finance",
-   "title": "美国9月4日当周EIA原油库存变动 -39.1万桶，前值 -445万桶。",
-   "summary": "美国9月4日当周EIA原油库存变动 -39.1万桶，前值 -445万桶。",
-   "link": "https://wallstreetcn.com/news/global/3163375",
+   "title": "美国市政债券收益率在抛售潮中飙升至2011年以来最高水平",
+   "summary": "美国市政债券收益率大幅跳升，最高涨幅达15个基点，其中期限最长的品种收益率触及2011年以来的最高水平。美国国债收益率的攀升以及沉重的新债发行压力正在对该市场形成挤压。 截至纽约时间下午3点，30年期基准市政债券收益率上涨14个基点至4.89%。根据彭博汇编的数据，这不仅是自2011年2月以来的最高水平，也是自2025年4月以来的最大单日涨幅。10年期基准市政债券收益率同样大幅攀升，最高上涨15个",
+   "link": "https://wallstreetcn.com/news/global/3163468",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 16:00"
+   "published_at": "2026-09-10 20:03"
   },
   {
    "category": "finance",
-   "title": "周四（9月10日）欧市尾盘，ICE英国天然气期货涨3.57%，报204.720便士/千卡，北京时间2",
-   "summary": "周四（9月10日）欧市尾盘，ICE英国天然气期货涨3.57%，报204.720便士/千卡，北京时间20:34曾达到207.270便士。 TTF基准荷兰天然气期货zhang 2.92%，报81.762欧元/兆瓦时。 ICE欧盟碳排放交易许可（期货价格）涨0.42%，报85.40欧元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3163374",
+   "title": "纳斯达克金龙中国指数收跌0.66%，连续三个交易日走低（累计下跌4.41%），报5788.60点，继",
+   "summary": "纳斯达克金龙中国指数收跌0.66%，连续三个交易日走低（累计下跌4.41%），报5788.60点，继续逼近6月25日收盘位5690.24点、2024年8月5日最低位5185.61点。 热门中概股里，日月光半导体初步收跌3.3%，比亚迪跌3.1%，腾讯跌1.6%，百度跌1.5%，阿里巴巴跌0.7%。 ETF中，中国科技指数ETF（CQQQ）收跌1.67%，中概互联网指数ETF（KWEB）收跌1.37",
+   "link": "https://wallstreetcn.com/news/global/3163467",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:59"
+   "published_at": "2026-09-10 20:00"
   },
   {
    "category": "finance",
-   "title": "英国两年期国债收益率涨超17个基点，长端英债收益率创历史新高",
-   "summary": "周四（9月10日）欧市尾盘，英国10年期国债收益率涨11.3个基点，报5.374%，整体持续走高，逼近2007年7月20日盘中最高位5.432%、当年7月9日顶部5.564%。 两年期英债收益率涨17.4个基点，报4.871%，逼近2023年10月19日顶部5.068%、当年7月6日顶部5.561%。 30年期英债收益率涨5.4个基点，报5.930%，逼近1998年一季度最高位6.258%；50年",
-   "link": "https://wallstreetcn.com/news/global/3163373",
+   "title": "标普500指数收跌44.66点，跌幅0.58%，连续四个交易日下跌（期间累计下跌2.01%），报75",
+   "summary": "标普500指数收跌44.66点，跌幅0.58%，连续四个交易日下跌（期间累计下跌2.01%），报7591.70点，失守50日均线（该技术指标暂报7603.86点），逼近100日均线（7491.37点），200日均线已经上移至7157.28点。 道琼斯工业平均指数收跌316.56点，跌幅0.60%，报52064.10点。 纳斯达克综合指数（纳指）收跌171.615点，跌幅0.65%，报26081.7",
+   "link": "https://wallstreetcn.com/news/global/3163465",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:56"
+   "published_at": "2026-09-10 20:00"
   },
   {
    "category": "finance",
-   "title": "阿联酋：政府打算对德国投资400亿欧元。",
-   "summary": "阿联酋：政府打算对德国投资400亿欧元。",
-   "link": "https://wallstreetcn.com/news/global/3163372",
+   "title": "以军称摧毁黎南部真主党地下设施，使用超千吨炸药",
+   "summary": "以色列总理内塔尼亚胡和国防部长卡茨10日晚发表联合声明说，以军当天摧毁了黎巴嫩南部阿里塔希尔山脊地区黎真主党的地下基础设施。以色列国防军当晚发表声明称，在爆破时使用了超过1100吨炸药，以摧毁山脊下方的隧道。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3163463",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:55"
+   "published_at": "2026-09-10 19:57"
   },
   {
    "category": "finance",
-   "title": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。",
-   "summary": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。",
-   "link": "https://wallstreetcn.com/news/global/3163371",
+   "title": "礼来的GLP-1意外之财将用于推动进军女性健康领域",
+   "summary": "礼来公司正在为更广泛地进军女性健康领域奠定基础，正在组建专家团队并在包括骨骼健康和子宫内膜异位症在内的多种疾病中寻找新药。 该公司一直在招募科学家从事骨质疏松症和先兆子痫的研究，并已聘请生殖医学专家Kelle Moley领导女性健康和早期临床开发。 礼来还在其自有实验室之外寻找机会，对Absci Corp.等公司进行战略投资，后者正在开发一种治疗子宫内膜异位症的实验性疗法。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3163462",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:50"
+   "published_at": "2026-09-10 19:55"
   },
   {
    "category": "finance",
-   "title": "沙特考虑合并艺电（EA）与Savvy的游戏业务。",
-   "summary": "沙特考虑合并艺电（EA）与Savvy的游戏业务。",
-   "link": "https://wallstreetcn.com/news/global/3163370",
+   "title": "Constellation Energy耗资7.15亿美元收购壳牌天然气发电站。",
+   "summary": "Constellation Energy耗资7.15亿美元收购壳牌天然气发电站。",
+   "link": "https://wallstreetcn.com/news/global/3163461",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:50"
+   "published_at": "2026-09-10 19:55"
   },
   {
    "category": "finance",
-   "title": "美债市场出现大额期权交易，押注10年期收益率升破5%",
-   "summary": "美债市场出现了一宗大额期权交易，押注国债抛售势头将推动10年期收益率升破5%。 这笔期权交易支付的权利金约为1,400万美元，在衍生品市场上规模相当可观。此前，交易员称市场已经出现一波幕后对冲活动，为抛盘推波助澜。如果10年期美国国债收益率升至约5.1%，这笔交易将达到盈亏平衡点；如果收益率升至5.2%，收益将增至约1,500万美元。10年期收益率上一次达到这一水平是在2007年。 油价上涨可能进",
-   "link": "https://wallstreetcn.com/news/global/3163369",
+   "title": "两年期美债收益率涨超13个基点，10年期美债收益率创2023件以来新高",
+   "summary": "周四（9月10日）纽约尾盘，美国10年期国债收益率涨11.58个基点，报4.9565%，继续逼近2023年10月23日顶部5.0187%和2007年6月13日盘中最高位5.3228%。 两年期美债收益率涨13.61个基点，报4.5666%，逼近2024年7月1日顶部4.7931%；30年期美债收益率涨8.17个基点，报5.3706%，逼近2007年二季度最高位5.4376%、2000年一季度最高位",
+   "link": "https://wallstreetcn.com/news/global/3163460",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:40"
+   "published_at": "2026-09-10 19:53"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI北欧国家指数跌0.9%，报396.80点。 在十个板块中，北欧工业板块跌幅最大。 工",
-   "summary": "明晟公司MSCI北欧国家指数跌0.9%，报396.80点。 在十个板块中，北欧工业板块跌幅最大。 工业机械解决方案供应商Metso Oyj跌4.5%，在一众北欧个股里表现最差。",
-   "link": "https://wallstreetcn.com/news/global/3163368",
+   "title": "Altera筹备最快2026年IPO，可能会通过首次公开发行股票募集高达20亿美元。（路透）",
+   "summary": "Altera筹备最快2026年IPO，可能会通过首次公开发行股票募集高达20亿美元。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3163459",
    "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:37"
-  },
-  {
-   "category": "finance",
-   "title": "美国财政部拍卖四周期国债，得标利率3.775%，投标倍数2.81。 拍卖八周期国债，得标利率3.84",
-   "summary": "美国财政部拍卖四周期国债，得标利率3.775%，投标倍数2.81。 拍卖八周期国债，得标利率3.845%，投标倍数2.82。",
-   "link": "https://wallstreetcn.com/news/global/3163367",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:32"
-  },
-  {
-   "category": "finance",
-   "title": "美国芝加哥商业交易所集团（CME Group）将于12月7日推出CME证券清算服务，旨在提升美国国债",
-   "summary": "美国芝加哥商业交易所集团（CME Group）将于12月7日推出CME证券清算服务，旨在提升美国国债市场的清算能力、选择多样性及资本效率。",
-   "link": "https://wallstreetcn.com/news/global/3163366",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:30"
-  },
-  {
-   "category": "finance",
-   "title": "德国DAX 30指数初步收跌0.79%，报25374.93点。 法国股指初步收跌0.50%，意大利股",
-   "summary": "德国DAX 30指数初步收跌0.79%，报25374.93点。 法国股指初步收跌0.50%，意大利股指初步收跌0.06%、银行指数跌0.09%，英国股指初步收跌0.57%。",
-   "link": "https://wallstreetcn.com/news/global/3163365",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:30"
-  },
-  {
-   "category": "finance",
-   "title": "欧洲STOXX 600指数初步收跌0.60%，报636.59点。 欧元区STOXX 50指数初步收跌",
-   "summary": "欧洲STOXX 600指数初步收跌0.60%，报636.59点。 欧元区STOXX 50指数初步收跌0.60%，报6273.44点。 富时泛欧绩优300指数初步收跌0.62%，报2542.09点。",
-   "link": "https://wallstreetcn.com/news/global/3163364",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-10 15:30"
+   "published_at": "2026-09-10 19:52"
   }
  ]
 }
