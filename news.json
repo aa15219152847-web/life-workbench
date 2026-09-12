@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-12 15:34",
+ "updated_at": "2026-09-12 20:37",
  "ai": [
   {
    "category": "ai",
-   "title": "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度",
+   "title": "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度，并承诺让第三方评估机构获得员工级访问权限",
    "summary": "",
    "link": "https://www.ithome.com/1/001/651.htm",
    "source": "IT之家",
@@ -141,6 +141,22 @@
  "finance": [
   {
    "category": "finance",
+   "title": "OpenAI的CEO Altman：我同意Dario（Anthropic的CEO Amodei）有关",
+   "summary": "OpenAI的CEO Altman：我同意Dario（Anthropic的CEO Amodei）有关需要控制前沿模型发展步伐的观点。",
+   "link": "https://wallstreetcn.com/news/global/3164361",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 16:34"
+  },
+  {
+   "category": "finance",
+   "title": "Larry Ellison取消关于减持甲骨文股票的10b5-1计划，迄今尚未因该计划而卖出任何甲骨文",
+   "summary": "Larry Ellison取消关于减持甲骨文股票的10b5-1计划，迄今尚未因该计划而卖出任何甲骨文股票。 Ellison也不打算出售自己所持任何甲骨文股票。",
+   "link": "https://wallstreetcn.com/news/global/3164360",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 16:23"
+  },
+  {
+   "category": "finance",
    "title": "马斯克：Anthropic PBC的CEO Amodei关于放慢人工智能（AI）模型发展速度的建议是",
    "summary": "马斯克：Anthropic PBC的CEO Amodei关于放慢人工智能（AI）模型发展速度的建议是正确的。",
    "link": "https://wallstreetcn.com/news/global/3164357",
@@ -222,7 +238,7 @@
   {
    "category": "finance",
    "title": "习近平会见印度总理莫迪",
-   "summary": "据新华社报道，当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。",
+   "summary": "据新华社报道，当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。 习近平指出，中方始终从战略高度和长远角度看待和发展中印关系。近两年，我同莫迪总理两次会晤，引领中印关系从“再出发”实现“再提升”。两国机制性交往逐步恢复，合作清单不断拉长，双边贸易额再创新高。这一局面来之不易，值得珍惜。中印两",
    "link": "https://wallstreetcn.com/news/global/3164347",
    "source": "华尔街见闻",
    "published_at": "2026-09-12 11:52"
@@ -290,22 +306,6 @@
    "link": "https://wallstreetcn.com/news/global/3164335",
    "source": "华尔街见闻",
    "published_at": "2026-09-12 10:48"
-  },
-  {
-   "category": "finance",
-   "title": "首批普惠算力赋能中小企业发展服务清单发布",
-   "summary": "在2026中国算力大会上，首批普惠算力赋能中小企业发展服务清单正式发布。服务清单覆盖通用算力、智能算力、大模型服务、行业智能体应用等多层次普惠算力服务矩阵，可提供容器化租赁、按量计费等灵活付费模式，将推动算力资源普惠共享，助力中小企业数字化转型升级。（证券时报）",
-   "link": "https://wallstreetcn.com/news/global/3164334",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:46"
-  },
-  {
-   "category": "finance",
-   "title": "国家算力互联互通区域（河北）节点正式启用",
-   "summary": "2026中国算力大会在河北省廊坊市开幕。开幕式上，举行了中国算力平台实现全国一体化算力统筹监测发布仪式，标志着我国算力“一张网、一盘棋、一体化”发展格局基本形成。同时，发布《2026综合算力全景分析》，启用国家算力互联互通区域（河北）节点，揭晓首批普惠算力赋能中小企业发展服务清单，启动“一网三融”算力金融生态共建行动。据悉，大会举办“算力产业创投50人论坛”等活动；发布“共建京津冀太空算力产业长廊",
-   "link": "https://wallstreetcn.com/news/global/3164333",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:45"
   }
  ]
 }
