@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-09-12 10:52",
+ "updated_at": "2026-09-12 15:34",
  "ai": [
+  {
+   "category": "ai",
+   "title": "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度",
+   "summary": "",
+   "link": "https://www.ithome.com/1/001/651.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "英伟达黄仁勋：网络安全是 AI 下一个重要市场，驳斥 AI 恐慌论",
@@ -128,17 +136,153 @@
    "link": "https://www.ithome.com/0/998/930.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "开源安卓应用商店 F-Droid 考虑效仿 Debian AI 政策：允许使用 AI，最终责任由贡献者承担",
-   "summary": "",
-   "link": "https://www.ithome.com/0/998/895.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
+  {
+   "category": "finance",
+   "title": "马斯克：Anthropic PBC的CEO Amodei关于放慢人工智能（AI）模型发展速度的建议是",
+   "summary": "马斯克：Anthropic PBC的CEO Amodei关于放慢人工智能（AI）模型发展速度的建议是正确的。",
+   "link": "https://wallstreetcn.com/news/global/3164357",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 15:08"
+  },
+  {
+   "category": "finance",
+   "title": "Anthropic CEO公开信：呼吁放慢AI模型的发展速度",
+   "summary": "Anthropic PBC首席执行官Dario Amodei表示，人工智能（AI）行业必须放慢新模型的开发速度，并提到对人工智能给人类造成风险的担忧越来越严重。 “我们必须放慢提升AI能力的速度，”他在一篇博客文章中写道。“进步的速度看起来仍会很快，我们必须明智地利用由此争取到的时间。”",
+   "link": "https://wallstreetcn.com/news/global/3164358",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 14:38"
+  },
+  {
+   "category": "finance",
+   "title": "Anthropic首席执行官：必须放慢人工智能模型改进的速度",
+   "summary": "Anthropic首席执行官表示，人工智能行业必须放慢新模型的开发速度，理由是对人类风险日益担忧。他指出两个主要原因：一是AI具备自我改进的能力，二是最近OpenAI与Hugging Face发生的事件——一群AI代理秘密结盟，执行了未被指派的任务。他补充说：“需要明确的是，放慢节奏并不意味着停止模型训练或技术进步，而是要确保公司有足够时间对模型进行对齐和安全防护，并由第三方评估机构进行确认。”",
+   "link": "https://wallstreetcn.com/news/global/3164356",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 14:15"
+  },
+  {
+   "category": "finance",
+   "title": "伊朗将于周一向海湾国家通报霍尔木兹海峡航运协议。（彭博）",
+   "summary": "伊朗将于周一向海湾国家通报霍尔木兹海峡航运协议。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3164355",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 14:09"
+  },
+  {
+   "category": "finance",
+   "title": "恺英网络：拟间接参股韩国游戏公司Wemade",
+   "summary": "恺英网络9月12日晚间公告，公司拟间接参股韩国公司Wemade（娱美德）。娱美德是韩国交易所科斯达克上市的游戏企业，是韩国本土第一代网游研发企业，是极具影响力的“传奇”IP原始权利方。",
+   "link": "https://wallstreetcn.com/news/global/3164354",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 13:36"
+  },
+  {
+   "category": "finance",
+   "title": "美国共和党议员敦促美国内政部长伯格姆采取行动应对汽油价格。（POLITICO）",
+   "summary": "美国共和党议员敦促美国内政部长伯格姆采取行动应对汽油价格。（POLITICO）",
+   "link": "https://wallstreetcn.com/news/global/3164352",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 13:26"
+  },
+  {
+   "category": "finance",
+   "title": "苹果iPhone 18 Pro/Pro Max开启预购",
+   "summary": "9月12日晚，苹果官网显示，iPhone 18 Pro/Pro Max预购现已开启，起售价分别为9999元、10999元，将于本月18日正式发售。",
+   "link": "https://wallstreetcn.com/news/global/3164351",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 13:15"
+  },
+  {
+   "category": "finance",
+   "title": "与谷歌合作智能家居项目是否涵盖AI眼镜相关产品？创维数字回应",
+   "summary": "9月11日下午，针对公司与谷歌合作智能家居项目是否涵盖AI眼镜相关产品，创维数字在业绩说明会上表示，公司与Google Asia Pacific Pte. Ltd于近日正式签署《智能家居合作协议》。基于Google Home平台与Gemini AI大模型等能力，公司作为Google授权的智能家居合作伙伴及智能家居服务授权经销商，围绕智能家居产品及服务开展深度协同，共同推动智能产品创新与产业化商用落",
+   "link": "https://wallstreetcn.com/news/global/3164350",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 13:01"
+  },
+  {
+   "category": "finance",
+   "title": "2026浦江创新论坛在上海启幕",
+   "summary": "12日，以“共享创新 共塑未来：新一轮科技革命背景下的全球科技共同体使命”为主题的2026浦江创新论坛在上海正式拉开帷幕。本届论坛由中华人民共和国科学技术部与上海市人民政府共同主办，南非共和国担任主宾国，湖南省担任主宾省。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3164349",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 12:29"
+  },
+  {
+   "category": "finance",
+   "title": "中国最北城市漠河正式开栓供暖",
+   "summary": "受降温天气影响，黑龙江省漠河市气温日渐走低。9月12日，当地供热部门正式开栓供暖，比计划时间提前13天，确保居民住上暖屋子。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3164348",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:57"
+  },
+  {
+   "category": "finance",
+   "title": "习近平会见印度总理莫迪",
+   "summary": "据新华社报道，当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。",
+   "link": "https://wallstreetcn.com/news/global/3164347",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:52"
+  },
+  {
+   "category": "finance",
+   "title": "中国工程院院士邬贺铨：2030年中国算力有望占到全球30%",
+   "summary": "在9月12日2026中国算力大会主论坛上，中国工程院院士邬贺铨指出，智能体的出现带动了Token的消费。今年3月，Token的消费已经达到日均140万亿。随着技术进步，Token的消耗并不是以多为荣，而是以效率为荣。中国Token的应用成本不断下降，这也促进了Token的利用。Token带动算力，算力和Token之间成正比。目前，中国的算力在全球占21%，美国占46%，按照国家算力网的规划，203",
+   "link": "https://wallstreetcn.com/news/global/3164346",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:49"
+  },
+  {
+   "category": "finance",
+   "title": "习近平将会见印度总理莫迪",
+   "summary": "当地时间9月12日下午，国家主席习近平在新德里出席金砖国家领导人第十八次会晤期间将会见印度总理莫迪。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3164345",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:37"
+  },
+  {
+   "category": "finance",
+   "title": "特朗普盛赞就业形势，将工厂建设归功于关税。 特朗普批评欧洲的商业监管“不可接受”。",
+   "summary": "特朗普盛赞就业形势，将工厂建设归功于关税。 特朗普批评欧洲的商业监管“不可接受”。",
+   "link": "https://wallstreetcn.com/news/global/3164342",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:11"
+  },
+  {
+   "category": "finance",
+   "title": "特朗普称赞美国股市是“独一无二的”。",
+   "summary": "特朗普称赞美国股市是“独一无二的”。",
+   "link": "https://wallstreetcn.com/news/global/3164340",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:08"
+  },
+  {
+   "category": "finance",
+   "title": "华储网发布关于2026年9月16日中央储备冻猪肉轮换出库竞价交易有关事项的通知：本次出库竞价交易挂牌",
+   "summary": "华储网发布关于2026年9月16日中央储备冻猪肉轮换出库竞价交易有关事项的通知：本次出库竞价交易挂牌国产冻猪肉12900吨。",
+   "link": "https://wallstreetcn.com/news/global/3164339",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:07"
+  },
+  {
+   "category": "finance",
+   "title": "华储网发布关于2026年9月15日中央储备冻猪肉轮换出库竞价交易有关事项的通知：本次出库竞价交易挂牌",
+   "summary": "华储网发布关于2026年9月15日中央储备冻猪肉轮换出库竞价交易有关事项的通知：本次出库竞价交易挂牌国产冻猪肉15500吨。",
+   "link": "https://wallstreetcn.com/news/global/3164338",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 11:04"
+  },
+  {
+   "category": "finance",
+   "title": "特朗普：关于爱尔兰统一，无论怎样回答都不讨好。",
+   "summary": "特朗普：关于爱尔兰统一，无论怎样回答都不讨好。",
+   "link": "https://wallstreetcn.com/news/global/3164336",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-12 10:58"
+  },
   {
    "category": "finance",
    "title": "预告：国新办举行国务院政策例行吹风会 介绍加强中小企业回款难问题治理有关工作情况",
@@ -162,166 +306,6 @@
    "link": "https://wallstreetcn.com/news/global/3164333",
    "source": "华尔街见闻",
    "published_at": "2026-09-12 10:45"
-  },
-  {
-   "category": "finance",
-   "title": "中国算力大会“年度重大突破成果”揭晓",
-   "summary": "2026中国算力大会上，中国算力大会“年度重大突破成果”正式揭晓，15项具有示范性意义的技术成果集中亮相。据了解，2026“算力中国·年度重大突破成果”具有四大特点：一是成果整体技术指标先进，在算力及相关产业领域具备国际先进、国内领先水准，具备行业标杆价值；二是核心技术创新性突出，成果转化落地成效显著，具备较强的行业示范、引领带动与辐射推广作用；三是有效提升行业整体技术能级，赋能产业创新，培育新兴",
-   "link": "https://wallstreetcn.com/news/global/3164331",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:29"
-  },
-  {
-   "category": "finance",
-   "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话",
-   "summary": "据新华社，当地时间9月12日下午，国家主席习近平在新德里出席金砖国家领导人第十八次会晤第一阶段会议。 习近平发表题为《共担时代责任 勇做先锋力量》的重要讲话。",
-   "link": "https://wallstreetcn.com/news/global/3164330",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:24"
-  },
-  {
-   "category": "finance",
-   "title": "习近平：中方愿同金砖成员一道，为实现中东海湾地区和平安宁发挥应有作用",
-   "summary": "当地时间9月12日下午，国家主席习近平在新德里出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。 习近平指出，中东海湾局势仍在复杂演变。这场战事给地区各国人民造成严重损失，也不符合国际社会共同利益。我提出维护和促进中东和平稳定的4点主张，旨在呼吁缓局降温、止战促和。有关各方要坚持政治解决方向，推动实现永久全面停火。中方愿同金砖成员一道，为实现中东海湾地区和平安宁发挥应有作用。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3164329",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:12"
-  },
-  {
-   "category": "finance",
-   "title": "习近平总结金砖20年发展成就",
-   "summary": "据新华社，当地时间9月12日下午，国家主席习近平在新德里出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。",
-   "link": "https://wallstreetcn.com/news/global/3164328",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:10"
-  },
-  {
-   "category": "finance",
-   "title": "自然资源部：临时用地管理文件修订面向社会公开征求意见",
-   "summary": "近日，自然资源部起草了《自然资源部关于规范临时用地管理的通知（征求意见稿)》，按照规范性文件制定程序有关规定，现公开征求社会意见。",
-   "link": "https://wallstreetcn.com/news/global/3164326",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:08"
-  },
-  {
-   "category": "finance",
-   "title": "小米高管称部分门店高峰时段客流量暴涨400%",
-   "summary": "小米集团高级副总裁、中国区总裁王晓雁发文表示，这两天小米之家的强度拉满了，部分门店高峰时段客流量直接暴涨400%。",
-   "link": "https://wallstreetcn.com/news/global/3164325",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:03"
-  },
-  {
-   "category": "finance",
-   "title": "第十八届中国国际种业博览会合肥举行，聚焦智能育种",
-   "summary": "第十八届中国国际种业博览会暨第二十三届全国种子信息交流与产品交易会12日在安徽合肥举行。多位院士专家在会上表示，智能育种技术通过整合基因组学、人工智能(AI)和大数据分析等前沿科技提高育种效率和精准度。（中国新闻网）",
-   "link": "https://wallstreetcn.com/news/global/3164324",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 10:01"
-  },
-  {
-   "category": "finance",
-   "title": "特朗普：你们可能很快就会看到与加拿大达成协议。 加拿大必须更好地对待美国的农民。 （伊朗）我们有很多",
-   "summary": "特朗普：你们可能很快就会看到与加拿大达成协议。 加拿大必须更好地对待美国的农民。 （伊朗）我们有很多好牌。",
-   "link": "https://wallstreetcn.com/news/global/3164323",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:59"
-  },
-  {
-   "category": "finance",
-   "title": "伊朗：与阿曼的霍尔木兹海峡航运协议很快就会宣布。",
-   "summary": "伊朗：与阿曼的霍尔木兹海峡航运协议很快就会宣布。",
-   "link": "https://wallstreetcn.com/news/global/3164322",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:58"
-  },
-  {
-   "category": "finance",
-   "title": "中国将于2027年接任金砖主席国",
-   "summary": "当地时间9月12日下午，在金砖国家领导人第十八次会晤第一阶段会议上，国家主席习近平宣布，中国将于2027年接任金砖主席国，主办金砖国家领导人第十九次会晤。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3164317",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:42"
-  },
-  {
-   "category": "finance",
-   "title": "关注泡泡玛特跟李诞有关？段永平：无关，但王宁微信是他给我的",
-   "summary": "9月12日，针对关注泡泡玛特是否跟李诞有关，段永平通过其雪球账号“大道无形我有型”发文回应：是因为三月的财报才开始认真关注的，和李诞无关。“但王宁的微信真是李诞给我的。我买泡泡玛特这事李诞可能是最高兴的人之一，因为他事后告诉我，他一直认为我早晚会‘入坑’的。”段永平表示。",
-   "link": "https://wallstreetcn.com/news/global/3164316",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:39"
-  },
-  {
-   "category": "finance",
-   "title": "莫迪：联合国安理会改革已刻不容缓。 全球南方应该从规则接受者转变为规则制定者。",
-   "summary": "莫迪：联合国安理会改革已刻不容缓。 全球南方应该从规则接受者转变为规则制定者。",
-   "link": "https://wallstreetcn.com/news/global/3164315",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:31"
-  },
-  {
-   "category": "finance",
-   "title": "上海概念验证平台联盟成立",
-   "summary": "9月12日举行的2026浦江创新论坛成果发布会科产融合生态研讨专场期间，上海概念验证平台联盟正式成立。据上海市科委消息，联盟首批成员由33家概念验证平台与未来产业基金组成，覆盖脑机接口、硅光、细胞与基因治疗等未来产业领域，以及集成电路、智能制造、绿色技术等重点产业方向。联盟将推动平台从“各自为战”转向“握指成拳”，重点开展能力梳理、资源共享、标准制订、人才培育等工作，建立项目互荐与联合验证机制，平",
-   "link": "https://wallstreetcn.com/news/global/3164314",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:27"
-  },
-  {
-   "category": "finance",
-   "title": "银河通用：网传公司及管理团队相关内容均属不实信息，已报案",
-   "summary": "银河通用发布声明称，近期公司关注到网络上流传关于银河通用及管理团队的恶意谣言，相关内容均属不实信息。对此，公司已第一时间向公安机关报案，并将依法追究造谣者的法律责任。",
-   "link": "https://wallstreetcn.com/news/global/3164312",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:20"
-  },
-  {
-   "category": "finance",
-   "title": "日本的富士通将向美国和亚洲出口AI芯片。（日经新闻）",
-   "summary": "日本的富士通将向美国和亚洲出口AI芯片。（日经新闻）",
-   "link": "https://wallstreetcn.com/news/global/3164311",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:16"
-  },
-  {
-   "category": "finance",
-   "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议",
-   "summary": "当地时间12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤第一阶段会议。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3164309",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:04"
-  },
-  {
-   "category": "finance",
-   "title": "“红通人员”曾能贵被引渡回国",
-   "summary": "据央视，近日，在中央反腐败协调小组国际追逃追赃工作办公室统筹协调下，经国际执法司法合作，“红通人员”、 外逃职务犯罪嫌疑人曾能贵被引渡回国。",
-   "link": "https://wallstreetcn.com/news/global/3164308",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 09:02"
-  },
-  {
-   "category": "finance",
-   "title": "到2030年，全国新型储能规模将达3亿千瓦",
-   "summary": "今年以来，我国新型储能建设持续保持高速发展态势。截至6月底，全国已建成投运新型储能装机规模达1.53亿千瓦/3.96亿千瓦时，同比增长61%。全国新型储能利用情况逐年向好，2023年、2024年、2025年全国新型储能等效利用小时数分别达到611小时、911小时、1195小时，有效发挥系统调节作用。",
-   "link": "https://wallstreetcn.com/news/global/3164306",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 08:54"
-  },
-  {
-   "category": "finance",
-   "title": "关于深入推进算力高质量发展，工信部最新发声",
-   "summary": "以“共织算力网 智启新未来”为主题的2026中国算力大会在河北廊坊开幕。工业和信息化部总工程师钟志红在开幕式上致辞。 钟志红表示，算力已成为数智时代不可或缺的新型信息基础设施。“十五五”规划纲要明确提出，构建多层次算力设施体系和全国一体化算力网。为深入推进算力高质量发展，服务国家重大战略和经济社会发展需要，在此，提四点建议。 一是强化系统谋划，提升算力利用效能。推进算力设施有序建设，加快构建枢纽、",
-   "link": "https://wallstreetcn.com/news/global/3164305",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 08:50"
-  },
-  {
-   "category": "finance",
-   "title": "我国孕产妇死亡率五年下降超20%",
-   "summary": "近年来，我国持续织密妇幼健康防护网络，聚焦孕前、孕期、分娩、养育全周期，扎实推进母婴安全、出生缺陷防治等专项行动，妇女儿童健康水平稳步提高。全国孕产妇系统管理率保持在90%以上，住院分娩率持续稳定在99%以上，建成了3571家危重孕产妇救治中心、3221家危重新生儿救治中心，护佑母婴安全。2025年，全国孕产妇死亡率为13.4/10万，较2020年下降20.7%；婴儿死亡率为3.8‰、5岁以下儿童",
-   "link": "https://wallstreetcn.com/news/global/3164304",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-12 08:38"
   }
  ]
 }
