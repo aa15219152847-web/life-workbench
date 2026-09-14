@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-09-13 20:53",
+ "updated_at": "2026-09-14 05:02",
  "ai": [
+  {
+   "category": "ai",
+   "title": "冲击全球最大 IPO：曝 Anthropic 选定纳斯达克上市，目标估值约 2 万亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/001/871.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "英国试点 AI 训练营，帮助待业青年破解就业难题",
@@ -128,160 +136,208 @@
    "link": "https://www.ithome.com/0/999/635.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "科技巨头密集更新 AI 模型，“模型疲劳”问题凸显",
-   "summary": "",
-   "link": "https://www.ithome.com/0/999/036.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "白金汉宫生命：英国国王查尔斯本周将在苏格兰会见多家AI公司的老板，其中包括英伟达、谷歌、Deepmi",
-   "summary": "白金汉宫生命：英国国王查尔斯本周将在苏格兰会见多家AI公司的老板，其中包括英伟达、谷歌、Deepmind。（纽约时报）",
-   "link": "https://wallstreetcn.com/news/global/3164451",
+   "title": "三星显示与iQOO联合发布新屏幕技术",
+   "summary": "9月14日，三星显示与iQOO在韩国三星显示总部举办的屏幕技术沟通会上，首次官宣“三星显示×iQOO未来显示探索计划”，这项计划阶段性成果将首次在iQOO16上搭载，包括2K 165Hz、三星M16发光材料、 2K LEAD 2.0显示技术。（界面新闻）",
+   "link": "https://wallstreetcn.com/news/global/3164594",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 20:33"
+   "published_at": "2026-09-14 04:54"
   },
   {
    "category": "finance",
-   "title": "美国能源部长淡化霍尔木兹海峡问题取得突破的可能性",
-   "summary": "伊朗计划向其他海湾国家提出一项航运协议之际，美国能源部长克里斯·赖特警告石油交易员，不要指望霍尔木兹海峡问题取得突破。。",
-   "link": "https://wallstreetcn.com/news/global/3164449",
+   "title": "上海并购基金三期正式开始投资运作",
+   "summary": "9月14日，据国泰海通消息，上海并购私募投资基金三期合伙企业（有限合伙）（简称“上海并购基金三期”）已在中国证券投资基金业协会完成备案，正式开始投资运作。上海并购基金三期首关规模9亿元，由国泰海通私募子公司作为基金管理人，联合大型产业集团、上市公司、金融机构等共同发起设立，主要聚焦高端制造、集成电路、新材料、新能源、信息技术等国家政策支持产业的并购等股权投资机会。",
+   "link": "https://wallstreetcn.com/news/global/3164593",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 20:26"
+   "published_at": "2026-09-14 04:46"
   },
   {
    "category": "finance",
-   "title": "微软CEO纳德拉：支持AI审慎发展与嵌入式评估机制",
-   "summary": "微软CEO纳德拉在社交媒体发文表示，任何对超级智能的探索都必须基于一项核心原则，如果开发的人工智能不能造福人类且不受人类控制，就不值得去研发。微软还需要加快并普及人工智能带来的益处，使其广泛惠及各国、各社群和企业。这需要一个前沿生态，让闭源和开源模型都能蓬勃发展。",
-   "link": "https://wallstreetcn.com/news/global/3164446",
+   "title": "上海职工医保个人账户明起可支付116款二类疫苗，包含流感、狂犬疫苗等",
+   "summary": "上海医保局发布消息称，自2026年9月15日起，本市职工医保个人账户历年结余资金，可用于支付《上海市非免疫规划疫苗集团采购中选产品目录》内的非免疫规划疫苗（含被动免疫类生物制剂）费用及注射服务费。",
+   "link": "https://wallstreetcn.com/news/global/3164591",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 20:17"
+   "published_at": "2026-09-14 04:36"
   },
   {
    "category": "finance",
-   "title": "【阿曼宣布推迟原定14日举行的地区会议】阿曼外交大臣巴德尔13日在社交媒体发文称，为寻求共识，原定1",
-   "summary": "【阿曼宣布推迟原定14日举行的地区会议】阿曼外交大臣巴德尔13日在社交媒体发文称，为寻求共识，原定14日在阿曼南部城市塞拉莱举行的地区会议已推迟。巴德尔说，阿曼将继续致力促进对话，为地区稳定与持久合作提供支持。 据卡塔尔半岛电视台12日报道，伊朗外交部发言人巴加埃表示，伊朗和阿曼预计将在14日举行的相关地区会议上，向海湾国家通报两国有关霍尔木兹海峡通航问题的磋商结果。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3164445",
+   "title": "巴基斯坦KSE-100指数下跌1%。",
+   "summary": "巴基斯坦KSE-100指数下跌1%。",
+   "link": "https://wallstreetcn.com/news/global/3164590",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 20:16"
+   "published_at": "2026-09-14 04:35"
   },
   {
    "category": "finance",
-   "title": "报道：Anthropic、OpenAI和谷歌讨论合作成立AI行业标准机构",
-   "summary": "据知情人士透露，Anthropic、OpenAI和谷歌已经在讨论合作成立一个人工智能（AI）行业标准机构。 在Anthropic首席执行官Dario Amodei上周六呼吁人工智能公司在技术测试和审核方面进行协调之前，相关磋商就已经开始。 OpenAI首席执行官Sam Altman在一次员工大会上表示，他支持成立一个面向人工智能行业的测试和审核机构。但他也认为，在没有美国政府支持的情况下，主要人工",
-   "link": "https://wallstreetcn.com/news/global/3164444",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 15:00 国新办举行国务院政策例行吹风会，请工信部副部长柯吉欣和中国人民银行、国务院国资委、市场监管总局、中国证监会有关负责人介绍加强中小企业回款难问题治理有关工作情况； ② 17:15 欧洲央行执委施纳贝尔在德国联邦经济事务和能源部的研讨会上发表主旨演说； ③ 20:30 加拿大8月CPI； ④ 21:00 欧洲央行执委奇波洛内发表讲话； ⑤ 23:15 欧洲央行行长拉加德讲话； 微信小程",
+   "link": "https://wallstreetcn.com/news/global/3164589",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 20:14"
+   "published_at": "2026-09-14 04:30"
   },
   {
    "category": "finance",
-   "title": "报道：Anthropic选择在纳斯达克IPO",
-   "summary": "据知情人士透露，Anthropic已选择纳斯达克作为其潜在IPO的上市地点，这意味着后者又赢得了一场重要的交易所竞争。今年早些时候，纳斯达克成功争取到SpaceX上市。SpaceX估值达到1.75万亿美元，而一些估算认为Anthropic的估值可能达到2万亿美元，不过这一数字目前尚未最终确定。此前，OpenAI首席执行官萨姆·奥特曼表示，鉴于围绕AI可能对人类构成生存威胁的争议，OpenAI目前不",
-   "link": "https://wallstreetcn.com/news/global/3164442",
+   "title": "早间要闻汇总",
+   "summary": "沪指低开回升涨0.16%，培育钻石、医药股集体走强。 港股探底回升，恒指半日涨0.35%，恒生科技指数涨0.17%，恒生生物科技指数大涨逾3%。 AI开发放缓叠加油价飙升，日韩股市下跌，韩国首尔综指跌超2%。 上期所原油期货主力合约日内涨超11%，站上900元/桶，为上市以来首次。 中国央行公开市场开展5040亿元隔夜逆回购操作。 中证协：加大对投行、债券交易等重点业务关键环节的内部检查力度；禁止",
+   "link": "https://wallstreetcn.com/news/global/3164588",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 16:16"
+   "published_at": "2026-09-14 04:30"
   },
   {
    "category": "finance",
-   "title": "天风证券：贵金属短期调整压力尚未解除",
-   "summary": "天风证券研报认为，黄金、白银择时均延续看空观点。行情表现上，白银周中出现一定幅度反弹，但周五出现巨幅调整，与白银择时观点预判较为一致；黄金行情周中则较为平稳，反弹力度较弱，择时模型则连续维持看空。贵金属短期调整压力尚未解除，美元和美债利率受海外加息预期扰动继续偏强，贵金属可能仍以调整为主。",
-   "link": "https://wallstreetcn.com/news/global/3164440",
+   "title": "日本7月工业产出同比终值 3.9%，初值 4.1%。",
+   "summary": "日本7月工业产出同比终值 3.9%，初值 4.1%。",
+   "link": "https://wallstreetcn.com/news/global/3164587",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 14:02"
+   "published_at": "2026-09-14 04:30"
   },
   {
    "category": "finance",
-   "title": "美国众议院议长约翰逊：特朗普的5000美元支票计划需要国会批准。",
-   "summary": "美国众议院议长约翰逊：特朗普的5000美元支票计划需要国会批准。",
-   "link": "https://wallstreetcn.com/news/global/3164439",
+   "title": "日本7月工业产出环比终值 -0.2%，初值 0.1%。",
+   "summary": "日本7月工业产出环比终值 -0.2%，初值 0.1%。",
+   "link": "https://wallstreetcn.com/news/global/3164586",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:57"
+   "published_at": "2026-09-14 04:30"
   },
   {
    "category": "finance",
-   "title": "一AI对冲基金遭遇巨亏，摩根大通终止借贷合作",
-   "summary": "据报道，美国投行摩根大通已终止向AI主题对冲基金“态势感知”（Situational Awareness）提供借贷服务。这家由前OpenAI研究员创立的基金，因AI相关杠杆投资遭遇巨额亏损、濒临崩盘，促使摩根大通切断合作。（央视财经）",
-   "link": "https://wallstreetcn.com/news/global/3164436",
+   "title": "日本7月设备利用指数环比 0.5%，前值 4.1%。",
+   "summary": "日本7月设备利用指数环比 0.5%，前值 4.1%。",
+   "link": "https://wallstreetcn.com/news/global/3164585",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:26"
+   "published_at": "2026-09-14 04:30"
   },
   {
    "category": "finance",
-   "title": "特朗普：石油公司给我打电话，说他们想去北海。 如果英国开放北海石油，他们就能变得富有。 英国若不开放",
-   "summary": "特朗普：石油公司给我打电话，说他们想去北海。 如果英国开放北海石油，他们就能变得富有。 英国若不开放北海，就会“破产”。",
-   "link": "https://wallstreetcn.com/news/global/3164435",
+   "title": "OpenAI CEO Sam Altman：世界应该相信美国AI公司会负责任地行事。 欢迎建立一致的",
+   "summary": "OpenAI CEO Sam Altman：世界应该相信美国AI公司会负责任地行事。 欢迎建立一致的安全要求框架。 转向关注安全的人工智能开发需要新的工具。",
+   "link": "https://wallstreetcn.com/news/global/3164583",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:22"
+   "published_at": "2026-09-14 04:10"
   },
   {
    "category": "finance",
-   "title": "白宫国家经济委员会主任哈塞特：很高兴看到OpenAI和马斯克支持Amodei的AI帖子。 Amode",
-   "summary": "白宫国家经济委员会主任哈塞特：很高兴看到OpenAI和马斯克支持Amodei的AI帖子。 Amodei的帖子是私营部门在AI方面的路线图。 AI安全是一个“可解决的问题”。 基于通胀数据，他会对加息持谨慎态度。 如果沃什加息，特朗普将捍卫其独立性。",
-   "link": "https://wallstreetcn.com/news/global/3164434",
+   "title": "IDC：二季度全球家用清洁机器人市场出货量同比增长21.5%",
+   "summary": "国际数据公司（IDC）最新追踪报告数据显示，2026年第二季度，全球家用清洁机器人市场出货约1120.5万台，同比增长21.5%。其中扫地机器人市场出货788.5万台，头部厂商集中度持续攀升。经历一季度36.6%的高增长后，二季度市场增速回归常态，但结构性分化进一步加剧：扫地机头部三强垄断格局固化，割草机器人延续高增，泳池机器人进入传统旺季。",
+   "link": "https://wallstreetcn.com/news/global/3164582",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:21"
+   "published_at": "2026-09-14 04:08"
   },
   {
    "category": "finance",
-   "title": "特朗普（被问及人工智能行业是否应放缓时表示）：谁赢得人工智能，谁就赢得未来。 我们可以设置保护措施，",
-   "summary": "特朗普（被问及人工智能行业是否应放缓时表示）：谁赢得人工智能，谁就赢得未来。 我们可以设置保护措施，但有些声音过于消极。",
-   "link": "https://wallstreetcn.com/news/global/3164433",
+   "title": "希音盘中一度跌超10%。",
+   "summary": "希音盘中一度跌超10%。",
+   "link": "https://wallstreetcn.com/news/global/3164578",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:18"
+   "published_at": "2026-09-14 03:46"
   },
   {
    "category": "finance",
-   "title": "特朗普：泽连斯基必须停止打击柴油燃料。",
-   "summary": "特朗普：泽连斯基必须停止打击柴油燃料。",
-   "link": "https://wallstreetcn.com/news/global/3164432",
+   "title": "阿里云宣布，DeepSeek-V4.1-Flash正式上线千问AI平台，相关API服务与Token",
+   "summary": "阿里云宣布，DeepSeek-V4.1-Flash正式上线千问AI平台，相关API服务与Token Plan同步开放。",
+   "link": "https://wallstreetcn.com/news/global/3164576",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:16"
+   "published_at": "2026-09-14 03:43"
   },
   {
    "category": "finance",
-   "title": "特朗普在被问及是否预计美联储加息时表示：我不知道。 我们的利率应该是全球最低的。",
-   "summary": "特朗普在被问及是否预计美联储加息时表示：我不知道。 我们的利率应该是全球最低的。",
-   "link": "https://wallstreetcn.com/news/global/3164430",
+   "title": "印尼基准股指盘中下跌1.5%，至8月底以来新低。",
+   "summary": "印尼基准股指盘中下跌1.5%，至8月底以来新低。",
+   "link": "https://wallstreetcn.com/news/global/3164575",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 13:12"
+   "published_at": "2026-09-14 03:43"
   },
   {
    "category": "finance",
-   "title": "美国众议院议长约翰逊：AI监管不能仓促推进。 任何立法前应先与AI领袖会面。 特朗普提出的5000美",
-   "summary": "美国众议院议长约翰逊：AI监管不能仓促推进。 任何立法前应先与AI领袖会面。 特朗普提出的5000美元支票方案不会增加债务。",
-   "link": "https://wallstreetcn.com/news/global/3164429",
+   "title": "中国财政部发行2年期债券，规模1300亿元，发行利率1.2300%，边际利率1.2500%，预期1.",
+   "summary": "中国财政部发行2年期债券，规模1300亿元，发行利率1.2300%，边际利率1.2500%，预期1.2500%，投标倍数2.61倍，边际倍数5.57倍； 中国财政部发行7年期债券，规模1000亿元，发行利率1.4900%，边际利率1.5100%，预期1.5000%，投标倍数4.13倍，边际倍数3.03倍。",
+   "link": "https://wallstreetcn.com/news/global/3164574",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 12:29"
+   "published_at": "2026-09-14 03:38"
   },
   {
    "category": "finance",
-   "title": "报道：若沙特输油管道中断，全球石油供应恐损失4%",
-   "summary": "三名消息人士称，沙特在延布的出口储存量仅够5至7天，另外在埃及还有少量储备。除非几天内恢复输送，否则沙特管道中断将导致全球石油供应减少4%。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3164427",
+   "title": "上证指数早盘收报3894.28点，涨0.16%。 深证成指早盘收报13436.92点，跌0.25%。",
+   "summary": "上证指数早盘收报3894.28点，涨0.16%。 深证成指早盘收报13436.92点，跌0.25%。 创业板指早盘收报3306.36点，跌0.47%。 沪深300早盘收报4495.92点，跌0.32%。 科创50早盘收报1538.84点，跌0.94%。 中证500早盘收报7581.80点，涨0.02%。 中证1000早盘收报7477.39点，涨0.68%。",
+   "link": "https://wallstreetcn.com/news/global/3164573",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 12:15"
+   "published_at": "2026-09-14 03:31"
   },
   {
    "category": "finance",
-   "title": "罗博特科通过港交所上市聆讯",
-   "summary": "港交所文件显示，罗博特科通过港交所上市聆讯。",
-   "link": "https://wallstreetcn.com/news/global/3164426",
+   "title": "9月14日午间收评：沪指低开回升涨0.16%，培育钻石、医药股集体走强",
+   "summary": "1、市场早间低开回升，三大指数涨跌互现。培育钻石概念股走强，黄河旋风、恒盛能源、恒林股份涨停。MLCC概念延续涨势，双星新材2连板，康达新材涨停。创新药概念拉升，万邦医药、三力制药涨停。汽车整车股反弹，安凯客车、众泰汽车、海马汽车涨停。下跌方面，农业股迎来调整，敦煌种业、新农开发跌停。个股涨多跌少，沪深京三市约3600股飘红，上午半天成交1.11万亿。午间收盘沪指涨0.16%，深成指跌0.25%，",
+   "link": "https://wallstreetcn.com/news/global/3164572",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 11:49"
+   "published_at": "2026-09-14 03:30"
   },
   {
    "category": "finance",
-   "title": "澳大利亚首次在海狮体内检出H5N1禽流感病毒",
-   "summary": "澳大利亚南澳大利亚州官员13日表示，该国首次在濒危的澳大利亚海狮身上检出H5N1型高致病性禽流感病毒。南澳州环境部长埃米莉·伯克说，这头海狮11日在袋鼠岛死亡，经检测，其感染了H5N1禽流感病毒。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3164425",
+   "title": "国债期货早盘收盘，30年期主力合约涨0.07%，10年期主力合约涨0.08%，5年期主力合约涨0.0",
+   "summary": "国债期货早盘收盘，30年期主力合约涨0.07%，10年期主力合约涨0.08%，5年期主力合约涨0.07%，2年期主力合约涨0.02%。",
+   "link": "https://wallstreetcn.com/news/global/3164570",
    "source": "华尔街见闻",
-   "published_at": "2026-09-13 11:31"
+   "published_at": "2026-09-14 03:30"
+  },
+  {
+   "category": "finance",
+   "title": "上期所原油期货主力合约日内涨超11%，站上900元/桶，为上市以来首次。",
+   "summary": "上期所原油期货主力合约日内涨超11%，站上900元/桶，为上市以来首次。",
+   "link": "https://wallstreetcn.com/news/global/3164568",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 03:23"
+  },
+  {
+   "category": "finance",
+   "title": "财政部副部长廖岷会见新加坡金融管理局副行长梁新松",
+   "summary": "9月9日，财政部副部长廖岷在北京会见新加坡金融管理局副行长梁新松，双方就全球及两国宏观经济形势和两国财金合作等问题交换了意见。",
+   "link": "https://wallstreetcn.com/news/global/3164567",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 03:04"
+  },
+  {
+   "category": "finance",
+   "title": "新国标发布！进一步健全智能网联汽车软件安全治理体系",
+   "summary": "今天了解到，市场监管总局（国家标准委）近日批准发布《汽车软件质量与缺陷管理规范》国家标准。在质量策划方面，该标准要求汽车生产者、软件提供方及供应链上下游相关组织建立软件质量安全管理体系，实施软件安全管理、历史问题规避、状态报告监控等10项关键质量保证活动，适配多种开发模式，强化人工智能软件、嵌入式软件、云端软件等多类对象的管控要求。标准的发布与实施有利于推动汽车软件缺陷识别与防控关口前移，进一步健",
+   "link": "https://wallstreetcn.com/news/global/3164566",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 03:01"
+  },
+  {
+   "category": "finance",
+   "title": "隔夜SHIBOR报1.4120%，下降0.50个基点。 7天SHIBOR报1.4180%，下降0.2",
+   "summary": "隔夜SHIBOR报1.4120%，下降0.50个基点。 7天SHIBOR报1.4180%，下降0.20个基点。 3个月SHIBOR报1.4300%，上涨0.00个基点。",
+   "link": "https://wallstreetcn.com/news/global/3164565",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 03:01"
+  },
+  {
+   "category": "finance",
+   "title": "澳洲联储助理主席Hunter：澳大利亚通货膨胀率仍高于目标水平。 澳大利亚家庭支出“表现尚可”，企业",
+   "summary": "澳洲联储助理主席Hunter：澳大利亚通货膨胀率仍高于目标水平。 澳大利亚家庭支出“表现尚可”，企业投资显现强劲迹象。 偏远地区住房市场表现比主要城市更具韧性。 对燃料价格上涨趋势感到担忧。 通胀风险偏向上行。",
+   "link": "https://wallstreetcn.com/news/global/3164559",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 02:42"
+  },
+  {
+   "category": "finance",
+   "title": "日本内阁官房长官木原稔：将在编制预算时适当控制发债规模。",
+   "summary": "日本内阁官房长官木原稔：将在编制预算时适当控制发债规模。",
+   "link": "https://wallstreetcn.com/news/global/3164558",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 02:41"
+  },
+  {
+   "category": "finance",
+   "title": "A股机器人概念股震荡走强，万讯自控20cm涨停，科森科技此前封板，奇精机械、浙江荣泰、北自科技、江苏",
+   "summary": "A股机器人概念股震荡走强，万讯自控20cm涨停，科森科技此前封板，奇精机械、浙江荣泰、北自科技、江苏北人涨超5%。",
+   "link": "https://wallstreetcn.com/news/global/3164556",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-14 02:38"
   }
  ]
 }
