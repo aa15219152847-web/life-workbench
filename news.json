@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15 17:03",
+ "updated_at": "2026-09-15 21:25",
  "ai": [
   {
    "category": "ai",
@@ -165,171 +165,187 @@
  "finance": [
   {
    "category": "finance",
-   "title": "美国财政部拍卖130亿美元20年期国债，得标利率5.420%，突破2023年10月按5.245%所创",
-   "summary": "美国财政部拍卖130亿美元20年期国债，得标利率5.420%，突破2023年10月按5.245%所创历史最高，投标倍数2.57。",
-   "link": "https://wallstreetcn.com/news/global/3165681",
+   "title": "花旗策略师David Bieber：过去一周，随着市场追随收益率上行走势，美国国债空头仓位迅速累积。",
+   "summary": "花旗策略师David Bieber：过去一周，随着市场追随收益率上行走势，美国国债空头仓位迅速累积。 目前的空头仓位“从战术角度看已处于极端水平。",
+   "link": "https://wallstreetcn.com/news/global/3165764",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 17:02"
+   "published_at": "2026-09-15 21:24"
   },
   {
    "category": "finance",
-   "title": "Thatch按10亿美元估值融资1.08亿美元。",
-   "summary": "Thatch按10亿美元估值融资1.08亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3165680",
+   "title": "债市空头已处于极端水平，押注美联储兑现加息预期",
+   "summary": "美联储周三公布利率决定之前，债市交易员大举建立看跌头寸，押注推动收益率升至逾十年高点的美国国债抛售潮还将持续。 随着交易员为美联储可能加息以应对通胀担忧作准备，基准10年期美国国债收益率周二升至2007年以来最高水平。与此同时，2年期收益率升至2024年以来最高水平。",
+   "link": "https://wallstreetcn.com/news/global/3165763",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 17:01"
+   "published_at": "2026-09-15 21:23"
   },
   {
    "category": "finance",
-   "title": "国际铜夜盘收涨0.38%，沪铜收涨0.25%，沪铝收涨0.46%，沪锌收涨0.19%，沪铅收跌0.2",
-   "summary": "国际铜夜盘收涨0.38%，沪铜收涨0.25%，沪铝收涨0.46%，沪锌收涨0.19%，沪铅收跌0.22%，沪镍收跌2.47%，沪锡收跌0.02%。 氧化铝夜盘收跌0.22%，铝合金收跌0.06%。 不锈钢夜盘收跌1.55%。",
-   "link": "https://wallstreetcn.com/news/global/3165679",
+   "title": "OpenAI计算主管Sachin Katti：安全的AI将需要部署更多电脑。",
+   "summary": "OpenAI计算主管Sachin Katti：安全的AI将需要部署更多电脑。",
+   "link": "https://wallstreetcn.com/news/global/3165762",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 17:00"
+   "published_at": "2026-09-15 21:21"
   },
   {
    "category": "finance",
-   "title": "OpenAI考虑在加拿大建立数据中心，赞赏总理卡尼的计划。",
-   "summary": "OpenAI考虑在加拿大建立数据中心，赞赏总理卡尼的计划。",
-   "link": "https://wallstreetcn.com/news/global/3165678",
+   "title": "波罗的海交易所数据显示，截至周二，租用一艘超大型油轮将200万桶美国墨西哥湾原油运往亚洲的成本约为4",
+   "summary": "波罗的海交易所数据显示，截至周二，租用一艘超大型油轮将200万桶美国墨西哥湾原油运往亚洲的成本约为4480万美元，创历史新高。",
+   "link": "https://wallstreetcn.com/news/global/3165761",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:59"
+   "published_at": "2026-09-15 21:21"
   },
   {
    "category": "finance",
-   "title": "LME期铜收涨82美元，报14084美元/吨。 LME期铝收涨7美元，报3252美元/吨。 LME期",
-   "summary": "LME期铜收涨82美元，报14084美元/吨。 LME期铝收涨7美元，报3252美元/吨。 LME期锌收涨30美元，报3824美元/吨。 LME期铅收跌8美元，报1874美元/吨。 LME期镍收跌357美元，报15977美元/吨。 LME期锡收涨87美元，报51966美元/吨。 LME期钴收跌525美元，报40675美元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3165677",
+   "title": "英伟达首席执行官黄仁勋：有观点认为人工智能会摧毁就业岗位，这同样完全是无稽之谈。",
+   "summary": "英伟达首席执行官黄仁勋：有观点认为人工智能会摧毁就业岗位，这同样完全是无稽之谈。",
+   "link": "https://wallstreetcn.com/news/global/3165759",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:51"
+   "published_at": "2026-09-15 21:18"
   },
   {
    "category": "finance",
-   "title": "“要么行动 要么闭嘴”，DoubleLine称美联储需加息以稳定债市",
-   "summary": "DoubleLine Capital的Jeffrey Sherman表示，美联储需要加息，以让交易员相信其致力于压低通胀，并缓解本周推动10年期美国国债收益率突破5%的市场担忧。 该资产管理公司的这位副首席投资官接受彭博电视采访时表示，美联储主席凯文·沃什“明天就有能力通过加息来帮上一把”。Sherman说，“市场已经在消化加息预期，他们要么拿出行动，要么就闭嘴。”",
-   "link": "https://wallstreetcn.com/news/global/3165676",
+   "title": "原加拿大总理Stephen Harper（2006-2015年）：加拿大（此前）不得不退出与美国的贸",
+   "summary": "原加拿大总理Stephen Harper（2006-2015年）：加拿大（此前）不得不退出与美国的贸易谈判。",
+   "link": "https://wallstreetcn.com/news/global/3165758",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:49"
+   "published_at": "2026-09-15 21:17"
   },
   {
    "category": "finance",
-   "title": "布伦特原油日内涨幅达3.0%，报108.87美元/桶。",
-   "summary": "布伦特原油日内涨幅达3.0%，报108.87美元/桶。",
-   "link": "https://wallstreetcn.com/news/global/3165675",
+   "title": "富时A50期指连续夜盘收涨0.25%，报14306点。",
+   "summary": "富时A50期指连续夜盘收涨0.25%，报14306点。",
+   "link": "https://wallstreetcn.com/news/global/3165756",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:44"
+   "published_at": "2026-09-15 21:15"
   },
   {
    "category": "finance",
-   "title": "智利当局将调查安托法加斯塔矿区致命事故",
-   "summary": "据智利矿业监管机构称，周二在智利北部安托法加斯塔大区的一处矿区发生了一起致命事故。 国家地质与矿业局（简称Sernageomin）在X平台发布的一则帖子中表示，事故发生在塔尔塔尔市（Taltal）的Zulema I-Daniela II矿区。 Sernageomin表示，该机构地区办事处的一支调查小组正赶赴现场展开调查，但未提供事故具体情况。",
-   "link": "https://wallstreetcn.com/news/global/3165673",
+   "title": "明晟公司MSCI新兴市场股票指数跌1%，发展中国家外汇指数跌0.3%。",
+   "summary": "明晟公司MSCI新兴市场股票指数跌1%，发展中国家外汇指数跌0.3%。",
+   "link": "https://wallstreetcn.com/news/global/3165755",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:36"
+   "published_at": "2026-09-15 21:13"
   },
   {
    "category": "finance",
-   "title": "两年期德债收益率微跌，10年期德债收益率创2009年以来新高",
-   "summary": "周二（9月15日）欧市尾盘，德国10年期国债收益率涨2个基点，报3.538%，日内交投于3.524%-3.573%区间，全天处于上涨状态，早盘冲高回落，北京时间16:04逼近2009年二季度顶部3.749%、2008年四季度最高位4.148%。 两年期德债收益率跌0.6个基点，报3.257%，日内交投于3.306%-3.237%区间；30年期德债收益率涨3.4个基点，报3.892%，16:49达到",
-   "link": "https://wallstreetcn.com/news/global/3165670",
+   "title": "周二（9月15日）纽约尾盘，标普500股指期货最终跌0.32%，道指期货跌0.53%，纳斯达克100",
+   "summary": "周二（9月15日）纽约尾盘，标普500股指期货最终跌0.32%，道指期货跌0.53%，纳斯达克100股指期货跌0.55%。 罗素2000股指期货跌0.63%。",
+   "link": "https://wallstreetcn.com/news/global/3165753",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:26"
+   "published_at": "2026-09-15 21:10"
   },
   {
    "category": "finance",
-   "title": "高管称：Radiant World Group起诉嘉能可，索赔20亿美元",
-   "summary": "据Radiant World Group一名高管透露，Radiant World和Sapphire Minmetals已在新加坡对嘉能可提起诉讼，索赔20亿美元。 Sapphire Minmetals董事长拉凯什·塞蒂（Rakesh Sethi）表示：”我们已在新加坡法院对嘉能可提起20亿美元的诉讼。”他表示，Radiant World和Sapphire Minmetals将联合发起此次索赔，但拒",
-   "link": "https://wallstreetcn.com/news/global/3165669",
+   "title": "周二（9月15日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7122元，较",
+   "summary": "周二（9月15日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7122元，较周一纽约尾盘跌27点，日内整体交投于6.7079-6.7162元区间。",
+   "link": "https://wallstreetcn.com/news/global/3165752",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:24"
+   "published_at": "2026-09-15 21:04"
   },
   {
    "category": "finance",
-   "title": "法国央行：预计2026年经济将增长0.4%。 预测2026年调和消费者物价指数（HICP）通胀率为2",
-   "summary": "法国央行：预计2026年经济将增长0.4%。 预测2026年调和消费者物价指数（HICP）通胀率为2.3%（6月预测值为2.5%），2027年为1.9%（此前预测1.7%），2028年为1.6%（此前预测1.7%）。",
-   "link": "https://wallstreetcn.com/news/global/3165668",
+   "title": "美股加密货币与加密货币关联指数收跌6.62%，报68.81点，整体低开低走。 最近24小时，现货比特",
+   "summary": "美股加密货币与加密货币关联指数收跌6.62%，报68.81点，整体低开低走。 最近24小时，现货比特币跌4.05%，暂报75880美元，整体持续走低，美国参议院针对加密货币立法草案的程序性投票失败之后，出现一波加速下跌行情。 现货以太坊跌6.26%，暂报2405.645美元，整体持续走低。",
+   "link": "https://wallstreetcn.com/news/global/3165751",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:22"
+   "published_at": "2026-09-15 21:02"
   },
   {
    "category": "finance",
-   "title": "WTI原油日内涨幅达4.0%，报105.5美元/桶。",
-   "summary": "WTI原油日内涨幅达4.0%，报105.5美元/桶。",
-   "link": "https://wallstreetcn.com/news/global/3165667",
+   "title": "周二（9月15日）纽约尾盘，现货黄金跌0.16%，报4292.85美元/盎司，整体呈现出W形走势。",
+   "summary": "周二（9月15日）纽约尾盘，现货黄金跌0.16%，报4292.85美元/盎司，整体呈现出W形走势。 现货白银涨0.70%，报63.6661美元/盎司。 COMEX铜期货涨0.80%，报6.4545美元/磅。 在美股时段交易的费城金银指数收涨0.01%，报387.64点，整体呈现出V形反转。 在全球市场全天交易的纽约证交所ARCA金矿开采商指数跌0.53%，报2693.03点。 在美股时段交易的原材",
+   "link": "https://wallstreetcn.com/news/global/3165750",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:15"
+   "published_at": "2026-09-15 20:59"
   },
   {
    "category": "finance",
-   "title": "英国央行行长呼吁英国政府将反欺诈执法权留给伦敦金融城警察",
-   "summary": "英国央行行长贝利敦促英国政府继续由伦敦金融城警察（City of London Police）负责金融区的欺诈和经济犯罪执法工作，与此同时，各方呼吁对这一问题采取更统一的全国性应对方案。 贝利周一晚间在伦敦金融城警察管理局董事会的一次集会上罕见地进行了政治干预，他表示：“金融犯罪的专业能力自然应当设在金融活动中心附近。”他的这番言论正值英国内政部计划推出一揽子改革之际，该改革可能将打击欺诈的权力移",
-   "link": "https://wallstreetcn.com/news/global/3165665",
+   "title": "联合国安理会就曼德海峡局势举行紧急会议",
+   "summary": "9月15日，联合国安理会就曼德海峡局势举行紧急会议。联合国助理秘书长哈立德·赫亚里通报称，近几日曼德海峡及周边地区局势日益动荡，也门西海岸战事持续升级。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3165749",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:11"
+   "published_at": "2026-09-15 20:57"
   },
   {
    "category": "finance",
-   "title": "WTI原油突破105美元/桶关口，日内涨幅超过3.5%。",
-   "summary": "WTI原油突破105美元/桶关口，日内涨幅超过3.5%。",
-   "link": "https://wallstreetcn.com/news/global/3165662",
+   "title": "行业周报：美国上周API原油库存增超700万桶",
+   "summary": "美国石油协会（API）数据显示，上周，美国API原油库存 +714.4万桶，之前一周 -30万桶。 上周API库欣原油库存 -24.6万桶，前值 -30万桶。 上周API成品油汽油库存 +146.2万桶（前值 -190万桶）、馏分油库存 +160.7万桶（前值 +200万桶）。",
+   "link": "https://wallstreetcn.com/news/global/3165748",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 16:00"
+   "published_at": "2026-09-15 20:52"
   },
   {
    "category": "finance",
-   "title": "美国财长贝森特：我们不设定美债收益率的均衡价格。 我相信我们有必要的工具。 10年期美债收益率体现出",
-   "summary": "美国财长贝森特：我们不设定美债收益率的均衡价格。 我相信我们有必要的工具。 10年期美债收益率体现出诸多因素，包括（财政）赤字。",
-   "link": "https://wallstreetcn.com/news/global/3165661",
+   "title": "美国在新一轮签证限制政策中将南非列为目标。",
+   "summary": "美国在新一轮签证限制政策中将南非列为目标。",
+   "link": "https://wallstreetcn.com/news/global/3165747",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:59"
+   "published_at": "2026-09-15 20:50"
   },
   {
    "category": "finance",
-   "title": "周二（9月15日）欧市尾盘，英国10年期国债收益率涨1.6个基点，报5.384%。 两年期英债收益率",
-   "summary": "周二（9月15日）欧市尾盘，英国10年期国债收益率涨1.6个基点，报5.384%。 两年期英债收益率跌0.2个基点，报4.888%。 30年期英债收益率涨3个基点，50年期英债收益率涨2.2个基点。 2/10年期英债收益率利差涨1.915个基点，报+49.470个基点。",
-   "link": "https://wallstreetcn.com/news/global/3165659",
+   "title": "新一轮美墨贸易磋商预计最快将于下周开始。（华尔街日报）",
+   "summary": "新一轮美墨贸易磋商预计最快将于下周开始。（华尔街日报）",
+   "link": "https://wallstreetcn.com/news/global/3165746",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:56"
+   "published_at": "2026-09-15 20:49"
   },
   {
    "category": "finance",
-   "title": "美国财长贝森特：（美方）控制着许多委内瑞拉资产。",
-   "summary": "美国财长贝森特：（美方）控制着许多委内瑞拉资产。",
-   "link": "https://wallstreetcn.com/news/global/3165658",
+   "title": "白宫经济顾问委员会主席克里斯托弗·费伦：美联储若加息将是一个错误。",
+   "summary": "白宫经济顾问委员会主席克里斯托弗·费伦：美联储若加息将是一个错误。",
+   "link": "https://wallstreetcn.com/news/global/3165744",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:55"
+   "published_at": "2026-09-15 20:44"
   },
   {
    "category": "finance",
-   "title": "美国能源部长：我认为沙特的东西输油管道很快就会恢复运行。",
-   "summary": "美国能源部长：我认为沙特的东西输油管道很快就会恢复运行。",
-   "link": "https://wallstreetcn.com/news/global/3165657",
+   "title": "普尔特警示\"不必要\"成本后，房贷保险商股价集体下挫",
+   "summary": "在美国联邦住房金融局（FHFA）局长比尔·普尔特（Bill Pulte）暗示房主在某些情况下不应被迫支付房贷保险费用后，房贷保险公司股价应声下跌。MGIC Investment Corp.股价下跌3.1%，创4月以来的最差单日表现。Essent Group Ltd.下跌0.9%，Radian Group Inc.和NMI Holdings Inc.均跌1.4%。",
+   "link": "https://wallstreetcn.com/news/global/3165743",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:52"
+   "published_at": "2026-09-15 20:41"
   },
   {
    "category": "finance",
-   "title": "美国财长：美国从日元干预中获得数千万美元收益",
-   "summary": "美国财长贝森特：我们一直就日本干预（日元汇率）保持联系。 针对日元干预，美方使用了“名义金额”。 凭借一笔“名义金额”，美国财政部得以释放支持日本政策的信号。 美国从中获得（至少）数千万美元收益。 日元走强意味着日本政府无需出售美国资产。 日元走强意对美国出口更有利。",
-   "link": "https://wallstreetcn.com/news/global/3165656",
+   "title": "北美科技软件股指数ETF跌1.02%，报105.55美元。 Global X网络安全ETF涨2.23",
+   "summary": "北美科技软件股指数ETF跌1.02%，报105.55美元。 Global X网络安全ETF涨2.23%，纳斯达克网络安全ETF涨0.95%，ETFMG网络安全ETF涨1.71%。",
+   "link": "https://wallstreetcn.com/news/global/3165742",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:50"
+   "published_at": "2026-09-15 20:24"
   },
   {
    "category": "finance",
-   "title": "嘉能可：Radiant World向贷款方发送伪造发票",
-   "summary": "嘉能可（Glencore Plc）指控铁矿石贸易商Radiant World向”多家金融机构”发送伪造发票，这是针对该贸易商的一系列欺诈指控中的最新一起。 嘉能可在一份声明中表示，其拥有“确凿证据”证明Radiant World及其关联公司“向多家金融机构发送了伪造的发票和合同，以及捏造的电子邮件，并欺诈性地声称这些邮件来自嘉能可员工”。",
-   "link": "https://wallstreetcn.com/news/global/3165655",
+   "title": "可转债ETF收跌0.9%，领跌美股大类资产类ETF，布油基金涨超2.2%",
+   "summary": "周二（9月15日），巴克莱美国可转债ETF收跌0.91%，罗素2000指数ETF跌0.7%，纳斯达克100 ETF、道指ETF至少跌0.62%，日元做多跌0.5%，标普500 ETF跌0.46%，新兴市场ETF跌0.35%，农产品基金、美国国债20+年ETF、美国房地产ETF、欧元做多至多跌0.28%。 做多美元指数则收涨0.18%，黄金ETF涨0.33%，大豆基金涨0.94%，美国布伦特油价基金",
+   "link": "https://wallstreetcn.com/news/global/3165741",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:45"
+   "published_at": "2026-09-15 20:21"
   },
   {
    "category": "finance",
-   "title": "周二（9月15日）欧市尾盘，ICE英国天然气期货跌3.19%，报198.650便士/千卡。 TTF基",
-   "summary": "周二（9月15日）欧市尾盘，ICE英国天然气期货跌3.19%，报198.650便士/千卡。 TTF基准荷兰天然气期货跌2.09%，报80.281欧元/兆瓦时。 ICE欧盟碳排放交易许可（期货价格）跌2.89%，报84.92欧元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3165654",
+   "title": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:",
+   "summary": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。",
+   "link": "https://wallstreetcn.com/news/global/3165740",
    "source": "华尔街见闻",
-   "published_at": "2026-09-15 15:43"
+   "published_at": "2026-09-15 20:20"
+  },
+  {
+   "category": "finance",
+   "title": "周二（9月15日），美股行业ETF普遍收跌，可选消费ETF跌1.75%，生物科技指数ETF跌1.27",
+   "summary": "周二（9月15日），美股行业ETF普遍收跌，可选消费ETF跌1.75%，生物科技指数ETF跌1.27%，网络股指数ETF跌0.96%，全球科技股指数ETF跌0.33%，半导体ETF涨0.11%，能源业ETF涨2.17%。",
+   "link": "https://wallstreetcn.com/news/global/3165739",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-15 20:18"
+  },
+  {
+   "category": "finance",
+   "title": "标普500指数的11个板块中，可选消费板块收跌1.76%，电信板块跌0.84%，金融、信息技术/科技",
+   "summary": "标普500指数的11个板块中，可选消费板块收跌1.76%，电信板块跌0.84%，金融、信息技术/科技板块跌0.34%，能源板块涨2.26%。",
+   "link": "https://wallstreetcn.com/news/global/3165737",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-15 20:10"
   }
  ]
 }
