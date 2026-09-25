@@ -1,6 +1,78 @@
 {
- "updated_at": "2026-09-24 21:33",
+ "updated_at": "2026-09-25 05:02",
  "ai": [
+  {
+   "category": "ai",
+   "title": "Claude Opus 5.5 仅用约 1 小时从零开发 RTX 加速路径追踪器，支持多种材质与光照效果",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/115.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Muse 爆火提振 Meta 股价，扎克伯格超戴尔跃升《福布斯》全球第四大富豪",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/105.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "DeepSeek Harness 官方桌面版预览偷跑",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/099.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "英伟达黄仁勋：若前沿实验室无法控制 AI，那么必须要关闭",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/090.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软正淡化 Copilot+ PC 品牌，2026 新款 Surface 已弃用",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/080.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Meta 推出 2 款 AI 工具，让用户在手机端直接构建游戏",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/068.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Meta 的 AI 智能体 Muse 被发现可导出虚拟机大量文件",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/059.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "英伟达黄仁勋：AI 不会必然消灭某个职业，“10 年内 AI 毁灭人类”更是无稽之谈",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/051.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "高通押注 AI 生态：一套软件栈通吃所有设备，编程语言 Mojo 将原生支持 Win11",
+   "summary": "",
+   "link": "https://www.ithome.com/1/007/050.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "研究警示：美国 AI 基建投入规模空前，潜藏系统性金融风险",
@@ -88,224 +160,192 @@
    "link": "https://www.ithome.com/1/006/211.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "苹果新任 CEO 特努斯：说出“One more thing”的感觉很奇妙",
-   "summary": "",
-   "link": "https://www.ithome.com/1/006/092.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "消息称苹果搁置研发 AI 吊坠，曾设想以摄像头拓展 Siri 能力",
-   "summary": "",
-   "link": "https://www.ithome.com/1/006/017.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "逾七成美国人担忧 AI 公司防控不力，超半数支持放缓开发",
-   "summary": "",
-   "link": "https://www.ithome.com/1/005/985.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "联合国秘书长古特雷斯呼吁全球监管人工智能，避免出现杀人机器人",
-   "summary": "",
-   "link": "https://www.ithome.com/1/005/978.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "联合国 AI 专家反对 AI 末日论，呼吁理性讨论",
-   "summary": "",
-   "link": "https://www.ithome.com/1/005/915.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 助力古籍修复：Apollo 大语言模型问世，专门用于解读古希腊莎草纸残片",
-   "summary": "",
-   "link": "https://www.ithome.com/1/005/878.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "联合国：不必等风险完全厘清，各国应提前管控 AI 智能体",
-   "summary": "",
-   "link": "https://www.ithome.com/1/005/386.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "欧洲央行官员：AI 收益怎么分配，会直接影响通胀走势",
-   "summary": "",
-   "link": "https://www.ithome.com/1/005/312.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "秘鲁能矿部长：欢迎中企扩大在秘能矿领域投资",
-   "summary": "秘鲁能源和矿业部长吉列尔莫·新野24日说，自秘中自由贸易协定2010年生效以来，双方经贸合作不断深化，其中矿业合作尤为突出。秘鲁正在推动进一步扩大中国企业在矿业和能源领域的投资，尤其是在非常规可再生能源领域。",
-   "link": "https://wallstreetcn.com/news/global/3170633",
+   "title": "浙江舟山：“自愈式”智慧微电网保障海岛供电稳定",
+   "summary": "25日，浙江舟山110千伏中柱变电站完成了为期9天的综合检修。综合检修期间，国网舟山供电公司依托“自愈式”海岛智慧微电网，保障电力持续稳定供应。据了解，为补强偏远海岛供电短板，国网舟山供电公司2024年在庙子湖岛率先投运海岛智慧微电网，并配套建设柴油发电、储能、光伏等多元电源体系，实现源网荷储一体化智能调度，具备主网停运后独立离网运行能力。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3170694",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:31"
+   "published_at": "2026-09-25 04:48"
   },
   {
    "category": "finance",
-   "title": "周四（9月24日）纽约尾盘，欧元兑美元跌0.05%，英镑兑美元跌0.20%，美元兑瑞郎涨0.32%。",
-   "summary": "周四（9月24日）纽约尾盘，欧元兑美元跌0.05%，英镑兑美元跌0.20%，美元兑瑞郎涨0.32%。 商品货币对中，澳元兑美元跌0.35%，纽元兑美元跌0.16%，美元兑加元涨0.29%。 瑞典克朗兑美元跌0.15%，挪威克朗兑美元跌0.14%，丹麦克朗兑美元跌0.04%。 波兰兹罗提兑美元跌0.13%，美元兑匈牙利福林涨0.15%。 土耳其里拉兑美元跌0.18%，南非兰特兑美元跌0.39%，墨西",
-   "link": "https://wallstreetcn.com/news/global/3170632",
+   "title": "日本两年期国债收益率上升5个基点至1.95%。",
+   "summary": "日本两年期国债收益率上升5个基点至1.95%。",
+   "link": "https://wallstreetcn.com/news/global/3170692",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:25"
+   "published_at": "2026-09-25 04:42"
   },
   {
    "category": "finance",
-   "title": "哥伦比亚宣布已与伊朗断绝外交关系。",
-   "summary": "哥伦比亚宣布已与伊朗断绝外交关系。",
-   "link": "https://wallstreetcn.com/news/global/3170631",
+   "title": "宇树科技王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差",
+   "summary": "9月24日，第五届全球数字贸易博览会在杭州举行，宇树科技创始人王兴兴发表《从机械到灵智 — 具身未来进化论》主题演讲。王兴兴判断，具身智能赛道未来也必将迎来专属的“ChatGPT时刻”。当机器人可在80%的陌生场景中，通过语音具身能力完成80%的任务时，就意味着行业抵达爆发临界点。让机器人说指令、象征意义执行某个具体工作，在去年已能实现。王兴兴认为，目前最大的问题是AI模型的输入、输出与真实物理世",
+   "link": "https://wallstreetcn.com/news/global/3170691",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:23"
+   "published_at": "2026-09-25 04:02"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.03%，报14318点。",
-   "summary": "富时A50期指连续夜盘收涨0.03%，报14318点。",
-   "link": "https://wallstreetcn.com/news/global/3170629",
+   "title": "Canaccord Genuity将Meta目标价从930美元上调至950美元。",
+   "summary": "Canaccord Genuity将Meta目标价从930美元上调至950美元。",
+   "link": "https://wallstreetcn.com/news/global/3170689",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:15"
+   "published_at": "2026-09-25 03:43"
   },
   {
    "category": "finance",
-   "title": "Anthropic生物学发现引发科学家谨慎表态",
-   "summary": "Anthropic PBC宣布，其Claude人工智能（AI）模型发现了一种与早期突破性基因编辑技术相似的酶系统，但这一消息遭到部分领域专家的谨慎对待，他们认为该公司夸大了该发现的重要性。",
-   "link": "https://wallstreetcn.com/news/global/3170627",
+   "title": "2026中秋档票房突破5000万",
+   "summary": "据灯塔专业版，2026年中秋档档期（9月25日-9月27日）票房突破5000万，《复仇者联盟4：终局之战（加码臻享版）》《八仙！》《欢迎来龙餐馆》暂列前三。",
+   "link": "https://wallstreetcn.com/news/global/3170688",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:09"
+   "published_at": "2026-09-25 03:39"
   },
   {
    "category": "finance",
-   "title": "周四（9月24日）纽约尾盘，标普500股指期货最终跌0.12%，道指期货跌0.39%，纳斯达克100",
-   "summary": "周四（9月24日）纽约尾盘，标普500股指期货最终跌0.12%，道指期货跌0.39%，纳斯达克100股指期货跌0.07%。 罗素2000股指期货跌0.17%。",
-   "link": "https://wallstreetcn.com/news/global/3170625",
+   "title": "泰国8月基于海关数据的出口较上年同期+24.3%，进口较上年同期+25.1%，贸易逆差2.5亿美元。",
+   "summary": "泰国8月基于海关数据的出口较上年同期+24.3%，进口较上年同期+25.1%，贸易逆差2.5亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3170687",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:02"
+   "published_at": "2026-09-25 03:34"
   },
   {
    "category": "finance",
-   "title": "周四（9月24日）纽约尾盘（周五北京时间04:59），离岸人民币（CNH）兑美元报6.7159元，较",
-   "summary": "周四（9月24日）纽约尾盘（周五北京时间04:59），离岸人民币（CNH）兑美元报6.7159元，较周三纽约尾盘跌44点，日内整体交投于6.7101-6.7201元区间。",
-   "link": "https://wallstreetcn.com/news/global/3170624",
+   "title": "中国海警在黄岩岛国家级自然保护区开展全面执法巡查。（央视新闻）",
+   "summary": "中国海警在黄岩岛国家级自然保护区开展全面执法巡查。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3170686",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 21:02"
+   "published_at": "2026-09-25 03:32"
   },
   {
    "category": "finance",
-   "title": "对冲基金Situational Awareness今年成为高盛最大客户",
-   "summary": "对冲基金Situational Awareness今年成为高盛规模最大的主经纪商客户。这家机构此前名不见经传，却在遭遇数百亿美元巨额亏损之后，依然拥有如此惊人的业务体量，这件事十分值得关注。",
-   "link": "https://wallstreetcn.com/news/global/3170623",
+   "title": "最快45分钟可达！西渝高铁西安至安康段9月28日开通运营",
+   "summary": "从国铁集团获悉，西渝高铁西安至安康段将于9月28日开通运营，西安东站至安康西站最快45分钟可达，将为区域经济社会协调发展注入新动能。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3170685",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:59"
+   "published_at": "2026-09-25 03:19"
   },
   {
    "category": "finance",
-   "title": "周四（9月24日）纽约尾盘，现货黄金跌0.37%，报4271.49美元/盎司。 现货白银跌1%，报6",
-   "summary": "周四（9月24日）纽约尾盘，现货黄金跌0.37%，报4271.49美元/盎司。 现货白银跌1%，报63.7915美元/盎司。 COMEX铜期货涨0.16%，报6.7645美元/磅。 在美股时段交易的费城金银指数收跌1.53%，报381.05点。 在全球市场全天交易的纽约证交所ARCA金矿开采商指数跌1.75%，报2645.04点，全天处于下跌状态，开盘之前维持微幅下跌状态——持续交投于2680点一",
-   "link": "https://wallstreetcn.com/news/global/3170622",
+   "title": "港元1个月期HIBOR升至1月份以来最高水平。",
+   "summary": "港元1个月期HIBOR升至1月份以来最高水平。",
+   "link": "https://wallstreetcn.com/news/global/3170684",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:59"
+   "published_at": "2026-09-25 03:19"
   },
   {
    "category": "finance",
-   "title": "美国银行策略师Raghav Adlakha表示：要让套息交易继续奏效，我们需要利率波动率走低，理想情",
-   "summary": "美国银行策略师Raghav Adlakha表示：要让套息交易继续奏效，我们需要利率波动率走低，理想情况下美国利率保持区间震荡。 如果这种情况发生的同时油价低于100美元，那么这一主题还能卷土重来。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3170620",
+   "title": "5.81万元/㎡！厦门首宗现房销售地块，创楼面价新高",
+   "summary": "9月24日，厦门迎来“8·28”地产新政后的首场土拍，2宗涉宅用地均以底价成交，总成交金额41.95亿元。其中，湖里区地块是新政后厦门首宗、也是福建省内首宗明确实行现房销售的涉宅用地，成交综合楼面价58148元/㎡，已创厦门涉宅用地楼面价新高，最终建发以底价35.61亿元竞得该地块。（券商中国）",
+   "link": "https://wallstreetcn.com/news/global/3170683",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:54"
+   "published_at": "2026-09-25 03:17"
   },
   {
    "category": "finance",
-   "title": "美债暴跌威胁新兴市场套息交易，花旗选择撤退",
-   "summary": "美国国债收益率飙升并触及数十年高位，正威胁到今年以来备受新兴市场投资者青睐的套息交易策略。 花旗集团已关闭其套息交易组合，该组合此前包括做多南非兰特、墨西哥比索、哥伦比亚比索和土耳其里拉，同时做空加元和瑞郎。花旗在周四发布的一份研报中表示，此举是由于强劲的美国采购经理人指数（PMI）报告、疲弱的5年期美债拍卖以及地缘政治消息共同推高了市场波动。 分析师写道：“我们过去已多次证明，套息交易通常在波动",
-   "link": "https://wallstreetcn.com/news/global/3170619",
+   "title": "深圳传音控股计划下周启动香港上市推介。（IFR国际金融评论）",
+   "summary": "深圳传音控股计划下周启动香港上市推介。（IFR国际金融评论）",
+   "link": "https://wallstreetcn.com/news/global/3170682",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:54"
+   "published_at": "2026-09-25 03:17"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数跌0.4%，发展中国家外汇指数跌0.9%。",
-   "summary": "明晟公司MSCI新兴市场股票指数跌0.4%，发展中国家外汇指数跌0.9%。",
-   "link": "https://wallstreetcn.com/news/global/3170616",
+   "title": "去哪儿旅行：中秋首日国内机票预订量同比增长超六成",
+   "summary": "受“请3休13”拼假潮拉动，大量原定国庆出发的长线客流提前至9月25日启程。去哪儿旅行数据显示，本周“中秋赏月”“赏秋游”相关关键词搜索量环比增长3.1倍；9月25日中秋首日国内机票预订量同比增长超六成，堪称史上最“火”中秋。",
+   "link": "https://wallstreetcn.com/news/global/3170681",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:46"
+   "published_at": "2026-09-25 03:16"
   },
   {
    "category": "finance",
-   "title": "北美科技软件股指数ETF跌0.88%，报107.15美元。 Global X网络安全ETF跌1%，纳",
-   "summary": "北美科技软件股指数ETF跌0.88%，报107.15美元。 Global X网络安全ETF跌1%，纳斯达克网络安全ETF跌0.79%，ETFMG网络安全ETF跌1.52%。",
-   "link": "https://wallstreetcn.com/news/global/3170615",
+   "title": "最高立减7000元，特斯拉再次降价促销",
+   "summary": "特斯拉宣布推出最新优惠政策。2026年10月31日（含）前下单，Model 3全系限时尾款立减5000元，Model Y部分车型限时尾款立减7000元，同时可享“5年0息、8000元限时车漆选装福利、特享充电权益三选一”组合福利。此外，Model 3部分车型将享有8000元保险补贴。享受以上政策优惠后，Model 3售价为22.25万元起，Model Y售价为25.65万元起。",
+   "link": "https://wallstreetcn.com/news/global/3170680",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:45"
+   "published_at": "2026-09-25 02:51"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块中，公用事业、原材料板块至多收跌1.02%，信息技术/科技板块跌0.32%",
-   "summary": "标普500指数的11个板块中，公用事业、原材料板块至多收跌1.02%，信息技术/科技板块跌0.32%，能源板块涨0.43%，电信板块涨1.92%——成分股Meta收涨4.5%领跑、谷歌A涨超1.3%。",
-   "link": "https://wallstreetcn.com/news/global/3170610",
+   "title": "成渝中线高铁重庆段铺轨完成",
+   "summary": "从长江沿岸铁路集团重庆公司获悉，9月25日，在重庆市两江新区成渝中线高铁人和隧道施工现场，随着最后一组500米长钢轨稳稳落下，成渝中线高铁重庆段铺轨工程完工。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3170679",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:28"
+   "published_at": "2026-09-25 02:48"
   },
   {
    "category": "finance",
-   "title": "周四（9月24日），美股行业ETF多数收跌，公用事业ETF收跌0.98%，科技行业ETF、全球科技股",
-   "summary": "周四（9月24日），美股行业ETF多数收跌，公用事业ETF收跌0.98%，科技行业ETF、全球科技股指数ETF、半导体ETF至多跌0.32%，能源业ETF涨0.37%，网络股指数ETF涨0.77%，区域银行ETF涨0.8%，生物科技指数ETF涨1.28%。",
-   "link": "https://wallstreetcn.com/news/global/3170609",
+   "title": "特斯拉开始交付Semi电动卡车",
+   "summary": "特斯拉本周开始向首批客户交付Semi卡车。公司高管在内华达州斯帕克斯市的工厂表示，距离首席执行官埃隆·马斯克首次揭幕这款电动重型卡车已近九年。周四晚间，特斯拉在该工厂举行的网络直播活动中，并未披露该卡车的产量计划或定价。公司重申了在内华达州工厂年产5万辆Semi卡车的计划。",
+   "link": "https://wallstreetcn.com/news/global/3170678",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:26"
+   "published_at": "2026-09-25 02:44"
   },
   {
    "category": "finance",
-   "title": "20+年期美债ETF收跌约1.3%，领跌美股大类资产类ETF，布油基金涨超2.4%",
-   "summary": "周四（9月24日），美国国债20+年ETF收跌1.29%，美国投资级公司债ETF跌0.71%，新兴市场ETF跌0.68%，通胀债券指数ETF跌0.49%，日元做多、道指ETF、美国房地产ETF、黄金ETF、大豆基金、巴克莱美国可转债ETF、欧元做多、罗素2000指数ETF、标普500 ETF、纳斯达克100指数ETF至多跌0.35%。 农产品基金收平，做多美元指数涨0.14%，美国布伦特油价基金涨",
-   "link": "https://wallstreetcn.com/news/global/3170608",
+   "title": "截至早盘收盘，日经225指数、东证指数涨1.2%。",
+   "summary": "截至早盘收盘，日经225指数、东证指数涨1.2%。",
+   "link": "https://wallstreetcn.com/news/global/3170677",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:25"
+   "published_at": "2026-09-25 02:31"
   },
   {
    "category": "finance",
-   "title": "明晟公司（MSCI）：将加拿大证券交易所纳入 MSCI 全球可投资市场指数编制方法中加拿大的合格证券",
-   "summary": "明晟公司（MSCI）：将加拿大证券交易所纳入 MSCI 全球可投资市场指数编制方法中加拿大的合格证券交易所名单。",
-   "link": "https://wallstreetcn.com/news/global/3170607",
+   "title": "日本财务大臣片山皋月：收益率受到多种因素的影响。 我们正在尽力采取措施应对收益率上升。",
+   "summary": "日本财务大臣片山皋月：收益率受到多种因素的影响。 我们正在尽力采取措施应对收益率上升。",
+   "link": "https://wallstreetcn.com/news/global/3170676",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:23"
+   "published_at": "2026-09-25 02:11"
   },
   {
    "category": "finance",
-   "title": "美国10年期国债收益率涨至5.2%，创2007年以来新高。",
-   "summary": "美国10年期国债收益率涨至5.2%，创2007年以来新高。",
-   "link": "https://wallstreetcn.com/news/global/3170605",
+   "title": "日元兑美元短线快速走强。日本财务大臣片山皋月称，特朗普对日元走弱表达了担忧。",
+   "summary": "日元兑美元短线快速走强。日本财务大臣片山皋月称，特朗普对日元走弱表达了担忧。",
+   "link": "https://wallstreetcn.com/news/global/3170675",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:12"
+   "published_at": "2026-09-25 02:08"
   },
   {
    "category": "finance",
-   "title": "报道：蓝色起源按1400亿美元估值融资100亿美元",
-   "summary": "蓝色起源实施第一轮外部资本融资，按1400亿美元估值融资100亿美元，贝佐斯出资20亿美元。 预计交易完成时，所募集的金额将超过目标。 关于该公司收入的文件显示，贝佐斯自从2000年以来对其投资达到300亿美元。 该公司2025年营收8亿美元，2026年迄今收入估计为14亿美元。 预计2030年收入将超过300亿美元。（华尔街日报）",
-   "link": "https://wallstreetcn.com/news/global/3170604",
+   "title": "日本财务大臣片山皋月：具体的货币政策工具由日本央行决定。 日本央行最近的加息举措旨在实现通胀目标。",
+   "summary": "日本财务大臣片山皋月：具体的货币政策工具由日本央行决定。 日本央行最近的加息举措旨在实现通胀目标。 希望日本央行在与政府保持沟通协调的同时，实施恰当的货币政策。 不对具体的汇率水平及汇率检查发表评论。 特朗普及美方在峰会期间对日元走弱表达了担忧。 将在外汇问题上与美方保持密切协调。 高市早苗首相总体上对日元走弱表示关注。",
+   "link": "https://wallstreetcn.com/news/global/3170674",
    "source": "华尔街见闻",
-   "published_at": "2026-09-24 20:11"
+   "published_at": "2026-09-25 02:07"
+  },
+  {
+   "category": "finance",
+   "title": "亚洲首只！光通信主动ETF今日港交所上市",
+   "summary": "9月25日，惠理基金宣布，惠理光通信主动型ETF正式登陆港交所。该基金不仅是惠理旗下首只AI主题ETF，更是亚洲首只光通信主题的主动ETF。",
+   "link": "https://wallstreetcn.com/news/global/3170673",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 01:54"
+  },
+  {
+   "category": "finance",
+   "title": "花旗：腾讯小微有望成为中国首选代理式AI助手",
+   "summary": "花旗称，腾讯将原生人工智能(AI)助手小微嵌入微信，能利用其庞大的每月活跃用户数(MAU)、专有的社交图谱及成熟且经过验证的小程序商业生态。该行认为，随着智能体商业在中国兴起，小微未来有望通过交易抽成和广告打开巨大的长期变现空间。维持腾讯“买入”评级和目标价765港元，较周四收盘价有74%的上涨空间。",
+   "link": "https://wallstreetcn.com/news/global/3170672",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 01:50"
+  },
+  {
+   "category": "finance",
+   "title": "日本30年期国债收益率升至4.21%，创1999年上市以来新高。",
+   "summary": "日本30年期国债收益率升至4.21%，创1999年上市以来新高。",
+   "link": "https://wallstreetcn.com/news/global/3170671",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 01:46"
+  },
+  {
+   "category": "finance",
+   "title": "恒生科技指数日内跌幅扩大至2%。小米、阿里巴巴跌超3%。",
+   "summary": "恒生科技指数日内跌幅扩大至2%。小米、阿里巴巴跌超3%。",
+   "link": "https://wallstreetcn.com/news/global/3170669",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 01:31"
   }
  ]
 }
