@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-25 17:16",
+ "updated_at": "2026-09-25 21:38",
  "ai": [
   {
    "category": "ai",
@@ -165,155 +165,187 @@
  "finance": [
   {
    "category": "finance",
-   "title": "周五（9月25日），美联储隔夜逆回购协议（RRP）使用规模为5.76亿美元（交易对手3家），上个交易",
-   "summary": "周五（9月25日），美联储隔夜逆回购协议（RRP）使用规模为5.76亿美元（交易对手3家），上个交易日报6.30亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3170845",
+   "title": "英伟达首席执行官黄仁勋：如今，或者在不久之后，我们将能够知晓一切、完成任何事。 你交给它一个项目，它",
+   "summary": "英伟达首席执行官黄仁勋：如今，或者在不久之后，我们将能够知晓一切、完成任何事。 你交给它一个项目，它就能给出解决方案；你下达一项任务，它就能把任务完成。",
+   "link": "https://wallstreetcn.com/news/global/3170927",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:15"
+   "published_at": "2026-09-25 21:33"
   },
   {
    "category": "finance",
-   "title": "美国联邦贸易委员会（FTC）主席：没有理由认为FTC一贯执行的反欺诈标准不适用于人工智能企业。 尽管",
-   "summary": "美国联邦贸易委员会（FTC）主席：没有理由认为FTC一贯执行的反欺诈标准不适用于人工智能企业。 尽管委员会目前只有共和党委员、没有民主党委员，但内部仍存在 “良性讨论”。",
-   "link": "https://wallstreetcn.com/news/global/3170843",
+   "title": "美国官员：（关于7天计划）美国正通过中间人与伊朗进行积极、建设性的讨论，双方继续就核问题展开沟通。",
+   "summary": "美国官员：（关于7天计划）美国正通过中间人与伊朗进行积极、建设性的讨论，双方继续就核问题展开沟通。",
+   "link": "https://wallstreetcn.com/news/global/3170925",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:11"
+   "published_at": "2026-09-25 21:31"
   },
   {
    "category": "finance",
-   "title": "英国两年期国债收益率周五跌超7个基点",
-   "summary": "周五（9月25日）欧市尾盘，英国10年期国债收益率跌1.5个基点，报5.366%，临近结束交易时候出现回撤——追随国际油价走低的表现，持稳于9月14日顶部5.434%（逼近2007年三季度顶部5.564%）附近，本周累计上涨7.1个基点。 两年期英债收益率跌7.1个基点，报4.839%，跳空低开之后震荡上行、一度逼近4.9%，大致持平。 本周，30年期英债收益率累涨10.2个基点，报5.863%；",
-   "link": "https://wallstreetcn.com/news/global/3170842",
+   "title": "巴西财长：巴西将再推出一项债务重组计划。",
+   "summary": "巴西财长：巴西将再推出一项债务重组计划。",
+   "link": "https://wallstreetcn.com/news/global/3170924",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:07"
+   "published_at": "2026-09-25 21:17"
   },
   {
    "category": "finance",
-   "title": "美国9月25日当周总钻井数 599，前值 595。",
-   "summary": "美国9月25日当周总钻井数 599，前值 595。",
-   "link": "https://wallstreetcn.com/news/global/3170840",
+   "title": "巴西政府颁布行政命令，禁止在该国境内开展在线博彩业务。",
+   "summary": "巴西政府颁布行政命令，禁止在该国境内开展在线博彩业务。",
+   "link": "https://wallstreetcn.com/news/global/3170923",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:00"
+   "published_at": "2026-09-25 21:15"
   },
   {
    "category": "finance",
-   "title": "美国9月25日当周石油钻井数 455，前值 452。",
-   "summary": "美国9月25日当周石油钻井数 455，前值 452。",
-   "link": "https://wallstreetcn.com/news/global/3170839",
+   "title": "富时A50期指连续夜盘收涨0.08%，报14297点。",
+   "summary": "富时A50期指连续夜盘收涨0.08%，报14297点。",
+   "link": "https://wallstreetcn.com/news/global/3170921",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:00"
+   "published_at": "2026-09-25 21:15"
   },
   {
    "category": "finance",
-   "title": "美国9月25日当周天然气钻井数 135，前值 134。",
-   "summary": "美国9月25日当周天然气钻井数 135，前值 134。",
-   "link": "https://wallstreetcn.com/news/global/3170838",
+   "title": "派拉蒙天舞（Paramount SkyDance）将从纳斯达克迁往纽交所。 10月5日，该公司股票将",
+   "summary": "派拉蒙天舞（Paramount SkyDance）将从纳斯达克迁往纽交所。 10月5日，该公司股票将从纳斯达克摘牌，10月6日将开始在纽交所挂牌交易。",
+   "link": "https://wallstreetcn.com/news/global/3170920",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:00"
+   "published_at": "2026-09-25 21:13"
   },
   {
    "category": "finance",
-   "title": "习近平圆满结束对美国的国事访问。（新华社）",
-   "summary": "习近平圆满结束对美国的国事访问。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3170837",
+   "title": "周五（9月25日）纽约尾盘，标普500股指期货最终涨0.51%，道指期货涨0.93%，纳斯达克100",
+   "summary": "周五（9月25日）纽约尾盘，标普500股指期货最终涨0.51%，道指期货涨0.93%，纳斯达克100股指期货涨0.51%。 罗素2000股指期货涨0.17%。",
+   "link": "https://wallstreetcn.com/news/global/3170919",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 17:00"
+   "published_at": "2026-09-25 21:11"
   },
   {
    "category": "finance",
-   "title": "SK海力士旗下Solidigm考虑2027年IPO，估值可能为1500亿美元。 该公司可能会通过IP",
-   "summary": "SK海力士旗下Solidigm考虑2027年IPO，估值可能为1500亿美元。 该公司可能会通过IPO融资150亿美元。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3170834",
+   "title": "周五（9月25日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7227元，较",
+   "summary": "周五（9月25日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7227元，较周四纽约尾盘跌68点，日内整体交投于6.7134-6.7258元区间。 本周，离岸人民币累计下跌超0.4%，最近四个交易日持续回撤。",
+   "link": "https://wallstreetcn.com/news/global/3170918",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:54"
+   "published_at": "2026-09-25 21:11"
   },
   {
    "category": "finance",
-   "title": "LME期铜收涨2美元，报14622美元/吨。 LME期铝收涨18美元，报3268美元/吨。 LME期",
-   "summary": "LME期铜收涨2美元，报14622美元/吨。 LME期铝收涨18美元，报3268美元/吨。 LME期锌收跌56美元，报3900美元/吨。 LME期铅收跌5美元，报1929美元/吨。 LME期镍收跌172美元，报16329美元/吨。 LME期锡收涨338美元，报54348美元/吨。 LME期钴收平，报39640美元/吨。",
-   "link": "https://wallstreetcn.com/news/global/3170833",
+   "title": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局势以及航运中断，是美",
+   "summary": "伊朗外长：2月28日之前，霍尔木兹海峡一直保持通航。 霍尔木兹海峡当前的不安全局势以及航运中断，是美国和以色列政权侵略行径直接造成的结果。 你不能轰炸一个国家、威胁将其摧毁、实施海上封锁与强制措施，却指望安全与航运自动恢复。",
+   "link": "https://wallstreetcn.com/news/global/3170916",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:52"
+   "published_at": "2026-09-25 21:09"
   },
   {
    "category": "finance",
-   "title": "印度储备银行（RBI，央行）于7月份在外汇市场净买入186.5亿美元。",
-   "summary": "印度储备银行（RBI，央行）于7月份在外汇市场净买入186.5亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3170830",
+   "title": "国际金价本周跌超2%，纽约期银跌3.6%，金属矿业ETF连跌五周",
+   "summary": "周五（9月25日）纽约尾盘，现货黄金涨0.25%，报4285.81美元/盎司，本周累计下跌2.11%，整体持续走低。 COMEX黄金期货累跌2.35%，报4321.40美元/盎司。 现货白银涨0.79%，报64.3172美元/盎司，本周累跌2.93%，9月22日曾涨至67.5464美元。 COMEX白银期货累跌3.60%，报64.730美元/盎司。 COMEX铜期货跌0.18%，报6.7775美元",
+   "link": "https://wallstreetcn.com/news/global/3170915",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:48"
+   "published_at": "2026-09-25 21:06"
   },
   {
    "category": "finance",
-   "title": "本周10年期德债收益率涨超8个基点创2009年以来新高",
-   "summary": "周五（9月25日）欧市尾盘，德国10年期国债收益率涨0.2个基点，报3.601%，本周累计上涨8.2个基点，交投于3.42%-3.632%区间，整体持续走高，继续逼近2009年二季度最高位3.749%、2008年四季度顶部4.148%。 两年期德债收益率跌4.9个基点，报3.278%，本周累跌0.2个基点，交投于3.175%-3.347%区间；30年期德债收益率涨4.4个基点，报3.909%，北京",
-   "link": "https://wallstreetcn.com/news/global/3170828",
+   "title": "伊朗外长：所谓伊朗即将获得核武器的说法纯属弥天大谎，该说法最早由以色列在2003年编造，此后美国与欧",
+   "summary": "伊朗外长：所谓伊朗即将获得核武器的说法纯属弥天大谎，该说法最早由以色列在2003年编造，此后美国与欧洲国家一直重复这套说辞。 伊朗自1970年起便是《不扩散核武器条约》的忠实缔约国，数十年来一直接受国际原子能机构的全面监督。 美国一边攻击处于国际原子能机构保障监督下的和平核设施，一边宣称捍卫核不扩散，这种说法缺乏可信度。",
+   "link": "https://wallstreetcn.com/news/global/3170913",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:41"
+   "published_at": "2026-09-25 21:03"
   },
   {
    "category": "finance",
-   "title": "报道：伊朗高级官员称伊朗在其核计划上不会作出任何让步",
-   "summary": "伊朗高级官员：霍尔木兹海峡将保持关闭，在伊朗的条件得到满足前，不会与美国举行核谈判。 伊朗不会在核计划问题上做出任何让步。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3170827",
+   "title": "Meta在美国新墨西哥州败诉，或面临高达2190亿美元罚款",
+   "summary": "美国新墨西哥州总检察长劳尔·托雷斯表示，在陪审团裁定Meta Platforms Inc.违反州法律后，他将寻求对该公司处以最高达2190亿美元的罚款。陪审团认定，Meta在言论政策和数据隐私政策方面误导公众，从而违反了新墨西哥州法律。",
+   "link": "https://wallstreetcn.com/news/global/3170911",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:35"
+   "published_at": "2026-09-25 20:38"
   },
   {
    "category": "finance",
-   "title": "墨西哥外交部长：我对美国墨西哥加拿大贸易协议（USMCA）谈判持谨慎乐观态度。 与韩国的谈判不会达成",
-   "summary": "墨西哥外交部长：我对美国墨西哥加拿大贸易协议（USMCA）谈判持谨慎乐观态度。 与韩国的谈判不会达成自由贸易协定。 墨西哥与巴西的关系十分良好，我们寻求与拉美国家开展务实合作。",
-   "link": "https://wallstreetcn.com/news/global/3170825",
+   "title": "OpenAI正设法在发生用户数据泄露事故理解AI agent的活动范围。（路透）",
+   "summary": "OpenAI正设法在发生用户数据泄露事故理解AI agent的活动范围。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3170910",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:33"
+   "published_at": "2026-09-25 20:33"
   },
   {
    "category": "finance",
-   "title": "必和必拓：Escondida矿场的活动已经开始恢复。",
-   "summary": "必和必拓：Escondida矿场的活动已经开始恢复。",
-   "link": "https://wallstreetcn.com/news/global/3170824",
+   "title": "报道：Anthropic正谈判租赁最高1吉瓦算力，需要投入至少400亿美元",
+   "summary": "Anthropic正开展初步谈判，拟从阿波罗全球管理控股的数据中心开发商手中租赁最高1吉瓦的算力容量。这是这家AI企业降低对云服务商依赖的重大举措。 据了解谈判情况的人士透露，Claude模型的开发方Anthropic探讨直接成为Stream Data Centers开发项目的租户。这家企业已有27年发展历史，在美国多地布局数据中心；Anthropic计划在机房内部署博通与谷歌设计的张量处理单元（",
+   "link": "https://wallstreetcn.com/news/global/3170909",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:30"
+   "published_at": "2026-09-25 20:31"
   },
   {
    "category": "finance",
-   "title": "法国央行行长Moulin：法国必须尽快解决好赤字问题。 “欧洲央行对债务问题有解决方案”这种想法是不",
-   "summary": "法国央行行长Moulin：法国必须尽快解决好赤字问题。 “欧洲央行对债务问题有解决方案”这种想法是不负责任的。",
-   "link": "https://wallstreetcn.com/news/global/3170823",
+   "title": "伊朗外交部长：伊朗方面可以接受这份七天计划，霍尔木兹海峡最终将恢复通航。",
+   "summary": "伊朗外交部长：伊朗方面可以接受这份七天计划，霍尔木兹海峡最终将恢复通航。",
+   "link": "https://wallstreetcn.com/news/global/3170907",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:24"
+   "published_at": "2026-09-25 20:24"
   },
   {
    "category": "finance",
-   "title": "据美国纽约联储数据，上个交易日（9月24日）担保隔夜融资利率（SOFR）报3.88%，之前一天报3.",
-   "summary": "据美国纽约联储数据，上个交易日（9月24日）担保隔夜融资利率（SOFR）报3.88%，之前一天报3.87%。 上个交易日有效的联邦基金利率报3.88%，之前一天报3.88%。",
-   "link": "https://wallstreetcn.com/news/global/3170822",
+   "title": "新兴市场ETF收涨约1.1%，与日元ETF领涨美股大类资产类ETF，布油基金跌超3.5%",
+   "summary": "周五（9月25日），新兴市场ETF收涨1.09%，日元做多涨1.07%——日本官员们称汇率疲软是个问题，道指ETF涨0.94%，标普500 ETF涨0.54%，纳斯达克100 ETF涨0.46%，黄金ETF涨0.44%，通胀债券指数ETF、欧元做多、罗素2000指数ETF、美国投资级公司债ETF至多涨0.23%。 巴克莱美国可转债ETF收平，农产品基金、美国高收益公司债ETF、美国国债20+年ET",
+   "link": "https://wallstreetcn.com/news/global/3170906",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:19"
+   "published_at": "2026-09-25 20:17"
   },
   {
    "category": "finance",
-   "title": "报道：美伊谈判进入技术磋商阶段，伊朗提出7天重开霍尔木兹方案",
-   "summary": "美伊在纽约举行的谈判已从初步外交接触进入更深入的技术磋商阶段。半岛电视台驻德黑兰分社社长努尔丁·德盖尔称，在美国特使史蒂夫·维特科夫和贾里德·库什纳完成首轮会谈后，技术专家已加入后续讨论。报道称，伊朗代表团此前签证未获美国政府批准，但随后获准入境并参与谈判。",
-   "link": "https://wallstreetcn.com/news/global/3170821",
+   "title": "美联储：美国上周银行存款19.568万亿美元，之前一周19.658万亿美元。",
+   "summary": "美联储：美国上周银行存款19.568万亿美元，之前一周19.658万亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3170905",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:14"
+   "published_at": "2026-09-25 20:16"
   },
   {
    "category": "finance",
-   "title": "美国政府问责局（GAO）在一份报告中估计，2018-24年间，联邦政府每年因税务欺诈造成的损失在11",
-   "summary": "美国政府问责局（GAO）在一份报告中估计，2018-24年间，联邦政府每年因税务欺诈造成的损失在1160亿-3040亿美元之间，约占政府预估应纳税额的2%-6%。",
-   "link": "https://wallstreetcn.com/news/global/3170819",
+   "title": "标普500指数的11个板块多数收涨，信息技术/科技板块涨0.99%，工业板块涨0.94%，金融板块涨",
+   "summary": "标普500指数的11个板块多数收涨，信息技术/科技板块涨0.99%，工业板块涨0.94%，金融板块涨0.53%，房地产、电信、能源板块则至多收跌0.87%。",
+   "link": "https://wallstreetcn.com/news/global/3170904",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:08"
+   "published_at": "2026-09-25 20:11"
   },
   {
    "category": "finance",
-   "title": "美国贸易代表格里尔下周将前往威斯康辛州，参加二十国集团（G20）会议。",
-   "summary": "美国贸易代表格里尔下周将前往威斯康辛州，参加二十国集团（G20）会议。",
-   "link": "https://wallstreetcn.com/news/global/3170818",
+   "title": "周五（9月25日），彭博电动汽车价格回报指数跌0.25%，报3200.42点，本周累计下跌1.76%",
+   "summary": "周五（9月25日），彭博电动汽车价格回报指数跌0.25%，报3200.42点，本周累计下跌1.76%，9月21-22日持续上扬，随后持续走低。",
+   "link": "https://wallstreetcn.com/news/global/3170902",
    "source": "华尔街见闻",
-   "published_at": "2026-09-25 16:07"
+   "published_at": "2026-09-25 20:07"
+  },
+  {
+   "category": "finance",
+   "title": "Gen Digital Inc.（GEN）本周累计下跌25%，创最近六年来最差单周表现。",
+   "summary": "Gen Digital Inc.（GEN）本周累计下跌25%，创最近六年来最差单周表现。",
+   "link": "https://wallstreetcn.com/news/global/3170901",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 20:05"
+  },
+  {
+   "category": "finance",
+   "title": "Bloom Energy Corp.收涨8.27%，报288.70美元，创6月份以来收盘新高。",
+   "summary": "Bloom Energy Corp.收涨8.27%，报288.70美元，创6月份以来收盘新高。",
+   "link": "https://wallstreetcn.com/news/global/3170900",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 20:03"
+  },
+  {
+   "category": "finance",
+   "title": "Zscaler Inc.收跌10%，创5月27日以来最大单日跌幅，该公司任命Ross Tackett",
+   "summary": "Zscaler Inc.收跌10%，创5月27日以来最大单日跌幅，该公司任命Ross Tackett为首席营收官（CRO）。",
+   "link": "https://wallstreetcn.com/news/global/3170899",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 20:02"
+  },
+  {
+   "category": "finance",
+   "title": "纳斯达克金龙中国指数收跌0.64%，报5687.91点，逼近6月26日底部5654.75点，本周累计",
+   "summary": "纳斯达克金龙中国指数收跌0.64%，报5687.91点，逼近6月26日底部5654.75点，本周累计下跌1.72%，8月初以来持续走低。 热门中概股里，文远知行初步收跌4.3%，小米跌2.3%，理想跌2.1%，网易跌1.8%，比亚迪跌1%，拼多多跌0.8%。 ETF中，中概互联网指数ETF（KWEB）收跌0.45%，本周回撤1.01%； XtrackersHarvest中证50（ASHS）收跌0.",
+   "link": "https://wallstreetcn.com/news/global/3170898",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-25 20:00"
   }
  ]
 }
