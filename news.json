@@ -1,6 +1,38 @@
 {
- "updated_at": "2026-09-29 12:59",
+ "updated_at": "2026-09-29 22:20",
  "ai": [
+  {
+   "category": "ai",
+   "title": "2026 OpenAI 开发者日遭 15+ 组织抗议，要求 AI 数据中心设 100 英里安全距离",
+   "summary": "",
+   "link": "https://www.ithome.com/1/008/533.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，AI 加速走向工作场景",
+   "summary": "",
+   "link": "https://www.ithome.com/1/008/532.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "150 毫秒极速响应：OpenAI 推出 Decisions API，让 AI 从“聊天”走向“实时决策”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/008/531.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "同性能下最高性价比 AI 模型：OpenAI 发布 GPT-6.1 Sol，性能媲美 Astra、费用仅为 1/5",
+   "summary": "",
+   "link": "https://www.ithome.com/1/008/527.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "我国生成式人工智能用户规模突破 7 亿人，普及率超 50%",
@@ -128,224 +160,160 @@
    "link": "https://www.ithome.com/1/007/274.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英伟达黄仁勋谈“AI 让孩子淡忘基础数学”：这不是问题，我都记不住家庭地址 / 电话号码",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/145.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Claude Opus 5.5 仅用约 1 小时从零开发 RTX 加速路径追踪器，支持多种材质与光照效果",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/115.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Muse 爆火提振 Meta 股价，扎克伯格超戴尔跃升《福布斯》全球第四大富豪",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/105.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "DeepSeek Harness 官方桌面版预览偷跑",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/099.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "全球主动管理ETF资产规模、年净流入额，双双创新高",
-   "summary": "近日，ETF独立研究与咨询公司ETFGI发布的报告显示，截至2026年8月底，全球主动管理ETF资产规模达2.72万亿美元，且资金净流入额达6636亿美元，双双创历史新高。 增速方面，全球主动管理ETF的资产规模年初至今增长了42.6%，凸显了投资者对该类产品持续的需求。（中国基金报）",
-   "link": "https://wallstreetcn.com/news/global/3172234",
+   "title": "券商密集开展注销式回购，市值管理转向长期股东回报",
+   "summary": "2026年下半年以来，上市券商回购节奏明显加快。据不完全统计，已有红塔证券、中泰证券、国联民生、长江证券、华安证券等5家上市券商披露新一轮股份回购方案，另有国金证券等券商针对前期回购方案更新进展。从行业结构看，本轮回购参与主体以中小型券商为主。此外，本轮回购的发起主体趋于多元，不再局限于上市公司董事会层面。在券商自身回购加速的同时，重要股东增持计划也接踵而至。 梳理发现，与此前以市值维护、股权激励",
+   "link": "https://wallstreetcn.com/news/global/3172507",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:58"
+   "published_at": "2026-09-29 22:20"
   },
   {
    "category": "finance",
-   "title": "OpenAI就其智能体擅访澳医保数据致歉",
-   "summary": "据澳大利亚媒体29日报道，美国开放人工智能研究中心（OpenAI）已就其智能体未经授权访问澳国民医疗保险体系数据门户致歉。",
-   "link": "https://wallstreetcn.com/news/global/3172232",
+   "title": "短期震荡不改中长期逻辑，近六成私募“持股过节”",
+   "summary": "临近国庆长假，仓位灵活的私募倾向于“持币过节”还是“持股过节”？私募排排网最新调查结果显示，近六成参与调查的私募倾向于在节前保持重仓或满仓（仓位大于80%），而倾向于轻仓或空仓（仓位小于40%）持币过节的私募占比不足8%。从投资组合结构来看，均衡配置成为不少私募的共识性选择。在他们看来，尽管近期市场波动加剧，但是已基本释放悲观预期，在企业基本面持续修复的背景下，节后结构性行情有望进一步演绎。（上证",
+   "link": "https://wallstreetcn.com/news/global/3172505",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:49"
+   "published_at": "2026-09-29 22:18"
   },
   {
    "category": "finance",
-   "title": "路畅科技：控股股东中联重科正在筹划通过协议转让等方式转让所持公司股份，交易对手方属于新能源电池行业，",
-   "summary": "路畅科技：控股股东中联重科正在筹划通过协议转让等方式转让所持公司股份，交易对手方属于新能源电池行业，该事项可能导致公司控制权变更；公司股票自2026年9月30日开市起停牌。",
-   "link": "https://wallstreetcn.com/news/global/3172228",
+   "title": "积极信号释放，绩优基金集中“松绑”",
+   "summary": "近期，易方达、汇安等基金公司对旗下绩优基金放宽限购金额，且部分产品近一年业绩出彩。高位限购防止资金追高涌入，市场回调后再放宽限制，已逐渐成为公募基金高质量发展之下的行业常态。业内人士认为，集中“松绑”不仅是基金公司“逆势操作”的体现，也向市场传递出一定的积极信号。（上证报）",
+   "link": "https://wallstreetcn.com/news/global/3172504",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:41"
+   "published_at": "2026-09-29 22:17"
   },
   {
    "category": "finance",
-   "title": "富国银行：预计美联储政策利率到2027年底将为4.75%-5.00%，此前预测为4.00%-4.25",
-   "summary": "富国银行：预计美联储政策利率到2027年底将为4.75%-5.00%，此前预测为4.00%-4.25%。 将标普500指数信息技术板块评级从“看好”下调至“中性”。 将标普500指数工业板块评级从“中性”上调至“看好”。 将2027年底黄金目标价区间下调至每盎司5200-5400美元，此前预测为5400-5600美元。",
-   "link": "https://wallstreetcn.com/news/global/3172225",
+   "title": "美国联邦住房金融局（FHFA）局长比尔·普尔特（Bill Pulte）：AI将压低抵押贷款保险和产权",
+   "summary": "美国联邦住房金融局（FHFA）局长比尔·普尔特（Bill Pulte）：AI将压低抵押贷款保险和产权成本。 AI将降低信用局和信用评分的成本。",
+   "link": "https://wallstreetcn.com/news/global/3172501",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:39"
+   "published_at": "2026-09-29 22:04"
   },
   {
    "category": "finance",
-   "title": "内地公安机关与香港警方联手打掉一跨境地下钱庄犯罪团伙",
-   "summary": "从公安部获悉，今年5月，公安部指挥部署广东等多地公安机关联合香港警方开展集中统一收网行动，打掉一个盘踞粤港两地的跨境地下钱庄犯罪团伙，共抓获犯罪嫌疑人170余名，冻结涉案资金1500余万元人民币，扣押各类涉案财物价值约1.7亿元港币，取得重大战果。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3172224",
+   "title": "第三阶段临床试验结果表明，礼来制药Retatrutide在80周内实现平均减重20.8%。 公司将于",
+   "summary": "第三阶段临床试验结果表明，礼来制药Retatrutide在80周内实现平均减重20.8%。 公司将于2027年一季度向美国食品药品管理局（FDA）递交BLA申请。",
+   "link": "https://wallstreetcn.com/news/global/3172500",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:30"
+   "published_at": "2026-09-29 22:03"
   },
   {
    "category": "finance",
-   "title": "加拿大7月GDP同比 1.4%，预期 1.4%，前值 2%。",
-   "summary": "加拿大7月GDP同比 1.4%，预期 1.4%，前值 2%。",
-   "link": "https://wallstreetcn.com/news/global/3172223",
+   "title": "周二（9月29日）纽约尾盘，美国10年期基准国债收益率涨0.01个基点，报5.2362%，日内交投于",
+   "summary": "周二（9月29日）纽约尾盘，美国10年期基准国债收益率涨0.01个基点，报5.2362%，日内交投于5.2026%-5.2911%区间，北京时间01:20逼近2000年一季度顶部5.3228%、1994年四季度最高位6.8280%。 两年期美债收益率跌跌4.16个基点，报4.8890%，日内交投于4.9576%-4.8744%区间，02:00之前高位震荡，美国纽约联储主席威廉姆斯谈及“年内还需再加",
+   "link": "https://wallstreetcn.com/news/global/3172498",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:30"
+   "published_at": "2026-09-29 22:01"
   },
   {
    "category": "finance",
-   "title": "加拿大7月GDP环比 0%，预期 0%，前值 0.3%。",
-   "summary": "加拿大7月GDP环比 0%，预期 0%，前值 0.3%。",
-   "link": "https://wallstreetcn.com/news/global/3172222",
+   "title": "巴克莱：随着货币基金流入停滞，国库券抛售或将持续",
+   "summary": "巴克莱策略师Samuel Earl在一份报告中指出，鉴于流入货币市场基金的资金已陷入停滞——这是影响国库券定价的关键因素——近期国库券价格走低（收益率上行）的局面可能在未来几个月持续。 Earl写道，尽管过去几个月长端债券的抛售一直是市场主旋律，但国库券一直是“美国国债市场中相当平静的角落”。然而，“这种局面已开始改变，国库券价格已明显走低”。3个月期国库券收益率较同期限SOFR隔夜指数掉期（OI",
+   "link": "https://wallstreetcn.com/news/global/3172497",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:30"
+   "published_at": "2026-09-29 21:42"
   },
   {
    "category": "finance",
-   "title": "DeepSeek Harness v0.2预览版正式发布，并提供开箱即用的macOS和Windows桌面端安装包",
-   "summary": "DeepSeek Harness v0.2预览版正式发布，并提供开箱即用的macOS和Windows桌面端安装包。访问官网deepseek.com/harness，下载安装后，跟随引导即可上手。新版本预置了面向日常办公和开发的常用功能，让常用能力开箱即用。同时，新增插件安装与管理页面，并提供更多灵活配置选项，方便按需扩展功能，打造更适合自己的智能产品。（界面）",
-   "link": "https://wallstreetcn.com/news/global/3172221",
+   "title": "Bloom Energy：即便市场担忧AI放缓，增长目标依然不变",
+   "summary": "Bloom Energy Corp.首席执行官KR Sridhar表示，他有信心人工智能（AI）基础设施建设中的“减速带”不会影响该公司的增长计划。 “道路上会不会出现颠簸，比如增速略有放缓？答案可能是会的，”。尽管部分数据中心的建设将出现延误，“但我们的项目组合足够丰富，我们对自己预测的数字充满信心。”（彭博电视）",
+   "link": "https://wallstreetcn.com/news/global/3172496",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:27"
+   "published_at": "2026-09-29 21:37"
   },
   {
    "category": "finance",
-   "title": "协创数据：拟推489.36万股限制性股票激励计划",
-   "summary": "协创数据公告，公司发布2026年限制性股票激励计划，拟向激励对象授予489.36万股限制性股票，占公司股本总额的1.00%，授予价格为124.82元/股。首次授予391.49万股，涉及激励对象92人，包括董事、高级管理人员及核心业务/技术人员；预留97.87万股。激励计划有效期最长不超过48个月，首次授予部分分三期归属，比例分别为30%、30%、40%。业绩考核以2025年为基数，2026-202",
-   "link": "https://wallstreetcn.com/news/global/3172220",
+   "title": "美国选择波音公司负责制造下一代战斗机。 波音股价盘后涨3.4%。 诺斯罗普·格鲁曼跌5%。",
+   "summary": "美国选择波音公司负责制造下一代战斗机。 波音股价盘后涨3.4%。 诺斯罗普·格鲁曼跌5%。",
+   "link": "https://wallstreetcn.com/news/global/3172494",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:25"
+   "published_at": "2026-09-29 21:35"
   },
   {
    "category": "finance",
-   "title": "多家基金管理人上报首批中证红利增长ETF",
-   "summary": "证监会网站显示，华夏、易方达、富国、南方、万家、招商、汇添富、财通资管等基金管理人集中上报中证红利增长ETF，这是市场首批跟踪中证红利增长指数的ETF产品。",
-   "link": "https://wallstreetcn.com/news/global/3172219",
+   "title": "Anthropic在2025年通过亚马逊、谷歌完成47%的销售。（路透）",
+   "summary": "Anthropic在2025年通过亚马逊、谷歌完成47%的销售。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3172493",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:24"
+   "published_at": "2026-09-29 21:30"
   },
   {
    "category": "finance",
-   "title": "美国众议长约翰逊：（谈AI）美国可以同时兼顾安全与创新。",
-   "summary": "美国众议长约翰逊：（谈AI）美国可以同时兼顾安全与创新。",
-   "link": "https://wallstreetcn.com/news/global/3172218",
+   "title": "白宫发布关于更名人工智能（AI）的行政令。 每家公司应实施以下四层控制与审计措施。 实施强有力的内部",
+   "summary": "白宫发布关于更名人工智能（AI）的行政令。 每家公司应实施以下四层控制与审计措施。 实施强有力的内部控制以监控模型的性能与校准情况。 授权一支内部团队确保所有管控、监控与检测工作按设计要求正常运行。 委任董事会成立一个独立委员会，负责监督运营内控工作的团队以及内外部审计师与评估机构，接收上述各方提交的报告，并开展相关评估工作。 文件由谷歌、Anthropic、Meta、OpenAI、马斯克、英伟达",
+   "link": "https://wallstreetcn.com/news/global/3172489",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:24"
+   "published_at": "2026-09-29 21:19"
   },
   {
    "category": "finance",
-   "title": "国务院国资委： “十五五”时期将继续做好新央企组建和战略性重组",
-   "summary": "国务院国资委党委书记、主任程福波在《新型工业化》刊发署名文章《更好发挥国资央企排头兵作用 为现代化产业体系建设贡献更大力量》。“十五五”时期，将继续用好战略性专业化重组整合这个有力抓手，做好新央企组建和战略性重组，支持创新能力强的企业作为主体，开展同类业务横向整合和上下游纵向整合，加快推动国有资本向关系国家安全、国民经济命脉的重要行业和关键领域集中，向关系国计民生的公共服务、应急能力、公益性领域等",
-   "link": "https://wallstreetcn.com/news/global/3172217",
+   "title": "SpaceX的CEO马斯克：目标是一年部署至少300 GW的AI算力。 预计2027年星舰飞行频率将",
+   "summary": "SpaceX的CEO马斯克：目标是一年部署至少300 GW的AI算力。 预计2027年星舰飞行频率将为每周一次、甚至一周两次。",
+   "link": "https://wallstreetcn.com/news/global/3172487",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:22"
+   "published_at": "2026-09-29 21:15"
   },
   {
    "category": "finance",
-   "title": "蓝佛安以视频方式出席亚洲基础设施投资银行第十一届理事会年会",
-   "summary": "9月28日至29日，亚洲基础设施投资银行第十一届理事会年会在卡塔尔多哈举行。本次年会主题为“未来基础设施：影响与创新”，与会成员代表围绕亚投行加大基础设施投融资力度、进一步增强发展效益和效率、更好帮助成员应对挑战等议题开展讨论。亚投行中国理事、财政部部长蓝佛安以视频方式出席年会并发言。蓝佛安指出，在全体成员的支持下，亚投行顺利实现管理层平稳过渡，开启了新的发展征程。面对国际局势变乱交织，发展赤字有",
-   "link": "https://wallstreetcn.com/news/global/3172215",
+   "title": "富时A50期指连续夜盘收涨0.15%，报13900点。",
+   "summary": "富时A50期指连续夜盘收涨0.15%，报13900点。",
+   "link": "https://wallstreetcn.com/news/global/3172485",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:20"
+   "published_at": "2026-09-29 21:15"
   },
   {
    "category": "finance",
-   "title": "WTI原油日内跌幅达2.0%，报90.74美元/桶。",
-   "summary": "WTI原油日内跌幅达2.0%，报90.74美元/桶。",
-   "link": "https://wallstreetcn.com/news/global/3172214",
+   "title": "英伟达CEO黄仁勋：我们过去称之为数据中心，但我们现在正在建造的其实是超级智能（SI）工厂。",
+   "summary": "英伟达CEO黄仁勋：我们过去称之为数据中心，但我们现在正在建造的其实是超级智能（SI）工厂。",
+   "link": "https://wallstreetcn.com/news/global/3172483",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:20"
+   "published_at": "2026-09-29 21:11"
   },
   {
    "category": "finance",
-   "title": "国务院国资委：进一步发力人工智能、新材料等重点领域 超前培育量子科技等前沿赛道",
-   "summary": "国务院国资委党委书记、主任程福波在《新型工业化》刊发署名文章表示，积极培育壮大战略性新兴产业。新兴产业和未来产业是引领现代化产业体系建设的关键力量。当前中央企业新兴产业和未来产业布局还需提质加速，一些产业尚未形成竞争优势，必须在打造新兴支柱产业上下更大功夫，按照“领跑一批、赶超一批、培育一批”的思路，统筹推进差异化布局，持续巩固新能源、航空航天等产业优势，进一步发力人工智能、新材料等重点领域，超前",
-   "link": "https://wallstreetcn.com/news/global/3172213",
+   "title": "阿布扎比王储斥资数十亿美元，绕开霍尔木兹海峡",
+   "summary": "阿布扎比王储谢赫·哈立德·本·穆罕默德·阿勒纳哈扬（Sheikh Khaled bin Mohamed Al Nahyan）执掌一只3,000亿美元的主权财富基金，旨在建设基础设施，打破伊朗对霍尔木兹海峡的控制。 该基金可能会在霍尔木兹海峡以外的新港口基础设施上投入数百亿美元，这是阿布扎比“零霍尔木兹”战略的一部分，旨在减少对这条水道的依赖。 谢赫·哈立德的行动是阿联酋绕开霍尔木兹海峡更大规模努力",
+   "link": "https://wallstreetcn.com/news/global/3172482",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:19"
+   "published_at": "2026-09-29 21:11"
   },
   {
    "category": "finance",
-   "title": "香港特区政府发售第四批数码绿色债券",
-   "summary": "香港特区政府今日（9月29日）宣布，在政府可持续债券计划下成功定价约200亿港元等值的数码绿色债券，涵盖港元、人民币、美元及欧元。经过网上路演后，这批数码绿色债券在9月28日定价，详情如下：55亿港元的2年期债券为3.80%；75亿人民币的5年期债券为1.65%；2亿美元的3年期债券为5.023%；4.5亿欧元的4年期债券为3.734%。本次再度刷新全球最大数码债券发行的纪录，四个币种的债券认购额",
-   "link": "https://wallstreetcn.com/news/global/3172206",
+   "title": "加密矿企Poolin将重新拍卖其美国得州数据中心资产",
+   "summary": "破产的加密货币挖矿公司Poolin Technology将重新举行其美国得克萨斯州数据中心的拍卖。此前，其他竞购方对最终促成Hut 8 Corp. 1.8亿美元报价的出售流程深感不安。",
+   "link": "https://wallstreetcn.com/news/global/3172481",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:17"
+   "published_at": "2026-09-29 21:09"
   },
   {
    "category": "finance",
-   "title": "普京特使会晤美国财政部和能源官员。（塔斯社）",
-   "summary": "普京特使会晤美国财政部和能源官员。（塔斯社）",
-   "link": "https://wallstreetcn.com/news/global/3172205",
+   "title": "周二（9月29日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7080元，较",
+   "summary": "周二（9月29日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7080元，较周一纽约尾盘涨47点，日内整体交投于6.7129-6.7037元区间，连续两天反弹。",
+   "link": "https://wallstreetcn.com/news/global/3172478",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:17"
+   "published_at": "2026-09-29 21:05"
   },
   {
    "category": "finance",
-   "title": "中金公司董事长陈亮会见高盛集团董事长兼首席执行官苏德巍",
-   "summary": "据中金公司公众号，近日，中金公司董事长陈亮会见高盛集团董事长兼首席执行官苏德巍（David Solomon），双方就资本市场高水平制度型开放相关议题交换了意见。",
-   "link": "https://wallstreetcn.com/news/global/3172204",
+   "title": "国际金价涨约1.6%，一度刷新日高至4180美元上方",
+   "summary": "周二（9月29日）纽约尾盘，现货黄金涨1.57%，报4179.95美元/盎司，亚太盘初以来持续扩大涨幅。 现货白银涨1.34%，报61.4594美元/盎司。 COMEX铜期货涨0.43%，报6.6620美元/磅。 在美股时段交易的费城金银指数收涨0.36%，报366.23点。 在全球市场全天交易的纽约证交所ARCA金矿开采商指数涨0.79%，报2548.42点。 在美股时段交易的原材料指数收跌0.",
+   "link": "https://wallstreetcn.com/news/global/3172477",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:08"
+   "published_at": "2026-09-29 21:00"
   },
   {
    "category": "finance",
-   "title": "荣耀 Magic9 全系列获“首批 AI 智能体手机”入网认证",
-   "summary": "9月29日，荣耀Magic9全系列正式获得“首批AI智能体手机”入网认证。据悉，荣耀是行业首批获得认证的手机厂商。（全天候科技）",
-   "link": "https://wallstreetcn.com/news/global/3172203",
+   "title": "明晟公私MSCI新兴市场股票指数跌0.5%，发展中国家外汇指数涨0.1%。",
+   "summary": "明晟公私MSCI新兴市场股票指数跌0.5%，发展中国家外汇指数涨0.1%。",
+   "link": "https://wallstreetcn.com/news/global/3172476",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:02"
-  },
-  {
-   "category": "finance",
-   "title": "波罗的海干散货指数下跌2.75%，报3178点。",
-   "summary": "波罗的海干散货指数下跌2.75%，报3178点。",
-   "link": "https://wallstreetcn.com/news/global/3172202",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-29 12:01"
-  },
-  {
-   "category": "finance",
-   "title": "普京特使与美国官员讨论了乌克兰和能源问题。（路透）",
-   "summary": "普京特使与美国官员讨论了乌克兰和能源问题。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3172201",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-29 11:58"
-  },
-  {
-   "category": "finance",
-   "title": "黄仁勋、苏姿丰等担任清华大学经管学院顾问委员会委员",
-   "summary": "清华大学经济管理学院顾问委员会2026年会议将于10月13日、14日在北京召开。这是顾问委员会成立以来的第27次年度会议。今年顾问委员会新增委员3人，新增接任委员5人。3位新增委员分别是英伟达创始人兼首席执行官黄仁勋（Jensen Huang），AMD董事会主席兼首席执行官苏姿丰（Lisa Su），瑞士百达集团高级管理合伙人百达铭（Marc Pictet）。",
-   "link": "https://wallstreetcn.com/news/global/3172198",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-29 11:54"
-  },
-  {
-   "category": "finance",
-   "title": "欧盟乐观地认为美国不会禁止柴油出口，称已向美能源部长发出明确信号",
-   "summary": "欧盟能源事务专员Dan Jorgensen周二表示，他已向美国能源部长克里斯·赖特发出“非常明确的信号”，即实施这类禁令不符合任何一方的利益。Jorgensen同时对赖特此前表示不支持采取这一措施表示欢迎。Jorgensen在欧盟能源部长会议前表示，在当前困难时期，需要“尽可能保持能源自由流动”。",
-   "link": "https://wallstreetcn.com/news/global/3172197",
-   "source": "华尔街见闻",
-   "published_at": "2026-09-29 11:53"
+   "published_at": "2026-09-29 20:53"
   }
  ]
 }
