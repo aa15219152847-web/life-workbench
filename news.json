@@ -1,319 +1,198 @@
 {
- "updated_at": "2026-09-29 22:20",
- "ai": [
-  {
-   "category": "ai",
-   "title": "2026 OpenAI 开发者日遭 15+ 组织抗议，要求 AI 数据中心设 100 英里安全距离",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/533.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，AI 加速走向工作场景",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/532.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "150 毫秒极速响应：OpenAI 推出 Decisions API，让 AI 从“聊天”走向“实时决策”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/531.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "同性能下最高性价比 AI 模型：OpenAI 发布 GPT-6.1 Sol，性能媲美 Astra、费用仅为 1/5",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/527.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "我国生成式人工智能用户规模突破 7 亿人，普及率超 50%",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/245.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 写作特征减少：Claude Opus 5.5 破折号使用量下降约 95%、分号下降 73%",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/144.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英伟达 CEO 黄仁勋回应 AI 模型蒸馏争议：这是市场竞争行为",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/101.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "佛罗里达州起诉 OpenAI，请求法院禁止其在无外部监督下开发新 AI 模型",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/087.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "从沙箱逃逸到 AI“蠕虫”，OpenAI 上线新站披露多起智能体失控事件",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/079.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英伟达黄仁勋反驳“AI 教父”辛顿：我爱他，但我恨他的末日论预测",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/832.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "研究：美国医院用 AI 写病历，保险公司两年多掏 9.42 亿美元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/531.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "医保系统遭 AI 智能体入侵，澳大利亚传唤 OpenAI 与 Anthropic CEO 接受质询",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/508.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英国最大桌游展 UKGE 出台新规：禁止 AI 生成游戏参展，仅少数情况例外",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/506.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/447.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "接连发生 AI 失控事件，OpenAI 再次暂停其最强模型训练",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/445.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Claude Code 新机制：AI 任务中途触发 5 小时上限将优雅收尾",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/369.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英伟达获批 AI 工具专利：缩短游戏优化周期，让游戏体验更稳定",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/339.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "外媒称微软整合 Copilot 品牌加剧混乱，引发用户困惑",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/314.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "为工作而生的 AI：微软纳德拉称正将 Copilot 打造成全新工作操作系统",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/302.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 承认 53 张用户图片被其 AI 智能体“偷偷”传到公网",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/274.htm",
-   "source": "IT之家",
-   "published_at": ""
-  }
- ],
+ "updated_at": "2026-09-30 05:38",
+ "ai": [],
  "finance": [
   {
    "category": "finance",
-   "title": "券商密集开展注销式回购，市值管理转向长期股东回报",
-   "summary": "2026年下半年以来，上市券商回购节奏明显加快。据不完全统计，已有红塔证券、中泰证券、国联民生、长江证券、华安证券等5家上市券商披露新一轮股份回购方案，另有国金证券等券商针对前期回购方案更新进展。从行业结构看，本轮回购参与主体以中小型券商为主。此外，本轮回购的发起主体趋于多元，不再局限于上市公司董事会层面。在券商自身回购加速的同时，重要股东增持计划也接踵而至。 梳理发现，与此前以市值维护、股权激励",
-   "link": "https://wallstreetcn.com/news/global/3172507",
+   "title": "万科A午后涨超7%，成交额超44亿刷新一年来最高记录。",
+   "summary": "万科A午后涨超7%，成交额超44亿刷新一年来最高记录。",
+   "link": "https://wallstreetcn.com/news/global/3172660",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 22:20"
+   "published_at": "2026-09-30 05:36"
   },
   {
    "category": "finance",
-   "title": "短期震荡不改中长期逻辑，近六成私募“持股过节”",
-   "summary": "临近国庆长假，仓位灵活的私募倾向于“持币过节”还是“持股过节”？私募排排网最新调查结果显示，近六成参与调查的私募倾向于在节前保持重仓或满仓（仓位大于80%），而倾向于轻仓或空仓（仓位小于40%）持币过节的私募占比不足8%。从投资组合结构来看，均衡配置成为不少私募的共识性选择。在他们看来，尽管近期市场波动加剧，但是已基本释放悲观预期，在企业基本面持续修复的背景下，节后结构性行情有望进一步演绎。（上证",
-   "link": "https://wallstreetcn.com/news/global/3172505",
+   "title": "中国台湾证交所加权股价指数收高0.6%报47,940.13点。",
+   "summary": "中国台湾证交所加权股价指数收高0.6%报47,940.13点。",
+   "link": "https://wallstreetcn.com/news/global/3172659",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 22:18"
+   "published_at": "2026-09-30 05:35"
   },
   {
    "category": "finance",
-   "title": "积极信号释放，绩优基金集中“松绑”",
-   "summary": "近期，易方达、汇安等基金公司对旗下绩优基金放宽限购金额，且部分产品近一年业绩出彩。高位限购防止资金追高涌入，市场回调后再放宽限制，已逐渐成为公募基金高质量发展之下的行业常态。业内人士认为，集中“松绑”不仅是基金公司“逆势操作”的体现，也向市场传递出一定的积极信号。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3172504",
+   "title": "A股地产股持续回暖，金地集团触及涨停，陆家嘴、深物业A此前封板，滨江集团、万科A、信达地产涨超6%。",
+   "summary": "A股地产股持续回暖，金地集团触及涨停，陆家嘴、深物业A此前封板，滨江集团、万科A、信达地产涨超6%。",
+   "link": "https://wallstreetcn.com/news/global/3172658",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 22:17"
+   "published_at": "2026-09-30 05:35"
   },
   {
    "category": "finance",
-   "title": "美国联邦住房金融局（FHFA）局长比尔·普尔特（Bill Pulte）：AI将压低抵押贷款保险和产权",
-   "summary": "美国联邦住房金融局（FHFA）局长比尔·普尔特（Bill Pulte）：AI将压低抵押贷款保险和产权成本。 AI将降低信用局和信用评分的成本。",
-   "link": "https://wallstreetcn.com/news/global/3172501",
+   "title": "DeepSeek 开源昇腾基础组件",
+   "summary": "DeepSeek在其微信公众号上表示，正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库。所有组件与此前面向英伟达平台的开源组件一一对应。本次开源的 TileLang 昇腾版本，对昇腾 Ascend C 底层指令进行封装、提供高级语言的编程方式、同时不损失硬件性能。在面向昇腾平台的研发过程中，华为团队给予了毫无保留的大力支持。",
+   "link": "https://wallstreetcn.com/news/global/3172655",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 22:04"
+   "published_at": "2026-09-30 05:31"
   },
   {
    "category": "finance",
-   "title": "第三阶段临床试验结果表明，礼来制药Retatrutide在80周内实现平均减重20.8%。 公司将于",
-   "summary": "第三阶段临床试验结果表明，礼来制药Retatrutide在80周内实现平均减重20.8%。 公司将于2027年一季度向美国食品药品管理局（FDA）递交BLA申请。",
-   "link": "https://wallstreetcn.com/news/global/3172500",
+   "title": "A股乳业板块异动拉升，阳光乳业涨停，骑士乳业、新乳业、熊猫乳品、科拓生物、西部牧业跟涨。",
+   "summary": "A股乳业板块异动拉升，阳光乳业涨停，骑士乳业、新乳业、熊猫乳品、科拓生物、西部牧业跟涨。",
+   "link": "https://wallstreetcn.com/news/global/3172657",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 22:03"
+   "published_at": "2026-09-30 05:27"
   },
   {
    "category": "finance",
-   "title": "周二（9月29日）纽约尾盘，美国10年期基准国债收益率涨0.01个基点，报5.2362%，日内交投于",
-   "summary": "周二（9月29日）纽约尾盘，美国10年期基准国债收益率涨0.01个基点，报5.2362%，日内交投于5.2026%-5.2911%区间，北京时间01:20逼近2000年一季度顶部5.3228%、1994年四季度最高位6.8280%。 两年期美债收益率跌跌4.16个基点，报4.8890%，日内交投于4.9576%-4.8744%区间，02:00之前高位震荡，美国纽约联储主席威廉姆斯谈及“年内还需再加",
-   "link": "https://wallstreetcn.com/news/global/3172498",
+   "title": "沪深两市成交额突破1万亿元。",
+   "summary": "沪深两市成交额突破1万亿元。",
+   "link": "https://wallstreetcn.com/news/global/3172652",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 22:01"
+   "published_at": "2026-09-30 05:20"
   },
   {
    "category": "finance",
-   "title": "巴克莱：随着货币基金流入停滞，国库券抛售或将持续",
-   "summary": "巴克莱策略师Samuel Earl在一份报告中指出，鉴于流入货币市场基金的资金已陷入停滞——这是影响国库券定价的关键因素——近期国库券价格走低（收益率上行）的局面可能在未来几个月持续。 Earl写道，尽管过去几个月长端债券的抛售一直是市场主旋律，但国库券一直是“美国国债市场中相当平静的角落”。然而，“这种局面已开始改变，国库券价格已明显走低”。3个月期国库券收益率较同期限SOFR隔夜指数掉期（OI",
-   "link": "https://wallstreetcn.com/news/global/3172497",
+   "title": "徐直军10月1日起当值华为轮值董事长",
+   "summary": "华为官网9月30日公告，根据公司轮值董事长制度，2026年10月1日～2027年3月31日期间由徐直军先生当值轮值董事长，主持公司董事会及董事会常务委员会。",
+   "link": "https://wallstreetcn.com/news/global/3172651",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:42"
+   "published_at": "2026-09-30 05:10"
   },
   {
    "category": "finance",
-   "title": "Bloom Energy：即便市场担忧AI放缓，增长目标依然不变",
-   "summary": "Bloom Energy Corp.首席执行官KR Sridhar表示，他有信心人工智能（AI）基础设施建设中的“减速带”不会影响该公司的增长计划。 “道路上会不会出现颠簸，比如增速略有放缓？答案可能是会的，”。尽管部分数据中心的建设将出现延误，“但我们的项目组合足够丰富，我们对自己预测的数字充满信心。”（彭博电视）",
-   "link": "https://wallstreetcn.com/news/global/3172496",
+   "title": "SK Energy招标采购11月至2月装运的中东原油。（路透）",
+   "summary": "SK Energy招标采购11月至2月装运的中东原油。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3172647",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:37"
+   "published_at": "2026-09-30 05:02"
   },
   {
    "category": "finance",
-   "title": "美国选择波音公司负责制造下一代战斗机。 波音股价盘后涨3.4%。 诺斯罗普·格鲁曼跌5%。",
-   "summary": "美国选择波音公司负责制造下一代战斗机。 波音股价盘后涨3.4%。 诺斯罗普·格鲁曼跌5%。",
-   "link": "https://wallstreetcn.com/news/global/3172494",
+   "title": "日本8月新屋开工同比 6.14%，预期 7%，前值 8.2%。",
+   "summary": "日本8月新屋开工同比 6.14%，预期 7%，前值 8.2%。",
+   "link": "https://wallstreetcn.com/news/global/3172646",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:35"
+   "published_at": "2026-09-30 05:00"
   },
   {
    "category": "finance",
-   "title": "Anthropic在2025年通过亚马逊、谷歌完成47%的销售。（路透）",
-   "summary": "Anthropic在2025年通过亚马逊、谷歌完成47%的销售。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3172493",
+   "title": "日本8月新屋开工年化户数 75.3万户，预期 76.6万户，前值 77.4万户。",
+   "summary": "日本8月新屋开工年化户数 75.3万户，预期 76.6万户，前值 77.4万户。",
+   "link": "https://wallstreetcn.com/news/global/3172645",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:30"
+   "published_at": "2026-09-30 05:00"
   },
   {
    "category": "finance",
-   "title": "白宫发布关于更名人工智能（AI）的行政令。 每家公司应实施以下四层控制与审计措施。 实施强有力的内部",
-   "summary": "白宫发布关于更名人工智能（AI）的行政令。 每家公司应实施以下四层控制与审计措施。 实施强有力的内部控制以监控模型的性能与校准情况。 授权一支内部团队确保所有管控、监控与检测工作按设计要求正常运行。 委任董事会成立一个独立委员会，负责监督运营内控工作的团队以及内外部审计师与评估机构，接收上述各方提交的报告，并开展相关评估工作。 文件由谷歌、Anthropic、Meta、OpenAI、马斯克、英伟达",
-   "link": "https://wallstreetcn.com/news/global/3172489",
+   "title": "前8个月 宁波舟山港集装箱吞吐量突破3000万标箱",
+   "summary": "前8个月，宁波舟山港完成集装箱吞吐量3040万标箱，同比增长6.1%；海关监管国际航行船舶29945艘次，同比增长3.3%。目前，宁波舟山港航线总数达309条，连接全球200多个国家和地区的700多个港口。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3172644",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:19"
+   "published_at": "2026-09-30 04:45"
   },
   {
    "category": "finance",
-   "title": "SpaceX的CEO马斯克：目标是一年部署至少300 GW的AI算力。 预计2027年星舰飞行频率将",
-   "summary": "SpaceX的CEO马斯克：目标是一年部署至少300 GW的AI算力。 预计2027年星舰飞行频率将为每周一次、甚至一周两次。",
-   "link": "https://wallstreetcn.com/news/global/3172487",
+   "title": "早间要闻汇总",
+   "summary": "沪指半日涨0.27%，医药股集体走强。 恒指半日微跌0.04%，恒生科技指数跌0.15%，恒生生物科技指数涨2.9%。 双双升至扩张区间！中国9月官方制造业PMI 50.1，非制造业PMI 50.2。 中国9月RatingDog制造业PMI回升至52.1，为五个月新高，服务业PMI连续第二个月加速扩张。 2026年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达。 检察机关依法对易会满涉",
+   "link": "https://wallstreetcn.com/news/global/3172642",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:15"
+   "published_at": "2026-09-30 04:35"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.15%，报13900点。",
-   "summary": "富时A50期指连续夜盘收涨0.15%，报13900点。",
-   "link": "https://wallstreetcn.com/news/global/3172485",
+   "title": "集邦咨询：2026年Mini LED背光TV出货量可望达2500万台，市场渗透率超过10%",
+   "summary": "根据TrendForce集邦咨询最新研究报告，2026年全球Mini LED背光市场在电视品牌积极导入、产品尺寸持续扩增的带动下，各消费性电子应用总出货量预估将超过3000万台，年增逾60%。其中，TV应用仍为市场主要增长动能，受惠于RGB Mini LED技术逐步向主流市场延伸以及中国“以旧换新”政策持续推动，2026年Mini LED背光TV出货量可望达2500万台，市场渗透率超过10%。",
+   "link": "https://wallstreetcn.com/news/global/3172643",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:15"
+   "published_at": "2026-09-30 04:34"
   },
   {
    "category": "finance",
-   "title": "英伟达CEO黄仁勋：我们过去称之为数据中心，但我们现在正在建造的其实是超级智能（SI）工厂。",
-   "summary": "英伟达CEO黄仁勋：我们过去称之为数据中心，但我们现在正在建造的其实是超级智能（SI）工厂。",
-   "link": "https://wallstreetcn.com/news/global/3172483",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 14:00 英国二季度GDP终值； ② 14:45 法国9月CPI初值； ③ 15:55 德国9月失业人数，失业率； ④ 17:00 意大利9月CPI初值； ⑤ 20:00 德国9月CPI初值； ⑥ 20:15 美国9月ADP就业人数（小非农）； ⑦ 20:30 美国二季度GDP终值，8月个人收入、个人消费支出（PCE）； ⑧ 21:45 美国9月芝加哥PMI； ⑨ 22:30 美国能源信息署",
+   "link": "https://wallstreetcn.com/news/global/3172641",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:11"
+   "published_at": "2026-09-30 04:30"
   },
   {
    "category": "finance",
-   "title": "阿布扎比王储斥资数十亿美元，绕开霍尔木兹海峡",
-   "summary": "阿布扎比王储谢赫·哈立德·本·穆罕默德·阿勒纳哈扬（Sheikh Khaled bin Mohamed Al Nahyan）执掌一只3,000亿美元的主权财富基金，旨在建设基础设施，打破伊朗对霍尔木兹海峡的控制。 该基金可能会在霍尔木兹海峡以外的新港口基础设施上投入数百亿美元，这是阿布扎比“零霍尔木兹”战略的一部分，旨在减少对这条水道的依赖。 谢赫·哈立德的行动是阿联酋绕开霍尔木兹海峡更大规模努力",
-   "link": "https://wallstreetcn.com/news/global/3172482",
+   "title": "面壁智能注册资本增至3.6亿元",
+   "summary": "企查查APP显示，近日，北京面壁智能科技股份有限公司发生工商变更，注册资本由254.752万元增至3.6亿元。企查查信息显示，该公司成立于2022年，经营范围包含：人工智能基础软件开发；人工智能应用软件开发；人工智能理论与算法软件开发等。值得一提的是，此前9月，面壁智能已完成两次增资。",
+   "link": "https://wallstreetcn.com/news/global/3172640",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:11"
+   "published_at": "2026-09-30 04:22"
   },
   {
    "category": "finance",
-   "title": "加密矿企Poolin将重新拍卖其美国得州数据中心资产",
-   "summary": "破产的加密货币挖矿公司Poolin Technology将重新举行其美国得克萨斯州数据中心的拍卖。此前，其他竞购方对最终促成Hut 8 Corp. 1.8亿美元报价的出售流程深感不安。",
-   "link": "https://wallstreetcn.com/news/global/3172481",
+   "title": "山西发行10年期棚改专项地方债，规模2.6800亿元，发行利率1.8000%，边际倍数1.32倍，倍",
+   "summary": "山西发行10年期棚改专项地方债，规模2.6800亿元，发行利率1.8000%，边际倍数1.32倍，倍数预期1.73； 山西发行20年期收费公路专项地方债，规模5.9100亿元，发行利率2.2300%，边际倍数1.94倍，倍数预期2.19； 山西发行10年期其他专项地方债，规模8.7000亿元，发行利率1.7300%，边际倍数1.70倍，倍数预期1.73； 山西发行15年期其他专项地方债，规模1.9",
+   "link": "https://wallstreetcn.com/news/global/3172639",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:09"
+   "published_at": "2026-09-30 04:20"
   },
   {
    "category": "finance",
-   "title": "周二（9月29日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7080元，较",
-   "summary": "周二（9月29日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7080元，较周一纽约尾盘涨47点，日内整体交投于6.7129-6.7037元区间，连续两天反弹。",
-   "link": "https://wallstreetcn.com/news/global/3172478",
+   "title": "MSCI亚太指数上涨1%至277.12点。",
+   "summary": "MSCI亚太指数上涨1%至277.12点。",
+   "link": "https://wallstreetcn.com/news/global/3172638",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:05"
+   "published_at": "2026-09-30 04:18"
   },
   {
    "category": "finance",
-   "title": "国际金价涨约1.6%，一度刷新日高至4180美元上方",
-   "summary": "周二（9月29日）纽约尾盘，现货黄金涨1.57%，报4179.95美元/盎司，亚太盘初以来持续扩大涨幅。 现货白银涨1.34%，报61.4594美元/盎司。 COMEX铜期货涨0.43%，报6.6620美元/磅。 在美股时段交易的费城金银指数收涨0.36%，报366.23点。 在全球市场全天交易的纽约证交所ARCA金矿开采商指数涨0.79%，报2548.42点。 在美股时段交易的原材料指数收跌0.",
-   "link": "https://wallstreetcn.com/news/global/3172477",
+   "title": "韩国央行将于12月购买1吨黄金。（MoneyToday）",
+   "summary": "韩国央行将于12月购买1吨黄金。（MoneyToday）",
+   "link": "https://wallstreetcn.com/news/global/3172637",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 21:00"
+   "published_at": "2026-09-30 04:16"
   },
   {
    "category": "finance",
-   "title": "明晟公私MSCI新兴市场股票指数跌0.5%，发展中国家外汇指数涨0.1%。",
-   "summary": "明晟公私MSCI新兴市场股票指数跌0.5%，发展中国家外汇指数涨0.1%。",
-   "link": "https://wallstreetcn.com/news/global/3172476",
+   "title": "脑虎科技披露“三全”脑机接口临床探索进展，结合AI实现脑控创作与智能家居控制",
+   "summary": "脑虎科技（NeuroXess）近日披露自主研发的全植入、全无线、全功能（“三全”）脑机接口系统最新临床探索进展。据公司介绍，一名高位截瘫受试者通过脑控绘图及输入提示词，借助 AI 大模型完成方案生成与数字建模，再经 3D 打印制作游戏角色手办及个性化生活辅具。在环境交互场景中，受试者结合 AI 智能眼镜的视觉感知能力，通过脑机接口表达并确认操作意图，实现病床调节、灯光及家用设备控制。上述应用目前处",
+   "link": "https://wallstreetcn.com/news/global/3172636",
    "source": "华尔街见闻",
-   "published_at": "2026-09-29 20:53"
+   "published_at": "2026-09-30 04:12"
+  },
+  {
+   "category": "finance",
+   "title": "国家发展改革委起草形成了《电力市场风险防控管理办法（公开征求意见稿）》，现向社会公开征求意见。",
+   "summary": "国家发展改革委起草形成了《电力市场风险防控管理办法（公开征求意见稿）》，现向社会公开征求意见。",
+   "link": "https://wallstreetcn.com/news/global/3172634",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-30 03:52"
+  },
+  {
+   "category": "finance",
+   "title": "IDC报告：上半年智元出货规模与营收领先，中国是全球人形机器人市场增长重要引擎",
+   "summary": "IDC最新发布的报告显示，全球人形机器人市场延续爆发式增长，2026 上半年全球人形机器人出货量接近 2.5万台，同比增长432.1%，产业正由技术验证加速迈向商业化应用落地阶段。",
+   "link": "https://wallstreetcn.com/news/global/3172633",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-30 03:51"
+  },
+  {
+   "category": "finance",
+   "title": "卫星图像显示沙特东西输油管道部分恢复运行",
+   "summary": "据美国方面29日消息，船舶追踪机构克普勒公司分析的卫星图像显示，27日以来，共有9艘油轮在红海沿岸装载了约1250万桶原油，其中3艘油轮在过去24小时中完成了装船。据悉，这是目前“最有力的”迹象，表明沙特东西输油管道“至少部分”恢复了运行。此外，两名了解该管道修复事项、但未被授权公开谈论此事的人士透露，沙特已经将输油量恢复到每天约350万桶。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3172632",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-30 03:48"
+  },
+  {
+   "category": "finance",
+   "title": "日本拍卖两年期国债，认购倍数3.89，过去12个月均值为3.75。",
+   "summary": "日本拍卖两年期国债，认购倍数3.89，过去12个月均值为3.75。",
+   "link": "https://wallstreetcn.com/news/global/3172631",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-30 03:40"
+  },
+  {
+   "category": "finance",
+   "title": "上证指数早盘收报3840.83点，涨0.27%。 深证成指早盘收报12894.61点，跌0.06%。",
+   "summary": "上证指数早盘收报3840.83点，涨0.27%。 深证成指早盘收报12894.61点，跌0.06%。 创业板指早盘收报3137.11点，跌0.17%。 沪深300早盘收报4351.88点，涨0.15%。 科创50早盘收报1536.61点，跌2.09%。 中证500早盘收报7442.38点，涨0.04%。 中证1000早盘收报7317.80点，跌0.10%。",
+   "link": "https://wallstreetcn.com/news/global/3172628",
+   "source": "华尔街见闻",
+   "published_at": "2026-09-30 03:31"
   }
  ]
 }
