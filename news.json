@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-10-02 05:45",
+ "updated_at": "2026-10-02 12:43",
  "ai": [
+  {
+   "category": "ai",
+   "title": "生图模型 FLUX 3 Image 发布：支持 4K 生成，可精准排布 AI 元素",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/315.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 灌水稿激增：预印本平台 arXiv 出台新规，每人每月限投 2 篇",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/279.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "AI 伦理研究：DeepSeek 对男女一视同仁，美系模型却“区别对待”",
@@ -144,192 +160,200 @@
    "link": "https://www.ithome.com/1/007/531.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "医保系统遭 AI 智能体入侵，澳大利亚传唤 OpenAI 与 Anthropic CEO 接受质询",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/508.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英国最大桌游展 UKGE 出台新规：禁止 AI 生成游戏参展，仅少数情况例外",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/506.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "瑞士过去5年冰川总冰量缩减近五分之一",
-   "summary": "瑞士科学院1日援引瑞士冰川监测网最新数据发布的公报说，过去5年间，瑞士冰川的总冰量减少了近五分之一。公报说，2026年瑞士冰川冰量减少5.5%，损失量在有记录以来排名第二，仅次于2022年。单座冰川的平均厚度减少了2.5至4米，今年夏季部分冰川舌区域的冰层厚度甚至减少了10米。",
-   "link": "https://wallstreetcn.com/news/global/3173610",
+   "title": "美国9月非农数据速评",
+   "summary": "美国9月新增就业人数低于预期，失业率小幅上升，显示雇主在成本上升背景下招聘趋于谨慎。就业增长放缓主要源于政府、信息、专业和商业服务以及金融活动等行业的就业减少。医疗保健、建筑和制造业则新增了岗位。强劲的消费支出和活跃的企业投资此前支撑了招聘，但许多注重成本的雇主仍不愿扩大用工规模。不过，裁员活动依然保持低位。由于失业率仍处于历史低位，美联储官员可将注意力继续集中在通胀上，以决定何时再次加息。",
+   "link": "https://wallstreetcn.com/news/global/3173679",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 05:45"
+   "published_at": "2026-10-02 12:43"
   },
   {
    "category": "finance",
-   "title": "超2500万人次 铁路旅客发送量创单日新高",
-   "summary": "记者2日从中国国家铁路集团有限公司获悉，10月1日全国铁路发送旅客2520.4万人次，创单日旅客发送量历史新高，运输安全平稳有序。10月2日，全国铁路预计发送旅客2039万人次，加开列车1462列。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3173608",
+   "title": "美国劳工统计局：7月份非农新增就业人数从+2.1万人下修至-1.0万人；8月份非农新增就业人数从16",
+   "summary": "美国劳工统计局：7月份非农新增就业人数从+2.1万人下修至-1.0万人；8月份非农新增就业人数从16.2万人下修至13.3万人。修正后，7月和8月新增就业人数合计较修正前低6万人。",
+   "link": "https://wallstreetcn.com/news/global/3173677",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 05:12"
+   "published_at": "2026-10-02 12:34"
   },
   {
    "category": "finance",
-   "title": "日本40年期国债收益率上升5个基点至4.27%。",
-   "summary": "日本40年期国债收益率上升5个基点至4.27%。",
-   "link": "https://wallstreetcn.com/news/global/3173607",
+   "title": "美国9月非农不及预期，交易员削减对美联储10月加息的押注",
+   "summary": "就业市场降温可能令美联储官员更有理由暂缓加息。交易员表示，非农数据显示9月新增就业不及预期、失业率上升后，市场押注美联储将推迟升息。利率掉期显示，交易员目前仅计入美联储10月会议加息17%的概率，低于数据公布前的29%。同时，市场已不再完全计入今年年内的一次完整加息。",
+   "link": "https://wallstreetcn.com/news/global/3173676",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 05:06"
+   "published_at": "2026-10-02 12:33"
   },
   {
    "category": "finance",
-   "title": "国庆假期首日高速公路充电量同比增长60.4%",
-   "summary": "通过对纳入国家充电设施监测服务平台的6.27万个高速公路充电设施（枪）进行统计分析，“十一”国庆假期首日，全国高速公路充电量达到2804.69万千瓦时，较去年“十一”国庆假期首日增长60.40%，创历史节假日单日新高。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3173606",
+   "title": "美国非农数据公布后，美股股指期货短线拉升",
+   "summary": "纳指期货日内涨0.95%，标普500指数期货涨0.70%，道指期货涨0.71%。美元兑日元向下触及157，日内跌0.67%。美国国债上涨，美国2至7年期国债收益率当日下行至少10个基点。",
+   "link": "https://wallstreetcn.com/news/global/3173675",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:59"
+   "published_at": "2026-10-02 12:31"
   },
   {
    "category": "finance",
-   "title": "今年上半年外商股权性质直接投资同比增长55%",
-   "summary": "国家外汇管理局发布的《2026年上半年中国国际收支报告》显示，2026年上半年，外商股权性质直接投资为638亿美元，同比增长55%。报告显示，外商股权性质直接投资中，反映长期投资意愿的资本金净增加431亿美元；外资企业在境内的收益再投资同比增长31%，表明外资企业将经营所得更多用于在华投资兴业。",
-   "link": "https://wallstreetcn.com/news/global/3173605",
+   "title": "美国9月平均每小时工资环比 0.1%，预期 0.3%，前值 0.3%。",
+   "summary": "美国9月平均每小时工资环比 0.1%，预期 0.3%，前值 0.3%。",
+   "link": "https://wallstreetcn.com/news/global/3173674",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:50"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 15:00 欧洲央行管委兼法国央行行长Emmanuel Moulin在金融科技论坛讲话； ② 15:30 欧洲央行执委Cipollone在一场关于数字货币、支付、储备管理的地中海周边央行会议上讲话； ③ 17:00 欧元区9月CPI初值； ④ 19:30 欧洲央行副主席Boris Vujcic在法兰克福讲话； ⑤ 20:30 美国9月非农就业报告（含就业人口、失业率、平均每小时工资等）； ⑥ ",
-   "link": "https://wallstreetcn.com/news/global/3173604",
+   "title": "美国9月制造业就业人口变动 0.9万人，预期 1.2万人，前值 1.6万人。",
+   "summary": "美国9月制造业就业人口变动 0.9万人，预期 1.2万人，前值 1.6万人。",
+   "link": "https://wallstreetcn.com/news/global/3173673",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:30"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "博通开始筹集600亿美元，为Anthropic的芯片项目提供资金。（彭博）",
-   "summary": "博通开始筹集600亿美元，为Anthropic的芯片项目提供资金。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3173602",
+   "title": "美国9月私营部门就业人口变动 4.6万人，预期 8.7万人，前值 12.7万人。",
+   "summary": "美国9月私营部门就业人口变动 4.6万人，预期 8.7万人，前值 12.7万人。",
+   "link": "https://wallstreetcn.com/news/global/3173672",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:15"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "亚马逊寻求向投资者出售价值80亿美元的英伟达芯片，亚马逊近几周与投资者进行了洽谈。亚马逊计划设立特殊",
-   "summary": "亚马逊寻求向投资者出售价值80亿美元的英伟达芯片，亚马逊近几周与投资者进行了洽谈。亚马逊计划设立特殊目的载体（SPV）以出售英伟达芯片。（英国《金融时报》）",
-   "link": "https://wallstreetcn.com/news/global/3173601",
+   "title": "美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。",
+   "summary": "美国9月非农就业人口变动 2.9万人，预期 9万人，前值 16.2万人。",
+   "link": "https://wallstreetcn.com/news/global/3173671",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:06"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "埃及和埃塞俄比亚互相驱逐外交人员",
-   "summary": "当地时间2日凌晨，埃及方面援引消息人士的话称，在埃塞俄比亚要求一名埃及外交人员离境后，埃及要求埃塞俄比亚驻埃及大使馆一名参赞在48小时内离境。",
-   "link": "https://wallstreetcn.com/news/global/3173600",
+   "title": "美国9月平均每小时工资同比 3%，预期 3.1%，前值 3.1%。",
+   "summary": "美国9月平均每小时工资同比 3%，预期 3.1%，前值 3.1%。",
+   "link": "https://wallstreetcn.com/news/global/3173670",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:04"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "我国力争2030年饲草总产量达1.3亿吨",
-   "summary": "农业农村部近日印发《全国畜牧兽医行业发展“十五五”规划》，提出15项定量目标，包括肉类总产量、禽蛋产量、奶类产量等。规划显示，2030年我国饲草总产量将达到1.3亿吨。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3173599",
+   "title": "美国9月劳动力参与率 61.8%，预期 61.6%，前值 61.6%。",
+   "summary": "美国9月劳动力参与率 61.8%，预期 61.6%，前值 61.6%。",
+   "link": "https://wallstreetcn.com/news/global/3173669",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:02"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "首个百兆瓦级压缩二氧化碳储能项目并网",
-   "summary": "今天（10月2日），我国首个百兆瓦级压缩二氧化碳储能项目——中国华电新疆木垒压缩二氧化碳储能项目成功并网，开辟了大容量压缩二氧化碳储能绿色、零碳、高效、经济的新路线。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3173598",
+   "title": "美国9月失业率 4.2%，预期 4.1%，前值 4.1%。",
+   "summary": "美国9月失业率 4.2%，预期 4.1%，前值 4.1%。",
+   "link": "https://wallstreetcn.com/news/global/3173668",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:01"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "去哪儿旅行：节中机票价格明显回落",
-   "summary": "去哪儿旅行平台数据显示，平台机票均价10月2日起明显回落，较1日下降20%；3日、4日价格继续下行，跌至节中低谷。5日迎来返程客流，机票价格持续走高，10月7日达到峰值，8日、9日价格逐步回落。",
-   "link": "https://wallstreetcn.com/news/global/3173597",
+   "title": "美国9月平均每周工时 34.4小时，预期 34.3小时，前值 34.4小时。",
+   "summary": "美国9月平均每周工时 34.4小时，预期 34.3小时，前值 34.4小时。",
+   "link": "https://wallstreetcn.com/news/global/3173667",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:01"
+   "published_at": "2026-10-02 12:30"
   },
   {
    "category": "finance",
-   "title": "蔚来换电单日总量创历史新高",
-   "summary": "据蔚来消息，2026年10月1日，蔚来换电单日总量达183469单，创历史新高，平均0.47秒就有一台蔚来、乐道、萤火虫完成换电。",
-   "link": "https://wallstreetcn.com/news/global/3173596",
+   "title": "法国2年期国债收益率继续上升，最新上行13.8个基点，报3.8337%。",
+   "summary": "法国2年期国债收益率继续上升，最新上行13.8个基点，报3.8337%。",
+   "link": "https://wallstreetcn.com/news/global/3173666",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 04:00"
+   "published_at": "2026-10-02 12:22"
   },
   {
    "category": "finance",
-   "title": "截至8月底我国境内公募基金规模达39.63万亿元",
-   "summary": "中国基金业协会最新发布的数据显示，截至2026年8月底，我国境内公募基金资产净值合计39.63万亿元。截至2026年8月底，我国境内公募基金管理机构共165家，其中基金管理公司150家，取得公募资格的资产管理机构15家。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3173594",
+   "title": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每小时工资等）。",
+   "summary": "提醒：北京时间20:30，将公布美国9月非农就业报告（含就业人口、失业率、平均每小时工资等）。",
+   "link": "https://wallstreetcn.com/news/global/3173665",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 03:59"
+   "published_at": "2026-10-02 12:20"
   },
   {
    "category": "finance",
-   "title": "美国“龙”飞船搭载4名宇航员抵达国际空间站",
-   "summary": "美国东部时间1日傍晚，搭载4名宇航员的美国太空探索技术公司“龙”飞船飞抵国际空间站并完成自动对接。",
-   "link": "https://wallstreetcn.com/news/global/3173593",
+   "title": "德国10年期国债收益率下行10个基点至三周低点3.41%。",
+   "summary": "德国10年期国债收益率下行10个基点至三周低点3.41%。",
+   "link": "https://wallstreetcn.com/news/global/3173664",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 03:41"
+   "published_at": "2026-10-02 11:45"
   },
   {
    "category": "finance",
-   "title": "玉渊谭天：中美11月人工智能对话料将敲定AI风险事件通报范围等",
-   "summary": "玉渊谭天微博称，中美两国计划在下次11月的对话中推进具体问题，具体来看，至少存在三个现实推进方向：第一，共同探讨AI风险分类和分级标准。第二，敲定AI风险事件通报范围、流程与要求。第三，将AI治理置于更广泛的中美交流框架中。",
-   "link": "https://wallstreetcn.com/news/global/3173590",
+   "title": "沙特阿拉伯在东西输油管道输送量接近600万桶/日，约有450万桶/日的管道输送能力可用于出口。",
+   "summary": "沙特阿拉伯在东西输油管道输送量接近600万桶/日，约有450万桶/日的管道输送能力可用于出口。",
+   "link": "https://wallstreetcn.com/news/global/3173663",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 03:27"
+   "published_at": "2026-10-02 11:35"
   },
   {
    "category": "finance",
-   "title": "Piper Sandler将耐克目标价从38美元下调至28美元。",
-   "summary": "Piper Sandler将耐克目标价从38美元下调至28美元。",
-   "link": "https://wallstreetcn.com/news/global/3173588",
+   "title": "微软和亚马逊的云业务据悉将面临欧盟更严格的审查。",
+   "summary": "微软和亚马逊的云业务据悉将面临欧盟更严格的审查。",
+   "link": "https://wallstreetcn.com/news/global/3173662",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 02:54"
+   "published_at": "2026-10-02 11:23"
   },
   {
    "category": "finance",
-   "title": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1%。",
-   "summary": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1%。",
-   "link": "https://wallstreetcn.com/news/global/3173587",
+   "title": "OPEC+的石油产能评估工作预计将于11月中旬前完成。",
+   "summary": "OPEC+的石油产能评估工作预计将于11月中旬前完成。",
+   "link": "https://wallstreetcn.com/news/global/3173661",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 02:32"
+   "published_at": "2026-10-02 11:18"
   },
   {
    "category": "finance",
-   "title": "日本经济财政大臣城内实：希望日本央行在政策引导方面继续与政府保持密切沟通。 鉴于日本央行决定结束收益",
-   "summary": "日本经济财政大臣城内实：希望日本央行在政策引导方面继续与政府保持密切沟通。 鉴于日本央行决定结束收益率曲线控制，日本已不再需要实施非常规货币刺激措施。 日本已不再处于通缩状态，因此无需采取过度宽松、推高通胀的货币政策。 高市政府的政策不同于旨在使日本摆脱通缩的再通胀政策。 高市政府的政策不同于安倍经济学，力求同时实现强劲经济和财政纪律，侧重提升日本的供给能力。",
-   "link": "https://wallstreetcn.com/news/global/3173586",
+   "title": "希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建菲律宾HDD工厂，力",
+   "summary": "希捷科技美股盘前跌超7%，西部数据跌8%。有报道称东芝计划投入约600亿日元扩建菲律宾HDD工厂，力争在2027财年前将面向AI数据中心的硬盘产能翻倍。",
+   "link": "https://wallstreetcn.com/news/global/3173660",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 02:24"
+   "published_at": "2026-10-02 11:10"
   },
   {
    "category": "finance",
-   "title": "日本财务大臣片山皋月：将加大力度推进日本版DOGE（政府效率部）对补助金和基金的审查。 将在预算编制",
-   "summary": "日本财务大臣片山皋月：将加大力度推进日本版DOGE（政府效率部）对补助金和基金的审查。 将在预算编制过程中大幅精简闲置基金。 目前约有200个现有基金，总价值约7万亿日元。",
-   "link": "https://wallstreetcn.com/news/global/3173585",
+   "title": "欧盟：若国际能源署认为必要，将采取集体石油市场行动。",
+   "summary": "欧盟：若国际能源署认为必要，将采取集体石油市场行动。",
+   "link": "https://wallstreetcn.com/news/global/3173659",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 02:17"
+   "published_at": "2026-10-02 10:29"
   },
   {
    "category": "finance",
-   "title": "多瑙河布达佩斯段水位达历史新低",
-   "summary": "布达佩斯水务部门当地时间10月1日表示，当天，多瑙河布达佩斯段水位降至“负1厘米”，为历史新低。水务部门表示，该水位标尺的零点对应的是1834年枯水期记录到的最低水位。因此，负值水位并不意味着多瑙河河床干涸，仅表明当前水位已低于1834年最低值。",
-   "link": "https://wallstreetcn.com/news/global/3173584",
+   "title": "德国政府发言人：我们继续将美国视为可靠的燃料供应国。 （就柴油库存）我们不希望进一步扰乱市场。 德国",
+   "summary": "德国政府发言人：我们继续将美国视为可靠的燃料供应国。 （就柴油库存）我们不希望进一步扰乱市场。 德国政府希望稳定柴油供应。 无法证实G7领导人今日就柴油问题的通话。",
+   "link": "https://wallstreetcn.com/news/global/3173658",
    "source": "华尔街见闻",
-   "published_at": "2026-10-02 02:08"
+   "published_at": "2026-10-02 10:21"
+  },
+  {
+   "category": "finance",
+   "title": "法国债券风险溢价升至150个基点，为2012年以来首次。",
+   "summary": "法国债券风险溢价升至150个基点，为2012年以来首次。",
+   "link": "https://wallstreetcn.com/news/global/3173657",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 10:12"
+  },
+  {
+   "category": "finance",
+   "title": "据英国皇家汽车俱乐部数据，英国柴油平均价格首次升至每升2英镑以上。",
+   "summary": "据英国皇家汽车俱乐部数据，英国柴油平均价格首次升至每升2英镑以上。",
+   "link": "https://wallstreetcn.com/news/global/3173656",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 10:05"
+  },
+  {
+   "category": "finance",
+   "title": "国庆节后将有8只北交所主题基金开启发行",
+   "summary": "年初至今，北证50指数跌幅超27%，显著跑输各大股指；这只曾经半年涨幅超160%的热门指数，自历史高点算起回撤幅度已经超过34%。国庆节后将有8只北交所主题基金开启发行，有基金经理分析指出，在当前成交清淡、情绪冰封的阶段，正是利用新发产品从容进行左侧建仓的关键窗口。（证券时报）",
+   "link": "https://wallstreetcn.com/news/global/3173655",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 09:53"
   }
  ]
 }
