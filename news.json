@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-10-01 22:44",
+ "updated_at": "2026-10-02 05:45",
  "ai": [
+  {
+   "category": "ai",
+   "title": "AI 伦理研究：DeepSeek 对男女一视同仁，美系模型却“区别对待”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/243.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "流式转录 AI 新标杆：微软 MAI-Transcribe-2-Streaming 登场，2.5% 词错误率、0.13 秒延迟夺冠",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/183.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "仅用 22 天：Meta Muse 超越 ChatGPT，成美国下载量破 500 万次最快 AI 应用",
@@ -144,200 +160,176 @@
    "link": "https://www.ithome.com/1/007/506.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/447.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "接连发生 AI 失控事件，OpenAI 再次暂停其最强模型训练",
-   "summary": "",
-   "link": "https://www.ithome.com/1/007/445.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
+   "title": "瑞士过去5年冰川总冰量缩减近五分之一",
+   "summary": "瑞士科学院1日援引瑞士冰川监测网最新数据发布的公报说，过去5年间，瑞士冰川的总冰量减少了近五分之一。公报说，2026年瑞士冰川冰量减少5.5%，损失量在有记录以来排名第二，仅次于2022年。单座冰川的平均厚度减少了2.5至4米，今年夏季部分冰川舌区域的冰层厚度甚至减少了10米。",
+   "link": "https://wallstreetcn.com/news/global/3173610",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 05:45"
+  },
+  {
+   "category": "finance",
+   "title": "超2500万人次 铁路旅客发送量创单日新高",
+   "summary": "记者2日从中国国家铁路集团有限公司获悉，10月1日全国铁路发送旅客2520.4万人次，创单日旅客发送量历史新高，运输安全平稳有序。10月2日，全国铁路预计发送旅客2039万人次，加开列车1462列。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3173608",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 05:12"
+  },
+  {
+   "category": "finance",
+   "title": "日本40年期国债收益率上升5个基点至4.27%。",
+   "summary": "日本40年期国债收益率上升5个基点至4.27%。",
+   "link": "https://wallstreetcn.com/news/global/3173607",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 05:06"
+  },
+  {
+   "category": "finance",
+   "title": "国庆假期首日高速公路充电量同比增长60.4%",
+   "summary": "通过对纳入国家充电设施监测服务平台的6.27万个高速公路充电设施（枪）进行统计分析，“十一”国庆假期首日，全国高速公路充电量达到2804.69万千瓦时，较去年“十一”国庆假期首日增长60.40%，创历史节假日单日新高。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3173606",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 04:59"
+  },
+  {
+   "category": "finance",
+   "title": "今年上半年外商股权性质直接投资同比增长55%",
+   "summary": "国家外汇管理局发布的《2026年上半年中国国际收支报告》显示，2026年上半年，外商股权性质直接投资为638亿美元，同比增长55%。报告显示，外商股权性质直接投资中，反映长期投资意愿的资本金净增加431亿美元；外资企业在境内的收益再投资同比增长31%，表明外资企业将经营所得更多用于在华投资兴业。",
+   "link": "https://wallstreetcn.com/news/global/3173605",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-02 04:50"
+  },
+  {
+   "category": "finance",
    "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:00 韩国9月CPI； ② 07:20 美国达拉斯联储主席洛根（Lorie Logan，2026年FOMC票委）参加辖区内一场活动的问答环节； ③ 07:30 日本8月失业率，9月东京CPI； ④ 15:00 欧洲央行管委兼法国央行行长Emmanuel Moulin在金融科技论坛讲话； ⑤ 15:30 欧洲央行执委Cipollone在一场关于数字货币、支付、储备管理的地中海周边央行会议上",
-   "link": "https://wallstreetcn.com/news/global/3173538",
+   "summary": "① 15:00 欧洲央行管委兼法国央行行长Emmanuel Moulin在金融科技论坛讲话； ② 15:30 欧洲央行执委Cipollone在一场关于数字货币、支付、储备管理的地中海周边央行会议上讲话； ③ 17:00 欧元区9月CPI初值； ④ 19:30 欧洲央行副主席Boris Vujcic在法兰克福讲话； ⑤ 20:30 美国9月非农就业报告（含就业人口、失业率、平均每小时工资等）； ⑥ ",
+   "link": "https://wallstreetcn.com/news/global/3173604",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 22:30"
+   "published_at": "2026-10-02 04:30"
   },
   {
    "category": "finance",
-   "title": "耐克美股盘后跌幅扩大至8.4%。",
-   "summary": "耐克美股盘后跌幅扩大至8.4%。",
-   "link": "https://wallstreetcn.com/news/global/3173537",
+   "title": "博通开始筹集600亿美元，为Anthropic的芯片项目提供资金。（彭博）",
+   "summary": "博通开始筹集600亿美元，为Anthropic的芯片项目提供资金。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3173602",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 22:23"
+   "published_at": "2026-10-02 04:15"
   },
   {
    "category": "finance",
-   "title": "中方在联大三委作共同发言，敦促遏止单边强制措施",
-   "summary": "中国常驻联合国代表傅聪1日代表28个观点相近国家在联大第三委员会就单边强制措施作共同发言，敦促国际社会坚决遏止这一非法行径。 傅聪说，尽管国际社会反复呼吁立即取消单边强制措施，但这些非法举措继续对目标国家及其人民造成严重后果，甚至危及生命。单边强制措施以及次级制裁和过度遵守，加剧当前人道和经济挑战，严重威胁粮食、能源和金融安全。将关税作为单边胁迫工具的做法日益增多，包括依据国内法作出单方面认定、以",
-   "link": "https://wallstreetcn.com/news/global/3173536",
+   "title": "亚马逊寻求向投资者出售价值80亿美元的英伟达芯片，亚马逊近几周与投资者进行了洽谈。亚马逊计划设立特殊",
+   "summary": "亚马逊寻求向投资者出售价值80亿美元的英伟达芯片，亚马逊近几周与投资者进行了洽谈。亚马逊计划设立特殊目的载体（SPV）以出售英伟达芯片。（英国《金融时报》）",
+   "link": "https://wallstreetcn.com/news/global/3173601",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 22:21"
+   "published_at": "2026-10-02 04:06"
   },
   {
    "category": "finance",
-   "title": "安森美修改Synaptics收购条款，将以约57亿美元现金支付",
-   "summary": "安森美半导体（onsemi）修改了其收购Synaptics Inc.的交易条款，将以约57亿美元现金支付，而非此前约70亿美元的股票对价。安森美将按每股123美元支付，公司预计该交易将立即增厚盈利，同时为Synaptics股东提供“价值确定性”。该合并预计将于2027年年中完成，前提是获得Synaptics投资者批准并通过监管审查。",
-   "link": "https://wallstreetcn.com/news/global/3173531",
+   "title": "埃及和埃塞俄比亚互相驱逐外交人员",
+   "summary": "当地时间2日凌晨，埃及方面援引消息人士的话称，在埃塞俄比亚要求一名埃及外交人员离境后，埃及要求埃塞俄比亚驻埃及大使馆一名参赞在48小时内离境。",
+   "link": "https://wallstreetcn.com/news/global/3173600",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:49"
+   "published_at": "2026-10-02 04:04"
   },
   {
    "category": "finance",
-   "title": "淡水河谷：将在10月29日打包披露业绩报告和产量数据。",
-   "summary": "淡水河谷：将在10月29日打包披露业绩报告和产量数据。",
-   "link": "https://wallstreetcn.com/news/global/3173530",
+   "title": "我国力争2030年饲草总产量达1.3亿吨",
+   "summary": "农业农村部近日印发《全国畜牧兽医行业发展“十五五”规划》，提出15项定量目标，包括肉类总产量、禽蛋产量、奶类产量等。规划显示，2030年我国饲草总产量将达到1.3亿吨。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3173599",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:47"
+   "published_at": "2026-10-02 04:02"
   },
   {
    "category": "finance",
-   "title": "墨西哥经济部长：墨西哥将于明年春季派出赴欧盟贸易代表团。 墨西哥计划派出第二次赴加拿大贸易代表团。",
-   "summary": "墨西哥经济部长：墨西哥将于明年春季派出赴欧盟贸易代表团。 墨西哥计划派出第二次赴加拿大贸易代表团。 我们与美国贸易代表格里尔的谈判正在取得进展。",
-   "link": "https://wallstreetcn.com/news/global/3173528",
+   "title": "首个百兆瓦级压缩二氧化碳储能项目并网",
+   "summary": "今天（10月2日），我国首个百兆瓦级压缩二氧化碳储能项目——中国华电新疆木垒压缩二氧化碳储能项目成功并网，开辟了大容量压缩二氧化碳储能绿色、零碳、高效、经济的新路线。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3173598",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:44"
+   "published_at": "2026-10-02 04:01"
   },
   {
    "category": "finance",
-   "title": "美国共和党考虑迅速提高债务上限，来削弱民主党的筹码",
-   "summary": "美国共和党议员正在考虑一项计划，利用本届国会任期结束前的最后几周迅速提高美国债务上限，从而使民主党即使在国会取得多数席位，也将失去一个对唐纳德·特朗普政府施加影响的有力筹码。 参议院财政委员会主席Mike Crapo周三表示：“我们应该尽早完成这件事。”该委员会对财政问题拥有管辖权。",
-   "link": "https://wallstreetcn.com/news/global/3173527",
+   "title": "去哪儿旅行：节中机票价格明显回落",
+   "summary": "去哪儿旅行平台数据显示，平台机票均价10月2日起明显回落，较1日下降20%；3日、4日价格继续下行，跌至节中低谷。5日迎来返程客流，机票价格持续走高，10月7日达到峰值，8日、9日价格逐步回落。",
+   "link": "https://wallstreetcn.com/news/global/3173597",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:43"
+   "published_at": "2026-10-02 04:01"
   },
   {
    "category": "finance",
-   "title": "花旗：欧元兑美元存在跌向1.0850的风险。 欧洲央行鹰派立场存在“政策失误”的风险，这给欧元兑瑞郎",
-   "summary": "花旗：欧元兑美元存在跌向1.0850的风险。 欧洲央行鹰派立场存在“政策失误”的风险，这给欧元兑瑞郎带来下行风险。",
-   "link": "https://wallstreetcn.com/news/global/3173526",
+   "title": "蔚来换电单日总量创历史新高",
+   "summary": "据蔚来消息，2026年10月1日，蔚来换电单日总量达183469单，创历史新高，平均0.47秒就有一台蔚来、乐道、萤火虫完成换电。",
+   "link": "https://wallstreetcn.com/news/global/3173596",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:39"
+   "published_at": "2026-10-02 04:00"
   },
   {
    "category": "finance",
-   "title": "新西兰能源部长：政府仍100%承诺推进LNG进口终端",
-   "summary": "新西兰能源部长布朗（Simeon Brown）对记者表示，由国家党领导的政府仍100%承诺推进一座液化天然气（LNG）进口终端项目。 布朗表示，该终端项目正处于采购流程中，但这一流程比预期耗时更长。 布朗称：“相关决定很可能在大选之后才会做出，但我们仍100%承诺继续推进该LNG进口终端项目。”",
-   "link": "https://wallstreetcn.com/news/global/3173525",
+   "title": "截至8月底我国境内公募基金规模达39.63万亿元",
+   "summary": "中国基金业协会最新发布的数据显示，截至2026年8月底，我国境内公募基金资产净值合计39.63万亿元。截至2026年8月底，我国境内公募基金管理机构共165家，其中基金管理公司150家，取得公募资格的资产管理机构15家。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3173594",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:38"
+   "published_at": "2026-10-02 03:59"
   },
   {
    "category": "finance",
-   "title": "耐克：预计供应链行动对收入所构成的压力将持续至2028年。",
-   "summary": "耐克：预计供应链行动对收入所构成的压力将持续至2028年。",
-   "link": "https://wallstreetcn.com/news/global/3173524",
+   "title": "美国“龙”飞船搭载4名宇航员抵达国际空间站",
+   "summary": "美国东部时间1日傍晚，搭载4名宇航员的美国太空探索技术公司“龙”飞船飞抵国际空间站并完成自动对接。",
+   "link": "https://wallstreetcn.com/news/global/3173593",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:31"
+   "published_at": "2026-10-02 03:41"
   },
   {
    "category": "finance",
-   "title": "两年期美债收益率跌超9.5个基点，10年期美债收益率一度创2002年以来新高",
-   "summary": "周四（10月1日）纽约尾盘，美国10年期基准国债收益率跌4.42个基点，报5.2407%，日内交投于5.3402%-5.2049%区间，美股早盘显著下跌，北京时间15:30逼近2002年一季度顶部5.4730%、2000年四季度顶部5.91%、2000年三季度最高位6.1820%。 两年期美债收益率跌9.56个基点，报4.7914%，15:26涨至4.9225%，随后持续下挫、01:30刷新日低至",
-   "link": "https://wallstreetcn.com/news/global/3173481",
+   "title": "玉渊谭天：中美11月人工智能对话料将敲定AI风险事件通报范围等",
+   "summary": "玉渊谭天微博称，中美两国计划在下次11月的对话中推进具体问题，具体来看，至少存在三个现实推进方向：第一，共同探讨AI风险分类和分级标准。第二，敲定AI风险事件通报范围、流程与要求。第三，将AI治理置于更广泛的中美交流框架中。",
+   "link": "https://wallstreetcn.com/news/global/3173590",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:27"
+   "published_at": "2026-10-02 03:27"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数涨0.2%，发展中国家外汇指数跌0.3%。",
-   "summary": "明晟公司MSCI新兴市场股票指数涨0.2%，发展中国家外汇指数跌0.3%。",
-   "link": "https://wallstreetcn.com/news/global/3173521",
+   "title": "Piper Sandler将耐克目标价从38美元下调至28美元。",
+   "summary": "Piper Sandler将耐克目标价从38美元下调至28美元。",
+   "link": "https://wallstreetcn.com/news/global/3173588",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:25"
+   "published_at": "2026-10-02 02:54"
   },
   {
    "category": "finance",
-   "title": "通信应用程序编程接口供应商Twilio美股盘后涨2%，该公司将被纳入标普500指数。",
-   "summary": "通信应用程序编程接口供应商Twilio美股盘后涨2%，该公司将被纳入标普500指数。",
-   "link": "https://wallstreetcn.com/news/global/3173520",
+   "title": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1%。",
+   "summary": "截至早盘收盘，日经225指数跌0.9%，东证指数跌1%。",
+   "link": "https://wallstreetcn.com/news/global/3173587",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:21"
+   "published_at": "2026-10-02 02:32"
   },
   {
    "category": "finance",
-   "title": "标普道琼斯指数公司：Twilio、Vylor将被纳入标普500指数。",
-   "summary": "标普道琼斯指数公司：Twilio、Vylor将被纳入标普500指数。",
-   "link": "https://wallstreetcn.com/news/global/3173519",
+   "title": "日本经济财政大臣城内实：希望日本央行在政策引导方面继续与政府保持密切沟通。 鉴于日本央行决定结束收益",
+   "summary": "日本经济财政大臣城内实：希望日本央行在政策引导方面继续与政府保持密切沟通。 鉴于日本央行决定结束收益率曲线控制，日本已不再需要实施非常规货币刺激措施。 日本已不再处于通缩状态，因此无需采取过度宽松、推高通胀的货币政策。 高市政府的政策不同于旨在使日本摆脱通缩的再通胀政策。 高市政府的政策不同于安倍经济学，力求同时实现强劲经济和财政纪律，侧重提升日本的供给能力。",
+   "link": "https://wallstreetcn.com/news/global/3173586",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:21"
+   "published_at": "2026-10-02 02:24"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.25%，报13896点。",
-   "summary": "富时A50期指连续夜盘收涨0.25%，报13896点。",
-   "link": "https://wallstreetcn.com/news/global/3173517",
+   "title": "日本财务大臣片山皋月：将加大力度推进日本版DOGE（政府效率部）对补助金和基金的审查。 将在预算编制",
+   "summary": "日本财务大臣片山皋月：将加大力度推进日本版DOGE（政府效率部）对补助金和基金的审查。 将在预算编制过程中大幅精简闲置基金。 目前约有200个现有基金，总价值约7万亿日元。",
+   "link": "https://wallstreetcn.com/news/global/3173585",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:15"
+   "published_at": "2026-10-02 02:17"
   },
   {
    "category": "finance",
-   "title": "周四（10月1日）纽约尾盘，标普500股指期货最终涨0.22%，道指期货涨0.05%，纳斯达克100",
-   "summary": "周四（10月1日）纽约尾盘，标普500股指期货最终涨0.22%，道指期货涨0.05%，纳斯达克100股指期货涨0.31%。 罗素2000股指期货涨0.45%。",
-   "link": "https://wallstreetcn.com/news/global/3173515",
+   "title": "多瑙河布达佩斯段水位达历史新低",
+   "summary": "布达佩斯水务部门当地时间10月1日表示，当天，多瑙河布达佩斯段水位降至“负1厘米”，为历史新低。水务部门表示，该水位标尺的零点对应的是1834年枯水期记录到的最低水位。因此，负值水位并不意味着多瑙河河床干涸，仅表明当前水位已低于1834年最低值。",
+   "link": "https://wallstreetcn.com/news/global/3173584",
    "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:08"
-  },
-  {
-   "category": "finance",
-   "title": "智利矿业部长表示，在这个全球最大铜生产国遭遇一系列挫折后，近期产量下滑属于暂时现象，并对明年的产出持",
-   "summary": "智利矿业部长表示，在这个全球最大铜生产国遭遇一系列挫折后，近期产量下滑属于暂时现象，并对明年的产出持乐观态度。",
-   "link": "https://wallstreetcn.com/news/global/3173514",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:07"
-  },
-  {
-   "category": "finance",
-   "title": "周四（10月1日）纽约尾盘（周五北京时间04:59），离岸人民币（CNH）兑美元报6.7142元，较",
-   "summary": "周四（10月1日）纽约尾盘（周五北京时间04:59），离岸人民币（CNH）兑美元报6.7142元，较周三纽约尾盘跌54点，日内整体交投于6.7082-6.7222元区间。",
-   "link": "https://wallstreetcn.com/news/global/3173512",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-01 21:04"
-  },
-  {
-   "category": "finance",
-   "title": "国际金价涨约0.5%，费城金银指数收跌0.9%",
-   "summary": "周四（10月1日）纽约尾盘，现货黄金涨0.47%，报4177.04美元/盎司，日内主要处于上涨状态、北京时间13:37刷新日高至4192.99点。 现货白银涨0.93%，报60.9887美元/盎司，13:37刷新日高至61.4332美元。 COMEX铜期货跌0.68%，报6.5765美元/磅，16:00前后短线快速扩大跌幅。 在美股时段交易的费城金银指数收跌0.90%，报357.91点。 在全球市",
-   "link": "https://wallstreetcn.com/news/global/3173510",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-01 20:59"
-  },
-  {
-   "category": "finance",
-   "title": "也门西南省份战事加剧，30名胡塞武装人员被打死",
-   "summary": "据也门共和国电视台1日报道称，也门西南部塔伊兹省多个战线战斗加剧。报道援引政府军声明说，政府军当天在塔伊兹省南部地区与胡塞武装激战，打死30名胡塞武装人员，打伤50人。 另据也门政府军消息，自1日清晨以来，塔伊兹省5条战线持续交战，政府军和胡塞武装均遭受重大人员伤亡。",
-   "link": "https://wallstreetcn.com/news/global/3173509",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-01 20:58"
-  },
-  {
-   "category": "finance",
-   "title": "胡塞武装称沙特空袭也门多地",
-   "summary": "也门胡塞武装方面证实，当地时间10月1日夜间，沙特对也门萨那、萨达省、塔伊兹省、阿姆朗省等胡塞武装控制区进行了空袭。这也是9月3日局势升级以来，沙特首次空袭胡塞武装控制下的也门首都萨那。沙特方面对此暂无回应。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3173508",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-01 20:57"
-  },
-  {
-   "category": "finance",
-   "title": "SpaceX：猎鹰9号运载火箭发射第18次“运输者”（Transporter）拼车任务，将130个有",
-   "summary": "SpaceX：猎鹰9号运载火箭发射第18次“运输者”（Transporter）拼车任务，将130个有效载荷送入轨道。",
-   "link": "https://wallstreetcn.com/news/global/3173507",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-01 20:53"
+   "published_at": "2026-10-02 02:08"
   }
  ]
 }
