@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03 16:26",
+ "updated_at": "2026-10-03 21:22",
  "ai": [
   {
    "category": "ai",
@@ -165,6 +165,22 @@
  "finance": [
   {
    "category": "finance",
+   "title": "也门胡塞武装称萨那遭到空袭",
+   "summary": "据也门胡塞武装控制的马西拉电视台3日报道，当天，也门首都萨那遭到沙特空袭，报道没有提供关于遭袭目标或伤亡的细节。沙特方面暂无回应。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3173903",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-03 17:15"
+  },
+  {
+   "category": "finance",
+   "title": "苹果将加强Mac隐私控制，警告AI智能体带来的风险上升",
+   "summary": "苹果公司表示，计划为Mac用户推出新的隐私控制措施，并警告称，向包括AI智能体在内的第三方软件授予广泛的数据访问权限所带来的风险正在上升。 这家iPhone制造商周五在一份声明中表示，将推出更多控制措施，以确保希望向某款应用授予“完全磁盘访问权限”——也就是允许其完全访问系统文件、邮件、信息和浏览历史——的用户只能通过“非常明确的用户操作”来完成授权。",
+   "link": "https://wallstreetcn.com/news/global/3173902",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-03 17:08"
+  },
+  {
+   "category": "finance",
    "title": "OpenAI安全部门员工辞职，呼吁采取核电级别的防护措施",
    "summary": "此前负责OpenAI安全团队透明度工作的David Robinson在为《大西洋月刊》撰写的一篇文章中称，这家ChatGPT开发商“一直通过反复试错发展壮大”。但是，这种方式不可避免会有失败的时候，随着AI技术的能力不断提升，这些失败造成的风险也在加大，他还以OpenAI未能阻止其人工智能在测试过程中失控作为例证。Robinson表示，人工智能公司应该更像核电站那样运营，“设置多层冗余机制，并进行",
    "link": "https://wallstreetcn.com/news/global/3173900",
@@ -274,14 +290,6 @@
    "link": "https://wallstreetcn.com/news/global/3173877",
    "source": "华尔街见闻",
    "published_at": "2026-10-03 09:20"
-  },
-  {
-   "category": "finance",
-   "title": "英国柴油价格达近年来最高点",
-   "summary": "随着中东紧张局势的持续，全球成品油价格不断攀升。据英国道路救援与车辆拖运公司10月2日统计，英国柴油平均零售价格为每升2英镑（约合人民币17.75元），突破了此前于2022年6月创下的记录，且该价格未来或将继续攀升。（CCTV国际时讯）",
-   "link": "https://wallstreetcn.com/news/global/3173876",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-03 09:06"
   }
  ]
 }
