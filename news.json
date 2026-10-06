@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-10-06 06:27",
+ "updated_at": "2026-10-06 18:25",
  "ai": [
+  {
+   "category": "ai",
+   "title": "12GB 显存显卡跑 125B Qwen3.8 模型：Strata 登场，单张 RTX 5070 跑出 94 词元 / 秒",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/006.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "索尼音乐 9 月要求下架 26 万首 AI 伪造歌曲：阿黛尔等艺人被冒充，请求量较 3 月近乎翻倍",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/001.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "韩国拟推 4.7 万亿韩元专项计划，明年 3 月起研发前沿 AI 大模型",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/000.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标",
@@ -136,200 +160,184 @@
    "link": "https://www.ithome.com/1/008/544.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "2026 OpenAI 开发者日遭 15+ 组织抗议，要求 AI 数据中心设 100 英里安全距离",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/533.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，AI 加速走向工作场景",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/532.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "150 毫秒极速响应：OpenAI 推出 Decisions API，让 AI 从“聊天”走向“实时决策”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/531.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "【报道：DeepSeek将融资至少800亿元人民币，腾讯和宁德时代参与领投】据媒体援引知情人士称，D",
-   "summary": "【报道：DeepSeek将融资至少800亿元人民币，腾讯和宁德时代参与领投】据媒体援引知情人士称，DeepSeek最新一轮融资接近锁定至少800亿元人民币（120亿美元）投资，大幅超过公司原定融资目标，为计划于2027年初进行的首次公开募股奠定基础。知情人士表示，宁德时代和腾讯是领投方之一，融资即将结束。DeepSeek最初寻求融资约500亿元人民币，但在最新AI模型成功发布后，投资者兴趣超出预期",
-   "link": "https://wallstreetcn.com/news/global/3174329",
+   "title": "英仕曼集团质疑“高通胀对债券不利”的共识",
+   "summary": "英仕曼集团（Man Group）的一项研究显示，仅凭高通胀本身并不对美国国债构成利空，真正造成最大伤害的是价格增速的快速上升。周二发布的一份研究报告显示，当通胀处于2%-4%区间时，10年期美国国债在这些时期的历史平均年化名义回报率为6.9%。英仕曼的分析表明，债券在长期投资组合中仍应占有一席之地，因为它们在股市下跌时历史上表现良好，且仍能提供正的实际回报。",
+   "link": "https://wallstreetcn.com/news/global/3174591",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 06:26"
+   "published_at": "2026-10-06 18:17"
   },
   {
    "category": "finance",
-   "title": "德国8月季调后工厂订单同比 2.7%，预期 13.1%，前值 13.1%。",
-   "summary": "德国8月季调后工厂订单同比 2.7%，预期 13.1%，前值 13.1%。",
-   "link": "https://wallstreetcn.com/news/global/3174328",
+   "title": "一艘油轮在俄罗斯索契附近黑海海域起火",
+   "summary": "10月6日，俄罗斯索契“天狼星”联邦直辖区行政机构负责人德米特里·普利什金表示，一艘油轮在索契附近黑海海域起火。为保障民众安全，当地海滩将暂时关闭。目前，有关方面正在对海水和空气状况进行监测。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3174589",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 06:00"
+   "published_at": "2026-10-06 18:11"
   },
   {
    "category": "finance",
-   "title": "德国8月季调后工厂订单环比 -10.6%，预期 -1%，前值 2.5%。",
-   "summary": "德国8月季调后工厂订单环比 -10.6%，预期 -1%，前值 2.5%。",
-   "link": "https://wallstreetcn.com/news/global/3174327",
+   "title": "美国司法部高级官员授意雇员们在官方联系中用“超级智能”（SI）替换人工智能（AI）。",
+   "summary": "美国司法部高级官员授意雇员们在官方联系中用“超级智能”（SI）替换人工智能（AI）。",
+   "link": "https://wallstreetcn.com/news/global/3174588",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 06:00"
+   "published_at": "2026-10-06 18:09"
   },
   {
    "category": "finance",
-   "title": "AMD首席执行官苏姿丰预计未来几年芯片需求仍将非常强劲",
-   "summary": "AMD首席执行官苏姿丰预计，随着人工智能(AI)应用增加，未来几年芯片需求仍将“非常强劲”。苏姿丰表示，芯片供不应求，存储芯片供应仍然紧张。AI对世界有益，不会危害人类。美国主要AI公司之间加强协调十分重要。美国成立“超级智能工作组”是“向前迈出的重要一步”。苏姿丰将于周二晚些时候与台积电高管会面。",
-   "link": "https://wallstreetcn.com/news/global/3174325",
+   "title": "谷歌旗下无人驾驶汽车部门Waymo：在美国底特律推出全自动驾驶。",
+   "summary": "谷歌旗下无人驾驶汽车部门Waymo：在美国底特律推出全自动驾驶。",
+   "link": "https://wallstreetcn.com/news/global/3174585",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 05:40"
+   "published_at": "2026-10-06 18:03"
   },
   {
    "category": "finance",
-   "title": "印度9月综合PMI终值 55.9，初值 56.5。",
-   "summary": "印度9月综合PMI终值 55.9，初值 56.5。",
-   "link": "https://wallstreetcn.com/news/global/3174324",
+   "title": "阿根廷外长批评英国政府拒绝就马岛问题谈判",
+   "summary": "阿根廷外长巴勃罗·基尔诺5日晚批评英国政府在马尔维纳斯群岛（简称马岛，英国称福克兰群岛）主权争端中拒绝谈判。基尔诺5日晚在阿根廷国际关系委员会成立48周年纪念活动上重申阿政府对马岛的主权，并批评英国政府的单方面行为“损害了阿根廷的不可再生资源”。英国驻阿根廷大使戴维·凯恩斯在基尔诺发言后离开活动现场。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3174584",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 05:00"
+   "published_at": "2026-10-06 18:03"
   },
   {
    "category": "finance",
-   "title": "印度9月服务业PMI终值 55.2，初值 55.8。",
-   "summary": "印度9月服务业PMI终值 55.2，初值 55.8。",
-   "link": "https://wallstreetcn.com/news/global/3174323",
+   "title": "巴西财政部：巴西9月贸易顺差为77.41亿美元。",
+   "summary": "巴西财政部：巴西9月贸易顺差为77.41亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3174583",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 05:00"
+   "published_at": "2026-10-06 18:01"
   },
   {
    "category": "finance",
-   "title": "报道：希捷和东芝据悉竞购TDK硬盘磁头业务，交易金额或达数十亿美元",
-   "summary": "知情人士称，希捷和东芝正在竞购TDK的硬盘磁头业务，两家公司都希望跟上人工智能(AI)数据中心对存储设备快速增长的需求。因涉及未公开消息而不愿具名的知情人士透露，东芝今年春季率先与TDK展开谈判，希捷随后在夏季提出更高的报价。这项收购的交易金额最高可能达到数十亿美元。TDK股价周二下午在东京大涨7.3%，成交量接近20日均值的三倍。",
-   "link": "https://wallstreetcn.com/news/global/3174322",
+   "title": "初创公司Hark在2027年硬件发布前推出AI代理",
+   "summary": "Hark推出了一款名为Hark Pro的“主动式”AI应用，可代表用户完成任务，例如购买杂货或预订车辆。Hark Pro与Hark将于2027年开始陆续推出的AI硬件产品配套使用，目前提供免费版本及付费订阅选项。Hark Pro依托其自有的云端计算机Handoff来记忆用户信息并处理问题，并提供操作按钮和个性化小型应用等工具。",
+   "link": "https://wallstreetcn.com/news/global/3174582",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 04:57"
+   "published_at": "2026-10-06 18:01"
   },
   {
    "category": "finance",
-   "title": "全球纯燃油车新车销量占比首次跌破50%",
-   "summary": "Mobility Global最新数据显示，2026年上半年，纯汽油车型占全球新车销量的49%，这是历史上纯汽油车销量占比首次跌破五成，且较2021年的73%大幅下降了24个百分点。Mobility Global是一家汽车数据机构，前身为标普全球汽车（S&amp;P Global Mobility），今年从标普全球集团分拆独立。该机构数据显示，今年上半年，纯汽油车销量同比下降10%，至2025万辆",
-   "link": "https://wallstreetcn.com/news/global/3174321",
+   "title": "报道：土耳其不良资产管理公司负责人身亡",
+   "summary": "据土耳其CNN Turk报道，土耳其商人、不良资产管理公司Adil Varlik Yonetim AS董事长阿里·埃姆雷·巴利周二在伊斯坦布尔一辆车内被发现身亡。 据该电视台报道，这名46岁商人是在伊斯坦布尔切克梅科伊区一处空地上的一辆汽车驾驶座内被发现的。初步检查显示，他死于枪伤。当局已就其死亡情况展开调查。",
+   "link": "https://wallstreetcn.com/news/global/3174581",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 04:45"
+   "published_at": "2026-10-06 18:00"
   },
   {
    "category": "finance",
-   "title": "返程高峰将至，今日铁路预计发送旅客2210万人次",
-   "summary": "今天是国庆假期第六天，全国交通出行迎来返程客流。记者从交通运输部了解到，昨天（5日），全社会跨区域人员流动量超3亿人次。今天全国铁路预计发送旅客2210万人次，计划加开列车2199列。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3174318",
+   "title": "智利国家铜业公司（Codelco）：正调查2024-25年期间存在超产的新证据。 董事会已获悉与产量",
+   "summary": "智利国家铜业公司（Codelco）：正调查2024-25年期间存在超产的新证据。 董事会已获悉与产量核算可能存在重复计算以及库存账目不符相关的初步调查结果。 已将最新调查结果提交给检察官办公室，并委托开展了一项新的独立外部审计，以确定事件的影响规模、责任归属以及潜在经济影响。 这可能导致Ministro Hales和Salvador矿区在2024年和2025年期间上报的产量被人为抬高。",
+   "link": "https://wallstreetcn.com/news/global/3174578",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 03:57"
+   "published_at": "2026-10-06 17:53"
   },
   {
    "category": "finance",
-   "title": "快手可灵AI据悉选定银行筹备香港IPO，拟募资至少10亿美元",
-   "summary": "据知情人士称，快手科技旗下可灵AI已选定银行筹备香港首次公开募股，此次上市可能募资至少10亿美元。知情人士表示，这家人工智能视频生成服务商正与中金公司、高盛和瑞银合作推进潜在的股票发行，以最快明年上市为目标。知情人士称，相关讨论仍在进行，募资规模和上市时间等细节可能发生变化。（新浪）",
-   "link": "https://wallstreetcn.com/news/global/3174315",
+   "title": "对冲基金9月业绩排行榜：德劭录得上涨，Haidar宏观基金回报率近18%",
+   "summary": "在9月全球债市剧烈波动环境下，德劭旗下对冲基金以及Said Haidar的宏观交易策略基金成为赢家。 据知情人士称，德劭主要多策略对冲基金Composite上月回报率1.5%，而以宏观交易为主的Oculus基金当月上涨4.3%。两只基金今年以来的回报率分别升至15.3%和30.2%。 一份投资者文件显示，Haidar旗下宏观对冲基金Jupiter在8月上涨17%后，9月回报率仍然达到17.7%。今",
+   "link": "https://wallstreetcn.com/news/global/3174577",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 03:28"
+   "published_at": "2026-10-06 17:53"
   },
   {
    "category": "finance",
-   "title": "桥水创始人达利欧：美国偿债支出正在挤占其他支出。 预计美国债务危机可能在三年内爆发。 法国已达到其举",
-   "summary": "桥水创始人达利欧：美国偿债支出正在挤占其他支出。 预计美国债务危机可能在三年内爆发。 法国已达到其举债上限。 我们正在进入使用人工智能投资的新时代。 财富税会令人工智能泡沫破裂。",
-   "link": "https://wallstreetcn.com/news/global/3174314",
+   "title": "美国堪萨斯城联储主席Jeff Schmid：抗击通胀让美联储的公信力正面临考验。",
+   "summary": "美国堪萨斯城联储主席Jeff Schmid：抗击通胀让美联储的公信力正面临考验。",
+   "link": "https://wallstreetcn.com/news/global/3174576",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 03:21"
+   "published_at": "2026-10-06 17:37"
   },
   {
    "category": "finance",
-   "title": "国家税务总局发布全国统一的税务行政处罚裁量基准",
-   "summary": "近日，国家税务总局发布《全国税务行政处罚裁量基准（2026年版）》，并将于11月1日起施行。这标志着税务行政处罚裁量基准实现全国范围统一。国家税务总局一并发布了税务行政处罚“轻微不罚”事项清单，涵盖从税务行政处罚裁量基准中归纳的8项行政处罚事项。同时，对各地税务机关落实全国统一的税务行政处罚裁量基准提出明确要求，强调要严格依法依规实施处罚，在裁量基准范围内作出处罚决定，保障纳税人缴费人合法权益。（",
-   "link": "https://wallstreetcn.com/news/global/3174313",
+   "title": "美国堪萨斯城联储主席Jeff Schmid：当前，AI是通胀的最大驱动因素之一。",
+   "summary": "美国堪萨斯城联储主席Jeff Schmid：当前，AI是通胀的最大驱动因素之一。",
+   "link": "https://wallstreetcn.com/news/global/3174575",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 03:11"
+   "published_at": "2026-10-06 17:35"
   },
   {
    "category": "finance",
-   "title": "美军一直升机红海上空发出紧急代码",
-   "summary": "据飞行数据追踪网站Flightradar24的信息显示，当地时间今天（10月6日）凌晨，美国海军一架MH-60R“海鹰”直升机在沙特阿拉伯西部沿海城市延布附近红海上空飞行时宣布紧急状态，并发出7700通用紧急代码。随后这架直升机从公开的飞行追踪系统中消失。目前尚未确认引发紧急状态的原因。",
-   "link": "https://wallstreetcn.com/news/global/3174312",
+   "title": "俄罗斯国防部：全天在俄联邦多个地区击落110架乌克兰无人机。",
+   "summary": "俄罗斯国防部：全天在俄联邦多个地区击落110架乌克兰无人机。",
+   "link": "https://wallstreetcn.com/news/global/3174573",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 03:02"
+   "published_at": "2026-10-06 17:24"
   },
   {
    "category": "finance",
-   "title": "国庆假期上海楼市热度不减：新房售楼处“9点不到就有客户来了”，二手房议价空间持续收窄",
-   "summary": "进入国庆黄金周，上海楼市迎来“银十”开门红。不少新盘项目抢抓假期窗口开放展厅、推出专属特价房源吸引客户。叠加天气转晴、假期末尾返沪人流增多，不少新房项目的到访、成交迎来一波小高峰，二手房带看与议价氛围也同步回暖。位于闵行区浦江镇的象屿·天宸雅颂项目，国庆假期售楼处客流热度不减。据项目负责人介绍，国庆期间项目推出特价房活动，房源去化表现较好。截至10月4日，假期累计到访客户接近170组。",
-   "link": "https://wallstreetcn.com/news/global/3174311",
+   "title": "美国堪萨斯城联储主席Jeff Schmid：劳动力仍然形势良好。 通胀令人感到沮丧，必须解决。 在抗",
+   "summary": "美国堪萨斯城联储主席Jeff Schmid：劳动力仍然形势良好。 通胀令人感到沮丧，必须解决。 在抗击通胀方面还有很长的路要走。",
+   "link": "https://wallstreetcn.com/news/global/3174572",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 02:54"
+   "published_at": "2026-10-06 17:24"
   },
   {
    "category": "finance",
-   "title": "月之暗面即将完成Pre-IPO融资，估值将达500亿美元，计划于2027年第一季度在香港上市。（新浪",
-   "summary": "月之暗面即将完成Pre-IPO融资，估值将达500亿美元，计划于2027年第一季度在香港上市。（新浪）",
-   "link": "https://wallstreetcn.com/news/global/3174309",
+   "title": "据市场情报公司IIR Energy：预计沙特Jazan炼油厂要到11月份才会回复运营。 该国毗邻红海",
+   "summary": "据市场情报公司IIR Energy：预计沙特Jazan炼油厂要到11月份才会回复运营。 该国毗邻红海、靠近Yanbu的Samref炼油厂因东西输油管道破损而降低运营规模。",
+   "link": "https://wallstreetcn.com/news/global/3174571",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 02:35"
+   "published_at": "2026-10-06 17:23"
   },
   {
    "category": "finance",
-   "title": "港股大模型概念股上涨，智谱涨6.84%，MINIMAX涨3.85%。",
-   "summary": "港股大模型概念股上涨，智谱涨6.84%，MINIMAX涨3.85%。",
-   "link": "https://wallstreetcn.com/news/global/3174308",
+   "title": "阿曼：已对一艘在阿曼穆桑代姆省利马东北部遇袭的巴拿马籍商船的十名船员实施医疗撤离。",
+   "summary": "阿曼：已对一艘在阿曼穆桑代姆省利马东北部遇袭的巴拿马籍商船的十名船员实施医疗撤离。",
+   "link": "https://wallstreetcn.com/news/global/3174570",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 02:28"
+   "published_at": "2026-10-06 17:21"
   },
   {
    "category": "finance",
-   "title": "智谱将开启海外“收租”，GLM-5.3接入亚马逊云科技等",
-   "summary": "今日，亚马逊云科技（AWS）旗下大模型服务平台Amazon Bedrock官宣接入智谱GLM-5.3，AWS基于模型调用量与智谱进行收入分成。据了解，除了AWS外，智谱近期与多家海外云厂商落地收入分成合作模式。此前智谱透露计划通过海外云平台收入分成增加一条具有规模潜力的商业路径。国内方面，智谱也已与阿里云百炼平台等头部云厂商签署类似分成协议，华为云已上架GLM-5.3，并就类似合作达成意向。（证券",
-   "link": "https://wallstreetcn.com/news/global/3174307",
+   "title": "国际能源署（IEA）将于周三开会，讨论柴油、原油库存的释放事宜。",
+   "summary": "国际能源署（IEA）将于周三开会，讨论柴油、原油库存的释放事宜。",
+   "link": "https://wallstreetcn.com/news/global/3174569",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 02:01"
+   "published_at": "2026-10-06 17:19"
   },
   {
    "category": "finance",
-   "title": "香港恒生指数开盘涨1％，恒生科技指数涨1.02％",
-   "summary": "阿里巴巴涨2.94%，百度集团、美团涨近2%。零跑汽车、吉利汽车、奇瑞汽车涨超2%。",
-   "link": "https://wallstreetcn.com/news/global/3174303",
+   "title": "谷歌公司与美国最大核电运营商Constellation Energy达成一项为期20年的核电协议。（",
+   "summary": "谷歌公司与美国最大核电运营商Constellation Energy达成一项为期20年的核电协议。（华尔街日报）",
+   "link": "https://wallstreetcn.com/news/global/3174568",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 01:21"
+   "published_at": "2026-10-06 17:18"
   },
   {
    "category": "finance",
-   "title": "谷歌与Constellation接近达成十亿美元的核电交易。（彭博）",
-   "summary": "谷歌与Constellation接近达成十亿美元的核电交易。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3174302",
+   "title": "周二（10月6日），美联储隔夜逆回购协议（RRP）使用规模为41.4亿美元（交易对手16家），上个交",
+   "summary": "周二（10月6日），美联储隔夜逆回购协议（RRP）使用规模为41.4亿美元（交易对手16家），上个交易日报10.04亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3174567",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 01:08"
+   "published_at": "2026-10-06 17:16"
   },
   {
    "category": "finance",
-   "title": "富时中国A50指数期货盘初涨0.35%，上一个交易日夜盘收涨0.42%。",
-   "summary": "富时中国A50指数期货盘初涨0.35%，上一个交易日夜盘收涨0.42%。",
-   "link": "https://wallstreetcn.com/news/global/3174300",
+   "title": "谷歌：国家域名劫持事件未攻破Chrome",
+   "summary": "谷歌在一篇博客文章中表示，多起国家代码顶级域名劫持事件并未造成谷歌系统遭入侵。谷歌上周发现.gh（加纳）、.sl（塞拉利昂）、.as（美属萨摩亚）国家代码顶级域名空间发生多起域名劫持。谷歌表示，有理由认为签发受影响证书的证书机构存在不当行为。谷歌已立即采取保护措施，拦截谷歌自有域名下未经授权证书的使用。在初步迁移之后，数据显示还有更多机构受到同一攻击影响，其中包含多个国际知名品牌与广泛使用的线上服",
+   "link": "https://wallstreetcn.com/news/global/3174566",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 01:01"
+   "published_at": "2026-10-06 17:14"
   },
   {
    "category": "finance",
-   "title": "澳大利亚9月ANZ招聘广告环比 2.2%，前值 2.5%。",
-   "summary": "澳大利亚9月ANZ招聘广告环比 2.2%，前值 2.5%。",
-   "link": "https://wallstreetcn.com/news/global/3174298",
+   "title": "美国财长贝森特重弹降债老调，市场人士直言“愿景不是计划”",
+   "summary": "美国财政部长贝森特表示，经济增长和财政撙节双管齐下能够遏制联邦赤字，但面对政府庞大的负债额，市场策略师怀疑这种做法未必奏效。 Elias Haddad等Brown Brothers Harriman策略师在报告中写道：“10年期美债收益率飙升后，贝森特试图通过口头干预压低长端收益率。”",
+   "link": "https://wallstreetcn.com/news/global/3174564",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 00:30"
+   "published_at": "2026-10-06 17:04"
+  },
+  {
+   "category": "finance",
+   "title": "美国财政部拍卖580亿美元三年期国债，得标利率4.932%、创2006年以来新高，投标倍数2.62。",
+   "summary": "美国财政部拍卖580亿美元三年期国债，得标利率4.932%、创2006年以来新高，投标倍数2.62。",
+   "link": "https://wallstreetcn.com/news/global/3174563",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-06 17:02"
   }
  ]
 }
