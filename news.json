@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05 14:48",
+ "updated_at": "2026-10-06 00:06",
  "ai": [
   {
    "category": "ai",
@@ -165,171 +165,147 @@
  "finance": [
   {
    "category": "finance",
-   "title": "纳指盘中再创历史新高，一度逼近27400点。",
-   "summary": "纳指盘中再创历史新高，一度逼近27400点。",
-   "link": "https://wallstreetcn.com/news/global/3174136",
+   "title": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
+   "summary": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
+   "link": "https://wallstreetcn.com/news/global/3174295",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 14:33"
+   "published_at": "2026-10-06 00:01"
   },
   {
    "category": "finance",
-   "title": "伊拉克寻求增加油轮数量，以加强对经霍尔木兹海峡运输的掌控。（彭博）",
-   "summary": "伊拉克寻求增加油轮数量，以加强对经霍尔木兹海峡运输的掌控。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3174135",
+   "title": "深圳盐田港单船装卸量刷新中国港口纪录",
+   "summary": "从深圳海关获悉，10月2日，深圳盐田港单船完成28684标箱装卸作业，刷新中国港口单船装卸箱量纪录。目前，盐田港每周运营百条全球航线，其中53条联通APEC成员经济体，今年已新增14条联通APEC经济体的航线。持续加密的航线网络，为更多进出口货物快速连接全球提供了通道。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3174294",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 14:27"
+   "published_at": "2026-10-05 23:42"
   },
   {
    "category": "finance",
-   "title": "SpaceX股价创下自7月初以来的新高，最新上涨5.1%。",
-   "summary": "SpaceX股价创下自7月初以来的新高，最新上涨5.1%。",
-   "link": "https://wallstreetcn.com/news/global/3174134",
+   "title": "华尔街见闻早餐 | 2026年10月6日",
+   "summary": "美股三大指数齐涨，纳指涨1.05%报27477.31点创收盘新高；AI芯片股与中概股普涨；金银期货双双在前一周大跌后企稳。 华为与高通达成多年期专利交叉授权，覆盖5G、计算、AI与网络等多领域，高通还将收购华为部分美国专利。 美国9月ISM服务业PMI降至54.9，但价格指数冲上74.0创四年新高，服务业扩张放缓的同时成本压力回升。 2026年诺贝尔生理学或医学奖揭晓，戴塞洛斯、黑格曼与纳格尔因光",
+   "link": "https://wallstreetcn.com/news/global/3174293",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 14:27"
+   "published_at": "2026-10-05 23:30"
   },
   {
    "category": "finance",
-   "title": "耐克下跌3.2%，此前标普将耐克评级从A+下调至A。",
-   "summary": "耐克下跌3.2%，此前标普将耐克评级从A+下调至A。",
-   "link": "https://wallstreetcn.com/news/global/3174133",
+   "title": "澳大利亚10月西太平洋消费者信心指数环比 -4.7%，前值 -5.2%。",
+   "summary": "澳大利亚10月西太平洋消费者信心指数环比 -4.7%，前值 -5.2%。",
+   "link": "https://wallstreetcn.com/news/global/3174292",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 14:21"
+   "published_at": "2026-10-05 23:30"
   },
   {
    "category": "finance",
-   "title": "伊朗内政部长前往多哈参加会谈。（伊朗学生通讯社）",
-   "summary": "伊朗内政部长前往多哈参加会谈。（伊朗学生通讯社）",
-   "link": "https://wallstreetcn.com/news/global/3174132",
+   "title": "澳大利亚10月西太平洋消费者信心指数 80.4，前值 84.4。",
+   "summary": "澳大利亚10月西太平洋消费者信心指数 80.4，前值 84.4。",
+   "link": "https://wallstreetcn.com/news/global/3174291",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 14:09"
+   "published_at": "2026-10-05 23:30"
   },
   {
    "category": "finance",
-   "title": "美国9月ISM非制造业指数 54.9，预期 55，前值 55.4。",
-   "summary": "美国9月ISM非制造业指数 54.9，预期 55，前值 55.4。",
-   "link": "https://wallstreetcn.com/news/global/3174130",
+   "title": "宁夏原油外输管网累计输油突破2亿吨",
+   "summary": "今天（6日），记者从国家管网集团获悉，宁夏原油外输管网累计输送原油突破2亿吨。这条已安全运行48年的能源通道，持续为我国西部地区优化油气资源配置、推进区域经济高质量发展提供坚强支撑。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3174289",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 14:00"
+   "published_at": "2026-10-05 23:13"
   },
   {
    "category": "finance",
-   "title": "台积电股价一度涨超1.7%，再创新高，总市值达2.5万亿美元。",
-   "summary": "台积电股价一度涨超1.7%，再创新高，总市值达2.5万亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3174129",
+   "title": "加密货币精英齐聚新加坡",
+   "summary": "预计约25,000人本周将汇聚这座城邦的标志性建筑滨海湾金沙酒店，参加Token2049大会。10月7日至8日举行的活动将吸引500多家参展商和300多位演讲者，包括Hyperliquid首席执行官Jeff Yan、Polymarket首席执行官Shayne Coplan以及World Liberty Financial联合创始人Eric Trump。 “从2018年首届Token2049以来，我",
+   "link": "https://wallstreetcn.com/news/global/3174288",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:45"
+   "published_at": "2026-10-05 23:05"
   },
   {
    "category": "finance",
-   "title": "Cerebras股价上涨10.8%，此前OpenAI首席执行官奥尔特曼表示，该公司是OpenAI的密",
-   "summary": "Cerebras股价上涨10.8%，此前OpenAI首席执行官奥尔特曼表示，该公司是OpenAI的密切合作伙伴。",
-   "link": "https://wallstreetcn.com/news/global/3174128",
+   "title": "诺基亚CEO：若无供应限制，数据中心建设速度将“翻倍”",
+   "summary": "诺基亚CEO表示，若无当前面临的供应限制，科技行业建设数据中心的速度将提高一倍。这一表态凸显了AI需求的持续性，尽管行业高管们正在就放缓开发节奏展开辩论。“我认为无论如何都不能说我们现在正在过度建设，因为现实情况是——如果我们可以以两倍速度建设，我们的客户如果可以以两倍速度建设，他们很可能也会这么做，”Justin Hotard表示，“因此我有信心，我们仍处于AI建设浪潮的早期阶段。”（CNBC）",
+   "link": "https://wallstreetcn.com/news/global/3174287",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:45"
+   "published_at": "2026-10-05 23:00"
   },
   {
    "category": "finance",
-   "title": "美国9月标普全球综合PMI终值 58.4，预期 58.4，初值 58.4。",
-   "summary": "美国9月标普全球综合PMI终值 58.4，预期 58.4，初值 58.4。",
-   "link": "https://wallstreetcn.com/news/global/3174127",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 时间待定 日本央行行长植田和男讲话，OpenAI成立澳大利亚AI网络风险工作组，首席战略官赴悉尼； ② 13:00 印度9月服务业、综合PMI终值； ③ 14:00 德国8月工厂订单； ④ 16:00 欧洲央行管委Rehn讲话； ⑤ 16:30 英国央行货币政策委员会（MPC）成员Mann参加一场炉边闲聊； ⑥ 17:45 2026年诺贝尔物理学奖公布； ⑦ 20:30 美国8月贸易帐，加拿大",
+   "link": "https://wallstreetcn.com/news/global/3174283",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:45"
+   "published_at": "2026-10-05 22:17"
   },
   {
    "category": "finance",
-   "title": "美国9月标普全球服务业PMI终值 58.8，预期 58.7，初值 58.7。",
-   "summary": "美国9月标普全球服务业PMI终值 58.8，预期 58.7，初值 58.7。",
-   "link": "https://wallstreetcn.com/news/global/3174126",
+   "title": "穆迪确认高通A2评级。",
+   "summary": "穆迪确认高通A2评级。",
+   "link": "https://wallstreetcn.com/news/global/3174282",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:45"
+   "published_at": "2026-10-05 22:12"
   },
   {
    "category": "finance",
-   "title": "巴西ETF EWZ开盘大涨12%。",
-   "summary": "巴西ETF EWZ开盘大涨12%。",
-   "link": "https://wallstreetcn.com/news/global/3174125",
+   "title": "美国科技股七巨头指数涨约1.1%，与英伟达创收盘历史新高",
+   "summary": "周一（10月5日），美国科技股七巨头（Magnificent 7）指数涨1.07%，报238.22点，突破9月21日所创收盘历史最高位236.01点，刷新盘中历史最高位至239.38点。 成分股中，特斯拉收涨2.2%，英伟达涨2.12%刷新收盘历史最高位至238.90美元，Meta、微软至多张1.9%，苹果则跌0.24%。 此外，台积电涨2.75%，刷新收盘历史最高位至485.80美元。 “超大”",
+   "link": "https://wallstreetcn.com/news/global/3174279",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:33"
+   "published_at": "2026-10-05 21:51"
   },
   {
    "category": "finance",
-   "title": "美股开盘三大股指涨跌不一，道指跌0.13％，标普500指数涨0.08％，纳指涨0.13％。英特尔跌近",
-   "summary": "美股开盘三大股指涨跌不一，道指跌0.13％，标普500指数涨0.08％，纳指涨0.13％。英特尔跌近3%，台积电涨超1%，报道称台积电与马斯克的Terafab就潜在合作进行讨论；Vaxcyte大涨53%，公司肺炎球菌疫苗达到后期临床试验目标。",
-   "link": "https://wallstreetcn.com/news/global/3174124",
+   "title": "世界最大商务舱将登陆英国航空A380",
+   "summary": "英国航空将在升级后的空客A380双层客机上推出全新商务舱，商务舱客舱将覆盖整个上层甲板。航空公司还将升级头等舱座椅，配备可收起的隔板，使中间座位可转换为供同行旅客使用的更大套间。这些改动将使A380的座位数减少11%，从469个减至417个，其中大部分减少来自经济舱。",
+   "link": "https://wallstreetcn.com/news/global/3174278",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:31"
+   "published_at": "2026-10-05 21:23"
   },
   {
    "category": "finance",
-   "title": "巴西小盘股指数大涨9.3%，为2020年3月以来最大涨幅。",
-   "summary": "巴西小盘股指数大涨9.3%，为2020年3月以来最大涨幅。",
-   "link": "https://wallstreetcn.com/news/global/3174122",
+   "title": "富时A50期指连续夜盘收涨0.42%，报13874点。",
+   "summary": "富时A50期指连续夜盘收涨0.42%，报13874点。",
+   "link": "https://wallstreetcn.com/news/global/3174276",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:25"
+   "published_at": "2026-10-05 21:15"
   },
   {
    "category": "finance",
-   "title": "国庆档票房破9亿",
-   "summary": "截至目前，2026国庆档票房（含预售）已超9亿元。据测算，今年以来电影全产业链产值已超过4700亿元，2026年度电影总票房（含预售）已突破300亿元。（央视财经）",
-   "link": "https://wallstreetcn.com/news/global/3174121",
+   "title": "巴拿马型船闸将试行长期通航预约",
+   "summary": "巴拿马运河管理局5日发布公告说，将通过“长期通航名额分配计划”提前分配2027年1月3日至4月3日期间的长期通航名额，并首次将这一机制从新巴拿马型船闸扩展至巴拿马型船闸试行。 公告表示，巴拿马型船闸将分配日均3个名额用于试行计划，竞拍时间为11月24日，主要面向航次安排固定的企业，以及在预约系统中因排名较低难以获得常规名额的企业；新巴拿马型船闸将沿用现行“长期通航名额分配计划”，保留日均3个长期通",
+   "link": "https://wallstreetcn.com/news/global/3174275",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 13:19"
+   "published_at": "2026-10-05 21:10"
   },
   {
    "category": "finance",
-   "title": "日本投资者持仓庞大 法国国债面临进一步被减持风险",
-   "summary": "日本投资者持有的法国债券远高于基准指数权重所对应的配置水平，这增加了新一轮抛售的风险，并可能进一步加剧法国债市的跌势。根据计算，截至7月，日本投资者持有的法国债券估计达到23万亿日元（1450亿美元），占其海外债券持仓总额的6.6%。相对于彭博全球综合总回报指数的基准权重，日本投资者对法国债券的超配程度在欧元区各国中最高。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3174119",
+   "title": "报道：华尔街银行启动创纪录的600亿美元芯片交易，为博通与Anthropic提供融资",
+   "summary": "华尔街银行周一已开始向市场分销一笔新的600亿美元债务包的部分份额，该融资将用于支持Anthropic租赁谷歌半导体芯片，这也是迄今为止规模最大的芯片融资交易，正值科技公司竞相锁定AI算力的关键时期。 据知情人士透露，已承诺为该交易提供融资的美国银行、花旗集团和摩根士丹利，正在与其他银行接洽，邀请它们认购部分债务份额。这笔由博通提供担保的融资被视为AI债务市场需求的”风向标”。近几个月来，投资者在",
+   "link": "https://wallstreetcn.com/news/global/3174274",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:59"
+   "published_at": "2026-10-05 21:10"
   },
   {
    "category": "finance",
-   "title": "科威特石油公司（KPC）首席执行官：我们需要专注于将成品油运出中东海湾，以缓解该地区炼厂的瓶颈问题。",
-   "summary": "科威特石油公司（KPC）首席执行官：我们需要专注于将成品油运出中东海湾，以缓解该地区炼厂的瓶颈问题。 我们正在与沙特阿拉伯和阿联酋讨论修建通往其港口的管道。 我们正考虑增加国内储油能力，并利用我们在海外的三家炼厂。",
-   "link": "https://wallstreetcn.com/news/global/3174118",
+   "title": "周一（10月5日）纽约尾盘，标普500股指期货最终涨0.72%，道指期货涨0.25%，纳斯达克100",
+   "summary": "周一（10月5日）纽约尾盘，标普500股指期货最终涨0.72%，道指期货涨0.25%，纳斯达克100股指期货涨0.91%。 罗素2000股指期货涨0.63%。",
+   "link": "https://wallstreetcn.com/news/global/3174272",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:58"
+   "published_at": "2026-10-05 21:08"
   },
   {
    "category": "finance",
-   "title": "俄财政部将大幅增加外汇和黄金购买量",
-   "summary": "当地时间10月5日，俄罗斯财政部发布消息，将于10月7日至11月6日将该国外汇和黄金购买量提高至9月的五倍，为此拨款2794.2亿卢布，日均购买量约127亿卢布。此次购买依据预算规则进行，旨在将额外油气收入纳入国家福利基金。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3174117",
+   "title": "周一（10月5日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7037元，较",
+   "summary": "周一（10月5日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7037元，较上周五纽约尾盘涨21点，日内整体交投于6.7148-6.7035元区间。",
+   "link": "https://wallstreetcn.com/news/global/3174271",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:57"
+   "published_at": "2026-10-05 21:04"
   },
   {
    "category": "finance",
-   "title": "美国国债收益率上升，10年期美债收益率上升超2个基点，报5.3%。",
-   "summary": "美国国债收益率上升，10年期美债收益率上升超2个基点，报5.3%。",
-   "link": "https://wallstreetcn.com/news/global/3174115",
+   "title": "新西兰经济研究所（NZIER）：企业信心指数在第三季度改善。 净43%的受访公司预计经济形势将改善。",
+   "summary": "新西兰经济研究所（NZIER）：企业信心指数在第三季度改善。 净43%的受访公司预计经济形势将改善。 净43%的受访公司预计将在四季度涨价。 净23%的受访公司预计将在四季度招聘工人。 净15%的受访公司预计贸易（条件）将在四季度改善。 净1%的受访公司通报称，三季度贸易变得更加糟糕。",
+   "link": "https://wallstreetcn.com/news/global/3174270",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:53"
-  },
-  {
-   "category": "finance",
-   "title": "法德10年期收益率利差收窄7个基点，至134个基点。",
-   "summary": "法德10年期收益率利差收窄7个基点，至134个基点。",
-   "link": "https://wallstreetcn.com/news/global/3174113",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:48"
-  },
-  {
-   "category": "finance",
-   "title": "美国国务卿鲁比奥：（谈轰炸机重新部署）这并不罕见。 我们对基地的安全充满信心。",
-   "summary": "美国国务卿鲁比奥：（谈轰炸机重新部署）这并不罕见。 我们对基地的安全充满信心。",
-   "link": "https://wallstreetcn.com/news/global/3174112",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:44"
-  },
-  {
-   "category": "finance",
-   "title": "花旗将投行分析师培训计划缩短至两年。",
-   "summary": "花旗将投行分析师培训计划缩短至两年。",
-   "link": "https://wallstreetcn.com/news/global/3174111",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-05 12:38"
+   "published_at": "2026-10-05 21:00"
   }
  ]
 }
