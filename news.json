@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-10-06 00:06",
+ "updated_at": "2026-10-06 06:27",
  "ai": [
+  {
+   "category": "ai",
+   "title": "为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/979.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "防止 AI 胡编乱造：微软 Word Copilot 新增引用功能，可溯源查证",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/958.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "叫板 DeepSeek、Kimi，英伟达投资的 Reflection AI 发布旗下首款开放权重 AI 模型 Beam",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/932.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "特朗普宣布成立超级智能工作组，谋求维持美国技术领先地位",
@@ -136,176 +160,176 @@
    "link": "https://www.ithome.com/1/008/531.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "同性能下最高性价比 AI 模型：OpenAI 发布 GPT-6.1 Sol，性能媲美 Astra、费用仅为 1/5",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/527.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "我国生成式人工智能用户规模突破 7 亿人，普及率超 50%",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/245.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 写作特征减少：Claude Opus 5.5 破折号使用量下降约 95%、分号下降 73%",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/144.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
-   "summary": "日经225指数高开0.01%。韩国首尔综指高开0.6%。",
-   "link": "https://wallstreetcn.com/news/global/3174295",
+   "title": "【报道：DeepSeek将融资至少800亿元人民币，腾讯和宁德时代参与领投】据媒体援引知情人士称，D",
+   "summary": "【报道：DeepSeek将融资至少800亿元人民币，腾讯和宁德时代参与领投】据媒体援引知情人士称，DeepSeek最新一轮融资接近锁定至少800亿元人民币（120亿美元）投资，大幅超过公司原定融资目标，为计划于2027年初进行的首次公开募股奠定基础。知情人士表示，宁德时代和腾讯是领投方之一，融资即将结束。DeepSeek最初寻求融资约500亿元人民币，但在最新AI模型成功发布后，投资者兴趣超出预期",
+   "link": "https://wallstreetcn.com/news/global/3174329",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 00:01"
+   "published_at": "2026-10-06 06:26"
   },
   {
    "category": "finance",
-   "title": "深圳盐田港单船装卸量刷新中国港口纪录",
-   "summary": "从深圳海关获悉，10月2日，深圳盐田港单船完成28684标箱装卸作业，刷新中国港口单船装卸箱量纪录。目前，盐田港每周运营百条全球航线，其中53条联通APEC成员经济体，今年已新增14条联通APEC经济体的航线。持续加密的航线网络，为更多进出口货物快速连接全球提供了通道。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3174294",
+   "title": "德国8月季调后工厂订单同比 2.7%，预期 13.1%，前值 13.1%。",
+   "summary": "德国8月季调后工厂订单同比 2.7%，预期 13.1%，前值 13.1%。",
+   "link": "https://wallstreetcn.com/news/global/3174328",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:42"
+   "published_at": "2026-10-06 06:00"
   },
   {
    "category": "finance",
-   "title": "华尔街见闻早餐 | 2026年10月6日",
-   "summary": "美股三大指数齐涨，纳指涨1.05%报27477.31点创收盘新高；AI芯片股与中概股普涨；金银期货双双在前一周大跌后企稳。 华为与高通达成多年期专利交叉授权，覆盖5G、计算、AI与网络等多领域，高通还将收购华为部分美国专利。 美国9月ISM服务业PMI降至54.9，但价格指数冲上74.0创四年新高，服务业扩张放缓的同时成本压力回升。 2026年诺贝尔生理学或医学奖揭晓，戴塞洛斯、黑格曼与纳格尔因光",
-   "link": "https://wallstreetcn.com/news/global/3174293",
+   "title": "德国8月季调后工厂订单环比 -10.6%，预期 -1%，前值 2.5%。",
+   "summary": "德国8月季调后工厂订单环比 -10.6%，预期 -1%，前值 2.5%。",
+   "link": "https://wallstreetcn.com/news/global/3174327",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:30"
+   "published_at": "2026-10-06 06:00"
   },
   {
    "category": "finance",
-   "title": "澳大利亚10月西太平洋消费者信心指数环比 -4.7%，前值 -5.2%。",
-   "summary": "澳大利亚10月西太平洋消费者信心指数环比 -4.7%，前值 -5.2%。",
-   "link": "https://wallstreetcn.com/news/global/3174292",
+   "title": "AMD首席执行官苏姿丰预计未来几年芯片需求仍将非常强劲",
+   "summary": "AMD首席执行官苏姿丰预计，随着人工智能(AI)应用增加，未来几年芯片需求仍将“非常强劲”。苏姿丰表示，芯片供不应求，存储芯片供应仍然紧张。AI对世界有益，不会危害人类。美国主要AI公司之间加强协调十分重要。美国成立“超级智能工作组”是“向前迈出的重要一步”。苏姿丰将于周二晚些时候与台积电高管会面。",
+   "link": "https://wallstreetcn.com/news/global/3174325",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:30"
+   "published_at": "2026-10-06 05:40"
   },
   {
    "category": "finance",
-   "title": "澳大利亚10月西太平洋消费者信心指数 80.4，前值 84.4。",
-   "summary": "澳大利亚10月西太平洋消费者信心指数 80.4，前值 84.4。",
-   "link": "https://wallstreetcn.com/news/global/3174291",
+   "title": "印度9月综合PMI终值 55.9，初值 56.5。",
+   "summary": "印度9月综合PMI终值 55.9，初值 56.5。",
+   "link": "https://wallstreetcn.com/news/global/3174324",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:30"
+   "published_at": "2026-10-06 05:00"
   },
   {
    "category": "finance",
-   "title": "宁夏原油外输管网累计输油突破2亿吨",
-   "summary": "今天（6日），记者从国家管网集团获悉，宁夏原油外输管网累计输送原油突破2亿吨。这条已安全运行48年的能源通道，持续为我国西部地区优化油气资源配置、推进区域经济高质量发展提供坚强支撑。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3174289",
+   "title": "印度9月服务业PMI终值 55.2，初值 55.8。",
+   "summary": "印度9月服务业PMI终值 55.2，初值 55.8。",
+   "link": "https://wallstreetcn.com/news/global/3174323",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:13"
+   "published_at": "2026-10-06 05:00"
   },
   {
    "category": "finance",
-   "title": "加密货币精英齐聚新加坡",
-   "summary": "预计约25,000人本周将汇聚这座城邦的标志性建筑滨海湾金沙酒店，参加Token2049大会。10月7日至8日举行的活动将吸引500多家参展商和300多位演讲者，包括Hyperliquid首席执行官Jeff Yan、Polymarket首席执行官Shayne Coplan以及World Liberty Financial联合创始人Eric Trump。 “从2018年首届Token2049以来，我",
-   "link": "https://wallstreetcn.com/news/global/3174288",
+   "title": "报道：希捷和东芝据悉竞购TDK硬盘磁头业务，交易金额或达数十亿美元",
+   "summary": "知情人士称，希捷和东芝正在竞购TDK的硬盘磁头业务，两家公司都希望跟上人工智能(AI)数据中心对存储设备快速增长的需求。因涉及未公开消息而不愿具名的知情人士透露，东芝今年春季率先与TDK展开谈判，希捷随后在夏季提出更高的报价。这项收购的交易金额最高可能达到数十亿美元。TDK股价周二下午在东京大涨7.3%，成交量接近20日均值的三倍。",
+   "link": "https://wallstreetcn.com/news/global/3174322",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:05"
+   "published_at": "2026-10-06 04:57"
   },
   {
    "category": "finance",
-   "title": "诺基亚CEO：若无供应限制，数据中心建设速度将“翻倍”",
-   "summary": "诺基亚CEO表示，若无当前面临的供应限制，科技行业建设数据中心的速度将提高一倍。这一表态凸显了AI需求的持续性，尽管行业高管们正在就放缓开发节奏展开辩论。“我认为无论如何都不能说我们现在正在过度建设，因为现实情况是——如果我们可以以两倍速度建设，我们的客户如果可以以两倍速度建设，他们很可能也会这么做，”Justin Hotard表示，“因此我有信心，我们仍处于AI建设浪潮的早期阶段。”（CNBC）",
-   "link": "https://wallstreetcn.com/news/global/3174287",
+   "title": "全球纯燃油车新车销量占比首次跌破50%",
+   "summary": "Mobility Global最新数据显示，2026年上半年，纯汽油车型占全球新车销量的49%，这是历史上纯汽油车销量占比首次跌破五成，且较2021年的73%大幅下降了24个百分点。Mobility Global是一家汽车数据机构，前身为标普全球汽车（S&amp;P Global Mobility），今年从标普全球集团分拆独立。该机构数据显示，今年上半年，纯汽油车销量同比下降10%，至2025万辆",
+   "link": "https://wallstreetcn.com/news/global/3174321",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 23:00"
+   "published_at": "2026-10-06 04:45"
   },
   {
    "category": "finance",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 时间待定 日本央行行长植田和男讲话，OpenAI成立澳大利亚AI网络风险工作组，首席战略官赴悉尼； ② 13:00 印度9月服务业、综合PMI终值； ③ 14:00 德国8月工厂订单； ④ 16:00 欧洲央行管委Rehn讲话； ⑤ 16:30 英国央行货币政策委员会（MPC）成员Mann参加一场炉边闲聊； ⑥ 17:45 2026年诺贝尔物理学奖公布； ⑦ 20:30 美国8月贸易帐，加拿大",
-   "link": "https://wallstreetcn.com/news/global/3174283",
+   "title": "返程高峰将至，今日铁路预计发送旅客2210万人次",
+   "summary": "今天是国庆假期第六天，全国交通出行迎来返程客流。记者从交通运输部了解到，昨天（5日），全社会跨区域人员流动量超3亿人次。今天全国铁路预计发送旅客2210万人次，计划加开列车2199列。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3174318",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 22:17"
+   "published_at": "2026-10-06 03:57"
   },
   {
    "category": "finance",
-   "title": "穆迪确认高通A2评级。",
-   "summary": "穆迪确认高通A2评级。",
-   "link": "https://wallstreetcn.com/news/global/3174282",
+   "title": "快手可灵AI据悉选定银行筹备香港IPO，拟募资至少10亿美元",
+   "summary": "据知情人士称，快手科技旗下可灵AI已选定银行筹备香港首次公开募股，此次上市可能募资至少10亿美元。知情人士表示，这家人工智能视频生成服务商正与中金公司、高盛和瑞银合作推进潜在的股票发行，以最快明年上市为目标。知情人士称，相关讨论仍在进行，募资规模和上市时间等细节可能发生变化。（新浪）",
+   "link": "https://wallstreetcn.com/news/global/3174315",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 22:12"
+   "published_at": "2026-10-06 03:28"
   },
   {
    "category": "finance",
-   "title": "美国科技股七巨头指数涨约1.1%，与英伟达创收盘历史新高",
-   "summary": "周一（10月5日），美国科技股七巨头（Magnificent 7）指数涨1.07%，报238.22点，突破9月21日所创收盘历史最高位236.01点，刷新盘中历史最高位至239.38点。 成分股中，特斯拉收涨2.2%，英伟达涨2.12%刷新收盘历史最高位至238.90美元，Meta、微软至多张1.9%，苹果则跌0.24%。 此外，台积电涨2.75%，刷新收盘历史最高位至485.80美元。 “超大”",
-   "link": "https://wallstreetcn.com/news/global/3174279",
+   "title": "桥水创始人达利欧：美国偿债支出正在挤占其他支出。 预计美国债务危机可能在三年内爆发。 法国已达到其举",
+   "summary": "桥水创始人达利欧：美国偿债支出正在挤占其他支出。 预计美国债务危机可能在三年内爆发。 法国已达到其举债上限。 我们正在进入使用人工智能投资的新时代。 财富税会令人工智能泡沫破裂。",
+   "link": "https://wallstreetcn.com/news/global/3174314",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:51"
+   "published_at": "2026-10-06 03:21"
   },
   {
    "category": "finance",
-   "title": "世界最大商务舱将登陆英国航空A380",
-   "summary": "英国航空将在升级后的空客A380双层客机上推出全新商务舱，商务舱客舱将覆盖整个上层甲板。航空公司还将升级头等舱座椅，配备可收起的隔板，使中间座位可转换为供同行旅客使用的更大套间。这些改动将使A380的座位数减少11%，从469个减至417个，其中大部分减少来自经济舱。",
-   "link": "https://wallstreetcn.com/news/global/3174278",
+   "title": "国家税务总局发布全国统一的税务行政处罚裁量基准",
+   "summary": "近日，国家税务总局发布《全国税务行政处罚裁量基准（2026年版）》，并将于11月1日起施行。这标志着税务行政处罚裁量基准实现全国范围统一。国家税务总局一并发布了税务行政处罚“轻微不罚”事项清单，涵盖从税务行政处罚裁量基准中归纳的8项行政处罚事项。同时，对各地税务机关落实全国统一的税务行政处罚裁量基准提出明确要求，强调要严格依法依规实施处罚，在裁量基准范围内作出处罚决定，保障纳税人缴费人合法权益。（",
+   "link": "https://wallstreetcn.com/news/global/3174313",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:23"
+   "published_at": "2026-10-06 03:11"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.42%，报13874点。",
-   "summary": "富时A50期指连续夜盘收涨0.42%，报13874点。",
-   "link": "https://wallstreetcn.com/news/global/3174276",
+   "title": "美军一直升机红海上空发出紧急代码",
+   "summary": "据飞行数据追踪网站Flightradar24的信息显示，当地时间今天（10月6日）凌晨，美国海军一架MH-60R“海鹰”直升机在沙特阿拉伯西部沿海城市延布附近红海上空飞行时宣布紧急状态，并发出7700通用紧急代码。随后这架直升机从公开的飞行追踪系统中消失。目前尚未确认引发紧急状态的原因。",
+   "link": "https://wallstreetcn.com/news/global/3174312",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:15"
+   "published_at": "2026-10-06 03:02"
   },
   {
    "category": "finance",
-   "title": "巴拿马型船闸将试行长期通航预约",
-   "summary": "巴拿马运河管理局5日发布公告说，将通过“长期通航名额分配计划”提前分配2027年1月3日至4月3日期间的长期通航名额，并首次将这一机制从新巴拿马型船闸扩展至巴拿马型船闸试行。 公告表示，巴拿马型船闸将分配日均3个名额用于试行计划，竞拍时间为11月24日，主要面向航次安排固定的企业，以及在预约系统中因排名较低难以获得常规名额的企业；新巴拿马型船闸将沿用现行“长期通航名额分配计划”，保留日均3个长期通",
-   "link": "https://wallstreetcn.com/news/global/3174275",
+   "title": "国庆假期上海楼市热度不减：新房售楼处“9点不到就有客户来了”，二手房议价空间持续收窄",
+   "summary": "进入国庆黄金周，上海楼市迎来“银十”开门红。不少新盘项目抢抓假期窗口开放展厅、推出专属特价房源吸引客户。叠加天气转晴、假期末尾返沪人流增多，不少新房项目的到访、成交迎来一波小高峰，二手房带看与议价氛围也同步回暖。位于闵行区浦江镇的象屿·天宸雅颂项目，国庆假期售楼处客流热度不减。据项目负责人介绍，国庆期间项目推出特价房活动，房源去化表现较好。截至10月4日，假期累计到访客户接近170组。",
+   "link": "https://wallstreetcn.com/news/global/3174311",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:10"
+   "published_at": "2026-10-06 02:54"
   },
   {
    "category": "finance",
-   "title": "报道：华尔街银行启动创纪录的600亿美元芯片交易，为博通与Anthropic提供融资",
-   "summary": "华尔街银行周一已开始向市场分销一笔新的600亿美元债务包的部分份额，该融资将用于支持Anthropic租赁谷歌半导体芯片，这也是迄今为止规模最大的芯片融资交易，正值科技公司竞相锁定AI算力的关键时期。 据知情人士透露，已承诺为该交易提供融资的美国银行、花旗集团和摩根士丹利，正在与其他银行接洽，邀请它们认购部分债务份额。这笔由博通提供担保的融资被视为AI债务市场需求的”风向标”。近几个月来，投资者在",
-   "link": "https://wallstreetcn.com/news/global/3174274",
+   "title": "月之暗面即将完成Pre-IPO融资，估值将达500亿美元，计划于2027年第一季度在香港上市。（新浪",
+   "summary": "月之暗面即将完成Pre-IPO融资，估值将达500亿美元，计划于2027年第一季度在香港上市。（新浪）",
+   "link": "https://wallstreetcn.com/news/global/3174309",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:10"
+   "published_at": "2026-10-06 02:35"
   },
   {
    "category": "finance",
-   "title": "周一（10月5日）纽约尾盘，标普500股指期货最终涨0.72%，道指期货涨0.25%，纳斯达克100",
-   "summary": "周一（10月5日）纽约尾盘，标普500股指期货最终涨0.72%，道指期货涨0.25%，纳斯达克100股指期货涨0.91%。 罗素2000股指期货涨0.63%。",
-   "link": "https://wallstreetcn.com/news/global/3174272",
+   "title": "港股大模型概念股上涨，智谱涨6.84%，MINIMAX涨3.85%。",
+   "summary": "港股大模型概念股上涨，智谱涨6.84%，MINIMAX涨3.85%。",
+   "link": "https://wallstreetcn.com/news/global/3174308",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:08"
+   "published_at": "2026-10-06 02:28"
   },
   {
    "category": "finance",
-   "title": "周一（10月5日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7037元，较",
-   "summary": "周一（10月5日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7037元，较上周五纽约尾盘涨21点，日内整体交投于6.7148-6.7035元区间。",
-   "link": "https://wallstreetcn.com/news/global/3174271",
+   "title": "智谱将开启海外“收租”，GLM-5.3接入亚马逊云科技等",
+   "summary": "今日，亚马逊云科技（AWS）旗下大模型服务平台Amazon Bedrock官宣接入智谱GLM-5.3，AWS基于模型调用量与智谱进行收入分成。据了解，除了AWS外，智谱近期与多家海外云厂商落地收入分成合作模式。此前智谱透露计划通过海外云平台收入分成增加一条具有规模潜力的商业路径。国内方面，智谱也已与阿里云百炼平台等头部云厂商签署类似分成协议，华为云已上架GLM-5.3，并就类似合作达成意向。（证券",
+   "link": "https://wallstreetcn.com/news/global/3174307",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:04"
+   "published_at": "2026-10-06 02:01"
   },
   {
    "category": "finance",
-   "title": "新西兰经济研究所（NZIER）：企业信心指数在第三季度改善。 净43%的受访公司预计经济形势将改善。",
-   "summary": "新西兰经济研究所（NZIER）：企业信心指数在第三季度改善。 净43%的受访公司预计经济形势将改善。 净43%的受访公司预计将在四季度涨价。 净23%的受访公司预计将在四季度招聘工人。 净15%的受访公司预计贸易（条件）将在四季度改善。 净1%的受访公司通报称，三季度贸易变得更加糟糕。",
-   "link": "https://wallstreetcn.com/news/global/3174270",
+   "title": "香港恒生指数开盘涨1％，恒生科技指数涨1.02％",
+   "summary": "阿里巴巴涨2.94%，百度集团、美团涨近2%。零跑汽车、吉利汽车、奇瑞汽车涨超2%。",
+   "link": "https://wallstreetcn.com/news/global/3174303",
    "source": "华尔街见闻",
-   "published_at": "2026-10-05 21:00"
+   "published_at": "2026-10-06 01:21"
+  },
+  {
+   "category": "finance",
+   "title": "谷歌与Constellation接近达成十亿美元的核电交易。（彭博）",
+   "summary": "谷歌与Constellation接近达成十亿美元的核电交易。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3174302",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-06 01:08"
+  },
+  {
+   "category": "finance",
+   "title": "富时中国A50指数期货盘初涨0.35%，上一个交易日夜盘收涨0.42%。",
+   "summary": "富时中国A50指数期货盘初涨0.35%，上一个交易日夜盘收涨0.42%。",
+   "link": "https://wallstreetcn.com/news/global/3174300",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-06 01:01"
+  },
+  {
+   "category": "finance",
+   "title": "澳大利亚9月ANZ招聘广告环比 2.2%，前值 2.5%。",
+   "summary": "澳大利亚9月ANZ招聘广告环比 2.2%，前值 2.5%。",
+   "link": "https://wallstreetcn.com/news/global/3174298",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-06 00:30"
   }
  ]
 }
