@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-10-07 06:06",
+ "updated_at": "2026-10-07 13:31",
  "ai": [
+  {
+   "category": "ai",
+   "title": "2027 款深蓝 L06 新车官宣：定位“长续航磁流变 AI 轿跑”，搭载两只“龙虾”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/276.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "“AI 教父”辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核",
@@ -152,176 +160,176 @@
    "link": "https://www.ithome.com/1/008/656.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "报告称微软 Copilot 承包商可完整查看用户上传的照片、AI 提示词等",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/606.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "德国8月工业产出环比 2%，预期 0.5%，前值 -1.1%。",
-   "summary": "德国8月工业产出环比 2%，预期 0.5%，前值 -1.1%。",
-   "link": "https://wallstreetcn.com/news/global/3174709",
+   "title": "国际货币基金组织预计高油价将持续至明年",
+   "summary": "国际货币基金组织（IMF）总裁克里斯塔利娜·格奥尔基耶娃7日在新加坡表示，即使当前海湾地区的战事很快结束，高能源价格仍可能持续一段时间。 格奥尔基耶娃当天在国际货币基金组织和世界银行集团2026年秋季年会预热活动上致辞时说，从目前布伦特原油期货价格走势看，预计高油价将持续至2027年。",
+   "link": "https://wallstreetcn.com/news/global/3174839",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 06:00"
+   "published_at": "2026-10-07 13:18"
   },
   {
    "category": "finance",
-   "title": "德国8月工业产出同比 2.3%，预期 0.7%，前值 -1.6%。",
-   "summary": "德国8月工业产出同比 2.3%，预期 0.7%，前值 -1.6%。",
-   "link": "https://wallstreetcn.com/news/global/3174708",
+   "title": "加拿大威廷顿投资公司将斥资89亿美元收购英国连锁药妆店Boots。（彭博）",
+   "summary": "加拿大威廷顿投资公司将斥资89亿美元收购英国连锁药妆店Boots。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3174838",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 06:00"
+   "published_at": "2026-10-07 13:17"
   },
   {
    "category": "finance",
-   "title": "伊拉克将本币兑美元贬值约13%。（INA）",
-   "summary": "伊拉克将本币兑美元贬值约13%。（INA）",
-   "link": "https://wallstreetcn.com/news/global/3174707",
+   "title": "叙利亚石油公司：伊拉克政府请求协助出口伊拉克原油。",
+   "summary": "叙利亚石油公司：伊拉克政府请求协助出口伊拉克原油。",
+   "link": "https://wallstreetcn.com/news/global/3174837",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 05:56"
+   "published_at": "2026-10-07 13:13"
   },
   {
    "category": "finance",
-   "title": "日本8月同步指标初值 118.7，前值 120.6。",
-   "summary": "日本8月同步指标初值 118.7，前值 120.6。",
-   "link": "https://wallstreetcn.com/news/global/3174703",
+   "title": "伊拉克将每天通过叙利亚派出数百辆运油卡车。（彭博）",
+   "summary": "伊拉克将每天通过叙利亚派出数百辆运油卡车。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3174836",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 05:00"
+   "published_at": "2026-10-07 13:13"
   },
   {
    "category": "finance",
-   "title": "日本8月领先指标初值 118，前值 117.7。",
-   "summary": "日本8月领先指标初值 118，前值 117.7。",
-   "link": "https://wallstreetcn.com/news/global/3174702",
+   "title": "巴西议员：巴西政党PP、Uniao BrasilL支持博索纳罗。",
+   "summary": "巴西议员：巴西政党PP、Uniao BrasilL支持博索纳罗。",
+   "link": "https://wallstreetcn.com/news/global/3174835",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 05:00"
+   "published_at": "2026-10-07 13:12"
   },
   {
    "category": "finance",
-   "title": "印度央行回购利率 5.5%，预期 5.5%，前值 5.25%。",
-   "summary": "印度央行回购利率 5.5%，预期 5.5%，前值 5.25%。",
-   "link": "https://wallstreetcn.com/news/global/3174701",
+   "title": "日本频发企业客户数据安全事件",
+   "summary": "日本多家企业近日接连报告用户数据安全事件。日本大型旅行社H.I.S.集团7日说，旗下泰国子公司服务器遭入侵，或导致数百名客户护照信息外泄。前一天，西铁城钟表公司等企业也报告服务器遭入侵，客户信息可能泄露。",
+   "link": "https://wallstreetcn.com/news/global/3174834",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 04:32"
+   "published_at": "2026-10-07 13:07"
   },
   {
    "category": "finance",
-   "title": "携程：中秋国庆出行需求整体增长，入境游订单同比高双位数增长",
-   "summary": "10月7日，携程发布数据显示，今年中秋国庆出行需求整体增长：入境游订单同比高双位数增长，国内景区门票订单同样实现双位数增长。国内包车游订单同比增长近八成，包团定制游增长超五成；云南、新疆、甘肃三地包车游订单增幅均超1.5倍。",
-   "link": "https://wallstreetcn.com/news/global/3174700",
+   "title": "英伟达正讨论向人形机器人公司Figure再投资10亿美元。（The Information）",
+   "summary": "英伟达正讨论向人形机器人公司Figure再投资10亿美元。（The Information）",
+   "link": "https://wallstreetcn.com/news/global/3174833",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 04:27"
+   "published_at": "2026-10-07 13:05"
   },
   {
    "category": "finance",
-   "title": "韩国议员办公室披露韩国投资者因杠杆ETF损失17亿美元",
-   "summary": "韩国一名议员办公室公布的数据显示，短短数月内，散户投资者在追踪韩国两大芯片巨头的杠杆ETF产品中蒙受约2.3万亿韩元（17亿美元）的损失。韩国在野党国民力量党议员Choi Eun-seok办公室称，这是5月27日至8月14日期间，10家韩国券商的客户投资与三星电子和SK海力士挂钩的单一股票ETF和票据所蒙受的亏损。",
-   "link": "https://wallstreetcn.com/news/global/3174699",
+   "title": "民调：多数德国人认为默茨政府不称职",
+   "summary": "一项民意调查结果显示，多数德国人认为总理默茨领导的政府不称职，且在他所在的基督教民主联盟（基民盟）中没有其他人能干得更好。",
+   "link": "https://wallstreetcn.com/news/global/3174832",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 04:20"
+   "published_at": "2026-10-07 13:03"
   },
   {
    "category": "finance",
-   "title": "中秋国庆消费升温，支付宝“碰一下”消费笔数同比增近40%",
-   "summary": "中秋国庆假期文旅消费热度攀升。支付宝数据显示，双节期间“碰一下”消费笔数同比增长近40%。假期首四日，入境游客用支付宝“外卡内绑”和 Alipay+“外包内用”的消费额，同比增长近 50%。长沙、重庆、福州、广州、杭州、上海、武汉、郑州八城联合支付宝发起“点亮城市”活动，吸引超100万人次打卡。消费券叠加互动装置的创新模式，有效拉动商圈客流与商户销售，推动假日消费从补贴式促销向体验式消费升级。",
-   "link": "https://wallstreetcn.com/news/global/3174697",
+   "title": "世界黄金协会：全球黄金ETF三季度吸金创纪录，达310亿美元",
+   "summary": "世界黄金协会报告指出，9月份全球黄金ETF吸引了100亿美元的资金流入，推动第三季度资金流入量达到创纪录的310亿美元，其中以欧洲和北美上市的基金为主导。尽管金价下跌，但全球黄金持有量仍增加67吨，达到创纪录的4256吨，而总资产管理规模环比下降7%，至5740亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3174831",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 04:17"
+   "published_at": "2026-10-07 12:50"
   },
   {
    "category": "finance",
-   "title": "宏景科技：所有算力设备均通过合规商业渠道采购",
-   "summary": "宏景科技10月7日在官方公众号发布声明称，近日，公司关注到海外个别媒体涉及公司经营活动的相关不实报道，为避免相关内容对市场认知造成干扰，特此声明：公司始终坚守合规经营的基本原则，所有算力设备均通过合规商业渠道采购，始终严格遵守市场规则与法律法规开展各项业务。截至目前，公司整体生产经营情况一切正常，各项业务均稳步有序推进。公司将持续关注相关舆情进展，并保留依法追究其全部法律责任的权利。",
-   "link": "https://wallstreetcn.com/news/global/3174696",
+   "title": "周三美股盘前你需要了解的全球要闻",
+   "summary": "据玉渊谭天，欧委会贸易和经济安全委员即将访华。 2026年诺贝尔化学奖揭晓：两位科学家破解生命手性之谜，成果深刻影响制药产业。 据央视，伊朗伊斯兰革命卫队司令顾问称将封锁霍尔木兹海峡“非法航道”。 恒生科技指数诞生6年编纂规则首次大规模调整：取消行业要求，成分股数量由30只扩至50只。 暂不救市，欧央行：解决财政困境非我职责，法国需自救。 近四年来首次加息！印度央行上调基准利率至5.5%，立场转为",
+   "link": "https://wallstreetcn.com/news/global/3174830",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 04:03"
+   "published_at": "2026-10-07 12:47"
   },
   {
    "category": "finance",
-   "title": "AMD首席执行官苏姿丰将于周三与三星电子半导体业务负责人全永铉会面。（彭博）",
-   "summary": "AMD首席执行官苏姿丰将于周三与三星电子半导体业务负责人全永铉会面。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3174693",
+   "title": "粤芯半导体：网上投资者放弃认购46.8976万股",
+   "summary": "粤芯半导体公告，首次公开发行股票并在创业板上市发行结果，发行价格为12.01元/股，发行数量为5.1265亿股，超额配售选择权全额行使后发行总股数扩大至5.8954亿股。本次发行最终战略配售数量为2.5632亿股，网上最终发行数量为1.7942亿股，网下最终发行数量为1.5379亿股。网上投资者放弃认购46.8976万股，由广发证券包销，包销金额563.24万元。发行费用合计1.95亿元(超额配售",
+   "link": "https://wallstreetcn.com/news/global/3174829",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 03:29"
+   "published_at": "2026-10-07 12:37"
   },
   {
    "category": "finance",
-   "title": "现货白银日内跌幅扩大至1%，报60.69美元/盎司。",
-   "summary": "现货白银日内跌幅扩大至1%，报60.69美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3174692",
+   "title": "俄官方称鼠疫研究机构一名员工确诊“不明原因肺炎”",
+   "summary": "俄罗斯联邦消费者权益保护和公益监督局6日在其官网发布通告称，供职于该国伊尔库茨克西伯利亚与远东防鼠疫研究所的一名患病工作人员病因诊断为“不明原因肺炎”。事发后当地已第一时间采取综合防疫措施，目前伊尔库茨克州和相关城市防疫形势平稳。",
+   "link": "https://wallstreetcn.com/news/global/3174828",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 03:14"
+   "published_at": "2026-10-07 12:36"
   },
   {
    "category": "finance",
-   "title": "港股半导体股走低，澜起科技跌近8%，爱芯元智跌超5%，纳芯微、晶合集成、兆易创新跌超4%，华虹宏力、",
-   "summary": "港股半导体股走低，澜起科技跌近8%，爱芯元智跌超5%，纳芯微、晶合集成、兆易创新跌超4%，华虹宏力、江波龙跌超2%。",
-   "link": "https://wallstreetcn.com/news/global/3174691",
+   "title": "现货黄金失守4100美元/盎司，日内跌1.5％。 现货白银日内跌幅达3.0%，报59.46美元/盎司",
+   "summary": "现货黄金失守4100美元/盎司，日内跌1.5％。 现货白银日内跌幅达3.0%，报59.46美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3174827",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 03:10"
+   "published_at": "2026-10-07 12:28"
   },
   {
    "category": "finance",
-   "title": "前8个月医保统筹基金收入约2.07万亿元",
-   "summary": "国家医保局日前发布数据，2026年1月至8月，我国基本医疗保险（含生育保险）统筹基金总收入20727.72亿元，基本医疗保险（含生育保险）统筹基金总支出15504.14亿元，医保基金整体运行平稳。数据显示，在基本医疗保险（含生育保险）统筹基金收入方面，职工基本医疗保险（含生育保险）统筹基金收入12813.17亿元，城乡居民基本医疗保险统筹基金收入7914.55亿元。",
-   "link": "https://wallstreetcn.com/news/global/3174690",
+   "title": "荷兰银行Barros Fritz：法国债市风险向欧洲更广泛蔓延的可能性有限",
+   "summary": "荷兰银行高级利率策略师Larissa de Barros Fritz认为，法国国债遭遇猛烈抛售可能在欧洲引发更广泛传染的担忧被夸大。与欧元区以往出现严重主权债务压力的时期不同，我们没有看到更广泛金融风险蔓延的迹象。衡量法国和德国主权债务违约保护成本的信用违约掉期(CDS)利差仅“小幅”上升，远低于以往危机时期的水平。这一利差也远低于2018年市场对意大利退出欧元区的担忧升温时意大利CDS利差的水平",
+   "link": "https://wallstreetcn.com/news/global/3174825",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 02:25"
+   "published_at": "2026-10-07 12:18"
   },
   {
    "category": "finance",
-   "title": "中国央行连续23个月扩大黄金储备",
-   "summary": "中国9月末黄金储备7747万盎司，8月末黄金储备7673万盎司。",
-   "link": "https://wallstreetcn.com/news/global/3174688",
+   "title": "中国乒协：将推动建立赛场禁入名单制度",
+   "summary": "中国乒乓球协会7日发布关于抵制极端球迷越界行为的声明，表示坚决维护教练员、运动员合法权益，下一步将推动建立赛场禁入名单制度，加强现场秩序维护。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3174823",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 02:07"
+   "published_at": "2026-10-07 12:15"
   },
   {
    "category": "finance",
-   "title": "中国9月外汇储备 34002.5亿美元，前值 34383.3亿美元。",
-   "summary": "中国9月外汇储备 34002.5亿美元，前值 34383.3亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3174687",
+   "title": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21.44亿人次，同比增",
+   "summary": "交通运输部今天发布的最新数据显示，国庆七天假期，全社会跨区域人员流动量预计达21.44亿人次，同比增长0.7%。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3174822",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 02:01"
+   "published_at": "2026-10-07 12:13"
   },
   {
    "category": "finance",
-   "title": "报道称DRAM大厂计划涨价，涨幅最高达20%",
-   "summary": "据台湾经济日报7日报道，中国台湾存储厂商南亚科近期陆续通知客户，将再度上调DRAM合约价格，最高涨幅可达20%。南亚科方面表示，针对客户报价相关事宜，不予置评。业内人士认为，随着南亚科启动新一轮合约价上调，涨价效应将逐步传导落地，有望抬升公司平均售价（ASP），改善盈利水平，推动整体经营持续向好。（每经）",
-   "link": "https://wallstreetcn.com/news/global/3174686",
+   "title": "特朗普政府将从National Compute获得1亿美元。（Politico）",
+   "summary": "特朗普政府将从National Compute获得1亿美元。（Politico）",
+   "link": "https://wallstreetcn.com/news/global/3174820",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 01:37"
+   "published_at": "2026-10-07 12:05"
   },
   {
    "category": "finance",
-   "title": "中国团队全球首次构建水稻全生命周期三维时空细胞图谱",
-   "summary": "记者从崖州湾国家实验室获悉，由我国多个科研机构分工协作完成的最新水稻研究成果，于6日晚在国际学术期刊《细胞》（Cell）在线发表。内容为我国研究团队在全球范围内首次构建了覆盖水稻从种子萌发到开花结实全过程的三维时空细胞图谱，整合了基因组测序、单细胞测序与空间转录组测序，为理解水稻生长发育、探索籽粒品质改良提供了新的研究资源。 (央视新闻)",
-   "link": "https://wallstreetcn.com/news/global/3174685",
+   "title": "波罗的海干散货指数下跌0.27%，报2994点。",
+   "summary": "波罗的海干散货指数下跌0.27%，报2994点。",
+   "link": "https://wallstreetcn.com/news/global/3174819",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 01:29"
+   "published_at": "2026-10-07 12:03"
   },
   {
    "category": "finance",
-   "title": "香港恒生指数开盘跌0.45%，恒生科技指数跌0.33%",
-   "summary": "生物医药股开盘走低，药明生物跌超3%，百济神州、信达生物跌超2%。比亚迪电子、阿里巴巴、京东健康跌超1%。",
-   "link": "https://wallstreetcn.com/news/global/3174684",
+   "title": "CoreWeave进军印度，携手AdaniConneX扩展AI云平台。（彭博）",
+   "summary": "CoreWeave进军印度，携手AdaniConneX扩展AI云平台。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3174818",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 01:21"
+   "published_at": "2026-10-07 12:03"
   },
   {
    "category": "finance",
-   "title": "全国铁路今天预计发送旅客2415万人次",
-   "summary": "今天是国庆中秋假期的最后一天，昨天起铁路返程客流有明显增长，今天全国铁路预计发送旅客2415万人次。铁路中秋国庆假期运输自9月23日启动，到昨天已经发送旅客超2.5亿人次。随着返程客流高峰的到来，运力持续增加。今天全国铁路预计加开旅客列车2449列。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3174683",
+   "title": "伊朗称若美国遵守法律，达成协议并非遥不可及。（ISNA）",
+   "summary": "伊朗称若美国遵守法律，达成协议并非遥不可及。（ISNA）",
+   "link": "https://wallstreetcn.com/news/global/3174817",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 01:08"
+   "published_at": "2026-10-07 12:00"
+  },
+  {
+   "category": "finance",
+   "title": "美银策略师称债券熊市主要由期限溢价推动",
+   "summary": "美国银行在一份报告中表示，自9月中旬以来，期限溢价上升推动了发达市场中长期债券收益率走高。利率策略师Ralf Preusser周三在报告中写道，“与其归咎于债券义警、财政赤字、日本、财政主导或央行独立性受侵蚀，利率上升的推动因素是各国央行实施加息”。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3174816",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-07 11:59"
   }
  ]
 }
