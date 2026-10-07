@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-10-06 18:25",
+ "updated_at": "2026-10-07 06:06",
  "ai": [
+  {
+   "category": "ai",
+   "title": "“AI 教父”辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/187.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "12GB 显存显卡跑 125B Qwen3.8 模型：Strata 登场，单张 RTX 5070 跑出 94 词元 / 秒",
@@ -152,192 +160,168 @@
    "link": "https://www.ithome.com/1/008/606.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划",
-   "summary": "",
-   "link": "https://www.ithome.com/1/008/544.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "英仕曼集团质疑“高通胀对债券不利”的共识",
-   "summary": "英仕曼集团（Man Group）的一项研究显示，仅凭高通胀本身并不对美国国债构成利空，真正造成最大伤害的是价格增速的快速上升。周二发布的一份研究报告显示，当通胀处于2%-4%区间时，10年期美国国债在这些时期的历史平均年化名义回报率为6.9%。英仕曼的分析表明，债券在长期投资组合中仍应占有一席之地，因为它们在股市下跌时历史上表现良好，且仍能提供正的实际回报。",
-   "link": "https://wallstreetcn.com/news/global/3174591",
+   "title": "德国8月工业产出环比 2%，预期 0.5%，前值 -1.1%。",
+   "summary": "德国8月工业产出环比 2%，预期 0.5%，前值 -1.1%。",
+   "link": "https://wallstreetcn.com/news/global/3174709",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:17"
+   "published_at": "2026-10-07 06:00"
   },
   {
    "category": "finance",
-   "title": "一艘油轮在俄罗斯索契附近黑海海域起火",
-   "summary": "10月6日，俄罗斯索契“天狼星”联邦直辖区行政机构负责人德米特里·普利什金表示，一艘油轮在索契附近黑海海域起火。为保障民众安全，当地海滩将暂时关闭。目前，有关方面正在对海水和空气状况进行监测。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3174589",
+   "title": "德国8月工业产出同比 2.3%，预期 0.7%，前值 -1.6%。",
+   "summary": "德国8月工业产出同比 2.3%，预期 0.7%，前值 -1.6%。",
+   "link": "https://wallstreetcn.com/news/global/3174708",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:11"
+   "published_at": "2026-10-07 06:00"
   },
   {
    "category": "finance",
-   "title": "美国司法部高级官员授意雇员们在官方联系中用“超级智能”（SI）替换人工智能（AI）。",
-   "summary": "美国司法部高级官员授意雇员们在官方联系中用“超级智能”（SI）替换人工智能（AI）。",
-   "link": "https://wallstreetcn.com/news/global/3174588",
+   "title": "伊拉克将本币兑美元贬值约13%。（INA）",
+   "summary": "伊拉克将本币兑美元贬值约13%。（INA）",
+   "link": "https://wallstreetcn.com/news/global/3174707",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:09"
+   "published_at": "2026-10-07 05:56"
   },
   {
    "category": "finance",
-   "title": "谷歌旗下无人驾驶汽车部门Waymo：在美国底特律推出全自动驾驶。",
-   "summary": "谷歌旗下无人驾驶汽车部门Waymo：在美国底特律推出全自动驾驶。",
-   "link": "https://wallstreetcn.com/news/global/3174585",
+   "title": "日本8月同步指标初值 118.7，前值 120.6。",
+   "summary": "日本8月同步指标初值 118.7，前值 120.6。",
+   "link": "https://wallstreetcn.com/news/global/3174703",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:03"
+   "published_at": "2026-10-07 05:00"
   },
   {
    "category": "finance",
-   "title": "阿根廷外长批评英国政府拒绝就马岛问题谈判",
-   "summary": "阿根廷外长巴勃罗·基尔诺5日晚批评英国政府在马尔维纳斯群岛（简称马岛，英国称福克兰群岛）主权争端中拒绝谈判。基尔诺5日晚在阿根廷国际关系委员会成立48周年纪念活动上重申阿政府对马岛的主权，并批评英国政府的单方面行为“损害了阿根廷的不可再生资源”。英国驻阿根廷大使戴维·凯恩斯在基尔诺发言后离开活动现场。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3174584",
+   "title": "日本8月领先指标初值 118，前值 117.7。",
+   "summary": "日本8月领先指标初值 118，前值 117.7。",
+   "link": "https://wallstreetcn.com/news/global/3174702",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:03"
+   "published_at": "2026-10-07 05:00"
   },
   {
    "category": "finance",
-   "title": "巴西财政部：巴西9月贸易顺差为77.41亿美元。",
-   "summary": "巴西财政部：巴西9月贸易顺差为77.41亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3174583",
+   "title": "印度央行回购利率 5.5%，预期 5.5%，前值 5.25%。",
+   "summary": "印度央行回购利率 5.5%，预期 5.5%，前值 5.25%。",
+   "link": "https://wallstreetcn.com/news/global/3174701",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:01"
+   "published_at": "2026-10-07 04:32"
   },
   {
    "category": "finance",
-   "title": "初创公司Hark在2027年硬件发布前推出AI代理",
-   "summary": "Hark推出了一款名为Hark Pro的“主动式”AI应用，可代表用户完成任务，例如购买杂货或预订车辆。Hark Pro与Hark将于2027年开始陆续推出的AI硬件产品配套使用，目前提供免费版本及付费订阅选项。Hark Pro依托其自有的云端计算机Handoff来记忆用户信息并处理问题，并提供操作按钮和个性化小型应用等工具。",
-   "link": "https://wallstreetcn.com/news/global/3174582",
+   "title": "携程：中秋国庆出行需求整体增长，入境游订单同比高双位数增长",
+   "summary": "10月7日，携程发布数据显示，今年中秋国庆出行需求整体增长：入境游订单同比高双位数增长，国内景区门票订单同样实现双位数增长。国内包车游订单同比增长近八成，包团定制游增长超五成；云南、新疆、甘肃三地包车游订单增幅均超1.5倍。",
+   "link": "https://wallstreetcn.com/news/global/3174700",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:01"
+   "published_at": "2026-10-07 04:27"
   },
   {
    "category": "finance",
-   "title": "报道：土耳其不良资产管理公司负责人身亡",
-   "summary": "据土耳其CNN Turk报道，土耳其商人、不良资产管理公司Adil Varlik Yonetim AS董事长阿里·埃姆雷·巴利周二在伊斯坦布尔一辆车内被发现身亡。 据该电视台报道，这名46岁商人是在伊斯坦布尔切克梅科伊区一处空地上的一辆汽车驾驶座内被发现的。初步检查显示，他死于枪伤。当局已就其死亡情况展开调查。",
-   "link": "https://wallstreetcn.com/news/global/3174581",
+   "title": "韩国议员办公室披露韩国投资者因杠杆ETF损失17亿美元",
+   "summary": "韩国一名议员办公室公布的数据显示，短短数月内，散户投资者在追踪韩国两大芯片巨头的杠杆ETF产品中蒙受约2.3万亿韩元（17亿美元）的损失。韩国在野党国民力量党议员Choi Eun-seok办公室称，这是5月27日至8月14日期间，10家韩国券商的客户投资与三星电子和SK海力士挂钩的单一股票ETF和票据所蒙受的亏损。",
+   "link": "https://wallstreetcn.com/news/global/3174699",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 18:00"
+   "published_at": "2026-10-07 04:20"
   },
   {
    "category": "finance",
-   "title": "智利国家铜业公司（Codelco）：正调查2024-25年期间存在超产的新证据。 董事会已获悉与产量",
-   "summary": "智利国家铜业公司（Codelco）：正调查2024-25年期间存在超产的新证据。 董事会已获悉与产量核算可能存在重复计算以及库存账目不符相关的初步调查结果。 已将最新调查结果提交给检察官办公室，并委托开展了一项新的独立外部审计，以确定事件的影响规模、责任归属以及潜在经济影响。 这可能导致Ministro Hales和Salvador矿区在2024年和2025年期间上报的产量被人为抬高。",
-   "link": "https://wallstreetcn.com/news/global/3174578",
+   "title": "中秋国庆消费升温，支付宝“碰一下”消费笔数同比增近40%",
+   "summary": "中秋国庆假期文旅消费热度攀升。支付宝数据显示，双节期间“碰一下”消费笔数同比增长近40%。假期首四日，入境游客用支付宝“外卡内绑”和 Alipay+“外包内用”的消费额，同比增长近 50%。长沙、重庆、福州、广州、杭州、上海、武汉、郑州八城联合支付宝发起“点亮城市”活动，吸引超100万人次打卡。消费券叠加互动装置的创新模式，有效拉动商圈客流与商户销售，推动假日消费从补贴式促销向体验式消费升级。",
+   "link": "https://wallstreetcn.com/news/global/3174697",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:53"
+   "published_at": "2026-10-07 04:17"
   },
   {
    "category": "finance",
-   "title": "对冲基金9月业绩排行榜：德劭录得上涨，Haidar宏观基金回报率近18%",
-   "summary": "在9月全球债市剧烈波动环境下，德劭旗下对冲基金以及Said Haidar的宏观交易策略基金成为赢家。 据知情人士称，德劭主要多策略对冲基金Composite上月回报率1.5%，而以宏观交易为主的Oculus基金当月上涨4.3%。两只基金今年以来的回报率分别升至15.3%和30.2%。 一份投资者文件显示，Haidar旗下宏观对冲基金Jupiter在8月上涨17%后，9月回报率仍然达到17.7%。今",
-   "link": "https://wallstreetcn.com/news/global/3174577",
+   "title": "宏景科技：所有算力设备均通过合规商业渠道采购",
+   "summary": "宏景科技10月7日在官方公众号发布声明称，近日，公司关注到海外个别媒体涉及公司经营活动的相关不实报道，为避免相关内容对市场认知造成干扰，特此声明：公司始终坚守合规经营的基本原则，所有算力设备均通过合规商业渠道采购，始终严格遵守市场规则与法律法规开展各项业务。截至目前，公司整体生产经营情况一切正常，各项业务均稳步有序推进。公司将持续关注相关舆情进展，并保留依法追究其全部法律责任的权利。",
+   "link": "https://wallstreetcn.com/news/global/3174696",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:53"
+   "published_at": "2026-10-07 04:03"
   },
   {
    "category": "finance",
-   "title": "美国堪萨斯城联储主席Jeff Schmid：抗击通胀让美联储的公信力正面临考验。",
-   "summary": "美国堪萨斯城联储主席Jeff Schmid：抗击通胀让美联储的公信力正面临考验。",
-   "link": "https://wallstreetcn.com/news/global/3174576",
+   "title": "AMD首席执行官苏姿丰将于周三与三星电子半导体业务负责人全永铉会面。（彭博）",
+   "summary": "AMD首席执行官苏姿丰将于周三与三星电子半导体业务负责人全永铉会面。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3174693",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:37"
+   "published_at": "2026-10-07 03:29"
   },
   {
    "category": "finance",
-   "title": "美国堪萨斯城联储主席Jeff Schmid：当前，AI是通胀的最大驱动因素之一。",
-   "summary": "美国堪萨斯城联储主席Jeff Schmid：当前，AI是通胀的最大驱动因素之一。",
-   "link": "https://wallstreetcn.com/news/global/3174575",
+   "title": "现货白银日内跌幅扩大至1%，报60.69美元/盎司。",
+   "summary": "现货白银日内跌幅扩大至1%，报60.69美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3174692",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:35"
+   "published_at": "2026-10-07 03:14"
   },
   {
    "category": "finance",
-   "title": "俄罗斯国防部：全天在俄联邦多个地区击落110架乌克兰无人机。",
-   "summary": "俄罗斯国防部：全天在俄联邦多个地区击落110架乌克兰无人机。",
-   "link": "https://wallstreetcn.com/news/global/3174573",
+   "title": "港股半导体股走低，澜起科技跌近8%，爱芯元智跌超5%，纳芯微、晶合集成、兆易创新跌超4%，华虹宏力、",
+   "summary": "港股半导体股走低，澜起科技跌近8%，爱芯元智跌超5%，纳芯微、晶合集成、兆易创新跌超4%，华虹宏力、江波龙跌超2%。",
+   "link": "https://wallstreetcn.com/news/global/3174691",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:24"
+   "published_at": "2026-10-07 03:10"
   },
   {
    "category": "finance",
-   "title": "美国堪萨斯城联储主席Jeff Schmid：劳动力仍然形势良好。 通胀令人感到沮丧，必须解决。 在抗",
-   "summary": "美国堪萨斯城联储主席Jeff Schmid：劳动力仍然形势良好。 通胀令人感到沮丧，必须解决。 在抗击通胀方面还有很长的路要走。",
-   "link": "https://wallstreetcn.com/news/global/3174572",
+   "title": "前8个月医保统筹基金收入约2.07万亿元",
+   "summary": "国家医保局日前发布数据，2026年1月至8月，我国基本医疗保险（含生育保险）统筹基金总收入20727.72亿元，基本医疗保险（含生育保险）统筹基金总支出15504.14亿元，医保基金整体运行平稳。数据显示，在基本医疗保险（含生育保险）统筹基金收入方面，职工基本医疗保险（含生育保险）统筹基金收入12813.17亿元，城乡居民基本医疗保险统筹基金收入7914.55亿元。",
+   "link": "https://wallstreetcn.com/news/global/3174690",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:24"
+   "published_at": "2026-10-07 02:25"
   },
   {
    "category": "finance",
-   "title": "据市场情报公司IIR Energy：预计沙特Jazan炼油厂要到11月份才会回复运营。 该国毗邻红海",
-   "summary": "据市场情报公司IIR Energy：预计沙特Jazan炼油厂要到11月份才会回复运营。 该国毗邻红海、靠近Yanbu的Samref炼油厂因东西输油管道破损而降低运营规模。",
-   "link": "https://wallstreetcn.com/news/global/3174571",
+   "title": "中国央行连续23个月扩大黄金储备",
+   "summary": "中国9月末黄金储备7747万盎司，8月末黄金储备7673万盎司。",
+   "link": "https://wallstreetcn.com/news/global/3174688",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:23"
+   "published_at": "2026-10-07 02:07"
   },
   {
    "category": "finance",
-   "title": "阿曼：已对一艘在阿曼穆桑代姆省利马东北部遇袭的巴拿马籍商船的十名船员实施医疗撤离。",
-   "summary": "阿曼：已对一艘在阿曼穆桑代姆省利马东北部遇袭的巴拿马籍商船的十名船员实施医疗撤离。",
-   "link": "https://wallstreetcn.com/news/global/3174570",
+   "title": "中国9月外汇储备 34002.5亿美元，前值 34383.3亿美元。",
+   "summary": "中国9月外汇储备 34002.5亿美元，前值 34383.3亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3174687",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:21"
+   "published_at": "2026-10-07 02:01"
   },
   {
    "category": "finance",
-   "title": "国际能源署（IEA）将于周三开会，讨论柴油、原油库存的释放事宜。",
-   "summary": "国际能源署（IEA）将于周三开会，讨论柴油、原油库存的释放事宜。",
-   "link": "https://wallstreetcn.com/news/global/3174569",
+   "title": "报道称DRAM大厂计划涨价，涨幅最高达20%",
+   "summary": "据台湾经济日报7日报道，中国台湾存储厂商南亚科近期陆续通知客户，将再度上调DRAM合约价格，最高涨幅可达20%。南亚科方面表示，针对客户报价相关事宜，不予置评。业内人士认为，随着南亚科启动新一轮合约价上调，涨价效应将逐步传导落地，有望抬升公司平均售价（ASP），改善盈利水平，推动整体经营持续向好。（每经）",
+   "link": "https://wallstreetcn.com/news/global/3174686",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:19"
+   "published_at": "2026-10-07 01:37"
   },
   {
    "category": "finance",
-   "title": "谷歌公司与美国最大核电运营商Constellation Energy达成一项为期20年的核电协议。（",
-   "summary": "谷歌公司与美国最大核电运营商Constellation Energy达成一项为期20年的核电协议。（华尔街日报）",
-   "link": "https://wallstreetcn.com/news/global/3174568",
+   "title": "中国团队全球首次构建水稻全生命周期三维时空细胞图谱",
+   "summary": "记者从崖州湾国家实验室获悉，由我国多个科研机构分工协作完成的最新水稻研究成果，于6日晚在国际学术期刊《细胞》（Cell）在线发表。内容为我国研究团队在全球范围内首次构建了覆盖水稻从种子萌发到开花结实全过程的三维时空细胞图谱，整合了基因组测序、单细胞测序与空间转录组测序，为理解水稻生长发育、探索籽粒品质改良提供了新的研究资源。 (央视新闻)",
+   "link": "https://wallstreetcn.com/news/global/3174685",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:18"
+   "published_at": "2026-10-07 01:29"
   },
   {
    "category": "finance",
-   "title": "周二（10月6日），美联储隔夜逆回购协议（RRP）使用规模为41.4亿美元（交易对手16家），上个交",
-   "summary": "周二（10月6日），美联储隔夜逆回购协议（RRP）使用规模为41.4亿美元（交易对手16家），上个交易日报10.04亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3174567",
+   "title": "香港恒生指数开盘跌0.45%，恒生科技指数跌0.33%",
+   "summary": "生物医药股开盘走低，药明生物跌超3%，百济神州、信达生物跌超2%。比亚迪电子、阿里巴巴、京东健康跌超1%。",
+   "link": "https://wallstreetcn.com/news/global/3174684",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:16"
+   "published_at": "2026-10-07 01:21"
   },
   {
    "category": "finance",
-   "title": "谷歌：国家域名劫持事件未攻破Chrome",
-   "summary": "谷歌在一篇博客文章中表示，多起国家代码顶级域名劫持事件并未造成谷歌系统遭入侵。谷歌上周发现.gh（加纳）、.sl（塞拉利昂）、.as（美属萨摩亚）国家代码顶级域名空间发生多起域名劫持。谷歌表示，有理由认为签发受影响证书的证书机构存在不当行为。谷歌已立即采取保护措施，拦截谷歌自有域名下未经授权证书的使用。在初步迁移之后，数据显示还有更多机构受到同一攻击影响，其中包含多个国际知名品牌与广泛使用的线上服",
-   "link": "https://wallstreetcn.com/news/global/3174566",
+   "title": "全国铁路今天预计发送旅客2415万人次",
+   "summary": "今天是国庆中秋假期的最后一天，昨天起铁路返程客流有明显增长，今天全国铁路预计发送旅客2415万人次。铁路中秋国庆假期运输自9月23日启动，到昨天已经发送旅客超2.5亿人次。随着返程客流高峰的到来，运力持续增加。今天全国铁路预计加开旅客列车2449列。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3174683",
    "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:14"
-  },
-  {
-   "category": "finance",
-   "title": "美国财长贝森特重弹降债老调，市场人士直言“愿景不是计划”",
-   "summary": "美国财政部长贝森特表示，经济增长和财政撙节双管齐下能够遏制联邦赤字，但面对政府庞大的负债额，市场策略师怀疑这种做法未必奏效。 Elias Haddad等Brown Brothers Harriman策略师在报告中写道：“10年期美债收益率飙升后，贝森特试图通过口头干预压低长端收益率。”",
-   "link": "https://wallstreetcn.com/news/global/3174564",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:04"
-  },
-  {
-   "category": "finance",
-   "title": "美国财政部拍卖580亿美元三年期国债，得标利率4.932%、创2006年以来新高，投标倍数2.62。",
-   "summary": "美国财政部拍卖580亿美元三年期国债，得标利率4.932%、创2006年以来新高，投标倍数2.62。",
-   "link": "https://wallstreetcn.com/news/global/3174563",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-06 17:02"
+   "published_at": "2026-10-07 01:08"
   }
  ]
 }
