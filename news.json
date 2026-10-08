@@ -1,190 +1,359 @@
 {
- "updated_at": "2026-10-07 23:11",
- "ai": [],
+ "updated_at": "2026-10-08 06:11",
+ "ai": [
+  {
+   "category": "ai",
+   "title": "美国一男子因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/378.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/333.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/329.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "周活超 12 亿用户：OpenAI ChatGPT 升级 GPT-6 模型，互动式 AI 教你打麻将",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/327.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/313.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "2027 款深蓝 L06 新车官宣：定位“长续航磁流变 AI 轿跑”，搭载两只“龙虾”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/276.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "“AI 教父”辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/187.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "12GB 显存显卡跑 125B Qwen3.8 模型：Strata 登场，单张 RTX 5070 跑出 94 词元 / 秒",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/006.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "索尼音乐 9 月要求下架 26 万首 AI 伪造歌曲：阿黛尔等艺人被冒充，请求量较 3 月近乎翻倍",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/001.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "韩国拟推 4.7 万亿韩元专项计划，明年 3 月起研发前沿 AI 大模型",
+   "summary": "",
+   "link": "https://www.ithome.com/1/010/000.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/979.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "防止 AI 胡编乱造：微软 Word Copilot 新增引用功能，可溯源查证",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/958.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "叫板 DeepSeek、Kimi，英伟达投资的 Reflection AI 发布旗下首款开放权重 AI 模型 Beam",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/932.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "特朗普宣布成立超级智能工作组，谋求维持美国技术领先地位",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/792.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 前研究员将出席纽约 AI 听证会作证，曾警告 AI 或毁灭人类",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/769.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "跨越百年的代言：斯凯孚用 AI“复活”已故女星葛丽泰 · 嘉宝拍广告",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/764.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，硅谷巨头火速跟进复刻",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/744.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "下载体验了 Muse 后，我清仓了 Airbnb，加仓了 Meta",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/375.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "生图模型 FLUX 3 Image 发布：支持 4K 生成，可精准排布 AI 元素",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/315.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 灌水稿激增：预印本平台 arXiv 出台新规，每人每月限投 2 篇",
+   "summary": "",
+   "link": "https://www.ithome.com/1/009/279.htm",
+   "source": "IT之家",
+   "published_at": ""
+  }
+ ],
  "finance": [
   {
    "category": "finance",
-   "title": "美国财长贝森特：经济形势强劲，但美联储应该保持开放的心态。",
-   "summary": "美国财长贝森特：经济形势强劲，但美联储应该保持开放的心态。",
-   "link": "https://wallstreetcn.com/news/global/3175048",
+   "title": "国庆假期服务消费需求旺盛 商品消费增势良好",
+   "summary": "国家税务总局利用增值税发票数据，对国庆假期相关消费行业销售收入情况进行分析显示：国庆假期，全国服务消费需求旺盛，商品消费增势良好，家用电器、数码电子、厨卫等销售增幅较高。",
+   "link": "https://wallstreetcn.com/news/global/3175209",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 23:11"
+   "published_at": "2026-10-08 06:05"
   },
   {
    "category": "finance",
-   "title": "英国9月三个月RICS房价指数 -32，预期 -30，前值 -28。",
-   "summary": "英国9月三个月RICS房价指数 -32，预期 -30，前值 -28。",
-   "link": "https://wallstreetcn.com/news/global/3175045",
+   "title": "国庆假期1546.2万人次出入境 日均220.9万人次 较去年同期增长6.7%",
+   "summary": "据国家移民管理局通报，今年国庆假期全国边检机关共保障1546.2万人次中外人员出入境，日均220.9万人次，较去年同期增长6.7%；单日出入境通关最高峰出现在10月4日，达239.7万人次。其中，内地居民出境444.4万人次，较去年同期增长9.3%；外国人入境68.2万人次，适用免签政策入境50.5万人次，较去年同期分别增长5.4%、9.2%。共计查验出入境交通运输工具73.2万架（艘、列、辆）次",
+   "link": "https://wallstreetcn.com/news/global/3175207",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 23:01"
+   "published_at": "2026-10-08 06:01"
   },
   {
    "category": "finance",
-   "title": "实地调研国庆假期楼市：看房热情回升，开发商优惠活动“吸睛”",
-   "summary": "国庆假期期间，调研小分队对北京、深圳、广州、贵阳等地楼市进行实地调研。调研发现，受购房贷款财政贴息等利好政策影响，楼市关注度提升，二手住宅市场可供选择的项目较为充足。记者走访多地售楼处发现，看房的人明显多起来了。为了促进销售，开发商优惠活动较为“吸睛”，一些楼盘推出国庆假期专属优惠活动，到店有礼、认购有优惠、提前打款有折扣。",
-   "link": "https://wallstreetcn.com/news/global/3175043",
+   "title": "德国8月季调后出口环比 -0.8%，预期 0.9%，前值 -0.8%。",
+   "summary": "德国8月季调后出口环比 -0.8%，预期 0.9%，前值 -0.8%。",
+   "link": "https://wallstreetcn.com/news/global/3175205",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:56"
+   "published_at": "2026-10-08 06:00"
   },
   {
    "category": "finance",
-   "title": "美国FCC将投票拍卖25MHz“黄金频谱”，此举或利好亚马逊、SpaceX",
-   "summary": "美国联邦通信委员会（FCC）表示，将就一项提案进行投票，拍卖25兆赫“黄金频谱”，以支持从卫星到智能手机的“直连设备”（D2D）服务。 FCC还表示，将于10月29日投票决定是否就另一项提案征求公众意见：额外开放482兆赫频谱用于来自太空的补充覆盖，并现代化FCC针对授权频谱中D2D服务的规则。 这两项提案可能利好SpaceX和亚马逊等公司，这些公司正通过卫星网络拓展D2D服务。",
-   "link": "https://wallstreetcn.com/news/global/3175041",
+   "title": "德国8月季调后进口环比 0.9%，预期 2.8%，前值 -5.7%。",
+   "summary": "德国8月季调后进口环比 0.9%，预期 2.8%，前值 -5.7%。",
+   "link": "https://wallstreetcn.com/news/global/3175204",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:49"
+   "published_at": "2026-10-08 06:00"
   },
   {
    "category": "finance",
-   "title": "券商10月“金股”折射布局思路，市场定价重心有望回归基本面",
-   "summary": "新一批券商月度投资“金股”近期陆续出炉。Wind数据显示，截至10月7日，已有超过220只A股及港股标的入围券商2026年10月“金股”组合。从推荐频次看，药明康德再度成为券商最青睐的月度投资标的，腾讯控股等港股标的关注度相对较高。",
-   "link": "https://wallstreetcn.com/news/global/3175040",
+   "title": "比亚迪执行副总裁李柯：英伟达仍是我们非常重要的芯片合作伙伴。",
+   "summary": "比亚迪执行副总裁李柯：英伟达仍是我们非常重要的芯片合作伙伴。",
+   "link": "https://wallstreetcn.com/news/global/3175203",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:47"
+   "published_at": "2026-10-08 05:59"
   },
   {
    "category": "finance",
-   "title": "三星电子凭借存储芯片暴利创下利润新高，但利润、销售额逊色于市场预期",
-   "summary": "三星电子因存储芯片价格飙升和人工智能（AIK）基础设施支出增加而录得创纪录利润。 该公司三季度营业利润攀升至约107.4万亿韩元，是去年同期的八倍多，分析师预期108.67万亿韩元。 三季度营收/销售额达到195万亿韩元，分析师预期201.9万亿韩元。 分析师预计该公司芯片部门营业利润将达110万亿韩元，而电子部门预计将出现亏损。",
-   "link": "https://wallstreetcn.com/news/global/3175038",
+   "title": "科创50指数跌超5%。",
+   "summary": "科创50指数跌超5%。",
+   "link": "https://wallstreetcn.com/news/global/3175202",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:46"
+   "published_at": "2026-10-08 05:59"
   },
   {
    "category": "finance",
-   "title": "机构称10月A股大概率回暖",
-   "summary": "分析人士表示，节后A股将迎来修复行情，市场大概率呈现“先修复、再分化”的演绎路径，10月市场表现大概率将出现回暖。随着行情向纵深演绎，资金将逐步从超跌修复转向业绩验证，三季报将成为影响10月行情结构的关键变量。（中证报）",
-   "link": "https://wallstreetcn.com/news/global/3175037",
+   "title": "印度NIFTY指数下跌1%至22376.10点。",
+   "summary": "印度NIFTY指数下跌1%至22376.10点。",
+   "link": "https://wallstreetcn.com/news/global/3175200",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:46"
+   "published_at": "2026-10-08 05:56"
   },
   {
    "category": "finance",
-   "title": "节后首日20只产品亮相，10月新基发行迎小高峰",
-   "summary": "国庆假期后，基金发行市场迎来小高峰。10月8日20只产品齐发，拉开了本月新基金发行的序幕。Wind数据显示，本月拟发行新基金合计96只，权益类产品占据主流，科技成长、红利价值、北交所3个月持有等主题多点开花。此外，三季度新成立基金513只，数量环比小幅增长，但募集份额明显收窄，发行向头部集中。今年前三季度，新成立基金超1380只，单只规模分化明显，被动指数产品数量最多。（中证报）",
-   "link": "https://wallstreetcn.com/news/global/3175036",
+   "title": "飞猪长假酒店间夜量同比增长70%",
+   "summary": "10月8日，飞猪公布2026年中秋国庆假期数据：酒店履约间夜量连续4天超越历史纪录，长假期间日均履约间夜量同比增长近70%，全国超100座城市的酒店间夜量翻倍增长。假期期间，88VIP用户在飞猪的人均酒店消费高出大盘34%，飞猪高星酒店整体履约间夜量同比增长超80%。（界面新闻）",
+   "link": "https://wallstreetcn.com/news/global/3175199",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:35"
+   "published_at": "2026-10-08 05:51"
   },
   {
    "category": "finance",
-   "title": "壁仞科技：H股配售价为每股31.08港元，本次配售总募资额40.404亿港元。",
-   "summary": "壁仞科技：H股配售价为每股31.08港元，本次配售总募资额40.404亿港元。",
-   "link": "https://wallstreetcn.com/news/global/3175035",
+   "title": "新加坡海峡时报指数继续走低，日内跌3.4%。",
+   "summary": "新加坡海峡时报指数继续走低，日内跌3.4%。",
+   "link": "https://wallstreetcn.com/news/global/3175197",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:30"
+   "published_at": "2026-10-08 05:45"
+  },
+  {
+   "category": "finance",
+   "title": "华为Pura 90 Pro主摄与Pro Max两亿潜望、“外挂式”长焦系统由欧菲光供货",
+   "summary": "据产业链人士处消息，欧菲光为华为Pura 90 Pro、Pro Max旗舰机型核心光学供应商，独家供应两款机型的主摄与2亿像素潜望长焦，其中“外挂式”长焦影像系统同样由欧菲光供货。据前述产业链人士透露，针对这套“外挂式”长焦影像系统，欧菲光投入专用设备，重新开展测试与工艺验证。内部数据显示，该模组良率表现优异，工艺难度与产品附加值均处于行业顶端。（蓝鲸新闻）",
+   "link": "https://wallstreetcn.com/news/global/3175196",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:42"
+  },
+  {
+   "category": "finance",
+   "title": "恒生科技指数跌幅扩大至2%，MINIMAX跌超10%，壁仞科技跌超9%。",
+   "summary": "恒生科技指数跌幅扩大至2%，MINIMAX跌超10%，壁仞科技跌超9%。",
+   "link": "https://wallstreetcn.com/news/global/3175195",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:41"
+  },
+  {
+   "category": "finance",
+   "title": "创业板指午后跌超3%，沪指跌0.75%，半导体、CPO等AI硬件股领跌，全市场超3600只个股下跌。",
+   "summary": "创业板指午后跌超3%，沪指跌0.75%，半导体、CPO等AI硬件股领跌，全市场超3600只个股下跌。",
+   "link": "https://wallstreetcn.com/news/global/3175194",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:40"
+  },
+  {
+   "category": "finance",
+   "title": "腾讯控股短线跳水跌超1%。",
+   "summary": "腾讯控股短线跳水跌超1%。",
+   "link": "https://wallstreetcn.com/news/global/3175191",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:38"
+  },
+  {
+   "category": "finance",
+   "title": "台交所加权股价指数收低1%报49,313.44点。",
+   "summary": "台交所加权股价指数收低1%报49,313.44点。",
+   "link": "https://wallstreetcn.com/news/global/3175188",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:36"
+  },
+  {
+   "category": "finance",
+   "title": "短纤期货主力合约日内触及涨停，报8948元/吨，涨幅9.02%。",
+   "summary": "短纤期货主力合约日内触及涨停，报8948元/吨，涨幅9.02%。",
+   "link": "https://wallstreetcn.com/news/global/3175187",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:35"
+  },
+  {
+   "category": "finance",
+   "title": "台积电：9月销售额5,118.6亿元台币，同比增长54.6％。",
+   "summary": "台积电：9月销售额5,118.6亿元台币，同比增长54.6％。",
+   "link": "https://wallstreetcn.com/news/global/3175186",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:32"
+  },
+  {
+   "category": "finance",
+   "title": "科创50指数午后跌超4%，成份股中仅6股上涨。",
+   "summary": "科创50指数午后跌超4%，成份股中仅6股上涨。",
+   "link": "https://wallstreetcn.com/news/global/3175185",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:14"
+  },
+  {
+   "category": "finance",
+   "title": "港股半导体板块午后持续走低，纳芯微跌超10%，华虹宏力跌超7%，君正股份、江波龙、兆易创新等多股跌超",
+   "summary": "港股半导体板块午后持续走低，纳芯微跌超10%，华虹宏力跌超7%，君正股份、江波龙、兆易创新等多股跌超5%。",
+   "link": "https://wallstreetcn.com/news/global/3175183",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:13"
+  },
+  {
+   "category": "finance",
+   "title": "日本9月经济观察家现况指数 47，预期 46.7，前值 46.4。",
+   "summary": "日本9月经济观察家现况指数 47，预期 46.7，前值 46.4。",
+   "link": "https://wallstreetcn.com/news/global/3175179",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:00"
+  },
+  {
+   "category": "finance",
+   "title": "日本9月经济观察家前景指数 47.4，预期 48.5，前值 48.3。",
+   "summary": "日本9月经济观察家前景指数 47.4，预期 48.5，前值 48.3。",
+   "link": "https://wallstreetcn.com/news/global/3175178",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 05:00"
+  },
+  {
+   "category": "finance",
+   "title": "预告：国新办将于10月10日举行新闻发布会 介绍“十五五”时期推进就业和社会保障高质量发展有关情况",
+   "summary": "国务院新闻办公室将于2026年10月10日（星期六）上午10时举行“开局起步‘十五五’”系列主题新闻发布会，请人力资源社会保障部新闻发言人、副部长李忠介绍“十五五”时期推进就业和社会保障高质量发展有关情况，并答记者问。",
+   "link": "https://wallstreetcn.com/news/global/3175177",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 04:55"
+  },
+  {
+   "category": "finance",
+   "title": "国庆假期高速公路新能源汽车日均充电量同比增长51.42% 充电服务保障水平进一步提升",
+   "summary": "通过对纳入国家充电设施监测服务平台的6.27万个高速公路充电设施（枪）的统计分析，自10月1日0时至10月7日24时，我国高速公路新能源汽车充电次数共计671.10万次，充电量达到1.63亿千瓦时，日均充电量2325.66万千瓦时，日均充电量同比增长51.42%。（国家能源局）",
+   "link": "https://wallstreetcn.com/news/global/3175176",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 04:54"
+  },
+  {
+   "category": "finance",
+   "title": "日本首相高市早苗：日本目前并未处于通货紧缩状态。 高度尊重日本央行的独立性。",
+   "summary": "日本首相高市早苗：日本目前并未处于通货紧缩状态。 高度尊重日本央行的独立性。",
+   "link": "https://wallstreetcn.com/news/global/3175173",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-08 04:36"
   },
   {
    "category": "finance",
    "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:50 日本8月贸易帐； ② 时间待定 AMD苏姿丰计划访问韩国，拟出席首尔行业会议；欧元集团举行会议； ③ 13:00 日本央行发布地区经济报告； ④ 13:30 台积电9月份营业额报告； ⑤ 14:00 德国8月出口； ⑥ 14:30 欧洲央行管委兼法国央行行长Emmanuel Moulin、欧洲央行管委Sleijpen在伊斯坦布尔讲话； ⑦ 16:05 瑞士央行官员Martin讲话；",
-   "link": "https://wallstreetcn.com/news/global/3175033",
+   "summary": "① 时间待定 AMD苏姿丰计划访问韩国，拟出席首尔行业会议；欧元集团举行会议； ② 13:00 日本央行发布地区经济报告； ③ 13:30 台积电9月份营业额报告； ④ 14:00 德国8月出口； ⑤ 14:30 欧洲央行管委兼法国央行行长Emmanuel Moulin、欧洲央行管委Sleijpen在伊斯坦布尔讲话； ⑥ 16:05 瑞士央行官员Martin讲话； ⑦ 16:30 美联储理事沃勒在",
+   "link": "https://wallstreetcn.com/news/global/3175172",
    "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:30"
-  },
-  {
-   "category": "finance",
-   "title": "把脉四季度市场，基金经理看好景气类投资机会",
-   "summary": "多家公募机构近期围绕四季度行情展开市场研判。有观点认为，对四季度市场走势持乐观态度。A股上市公司整体盈利处于上行周期，这个趋势大概率可以延续，细分行业的高景气趋势也大概率维持。同时经过三季度的波动后，拥挤度得到了一些缓解——未来需要跟踪科技类、特别是AI相关方向，关注景气类的投资机会。（中证报）",
-   "link": "https://wallstreetcn.com/news/global/3175032",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:27"
-  },
-  {
-   "category": "finance",
-   "title": "私募策略转向均衡，“轻指数重个股”渐成共识",
-   "summary": "A股四季度交易已然开启。近期多家一线股票私募机构表示，对四季度市场并不悲观：资产欠配背景下的系统性风险有限，部分经济高频数据边际改善，估值压制因素不明显，但增量资金和市场情绪仍待修复，后市大概率震荡修复、以结构性行情为主。",
-   "link": "https://wallstreetcn.com/news/global/3175031",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:25"
-  },
-  {
-   "category": "finance",
-   "title": "新型政策性金融工具加快落地，基建投资提速可期",
-   "summary": "9月以来，新型政策性金融工具已累计投放超1000亿元。专家认为，包括新型政策性金融工具在内的多路资金加快落地并形成实物工作量，将有力拉动基建投资增速。与此同时，央行下调抵押补充贷款（PSL）利率并扩大其支持领域，有助于进一步降低政策性银行负债成本，推动重点项目资本金和配套融资落实。（中证报）",
-   "link": "https://wallstreetcn.com/news/global/3175029",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:24"
-  },
-  {
-   "category": "finance",
-   "title": "美军称伊朗对霍尔木兹海峡拥有“完全控制权”的说法不实",
-   "summary": "10月7日，美军中央司令部表示，当日早些时候，伊朗伊斯兰革命卫队的一位将军声称“霍尔木兹海峡已关闭”，并称该国对海峡拥有“完全控制权”，这一说法不实。美军中央司令部说，目前，霍尔木兹海峡的交通畅通，各类商业货物和能源物资（包括2000万桶原油）正经由此处运输。美国及其地区伙伴显然掌控着该海峡。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3175028",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:20"
-  },
-  {
-   "category": "finance",
-   "title": "机构：科技主线或重新占优",
-   "summary": "回顾国庆长假期间全球资产表现：美债收益率维持高位、黄金资产震荡、原油价格冲高回落，与此同时，美股尤其是AI科技主线继续走强，纳指、英伟达创出历史新高。港股方面，在产业层面商业化落地催化下，AI大模型成为市场焦点。A股即将迎来长假后首个交易日，券商策略展望报告普遍认为，本次长假期间海外市场并无重大消息面冲击，市场存在修复动能，假期后A股市场有望“量价齐升”，“红十月”行情可期。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3175027",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:18"
-  },
-  {
-   "category": "finance",
-   "title": "创始人贝佐斯表示，蓝色起源将于12月份发射New Glenn。 蓝色起源最近数年募集280亿美元。",
-   "summary": "创始人贝佐斯表示，蓝色起源将于12月份发射New Glenn。 蓝色起源最近数年募集280亿美元。 该公司已经从外部投资者募资100亿美元，可能会获得更多融资。 有朝一日，蓝色起源将IPO。（福克斯电视台）",
-   "link": "https://wallstreetcn.com/news/global/3175026",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:09"
-  },
-  {
-   "category": "finance",
-   "title": "美国：2000万桶石油被运出霍尔木兹海峡。",
-   "summary": "美国：2000万桶石油被运出霍尔木兹海峡。",
-   "link": "https://wallstreetcn.com/news/global/3175023",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 22:02"
-  },
-  {
-   "category": "finance",
-   "title": "2026年中央金融机构注资特别国债今日发行",
-   "summary": "根据财政部日前公布的有关安排，10月8日，2026年中央金融机构注资特别国债（一期）将进行首发招标。据悉，本期国债为5年期固定利率附息债，竞争性招标面值总额1500亿元，国债票面利率通过竞争性招标确定。招标结束至2026年10月9日进行分销，10月13日起上市交易。另据安排，11月18日还将进行中央金融机构注资特别国债7年期债券发行招标。（中国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3175022",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 21:59"
-  },
-  {
-   "category": "finance",
-   "title": "特朗普新任AI主管将赴硅谷走访头部AI企业",
-   "summary": "美国国家情报总监、新近获任命执掌特朗普政府所谓“超级智能工作组”的杰伊·克莱顿，开启新任期的首项工作便是前往硅谷，与一众AI行业顶尖高管举行会谈。克莱顿计划会晤英伟达首席执行官黄仁勋、OpenAI首席执行官山姆·奥特曼、Anthropic公司的达里奥·阿莫代伊，以及Meta平台公司的马克·扎克伯格。这是克莱顿执掌这个负责统筹联邦政府人工智能相关事务的新机构后，首次与科技行业领袖会面。",
-   "link": "https://wallstreetcn.com/news/global/3175021",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 21:59"
-  },
-  {
-   "category": "finance",
-   "title": "新加坡淡马锡警示当前市场面临的“最大风险”",
-   "summary": "新加坡国有投资巨头淡马锡表示，人工智能（AI）交易行情的逆转是当前市场面临的最大风险。 该公司首席投资官罗希特·西帕希马拉尼在新加坡举行的米尔肯研究所亚洲峰会上表示：“我们不认为这迫在眉睫，但2027年会出现波折吗？是的，有可能。” 西帕希马拉尼指出，尽管美债收益率大幅攀升，但与AI技术相关的头部企业盈利表现强劲，AI成为支撑美股维持在历史高位附近的关键力量之一。在借贷成本不断上升的背景下，标普5",
-   "link": "https://wallstreetcn.com/news/global/3175020",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 21:49"
-  },
-  {
-   "category": "finance",
-   "title": "谷歌被责令暂停在“欧版得州”芬兰的两座数据中心建设",
-   "summary": "Alphabet旗下谷歌公司被责令暂停其在芬兰开发的两座数据中心施工。就在一个月前，这家科技巨头刚刚承诺在芬兰投资150亿美元用于人工智能（AI）基础设施建设。 10月6日，芬兰许可与监管局（LVV）向谷歌子公司Tuike Finland Oy发出通知，要求暂停穆霍斯和卡亚尼两地规划的数据中心项目施工，直至完成环境影响评估。据LVV新闻稿的谷歌翻译版本，停工要求涉及多项作业，包括砍伐树木、清除表土",
-   "link": "https://wallstreetcn.com/news/global/3175018",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 21:39"
-  },
-  {
-   "category": "finance",
-   "title": "美拟就国际学生留美工作征收高额费用",
-   "summary": "美国国土安全部7日公布一项拟议规则，将就国际学生借助“选择性实习训练”项目在美国工作征收高额费用。这是美政府收紧留学生相关政策的最新举动。 根据这项规则，学校为每名学生首次申请“选择性实习训练”项目时需支付7万美元，申请延期还需再支付3万美元。该项目允许持学生签证的国际学生从事与所学专业直接相关的工作，是国际学生转入工作签证的重要过渡渠道。",
-   "link": "https://wallstreetcn.com/news/global/3175016",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 21:34"
-  },
-  {
-   "category": "finance",
-   "title": "报道：SK海力士旗下Solidigm已选定承销商，拟于明年美国IPO",
-   "summary": "据知情人士透露，SK海力士旗下的Solidigm已为明年在美国的首次公开募股（IPO）选定主承销商。这家韩国公司的闪存业务部门已选择高盛集团和摩根士丹利负责此次发行，该发行可能筹集约100亿美元。Solidigm正与这两家投行敲定一轮IPO前融资。摩根大通、花旗集团和瑞银集团也已获邀参与Solidigm的IPO。 此前消息称，Solidigm最早可能于2027年上市，估值可能高达1000亿美元。（",
-   "link": "https://wallstreetcn.com/news/global/3175015",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-07 21:33"
+   "published_at": "2026-10-08 04:30"
   }
  ]
 }
