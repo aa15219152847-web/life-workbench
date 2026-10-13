@@ -1,6 +1,94 @@
 {
- "updated_at": "2026-10-13 00:46",
+ "updated_at": "2026-10-13 14:17",
  "ai": [
+  {
+   "category": "ai",
+   "title": "微软 Excel 引入 Copilot 交互式画布：AI 把零散数据变成可交互的决策看板",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/410.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软逆转办公 AI 策略，新版 Copilot 整合完整 Word / Excel / PowerPoint 体验",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/403.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 警告：小型 AI 模型数月后或将具备在物联网设备上自我复制的能力",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/389.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "导演徐克谈 AI：幻觉与真实交织，边界日益模糊",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/357.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软调整 Win10/Win11 新版 Outlook AI 功能，10 月全球停用 Copilot 主题",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/288.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 也要“反虐待”：全球首富马斯克建议用户不要“折磨”超级智能 SI",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/204.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Jev 引爆决策 AI 模型新赛道，爆红后被卷入原创争议",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/193.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "消息称 OpenAI 计划“复活”Sora：换赛道进军 AI 专业影视工具",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/168.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "9 年前英伟达 Tesla V100 老将再战：4 GPU 集群 AI 推理跑赢 2 台 DGX Spark",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/165.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 测试事故：Claude 模型向警方提交虚假凶杀线索，还提交 20 份签证申请",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/164.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配",
+   "summary": "",
+   "link": "https://www.ithome.com/1/012/149.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "“AI 教父”杨立昆：下一代 AI 须理解现实世界",
@@ -72,272 +160,200 @@
    "link": "https://www.ithome.com/1/011/181.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "马斯克旗下 Grok Bot 新增专属邮箱，AI 助手开始拥有独立“联络点”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/011/177.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "66.1 分登顶：Odyssey-3 基础世界模型登场，AI 开始理解真实世界",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/954.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "JetBrains 编程 AI 模型 Mellum2.1 发布：高负载推理吞吐量近 Qwen3.5-9B 两倍",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/905.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "陶哲轩质疑 OpenAI 公司：719 篇 AI 数学证明，人类真的理解了吗？",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/795.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 修订使用政策，首次禁止用户虐待 Claude AI 模型",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/759.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软确认 Win11 Copilot+ PC 品牌未消亡：全球每月本地 AI 推理超 2 万亿次，每年出货数千万台",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/510.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "美国一男子因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/378.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/333.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/329.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "周活超 12 亿用户：OpenAI ChatGPT 升级 GPT-6 模型，互动式 AI 教你打麻将",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/327.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存",
-   "summary": "",
-   "link": "https://www.ithome.com/1/010/313.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "印度AI初创公司Sarvam寻求在新一轮融资中筹集2.5亿至3亿美元。 Sarvam正洽谈以30亿美",
-   "summary": "印度AI初创公司Sarvam寻求在新一轮融资中筹集2.5亿至3亿美元。 Sarvam正洽谈以30亿美元估值进行最高达3亿美元的新一轮融资。（印度经济时报）",
-   "link": "https://wallstreetcn.com/news/global/3177540",
+   "title": "沙特阿美总裁：全球原油库存逼近“危险低位”",
+   "summary": "沙特阿拉伯国家石油公司（沙特阿美公司）总裁兼首席执行官阿明·纳赛尔12日在第二十五届世界石油理事会能源大会（世界石油大会）上表示，全球原油库存正逼近“极度危险”的低位，可能需要两年时间才能恢复至正常水平。受霍尔木兹海峡局势影响，全球能源供应链持续承压，原油供应紧张程度加剧。纳赛尔表示，当前商业陆上石油库存已低于60亿桶，这已经是“最后可用的缓冲”，但这些库存绝大多数实际上无法为市场所用。（央视新闻",
+   "link": "https://wallstreetcn.com/news/global/3178042",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:44"
+   "published_at": "2026-10-13 14:12"
   },
   {
    "category": "finance",
-   "title": "南亚科技预计四季度毛利率会更高，DRAM会继续涨价",
-   "summary": "南亚科技总经理李培瑛称，预计第四季度动态随机存取存储器(DRAM)价格将继续上涨，各产品涨幅将有所不同。 毛利率可能优于第三季度。客户正在积极洽谈长期供应协议，一些战略合作伙伴盼望通过入股确保产能。（台湾《经济日报》）",
-   "link": "https://wallstreetcn.com/news/global/3177538",
+   "title": "Anthropic警告：AI模型可能很快会在家庭设备之间自我复制",
+   "summary": "Anthropic表示，小型人工智能（AI）模型距离具备在家庭联网设备之间自我复制所需的能力，“仅剩数月时间”。这是这家前沿AI实验室就该技术潜在安全风险发出的最新警告。 Anthropic描述了AI模型如何可能渗透智能烤箱或安卓电视盒等联网设备，利用它们的算力运行自身，并扩散到其他设备，而不再依赖昂贵的数据中心。",
+   "link": "https://wallstreetcn.com/news/global/3178041",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:43"
+   "published_at": "2026-10-13 14:10"
   },
   {
    "category": "finance",
-   "title": "澳洲联储9月货币政策会议纪要：委员会成员一致同意需将利率上调25个基点。 委员会“短暂”考虑了维持利",
-   "summary": "澳洲联储9月货币政策会议纪要：委员会成员一致同意需将利率上调25个基点。 委员会“短暂”考虑了维持利率不变的理由，包括房价下跌因素。 委员会讨论了通胀上行风险，以及可能继续推高通胀的潜在因素。 利率需“及时”调整以稳定通胀预期。 委员会认为通胀持续高企的风险上升。 委员会担忧经济中的过度需求大于此前预期。 自8月以来，一些通胀上行风险已经显现或正在累积。 国内消费需低迷一段时间才能使通胀率回到目标",
-   "link": "https://wallstreetcn.com/news/global/3177537",
+   "title": "高盛股价转跌，此前一度上涨4.1%。",
+   "summary": "高盛股价转跌，此前一度上涨4.1%。",
+   "link": "https://wallstreetcn.com/news/global/3178040",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:41"
+   "published_at": "2026-10-13 14:07"
   },
   {
    "category": "finance",
-   "title": "澳大利亚9月NAB商业景气指数 -1，前值 -1。",
-   "summary": "澳大利亚9月NAB商业景气指数 -1，前值 -1。",
-   "link": "https://wallstreetcn.com/news/global/3177536",
+   "title": "美国成屋销售在房贷利率冲击前小幅回升",
+   "summary": "美国成屋销售9月四个月来首次回升，年化销量达399万套。 由于房贷利率飙升和房价高企，预计年内剩余时间市场活动仍将持续低迷，因此这次销售增长可能是昙花一现。 更高的融资成本可能压制房价，并损害购房可负担性；9月成屋销售价格中位数同比上涨1.3%，至417,500美元。",
+   "link": "https://wallstreetcn.com/news/global/3178038",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:30"
+   "published_at": "2026-10-13 14:06"
   },
   {
    "category": "finance",
-   "title": "澳大利亚9月NAB商业信心指数 -13，前值 -8。",
-   "summary": "澳大利亚9月NAB商业信心指数 -13，前值 -8。",
-   "link": "https://wallstreetcn.com/news/global/3177535",
+   "title": "美国财政部：财长贝森特与韩国对口官员线上交流。 贝森特强调两国间关系的重要性。",
+   "summary": "美国财政部：财长贝森特与韩国对口官员线上交流。 贝森特强调两国间关系的重要性。",
+   "link": "https://wallstreetcn.com/news/global/3178037",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:30"
+   "published_at": "2026-10-13 14:04"
   },
   {
    "category": "finance",
-   "title": "中信建投：建议四季度提高煤炭、电力、地产、银行等领域优质央企配置比重",
-   "summary": "四季度，中信建投建议投资者采用平衡型投资策略构建投资组合。2026年上半年科技板块大幅上涨，传统板块大幅下跌，形成了估值差。传统产业的升级改造、专业化整合、纠正“内卷式”竞争将带来低估值板块困境反转的机会。建议提高煤炭、电力、地产、银行等领域的优质央企配置比重。",
-   "link": "https://wallstreetcn.com/news/global/3177534",
+   "title": "现代汽车将于2026-32年在印度投资155亿美元。",
+   "summary": "现代汽车将于2026-32年在印度投资155亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3178035",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:27"
+   "published_at": "2026-10-13 14:03"
   },
   {
    "category": "finance",
-   "title": "日经225指数盘中跌超2%，韩国首尔综指跌超4%。",
-   "summary": "日经225指数盘中跌超2%，韩国首尔综指跌超4%。",
-   "link": "https://wallstreetcn.com/news/global/3177533",
+   "title": "高盛CEO苏德巍：有关高盛CEO继任的新闻报道是“噪音”。 没有CEO继任过渡计划或时间表。",
+   "summary": "高盛CEO苏德巍：有关高盛CEO继任的新闻报道是“噪音”。 没有CEO继任过渡计划或时间表。",
+   "link": "https://wallstreetcn.com/news/global/3178033",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:09"
+   "published_at": "2026-10-13 14:01"
   },
   {
    "category": "finance",
-   "title": "日本央行行长植田和男预计将于当地时间下午1:00出席国会。",
-   "summary": "日本央行行长植田和男预计将于当地时间下午1:00出席国会。",
-   "link": "https://wallstreetcn.com/news/global/3177532",
+   "title": "美国9月成屋销售总数年化环比 1.5%，预期 -0.8%，前值由 -2%修正为 -3.2%。 美国9",
+   "summary": "美国9月成屋销售总数年化环比 1.5%，预期 -0.8%，前值由 -2%修正为 -3.2%。 美国9月成屋销售总数年化 399万户，预期 396万户，前值由 398万户修正为 393万户。",
+   "link": "https://wallstreetcn.com/news/global/3178034",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:02"
+   "published_at": "2026-10-13 14:00"
   },
   {
    "category": "finance",
-   "title": "日经225指数低开0.7%，韩国首尔综指低开3.1%。三星电子跌3%，SK海力士跌4%。",
-   "summary": "日经225指数低开0.7%，韩国首尔综指低开3.1%。三星电子跌3%，SK海力士跌4%。",
-   "link": "https://wallstreetcn.com/news/global/3177531",
+   "title": "北京首家低空经济产业转移企业落户邯郸",
+   "summary": "首都禁飞区政策实施后，市投资促进局抢抓京津冀地区低空经济企业转移机遇，“点对点”精准对接意向外迁企业需求，联合临漳县快速承接，成功推动智能物流与特种作业无人机高新技术企业北京天隼创翼科技有限公司落户邯郸。项目主要包括“华北区域总部+总装制造+试飞测试+运维培训+场景运营”五个板块，分三阶段实施，先期占用4000平方米厂房，预计年产垂起固定翼无人机300架。10月12日下午，该项目首批设备顺利进场，",
+   "link": "https://wallstreetcn.com/news/global/3178032",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:00"
+   "published_at": "2026-10-13 13:57"
   },
   {
    "category": "finance",
-   "title": "中国即将发行或正在发行的国债和政策性金融债",
-   "summary": "中国即将发行或正在发行的国债和政策性金融债",
-   "link": "https://wallstreetcn.com/news/global/3177530",
+   "title": "据美国纽约联储数据，上个交易日（10月12日）担保隔夜融资利率（SOFR）报3.87%，之前一天报3",
+   "summary": "据美国纽约联储数据，上个交易日（10月12日）担保隔夜融资利率（SOFR）报3.87%，之前一天报3.87%。 上个交易日有效的联邦基金利率报3.88%，之前一天报3.88%。",
+   "link": "https://wallstreetcn.com/news/global/3178031",
    "source": "华尔街见闻",
-   "published_at": "2026-10-13 00:00"
+   "published_at": "2026-10-13 13:55"
   },
   {
    "category": "finance",
-   "title": "日本9月银行贷款(含信托)同比 5.3%，前值 5.4%。",
-   "summary": "日本9月银行贷款(含信托)同比 5.3%，前值 5.4%。",
-   "link": "https://wallstreetcn.com/news/global/3177527",
+   "title": "白宫新闻秘书：特朗普将在阿拉斯加、亚利桑那、蒙大拿和佐治亚州举行集会。 特朗普将在佛罗里达州举行集会",
+   "summary": "白宫新闻秘书：特朗普将在阿拉斯加、亚利桑那、蒙大拿和佐治亚州举行集会。 特朗普将在佛罗里达州举行集会。 白宫已要求美国驻希腊大使Guilfoyle辞职。",
+   "link": "https://wallstreetcn.com/news/global/3178030",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:50"
+   "published_at": "2026-10-13 13:55"
   },
   {
    "category": "finance",
-   "title": "日本9月银行贷款(不含信托)同比 5.7%，前值 5.8%。",
-   "summary": "日本9月银行贷款(不含信托)同比 5.7%，前值 5.8%。",
-   "link": "https://wallstreetcn.com/news/global/3177526",
+   "title": "协创数据：不存在“通道化自采自销”或损害公司及股东利益情形",
+   "summary": "有投资者问，今日，媒体报道对贵司提出三点质疑：322亿元服务器采购公告未见对应算力销售合同；向净资产不足20万元、参保1人的麦塔倍斯预计8.5亿元关联销售（半年已发生1.34亿元）；向启朔科技3亿元关联采购。市场据此怀疑交易呈＂通道化自采自销＂。 协创数据在互动平台表示，公司服务器采购主要用于云算力服务，采购规模根据客户订单、项目规划、资金安排及交付节奏审慎确定，属于算力基础设施建设的前置投入；采",
+   "link": "https://wallstreetcn.com/news/global/3178029",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:50"
+   "published_at": "2026-10-13 13:55"
   },
   {
    "category": "finance",
-   "title": "日本9月国内企业商品物价指数环比 -0.3%，预期 0.5%，前值 -0.2%。",
-   "summary": "日本9月国内企业商品物价指数环比 -0.3%，预期 0.5%，前值 -0.2%。",
-   "link": "https://wallstreetcn.com/news/global/3177524",
+   "title": "黑石总裁和美联储理事沃勒：法国财政压力给高赤字国家敲响警钟",
+   "summary": "黑石集团总裁Jon Gray和美联储理事克里斯托弗·沃勒表示，法国面临的财政压力给那些大举支出的政府敲响了警钟，但由于美国经济增长率高得多，这些风险在美国并没有那么迫切。",
+   "link": "https://wallstreetcn.com/news/global/3178026",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:50"
+   "published_at": "2026-10-13 13:46"
   },
   {
    "category": "finance",
-   "title": "日本9月国内企业商品物价指数同比 6.8%，预期 7.6%，前值 7.6%。",
-   "summary": "日本9月国内企业商品物价指数同比 6.8%，预期 7.6%，前值 7.6%。",
-   "link": "https://wallstreetcn.com/news/global/3177525",
+   "title": "路畅科技：控股股东拟转让29.99%股份，实控人将变更为张五堂，股票10月14日复牌",
+   "summary": "路畅科技公告，2026年10月13日控股股东中联重科与远卓天使（龙游）新能源合伙企业（有限合伙）签署《股份转让协议》，拟转让3598.8万股，占总股本29.99%，转让价格25元/股，价款总额9亿元。交易完成后控股股东变更为远卓天使，实际控制人变更为张五堂。远卓天使将指定一致行动人作为要约人，以25元/股现金方式发起部分要约收购，预定收购比例不低于14%。公司股票自2026年10月14日上午开市起",
+   "link": "https://wallstreetcn.com/news/global/3178024",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:50"
+   "published_at": "2026-10-13 13:44"
   },
   {
    "category": "finance",
-   "title": "日本财务大臣片山皋月：被任命为世界银行-国际货币基金组织（IMF）联合发展委员会下一任主席。 正准备",
-   "summary": "日本财务大臣片山皋月：被任命为世界银行-国际货币基金组织（IMF）联合发展委员会下一任主席。 正准备赴泰国出席IMF及G20会议，尚待国会批准。",
-   "link": "https://wallstreetcn.com/news/global/3177523",
+   "title": "美股盘初，主要行业ETF涨跌不一，半导体ETF跌近2%，全球科技股指指数ETF跌超1%，能源业ETF",
+   "summary": "美股盘初，主要行业ETF涨跌不一，半导体ETF跌近2%，全球科技股指指数ETF跌超1%，能源业ETF涨近1%。",
+   "link": "https://wallstreetcn.com/news/global/3178022",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:46"
+   "published_at": "2026-10-13 13:39"
   },
   {
    "category": "finance",
-   "title": "入口之争转向合作共建，品牌厂商AI手机发展路线逐渐清晰",
-   "summary": "历经约三年的概念预热与落地探索，人工智能（AI）手机进入稳定发展期。品牌厂商对AI手机的发展路线逐渐清晰：明确个人智能方向，不再与App们争夺AI流量入口，而是以各类协议方式与互联网企业共建个人智能新生态，各家均在深挖用户需求、深耕场景，提升AI应用体验，行业竞争焦点已升级为软硬件、生态、服务等系统能力的比拼。",
-   "link": "https://wallstreetcn.com/news/global/3177522",
+   "title": "美股盘初：费城半导体指数跌超2%，存储芯片股普跌，高盛涨约3%，苹果股价再创历史新高",
+   "summary": "道指涨0.8%，标普500指数跌0.1%，纳指跌0.4%。 存储芯片股普跌，SK海力士跌约6%，西部数据跌约6%，闪迪跌约4%，美光科技跌约6%，希捷科技跌约7%。 光通信股普跌，迈威尔科技跌约6%，康宁跌约4%，Coherent跌约3%，Credo跌约4%，Lumentum跌约3%。 高盛涨约3%，公司Q3净营收186.8亿美元，股票交易收入大增72%。 富国银行跌0.5%，公司三季度营收不及预",
+   "link": "https://wallstreetcn.com/news/global/3178020",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:35"
+   "published_at": "2026-10-13 13:31"
   },
   {
    "category": "finance",
-   "title": "SpaceX整合Grok、Cursor与X的订阅计划。",
-   "summary": "SpaceX整合Grok、Cursor与X的订阅计划。",
-   "link": "https://wallstreetcn.com/news/global/3177519",
+   "title": "标普500指数低开11.97点，跌幅0.15%，报7795.27点； 道琼斯工业平均指数高开242.",
+   "summary": "标普500指数低开11.97点，跌幅0.15%，报7795.27点； 道琼斯工业平均指数高开242.44点，涨幅0.47%，报52092.99点； 纳斯达克综合指数低开107.17点，跌幅0.39%，报27138.73点。",
+   "link": "https://wallstreetcn.com/news/global/3178019",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:12"
+   "published_at": "2026-10-13 13:30"
   },
   {
    "category": "finance",
-   "title": "英特尔、博通CEO警告：资金紧张可能成为AI发展的最大瓶颈",
-   "summary": "英特尔和博通的首席执行官警告称，融资渠道可能成为人工智能热潮的主要约束；与此同时，市场对计算基础设施的需求仍持续超过供给。 博通CEO Hock Tan（陈福阳）表示，随着行业竞相建设支撑日益复杂模型所需的基础设施，融资可能成为比半导体、存储芯片或电力短缺更大的扩张障碍。Hock Tan周一在新加坡举行的星展亚洲未来前瞻会议上表示：“我认为最大的约束可能是资本。”",
-   "link": "https://wallstreetcn.com/news/global/3177517",
+   "title": "花旗固收交易业务创至少十年来最佳同期表现 同行承压之际逆势走强",
+   "summary": "花旗集团固定收益交易业务实现了至少十年来最佳的三季度表现，超过分析师预期，并推动该行当季营收表现在历史上位居前列。花旗周二发布公告称，债券、外汇和大宗商品交易业务实现44亿美元收入，高于分析师平均预期的43亿美元。与此同时，其服务业务表现也十分突出。该业务帮助企业和政府进行资金转移和管理，收入同比增长15%，至66亿美元。固定收益、外汇和大宗商品(FICC)交易以及服务业务的表现优于预期，抵消了并",
+   "link": "https://wallstreetcn.com/news/global/3178018",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:06"
+   "published_at": "2026-10-13 13:29"
   },
   {
    "category": "finance",
-   "title": "《纽约时报》、《经济学人》等出版商加入联盟，旨在遏制未经授权使用人工智能的行为",
-   "summary": "《纽约时报》、《法新社》和《经济学人》周一与40多家出版商共同加入了一个联盟，旨在防止人工智能公司未经许可使用其内容或从中获利。“出版商使用权标准”（SPUR）联盟于今年2月成立，目前已有来自20多个国家的80多家成员。新成员包括《大西洋月刊》和巴西全国报业协会，它们加入了《金融时报》、英国广播公司（BBC）和美联社等创始成员的行列。",
-   "link": "https://wallstreetcn.com/news/global/3177516",
+   "title": "高盛与摩根大通拒绝承销利率11%的AI芯片贷款",
+   "summary": "华尔街两大投行摩根大通与高盛在一笔面向今年成立的新兴云服务商Volta Infrastructure Holdings的50亿美元AI贷款项目中采取“罕见举措限制自身敞口”，仅承销13亿美元定期贷款，37亿美元芯片贷款完全不予承销以防范潜在风险，整笔贷款打包发售利率约11%，为AI融资杠杆贷款市场最高借贷成本水平之一，发售标的包含3.6万颗英伟达芯片与一份挪威租赁权。（Zerohedge）",
+   "link": "https://wallstreetcn.com/news/global/3178017",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:03"
+   "published_at": "2026-10-13 13:27"
   },
   {
    "category": "finance",
-   "title": "英国9月BRC同店销售同比 1%，前值 0.5%。",
-   "summary": "英国9月BRC同店销售同比 1%，前值 0.5%。",
-   "link": "https://wallstreetcn.com/news/global/3177515",
+   "title": "库克和众多商界大佬到清华大学开会",
+   "summary": "10月13日，多名网友拍摄到苹果董事会执行董事长蒂姆·库克现身清华校园。其中一位偶遇库克的网友Lucky告诉极目新闻记者，自己是13日下午两点多在清华大学经济管理学院建华楼门口偶遇到库克，库克比耶挥手后便直接离开了，这是她第一次见到他。（一财）",
+   "link": "https://wallstreetcn.com/news/global/3178015",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 23:01"
+   "published_at": "2026-10-13 13:24"
   },
   {
    "category": "finance",
-   "title": "多家PCB产业链上市公司前三季度业绩预喜",
-   "summary": "A股PCB（印制电路板）板块迎来密集业绩预告披露期。Wind数据显示，截至10月12日，共有6家PCB产业链上市公司先后发布2026年前三季度或第三季度业绩预告，记者梳理发现，上述公司今年前三季度归母净利润均预计实现较大幅度的同比增长。（证券日报）",
-   "link": "https://wallstreetcn.com/news/global/3177514",
+   "title": "伦敦证券交易所集团（LSEG）确认正与Permira洽谈以约35亿美元收购Octus。（彭博）",
+   "summary": "伦敦证券交易所集团（LSEG）确认正与Permira洽谈以约35亿美元收购Octus。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3178014",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 22:55"
+   "published_at": "2026-10-13 13:19"
   },
   {
    "category": "finance",
-   "title": "攻守兼备特性凸显，红利基金总规模快速增长",
-   "summary": "近期，A股市场震荡分化，热点板块轮动加速。在此背景下，兼具抗跌韧性与估值修复潜力的红利资产，凭借攻守兼备的特性，成为各路资金重点布局的优质赛道。Wind数据显示，截至10月12日，全市场红利基金总规模突破4200亿元，达4228.07亿元，较去年同期增长20.58%；年内新成立的相关产品合计54只。资金持续涌入、机构密集推新，共同推动红利基金总规模稳步抬升。（证券日报）",
-   "link": "https://wallstreetcn.com/news/global/3177513",
+   "title": "“沙特阿美石油设施将是合法打击目标” 胡塞武装发撤离警告",
+   "summary": "当地时间13日下午，也门胡塞武装对外发布信息，警告所有在沙特阿美石油公司设施附近的工作人员和民众立即撤离相关区域，并与这些设施保持距离。胡塞武装称，“沙特阿美旗下石油设施将成为其合法打击目标”。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3178013",
    "source": "华尔街见闻",
-   "published_at": "2026-10-12 22:54"
+   "published_at": "2026-10-13 13:13"
+  },
+  {
+   "category": "finance",
+   "title": "阶跃终端发布首款大模型原生智能体手机STEPX Neo，软硬模全栈价3999元",
+   "summary": "2026 年 10 月 13 日，阶跃终端正式发布旗下首款大模型原生智能体手机STEPX Neo先行版，并首创「软硬模全栈价」模式，将 Step 系列模型、系统与工具，以及手机硬件整合定价，全栈价为3999元。 这一创新定价模式为大模型与 AI 创新探索全新商业化路径，也为用户的 AI 产品使用体验带来更多可能。",
+   "link": "https://wallstreetcn.com/news/global/3178012",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-13 13:10"
+  },
+  {
+   "category": "finance",
+   "title": "苹果推出新款299美元Apple TV BOX（苹果电视盒）和149美元HomePod mini 2",
+   "summary": "苹果推出新款299美元Apple TV BOX（苹果电视盒）和149美元HomePod mini 2。",
+   "link": "https://wallstreetcn.com/news/global/3178011",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-13 13:05"
   }
  ]
 }
