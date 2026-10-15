@@ -1,6 +1,62 @@
 {
- "updated_at": "2026-10-14 21:45",
+ "updated_at": "2026-10-15 04:47",
  "ai": [
+  {
+   "category": "ai",
+   "title": "Linux 之父托瓦兹推出首个 AI 辅助开发的补丁：并发文件读取吞吐量提升约 3 倍",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/171.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/168.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 实时分离人声，席琳 · 迪翁演唱会用上音频黑科技",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/165.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "英伟达黄仁勋：若客户开发不安全 AI 软件，极端措施可断供芯片",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/164.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "入职约 1 年：OpenAI 基础设施与 AI 算力负责人卡蒂离职，曾主导“星际之门”计划",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/158.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "麦肯锡面试新花样：先和 AI 客户对线十分钟",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/155.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "OpenAI 和 Anthropic 被欧盟调查，若认定违反 AI 法案最高罚全球 3% 营业额",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/154.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "戴尔 CEO：AI 需要保障措施和控制，政府应发挥作用",
@@ -96,248 +152,192 @@
    "link": "https://www.ithome.com/1/012/168.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "9 年前英伟达 Tesla V100 老将再战：4 GPU 集群 AI 推理跑赢 2 台 DGX Spark",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/165.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 测试事故：Claude 模型向警方提交虚假凶杀线索，还提交 20 份签证申请",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/164.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/149.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“AI 教父”杨立昆：下一代 AI 须理解现实世界",
-   "summary": "",
-   "link": "https://www.ithome.com/1/011/891.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
-   "summary": "",
-   "link": "https://www.ithome.com/1/011/631.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "网文实体书籍内曝出“AI 回复内容”，出版社回应“将回收销毁已发出书籍，重新修订”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/011/352.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Cloudflare 推出开放权重决策 AI 模型 Clef-omni，新增支持音频 / 视频输入",
-   "summary": "",
-   "link": "https://www.ithome.com/1/011/347.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Claude 管理智能体新增动态工作流，单次最多并行调度 1000 个 AI Agents",
-   "summary": "",
-   "link": "https://www.ithome.com/1/011/329.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "美股七巨头收盘播报｜周三（10月14日），美国科技股七巨头（Magnificent 7）指数跌1.7",
-   "summary": "美股七巨头收盘播报｜周三（10月14日），美国科技股七巨头（Magnificent 7）指数跌1.73%，报235.99点，大致平开之后持续下跌，持续脱离周二所创盘中历史新高241.53点和收盘历史最高位。 “超大”市值科技股指数收跌2.54%，报465.73点。",
-   "link": "https://wallstreetcn.com/news/global/3178927",
+   "title": "高市早苗将任命武部新接任农林水产大臣",
+   "summary": "据日本广播协会15日报道，日本首相高市早苗当天在首相官邸接受媒体采访时表示，将正式任命自民党众议员武部新接替因自身失言等丑闻辞职的梁和生出任农林水产大臣。这是武部新首次入阁。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3179115",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:44"
+   "published_at": "2026-10-15 04:36"
   },
   {
    "category": "finance",
-   "title": "美联储戴利：可能需要加息，但不急。",
-   "summary": "美联储戴利：可能需要加息，但不急。",
-   "link": "https://wallstreetcn.com/news/global/3178926",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 时间待定 台积电发布业绩报告； ② 14:00 英国8月GDP，工业产出，商品贸易帐； ③ 14:45 法国9月CPI终值，英国央行货币政策委员会（MPC）成员Greene讲话在曼谷举办的摩根大通会议上讲话； ④ 时间待定 20国集团(G20)财长和央行行长会议，欧洲理事会会议； ⑤ 时间待定 国内成品油将开启新一轮调价窗口； ⑥ 16:45 英国央行副行长Breeden在曼谷举办的国际金融协",
+   "link": "https://wallstreetcn.com/news/global/3179114",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:38"
+   "published_at": "2026-10-15 04:30"
   },
   {
    "category": "finance",
-   "title": "英伟达CEO黄仁勋称会对开发不安全AI软件的客户断供芯片",
-   "summary": "英伟达首席执行官黄仁勋表示，假如客户正在开发不安全的人工智能(AI)软件，他会停止向其供应芯片，不过他认为目前没有必要如此担忧这项技术。 当被问及是否会停止向不负责任的开发商供货，黄仁勋表示，“这是一个假设性问题，但答案是肯定的。不过，在这样做之前，你会先进行沟通。我们并不经营别人的公司，对于其他公司如何使用我们的技术，我们能作出的评判也是有限的。我们的技术是通用型的。”",
-   "link": "https://wallstreetcn.com/news/global/3178925",
+   "title": "早间要闻汇总",
+   "summary": "双创指数均跌超3%，A股全市场下跌个股超5000只。 恒指半日跌1.5%，恒生科技指数跌近3%，联想集团大跌近14%。 通胀重燃加息预期，亚洲股市重挫，韩国股市跌8%触发熔断，日经225指数跌超5%。 避险需求推动全球债市反弹，美国5年期国债收益率下行10个基点，日本国债收益率亦回落。 铁矿石价格自2024年以来首次跌至每吨90美元下方。 泽连斯基称，乌克兰将恢复打击俄罗斯的炼油厂。 报道：美国正",
+   "link": "https://wallstreetcn.com/news/global/3179113",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:33"
+   "published_at": "2026-10-15 04:30"
   },
   {
    "category": "finance",
-   "title": "美股加密货币与加密货币关联指数收跌8.06%，报59.99点。 最近24小时，现货比特币跌2.04%",
-   "summary": "美股加密货币与加密货币关联指数收跌8.06%，报59.99点。 最近24小时，现货比特币跌2.04%，暂报81658.81美元，美国CPI通胀数据发布后转跌。 现货以太坊跌3.81%，暂报2412.308美元。",
-   "link": "https://wallstreetcn.com/news/global/3178924",
+   "title": "日本8月工业产出环比终值 -2.4%，初值 -1.7%。",
+   "summary": "日本8月工业产出环比终值 -2.4%，初值 -1.7%。",
+   "link": "https://wallstreetcn.com/news/global/3179112",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:24"
+   "published_at": "2026-10-15 04:30"
   },
   {
    "category": "finance",
-   "title": "美债收益率在美国CPI发布后冲高回落，两年期实际收益率跌约6.3个基点，市场权衡通胀数据与美联储官员讲话",
-   "summary": "周三（10月14日）纽约尾盘，美国10年期基准国债收益率下跌2.30个基点，报5.1854%，日内交投于5.3272%-5.1749%区间，北京时间20:30发布美国CPI通胀数据之前主要维持微幅下跌状态，数据发布时下探5.18%未果、瞬间反弹、20:59刷新日高，之后逐步下挫，02:28刷新日低。 两年期美债收益率涨0.84个基点，报4.7975%，CPI数据出炉时跌至4.7531%刷新日低，随",
-   "link": "https://wallstreetcn.com/news/global/3178922",
+   "title": "日本8月工业产出同比终值 2.7%，初值 3.4%。",
+   "summary": "日本8月工业产出同比终值 2.7%，初值 3.4%。",
+   "link": "https://wallstreetcn.com/news/global/3179111",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:21"
+   "published_at": "2026-10-15 04:30"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收跌0.86%，报13397点。",
-   "summary": "富时A50期指连续夜盘收跌0.86%，报13397点。",
-   "link": "https://wallstreetcn.com/news/global/3178920",
+   "title": "日本8月设备利用指数环比 -4.2%，前值 0.5%。",
+   "summary": "日本8月设备利用指数环比 -4.2%，前值 0.5%。",
+   "link": "https://wallstreetcn.com/news/global/3179110",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:15"
+   "published_at": "2026-10-15 04:30"
   },
   {
    "category": "finance",
-   "title": "周三（10月14日）纽约尾盘，标普500股指期货最终跌1.14%，道指期货跌0.14%，纳斯达克10",
-   "summary": "周三（10月14日）纽约尾盘，标普500股指期货最终跌1.14%，道指期货跌0.14%，纳斯达克100股指期货跌2.13%。 罗素2000股指期货跌1.97%。",
-   "link": "https://wallstreetcn.com/news/global/3178918",
+   "title": "印度股指Sensex指数上涨1%。",
+   "summary": "印度股指Sensex指数上涨1%。",
+   "link": "https://wallstreetcn.com/news/global/3179108",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:12"
+   "published_at": "2026-10-15 04:25"
   },
   {
    "category": "finance",
-   "title": "周三（10月14日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.6960元，",
-   "summary": "周三（10月14日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.6960元，较周二纽约尾盘跌34点，日内整体交投于6.6911-6.7006元区间，美国CPI通胀数据发布时从6.6975元跳水。",
-   "link": "https://wallstreetcn.com/news/global/3178917",
+   "title": "欧洲央行管委Kocher：欧洲央行尚未到讨论债市干预工具的阶段。",
+   "summary": "欧洲央行管委Kocher：欧洲央行尚未到讨论债市干预工具的阶段。",
+   "link": "https://wallstreetcn.com/news/global/3179106",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:10"
+   "published_at": "2026-10-15 04:19"
   },
   {
    "category": "finance",
-   "title": "苹果加入英伟达行列，成为第二家市值突破5万亿美元的上市公司",
-   "summary": "苹果公司首次以5万亿美元的市值收盘，这一最新表现反映出市场对其全新产品线、尤其是折叠屏iPhone的乐观预期。当日苹果股价上涨0.5%，报收于342.96美元，收盘市值刚好突破5万亿美元关口。这是苹果首次实现收盘市值站稳5万亿美元，今年7月它曾在盘中短暂突破该阈值后回落。自8月的阶段低点以来，苹果股价累计涨幅已超13%。苹果是继英伟达之后，全球第二家达成这一市值里程碑的企业。",
-   "link": "https://wallstreetcn.com/news/global/3178916",
+   "title": "瑞银证券：A股下行风险有限 近期回调源于科技股交易拥挤度的集中释放",
+   "summary": "瑞银证券中国股票策略分析师孟磊在报告中称，目前A股市场面临的下行风险有限，因ETF流入、A股盈利仍处于上行周期等。近期的回调更多源于投资者对于科技板块此前较高交易拥挤度的集中释放，公募基金也面临“回本赎回”的压力。",
+   "link": "https://wallstreetcn.com/news/global/3179105",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:08"
+   "published_at": "2026-10-15 04:18"
   },
   {
    "category": "finance",
-   "title": "国际金价跌约1.4%，白银跌超6%",
-   "summary": "周三（10月14日）纽约尾盘，现货黄金跌1.37%，报4103.80美元/盎司，北京时间20:30发布美国CPI数据后短线加速下跌。 COMEX黄金期货跌1.46%，报4121.90美元/盎司。 现货白银跌6.08%，报55.5609美元/盎司。 COMEX白银期货跌6.20%，报55.700美元/盎司。 COMEX铜期货跌1.61%，报6.6175美元/磅。 现货铂金跌3.75%，现货钯金跌2.",
-   "link": "https://wallstreetcn.com/news/global/3178914",
+   "title": "长实集团辟谣：绝无此事",
+   "summary": "10月15日，有传言称，现年98岁的李嘉诚逝世。对此，长实集团内部人士回应称：“绝无其事”。（澎湃新闻）",
+   "link": "https://wallstreetcn.com/news/global/3179101",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:05"
+   "published_at": "2026-10-15 04:08"
   },
   {
    "category": "finance",
-   "title": "美国发现印度、印尼光伏产品进口伤害到美方自身的供应。",
-   "summary": "美国发现印度、印尼光伏产品进口伤害到美方自身的供应。",
-   "link": "https://wallstreetcn.com/news/global/3178913",
+   "title": "10月15日，中国驻沙特大使馆发布关于当前沙特局势的安全提醒。（央视新闻）",
+   "summary": "10月15日，中国驻沙特大使馆发布关于当前沙特局势的安全提醒。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3179100",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 21:03"
+   "published_at": "2026-10-15 04:05"
   },
   {
    "category": "finance",
-   "title": "OpenAI窃听案嫌疑人被捕前曾为家人预订飞往沙特阿拉伯的单程机票",
-   "summary": "美国联邦检察官在一份最新解封的法庭文件中向法官表示，被控在OpenAI高管会议室内秘密安装录音设备的沙特公民阿卜杜勒拉赫曼·阿尔福赞，在被捕前已与妻子及另一名家庭成员预订了从旧金山飞往沙特阿拉伯的单程机票。 旧金山联邦检察官办公室在10月8日的文件中表示，阿尔福赞“具备潜逃能力——一旦在逮捕前获悉本案情况，也将更有动机尽快逃离美国”。该文件请求法官对其刑事控告书及逮捕令予以保密。文件显示，相关机票",
-   "link": "https://wallstreetcn.com/news/global/3178911",
+   "title": "泽连斯基称，乌克兰将恢复打击俄罗斯的炼油厂。（英国金融时报）",
+   "summary": "泽连斯基称，乌克兰将恢复打击俄罗斯的炼油厂。（英国金融时报）",
+   "link": "https://wallstreetcn.com/news/global/3179099",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:46"
+   "published_at": "2026-10-15 04:04"
   },
   {
    "category": "finance",
-   "title": "Northlight Asset Management首席投资官Chris Zaccarelli表示",
-   "summary": "Northlight Asset Management首席投资官Chris Zaccarelli表示：（美股）一些涨幅过大的股票，如芯片制造商和AI基础设施股票，正在失去部分上涨动力。 美国9月通胀数据加剧了人们对美联储进一步加息的担忧。 市场原本希望9月通胀只是“一次性”冲高，但今早公布的数据使这种情景的可能性大大降低。",
-   "link": "https://wallstreetcn.com/news/global/3178910",
+   "title": "英国央行首席经济学家Pill：早期薪资数据表明，通胀率仍高于央行既定目标。",
+   "summary": "英国央行首席经济学家Pill：早期薪资数据表明，通胀率仍高于央行既定目标。",
+   "link": "https://wallstreetcn.com/news/global/3179098",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:45"
+   "published_at": "2026-10-15 04:03"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数跌0.1%，发展中国家外汇指数涨0.1%。",
-   "summary": "明晟公司MSCI新兴市场股票指数跌0.1%，发展中国家外汇指数涨0.1%。",
-   "link": "https://wallstreetcn.com/news/global/3178909",
+   "title": "机构预测：2026年第二季度长江存储跃居全球NAND出货量第三",
+   "summary": "根据Counterpoint Research存储市场追踪与预测，2026年第二季度，长江存储按NAND(闪存)出货量排名升至全球第三，仅次于三星电子和SK海力士，超过铠侠和美光。若将SK海力士旗下Solidigm的出货量剥离计算，长江存储的排名将进一步提升至第二位。在四个季度内（2025年第一季度至2026年第一季度），长江存储的全球NAND营收份额增长超过五成（从9%升至14%），其营收同比增",
+   "link": "https://wallstreetcn.com/news/global/3179097",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:40"
+   "published_at": "2026-10-15 04:01"
   },
   {
    "category": "finance",
-   "title": "行业周报：美国上周API原油库存锐减超1100万桶",
-   "summary": "美国石油协会（API）数据显示，上周，美国API原油库存 -1112.3万桶，之前一周 -210万桶。 上周API库欣原油库存 +182.3万桶，前值 +86.6万桶。 上周API成品油汽油库存 +109.1万桶（前值 -140万桶）、馏分油库存 -145.8万桶（前值 +46.1万桶）。",
-   "link": "https://wallstreetcn.com/news/global/3178908",
+   "title": "沪市ETF连续三日净流入金额合计超750亿元",
+   "summary": "10月12日至10月14日，沪市ETF连续三日净流入，金额合计超750亿元。其中，宽基ETF净流入金额合计约300亿元，行业主题ETF净流入金额合计逾100亿元。（证券时报）",
+   "link": "https://wallstreetcn.com/news/global/3179096",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:33"
+   "published_at": "2026-10-15 04:00"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块中，信息技术/科技板块收跌2.62%，电信板块跌1.73%，可选消费板块跌",
-   "summary": "标普500指数的11个板块中，信息技术/科技板块收跌2.62%，电信板块跌1.73%，可选消费板块跌1.1%，能源板块涨0.8%——雪佛龙、埃克森美孚、Marathon Petroleum创历史新高，保健板块涨2.44%。",
-   "link": "https://wallstreetcn.com/news/global/3178907",
+   "title": "韩国首尔综指恢复交易，此前因熔断暂停交易20分钟。",
+   "summary": "韩国首尔综指恢复交易，此前因熔断暂停交易20分钟。",
+   "link": "https://wallstreetcn.com/news/global/3179094",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:28"
+   "published_at": "2026-10-15 03:59"
   },
   {
    "category": "finance",
-   "title": "美股大类资产类ETF多数下跌，可转债ETF收跌2.9%，新兴市场ETF跌2%",
-   "summary": "周三（10月14日），巴克莱美国可转债ETF收跌2.91%，新兴市场ETF跌2.05%，纳斯达克100 ETF跌1.97%，罗素2000指数ETF跌1.93%，黄金ETF、标普500 ETF至多跌1.49%，美国房地产ETF、农产品基金、大豆基金、欧元做多、道指ETF、美国布伦特油价基金、日元做多至多跌0.87%。 美国投资级公司债ETF收涨0.11%，通胀债券指数ETF涨0.25%，做多美元指数",
-   "link": "https://wallstreetcn.com/news/global/3178906",
+   "title": "恒生科技指数日内跌幅扩大至3%。",
+   "summary": "恒生科技指数日内跌幅扩大至3%。",
+   "link": "https://wallstreetcn.com/news/global/3179092",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:26"
+   "published_at": "2026-10-15 03:54"
   },
   {
    "category": "finance",
-   "title": "美国参议院民主党成员Warren：银行（美国银行BAC）的高管们应当对违法行为负责。",
-   "summary": "美国参议院民主党成员Warren：银行（美国银行BAC）的高管们应当对违法行为负责。",
-   "link": "https://wallstreetcn.com/news/global/3178905",
+   "title": "日本5年期国债收益率下行5.5个基点至2.315%。",
+   "summary": "日本5年期国债收益率下行5.5个基点至2.315%。",
+   "link": "https://wallstreetcn.com/news/global/3179090",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:22"
+   "published_at": "2026-10-15 03:50"
   },
   {
    "category": "finance",
-   "title": "巴克莱：特斯拉与SpaceX的合并或将于12月前公布。",
-   "summary": "巴克莱：特斯拉与SpaceX的合并或将于12月前公布。",
-   "link": "https://wallstreetcn.com/news/global/3178904",
+   "title": "美国5年期国债收益率下行10个基点，受避险需求推动。",
+   "summary": "美国5年期国债收益率下行10个基点，受避险需求推动。",
+   "link": "https://wallstreetcn.com/news/global/3179089",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:22"
+   "published_at": "2026-10-15 03:46"
   },
   {
    "category": "finance",
-   "title": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:",
-   "summary": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。",
-   "link": "https://wallstreetcn.com/news/global/3178196",
+   "title": "韩国KOSDAQ指数恢复交易，此前因熔断暂停交易20分钟。",
+   "summary": "韩国KOSDAQ指数恢复交易，此前因熔断暂停交易20分钟。",
+   "link": "https://wallstreetcn.com/news/global/3179088",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:20"
+   "published_at": "2026-10-15 03:45"
   },
   {
    "category": "finance",
-   "title": "周三（10月14日），美股行业ETF多数收跌，半导体ETF收跌3.98%，全球航空业ETF跌3.58",
-   "summary": "周三（10月14日），美股行业ETF多数收跌，半导体ETF收跌3.98%，全球航空业ETF跌3.58%，全球科技股指数ETF、科技行业ETF、网络股指数ETF跌3.01%-2.81%，区域银行ETF、银行业ETF至少跌0.7%，生物科技指数ETF涨1.61%，医疗业ETF涨2.53%。",
-   "link": "https://wallstreetcn.com/news/global/3178903",
+   "title": "韩国首尔综指大跌8%后触发熔断机制，交易暂停20分钟。 日经225指数日内跌超5%。",
+   "summary": "韩国首尔综指大跌8%后触发熔断机制，交易暂停20分钟。 日经225指数日内跌超5%。",
+   "link": "https://wallstreetcn.com/news/global/3179086",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:18"
+   "published_at": "2026-10-15 03:38"
   },
   {
    "category": "finance",
-   "title": "戴尔科技暴跌11%，“企业级AI落地时点”担忧引发数据中心板块抛售。",
-   "summary": "戴尔科技暴跌11%，“企业级AI落地时点”担忧引发数据中心板块抛售。",
-   "link": "https://wallstreetcn.com/news/global/3178902",
+   "title": "香港政府：9月访港旅客逾400万人次，同比增长22%。",
+   "summary": "香港政府：9月访港旅客逾400万人次，同比增长22%。",
+   "link": "https://wallstreetcn.com/news/global/3179087",
    "source": "华尔街见闻",
-   "published_at": "2026-10-14 20:14"
+   "published_at": "2026-10-15 03:37"
+  },
+  {
+   "category": "finance",
+   "title": "上证指数早盘收报3692.65点，跌1.98%。 深证成指早盘收报11773.45点，跌2.78%。",
+   "summary": "上证指数早盘收报3692.65点，跌1.98%。 深证成指早盘收报11773.45点，跌2.78%。 创业板指早盘收报2768.63点，跌3.42%。 沪深300早盘收报4133.46点，跌2.00%。 科创50早盘收报1338.53点，跌3.02%。 中证500早盘收报6771.93点，跌2.98%。 中证1000早盘收报6707.22点，跌2.87%。",
+   "link": "https://wallstreetcn.com/news/global/3179083",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-15 03:31"
   }
  ]
 }
