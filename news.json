@@ -1,6 +1,54 @@
 {
- "updated_at": "2026-10-15 21:27",
+ "updated_at": "2026-10-16 04:37",
  "ai": [
+  {
+   "category": "ai",
+   "title": "英伟达黄仁勋公开反驳 OpenAI 奥尔特曼观点：对 AI 网络安全必须“零容忍”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/808.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "美国推动全球“AI”改口“SI”，谋求写入国际货币基金组织声明",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/788.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "修复“假满载”：OpenAI 优化系统 / 增加算力，减少“AI 容量上限”报错",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/753.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "苹果 Minions 研究：闲置 Mac GPU 组队，几分钟就能完成 10 小时 AI 任务",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/730.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "苹果 Meta 破冰合作：两台 512GB 内存 Mac Studio 本地跑“美国最强开源 AI 模型”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/716.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "沃尔沃与英伟达扩大合作，进一步提升未来车型自动驾驶安全性",
+   "summary": "",
+   "link": "https://www.ithome.com/1/013/690.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "微软办公 AI 智能体技术突破：不换模型响应提速 400%，词元消耗减 30%",
@@ -104,224 +152,200 @@
    "link": "https://www.ithome.com/1/012/410.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软逆转办公 AI 策略，新版 Copilot 整合完整 Word / Excel / PowerPoint 体验",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/403.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 警告：小型 AI 模型数月后或将具备在物联网设备上自我复制的能力",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/389.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "导演徐克谈 AI：幻觉与真实交织，边界日益模糊",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/357.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软调整 Win10/Win11 新版 Outlook AI 功能，10 月全球停用 Copilot 主题",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/288.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 也要“反虐待”：全球首富马斯克建议用户不要“折磨”超级智能 SI",
-   "summary": "",
-   "link": "https://www.ithome.com/1/012/204.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "美国克利夫兰联储主席Hammack：大范围来看，金融条件似乎并没有限制性。",
-   "summary": "美国克利夫兰联储主席Hammack：大范围来看，金融条件似乎并没有限制性。",
-   "link": "https://wallstreetcn.com/news/global/3179720",
+   "title": "印尼证券交易所：明晟（MSCI）向我们询问了各项改革措施的实际成效。 明晟在上次会议中并未提及“独立",
+   "summary": "印尼证券交易所：明晟（MSCI）向我们询问了各项改革措施的实际成效。 明晟在上次会议中并未提及“独立市场（Standalone Market）”地位问题。",
+   "link": "https://wallstreetcn.com/news/global/3179896",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:26"
+   "published_at": "2026-10-16 04:32"
   },
   {
    "category": "finance",
-   "title": "周四（10月15日，美国CPI通胀数据发布次日）纽约尾盘，美国10年期基准国债收益率跌12.74个基",
-   "summary": "周四（10月15日，美国CPI通胀数据发布次日）纽约尾盘，美国10年期基准国债收益率跌12.74个基点，报5.0580%，日内交投于5.1561%-5.0351%区间，亚太盘初跳空低开，在持续下跌的行情中、（美国PPI数据发布之后）北京时间21:58逼近9月23日底部4.9307%，10:00以来主要交投于5.1%关口附近。 两年期美债收益率跌6.13个基点，报4.7382%，日内交投于4.784",
-   "link": "https://wallstreetcn.com/news/global/3179719",
+   "title": "早间要闻汇总",
+   "summary": "沪指半日涨近1%，全市场上涨个股超4800只。 恒指半日涨1.2%，恒生科技指数涨2.1%，恒生生物科技指数涨3.4%，龙湖集团大涨逾9%。 隔夜美股走势提振亚太，日经225指数盘中涨2%，韩国股市涨4%。 印尼基准股指日内暴跌11%，MSCI考虑将印尼降为“独立市场”。 美联储主席沃什在曼谷的讲话中未透露关于10月政策决定的线索，其表示不会“预判”利率决策。 美联储主席沃什称生产力和就业工作组听",
+   "link": "https://wallstreetcn.com/news/global/3179895",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:24"
+   "published_at": "2026-10-16 04:30"
   },
   {
    "category": "finance",
-   "title": "周四（10月15日）纽约尾盘，标普500股指期货最终涨0.24%，道指期货涨1.08%，纳斯达克10",
-   "summary": "周四（10月15日）纽约尾盘，标普500股指期货最终涨0.24%，道指期货涨1.08%，纳斯达克100股指期货跌0.30%。 罗素2000股指期货涨1.38%。",
-   "link": "https://wallstreetcn.com/news/global/3179718",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 14:30 日本央行副行长内田真一讲话； ② 17:00 欧元区9月CPI终值； ③ 20:00 加拿大央行外部副行长Alexopoulos在Halifax参加一场炉边闲聊，活动主题与科技、AI、加拿大劳动力市场的变化有关； ④ 20:30 美国9月进口价格指数； ⑤ 时间待定 美国财政部将发布季度交易商问卷； ⑥ 21:15 美国9月工业产出； ⑦ 次日02:00 美国9月政府预算； ⑧ 次",
+   "link": "https://wallstreetcn.com/news/global/3179894",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:24"
+   "published_at": "2026-10-16 04:30"
   },
   {
    "category": "finance",
-   "title": "周四（10月15日）纽约尾盘（周五北京时间04:59），离岸人民币（CNH）兑美元报6.6894元，",
-   "summary": "周四（10月15日）纽约尾盘（周五北京时间04:59），离岸人民币（CNH）兑美元报6.6894元，逼近2022年7月8日最终报价6.6862元、当年5月4日最终报价6.6223元、以及当年4月27日最终报价6.5868元，较周三纽约尾盘涨66点，日内整体交投于6.6979-6.6884元区间。",
-   "link": "https://wallstreetcn.com/news/global/3179717",
+   "title": "特斯拉“会飞的汽车”来了，中国官网开放预订，意向金33.2万元",
+   "summary": "目前，特斯拉美国官网已开放Roadster预订，Performance版本的预订意向金为5万美元，其中首笔支付5000美元，剩余4.5万美元须在10天内支付；Thrust版本的预订意向金则达到25万美元，其中首笔支付5000美元，剩余24.5万美元须在10天内支付。Rocket版本目前仅接受邀请预订。特斯拉中国官网也已开放Roadster预订，与美国官网不同，中国官网目前仅开放Performanc",
+   "link": "https://wallstreetcn.com/news/global/3179893",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:20"
+   "published_at": "2026-10-16 04:27"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.55%，报13453点。",
-   "summary": "富时A50期指连续夜盘收涨0.55%，报13453点。",
-   "link": "https://wallstreetcn.com/news/global/3179716",
+   "title": "印尼证券交易所：将很快与明晟（MSCI）进行沟通，严肃回应其发出的警告。将提供我们改革的更强有力证据",
+   "summary": "印尼证券交易所：将很快与明晟（MSCI）进行沟通，严肃回应其发出的警告。将提供我们改革的更强有力证据。 从基本面来看，印尼证交所的上市公司是良好的。 我们呼吁投资者在投资时保持理性，因为上市公司的基本面依然稳固。 MSCI所要求的执法落地需要时间，但相关部门将会对此妥善解决。 外资潜在的撤出超出了我们的控制范围，我们所能做的就是落实我们的各项改革。",
+   "link": "https://wallstreetcn.com/news/global/3179892",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:15"
+   "published_at": "2026-10-16 04:20"
   },
   {
    "category": "finance",
-   "title": "国际金价涨超1.5%，白银涨3.3%",
-   "summary": "周四（10月15日）纽约尾盘，现货黄金涨1.56%，报4169.33美元/盎司，北京时间08:00前后显著上涨，至03:30窄幅震荡于4140-4160美元区间，04:00美股收盘时刷新日高至4177.43美元。 现货白银涨3.30%，报57.3969美元/盎司，整体持续震荡上行，04:01刷新日高至57.5305美元。 COMEX铜期货跌1.42%，报6.5660美元/磅，亚太时段震荡下行，12",
-   "link": "https://wallstreetcn.com/news/global/3179714",
+   "title": "特斯拉新款Roadster利用SpaceX推进器在空中转弯，该车型将于2028年投产",
+   "summary": "特斯拉周四揭幕了一款配备火箭式推进器的重新设计版Roadster，并表示该车型将于2028年投产，距离其首次展示这款电动跑车的下一代版本已过去十余年。这款白色双座跑车由特斯拉与SpaceX合作开发，借助吸附系统倒置行驶上坡道，在空中完成转弯，并利用内置推进器着陆。活动后半段，该车还利用推进器跃过卡车及其他车辆，并在腾空过程中完成翻转。",
+   "link": "https://wallstreetcn.com/news/global/3179891",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:11"
+   "published_at": "2026-10-16 04:19"
   },
   {
    "category": "finance",
-   "title": "OpenAI ：推出Rosalind学术计划，符合条件的高校实验室可免费使用GPT-Rosalind",
-   "summary": "OpenAI ：推出Rosalind学术计划，符合条件的高校实验室可免费使用GPT-Rosalind。 Rosalind学术计划的数据默认不会用于模型训练。 Rosalind学术计划提供最多30个Business Standard免费席位，有效期12个月。首期Rosalind学术计划不含API访问权限。 Rosalind学术计划目前面向美国高校的学术实验室开放。",
-   "link": "https://wallstreetcn.com/news/global/3179713",
+   "title": "Anthropic于6月获得最高级别的垃圾级信用评级。（英国《金融时报》）",
+   "summary": "Anthropic于6月获得最高级别的垃圾级信用评级。（英国《金融时报》）",
+   "link": "https://wallstreetcn.com/news/global/3179890",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:07"
+   "published_at": "2026-10-16 04:09"
   },
   {
    "category": "finance",
-   "title": "报道：因营收增速放缓，投资者下调Anthropic IPO估值预期",
-   "summary": "据知情人士透露，在Anthropic披露最新财务数据后，一些现有投资者及其即将进行的首次公开募股的潜在投资者正在考虑降低对这家AI公司的估值，市场同时对不断膨胀的 AI 融资成本存在更广泛的担忧。 一些参加周三美国旧金山投资者日的投资者讨论的估值约为1.5万亿美元，较此前对11月IPO的约2 亿美元 估值预期明显下降。",
-   "link": "https://wallstreetcn.com/news/global/3179712",
+   "title": "美联储主席沃什：全球的共同愿景是确保物价稳定，并向企业和家庭注入信心，这对于经济持续增长至关重要。",
+   "summary": "美联储主席沃什：全球的共同愿景是确保物价稳定，并向企业和家庭注入信心，这对于经济持续增长至关重要。 相比于均值回归模型，我更倾向于宏观分析框架。",
+   "link": "https://wallstreetcn.com/news/global/3179889",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:05"
+   "published_at": "2026-10-16 04:07"
   },
   {
    "category": "finance",
-   "title": "MSCI将禁止非经营性公司纳入可投资指数",
-   "summary": "明晟公司（MSCI）将实施一项提案，将“非经营性（Non-Operating）公司”列为不符合纳入MSCI全球可投资市场指数资格的主体，该规则将于2026年11月指数审议生效。 变更将于11月30日收盘后生效； 是否不具备资格，将通过一项核心筛选和五项非行业特定财务比率筛选确定； 若证券在五项比率中有四项及以上触及排除标准，将不具备指数纳入资格； 为降低指数换手率，纳入与剔除的门槛及时点均设有缓冲",
-   "link": "https://wallstreetcn.com/news/global/3179711",
+   "title": "美联储主席沃什：我感到自豪的是，沃尔克、格林斯潘和伯南克在卸任时都让美联储拥有了更高的机构公信力。",
+   "summary": "美联储主席沃什：我感到自豪的是，沃尔克、格林斯潘和伯南克在卸任时都让美联储拥有了更高的机构公信力。",
+   "link": "https://wallstreetcn.com/news/global/3179888",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 21:00"
+   "published_at": "2026-10-16 04:05"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数下跌3.1%，创7月份以来新低，韩国Kospi指数跌7.6%——今年",
-   "summary": "明晟公司MSCI新兴市场股票指数下跌3.1%，创7月份以来新低，韩国Kospi指数跌7.6%——今年第二次陷入熊市。 发展中国家外汇指数跌0.3%。",
-   "link": "https://wallstreetcn.com/news/global/3179710",
+   "title": "美联储主席沃什：通胀并非美国独有的问题。 我从世界各地的同行那里听说，大家都有实现物价稳定的决心。",
+   "summary": "美联储主席沃什：通胀并非美国独有的问题。 我从世界各地的同行那里听说，大家都有实现物价稳定的决心。 我们看到全球大部分地区都在同步紧缩货币政策，这意味着没有任何“搭便车者”。",
+   "link": "https://wallstreetcn.com/news/global/3179886",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:55"
+   "published_at": "2026-10-16 04:04"
   },
   {
    "category": "finance",
-   "title": "市政债反弹推动收益率创2025年4月以来最大跌幅",
-   "summary": "周四，美国各期限市政债价格全线反弹，10年期市政债涨幅为去年4月以来最大，与美国国债市场的走势一致。 彭博汇编的数据显示，纽约时间周四下午4点，基准10年期市政债收益率下跌16个基点至3.74%，为过去18个月以来的最大单日跌幅。30年期基准收益率下跌15个基点至4.97%，同样创下自2025年4月以来的最大降幅。同期限美国国债也同步上涨，因交易员抛售人工智能相关股票，转向避险资产。",
-   "link": "https://wallstreetcn.com/news/global/3179709",
+   "title": "韩国首尔综指涨幅扩大至4%。",
+   "summary": "韩国首尔综指涨幅扩大至4%。",
+   "link": "https://wallstreetcn.com/news/global/3179885",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:53"
+   "published_at": "2026-10-16 04:03"
   },
   {
    "category": "finance",
-   "title": "美国克利夫兰联储主席Hammack：听到更多美国低收入群体受通胀困扰的反馈。 民间见闻信息（轶事传闻",
-   "summary": "美国克利夫兰联储主席Hammack：听到更多美国低收入群体受通胀困扰的反馈。 民间见闻信息（轶事传闻）可提供重要的经济参考依据。",
-   "link": "https://wallstreetcn.com/news/global/3179708",
+   "title": "在岸人民币兑美元汇率盘中小幅上涨至6.6888，创下2022年7月以来最强水平。 离岸人民币兑美元盘",
+   "summary": "在岸人民币兑美元汇率盘中小幅上涨至6.6888，创下2022年7月以来最强水平。 离岸人民币兑美元盘中触及6.6874，也创下2022年7月以来最强水平。",
+   "link": "https://wallstreetcn.com/news/global/3179884",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:49"
+   "published_at": "2026-10-16 04:02"
   },
   {
    "category": "finance",
-   "title": "美国国防部：国防部长赫格塞思与英国国防大臣斯特里廷会谈时提出 “北约 3.0” 概念。 北约 3.0",
-   "summary": "美国国防部：国防部长赫格塞思与英国国防大臣斯特里廷会谈时提出 “北约 3.0” 概念。 北约 3.0 构想是对北约同盟进行力量再平衡。 若推行北约 3.0，美国将缩减驻欧洲兵力。",
-   "link": "https://wallstreetcn.com/news/global/3179707",
+   "title": "美联储主席沃什：全球面临着许多共同的经济挑战。 全球经济展现出的韧性，可能是我五个月前未能预料到的。",
+   "summary": "美联储主席沃什：全球面临着许多共同的经济挑战。 全球经济展现出的韧性，可能是我五个月前未能预料到的。 在诸多冲击下，竟然有这么多二十国集团（G20）成员国经济体依然“挺住了”，这令人感到意外。",
+   "link": "https://wallstreetcn.com/news/global/3179883",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:48"
+   "published_at": "2026-10-16 04:02"
   },
   {
    "category": "finance",
-   "title": "明晟公司（MSCI）：对MSCI土耳其指数实施冻结。 就重新划分印度尼西亚（印尼）市场地位的提议征求",
-   "summary": "明晟公司（MSCI）：对MSCI土耳其指数实施冻结。 就重新划分印度尼西亚（印尼）市场地位的提议征求意见，2027年6月底之前将就此做最终决定。",
-   "link": "https://wallstreetcn.com/news/global/3179705",
+   "title": "马来西亚第三季度GDP同比增长5.3%，预估为增长5.1%。",
+   "summary": "马来西亚第三季度GDP同比增长5.3%，预估为增长5.1%。",
+   "link": "https://wallstreetcn.com/news/global/3179882",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:39"
+   "published_at": "2026-10-16 04:00"
   },
   {
    "category": "finance",
-   "title": "美联储戴利对通胀预期担忧加剧",
-   "summary": "美国旧金山联储主席玛丽·戴利表示，她对通胀的持续性愈发担忧，也越来越不相信美联储能够等待反复出现的供应冲击对价格的影响自行消退。 戴利表示，与六个月前相比，她的观点“绝对”发生了变化；当时她倾向于遵循传统的央行做法，“忽略”由商品或服务供应中断所引发的通胀。央行通过加息来对抗通胀，加息可以抑制需求，但无法影响供给侧问题。",
-   "link": "https://wallstreetcn.com/news/global/3179704",
+   "title": "中指研究院：四季度住房租赁市场将进入传统淡季 重点城市租金仍存在调整压力",
+   "summary": "中指研究院发布2026三季度中国住房租赁市场总结称，2026年三季度，国内重点城市住房租赁市场整体运行平稳，租金下行压力有所缓解，租赁资产回报水平改善，行业制度框架持续完善。展望四季度，住房租赁市场将进入传统淡季，重点城市租金仍存在调整压力，预计整体将以窄幅波动为主，优质区位房源具备结构性支撑。",
+   "link": "https://wallstreetcn.com/news/global/3179881",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:39"
+   "published_at": "2026-10-16 04:00"
   },
   {
    "category": "finance",
-   "title": "周四（10月15日），美股行业ETF多数收涨，全球航空业ETF收涨2.79%，生物科技指数ETF涨2",
-   "summary": "周四（10月15日），美股行业ETF多数收涨，全球航空业ETF收涨2.79%，生物科技指数ETF涨2.05%，医疗业ETF、区域银行ETF、可选消费ETF等至多涨1.86%，科技行业ETF收跌0.65%，全球科技股指数ETF跌0.84%，半导体ETF跌1.04%。",
-   "link": "https://wallstreetcn.com/news/global/3179699",
+   "title": "美联储主席沃什：美联储主席需要统筹全面，领导美联储的所有部门。 美联储的权力源于其机构公信力，这一公",
+   "summary": "美联储主席沃什：美联储主席需要统筹全面，领导美联储的所有部门。 美联储的权力源于其机构公信力，这一公信力必须加以擦亮与维护。 在接下来的100天里，将尝试对美联储的其他业务给予同等关注。 我不是为了留下个人声望，我只想把政策做对。",
+   "link": "https://wallstreetcn.com/news/global/3179878",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:28"
+   "published_at": "2026-10-16 03:56"
   },
   {
    "category": "finance",
-   "title": "美股大类资产类ETF多数收涨，黄金ETF涨约1.8%，大豆基金跌超0.9%",
-   "summary": "周四（10月15日），黄金ETF收涨1.79%，美国国债20+年ETF、罗素2000指数ETF涨1.37%，美国房地产ETF涨1.21%，道指ETF涨1.08%，巴克莱美国可转债ETF、美国投资级公司债ETF至多涨0.91%，欧元做多、通胀债券指数ETF、标普500 ETF、日元做多、农产品基金至多涨0.49%。 纳斯达克100 ETF收跌0.13%，美国布伦特油价基金跌0.31%，做多美元指数跌",
-   "link": "https://wallstreetcn.com/news/global/3179697",
+   "title": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化买盘。",
+   "summary": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化买盘。",
+   "link": "https://wallstreetcn.com/news/global/3179877",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:20"
+   "published_at": "2026-10-16 03:55"
   },
   {
    "category": "finance",
-   "title": "周四（10月15日），彭博电动汽车价格回报指数跌1.92%，报2991.61点。 亚太盘初显著下跌，",
-   "summary": "周四（10月15日），彭博电动汽车价格回报指数跌1.92%，报2991.61点。 亚太盘初显著下跌，北京时间10:00以来低位窄幅震荡。 成分股中，松下株式会社收跌6.97%，速腾聚创科技H股收跌4.07%，ITM能源伦敦收跌3.79%，与禾赛ADR领跌。 Lucid Group、Aurora Innovation、美洲锂业公司（多伦多股价）涨超6%领跑。",
-   "link": "https://wallstreetcn.com/news/global/3179696",
+   "title": "美联储主席沃什：如果我之前没有在美联储任职的经验，我可能会对引入新设想持谨慎态度。 美联储人才济济，",
+   "summary": "美联储主席沃什：如果我之前没有在美联储任职的经验，我可能会对引入新设想持谨慎态度。 美联储人才济济，关键是要营造正确的组织文化。 75%的美联储工作人员并不从事货币政策相关工作。",
+   "link": "https://wallstreetcn.com/news/global/3179876",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:13"
+   "published_at": "2026-10-16 03:53"
   },
   {
    "category": "finance",
-   "title": "美国铝业三季度销售37亿美元，分析师预期37.6亿美元。 三季度调整后EBITDA为7.89亿美元，",
-   "summary": "美国铝业三季度销售37亿美元，分析师预期37.6亿美元。 三季度调整后EBITDA为7.89亿美元，分析师预期7.384亿美元。 三季度调整后每股收益（EPS）为1.82美元，分析师预期1.49美元。",
-   "link": "https://wallstreetcn.com/news/global/3179695",
+   "title": "美元指数短线走低10多个点，美联储主席沃什正在讲话。",
+   "summary": "美元指数短线走低10多个点，美联储主席沃什正在讲话。",
+   "link": "https://wallstreetcn.com/news/global/3179875",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:13"
+   "published_at": "2026-10-16 03:52"
   },
   {
    "category": "finance",
-   "title": "卡特彼勒收跌1.78%，报735.64美元，较6月30日所创收盘历史最高位累计回撤大约30.8%。",
-   "summary": "卡特彼勒收跌1.78%，报735.64美元，较6月30日所创收盘历史最高位累计回撤大约30.8%。",
-   "link": "https://wallstreetcn.com/news/global/3179694",
+   "title": "美联储主席沃什：美联储工作组肩负着创造新智力资本以协助联邦公开市场委员会的重任。 美国正在通过私营部",
+   "summary": "美联储主席沃什：美联储工作组肩负着创造新智力资本以协助联邦公开市场委员会的重任。 美国正在通过私营部门加大对新技术领域投资，美联储不会试图去判定谁对谁错。 美联储需要考虑金融稳定风险。 美联储需要提问“是否存在政策制定者可以有所作为的负面尾部风险”。",
+   "link": "https://wallstreetcn.com/news/global/3179873",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:11"
+   "published_at": "2026-10-16 03:50"
   },
   {
    "category": "finance",
-   "title": "裕信银行考虑推进与10亿欧元德国住房抵押贷款挂钩的重大风险转移交易",
-   "summary": "意大利裕信银行正在筹备一项潜在交易，拟对冲约10亿欧元德国住房抵押贷款，为扩大其在欧洲最大经济体的业务布局做准备。据知情人士透露，这家米兰银行正在评估投资者对无资金支持信用保护的需求；该交易属于重大风险转移（SRT）安排。裕信银行还在讨论一项与约10亿欧元捷克中小企业贷款挂钩的潜在重大风险转移交易。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3179693",
+   "title": "美联储主席沃什：在美国，我们现在把AI称为“SI”。 人工智能（AI）对经济需求侧的影响将先于其供给",
+   "summary": "美联储主席沃什：在美国，我们现在把AI称为“SI”。 人工智能（AI）对经济需求侧的影响将先于其供给侧冲击显现。 人工智能是我一生中最具深远影响的经济变革。 人工智能将有助于央行对数据及货币政策更有信心。 人工智能将改变实体经济，但对就业的短期影响仍存在不确定性。 人工智能将使经济效率更高、创造更多财富，但通往这一目标的道路将会充满波折。 美联储将于11月16日在旧金山湾区举行关于人工智能的现场听",
+   "link": "https://wallstreetcn.com/news/global/3179872",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:08"
+   "published_at": "2026-10-16 03:44"
   },
   {
    "category": "finance",
-   "title": "戴尔科技收跌6.9%，惠与（HPE）跌7.1%。",
-   "summary": "戴尔科技收跌6.9%，惠与（HPE）跌7.1%。",
-   "link": "https://wallstreetcn.com/news/global/3179691",
+   "title": "美联储主席沃什：显然，美联储的政策会溢出到世界其他地区，但其他国家的政策也会反过来影响我们。 美联储",
+   "summary": "美联储主席沃什：显然，美联储的政策会溢出到世界其他地区，但其他国家的政策也会反过来影响我们。 美联储已明确将致力于实现物价稳定，我不赞成预先对议息会议做出判断。 不要预先判断议息会议的结果。 我不主张预先透露2026年剩余议息会议中可能采取的行动。",
+   "link": "https://wallstreetcn.com/news/global/3179871",
    "source": "华尔街见闻",
-   "published_at": "2026-10-15 20:02"
+   "published_at": "2026-10-16 03:42"
+  },
+  {
+   "category": "finance",
+   "title": "美联储主席沃什：当前我们正处于结构性增长阶段，迎来了投资热潮。 投资热潮归功于良好的政策，投资热潮是",
+   "summary": "美联储主席沃什：当前我们正处于结构性增长阶段，迎来了投资热潮。 投资热潮归功于良好的政策，投资热潮是全球经济向好发展中最关键的因素。",
+   "link": "https://wallstreetcn.com/news/global/3179870",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-16 03:41"
+  },
+  {
+   "category": "finance",
+   "title": "美联储主席沃什：今年我们还将举行两次议息会议，届时将是形成明确结论的关键时刻。 届时将对产出、就业和",
+   "summary": "美联储主席沃什：今年我们还将举行两次议息会议，届时将是形成明确结论的关键时刻。 届时将对产出、就业和通胀的发展状况有更清晰、明确的认识。 将在10月和12月的议息会议上做出政策判断。",
+   "link": "https://wallstreetcn.com/news/global/3179868",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-16 03:40"
   }
  ]
 }
