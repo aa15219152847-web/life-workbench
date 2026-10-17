@@ -1,6 +1,70 @@
 {
- "updated_at": "2026-10-16 21:15",
+ "updated_at": "2026-10-17 04:34",
  "ai": [
+  {
+   "category": "ai",
+   "title": "行业首个基于确定性网络的智能体互联平台 AXP 在南京发布：支持百万级智能体注册接入、十万级智能体同时运行",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/259.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软发布法律版 Copilot：律师的 AI 新同事，整合审查合同等超 20 项技能",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/250.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "JetBrains 的本地 AI 编程工具 Junie Local 已 Day 0 适配英伟达 RTX Spark：吞吐最高每秒 55 个词元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/242.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软造出“AI 学生”：替真人试课，模拟学生优化 AI 导师",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/226.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "223 道题、2651 条标准：阿里 Qwen 开源 BlenderWorld，给 AI 出了一套 3D 建模大考",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/217.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 报告：AI 工时已是人类 6 倍，初级程序员岗位骤减，人均雇员创收是 Meta / 谷歌同期的 2 至 4 倍",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/195.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/192.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Claude 当起“数字考古学家”：不到 30 分钟揭开困扰密码学界 26 年的 NSA 参数来源之谜",
+   "summary": "",
+   "link": "https://www.ithome.com/1/014/191.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "谷歌布林重磅发声：AI 正开始“自己造自己”",
@@ -80,240 +144,152 @@
    "link": "https://www.ithome.com/1/013/357.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Linux 之父托瓦兹推出首个 AI 辅助开发的补丁：并发文件读取吞吐量提升约 3 倍",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/171.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/168.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 实时分离人声，席琳 · 迪翁演唱会用上音频黑科技",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/165.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "英伟达黄仁勋：若客户开发不安全 AI 软件，极端措施可断供芯片",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/164.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "入职约 1 年：OpenAI 基础设施与 AI 算力负责人卡蒂离职，曾主导“星际之门”计划",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/158.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "麦肯锡面试新花样：先和 AI 客户对线十分钟",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/155.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 和 Anthropic 被欧盟调查，若认定违反 AI 法案最高罚全球 3% 营业额",
-   "summary": "",
-   "link": "https://www.ithome.com/1/013/154.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收跌0.45%，报13280点。",
-   "summary": "富时A50期指连续夜盘收跌0.45%，报13280点。",
-   "link": "https://wallstreetcn.com/news/global/3180482",
+   "title": "破解跨域协同瓶颈，智能体互联平台发布",
+   "summary": "昨天（16日），行业首个基于确定性网络的智能体互联平台AXP，在江苏南京正式发布。该平台重点破解了不同类型智能体通信壁垒、网络传输质量不稳定、精准协同对接难等行业瓶颈。依托全新技术架构，平台可实现百万级智能体集约化管理、千公里级跨域协同联动，具备毫秒级智能体精准识别、秒级跨区域检索调度能力，整体调度时延性能提升20%。此次平台的成功发布，标志着我国在智能体互联网新型基础设施建设领域取得关键性技术突",
+   "link": "https://wallstreetcn.com/news/global/3180538",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 21:15"
+   "published_at": "2026-10-17 03:58"
   },
   {
    "category": "finance",
-   "title": "周五（10月16日）纽约尾盘，欧元兑美元涨0.17%，报1.1239，本周累计上涨0.35%，结束之",
-   "summary": "周五（10月16日）纽约尾盘，欧元兑美元涨0.17%，报1.1239，本周累计上涨0.35%，结束之前连续五周下跌的趋势，10月14日曾跌至1.1113——逼近2025年5月12日底部1.1065、当年3月27日底部1.0733、以及当年2月28日底部1.0360。",
-   "link": "https://wallstreetcn.com/news/global/3180481",
+   "title": "全国秋粮收获过七成",
+   "summary": "10月17日从农业农村部获悉，据最新农情调度，全国秋粮收获过七成。分地区看，东北收获过六成，黄淮海、西南过八成，西北近八成，长江中下游过六成，华南过三成。冬小麦播种过一成，冬油菜播种过三成。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3180537",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 21:14"
+   "published_at": "2026-10-17 03:44"
   },
   {
    "category": "finance",
-   "title": "国际金价周五跌约0.2%，白银本周跌超6%",
-   "summary": "周五（10月16日）纽约尾盘，现货黄金跌0.19%，报4163.54美元/盎司，本周累跌0.69%，主要维持在4170美元附近，10月14-15日呈现出V形反转走势。 COMEX黄金期货累跌0.68%，报4187.60美元/盎司。 现货白银跌0.72%，报56.9925美元/盎司，本周累跌6.30%，10月14日出现一波加速下跌行情。 COMEX白银期货累跌6.45%，报57.105美元/盎司。 ",
-   "link": "https://wallstreetcn.com/news/global/3180480",
+   "title": "国家数据集团或将于近日挂牌成立",
+   "summary": "10月17日，记者获悉，国家数据集团或将于近日挂牌成立。（中国证券报）",
+   "link": "https://wallstreetcn.com/news/global/3180536",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 21:05"
+   "published_at": "2026-10-17 03:30"
   },
   {
    "category": "finance",
-   "title": "Anthropic：人均雇员创收是Meta Platforms和谷歌的2-4倍。",
-   "summary": "Anthropic：人均雇员创收是Meta Platforms和谷歌的2-4倍。",
-   "link": "https://wallstreetcn.com/news/global/3180478",
+   "title": "行业报告显示我国户外运动参与人数已超5亿",
+   "summary": "2026中国户外运动产业大会16日在北京市昌平区开幕。根据会上发布的《中国户外运动产业发展报告（2025-2026）》（下称“报告”），截至“十四五”末，我国户外运动参与人数超过5亿，户外运动相关产业总规模约3.17万亿元。该报告在去年同期发布的数据显示，截至2025年4月初，我国户外运动参与人数已突破4亿人。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3180535",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:55"
+   "published_at": "2026-10-17 03:02"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数涨0.8%，发展中国家外汇指数涨0.2%。",
-   "summary": "明晟公司MSCI新兴市场股票指数涨0.8%，发展中国家外汇指数涨0.2%。",
-   "link": "https://wallstreetcn.com/news/global/3180476",
+   "title": "抖音电商双11首日数据：首次参加双11且成交额突破百万达人数量同比增长30%",
+   "summary": "抖音电商公布2026年双11首日数据。报告显示，10月15日大促首日，平台上成交额新突破百万元的商家数量同比增长74%，店播成交额破千万元的商家数量同比增长96%。众多刚在平台起步不久的中小新商，借助平台分层扶持和经营激励，在大促首日完成了成交额突破百万的成绩。同时，今年双11开局呈现出商家与达人成长、秋冬换季消费活跃的特点，首次参加双11且成交额突破百万达人数量同比增长30%。",
+   "link": "https://wallstreetcn.com/news/global/3180534",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:40"
+   "published_at": "2026-10-17 03:01"
   },
   {
    "category": "finance",
-   "title": "穆迪：上调埃及评级至B3。",
-   "summary": "穆迪：上调埃及评级至B3。",
-   "link": "https://wallstreetcn.com/news/global/3180475",
+   "title": "国产大模型攻克世界级数学难题",
+   "summary": "近日，困扰数学界30余年的世界级难题三维Ghys猜想宣告破解。据上海人工智能实验室消息，实验室访问学者、大湾区大学教授许地生团队基于书生科学多模态大模型S2，通过人机协同完成了三维Ghys猜想证明。而北京大学董彬教授、刘若川院士团队利用其开发的SHEAF框架对本次证明完成形式化验证。这意味着中国科学家首次用中国大模型攻克了世界级数学难题。（一财）",
+   "link": "https://wallstreetcn.com/news/global/3180533",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:35"
+   "published_at": "2026-10-17 02:56"
   },
   {
    "category": "finance",
-   "title": "秘鲁Pamputa社区提议，从MMG Ltd.收购一个铜矿的部分权益。",
-   "summary": "秘鲁Pamputa社区提议，从MMG Ltd.收购一个铜矿的部分权益。",
-   "link": "https://wallstreetcn.com/news/global/3180474",
+   "title": "雅万高铁开通运营三周年，累计发送旅客超1800万人次",
+   "summary": "今年10月17日，印尼雅万高铁开通运营满三年。三年来，雅万高铁累计开行动车组列车58666列，发送旅客超1800万人次，安全运行超890万公里，列车正点率达99.4%。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3180532",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:34"
+   "published_at": "2026-10-17 02:54"
   },
   {
    "category": "finance",
-   "title": "黄仁勋看淡AI板块大跌：这一切都会过去",
-   "summary": "英伟达公司首席执行官黄仁勋对近期人工智能（AI）板块股市大跌持乐观态度，称这项技术带来的收益很快将盖过投资者的担忧情绪。 黄仁勋在德国柏林一场活动上对彭博电视节目主持人Emily Chang表示：“这一切终将过去，原因很简单。人工智能将带来变革，会对每一个行业、每一个国家产生极为积极的影响。这一趋势无疑会延续下去，而我们尚处在起步阶段。”",
-   "link": "https://wallstreetcn.com/news/global/3180473",
+   "title": "晶科能源CTO金浩：预计未来5年光伏组件价格将再降50%",
+   "summary": "10月17日，在晶科2026全球科技日上，晶科能源首席技术官金浩表示，过去20年光伏组件价格累计下降超95%，预计未来5年还将下降50%。他指出，传统降本路径已趋于结束，未来降本将以技术创新、贱金属应用及AI智能化降本为主要驱动力。（界面）",
+   "link": "https://wallstreetcn.com/news/global/3180531",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:33"
+   "published_at": "2026-10-17 02:41"
   },
   {
    "category": "finance",
-   "title": "OpenAI：ChatGPT中的GPT-6 Astra Pro获得升级，响应速度更快，插件和工具的使",
-   "summary": "OpenAI：ChatGPT中的GPT-6 Astra Pro获得升级，响应速度更快，插件和工具的使用也得到改进。 现在，多个智能体可以并行处理一项任务的不同部分。 用户可以跟踪每个智能体的进度，并打开已完成的任务查看其工作成果。",
-   "link": "https://wallstreetcn.com/news/global/3180472",
+   "title": "中方呼吁加强全球气候治理",
+   "summary": "中国常驻联合国代表傅聪16日在联大主席召集的“适应未来的地球：以气候行动重建信任”高级别会议上发言，呼吁加强全球气候治理、加快绿色公正转型。发达国家应切实履行气候承诺，多边开发银行、私营部门等应加大气候投融资力度，帮助发展中国家解决资金、技术和能力不足问题。各国应积极开展早期预警、风险评估、防灾减灾等领域国际合作，推动完善应对损失与损害基金快速拨付机制。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3180529",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:31"
+   "published_at": "2026-10-17 02:34"
   },
   {
    "category": "finance",
-   "title": "美股大类资产类ETF多数收跌，纳指ETF跌2.5%",
-   "summary": "周五（10月16日），纳斯达克100 ETF收跌2.5%，巴克莱美国可转债ETF跌2.11%，新兴市场ETF跌1.74%，罗素2000指数ETF跌1.69%，标普500 ETF跌1.11%，美国高收益债券ETF、道指ETF、做多美元指数、大豆基金、农产品基金、黄金ETF、美国投资级公司债ETF至多跌0.4%。 美国国债20+年ETF收涨0.12%，通胀债券指数ETF涨0.24%，欧元做多涨0.26",
-   "link": "https://wallstreetcn.com/news/global/3180470",
+   "title": "华储网发布关于2026年10月22日中央储备冻猪肉轮换收储竞价交易有关事项的通知，本次收储竞价交易挂",
+   "summary": "华储网发布关于2026年10月22日中央储备冻猪肉轮换收储竞价交易有关事项的通知，本次收储竞价交易挂牌13800吨。",
+   "link": "https://wallstreetcn.com/news/global/3180525",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:29"
+   "published_at": "2026-10-17 02:04"
   },
   {
    "category": "finance",
-   "title": "周五（10月16日），美股行业ETF多数收跌，网络股指数ETF跌3.43%，半导体ETF跌3.41%",
-   "summary": "周五（10月16日），美股行业ETF多数收跌，网络股指数ETF跌3.43%，半导体ETF跌3.41%，科技行业ETF跌3.02%，全球科技股指数ETF跌2.88%，能源业ETF涨2.52%。",
-   "link": "https://wallstreetcn.com/news/global/3180468",
+   "title": "证监会开出两张巨额罚单，金额共计超过5亿元",
+   "summary": "10月16日，证监会发布行政处罚决定书显示，3名自然人因操纵市场及内幕交易被罚。其中，周吉锋、周吉辉操纵证券市场共计被罚没约3.28亿元，陈秋航因内幕交易被罚没近1.82亿元。",
+   "link": "https://wallstreetcn.com/news/global/3180523",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:16"
+   "published_at": "2026-10-17 01:53"
   },
   {
    "category": "finance",
-   "title": "周五（10月16日），彭博电动汽车价格回报指数跌0.56%，报2973.30点，美股时段持续下跌，本",
-   "summary": "周五（10月16日），彭博电动汽车价格回报指数跌0.56%，报2973.30点，美股时段持续下跌，本周累计下跌6.13%——逼近6月26日跌幅（累跌超8.95%），最近七周里第六次下跌。",
-   "link": "https://wallstreetcn.com/news/global/3180467",
+   "title": "我国技能人才新增劳动力平均受教育年限超14年",
+   "summary": "《中国职业教育白皮书》10月17日在2026年世界职业技术教育发展大会上发布。白皮书显示，我国技能人才支撑能力全面增强。2025年，全国高等职业教育毕业生582.04万人，中等职业教育毕业生521.82万人；近年年均向各行各业输送近千万名高素质劳动者和技能人才，新增劳动力平均受教育年限达14.35年。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3180522",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:10"
+   "published_at": "2026-10-17 01:49"
   },
   {
    "category": "finance",
-   "title": "美股费城银行指数创2008年全球金融危机以来最长连跌周数。 周五当天，华尔街大行高盛收跌1.12%，",
-   "summary": "美股费城银行指数创2008年全球金融危机以来最长连跌周数。 周五当天，华尔街大行高盛收跌1.12%，美国银行跌0.91%，摩根士丹利跌0.86%，花旗集团则收涨0.85%，摩根大通涨1.25%，富国银行涨1.35%。",
-   "link": "https://wallstreetcn.com/news/global/3180465",
+   "title": "赛力斯参股，赛豆AIVA首款车亮相工信部",
+   "summary": "赛力斯参股的赛豆科技旗下品牌AIVA的首款车型来了。在工信部发布的最新一期产品公告中，AIVA ME7正式亮相，这是AIVA的首款车型，轴距超3米，纯电动力形式。（证券时报）",
+   "link": "https://wallstreetcn.com/news/global/3180521",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:02"
+   "published_at": "2026-10-17 01:37"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块涨跌各异，信息技术/科技板块收跌2.52%——本周累跌6.37%，电信板块",
-   "summary": "标普500指数的11个板块涨跌各异，信息技术/科技板块收跌2.52%——本周累跌6.37%，电信板块跌2.45%，可选消费板块跌1.17%，日用消费品板块、公用事业板块至多涨1.4%，能源板块涨2.47%。 信息科技指数收跌4.77%，报391.33点，彭博数据显示，本周累计下跌12.14%，整体持续走低。 周五当天，信息科技概念股几乎全线溃败，Nebius Group NV收跌12.18%，Co",
-   "link": "https://wallstreetcn.com/news/global/3180464",
+   "title": "《世界职业技术教育标准框架》发布",
+   "summary": "10月17日，《世界职业技术教育标准框架》（《北京协议》）在2026年世界职业技术教育发展大会闭幕式上由45个国家共同发布。协议将推动经济繁荣与社会进步、服务人的全面发展、拓宽社会公平通道、深化职业技能互学互鉴、积极应对未来挑战作为职业教育共同的价值追求；倡议完善职业学校办学体系、构建全民终身教育培训体系、产教协同建设教材、校企合作打造教师队伍、按岗位实际要求开展实习实训、人工智能赋能教育教学改革",
+   "link": "https://wallstreetcn.com/news/global/3180520",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:02"
+   "published_at": "2026-10-17 01:30"
   },
   {
    "category": "finance",
-   "title": "英国所持美债超过1万亿美元",
-   "summary": "美国财政部数据显示，美国8月主要海外美债持仓分化。 日本持仓降至1.068万亿美元，减少360亿美元。 英国持仓则升至1.010万亿美元，增加120亿美元。 8月中国持有的美国国债降至5910亿美元，较7月减少270亿美元；",
-   "link": "https://wallstreetcn.com/news/global/3180463",
+   "title": "特朗普豁免《格雷厄姆法案》中多项对俄制裁、限制措施及关税",
+   "summary": "据美国白宫16日发布的行政令，特朗普豁免《2026年林赛·格雷厄姆制裁俄罗斯和伊朗法案》规定的多项制裁、限制措施及关税。豁免范围包括对俄罗斯输美商品加征500%关税，以及对俄罗斯能源主要进口国和协助俄石油贸易规避制裁的国家加征100%关税的措施。",
+   "link": "https://wallstreetcn.com/news/global/3180516",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:01"
+   "published_at": "2026-10-17 00:49"
   },
   {
    "category": "finance",
-   "title": "纳斯达克金龙中国指数初步收跌1.3%，本周累跌约1%。",
-   "summary": "纳斯达克金龙中国指数初步收跌1.3%，本周累跌约1%。",
-   "link": "https://wallstreetcn.com/news/global/3180462",
+   "title": "预测市场对特斯拉-SpaceX在2027年初合并的概率已超过50%",
+   "summary": "在巴克莱周三发布一份概述特斯拉与太空探索可能合并方案的报告后，预测市场交易员已将2027年初完成整合的概率推升至50%以上。 截至美东时间周五早间，合并于3月前发生的概率跳升至56%，此前为29%。4月和5月前完成整合的概率也升至相近水平。 该合约的问题是“特斯拉和太空探索何时合并？” 这个合约问题将通过新闻媒体和美国证券交易委员会（SEC）的EDGAR数据库进行验证。",
+   "link": "https://wallstreetcn.com/news/global/3180515",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:00"
+   "published_at": "2026-10-16 23:48"
   },
   {
    "category": "finance",
-   "title": "美股芯片制造股创2008年以来最长连跌天数",
-   "summary": "标普500指数收跌84.62点，跌幅1.09%，报7659.44点，跌穿50日均线（该技术指标暂报7706.42点），100日均线已经上移至7597.96点，本周累计下跌1.95%，创6月26日以来最大单周跌幅。标普500相等权重指数 %，报 点，站上100日均线（暂报8667.29点）、逼近50日均线（暂报8740.79点）。 道琼斯工业平均指数收跌175.28点，跌幅0.34%，报52002.",
-   "link": "https://wallstreetcn.com/news/global/3180461",
+   "title": "美国垃圾债市场：CDX高收益指数价格下跌，科技债表现最差",
+   "summary": "根据彭博汇编的数据，CDX高收益指数价格下跌0.4点，至105.84。 据ICE Data Services数据，赫兹公司和奈克斯塔传媒的合约表现最佳，CSC Holdings和比泽尔家居表现最差。 CDX高收益指数各系列的成交量143亿美元。 现券利差走阔7.4个基点，至362.9个基点。 表现最佳的板块为高级金融债（-5.8个基点）和次级金融债（+4.0个基点）。 表现最差的板块为科技（+13",
+   "link": "https://wallstreetcn.com/news/global/3180509",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 20:00"
+   "published_at": "2026-10-16 23:11"
   },
   {
    "category": "finance",
-   "title": "报道：美国FAA最快下周批准波音737 MAX 10",
-   "summary": "路透援引知情人士报道称，在型号合格审定委员会于周五举行会议后，美国联邦航空管理局（FAA）最快将于下周批准波音737 MAX 10。",
-   "link": "https://wallstreetcn.com/news/global/3180460",
+   "title": "美国投资级信用债市场：CDX投资级指数利差走阔，科技债表现最差",
+   "summary": "根据彭博汇编的数据，CDX投资级指数利差走阔1.8个基点，至62.3个基点。 据ICE Data Services数据，D.R. Horton和DXC Technology的合约表现最佳，甲骨文和奈飞表现最差。 CDX投资级指数各系列的成交量为532亿美元。 现券利差走阔1.8个基点，至120.0个基点。 表现最佳的板块为医疗保健（+1.3个基点）和材料（+1.3个基点）。 表现最差的板块为科技（",
+   "link": "https://wallstreetcn.com/news/global/3180508",
    "source": "华尔街见闻",
-   "published_at": "2026-10-16 19:49"
-  },
-  {
-   "category": "finance",
-   "title": "美国CFTC：资管行业所持墨西哥比索净空头头寸再创历史新低",
-   "summary": "美国商品期货交易委员会（CFTC）：10月13日当周，机构类资产管理公司所持墨西哥比索净空头头寸增加1,772手合约，至22,371手合约，创2006年有数据记录以来的新低。 杠杆基金所持（墨西哥比索）净多头头寸减少11,207手合约，至63,542手合约，创7月份以来新低。 瑞士法郎（瑞郎）净空头头寸为-22,078手合约。 英镑净空头头寸为-106,964手合约。 日元净多头头寸为50,207",
-   "link": "https://wallstreetcn.com/news/global/3180457",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-16 19:33"
-  },
-  {
-   "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：10月13日当周，投机者所持COMEX黄金净多头头寸减少3,74",
-   "summary": "美国商品期货交易委员会（CFTC）：10月13日当周，投机者所持COMEX黄金净多头头寸减少3,741手合约，至111,079手合约，创最近18周新低。 所持COMEX白银净多头头寸降低至5,735手合约，创大约八个月新低。 所持COMEX铜净多头头寸减少至61,170手合约，创最近14周新低。 所持NYMEX铂金净多头头寸降低至7,022手合约，创最近八周新低。 所持NYMEX钯金净空头头寸增加",
-   "link": "https://wallstreetcn.com/news/global/3180456",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-16 19:32"
-  },
-  {
-   "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：10月13日当周，投机者所持NYMEX WTI原油净多头头寸减少",
-   "summary": "美国商品期货交易委员会（CFTC）：10月13日当周，投机者所持NYMEX WTI原油净多头头寸减少1,726手合约，至102,765手合约，创最近十周新低。 所持布伦特与WTI原油净多头头寸降低至345,075手合约，创三周新低。 所持NYMEX汽油净多头头寸增加至97,646手合约，创大约11个月新高。 所持NYMEX天然气净空头头寸降低至131,421手合约。",
-   "link": "https://wallstreetcn.com/news/global/3180455",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-16 19:31"
-  },
-  {
-   "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：10月13日当周，投机者将CBOT美国国债期货净空头头寸增加6,",
-   "summary": "美国商品期货交易委员会（CFTC）：10月13日当周，投机者将CBOT美国国债期货净空头头寸增加6,626手合约，至126,438手合约。 投机者将CBOT美国5年期国债期货净空头头寸减少83,327手合约，至1,080,204手合约。 投机者将CBOT美国2年期国债期货净空头头寸增加58,675手合约，至911,579手合约；将CBOT美国10年期国债期货净空头头寸增加91,621手合约，至98",
-   "link": "https://wallstreetcn.com/news/global/3180454",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-16 19:30"
+   "published_at": "2026-10-16 23:09"
   }
  ]
 }
