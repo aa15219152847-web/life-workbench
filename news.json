@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-10-21 21:46",
+ "updated_at": "2026-10-22 04:56",
  "ai": [
+  {
+   "category": "ai",
+   "title": "路透社：特斯拉 AI 转型承压，2026 全年支出目标降幅约 20%",
+   "summary": "",
+   "link": "https://www.ithome.com/1/016/215.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "影响约 70% 网站：PHP 高危漏洞被修复，OpenAI 牵头协调全球发现 / 修复",
+   "summary": "",
+   "link": "https://www.ithome.com/1/016/173.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI",
+   "summary": "",
+   "link": "https://www.ithome.com/1/016/169.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "AMD 与英特尔罕见联手：x86 阵营抱团统一 AI 开发路径",
@@ -120,200 +144,184 @@
    "link": "https://www.ithome.com/1/014/768.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "中信证券：看好国产大模型持续崛起",
-   "summary": "",
-   "link": "https://www.ithome.com/1/014/646.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "受 AI 冲击，游戏反编译平台 decomp.dev 宣布关停",
-   "summary": "",
-   "link": "https://www.ithome.com/1/014/631.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 系统 RFdiffusion3 能从原子层面设计蛋白质，可在实验中实现预期功能",
-   "summary": "",
-   "link": "https://www.ithome.com/1/014/625.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "新西兰三季度CPI季环比 0.7%，预期 0.8%，前值 1.5%。",
-   "summary": "新西兰三季度CPI季环比 0.7%，预期 0.8%，前值 1.5%。",
-   "link": "https://wallstreetcn.com/news/global/3182995",
+   "title": "伊朗伊斯兰革命卫队称打击了4艘“违规”油轮。",
+   "summary": "伊朗伊斯兰革命卫队称打击了4艘“违规”油轮。",
+   "link": "https://wallstreetcn.com/news/global/3183168",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:45"
+   "published_at": "2026-10-22 04:31"
   },
   {
    "category": "finance",
-   "title": "新西兰三季度CPI同比 3.7%，预期 3.8%，前值 4.1%。",
-   "summary": "新西兰三季度CPI同比 3.7%，预期 3.8%，前值 4.1%。",
-   "link": "https://wallstreetcn.com/news/global/3182994",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 时间待定 印尼、菲律宾、土耳其等央行将举行议息会议； ② 时间待定 欧洲央行进入下次货币政策会议之前的噤声期； ③ 欧股盘前 诺基亚发布业绩报告； ④ 15:30 瑞士央行发布9月24日利率决议的摘要； ⑤ 17:30 欧洲央行管委Kocher在维也纳讲话； ⑥ 20:30 美国10月17日当周首次申请失业救济人数； ⑦ 21:00 英国央行行长贝利讲话； ⑧ 22:00 美国9月谘商会领先指",
+   "link": "https://wallstreetcn.com/news/global/3183167",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:45"
+   "published_at": "2026-10-22 04:30"
   },
   {
    "category": "finance",
-   "title": "马斯克：预计明年6月前推出测试芯片，2028年三季度前实现量产。",
-   "summary": "马斯克：预计明年6月前推出测试芯片，2028年三季度前实现量产。",
-   "link": "https://wallstreetcn.com/news/global/3182993",
+   "title": "早间要闻汇总",
+   "summary": "创业板指半日跌2.77%，机器人概念股逆势走强，临近午盘多只宽基ETF集中放量。 恒指半日跌2.9%，恒生科技指数跌4.6%，联想、智谱跌超8%。 报道：DeepSeek完成1000亿元融资，宁德时代、腾讯参投。 工信部等八部门印发《产业基础能力提升“十五五”规划》。 上海前三季度地区生产总值同比增长5.5%。 韩国央行维持利率在3%不变，符合预期。 报道称美以已制定新一轮对伊朗打击计划。 报道称",
+   "link": "https://wallstreetcn.com/news/global/3183166",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:44"
+   "published_at": "2026-10-22 04:30"
   },
   {
    "category": "finance",
-   "title": "马斯克：不会针对特斯拉与SpaceX（潜在的）合并事宜透露更多信息。",
-   "summary": "马斯克：不会针对特斯拉与SpaceX（潜在的）合并事宜透露更多信息。",
-   "link": "https://wallstreetcn.com/news/global/3182992",
+   "title": "水利部针对上海江苏浙江福建启动洪水防御Ⅳ级应急响应。",
+   "summary": "水利部针对上海江苏浙江福建启动洪水防御Ⅳ级应急响应。",
+   "link": "https://wallstreetcn.com/news/global/3183165",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:42"
+   "published_at": "2026-10-22 04:28"
   },
   {
    "category": "finance",
-   "title": "马斯克：预计到2027年年底将化解与Optimus相关的那些问题。 特斯拉已经在美国加州Fremon",
-   "summary": "马斯克：预计到2027年年底将化解与Optimus相关的那些问题。 特斯拉已经在美国加州Fremont工厂高产生产线启动Optimus的“早期产品”（的生产活动）。",
-   "link": "https://wallstreetcn.com/news/global/3182991",
+   "title": "海南发行30年期收费公路专项地方债，规模37.6400亿元，发行利率2.2000%，边际倍数1.92",
+   "summary": "海南发行30年期收费公路专项地方债，规模37.6400亿元，发行利率2.2000%，边际倍数1.92倍，倍数预期2.18； 海南发行10年期其他专项地方债，规模5.4300亿元，发行利率1.6700%，边际倍数1.40倍，倍数预期1.67； 海南发行15年期其他专项地方债，规模11.3700亿元，发行利率1.9700%，边际倍数2.42倍，倍数预期1.96； 海南发行20年期其他专项地方债，规模2",
+   "link": "https://wallstreetcn.com/news/global/3183162",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:40"
+   "published_at": "2026-10-22 04:16"
   },
   {
    "category": "finance",
-   "title": "特斯拉CEO马斯克在分析师电话会议上表示：目标是到2030年左右每年生产大约500万辆汽车。 特斯拉",
-   "summary": "特斯拉CEO马斯克在分析师电话会议上表示：目标是到2030年左右每年生产大约500万辆汽车。 特斯拉储能需求强劲，2027年所有Megapacks几乎售罄。",
-   "link": "https://wallstreetcn.com/news/global/3182989",
+   "title": "韩国首尔综指日内跌幅扩大至3%。",
+   "summary": "韩国首尔综指日内跌幅扩大至3%。",
+   "link": "https://wallstreetcn.com/news/global/3183160",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:36"
+   "published_at": "2026-10-22 04:11"
   },
   {
    "category": "finance",
-   "title": "EQT将按每股46.50欧元现金收购Qiagen。",
-   "summary": "EQT将按每股46.50欧元现金收购Qiagen。",
-   "link": "https://wallstreetcn.com/news/global/3182988",
+   "title": "《广播电视和网络视听“十五五”规划》印发",
+   "summary": "国家广播电视总局印发《广播电视和网络视听“十五五”规划》。《规划》提出，到2030年，广电视听改革创新取得重大突破，广电媒体全面挺进互联网主战场，广电视听有力服务经济社会发展，形成广播电视和网络视听统筹发展新格局。到2035年，广电视听数智化转型、高质量发展取得决定性进展，为建成文化强国提供有力支撑。",
+   "link": "https://wallstreetcn.com/news/global/3183157",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:34"
+   "published_at": "2026-10-22 03:55"
   },
   {
    "category": "finance",
-   "title": "提醒：Meta Platforms分析师电话会议结束。",
-   "summary": "提醒：Meta Platforms分析师电话会议结束。",
-   "link": "https://wallstreetcn.com/news/global/3182987",
+   "title": "宇树王兴兴：非常害怕浪费每一天，机器人行业竞争很惨烈",
+   "summary": "10月22日，宇树2026世界物理AI大会暨宇树合作伙伴生态大会在杭州召开。宇树科技董事长、创始人、CEO王兴兴表示，当下是一个非常好的时代，这一代人有机会推动超级智能的发展，让人类生产力迈上新的台阶。“我真的非常害怕浪费每一天”，他表示，自己每天都有很多事情想做，也有很多新东西需要学习，但时间太少了。王兴兴同时指出，机器人行业未来市场空间很大，但竞争也非常惨烈，企业需要每天做得更好。（界面新闻）",
+   "link": "https://wallstreetcn.com/news/global/3183156",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:33"
+   "published_at": "2026-10-22 03:54"
   },
   {
    "category": "finance",
-   "title": "MetaPlatforms的CEO扎克伯格表示：Muse——以及他将“个人超级智能”作为 Meta",
-   "summary": "MetaPlatforms的CEO扎克伯格表示：Muse——以及他将“个人超级智能”作为 Meta 战略北极星愿景——实际上已有数十年的酝酿。 这与我们在公司过去二十多年里一直从事的工作方向一致：赋能个体，让人们拥有发声渠道，并提供工具，让他们以自己想要的方式建立连接。 当我们把这一理念延伸到如今的 AI 工作时，我们认为，为下一代技术打造的最重要的东西，本质上就是把这项技术的能力交到每个人手中。",
-   "link": "https://wallstreetcn.com/news/global/3182986",
+   "title": "印度股市波动率指标（VIX）跳升5.3%，创四个月新高。",
+   "summary": "印度股市波动率指标（VIX）跳升5.3%，创四个月新高。",
+   "link": "https://wallstreetcn.com/news/global/3183155",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:32"
+   "published_at": "2026-10-22 03:52"
   },
   {
    "category": "finance",
-   "title": "欧洲理事会：理事会与欧洲议会就重振和简化欧盟证券化市场的措施达成临时政治协议。",
-   "summary": "欧洲理事会：理事会与欧洲议会就重振和简化欧盟证券化市场的措施达成临时政治协议。",
-   "link": "https://wallstreetcn.com/news/global/3182985",
+   "title": "宇树科技王兴兴：物理AI已出现突破苗头，快则1-2年迎来关键进展",
+   "summary": "在2026世界物理AI大会暨宇树合作伙伴生态大会上，宇树科技创始人王兴兴表示，自2024年5月发布以来，宇树G1机器人已经累计生产下线约1—2万台，是全球最畅销的人形机器人。",
+   "link": "https://wallstreetcn.com/news/global/3183153",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:26"
+   "published_at": "2026-10-22 03:46"
   },
   {
    "category": "finance",
-   "title": "纳指ETF收涨1%，与可转债ETF领跑美股大类资产类ETF",
-   "summary": "周三（10月21日），纳斯达克100 ETF收涨1.05%，巴克莱美国可转债ETF涨0.97%，道指ETF、标普500 ETF至少涨0.53%，新兴市场ETF、黄金ETF、美国布伦特油价基金、罗素2000指数ETF、美国国债20+年ETF、做多美元指数、欧元做多至多涨0.39%。 日元做多、农产品基金至多收跌0.18%，大豆基金跌0.37%，美国房地产ETF跌0.86%。",
-   "link": "https://wallstreetcn.com/news/global/3182984",
+   "title": "台湾证交所加权股价指数下跌1%至46,414.88点。",
+   "summary": "台湾证交所加权股价指数下跌1%至46,414.88点。",
+   "link": "https://wallstreetcn.com/news/global/3183152",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:24"
+   "published_at": "2026-10-22 03:44"
   },
   {
    "category": "finance",
-   "title": "Meta首席财务官：相信随着时间的推移，人工智能将成为收入多元化的重要来源，对此我们充满信心。 预计",
-   "summary": "Meta首席财务官：相信随着时间的推移，人工智能将成为收入多元化的重要来源，对此我们充满信心。 预计新的人工智能业务将从2027年开始贡献增量收入。",
-   "link": "https://wallstreetcn.com/news/global/3182983",
+   "title": "中欧班列累计开行突破14万列 发送货值超5600亿美元",
+   "summary": "今天上午，随着开往俄罗斯莫斯科的X8059次中欧班列从沈阳蒲河站发车，中欧班列累计开行突破14万列，发送货值超5600亿美元。第14万列中欧班列X8059次搭载家用电器、汽车零部件等货品，从沈阳蒲河站发车后一路向北，经满洲里口岸出关，预计9天左右到达莫斯科，这也是沈阳集结中心今年始发的第280列中欧班列。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3183149",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:22"
+   "published_at": "2026-10-22 03:39"
   },
   {
    "category": "finance",
-   "title": "周三（10月21日），美股行业ETF多数收涨，半导体ETF涨1.89%，全球科技股指数ETF、科技行",
-   "summary": "周三（10月21日），美股行业ETF多数收涨，半导体ETF涨1.89%，全球科技股指数ETF、科技行业ETF至少涨1.67%，银行业ETF跌0.09%。",
-   "link": "https://wallstreetcn.com/news/global/3182982",
+   "title": "9月底我国电动汽车充电基础设施总数达到2477.7万个，同比增长37.2%",
+   "summary": "根据国家充电设施监测服务平台数据，截至2026年9月底，我国电动汽车充电基础设施（枪）总数达到2477.7万个，同比增长37.2%。其中，公共充电设施（枪）520.7万个，同比增长16.3%，额定总功率达到2.66亿千瓦，单枪平均功率约为51.10千瓦；私人充电设施（枪）1957.0万个，同比增长44.0%，私人充电设施报装用电容量达到1.67亿千伏安。",
+   "link": "https://wallstreetcn.com/news/global/3183148",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:21"
+   "published_at": "2026-10-22 03:38"
   },
   {
    "category": "finance",
-   "title": "周三（10月21日），彭博电动汽车价格回报指数跌1.08%，报2943.65点。 成分股中，禾赛AD",
-   "summary": "周三（10月21日），彭博电动汽车价格回报指数跌1.08%，报2943.65点。 成分股中，禾赛ADR跌5.72%，小马智行跌4.55%，Ola Electric Mobility Ltd.跌4.18%跌幅第三大，MP材料涨1.15%表现第四，意法半导体米兰股价涨2.46%，特斯拉涨3.41%，安霸股份涨4.4%。",
-   "link": "https://wallstreetcn.com/news/global/3182981",
+   "title": "香港财政司司长陈茂波将于10月22日至24日访问北京。",
+   "summary": "香港财政司司长陈茂波将于10月22日至24日访问北京。",
+   "link": "https://wallstreetcn.com/news/global/3183147",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:20"
+   "published_at": "2026-10-22 03:36"
   },
   {
    "category": "finance",
-   "title": "美国加州：SEC加密提案将削弱州监管权",
-   "summary": "美国加州金融监管机构表示，证券交易委员会（SEC）拟豁免部分数字资产发行免于证券注册要求的提案，将妨碍各州保护投资者。 加州官员在一份致SEC的评论函中称，SEC的计划将优先适用联邦规则、取代州证券法注册要求，使投资者失去针对欺诈性或滥用性发行的保护。该评论函在加州金融保护与创新部周三发布相关声明前已分享给彭博法律。",
-   "link": "https://wallstreetcn.com/news/global/3182980",
+   "title": "临近午盘多只宽基ETF集中放量",
+   "summary": "临近午盘，多只宽基ETF集中放量，中证500ETF南方（510500）半小时成交超30亿，中证1000ETF南方（512100）半小时成交超20亿，创业板ETF易方达（159915）、科创50ETF华夏（588000）成交超76亿元。",
+   "link": "https://wallstreetcn.com/news/global/3183143",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:18"
+   "published_at": "2026-10-22 03:31"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.29%，报13202点。",
-   "summary": "富时A50期指连续夜盘收涨0.29%，报13202点。",
-   "link": "https://wallstreetcn.com/news/global/3182978",
+   "title": "上证指数早盘收报3679.86点，跌0.89%。 深证成指早盘收报11496.07点，跌1.78%。",
+   "summary": "上证指数早盘收报3679.86点，跌0.89%。 深证成指早盘收报11496.07点，跌1.78%。 创业板指早盘收报2620.04点，跌2.77%。 沪深300早盘收报4060.19点，跌1.26%。 科创50早盘收报1321.86点，跌1.60%。 中证500早盘收报6747.89点，跌1.35%。 中证1000早盘收报6680.94点，跌1.46%。",
+   "link": "https://wallstreetcn.com/news/global/3183142",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:15"
+   "published_at": "2026-10-22 03:31"
   },
   {
    "category": "finance",
-   "title": "周三（10月21日）纽约尾盘，标普500股指期货最终涨0.60%，道指期货涨0.73%，纳斯达克10",
-   "summary": "周三（10月21日）纽约尾盘，标普500股指期货最终涨0.60%，道指期货涨0.73%，纳斯达克100股指期货涨1.17%。 罗素2000股指期货涨0.24%。",
-   "link": "https://wallstreetcn.com/news/global/3182976",
+   "title": "10月22日午间收评：创业板指半日跌2.77%，机器人概念股逆势走强",
+   "summary": "1、市场早间震荡调整，沪指盘中跌超1%，创业板指一度跌超3%。机器人概念股逆势活跃，大业股份5连板，鸣志电器、山河智能、南方路机等涨停。军工板块盘中拉升，海洋王5连板，湖南天雁等涨停。下跌方面，算力硬件股下挫，新易盛跌近10%；创新药概念调整，近岸蛋白跌超13%。个股呈现跌多涨少，沪深京三市超4000股飘绿，上午半天成交9280亿。午间收盘沪指跌0.89%，深成指跌1.78%，创业板跌2.77%。",
+   "link": "https://wallstreetcn.com/news/global/3183141",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:12"
+   "published_at": "2026-10-22 03:30"
   },
   {
    "category": "finance",
-   "title": "周三（10月21日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.6748元，",
-   "summary": "周三（10月21日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.6748元，较周二纽约尾盘持平，日内整体交投于6.6796-6.6732元区间。 离岸人民币在周三出现V形反转，北京时间10:30刷新日低，临近结束一天的交易时逼近2022年6月28日盘中最高位6.6686元、当年6月3日顶部6.6170元、当年4月28日顶部6.5863元。",
-   "link": "https://wallstreetcn.com/news/global/3182975",
+   "title": "国债期货早盘收盘，30年期主力合约跌0.08%，10年期主力合约涨0.01%，5年期主力合约涨0.0",
+   "summary": "国债期货早盘收盘，30年期主力合约跌0.08%，10年期主力合约涨0.01%，5年期主力合约涨0.01%，2年期主力合约跌0.00%。",
+   "link": "https://wallstreetcn.com/news/global/3183139",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:11"
+   "published_at": "2026-10-22 03:30"
   },
   {
    "category": "finance",
-   "title": "周三（10月21日）纽约尾盘，现货黄金涨0.38%，报4140.82美元/盎司，北京时间02:30以",
-   "summary": "周三（10月21日）纽约尾盘，现货黄金涨0.38%，报4140.82美元/盎司，北京时间02:30以来出现一波V形反转行情、03:03刷新日低至4105.10美元。 现货白银涨0.07%，报57.9753美元/盎司，03:03曾刷新日低至56.9423美元。 COMEX铜期货跌0.41%，报6.5765美元/磅，16:00出现一波短线加速下跌行情，02:43再次加速下跌。",
-   "link": "https://wallstreetcn.com/news/global/3182972",
+   "title": "宇树科技王兴兴：AI模型的输入输出和真实机器人的对齐是具身智能迈过ChatGPT时刻最核心挑战",
+   "summary": "10月22日，2026世界物理AI大会暨宇树合作伙伴生态大会在杭州举行，宇树科技董事长、总经理兼首席技术官王兴兴在大会主旨演讲中表示，对于顶尖大模型公司，某种意义上，他们内部已经基本实现了模型的自进化。模型自己写程序、采集数据，人只需要适当引导参与。但大家为什么感受不是那么深刻？因为从技术突破到扩散至每个人使用，需要5—10年的时间。物理AI目前已经看到被击穿的苗头。具身智能迈过ChatGPT时刻",
+   "link": "https://wallstreetcn.com/news/global/3183138",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:03"
+   "published_at": "2026-10-22 03:28"
   },
   {
    "category": "finance",
-   "title": "Meta首席财务官：一次性C类股票股息实质上等同于1拆2的股票分割。",
-   "summary": "Meta首席财务官：一次性C类股票股息实质上等同于1拆2的股票分割。",
-   "link": "https://wallstreetcn.com/news/global/3182971",
+   "title": "中微公司全球首台高选择性刻蚀设备顺利付运",
+   "summary": "近日，中微公司宣布：Primo Domingo®气相高选择性刻蚀设备全球首台机顺利付运国内重要集成电路研发制造客户。芯片架构三维化正成为支持芯片持续缩微的重要动能，而高选择性刻蚀工艺是三维器件制造的最关键工艺之一。针对GAA、3D NAND、3D DRAM等器件工艺需求，中微公司在高选择性刻蚀设备领域的重要突破，填补了国内在下一代3D半导体器件制造中关键刻蚀工艺的自主化空白。",
+   "link": "https://wallstreetcn.com/news/global/3183137",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:01"
+   "published_at": "2026-10-22 03:28"
   },
   {
    "category": "finance",
-   "title": "提醒：Meta Platforms分析师电话会议进入问答环节。",
-   "summary": "提醒：Meta Platforms分析师电话会议进入问答环节。",
-   "link": "https://wallstreetcn.com/news/global/3182970",
+   "title": "黑龙江发行7年期普通专项地方债，规模28.8054亿元，发行利率1.5200%，边际倍数5.29倍，",
+   "summary": "黑龙江发行7年期普通专项地方债，规模28.8054亿元，发行利率1.5200%，边际倍数5.29倍，倍数预期1.52； 黑龙江发行30年期普通专项地方债，规模22.4536亿元，发行利率2.1600%，边际倍数18.82倍，倍数预期2.19。",
+   "link": "https://wallstreetcn.com/news/global/3183134",
    "source": "华尔街见闻",
-   "published_at": "2026-10-21 21:01"
+   "published_at": "2026-10-22 03:18"
+  },
+  {
+   "category": "finance",
+   "title": "韩国央行行长申铉松：2028年或可达成通胀目标。",
+   "summary": "韩国央行行长申铉松：2028年或可达成通胀目标。",
+   "link": "https://wallstreetcn.com/news/global/3183131",
+   "source": "华尔街见闻",
+   "published_at": "2026-10-22 03:08"
   }
  ]
 }
