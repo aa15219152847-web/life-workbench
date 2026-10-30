@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-10-30 05:55",
+ "updated_at": "2026-10-30 13:02",
  "ai": [
+  {
+   "category": "ai",
+   "title": "乌克兰战场 AI 机枪炮塔投入实战，可精准拦截高速无人机",
+   "summary": "",
+   "link": "https://www.ithome.com/1/020/131.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 悄悄“带偏”专家：研究显示人类可能把机器观点误认为自己的判断",
+   "summary": "",
+   "link": "https://www.ithome.com/1/020/083.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Qwenputer 问世：把 RISC-V CPU 指令集塞进模型，AI 算数不再靠外部工具",
+   "summary": "",
+   "link": "https://www.ithome.com/1/020/059.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "告别知识截止日：谷歌让 AI 学会“睡觉”，边用边学还不忘旧知识",
@@ -136,224 +160,176 @@
    "link": "https://www.ithome.com/1/018/876.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "美国总统特朗普称将在相关文件中“正式禁用”AI 人工智能一词，改称为“SI 超级智能”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/018/819.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“全球第二图像编辑 AI 模型”：微软 MAI-Image-2.7-Preview 登场，力压谷歌、Meta、xAI",
-   "summary": "",
-   "link": "https://www.ithome.com/1/018/772.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "菲尔兹奖得主博尔彻兹取消计分家庭作业：AI 作弊泛滥，仅线下考试可行",
-   "summary": "",
-   "link": "https://www.ithome.com/1/018/752.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "日本2年期国债收益率下跌2.5个基点至1.880%。",
-   "summary": "日本2年期国债收益率下跌2.5个基点至1.880%。",
-   "link": "https://wallstreetcn.com/news/global/3191015",
+   "title": "2026年中越边境地区地面无线电业务频率协调会谈在昆明举行",
+   "summary": "2026年10月27日至29日，中越边境地区地面无线电业务频率协调会谈在云南省昆明市举行。 会谈期间，双方本着友好协商、互利共赢的原则，就中越边境地区4G/5G公众移动通信系统相关频段的频率协调达成了一系列共识，并就无线电频率管理政策和2027年世界无线电通信大会（WRC-27）议题观点进行了深入交流，为维护中越双方边境地区电波秩序、保障各类无线电业务正常运行奠定基础。",
+   "link": "https://wallstreetcn.com/news/global/3191700",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:52"
+   "published_at": "2026-10-30 13:01"
   },
   {
    "category": "finance",
-   "title": "前三季度全国可再生能源新增装机占全部新增装机比重超七成",
-   "summary": "国家能源局介绍，前三季度全国可再生能源新增装机1.8亿千瓦，占全部新增装机71.7%，风光新增装机占全部新增装机比重近七成；截至9月底，全国可再生能源装机达25.18亿千瓦，同比增长14.6%，约占我国总装机60.94%，光伏发电装机成为装机规模最大的电源品类。",
-   "link": "https://wallstreetcn.com/news/global/3191014",
+   "title": "夜盘期货开盘，原油涨超3%，纯苯、对二甲苯、苯乙烯、沥青、合成橡胶涨超2%，瓶片、乙二醇、PTA、低",
+   "summary": "夜盘期货开盘，原油涨超3%，纯苯、对二甲苯、苯乙烯、沥青、合成橡胶涨超2%，瓶片、乙二醇、PTA、低硫燃油涨超1%；沪银跌超3%，沪锡跌超2%，烧碱、纯碱、沪金跌超1%。",
+   "link": "https://wallstreetcn.com/news/global/3191699",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:50"
+   "published_at": "2026-10-30 13:00"
   },
   {
    "category": "finance",
-   "title": "国产大飞机南航C919首次在大湾区执飞SAF航班",
-   "summary": "10月30日上午，南航CZ3599航班在广州白云国际机场完成可持续航空燃料（SAF）加注并起飞，这是广州白云机场始发的首架SAF航班，实现广州SAF航班“零的突破”，也是粤港澳大湾区首次使用国产大飞机C919执飞SAF航班。",
-   "link": "https://wallstreetcn.com/news/global/3191013",
+   "title": "德国10月调和CPI同比初值 3.3%，预期 3.1%，前值 3.3%。",
+   "summary": "德国10月调和CPI同比初值 3.3%，预期 3.1%，前值 3.3%。",
+   "link": "https://wallstreetcn.com/news/global/3191697",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:50"
+   "published_at": "2026-10-30 13:00"
   },
   {
    "category": "finance",
-   "title": "中国台湾证交所加权股价指数收低2.5%报45,211.83点。",
-   "summary": "中国台湾证交所加权股价指数收低2.5%报45,211.83点。",
-   "link": "https://wallstreetcn.com/news/global/3191011",
+   "title": "德国10月调和CPI环比初值 0.6%，预期 0.1%，前值 0.6%。",
+   "summary": "德国10月调和CPI环比初值 0.6%，预期 0.1%，前值 0.6%。",
+   "link": "https://wallstreetcn.com/news/global/3191695",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:35"
+   "published_at": "2026-10-30 13:00"
   },
   {
    "category": "finance",
-   "title": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山",
-   "summary": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山西汾酒涨超8%，舍得酒业等跟涨。",
-   "link": "https://wallstreetcn.com/news/global/3191008",
+   "title": "德国10月CPI同比初值 3.3%，预期 3%，前值 3.3%。",
+   "summary": "德国10月CPI同比初值 3.3%，预期 3%，前值 3.3%。",
+   "link": "https://wallstreetcn.com/news/global/3191696",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:32"
+   "published_at": "2026-10-30 13:00"
   },
   {
    "category": "finance",
-   "title": "刘金波不再担任中投公司执行董事职务",
-   "summary": "据中投公司消息，国务院决定，刘金波不再担任中投公司执行董事职务。（界面新闻）",
-   "link": "https://wallstreetcn.com/news/global/3191007",
+   "title": "德国10月CPI环比初值 0.6%，预期 0.1%，前值 0.6%。",
+   "summary": "德国10月CPI环比初值 0.6%，预期 0.1%，前值 0.6%。",
+   "link": "https://wallstreetcn.com/news/global/3191694",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:28"
+   "published_at": "2026-10-30 13:00"
   },
   {
    "category": "finance",
-   "title": "三星电机获得价值8793亿韩元的MLCC订单",
-   "summary": "根据监管文件，三星电机赢得一份约8793亿韩元的合同，将向一家未具名的大型全球企业供应多层陶瓷电容器（MLCC）。合同期限为2026年12月至2027年12月。",
-   "link": "https://wallstreetcn.com/news/global/3191006",
+   "title": "欧洲央行要求欧盟领导人启动寻找首席经济学家连恩的继任者。（彭博）",
+   "summary": "欧洲央行要求欧盟领导人启动寻找首席经济学家连恩的继任者。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3191693",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:27"
+   "published_at": "2026-10-30 12:58"
   },
   {
    "category": "finance",
-   "title": "中国30年期国债期货跌幅扩大至0.76%，创3月9日以来最大跌幅。",
-   "summary": "中国30年期国债期货跌幅扩大至0.76%，创3月9日以来最大跌幅。",
-   "link": "https://wallstreetcn.com/news/global/3191005",
+   "title": "中德人士共话汽车产业转型下合作新机遇",
+   "summary": "第10届中德汽车大会30日在德国下萨克森州沃尔夫斯堡市举行，约600名中德企业、政府和科研机构代表与会，探讨汽车产业快速转型下双方合作新机遇。",
+   "link": "https://wallstreetcn.com/news/global/3191692",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:26"
+   "published_at": "2026-10-30 12:57"
   },
   {
    "category": "finance",
-   "title": "科创板ETF总规模3400亿元 占沪市股票ETF比例逾20%",
-   "summary": "截至10月29日，科创板ETF上市交易共134只，总规模近3400亿元，占沪市股票ETF总规模的21%，较2025年底提升超10个百分点。在市场回调的背景下，科创板ETF近三周累计净流入近500亿元，呈现出鲜明的“越跌越买”左侧布局特征，其中，科创50相关ETF净流入超380亿元。（证券时报）",
-   "link": "https://wallstreetcn.com/news/global/3191004",
+   "title": "TCL中环：筹划发行股份购买资产，11月2日起停牌",
+   "summary": "TCL中环公告，公司正筹划发行股份购买资产暨关联交易事项，预计构成重大资产重组，不构成重组上市；标的资产为中环领先半导体科技股份有限公司除上市公司所持股权以外的剩余全部或部分少数股权；公司已与主要交易对方签署《重组意向协议》；公司股票自2026年11月2日开市起停牌，预计在不超过10个交易日内披露本次交易方案，即在2026年11月16日前披露相关信息。",
+   "link": "https://wallstreetcn.com/news/global/3191690",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:19"
+   "published_at": "2026-10-30 12:55"
   },
   {
    "category": "finance",
-   "title": "恒生指数涨幅扩大至近2%，蒙牛乳业涨超8%创近一年新高，美团、泡泡玛特、小米集团涨超4%。",
-   "summary": "恒生指数涨幅扩大至近2%，蒙牛乳业涨超8%创近一年新高，美团、泡泡玛特、小米集团涨超4%。",
-   "link": "https://wallstreetcn.com/news/global/3191002",
+   "title": "日本鸡蛋价格再创新高",
+   "summary": "日本国内市场鸡蛋价格近日再创新高，且由于禽流感季来临和新年前后消费旺季将至，蛋价预计可能继续高企。日本农林水产省本月19日至21日的全国范围调查结果显示，每盒10个装鸡蛋平均价格为312日元（约合13.2元人民币），比9月上涨3日元，为2003年开始这项调查以来新高。另外，鸡腿肉和进口牛肉的价格也与最高纪录持平。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3191689",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:14"
+   "published_at": "2026-10-30 12:39"
   },
   {
    "category": "finance",
-   "title": "A股CRO概念板块午后拉升，万邦医药、睿智医药涨停，近岸蛋白、皓元医药涨超15%，药石科技、美好医疗",
-   "summary": "A股CRO概念板块午后拉升，万邦医药、睿智医药涨停，近岸蛋白、皓元医药涨超15%，药石科技、美好医疗、博腾股份等涨超10%。",
-   "link": "https://wallstreetcn.com/news/global/3191000",
+   "title": "五角大楼被曝要求欧洲盟友降低对俄强硬言论调门",
+   "summary": "近期有知情人士披露，美国国防部官员过去数周要求一些在欧洲的北约盟友公开谈论所谓俄罗斯威胁时措辞更加克制，理由是这类强硬言论有损欧洲安全。",
+   "link": "https://wallstreetcn.com/news/global/3191688",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:08"
+   "published_at": "2026-10-30 12:39"
   },
   {
    "category": "finance",
-   "title": "A股午后三大指数拉升，A500ETF华泰柏瑞，中证500ETF南方、沪深300ETF嘉实等多只宽基E",
-   "summary": "A股午后三大指数拉升，A500ETF华泰柏瑞，中证500ETF南方、沪深300ETF嘉实等多只宽基ETF翻红。",
-   "link": "https://wallstreetcn.com/news/global/3190999",
+   "title": "俄罗斯：计划将柴油出口禁令延长至2027年1月，将对柴油出口禁令作出例外安排。 计划10月出口51万",
+   "summary": "俄罗斯：计划将柴油出口禁令延长至2027年1月，将对柴油出口禁令作出例外安排。 计划10月出口51万吨柴油，11月出口215万吨柴油。",
+   "link": "https://wallstreetcn.com/news/global/3191684",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:07"
+   "published_at": "2026-10-30 12:38"
   },
   {
    "category": "finance",
-   "title": "A股三大指数全部拉升翻红，创业板指早盘一度跌超3%，沪深京三市上涨个股超3900只。",
-   "summary": "A股三大指数全部拉升翻红，创业板指早盘一度跌超3%，沪深京三市上涨个股超3900只。",
-   "link": "https://wallstreetcn.com/news/global/3190998",
+   "title": "工业富联：拟推不超20亿元员工持股计划",
+   "summary": "工业富联公告称，公司发布2026年员工持股计划草案，拟筹集资金总额不超过20亿元，参与总人数不超过1.2万人，股票来源为二级市场购买。该计划存续期不超过84个月，分三期解锁，解锁比例分别为50%、30%、20%，并设定了2027-2029年净利润累计不低于2400亿元的业绩考核目标。",
+   "link": "https://wallstreetcn.com/news/global/3191683",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:03"
+   "published_at": "2026-10-30 12:37"
   },
   {
    "category": "finance",
-   "title": "iPhone Duo裂屏风波扰动销售行情？产业链企业最新回应供货情况",
-   "summary": "苹果首款折叠屏手机iPhone Duo开售数日，全球多地用户反馈iPhone Duo屏幕开裂。官方称已留意到有极少数产品的内屏出现问题，可进行换机处理。对于目前iPhone Duo产业链上下游的供货情况，多家企业进行了回应：",
-   "link": "https://wallstreetcn.com/news/global/3190996",
+   "title": "习近平会见瑞士联邦主席帕姆兰",
+   "summary": "据新华社，10月30日下午，国家主席习近平在北京人民大会堂会见来华进行工作访问的瑞士联邦主席帕姆兰。",
+   "link": "https://wallstreetcn.com/news/global/3191681",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:01"
+   "published_at": "2026-10-30 12:31"
   },
   {
    "category": "finance",
-   "title": "起亚第三季度营业利润1.82万亿韩元，预估2.43万亿韩元。 第三季度净利润1.29万亿韩元，预估2",
-   "summary": "起亚第三季度营业利润1.82万亿韩元，预估2.43万亿韩元。 第三季度净利润1.29万亿韩元，预估2.06万亿韩元。 第三季度销售额31.60万亿韩元，预估31.81万亿韩元。",
-   "link": "https://wallstreetcn.com/news/global/3191009",
+   "title": "美国三季度劳工成本指数季环比 0.8%，预期 0.8%，前值 0.9%。",
+   "summary": "美国三季度劳工成本指数季环比 0.8%，预期 0.8%，前值 0.9%。",
+   "link": "https://wallstreetcn.com/news/global/3191680",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:00"
+   "published_at": "2026-10-30 12:30"
   },
   {
    "category": "finance",
-   "title": "日本9月新屋开工年化户数 71.4万户，预期 75.1万户，前值 75.3万户。",
-   "summary": "日本9月新屋开工年化户数 71.4万户，预期 75.1万户，前值 75.3万户。",
-   "link": "https://wallstreetcn.com/news/global/3190995",
+   "title": "加拿大8月GDP环比 0%，预期 0.2%，前值 0%。",
+   "summary": "加拿大8月GDP环比 0%，预期 0.2%，前值 0%。",
+   "link": "https://wallstreetcn.com/news/global/3191679",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:00"
+   "published_at": "2026-10-30 12:30"
   },
   {
    "category": "finance",
-   "title": "日本9月新屋开工同比 -2.74%，预期 2.9%，前值 6.1%。",
-   "summary": "日本9月新屋开工同比 -2.74%，预期 2.9%，前值 6.1%。",
-   "link": "https://wallstreetcn.com/news/global/3190994",
+   "title": "加拿大8月GDP同比 1.5%，预期 1.7%，前值 1.4%。",
+   "summary": "加拿大8月GDP同比 1.5%，预期 1.7%，前值 1.4%。",
+   "link": "https://wallstreetcn.com/news/global/3191678",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 05:00"
+   "published_at": "2026-10-30 12:30"
   },
   {
    "category": "finance",
-   "title": "欣旺达：公司全固态电池目前正在对接客户开展送样测试",
-   "summary": "欣旺达在互动平台表示，公司全固态电池已完成产品方案与工艺验证，目前正在对接客户开展送样测试。",
-   "link": "https://wallstreetcn.com/news/global/3190992",
+   "title": "三星电子拟从三星显示手中收购TCL华星10.16%股权，交易额9.604亿美元。",
+   "summary": "三星电子拟从三星显示手中收购TCL华星10.16%股权，交易额9.604亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3191677",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:57"
+   "published_at": "2026-10-30 12:28"
   },
   {
    "category": "finance",
-   "title": "黑石据称计划出售东京市中心写字楼，作价19亿美元。（彭博）",
-   "summary": "黑石据称计划出售东京市中心写字楼，作价19亿美元。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3190991",
+   "title": "伊朗称一艘超级油轮周五在霍尔木兹海峡触雷。",
+   "summary": "伊朗称一艘超级油轮周五在霍尔木兹海峡触雷。",
+   "link": "https://wallstreetcn.com/news/global/3191674",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:47"
+   "published_at": "2026-10-30 12:25"
   },
   {
    "category": "finance",
-   "title": "国家能源局：加快重大能源项目建设 扩大能源领域有效投资",
-   "summary": "10月30日，国家能源局召开党组扩大会议暨党的建设工作领导小组会议。会议要求，要紧盯“十五五”能源总体规划和各专项规划落地实施，加快重大能源项目建设，扩大能源领域有效投资，促进经济持续向新向优向好；要统筹抓好安全生产和防灾减灾救灾工作，拧紧责任链条，紧盯关键环节，坚决守住不发生重特大事故的底线；要全力保障民生用能，认真落实党中央和国务院部署要求，紧盯煤炭增产保供稳价、迎峰度冬电力、天然气保供等重点",
-   "link": "https://wallstreetcn.com/news/global/3190990",
+   "title": "埃克森美孚CEO：到2030年公司投资将超过1000亿美元。 预计未来约10%的投资将投向炼油业务。",
+   "summary": "埃克森美孚CEO：到2030年公司投资将超过1000亿美元。 预计未来约10%的投资将投向炼油业务。",
+   "link": "https://wallstreetcn.com/news/global/3191672",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:41"
+   "published_at": "2026-10-30 12:21"
   },
   {
    "category": "finance",
-   "title": "韩国首尔综指短线拉升，日内跌幅收窄至3%，此前一度跌超5%。",
-   "summary": "韩国首尔综指短线拉升，日内跌幅收窄至3%，此前一度跌超5%。",
-   "link": "https://wallstreetcn.com/news/global/3190989",
+   "title": "金融监管总局：严禁信托公司开展违规通道业务，严禁开展资金池业务",
+   "summary": "国家金融监督管理总局有关司局负责人就《资产管理信托管理办法》答记者问。《办法》在规范重点业务领域方面有哪些要求？金融监管总局有关司局负责人表示，一是严禁开展违规通道业务。明确资产管理信托应当由信托公司自主管理，信托公司不得将管理职责让渡给其他机构或者个人，禁止信托公司以信托产品为其他机构或者个人从事违法违规等活动提供便利。限制单个投资者投资同一信托产品的比例。列示四项禁止性规定，进一步明确信托公司",
+   "link": "https://wallstreetcn.com/news/global/3191671",
    "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:36"
-  },
-  {
-   "category": "finance",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 日本股市收盘之后 铠侠发布财报； ② 14:30 法国三季度GDP初值，日本央行行长植田和男召开货币政策新闻发布会； ③ 欧洲股市开盘之前 阿斯利康、英国石油等发布业绩报告； ④ 15:45 法国10月CPI初值； ⑤ 16:55 德国10月失业率； ⑥ 17:00 德国三季度GDP初值，欧洲央行管理委员会成员兼意大利央行行长Fabio Panetta讲话； ⑦ 18:00 欧元区三季度GDP",
-   "link": "https://wallstreetcn.com/news/global/3190988",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:35"
-  },
-  {
-   "category": "finance",
-   "title": "早间要闻汇总",
-   "summary": "沪指低开回升跌0.3%，医药、消费股集体走强。 恒指半日涨1.6%，恒生科技指数涨1.4%，京东健康涨超5%，美团涨近5%。 全球科技股下跌！纳指期货跌2%，韩国股市一度跌超5%，亚洲芯片股重挫。 日本央行维持基准利率在1.25%不变，警告通胀超调风险上升，维持渐进加息立场。 63亿美元！币安遭“史上最大”黑客洗劫，暂停全部存储和提取功能，承诺将承担所有损失。 恒大物业易主，太盟40.26亿港元入",
-   "link": "https://wallstreetcn.com/news/global/3190987",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:35"
-  },
-  {
-   "category": "finance",
-   "title": "辽宁发行10年期其他专项地方债，规模2.2300亿元，发行利率1.6500%，边际倍数2.29倍，倍",
-   "summary": "辽宁发行10年期其他专项地方债，规模2.2300亿元，发行利率1.6500%，边际倍数2.29倍，倍数预期1.65； 辽宁发行15年期其他专项地方债，规模8.9200亿元，发行利率1.9500%，边际倍数1.97倍，倍数预期1.95； 辽宁发行20年期其他专项地方债，规模38.4000亿元，发行利率2.1400%，边际倍数3.56倍，倍数预期2.13； 辽宁发行30年期其他专项地方债，规模26.4",
-   "link": "https://wallstreetcn.com/news/global/3190985",
-   "source": "华尔街见闻",
-   "published_at": "2026-10-30 04:22"
+   "published_at": "2026-10-30 12:18"
   }
  ]
 }
