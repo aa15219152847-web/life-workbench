@@ -1,6 +1,54 @@
 {
- "updated_at": "2026-11-03 01:01",
+ "updated_at": "2026-11-03 14:23",
  "ai": [
+  {
+   "category": "ai",
+   "title": "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相",
+   "summary": "",
+   "link": "https://www.ithome.com/1/021/808.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "渣打银行 CEO 温特斯谈 AI 冲击就业：恐惧客观存在，培训是解药",
+   "summary": "",
+   "link": "https://www.ithome.com/1/021/766.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "《纽约时报》等媒体起诉浏览器公司 Brave，指控其未经授权抓取版权内容并转售给 AI 公司",
+   "summary": "",
+   "link": "https://www.ithome.com/1/021/629.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "消息称高盛限制交易员与银行家使用部分 AI 工具，引发员工不满",
+   "summary": "",
+   "link": "https://www.ithome.com/1/021/597.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "OpenAI 发布 LifeVal 基准：从选幼儿园到报税，测试 AI 的“人间烟火”技能",
+   "summary": "",
+   "link": "https://www.ithome.com/1/021/336.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "ChatGPT Classic 官宣“退役”，2027 年 1 月底正式停服",
+   "summary": "",
+   "link": "https://www.ithome.com/1/021/330.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "沃顿教授：转行技工难以抵御 AI 冲击，四类核心能力才是破局关键",
@@ -104,224 +152,136 @@
    "link": "https://www.ithome.com/1/020/131.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 悄悄“带偏”专家：研究显示人类可能把机器观点误认为自己的判断",
-   "summary": "",
-   "link": "https://www.ithome.com/1/020/083.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Qwenputer 问世：把 RISC-V CPU 指令集塞进模型，AI 算数不再靠外部工具",
-   "summary": "",
-   "link": "https://www.ithome.com/1/020/059.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "告别知识截止日：谷歌让 AI 学会“睡觉”，边用边学还不忘旧知识",
-   "summary": "",
-   "link": "https://www.ithome.com/1/020/044.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "推出不到两年，谷歌 AI 编程助手 Jules 将逐步停止服务",
-   "summary": "",
-   "link": "https://www.ithome.com/1/019/963.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 推理引爆全球 NAND 需求：闪迪称“客户低估闪存容量需求”，长单排至 2030 年",
-   "summary": "",
-   "link": "https://www.ithome.com/1/019/924.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "借钱搞 AI：消息称微软计划通过美国债券发行至少筹资 250 亿美元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/019/753.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "台湾证交所加权股价指数盘初下跌1.1%至44,423.41点。",
-   "summary": "台湾证交所加权股价指数盘初下跌1.1%至44,423.41点。",
-   "link": "https://wallstreetcn.com/news/global/3192923",
+   "title": "王毅分别会见来华出席澜湄合作第十一次外长会的泰国、老挝、缅甸客人",
+   "summary": "中共中央政治局委员、外交部长王毅在北京分别会见来华工作访问并出席澜湄合作第十一次外长会的泰国副总理兼外长西哈萨，来华出席澜湄合作第十一次外长会的老挝副总理兼外长通沙万和缅甸国家计划、投资与对外经济部部长昂觉霍。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3193409",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 01:00"
+   "published_at": "2026-11-03 14:22"
   },
   {
    "category": "finance",
-   "title": "商品期货开盘，原油主力合约跌超7%，LU燃油、燃料油、沥青跌超6%，纯苯、液化气、苯乙烯跌超5%。沪",
-   "summary": "商品期货开盘，原油主力合约跌超7%，LU燃油、燃料油、沥青跌超6%，纯苯、液化气、苯乙烯跌超5%。沪银涨超3%，不锈钢涨超2%。",
-   "link": "https://wallstreetcn.com/news/global/3192922",
+   "title": "Meta寻求通过发行美元债募集150亿美元。",
+   "summary": "Meta寻求通过发行美元债募集150亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3193406",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 01:00"
+   "published_at": "2026-11-03 14:12"
   },
   {
    "category": "finance",
-   "title": "富时中国A50指数期货盘初跌0.39%，上一个交易日夜盘收跌0.40%。",
-   "summary": "富时中国A50指数期货盘初跌0.39%，上一个交易日夜盘收跌0.40%。",
-   "link": "https://wallstreetcn.com/news/global/3192920",
+   "title": "潘功胜：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线",
+   "summary": "十四届全国人大常委会第二十五次会议3日上午在北京人民大会堂举行第二次全体会议。赵乐际委员长出席。 会议听取了中国人民银行行长潘功胜受国务院委托作的关于金融工作情况的报告。报告介绍了2025年10月以来金融工作主要进展及成效、当前经济金融形势和问题挑战，提出下一步工作考虑：继续实施好适度宽松的货币政策，为经济持续向新向优向好发展营造适宜的货币金融环境；进一步加强和完善金融监管，不断增强监管质效；提升",
+   "link": "https://wallstreetcn.com/news/global/3193405",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 01:00"
+   "published_at": "2026-11-03 14:12"
   },
   {
    "category": "finance",
-   "title": "力箭二号遥二运载火箭发射成功",
-   "summary": "11月3日8时15分，力箭二号遥二运载火箭在东风商业航天创新试验区发射升空，将搭载的千帆极轨21组卫星顺利送入预定轨道，飞行试验任务取得圆满成功。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3192918",
+   "title": "SoundHound AI：宣布与LG电子达成战略合作，以扩大美国LG智能电视上餐厅和商家的参与范围",
+   "summary": "SoundHound AI：宣布与LG电子达成战略合作，以扩大美国LG智能电视上餐厅和商家的参与范围。 合作目标最初瞄准美国2000万台LG智能电视覆盖量。",
+   "link": "https://wallstreetcn.com/news/global/3193404",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:51"
+   "published_at": "2026-11-03 14:11"
   },
   {
    "category": "finance",
-   "title": "两市融资余额减少127.04亿元",
-   "summary": "截至11月2日，上交所融资余额报11922.48亿元，较前一交易日减少66.54亿元；深交所融资余额报11028.60亿元，较前一交易日减少60.50亿元；两市合计22951.08亿元，较前一交易日减少127.04亿元。",
-   "link": "https://wallstreetcn.com/news/global/3192916",
+   "title": "报道：Anthropic向IPO投资者大谈Claude的芯片设计能力",
+   "summary": "Anthropic的人工智能模型此前已帮助发现严重的网络安全漏洞，并改变了软件编程行业。如今，该公司正在探索其模型在陌生领域能够带来多大优势：设计自己的AI芯片。 据知情人士透露，Anthropic正准备于本月晚些时候启动首次公开募股（IPO），届时公司估值可能达到1.5万亿美元。在近期与投资者举行的会议上，该公司表示，其新成立的15人芯片设计团队已经开始使用自家的Claude模型，开展定制芯片的",
+   "link": "https://wallstreetcn.com/news/global/3193402",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:49"
+   "published_at": "2026-11-03 14:05"
   },
   {
    "category": "finance",
-   "title": "美元兑离岸人民币短线拉升约200点，最高报6.6664元，此前中国人民银行决定上调金融机构外汇存款准",
-   "summary": "美元兑离岸人民币短线拉升约200点，最高报6.6664元，此前中国人民银行决定上调金融机构外汇存款准备金率。",
-   "link": "https://wallstreetcn.com/news/global/3192913",
+   "title": "王毅同菲律宾外长拉扎罗通电话",
+   "summary": "中共中央政治局委员、外交部长王毅3日应约同菲律宾外交部长拉扎罗通电话。 王毅表示，当前中菲关系面临恶意干扰，菲少数政客出于政治偏见和一己私利，一再攻击抹黑中国，踩踏中方红线，将正常的经贸人文交流政治化，侵害中国在菲人员和机构的正当权益。这种恶行丧失理智，不可容忍，也损害菲的国际形象。菲方应加强对有关人员的约束，在对华政策上发出理性、统一的声音。中方维护主权和领土完整、实现国家统一的意志坚定不移。菲",
+   "link": "https://wallstreetcn.com/news/global/3193399",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:45"
+   "published_at": "2026-11-03 13:56"
   },
   {
    "category": "finance",
-   "title": "中国央行：自11月15日起上调金融机构外汇存款准备金率2个百分点",
-   "summary": "为加强金融机构外汇流动性管理，中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4％提高到6％。",
-   "link": "https://wallstreetcn.com/news/global/3192911",
+   "title": "北约证实将与法德英美代表在布鲁塞尔讨论乌克兰问题",
+   "summary": "北约发言人艾莉森·哈特3日向新华社记者证实，北约代表将于本周晚些时候在比利时布鲁塞尔与法国、德国、英国和美国代表会面，讨论如何推动“公正、持久地”结束乌克兰战事。 哈特在给新华社的邮件回复中表示，此次会谈将延续此前在美国迈阿密和挪威奥斯陆进行的讨论。 北约方面未透露此次会谈的具体日期、与会人员及议程。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3193397",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:42"
+   "published_at": "2026-11-03 13:48"
   },
   {
    "category": "finance",
-   "title": "朝鲜驳斥美方加密货币盗窃指控",
-   "summary": "据朝中社3日报道，朝鲜劳动党中央委员会部长金与正2日发表谈话说，美国联邦调查局声称所谓朝鲜“支援”的黑客组织参与加密货币交易平台“币安”数十亿美元加密货币盗窃事件，企图诋毁朝鲜为“网络犯罪国家”。",
-   "link": "https://wallstreetcn.com/news/global/3192910",
+   "title": "广西：充分释放资源禀赋优势 重点引进精深加工、创新型、高附加值等优质项目",
+   "summary": "广西壮族自治区招商引资暨抓项目促投资工作推进会在南宁召开，自治区主席韦韬出席会议并讲话。",
+   "link": "https://wallstreetcn.com/news/global/3193396",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:39"
+   "published_at": "2026-11-03 13:46"
   },
   {
    "category": "finance",
-   "title": "甲骨文即将以11%的折扣发行100亿美元股票， 甲骨文预计将以每股116美元的价格发行股票。（彭博）",
-   "summary": "甲骨文即将以11%的折扣发行100亿美元股票， 甲骨文预计将以每股116美元的价格发行股票。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3192909",
+   "title": "世界互联网大会举行第一届理事会第十次会议",
+   "summary": "世界互联网大会第一届理事会第十次会议于浙江乌镇召开。会议由世界互联网大会理事长、中国国家互联网信息办公室主任庄荣文主持。",
+   "link": "https://wallstreetcn.com/news/global/3193391",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:30"
+   "published_at": "2026-11-03 13:37"
   },
   {
    "category": "finance",
-   "title": "LG能源第三季度营业利润7560亿韩元，销售额9.64万亿韩元。",
-   "summary": "LG能源第三季度营业利润7560亿韩元，销售额9.64万亿韩元。",
-   "link": "https://wallstreetcn.com/news/global/3192906",
+   "title": "欧洲天然气价格下跌超过8%，至86.9欧元/兆瓦时。",
+   "summary": "欧洲天然气价格下跌超过8%，至86.9欧元/兆瓦时。",
+   "link": "https://wallstreetcn.com/news/global/3193390",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:23"
+   "published_at": "2026-11-03 13:35"
   },
   {
    "category": "finance",
-   "title": "迪士尼计划裁员数千人，管理层被要求削减20%成本。",
-   "summary": "迪士尼计划裁员数千人，管理层被要求削减20%成本。",
-   "link": "https://wallstreetcn.com/news/global/3192905",
+   "title": "国晟科技：重要控股子公司业务临时停产",
+   "summary": "国晟科技公告，公司光伏业务板块受行业供需情况、订单亏损、国内装机阶段性回落、海外贸易环境趋紧等多重压力的影响，故公司光伏业务订单急剧下降，营业收入大幅缩减。目前，光伏业务板块的主要子公司安徽国晟新能源科技有限公司、江苏国晟世安新能源有限公司、安徽乾景宇辰新能源有限公司没有正在生产的订单，已于2026年9月8日停产，截至本公告披露日，仍处于临时停产状态。若公司未能在2026年12月7日之前恢复生产，",
+   "link": "https://wallstreetcn.com/news/global/3193389",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:22"
+   "published_at": "2026-11-03 13:34"
   },
   {
    "category": "finance",
-   "title": "韩国央行预计11月通胀率将维持在2%区间的高段。",
-   "summary": "韩国央行预计11月通胀率将维持在2%区间的高段。",
-   "link": "https://wallstreetcn.com/news/global/3192904",
+   "title": "国际油价快速走低，WTI原油日内跌幅达2.0%，报94.37美元/桶。布伦特原油日内跌幅达2.5%，",
+   "summary": "国际油价快速走低，WTI原油日内跌幅达2.0%，报94.37美元/桶。布伦特原油日内跌幅达2.5%，报101.96美元/桶。",
+   "link": "https://wallstreetcn.com/news/global/3193388",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:14"
+   "published_at": "2026-11-03 13:32"
   },
   {
    "category": "finance",
-   "title": "韩国首尔综指跌幅扩大至3.1%。",
-   "summary": "韩国首尔综指跌幅扩大至3.1%。",
-   "link": "https://wallstreetcn.com/news/global/3192903",
+   "title": "百度首次披露世界模型Apollo World",
+   "summary": "百度首次披露面向物理AI的智能体驱动全模态世界模型Apollo World。该模型将虚拟场景内所有交通参与者建模为具备决策与交互能力的AI智能体，支持无人车在虚拟城市任意起终点通行，已用于萝卜快跑全球化测试与验证。（界面）",
+   "link": "https://wallstreetcn.com/news/global/3193387",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:06"
+   "published_at": "2026-11-03 13:30"
   },
   {
    "category": "finance",
-   "title": "韩国首尔综指低开2.5%。 日本股市因假期休市。",
-   "summary": "韩国首尔综指低开2.5%。 日本股市因假期休市。",
-   "link": "https://wallstreetcn.com/news/global/3192902",
+   "title": "住建部：高质量开展城市更新和乡村人居环境改善，推动房地产高质量发展",
+   "summary": "住房城乡建设部党组召开党组（扩大）会议。会议强调，多出惠民之策，多做民生实事，高质量开展城市更新和乡村人居环境改善，推动房地产高质量发展，加快建筑业提质升级，系统推进好房子、好小区、好社区、好城区“四好”建设，建设创新、宜居、美丽、韧性、文明、智慧的现代化人民城市，不断增强人民群众的获得感、幸福感、安全感。（中国建设报）",
+   "link": "https://wallstreetcn.com/news/global/3193385",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:00"
+   "published_at": "2026-11-03 13:27"
   },
   {
    "category": "finance",
-   "title": "中国即将发行或正在发行的国债和政策性金融债",
-   "summary": "中国即将发行或正在发行的国债和政策性金融债",
-   "link": "https://wallstreetcn.com/news/global/3192901",
+   "title": "吉利发布新一代甲醇电混技术，首搭银河星耀6 E-fuel",
+   "summary": "11月3日，吉利发布新一代甲醇电混技术，首搭车型银河星耀6 E-fuel上市。该系统兼容甲醇、汽油和电能。吉利称，其预压高能点火技术可实现近零下40℃一次点火成功，无需汽油预热，解决甲醇低温启动难题，并通过耐醇材料应对腐蚀问题；新车百公里用醇成本低至20元，较燃油车低一半以上、较常规插混低35%以上。新车共3款车型，限时焕新价7.68万元起。吉利披露，自2005年布局甲醇技术以来，累计投入超百亿元",
+   "link": "https://wallstreetcn.com/news/global/3193384",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:00"
+   "published_at": "2026-11-03 13:24"
   },
   {
    "category": "finance",
-   "title": "中国即将发行或正在发行的地方政府债",
-   "summary": "中国即将发行或正在发行的地方政府债",
-   "link": "https://wallstreetcn.com/news/global/3192900",
+   "title": "三部门部署农业品牌保护专项行动",
+   "summary": "从农业农村部获悉，农业农村部、市场监管总局、国家知识产权局近日联合召开农业品牌保护专项行动视频部署会指出，要加强跨部门协作、压实各级责任，合力推进农业品牌保护专项行动，提升农业品牌培育、管理和保护水平。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3193380",
    "source": "华尔街见闻",
-   "published_at": "2026-11-03 00:00"
-  },
-  {
-   "category": "finance",
-   "title": "万物云与万科订立债务清偿协议 总代价约6.62亿元人民币",
-   "summary": "据港交所公告，万物云与由控股股东万科最终控制或有关联的各卖方及债务人订立一系列债务清偿协议。各卖方及债务人同意通过向万物云若干附属公司转让物业或车位的方式，以结清若干应付款项。该等债务清偿协议的总计代价约为6.62亿元人民币。收购代价中用于结清各卖方及债务人欠付本集团若干附属公司应付款项的金额约为6.59亿元人民币。",
-   "link": "https://wallstreetcn.com/news/global/3192899",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-02 23:55"
-  },
-  {
-   "category": "finance",
-   "title": "香港金管局总裁余伟文称，今天公布的第三季度经济增长数据会不错；预计外汇基金有良好表现。",
-   "summary": "香港金管局总裁余伟文称，今天公布的第三季度经济增长数据会不错；预计外汇基金有良好表现。",
-   "link": "https://wallstreetcn.com/news/global/3192898",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-02 23:51"
-  },
-  {
-   "category": "finance",
-   "title": "OpenAI称前美国陆军部长Dan Driscoll将加入该公司，将担任OpenAI国家安全现代化高",
-   "summary": "OpenAI称前美国陆军部长Dan Driscoll将加入该公司，将担任OpenAI国家安全现代化高级顾问。",
-   "link": "https://wallstreetcn.com/news/global/3192897",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-02 23:42"
-  },
-  {
-   "category": "finance",
-   "title": "预测市场交易员现在认为：民主党赢得美国参议院的概率接近75%",
-   "summary": "民主党在预测市场平台Kalshi上的势头正在增强。周一，交易员认为该党赢得美国参议院控制权的概率达到74%——这是该市场自开放以来民主党获得的最髙赔率。此次赔率上升的背景是，《纽约时报》上周日报道称，该报与锡耶纳大学联合开展的民调显示，民主党在多个摇摆州领先，增强了其通往参议院多数席位的可能性。",
-   "link": "https://wallstreetcn.com/news/global/3192895",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-02 23:35"
-  },
-  {
-   "category": "finance",
-   "title": "周二亚太盘初，纳斯达克100股指期货涨超0.2%，科技股Nebius Group涨超2.5%，闪迪涨",
-   "summary": "周二亚太盘初，纳斯达克100股指期货涨超0.2%，科技股Nebius Group涨超2.5%，闪迪涨2.2%，AMD、SK海力士ADR、美光、西部数据至少涨1.2%，苹果跌超2.9%，Palantir跌3.1%。 ETF QQQ盘后转而涨0.5%。",
-   "link": "https://wallstreetcn.com/news/global/3192890",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-02 23:15"
+   "published_at": "2026-11-03 13:19"
   }
  ]
 }
