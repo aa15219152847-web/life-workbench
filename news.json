@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-04 06:33",
+ "updated_at": "2026-11-04 19:49",
  "ai": [
+  {
+   "category": "ai",
+   "title": "陶哲轩警告：人类把思考交给 AI，危险可能很快到来",
+   "summary": "",
+   "link": "https://www.ithome.com/1/022/440.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "全球最大视频平台 YouTube 推广 AI 配乐工具，帮创作者化解音频版权纠纷",
@@ -144,184 +152,136 @@
    "link": "https://www.ithome.com/1/020/409.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "不是字节跳动：联发科拿下第二家 AI 芯片大客户，2028 年量产",
-   "summary": "",
-   "link": "https://www.ithome.com/1/020/400.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "【科创综指涨近10%，科创宽基大反攻】午后科创综指涨近10%，科创100ETF鹏华、 科创100ET",
-   "summary": "【科创综指涨近10%，科创宽基大反攻】午后科创综指涨近10%，科创100ETF鹏华、 科创100ETF国泰等多只科创100ETF涨超10%。科创50ETF易方达、科创50ETF广发、科创50ETF汇添富等多只科创50ETF涨超10%。",
-   "link": "https://wallstreetcn.com/news/global/3193915",
+   "title": "WTI 12月原油期货收跌7.97美元，跌幅超过8.29%，报88.12美元/桶，逼近10月7日收报",
+   "summary": "WTI 12月原油期货收跌7.97美元，跌幅超过8.29%，报88.12美元/桶，逼近10月7日收报87.55美元、9月4日收报85.46美元，北京时间17:10以来平缓地持续下跌，23:52-01:38加速下跌；较10月30日收盘价累计回撤超过15.36%。 NYMEX 12月天然气期货收报2.9590美元/百万英热单位。 NYMEX 12月汽油期货收报2.7286美元/加仑，NYMEX 12月",
+   "link": "https://wallstreetcn.com/news/global/3194470",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:32"
+   "published_at": "2026-11-04 19:30"
   },
   {
    "category": "finance",
-   "title": "日经225指数收跌1.4%，报62,188.63点。 日本东证指数收跌0.9%，报3,895.38点",
-   "summary": "日经225指数收跌1.4%，报62,188.63点。 日本东证指数收跌0.9%，报3,895.38点。 韩国KOSPI指数收涨0.62%，报5683.67点。",
-   "link": "https://wallstreetcn.com/news/global/3193913",
+   "title": "欧洲央行管委兼法国央行行长Moulin：对（法国）政府提高受监管储蓄上限的打算表示怀疑。",
+   "summary": "欧洲央行管委兼法国央行行长Moulin：对（法国）政府提高受监管储蓄上限的打算表示怀疑。",
+   "link": "https://wallstreetcn.com/news/global/3194468",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:31"
+   "published_at": "2026-11-04 19:23"
   },
   {
    "category": "finance",
-   "title": "A股新易盛盘中涨超15%。",
-   "summary": "A股新易盛盘中涨超15%。",
-   "link": "https://wallstreetcn.com/news/global/3193912",
+   "title": "欧洲央行管委兼法国央行行长Moulin：银行业可以应付利率上涨。",
+   "summary": "欧洲央行管委兼法国央行行长Moulin：银行业可以应付利率上涨。",
+   "link": "https://wallstreetcn.com/news/global/3194467",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:30"
+   "published_at": "2026-11-04 19:22"
   },
   {
    "category": "finance",
-   "title": "深南电路触及涨停，成交额30.38亿元。",
-   "summary": "深南电路触及涨停，成交额30.38亿元。",
-   "link": "https://wallstreetcn.com/news/global/3193911",
+   "title": "道指扩大涨幅至3%，标普500指数现涨1.85%，纳指涨1.97%。",
+   "summary": "道指扩大涨幅至3%，标普500指数现涨1.85%，纳指涨1.97%。",
+   "link": "https://wallstreetcn.com/news/global/3194466",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:28"
+   "published_at": "2026-11-04 19:17"
   },
   {
    "category": "finance",
-   "title": "校招10万起薪被嫌低，张雪：选择是双向的，不能逼我提到20万",
-   "summary": "近日，张雪机车创始人张雪前往重庆大学进行校园招聘，其公布的薪资方案受到部分在场学生质疑，认为低于预期。尽管张雪以“老员工十年逆袭、持股估值3000万”的案例强调长期成长空间，但被媒体评价“透着一种错位的傲慢”。 对此，11月3日，张雪发布视频回应称：“还傲慢上了。难道选择不是双向的吗？你不能逼我把应届生工资提到20万，就像我不能逼你来上班一样。”（界面）",
-   "link": "https://wallstreetcn.com/news/global/3193910",
+   "title": "AI推理初创公司FAl估值翻倍至160亿美元。 在其13亿美元融资中，现存投资者Bessemer V",
+   "summary": "AI推理初创公司FAl估值翻倍至160亿美元。 在其13亿美元融资中，现存投资者Bessemer Venture Partners领投。",
+   "link": "https://wallstreetcn.com/news/global/3194465",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:27"
+   "published_at": "2026-11-04 19:04"
   },
   {
    "category": "finance",
-   "title": "多只黄金股ETF一度逼近涨停",
-   "summary": "黄金股集体走高，多只黄金股涨停，黄金股ETF国泰（517400）、黄金股ETF华夏（518850）等多支黄金股ETF一度逼近涨停。",
-   "link": "https://wallstreetcn.com/news/global/3193909",
+   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6755元，较周二夜盘收盘跌37点。成交量946",
+   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6755元，较周二夜盘收盘跌37点。成交量946.79亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3194463",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:24"
+   "published_at": "2026-11-04 19:01"
   },
   {
    "category": "finance",
-   "title": "中韩半导体ETF华泰柏瑞创天量成交记录",
-   "summary": "中韩半导体ETF华泰柏瑞（513310）最新成交额超260亿元，刷新历史最高成交记录，位居今日股票型ETF成交榜首；该ETF最新涨幅为6.7%，前两大重仓股为SK海力士、三星电子。",
-   "link": "https://wallstreetcn.com/news/global/3193904",
+   "title": "恒生指数主连夜盘收涨2.1%，报24425点。 恒生科技指数主连夜盘收涨2.56%，报4040点。",
+   "summary": "恒生指数主连夜盘收涨2.1%，报24425点。 恒生科技指数主连夜盘收涨2.56%，报4040点。",
+   "link": "https://wallstreetcn.com/news/global/3194462",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:20"
+   "published_at": "2026-11-04 19:00"
   },
   {
    "category": "finance",
-   "title": "马斯克：太空数据中心目前显得颇具吸引力。",
-   "summary": "马斯克：太空数据中心目前显得颇具吸引力。",
-   "link": "https://wallstreetcn.com/news/global/3193901",
+   "title": "一架载有3人的直升机在美国迈阿密附近海域坠毁",
+   "summary": "11月4日，一架载有3人的直升机在美国迈阿密附近的比斯坎湾坠毁。目前，官方尚未提供有关机上人员状况及其他相关细节。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3194461",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:18"
+   "published_at": "2026-11-04 18:59"
   },
   {
    "category": "finance",
-   "title": "沪深300ETF华泰柏瑞成交额100亿",
-   "summary": "沪深300ETF华泰柏瑞（510300）成交额突破100亿元，为今日第3只成交破百亿的宽基ETF，当前涨幅近2%。创业板ETF易方达（159915）当前成交154亿元、科创50ETF华夏（588000）当前成交141亿元。",
-   "link": "https://wallstreetcn.com/news/global/3193900",
+   "title": "波兰宪政危机致使央行行长陷入绝境",
+   "summary": "在一场可能导致央行行长亚当·格拉平斯基（Adam Glapinski）被暂停职务的政治对峙中，波兰货币政策制定者表达了对他的支持。议员们预计将就对格拉平斯基提起的诉讼进行表决，理由是他涉嫌在2023年大选前实施政治干预，格拉平斯基对此予以否认。央行货币政策委员会（MPC）对相关调查表示反对，声明称罢免行长的企图“史无前例”，且损害了中央银行的独立性。",
+   "link": "https://wallstreetcn.com/news/global/3194457",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:16"
+   "published_at": "2026-11-04 18:50"
   },
   {
    "category": "finance",
-   "title": "A股创新药概念持续走高，药明康德午后涨停，凯莱英、桂林三金、众生药业此前封板，石药创新、百普赛斯、荣",
-   "summary": "A股创新药概念持续走高，药明康德午后涨停，凯莱英、桂林三金、众生药业此前封板，石药创新、百普赛斯、荣昌生物、泰诺麦博等多股涨超10%。",
-   "link": "https://wallstreetcn.com/news/global/3193899",
+   "title": "美国财长贝森特： 正如我们多次所言，在 “经济放逐行动” 框架下，各方要么站在我们一边，要么就是我们",
+   "summary": "美国财长贝森特： 正如我们多次所言，在 “经济放逐行动” 框架下，各方要么站在我们一边，要么就是我们的对手。 我们掌握各方动向，对于持续支持伊朗政权的主体，无论通过陆路、海路还是空运渠道，我们都将实施制裁。",
+   "link": "https://wallstreetcn.com/news/global/3194456",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:11"
+   "published_at": "2026-11-04 18:49"
   },
   {
    "category": "finance",
-   "title": "港股大模型概念股午后反弹，智谱和MINIMAX涨7%。",
-   "summary": "港股大模型概念股午后反弹，智谱和MINIMAX涨7%。",
-   "link": "https://wallstreetcn.com/news/global/3193896",
+   "title": "欧洲央行管委Kazaks：如果（欧元区）通胀风险蔓延，就需要加息。 加息可能是一个渐进的过程。（La",
+   "summary": "欧洲央行管委Kazaks：如果（欧元区）通胀风险蔓延，就需要加息。 加息可能是一个渐进的过程。（Latvian TV）",
+   "link": "https://wallstreetcn.com/news/global/3194455",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:07"
+   "published_at": "2026-11-04 18:49"
   },
   {
    "category": "finance",
-   "title": "中际旭创A股午后涨超10%，港股涨幅扩大至6%。",
-   "summary": "中际旭创A股午后涨超10%，港股涨幅扩大至6%。",
-   "link": "https://wallstreetcn.com/news/global/3193894",
+   "title": "卡夫亨氏拟出售咖啡业务部门，以重新聚焦其他品牌",
+   "summary": "卡夫亨氏公司（Kraft Heinz Co.）正将其北美咖啡业务（含麦斯威尔、雅谷）剥离给私募股权投资公司One Rock Capital Partners, LLC，企业价值评估为6.5亿美元。该公司将保留咖啡业务部门30%的非控股股权，并将净现金收益用于偿还债务。卡夫亨氏正致力于简化并强化其品牌组合，从而将资金和管理精力集中在最具增长潜力的品牌上。",
+   "link": "https://wallstreetcn.com/news/global/3194454",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:06"
+   "published_at": "2026-11-04 18:44"
   },
   {
    "category": "finance",
-   "title": "科创50指数涨超9%，创业板指涨超6%，沪指涨1.93%，深成指涨3.93%，贵金属、光伏、半导体芯",
-   "summary": "科创50指数涨超9%，创业板指涨超6%，沪指涨1.93%，深成指涨3.93%，贵金属、光伏、半导体芯片、医药生物等方向涨幅居前，沪深京三市上涨个股近4700只。",
-   "link": "https://wallstreetcn.com/news/global/3193893",
+   "title": "上期所原油期货2612合约夜盘收跌7.07%，报628.40元人民币/桶。 沪金夜盘收涨2.61%，",
+   "summary": "上期所原油期货2612合约夜盘收跌7.07%，报628.40元人民币/桶。 沪金夜盘收涨2.61%，沪银收涨4.80%。",
+   "link": "https://wallstreetcn.com/news/global/3194452",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:04"
+   "published_at": "2026-11-04 18:30"
   },
   {
    "category": "finance",
-   "title": "A股长鑫科技午后涨超10%。",
-   "summary": "A股长鑫科技午后涨超10%。",
-   "link": "https://wallstreetcn.com/news/global/3193891",
+   "title": "加拿大总理卡尼将于11月11-19日前往欧洲和亚洲。",
+   "summary": "加拿大总理卡尼将于11月11-19日前往欧洲和亚洲。",
+   "link": "https://wallstreetcn.com/news/global/3194451",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:03"
+   "published_at": "2026-11-04 18:26"
   },
   {
    "category": "finance",
-   "title": "科创50指数涨超8%，创业板指涨超5%，半导体行业ETF集体爆发",
-   "summary": "科创50指数涨幅扩大至超8%，创业板指涨超5%，深成指涨3.6%，沪指涨1.7%。半导体行业ETF集体爆发，半导体ETF博时（159852 ）、半导体设备ETF招商（561980）、半导体设备ETF国泰（159516）等纷纷涨停，科创芯片ETF国泰（589100）、科创芯片ETF富国（588810）、科创芯片ETF博时（588990）等多只ETF涨超10%。",
-   "link": "https://wallstreetcn.com/news/global/3193887",
+   "title": "Al-Jadeed援引阿拉伯外交消息：美伊谈判走向将于周五明朗，目前谈判已取得重大进展。",
+   "summary": "Al-Jadeed援引阿拉伯外交消息：美伊谈判走向将于周五明朗，目前谈判已取得重大进展。",
+   "link": "https://wallstreetcn.com/news/global/3194450",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 06:00"
+   "published_at": "2026-11-04 18:25"
   },
   {
    "category": "finance",
-   "title": "科创50指数涨幅扩大至7%，仅3只成分股下跌。",
-   "summary": "科创50指数涨幅扩大至7%，仅3只成分股下跌。",
-   "link": "https://wallstreetcn.com/news/global/3193885",
+   "title": "周三（11月4日），美联储隔夜逆回购协议（RRP）使用规模为2.25亿美元（交易对手1家），上个交易",
+   "summary": "周三（11月4日），美联储隔夜逆回购协议（RRP）使用规模为2.25亿美元（交易对手1家），上个交易日报4.27亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3194444",
    "source": "华尔街见闻",
-   "published_at": "2026-11-04 05:58"
-  },
-  {
-   "category": "finance",
-   "title": "A股白酒板块午后大面积走弱 ，皇台酒业炸板后快速跳水，一度跌近9%，迎驾贡酒、古井贡酒、山西汾酒、水",
-   "summary": "A股白酒板块午后大面积走弱 ，皇台酒业炸板后快速跳水，一度跌近9%，迎驾贡酒、古井贡酒、山西汾酒、水井坊跟跌。",
-   "link": "https://wallstreetcn.com/news/global/3193883",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-04 05:56"
-  },
-  {
-   "category": "finance",
-   "title": "恒生科技指数涨幅扩大至1%。芯片股走强，天数智芯涨逾8%，中芯国际涨超7%，华虹宏力涨近7%。",
-   "summary": "恒生科技指数涨幅扩大至1%。芯片股走强，天数智芯涨逾8%，中芯国际涨超7%，华虹宏力涨近7%。",
-   "link": "https://wallstreetcn.com/news/global/3193881",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-04 05:55"
-  },
-  {
-   "category": "finance",
-   "title": "现货黄金重回4000美元/盎司上方，日内涨超1.7%。",
-   "summary": "现货黄金重回4000美元/盎司上方，日内涨超1.7%。",
-   "link": "https://wallstreetcn.com/news/global/3193880",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-04 05:52"
-  },
-  {
-   "category": "finance",
-   "title": "科创50指数涨超6%，中科飞测、盛美上海等领涨成分股。",
-   "summary": "科创50指数涨超6%，中科飞测、盛美上海等领涨成分股。",
-   "link": "https://wallstreetcn.com/news/global/3193879",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-04 05:51"
-  },
-  {
-   "category": "finance",
-   "title": "A股CPO概念股午后回暖，蘅东光、杰普特、思瑞浦涨超10%，罗博特科、新易盛、中际旭创、光库科技等多",
-   "summary": "A股CPO概念股午后回暖，蘅东光、杰普特、思瑞浦涨超10%，罗博特科、新易盛、中际旭创、光库科技等多股涨超5%。",
-   "link": "https://wallstreetcn.com/news/global/3193877",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-04 05:49"
+   "published_at": "2026-11-04 18:16"
   }
  ]
 }
