@@ -1,6 +1,62 @@
 {
- "updated_at": "2026-11-10 19:47",
+ "updated_at": "2026-11-11 06:34",
  "ai": [
+  {
+   "category": "ai",
+   "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/403.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/392.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Reddit 将推出 AI 汇总商品评价系统，引发用户担忧",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/318.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/294.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软正式发布 .NET 11：开发更省时，AI 工具更齐全",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/246.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/204.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/188.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "谷歌 DeepMind 用 AI 完成 Signal 协议形式化验证，数学证明其端到端加密可靠性",
@@ -104,232 +160,208 @@
    "link": "https://www.ithome.com/1/024/305.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "腾讯姚顺雨谈“AI 模型公司护城河”：更多存在于产品层，而不是模型层",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/991.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "前 Rockstar 技术总监：爱好者“AI 移植游戏潮”或迫使官方加速发布《GTA6》PC 版",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/908.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "芝加哥大学教授：AI 时代数学人才招聘将更看重研究愿景与表达能力",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/859.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“全球最大 GPU 盗窃案”：价值 1140 万美元的英伟达硬件不翼而飞",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/684.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "美国司法部 SI 工作组投运，保护创新与防范攻击并行",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/655.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 热潮撞上资源争议，微软荷兰在建数据中心遭抗议",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/650.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵",
-   "summary": "",
-   "link": "https://www.ithome.com/1/023/640.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "伊朗南部Pars天然气田平台出现火情，随后撤离人员。（Shana）",
-   "summary": "伊朗南部Pars天然气田平台出现火情，随后撤离人员。（Shana）",
-   "link": "https://wallstreetcn.com/news/global/3197895",
+   "title": "创业板ETF易方达成交额100亿 多只宽基ETF较昨日放量",
+   "summary": "创业板ETF易方达（159915）成交额达100亿，涨幅为3.35%；科创50ETF华夏（588000）成交额82亿元、中证A500ETF国泰（159338）成交额62亿、创业板ETF广发（159952）14亿、中证1000ETF易方达（159633）11.5亿均超越昨日全天成交。",
+   "link": "https://wallstreetcn.com/news/global/3198186",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:38"
+   "published_at": "2026-11-11 06:33"
   },
   {
    "category": "finance",
-   "title": "伊朗：南帕尔斯气田平台起火背后有两种可能，要么是天然气泄漏，要么是操作事故。",
-   "summary": "伊朗：南帕尔斯气田平台起火背后有两种可能，要么是天然气泄漏，要么是操作事故。",
-   "link": "https://wallstreetcn.com/news/global/3197894",
+   "title": "日经225指数收盘上涨1.3%，报61,248.59点。 日本东证指数收盘上涨0.9%，报3,929",
+   "summary": "日经225指数收盘上涨1.3%，报61,248.59点。 日本东证指数收盘上涨0.9%，报3,929.39点。 韩国首尔综指收盘上涨2.6%，报5,375.36点。",
+   "link": "https://wallstreetcn.com/news/global/3198185",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:35"
+   "published_at": "2026-11-11 06:31"
   },
   {
    "category": "finance",
-   "title": "伊朗议会国家安全委员会委员库萨里：我们用水雷或其他方式瞄准他们的舰船，他们偶尔向格什姆岛发射炮弹。我",
-   "summary": "伊朗议会国家安全委员会委员库萨里：我们用水雷或其他方式瞄准他们的舰船，他们偶尔向格什姆岛发射炮弹。我们给予的打击与他们相当，甚至更大。",
-   "link": "https://wallstreetcn.com/news/global/3197893",
+   "title": "日产汽车第二财季经营利润21.2亿日元，预估492.7亿日元。 第二财季净亏损434.7亿日元，预估",
+   "summary": "日产汽车第二财季经营利润21.2亿日元，预估492.7亿日元。 第二财季净亏损434.7亿日元，预估收益20.8亿日元。 第二财季销售净额3.11万亿日元，预估3.07万亿日元。 日产汽车仍然预测全年经营利润2,000.0亿日元，预估1,980.7亿日元。 日产汽车仍然预测全年净利润200.0亿日元，预估345亿日元。 日产汽车仍然预测全年销售净额13.00万亿日元，预估12.74万亿日元。 日产",
+   "link": "https://wallstreetcn.com/news/global/3198183",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:35"
+   "published_at": "2026-11-11 06:30"
   },
   {
    "category": "finance",
-   "title": "伊朗南帕尔斯气田一平台发生火灾，目前局势已得到控制。",
-   "summary": "伊朗南帕尔斯气田一平台发生火灾，目前局势已得到控制。",
-   "link": "https://wallstreetcn.com/news/global/3197891",
+   "title": "两项二氧化碳捕集、利用与封存国家标准正式发布",
+   "summary": "记者今天了解到，市场监管总局批准发布《油气区二氧化碳地质利用与封存潜力评价方法 第2部分：地质封存》和《油气区地质体二氧化碳埋存量评价实验方法》两项二氧化碳捕集、利用与封存（CCUS）国家标准，筑牢碳封存（通过捕获并安全存储二氧化碳以替代直接排放的技术‌）“最后一公里”。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3198182",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:31"
+   "published_at": "2026-11-11 06:30"
   },
   {
    "category": "finance",
-   "title": "美国原油期货收跌超0.9%，逼近百日均线",
-   "summary": "WTI 12月原油期货收跌0.81美元，跌幅超过0.93%，报86.04美元/桶，（主力合约）逼近9月4日收盘位85.46美元、100日均线（暂报83.99美元）、8月28日收盘位80美元。 NYMEX 12月天然气期货收报3.2960美元/百万英热单位。 NYMEX 12月汽油期货收报2.6088美元/加仑，NYMEX 12月取暖油期货收报4.1309美元/加仑。",
-   "link": "https://wallstreetcn.com/news/global/3197890",
+   "title": "特斯拉中国回应网传特斯拉召回车辆并赔偿2800元：系诈骗 切勿点击相关链接",
+   "summary": "网络流传一份落款日期为11月10日的文件，内容涉及特斯拉车辆因后减震器及后弹簧存在制造缺陷隐患而实施召回。该文件声称，此次召回将按照每辆车2800元的统一赔偿标准进行理赔，相关赔偿款将由“中国银联中心”统一发放至车主本人银联账户、支付宝或银行账户。",
+   "link": "https://wallstreetcn.com/news/global/3198181",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:30"
+   "published_at": "2026-11-11 06:29"
   },
   {
    "category": "finance",
-   "title": "软银减记引发担忧，燃气轮机概念股走低",
-   "summary": "日本软银集团对数据中心项目计提37亿美元减记，其中包括其为美国俄亥俄州一个8吉瓦（GW）项目及其他数据中心向设备企业支付的28.5亿美元不可退还预付款。 电力与设备类公司中，GE Vernova跌9.9%，Bloom Energy、伊顿（Eaton）、Vertiv和卡特彼勒（Caterpillar）的股价也走低。这与去年由AI数据中心建设需求推动的上涨行情形成逆转。GE Vernova股价在202",
-   "link": "https://wallstreetcn.com/news/global/3197888",
+   "title": "昆仑芯完成MiniMax H3-Image首发适配",
+   "summary": "据昆仑芯消息，11月10日，MiniMax正式开源MiniMax H3-Image模型。昆仑芯同步完成该模型的首发日适配与调优，成为首批完成适配的国产算力厂商之一。",
+   "link": "https://wallstreetcn.com/news/global/3198179",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:25"
+   "published_at": "2026-11-11 06:28"
   },
   {
    "category": "finance",
-   "title": "美国EIA上调2027年汽油和柴油价格预测",
-   "summary": "美国上调明年柴油和汽油价格预测，显示即使来自中东的石油供应增加，消费者价格压力的缓解也将有限。 美国能源信息署(EIA)将2027年汽油零售均价预测从10月预计的每加仑3.56美元上调至3.73美元，理由是预计全球燃料供应将持续紧张。该机构还将明年柴油价格预测从每加仑4.49美元上调至5.03美元。 这份预测包含在11月5日完成的《短期能源展望》中。",
-   "link": "https://wallstreetcn.com/news/global/3197887",
+   "title": "港珠澳大桥口岸经海关跨境电商平台出口破千亿元",
+   "summary": "据海关统计，今年前10个月，经港珠澳大桥珠海公路口岸通过海关跨境电商管理平台出口达1120亿元，同比增长33.1%，已超2025年全年。目前，经港珠澳大桥珠海公路口岸出口的包裹日均超300万个，覆盖全球200多个国家和地区。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3198178",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:22"
+   "published_at": "2026-11-11 06:24"
   },
   {
    "category": "finance",
-   "title": "西门子能源计划在今后至2030年年底回购至多90亿欧元股票。",
-   "summary": "西门子能源计划在今后至2030年年底回购至多90亿欧元股票。",
-   "link": "https://wallstreetcn.com/news/global/3197886",
+   "title": "软银股价重挫11%后小涨 巨额减记疑虑与AI乐观情绪升温相互角力",
+   "summary": "软银股价股价震荡，投资者一方面消化公司季度净亏损，以及美国数据中心项目计提37亿美元减值准备的消息，另一方面则受到AI领域重新升温的乐观情绪提振。该股在东京早盘交易中一度下跌11%。这家日本科技投资公司周二表示，第二财季亏损1.12万亿日元(71亿美元)，主要与为美国数据中心采购发电设备而支付的不可退还预付款有关。该公司股价午后一度上涨0.8%，受AI运算供应商CoreWeave Inc.业绩优于",
+   "link": "https://wallstreetcn.com/news/global/3198176",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:20"
+   "published_at": "2026-11-11 06:21"
   },
   {
    "category": "finance",
-   "title": "Nscale考虑在人工智能板块抛售后推迟350亿美元的上市计划。 该公司正考虑将上市时间推迟至明年。",
-   "summary": "Nscale考虑在人工智能板块抛售后推迟350亿美元的上市计划。 该公司正考虑将上市时间推迟至明年。",
-   "link": "https://wallstreetcn.com/news/global/3197884",
+   "title": "日本计划增强海上保安厅能力。（读卖新闻）",
+   "summary": "日本计划增强海上保安厅能力。（读卖新闻）",
+   "link": "https://wallstreetcn.com/news/global/3198175",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:11"
+   "published_at": "2026-11-11 06:20"
   },
   {
    "category": "finance",
-   "title": "OpenAI收购AI旅行代理平台Odessia",
-   "summary": "Odessia创始人弗朗西斯·戴维森宣布，OpenAI已收购AI旅行规划平台Odessia。戴维森称，他将加入OpenAI，专注于“旅行的未来”。戴维森于今年早些时候创立Odessia。该平台利用AI帮助用户规划和预订行程。今年6月，Odessia从红杉资本等投资者处完成600万美元种子轮融资。10月，该平台推出了“全天候旅行礼宾服务”。OpenAI与Odessia均未披露此次交易的价格。",
-   "link": "https://wallstreetcn.com/news/global/3197883",
+   "title": "国泰航空集团增购14架空客飞机。（彭博）",
+   "summary": "国泰航空集团增购14架空客飞机。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3198170",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:08"
+   "published_at": "2026-11-11 06:12"
   },
   {
    "category": "finance",
-   "title": "英伟达聘请华尔街顶级律所调查黄仁勋",
-   "summary": "英伟达已聘请Wachtell Lipton律师事务所，调查首席执行官黄仁勋承认的婚外情一事。此次调查将由其合伙人Joon H. Kim牵头，他曾任美国代理检察官，曾参与调查前纽约州州长安德鲁·科莫。英伟达董事会表示，目前没有理由认为公司机密或国家安全受到损害，但将审查所有可获得的证据。黄仁勋已承诺全面配合。此次调查使英伟达联合创始人兼首席执行官面临董事会前所未有的审查。（纽约时报，彭博）",
-   "link": "https://wallstreetcn.com/news/global/3197882",
+   "title": "源杰科技触及涨停，成交额70.09亿元，涨幅20%。",
+   "summary": "源杰科技触及涨停，成交额70.09亿元，涨幅20%。",
+   "link": "https://wallstreetcn.com/news/global/3198168",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:08"
+   "published_at": "2026-11-11 06:10"
   },
   {
    "category": "finance",
-   "title": "SpaceX：Singulus合同将支持能耗超过100 GW的设备。",
-   "summary": "SpaceX：Singulus合同将支持能耗超过100 GW的设备。",
-   "link": "https://wallstreetcn.com/news/global/3197881",
+   "title": "中越金水河—马鹿塘公路口岸升级为国际口岸",
+   "summary": "11月10日，中国金水河—越南马鹿塘公路口岸扩大开放公布仪式在云南红河金平中越友谊桥举行，标志着金水河公路口岸正式升级为国际性常年开放公路客货运输口岸。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3198167",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:06"
+   "published_at": "2026-11-11 06:09"
   },
   {
    "category": "finance",
-   "title": "美联储Schmid：从现在到美联储12月会议之间，将有许多有趣的数据点值得关注。",
-   "summary": "美联储Schmid：从现在到美联储12月会议之间，将有许多有趣的数据点值得关注。",
-   "link": "https://wallstreetcn.com/news/global/3197880",
+   "title": "会计改革与发展“十五五”规划：推动财务造假存量加快出清、增量得到有效遏制",
+   "summary": "财政部印发《会计改革与发展“十五五”规划》。其中提出，会计监督作用更好发挥。会计监督体系更加健全，打击财务造假工作机制进一步完善，对重点领域的监督、突出问题的整治持续发力，精准性、有效性不断提升，推动财务造假存量加快出清、增量得到有效遏制。",
+   "link": "https://wallstreetcn.com/news/global/3198164",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:06"
+   "published_at": "2026-11-11 06:01"
   },
   {
    "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6805元，较周一夜盘收盘跌81点。成交量364",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6805元，较周一夜盘收盘跌81点。成交量364.54亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3197878",
+   "title": "我国新能源汽车销量占比持续走高",
+   "summary": "中国汽车工业协会今天（11日）发布的最新数据显示，10月份，我国汽车产销量双双超过300万辆，比上月呈现一定幅度的增长，其中，新能源汽车市场销量占比持续走高。",
+   "link": "https://wallstreetcn.com/news/global/3198161",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:01"
+   "published_at": "2026-11-11 06:00"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.95%，报24346点。 恒生科技指数主连夜盘收跌1.22%，报4036点。",
-   "summary": "恒生指数主连夜盘收跌0.95%，报24346点。 恒生科技指数主连夜盘收跌1.22%，报4036点。",
-   "link": "https://wallstreetcn.com/news/global/3197877",
+   "title": "我国首款商用级中小型纯太阳能无人机首飞成功",
+   "summary": "从中国航天科技集团十一院了解到，2026年11月11日，我国自主研发的“轻骑兵”中小型太阳能无人机在西北某机场首飞成功。作为一款以太阳能为唯一动力源的纯电飞行器，“轻骑兵”具备长航时、快速部署、便捷保障等核心优势。这一机型长3.2米，翼展8米，最大设计续航时间达30小时。通过模块化设计，可快速适配通信、遥感等多种任务载荷。飞机可采用车载起飞方式，地面准备时间仅需20分钟，具有快速部署能力。（新华社",
+   "link": "https://wallstreetcn.com/news/global/3198152",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 19:00"
+   "published_at": "2026-11-11 05:53"
   },
   {
    "category": "finance",
-   "title": "美国堪萨斯城联储主席Schmid：剔除能源因素后，部分物价走势令人担忧。 需求强劲，利率并非犹豫的理",
-   "summary": "美国堪萨斯城联储主席Schmid：剔除能源因素后，部分物价走势令人担忧。 需求强劲，利率并非犹豫的理由。 通胀是最受关注的问题。 可以说住房领域正经历一种“有趣的动态”，但在其他领域找不到任何限制。 美联储基准利率当前仍相当宽松。 去年并不认为利率具有限制性，认为当前利率相当宽松。 美国近期的招聘情况相当强劲。 预计即时支付将跨越数字资产架构。",
-   "link": "https://wallstreetcn.com/news/global/3197876",
+   "title": "10年期日本国债收益率上升10.5个基点至2.795%。",
+   "summary": "10年期日本国债收益率上升10.5个基点至2.795%。",
+   "link": "https://wallstreetcn.com/news/global/3198149",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 18:45"
+   "published_at": "2026-11-11 05:51"
   },
   {
    "category": "finance",
-   "title": "美国参议院民主党领袖舒默：国会必须通过人工智能芯片相关立法，包括《人工智能监督法案》、《匹配法案》和",
-   "summary": "美国参议院民主党领袖舒默：国会必须通过人工智能芯片相关立法，包括《人工智能监督法案》、《匹配法案》和《芯片安全法案》。",
-   "link": "https://wallstreetcn.com/news/global/3197875",
+   "title": "苹果宣布官方社区将于11月20日永久关闭",
+   "summary": "苹果官网11月11日宣布，Apple支持社区将于2026年11月20日永久关闭。即日起，社区将不再接受新帖子，并转为只读模式。",
+   "link": "https://wallstreetcn.com/news/global/3198147",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 18:45"
+   "published_at": "2026-11-11 05:50"
   },
   {
    "category": "finance",
-   "title": "航运数据显示：载有俄罗斯柴油的油轮在美国近海停住",
-   "summary": "LSEG航运数据显示，悬挂马耳他国旗的 “Agioi Fanendes” 号于10月22日在俄罗斯波罗的海港口普里莫尔斯克装载4万吨超低硫柴油，预计交付日期为11月7日。但一周后，管理该船的希腊公司Eastmed表示，该船正在航行中“等待指令”，卸货港尚未指定或最终确定。“关于该船目的地没有任何变化，它仍在等待指令，”总部位于希腊的船舶管理公司Eastmed表示。",
-   "link": "https://wallstreetcn.com/news/global/3197872",
+   "title": "创业板指涨超3%，新易盛涨超15%，中际旭创涨超13%，算力硬件、短剧、游戏、机器人等方向涨幅居前，",
+   "summary": "创业板指涨超3%，新易盛涨超15%，中际旭创涨超13%，算力硬件、短剧、游戏、机器人等方向涨幅居前，沪深京三市上涨个股超3800只。",
+   "link": "https://wallstreetcn.com/news/global/3198146",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 18:39"
+   "published_at": "2026-11-11 05:47"
   },
   {
    "category": "finance",
-   "title": "上期所原油期货2612合约夜盘收跌0.77%，报604.4元人民币/桶。 沪金夜盘收跌2.29%，沪",
-   "summary": "上期所原油期货2612合约夜盘收跌0.77%，报604.4元人民币/桶。 沪金夜盘收跌2.29%，沪银收跌3.41%。",
-   "link": "https://wallstreetcn.com/news/global/3197871",
+   "title": "A股存储芯片板块短线拉升，利扬芯片、泰瑞机器涨停，南亚新材涨超10%，联讯仪器、普冉股份、深南电路、",
+   "summary": "A股存储芯片板块短线拉升，利扬芯片、泰瑞机器涨停，南亚新材涨超10%，联讯仪器、普冉股份、深南电路、杭州柯林、炬光科技跟涨。",
+   "link": "https://wallstreetcn.com/news/global/3198143",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 18:30"
+   "published_at": "2026-11-11 05:45"
   },
   {
    "category": "finance",
-   "title": "加拿大央行会议纪要：重申未来继续加息的可能性。 无法因为不确定性而排除加息的可能性。 不确定性并不意",
-   "summary": "加拿大央行会议纪要：重申未来继续加息的可能性。 无法因为不确定性而排除加息的可能性。 不确定性并不意味着（央行）不作为，而是要谨慎行事。 经验和调查结果都表明，成本（上涨）将传导至（消费终端）涨价。 预计能源成本将在未来一年传导至涨价。 某些央行官员认为，劳动力市场变得比看上去更加强劲。",
-   "link": "https://wallstreetcn.com/news/global/3197870",
+   "title": "现货钯金上涨3%，报1056.58美元/盎司。",
+   "summary": "现货钯金上涨3%，报1056.58美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3198140",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 18:30"
+   "published_at": "2026-11-11 05:44"
   },
   {
    "category": "finance",
-   "title": "美国国债遭遇猛烈抛售潮，通胀数据和美联储鹰派言论动摇利率押注",
-   "summary": "因通胀高于预期，加之美联储官员警告可能加大升息力度，美国债市遭遇2025年4月以来最严重抛售潮之一。 对美联储政策变动比长期债券更敏感的2年期美国国债收益率一度飙升21个基点至4.77%，势将创下特朗普对等关税措施引发全球市场剧震以来最大单日升幅。 这次波动标志着债市再度出现剧烈逆转。自上月初以来，随着科技股下跌以及油价回落，美国国债曾大幅上涨。 但周二，这两个推动因素都被抛到一边，市场焦点重新转",
-   "link": "https://wallstreetcn.com/news/global/3197867",
+   "title": "存储又在酝酿新一轮涨价",
+   "summary": "存储市场的新一轮涨价，正以一种不太对称的方式展开。近日，多位存储行业人士向记者透露，部分头部企业已向渠道商口头告知企业级颗粒的涨价意向，提价函尚未正式下发，但渠道端的价格已经先动了起来。记者走访代理渠道，多位代理商证实了上述涨价信号。海力士代理商袁先生告诉记者：“每天都在涨”。他观察到，二手盘回收价格一直在往上走，并带动整体报价上行；价格调整的路径则是省代每周调价，代理产品价格再往下传，“我们跟着",
+   "link": "https://wallstreetcn.com/news/global/3198138",
    "source": "华尔街见闻",
-   "published_at": "2026-11-10 18:22"
+   "published_at": "2026-11-11 05:41"
+  },
+  {
+   "category": "finance",
+   "title": "台交所加权股价指数收高3.6%报44,257.15点。",
+   "summary": "台交所加权股价指数收高3.6%报44,257.15点。",
+   "link": "https://wallstreetcn.com/news/global/3198135",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-11 05:35"
+  },
+  {
+   "category": "finance",
+   "title": "纽约期金日内涨1%，现报4070.73美元/盎司。",
+   "summary": "纽约期金日内涨1%，现报4070.73美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3198134",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-11 05:33"
+  },
+  {
+   "category": "finance",
+   "title": "野村控股正考虑在中国香港地区招聘银行家，以重建其在当地的股票资本市场业务。（路透）",
+   "summary": "野村控股正考虑在中国香港地区招聘银行家，以重建其在当地的股票资本市场业务。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3198154",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-11 05:28"
+  },
+  {
+   "category": "finance",
+   "title": "《中非标准化合作发展蓝皮书》发布",
+   "summary": "中国标准化研究院近日发布《中非标准化合作发展蓝皮书》，梳理中非标准化合作发展历程。当前中非标准化合作已形成“多领域联动、机制化支撑、产业化落地”格局：中国已连续16年稳居非洲第一大贸易伙伴国，2025年中非贸易额达3480.5亿美元；蒙内铁路、亚吉铁路、尼贝管道等项目形成“中国标准本土化适配+国际标准融合”模式；赞比亚中非农业标准化合作示范区搭建小麦、玉米、辣椒、万寿菊四大农作物全产业链标准体系，",
+   "link": "https://wallstreetcn.com/news/global/3198133",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-11 05:22"
   }
  ]
 }
