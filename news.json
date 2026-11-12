@@ -1,319 +1,206 @@
 {
- "updated_at": "2026-11-11 19:39",
- "ai": [
-  {
-   "category": "ai",
-   "title": "Adobe 公布四项 AI 实验项目：照片秒变 3D 场景，还能通过聊天设计 AI 角色",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/815.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 提升飓风预报精度，人类气象专家仍不可替代",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/806.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "不能再随便用：高盛、思科等企业开始对员工 AI 使用设限",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/734.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "彭博测算：AI 贡献英国今年约四分之一经济增长",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/729.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 十年内攻克癌症？Anthropic CEO 阿莫迪预测引医学界质疑",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/617.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "开发者 AI 自制工具追踪室内异响，将声源锁定至约 40 厘米范围",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/559.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/403.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/392.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Reddit 将推出 AI 汇总商品评价系统，引发用户担忧",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/318.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/294.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软正式发布 .NET 11：开发更省时，AI 工具更齐全",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/246.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/204.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/188.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌 DeepMind 用 AI 完成 Signal 协议形式化验证，数学证明其端到端加密可靠性",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/161.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "官方正在修复：Claude Code 被爆把密码写进项目文件，GitHub 上发现 2539 个真实凭据",
-   "summary": "",
-   "link": "https://www.ithome.com/1/024/888.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "高通 1.2 万人洞察：AI 智能体将成可穿戴核心卖点，约 70% 期待协同管设备、办事情",
-   "summary": "",
-   "link": "https://www.ithome.com/1/024/868.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "借助 AI 工具，安全研究员在英国政府公开代码中发现上百个高危漏洞",
-   "summary": "",
-   "link": "https://www.ithome.com/1/024/865.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "澳大利亚拟强制 AI 公司上报安全违规事件，并考虑修订刑事法律",
-   "summary": "",
-   "link": "https://www.ithome.com/1/024/843.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌 Gemini 上线记忆摘要，可查看 / 编辑 / 删除 AI 记住的个人信息",
-   "summary": "",
-   "link": "https://www.ithome.com/1/024/823.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "全球最强 AI 模型：Claude Fable 5.2 登场，编程超 GPT-6 Astra、登顶多项基准",
-   "summary": "",
-   "link": "https://www.ithome.com/1/024/796.htm",
-   "source": "IT之家",
-   "published_at": ""
-  }
- ],
+ "updated_at": "2026-11-12 07:17",
+ "ai": [],
  "finance": [
   {
    "category": "finance",
-   "title": "美国原油期货收涨约0.6%，百日均线构成支撑",
-   "summary": "WTI 12月原油期货收涨0.49美元，涨幅将近0.57%，报86.53美元/桶，（主力合约）脱离9月4日以来最低收盘位86.04美元，100日均线已经上移至84.15美元。 NYMEX 12月天然气期货收报3.2150美元/百万英热单位。 NYMEX 12月汽油期货收报2.6075美元/加仑，NYMEX 12月取暖油期货收报4.2113美元/加仑。",
-   "link": "https://wallstreetcn.com/news/global/3198604",
+   "title": "张一鸣：字节AI最早2029年或2030年追平OpenAI与Anthropic",
+   "summary": "从多方知情人士处获悉，近期字节跳动创始人张一鸣再次在内部分享中谈到AI业务。据了解，张一鸣在近期一次面向AI团队的全员会议上表示，字节有能力与OpenAI和Anthropic展开竞争，但真正追平前沿技术，“最早也要到2029年或2030年”。字节跳动的大模型要对标国际第一梯队。张一鸣坦言，与海外顶尖AI公司相比，字节Seed系列模型的预训练数据集规模仍然少了，这是字节AI当下最需要关注的问题。(澎",
+   "link": "https://wallstreetcn.com/news/global/3198945",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:31"
+   "published_at": "2026-11-12 07:17"
   },
   {
    "category": "finance",
-   "title": "特朗普关税推高成本，获美国支持的锂业公司Lithium Americas承压",
-   "summary": "Lithium Americas Corp.位于美国内华达州的矿山本应成为美国减少电池关键矿物对华依赖的解决方案。然而，该公司正受到特朗普政府关税的沉重打击。11月11日，这家矿业公司将旗下旗舰项目——内华达州Thacker Pass锂矿的建设成本上调近9亿美元，并将成本上升归咎于关税、劳动力成本上涨及物流费用增加，其股价触及历史低点。根据当天发布的声明，该项目第一阶段建设成本预计将达38.3亿美",
-   "link": "https://wallstreetcn.com/news/global/3198602",
+   "title": "现货白银日内跌幅达1.0%，报51.1美元/盎司。",
+   "summary": "现货白银日内跌幅达1.0%，报51.1美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3198943",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:28"
+   "published_at": "2026-11-12 07:12"
   },
   {
    "category": "finance",
-   "title": "智利国家铜业公司（Codelco）与印度阿达尼集团（Adani Group）签署铜勘探项目协议。",
-   "summary": "智利国家铜业公司（Codelco）与印度阿达尼集团（Adani Group）签署铜勘探项目协议。",
-   "link": "https://wallstreetcn.com/news/global/3198601",
+   "title": "速腾聚创空间相机技术支持全球首个高分辨率精准深度测量3D操作数据集发布",
+   "summary": "11月11日，在CoRL2026期间，速腾聚创宣布与BitRobot达成战略合作，围绕三维感知与真实世界数据采集展开协同。作为双方合作成果之一，BitRobot发布了RoboCap LiDAR-100数据集。该数据集采用速腾聚创三维感知方案，收录100小时厨房、汽修及汽车美容等真实作业，为机器人理解世界、学习操作技能提供多模态数据。",
+   "link": "https://wallstreetcn.com/news/global/3198940",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:21"
+   "published_at": "2026-11-12 07:10"
   },
   {
    "category": "finance",
-   "title": "巴西证交所B3 SA本币ETFs在10月份获得157亿巴西雷亚尔（折合28亿美元）资金流入，创历史新",
-   "summary": "巴西证交所B3 SA本币ETFs在10月份获得157亿巴西雷亚尔（折合28亿美元）资金流入，创历史新高。",
-   "link": "https://wallstreetcn.com/news/global/3198600",
+   "title": "商务部：中美正就降税、贸易、投资等问题保持密切沟通",
+   "summary": "商务部新闻发言人何亚东在12日举行的商务部例行新闻发布会上说，“300亿对300亿”对等降税框架安排有利于稳定和拓展中美双边贸易，中美两国工商界对此都抱有较高期待。目前，中美双方就实施这一安排保持密切沟通。希望美方与中方共同努力，尽快推动这一安排落地见效，为两国农产品贸易创造更多有利条件。关于经贸磋商，中美双方正在就贸易、投资等领域各自关切问题保持密切沟通，有关进展将适时公布。(新华社)",
+   "link": "https://wallstreetcn.com/news/global/3198939",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:16"
+   "published_at": "2026-11-12 07:09"
   },
   {
    "category": "finance",
-   "title": "美国要求俄罗斯提交新的欧洲安全提案。（Axios）",
-   "summary": "美国要求俄罗斯提交新的欧洲安全提案。（Axios）",
-   "link": "https://wallstreetcn.com/news/global/3198599",
+   "title": "商务部回应欧盟有关国家禁用中国企业设备",
+   "summary": "针对欧盟有关国家禁用中国企业设备的问题，商务部新闻发言人何亚东在12日举行的例行新闻发布会上说，我们注意到有关报道，已向相关国家政府表达严重关切。中方一贯认为，5G是全球数字经济发展的重要基础设施，其建设和运营应当尊重市场规律、技术中立和国际规则。中方坚决反对将技术问题政治化、泛安全化。希望相关国家及时纠正错误做法，为中国企业提供公平、公正、非歧视的营商环境。(新华社)",
+   "link": "https://wallstreetcn.com/news/global/3198936",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:14"
+   "published_at": "2026-11-12 07:07"
   },
   {
    "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6749元，较周二夜盘收盘涨56点。成交量464",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6749元，较周二夜盘收盘涨56点。成交量464.99亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3198596",
+   "title": "【礼来口服减重药奥氟格列隆钙片获批上市】近日，国家药品监督管理局批准EliLilly Nederla",
+   "summary": "【礼来口服减重药奥氟格列隆钙片获批上市】近日，国家药品监督管理局批准EliLilly Nederland B.V.申报的1类创新药奥氟格列隆钙片（商品名称：穆优达）上市，该药适用于在控制饮食和增加运动基础上，用于初始体重指数（BMI）符合以下要求的成人的长期体重管理：≥30 kg/m2（肥胖），或≥27 kg/m2至&lt;30 kg/m2（超重）并伴有至少一种体重相关合并症（例如高血压、血脂异常",
+   "link": "https://wallstreetcn.com/news/global/3198935",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:01"
+   "published_at": "2026-11-12 07:05"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.70%，报24107点。 恒生科技指数主连夜盘收跌0.82%，报3990点。",
-   "summary": "恒生指数主连夜盘收跌0.70%，报24107点。 恒生科技指数主连夜盘收跌0.82%，报3990点。",
-   "link": "https://wallstreetcn.com/news/global/3198595",
+   "title": "韩国外长赵显将访华",
+   "summary": "外交部发言人宣布：经中韩双方商定，韩国外长赵显将于11月13日至14日访华。（外交部网站）",
+   "link": "https://wallstreetcn.com/news/global/3198931",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 19:00"
+   "published_at": "2026-11-12 07:03"
   },
   {
    "category": "finance",
-   "title": "美中央司令部：美军严格执行对伊朗海上封锁",
-   "summary": "11月11日，美国中央司令部表示，美军持续昼夜不停地开展行动，以确保霍尔木兹海峡对商业航运保持开放。同时，美军严格执行针对伊朗的严密海上封锁，并与美国政府各相关部门协作，防止伊朗伊斯兰革命卫队利用陆路及里海通道，转移先进武器系统、军民两用技术、受制裁物资，或进行“非法资金往来”。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3198591",
+   "title": "A股收盘：创业板指冲高回落跌2.44%，全市场下跌个股超4600只",
+   "summary": "1、市场全天冲高回落，创业板指午后跌超2%。燃气股逆势走强，东方环宇4连板，洪通燃气涨停。消费股表现活跃，好当家、广百股份、惠发食品等涨停。算力芯片股盘中拉升，燧原科技涨超10%，寒武纪、沐曦股份涨超8%。下跌方面，AI漫剧概念下挫，上海电影跌停；机器人、物理AI概念走低，福莱新材等跌停。个股呈现普跌态势，沪深京三市超4600股飘绿，今日成交1.95万亿。截止收盘沪指跌0.67%，深成指跌1.68",
+   "link": "https://wallstreetcn.com/news/global/3198930",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:47"
+   "published_at": "2026-11-12 07:02"
   },
   {
    "category": "finance",
-   "title": "Sixth Street首席执行官对AI热潮保持谨慎，警告称投机行为盛行",
-   "summary": "Sixth Street Partners首席执行官Alan Waxman看到人工智能（AI）热潮中动荡的迹象日益增多，因此该公司基本保持观望。AI领域的资本支出规模空前，并且“由于AI不断发展，没有人真正了解其单位经济效益”，“至少在信用领域，我们很难对此进行评估。股权方面则略有不同。”Sixth Street担忧AI领域信贷迅速扩张，以及“投机狂热、动物精神或害怕错过机会”，并且开始看到动荡迹",
-   "link": "https://wallstreetcn.com/news/global/3198589",
+   "title": "上证指数收报3655.83点，跌0.67%。 深证成指收报11197.98点，跌1.68%。 创业板",
+   "summary": "上证指数收报3655.83点，跌0.67%。 深证成指收报11197.98点，跌1.68%。 创业板指收报2509.43点，跌2.44%。 沪深300收报4043.93点，跌0.78%。 科创50收报1309.84点，涨0.73%。 中证500收报6604.15点，跌1.62%。 中证1000收报6537.84点，跌1.97%。",
+   "link": "https://wallstreetcn.com/news/global/3198929",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:41"
+   "published_at": "2026-11-12 07:01"
   },
   {
    "category": "finance",
-   "title": "英国央行货币政策委员会（MPC）成员Greene：主动收紧货币政策立场是合适的，以防范薪资增长固化在",
-   "summary": "英国央行货币政策委员会（MPC）成员Greene：主动收紧货币政策立场是合适的，以防范薪资增长固化在较高水平的风险。 薪资增幅可能会稳定在3.5%、甚至更高水平。（英国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3198587",
+   "title": "商品期货收盘，苹果主力合约涨超4%，苯乙烯、乙二醇涨超3%，鸡蛋、BR橡胶涨近3%。沪金跌超2%，焦",
+   "summary": "商品期货收盘，苹果主力合约涨超4%，苯乙烯、乙二醇涨超3%，鸡蛋、BR橡胶涨近3%。沪金跌超2%，焦煤、铂、铁矿石、沪银跌超1%。",
+   "link": "https://wallstreetcn.com/news/global/3198928",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:31"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "安联前三季度利润创纪录，上调全年盈利指引",
-   "summary": "旗下拥有债券管理公司太平洋投资管理公司（PIMCO，品浩）的德国保险巨头安联集团（Allianz SE），在今年前九个月业绩创下纪录后，上调了全年盈利指引。 该公司目前预计集团全年营业利润将达到164亿欧元（折合182亿美元）至约186亿欧元之间，公司此前目标区间为164亿-184亿欧元。 今年前九个月，安联营业利润从去年同期的131亿欧元攀升至创纪录的141亿欧元。公司定于周四发布详细的第三季度",
-   "link": "https://wallstreetcn.com/news/global/3198586",
+   "title": "国家发改委：自11月12日24时起，国内汽、柴油（标准品）价格每吨分别下调645元、625元。",
+   "summary": "国家发改委：自11月12日24时起，国内汽、柴油（标准品）价格每吨分别下调645元、625元。",
+   "link": "https://wallstreetcn.com/news/global/3198925",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:31"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "上期所原油期货2612合约夜盘收涨1.54%，报607.30元人民币/桶。 沪金夜盘收跌1.3%，沪",
-   "summary": "上期所原油期货2612合约夜盘收涨1.54%，报607.30元人民币/桶。 沪金夜盘收跌1.3%，沪银收涨0.22%。",
-   "link": "https://wallstreetcn.com/news/global/3198585",
+   "title": "英国9月整体商品和服务贸易帐 -51.34亿英镑，预期 -21亿英镑，前值 -9.2亿英镑。",
+   "summary": "英国9月整体商品和服务贸易帐 -51.34亿英镑，预期 -21亿英镑，前值 -9.2亿英镑。",
+   "link": "https://wallstreetcn.com/news/global/3198922",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:30"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "纳斯达克100指数涨幅扩大至3%，成分股CoreWeave涨26.7%，Nebius涨19.3%，闪",
-   "summary": "纳斯达克100指数涨幅扩大至3%，成分股CoreWeave涨26.7%，Nebius涨19.3%，闪迪、Lumentum、Arm控股、美光、希捷科技、迈威尔科技、MPWR等至多涨17.1%，英伟达涨5%；亚马逊跌1.5%，微软跌2.1%。 标普涨1.6%，道指涨超0.4%，纳指涨2.3%，半导体指数维持7.5%的涨幅。",
-   "link": "https://wallstreetcn.com/news/global/3198583",
+   "title": "英国9月商品贸易帐 -222.91亿英镑，预期 -192亿英镑，前值 -180.07亿英镑。",
+   "summary": "英国9月商品贸易帐 -222.91亿英镑，预期 -192亿英镑，前值 -180.07亿英镑。",
+   "link": "https://wallstreetcn.com/news/global/3198921",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:22"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "谷歌公司发布配置Decision1的Gemini Decisions API模型。",
-   "summary": "谷歌公司发布配置Decision1的Gemini Decisions API模型。",
-   "link": "https://wallstreetcn.com/news/global/3198582",
+   "title": "英国9月工业产出环比 0.3%，预期 -0.4%，前值 0.8%。",
+   "summary": "英国9月工业产出环比 0.3%，预期 -0.4%，前值 0.8%。",
+   "link": "https://wallstreetcn.com/news/global/3198920",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:17"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "中国气象智能预警方案“妈祖”一体机向全球发布",
-   "summary": "11月11日，在土耳其安塔利亚举行的《联合国气候变化框架公约》第三十一次缔约方大会（COP31）应对气候变化南南合作高级别论坛上，中国以主题宣传片形式向全球正式发布中国气象智能预警方案“妈祖”一体机（以下简称“妈祖”一体机），分享中国气象防灾减灾技术成果。",
-   "link": "https://wallstreetcn.com/news/global/3198581",
+   "title": "英国9月制造业产出同比 4.4%，预期 3.8%，前值 3%。",
+   "summary": "英国9月制造业产出同比 4.4%，预期 3.8%，前值 3%。",
+   "link": "https://wallstreetcn.com/news/global/3198919",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:13"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "德国车企加速本土裁员",
-   "summary": "德国最大的汽车制造商正加速重塑其造车方式和生产地点，其传统工业模式受到严重冲击。 大众汽车表示，由于盈利恶化，公司正重新评估其在德国各工厂的投资计划，并取消在沃尔夫斯堡总部实施的一项大型先进制造项目。 梅赛德斯-奔驰集团首席执行官凯勒纽斯（Ola Källenius）表示，与德国工人就延长工时但不加薪的谈判必须取得实质性成果。“我们再也无法回避了，”凯勒纽斯在柏林《南德意志报》论坛上说。如果竞争力",
-   "link": "https://wallstreetcn.com/news/global/3198580",
+   "title": "英国9月制造业产出环比 0.7%，预期 -0.5%，前值 1.2%。",
+   "summary": "英国9月制造业产出环比 0.7%，预期 -0.5%，前值 1.2%。",
+   "link": "https://wallstreetcn.com/news/global/3198918",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:12"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "SpaceXSI：发布Grok Voice 3.0，API定价为每分钟0.08美元。 Grok语音3",
-   "summary": "SpaceXSI：发布Grok Voice 3.0，API定价为每分钟0.08美元。 Grok语音3.0已在语音到语音API中上线。",
-   "link": "https://wallstreetcn.com/news/global/3198579",
+   "title": "英国9月工业产出同比 3.1%，预期 2.8%，前值 1.6%。",
+   "summary": "英国9月工业产出同比 3.1%，预期 2.8%，前值 1.6%。",
+   "link": "https://wallstreetcn.com/news/global/3198917",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:09"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "美联航拟禁止个人AI助手访问订票系统，Meta股价小幅下跌",
-   "summary": "美国联合航空公司计划禁止个人人工智能助手访问其系统预订机票，引发市场对AI代理商业应用受限的关注。随着Meta Platforms(META.O)的Muse、OpenAI的Dots等AI助手逐步承担订票等日常任务，银行、零售商及其他企业正重新评估如何管理此类代理的系统访问权限。 Meta股价快速下挫，转而跌0.5%。",
-   "link": "https://wallstreetcn.com/news/global/3198578",
+   "title": "英国三季度商业投资总额同比初值 3.04%，前值 5.2%。",
+   "summary": "英国三季度商业投资总额同比初值 3.04%，前值 5.2%。",
+   "link": "https://wallstreetcn.com/news/global/3198916",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:07"
+   "published_at": "2026-11-12 07:00"
   },
   {
    "category": "finance",
-   "title": "美国众议院通过一份关于扩大小企业融资计划的立法草案",
-   "summary": "美国众议院通过一项立法，旨在简化贷款结算流程，并扩大对小企业管理局（SBA）504贷款计划的参与。 议员们以口头表决方式通过了H.R. 10375号法案。504计划为经认证的私人贷款机构发放的贷款提供担保，单笔最高可达550万美元，以帮助符合条件的小企业为重大固定资产融资，包括房地产、厂房和重型设备等。",
-   "link": "https://wallstreetcn.com/news/global/3198577",
+   "title": "英国9月建筑业产出环比 0.8%，预期 -0.1%，前值 -0.2%。",
+   "summary": "英国9月建筑业产出环比 0.8%，预期 -0.1%，前值 -0.2%。",
+   "link": "https://wallstreetcn.com/news/global/3198915",
    "source": "华尔街见闻",
-   "published_at": "2026-11-11 18:02"
+   "published_at": "2026-11-12 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国三季度私人家庭消费支出季环比初值 0.6%，预期 0.4%，前值 0.3%。",
+   "summary": "英国三季度私人家庭消费支出季环比初值 0.6%，预期 0.4%，前值 0.3%。",
+   "link": "https://wallstreetcn.com/news/global/3198914",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-12 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国三季度GDP季环比初值 0.7%，预期 0.7%，前值 0.5%。",
+   "summary": "英国三季度GDP季环比初值 0.7%，预期 0.7%，前值 0.5%。",
+   "link": "https://wallstreetcn.com/news/global/3198913",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-12 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国三季度GDP同比初值 1.9%，预期 1.9%，前值 1.4%。",
+   "summary": "英国三季度GDP同比初值 1.9%，预期 1.9%，前值 1.4%。",
+   "link": "https://wallstreetcn.com/news/global/3198912",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-12 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国三季度商业投资总额季环比初值 0.43%，预期 0.6%，前值 1.8%。",
+   "summary": "英国三季度商业投资总额季环比初值 0.43%，预期 0.6%，前值 1.8%。",
+   "link": "https://wallstreetcn.com/news/global/3198911",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-12 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国9月建筑业产出同比 -1.5%，预期 -2.2%，前值 -1.8%。",
+   "summary": "英国9月建筑业产出同比 -1.5%，预期 -2.2%，前值 -1.8%。",
+   "link": "https://wallstreetcn.com/news/global/3198910",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-12 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国9月GDP环比 0.2%，预期 0%，前值 0.1%。",
+   "summary": "英国9月GDP环比 0.2%，预期 0%，前值 0.1%。",
+   "link": "https://wallstreetcn.com/news/global/3198909",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-12 07:00"
   }
  ]
 }
