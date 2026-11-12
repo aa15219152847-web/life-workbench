@@ -1,206 +1,335 @@
 {
- "updated_at": "2026-11-12 07:17",
- "ai": [],
+ "updated_at": "2026-11-12 19:59",
+ "ai": [
+  {
+   "category": "ai",
+   "title": "谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/446.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "机械臂任务最强 AI 引擎：Praxis-1 完胜 GPT-6 Astra，速度快 15.6 倍、成本降至 1/51",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/104.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "腾讯公关总监张军回应公司裁员 50% 传闻：纯纯的误会和谣言",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/076.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软 Win11 自带照片应用将接入 Adobe AI，恐成订阅推广新入口",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/057.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Claude API 新增调节 effort 能力：让 AI 按任务使劲，从闲聊转复杂分析可中途“换挡”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/894.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "美联航拒绝 AI 代订机票：能查航班，不能替你下单",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/879.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "88% 受访开发者点头赞成：FreeBSD 组建工作组制定 AI 使用新规",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/845.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Adobe 公布四项 AI 实验项目：照片秒变 3D 场景，还能通过聊天设计 AI 角色",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/815.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 提升飓风预报精度，人类气象专家仍不可替代",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/806.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "不能再随便用：高盛、思科等企业开始对员工 AI 使用设限",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/734.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "彭博测算：AI 贡献英国今年约四分之一经济增长",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/729.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 十年内攻克癌症？Anthropic CEO 阿莫迪预测引医学界质疑",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/617.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "开发者 AI 自制工具追踪室内异响，将声源锁定至约 40 厘米范围",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/559.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/403.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/392.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Reddit 将推出 AI 汇总商品评价系统，引发用户担忧",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/318.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/294.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软正式发布 .NET 11：开发更省时，AI 工具更齐全",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/246.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/204.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗",
+   "summary": "",
+   "link": "https://www.ithome.com/1/025/188.htm",
+   "source": "IT之家",
+   "published_at": ""
+  }
+ ],
  "finance": [
   {
    "category": "finance",
-   "title": "张一鸣：字节AI最早2029年或2030年追平OpenAI与Anthropic",
-   "summary": "从多方知情人士处获悉，近期字节跳动创始人张一鸣再次在内部分享中谈到AI业务。据了解，张一鸣在近期一次面向AI团队的全员会议上表示，字节有能力与OpenAI和Anthropic展开竞争，但真正追平前沿技术，“最早也要到2029年或2030年”。字节跳动的大模型要对标国际第一梯队。张一鸣坦言，与海外顶尖AI公司相比，字节Seed系列模型的预训练数据集规模仍然少了，这是字节AI当下最需要关注的问题。(澎",
-   "link": "https://wallstreetcn.com/news/global/3198945",
+   "title": "郭明錤：黄仁勋离职为谷歌TPU创造机会，库克在供应链管理及成本控制方面具备优势",
+   "summary": "分析师郭明錤表示，英伟达首席执行官黄仁勋突然离职所引发的管理层接班不确定性，可能为谷歌自研AI芯片TPU创造扩大市场份额的机会。随着大型云计算企业重新评估AI算力供应方案，谷歌有望进一步赢得客户及供应链的信任，其关键合作伙伴博通和联发科可能成为市场短期关注的重点。",
+   "link": "https://wallstreetcn.com/news/global/3199326",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:17"
+   "published_at": "2026-11-12 19:47"
   },
   {
    "category": "finance",
-   "title": "现货白银日内跌幅达1.0%，报51.1美元/盎司。",
-   "summary": "现货白银日内跌幅达1.0%，报51.1美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3198943",
+   "title": "币安宣布已全额补齐63亿美元被盗资产，10月黑客攻击损失全部得到弥补。 比特币日内跌幅达4.0%，报",
+   "summary": "币安宣布已全额补齐63亿美元被盗资产，10月黑客攻击损失全部得到弥补。 比特币日内跌幅达4.0%，报71435美元。",
+   "link": "https://wallstreetcn.com/news/global/3199325",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:12"
+   "published_at": "2026-11-12 19:43"
   },
   {
    "category": "finance",
-   "title": "速腾聚创空间相机技术支持全球首个高分辨率精准深度测量3D操作数据集发布",
-   "summary": "11月11日，在CoRL2026期间，速腾聚创宣布与BitRobot达成战略合作，围绕三维感知与真实世界数据采集展开协同。作为双方合作成果之一，BitRobot发布了RoboCap LiDAR-100数据集。该数据集采用速腾聚创三维感知方案，收录100小时厨房、汽修及汽车美容等真实作业，为机器人理解世界、学习操作技能提供多模态数据。",
-   "link": "https://wallstreetcn.com/news/global/3198940",
+   "title": "英伟达目前跌5.7%，路透报道称，黄仁勋曾与英伟达另外一名员工有过一段关系。",
+   "summary": "英伟达目前跌5.7%，路透报道称，黄仁勋曾与英伟达另外一名员工有过一段关系。",
+   "link": "https://wallstreetcn.com/news/global/3199322",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:10"
+   "published_at": "2026-11-12 19:34"
   },
   {
    "category": "finance",
-   "title": "商务部：中美正就降税、贸易、投资等问题保持密切沟通",
-   "summary": "商务部新闻发言人何亚东在12日举行的商务部例行新闻发布会上说，“300亿对300亿”对等降税框架安排有利于稳定和拓展中美双边贸易，中美两国工商界对此都抱有较高期待。目前，中美双方就实施这一安排保持密切沟通。希望美方与中方共同努力，尽快推动这一安排落地见效，为两国农产品贸易创造更多有利条件。关于经贸磋商，中美双方正在就贸易、投资等领域各自关切问题保持密切沟通，有关进展将适时公布。(新华社)",
-   "link": "https://wallstreetcn.com/news/global/3198939",
+   "title": "WTI 12月原油期货收涨2.21美元，涨幅超过2.55%，报88.74美元/桶。 NYMEX 12",
+   "summary": "WTI 12月原油期货收涨2.21美元，涨幅超过2.55%，报88.74美元/桶。 NYMEX 12月天然气期货收报3.34美元/百万英热单位。 NYMEX 12月汽油期货收报2.6708美元/加仑，NYMEX 12月取暖油期货收报4.2865美元/加仑。",
+   "link": "https://wallstreetcn.com/news/global/3199321",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:09"
+   "published_at": "2026-11-12 19:31"
   },
   {
    "category": "finance",
-   "title": "商务部回应欧盟有关国家禁用中国企业设备",
-   "summary": "针对欧盟有关国家禁用中国企业设备的问题，商务部新闻发言人何亚东在12日举行的例行新闻发布会上说，我们注意到有关报道，已向相关国家政府表达严重关切。中方一贯认为，5G是全球数字经济发展的重要基础设施，其建设和运营应当尊重市场规律、技术中立和国际规则。中方坚决反对将技术问题政治化、泛安全化。希望相关国家及时纠正错误做法，为中国企业提供公平、公正、非歧视的营商环境。(新华社)",
-   "link": "https://wallstreetcn.com/news/global/3198936",
+   "title": "报道：黄仁勋曾与英伟达另一名员工发生关系",
+   "summary": "据两名知情人士透露，被公司董事会赶下台的英伟达CEO黄仁勋曾与另一名员工发生过亲密关系。记者尝试联系该女性未果。 在美东时间11月12日爆出这一消息之前，黄仁勋已因两段婚外情于12日当天辞职。这两名女性分别是：黄乐（Alice Huang）和英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3199320",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:07"
+   "published_at": "2026-11-12 19:29"
   },
   {
    "category": "finance",
-   "title": "【礼来口服减重药奥氟格列隆钙片获批上市】近日，国家药品监督管理局批准EliLilly Nederla",
-   "summary": "【礼来口服减重药奥氟格列隆钙片获批上市】近日，国家药品监督管理局批准EliLilly Nederland B.V.申报的1类创新药奥氟格列隆钙片（商品名称：穆优达）上市，该药适用于在控制饮食和增加运动基础上，用于初始体重指数（BMI）符合以下要求的成人的长期体重管理：≥30 kg/m2（肥胖），或≥27 kg/m2至&lt;30 kg/m2（超重）并伴有至少一种体重相关合并症（例如高血压、血脂异常",
-   "link": "https://wallstreetcn.com/news/global/3198935",
+   "title": "报道：奔驰暂停在德投资，工厂关闭风险迫近",
+   "summary": "一份致员工备忘录显示，高端汽车制造商梅赛德斯-奔驰正暂停其在德国所有工厂的投资，并考虑关闭部分厂区，以应对该国高昂的汽车制造成本。据公司内网分享的一篇对管理委员会成员的采访内容，奔驰决定暂停投资是因为无法与企业委员会和工会代表就劳动力成本削减达成一致。奔驰生产总监席贝（Michael Schiebe）表示，管理层”共同决定暂停在德国所有基地的一切进一步投资”。 此举标志着德国汽车业危机的最新升级—",
+   "link": "https://wallstreetcn.com/news/global/3199319",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:05"
+   "published_at": "2026-11-12 19:18"
   },
   {
    "category": "finance",
-   "title": "韩国外长赵显将访华",
-   "summary": "外交部发言人宣布：经中韩双方商定，韩国外长赵显将于11月13日至14日访华。（外交部网站）",
-   "link": "https://wallstreetcn.com/news/global/3198931",
+   "title": "智利上调锂产量预期，市场明年料重返过剩",
+   "summary": "智利上调了今年的锂产量预期，尽管需求增长放缓和供应上升预计将推动全球市场在2027年重返过剩状态。 智利国家铜业委员会（Cochilco）周四表示，全球第三大锂生产国智利在2026年将生产约32.5万吨碳酸锂当量（LCE），高于一年前预测的30.5万吨。2027年产量预计将升至33.5万吨。 受电池储能系统快速增长的推动，全球锂需求今年预计将增长25%，达到208万吨，较Cochilco一年前的预",
+   "link": "https://wallstreetcn.com/news/global/3199318",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:03"
+   "published_at": "2026-11-12 19:16"
   },
   {
    "category": "finance",
-   "title": "A股收盘：创业板指冲高回落跌2.44%，全市场下跌个股超4600只",
-   "summary": "1、市场全天冲高回落，创业板指午后跌超2%。燃气股逆势走强，东方环宇4连板，洪通燃气涨停。消费股表现活跃，好当家、广百股份、惠发食品等涨停。算力芯片股盘中拉升，燧原科技涨超10%，寒武纪、沐曦股份涨超8%。下跌方面，AI漫剧概念下挫，上海电影跌停；机器人、物理AI概念走低，福莱新材等跌停。个股呈现普跌态势，沪深京三市超4600股飘绿，今日成交1.95万亿。截止收盘沪指跌0.67%，深成指跌1.68",
-   "link": "https://wallstreetcn.com/news/global/3198930",
+   "title": "墨西哥央行副行长Jonathan Heath：央行近期降息至6.25%让人感到困惑。 在通胀上行、（",
+   "summary": "墨西哥央行副行长Jonathan Heath：央行近期降息至6.25%让人感到困惑。 在通胀上行、（北方邻国的）美联储似乎准备继续加息之际，我们的降息还释放出错误信息。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3199317",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:02"
+   "published_at": "2026-11-12 19:15"
   },
   {
    "category": "finance",
-   "title": "上证指数收报3655.83点，跌0.67%。 深证成指收报11197.98点，跌1.68%。 创业板",
-   "summary": "上证指数收报3655.83点，跌0.67%。 深证成指收报11197.98点，跌1.68%。 创业板指收报2509.43点，跌2.44%。 沪深300收报4043.93点，跌0.78%。 科创50收报1309.84点，涨0.73%。 中证500收报6604.15点，跌1.62%。 中证1000收报6537.84点，跌1.97%。",
-   "link": "https://wallstreetcn.com/news/global/3198929",
+   "title": "美国民主党参议员里德：国会需要评估英伟达是否“大到不能倒”，以及这可能对银行体系产生何种影响。",
+   "summary": "美国民主党参议员里德：国会需要评估英伟达是否“大到不能倒”，以及这可能对银行体系产生何种影响。",
+   "link": "https://wallstreetcn.com/news/global/3199316",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:01"
+   "published_at": "2026-11-12 19:12"
   },
   {
    "category": "finance",
-   "title": "商品期货收盘，苹果主力合约涨超4%，苯乙烯、乙二醇涨超3%，鸡蛋、BR橡胶涨近3%。沪金跌超2%，焦",
-   "summary": "商品期货收盘，苹果主力合约涨超4%，苯乙烯、乙二醇涨超3%，鸡蛋、BR橡胶涨近3%。沪金跌超2%，焦煤、铂、铁矿石、沪银跌超1%。",
-   "link": "https://wallstreetcn.com/news/global/3198928",
+   "title": "法国规划87亿欧元行动以提振“粮食主权”",
+   "summary": "法国已启动一项为期十年的振兴计划，拟通过近1000个价值87亿欧元的项目重振农业和食品产业，以应对气候变化影响并减少对进口的依赖。这些项目瞄准牛奶（240亿升）、家禽养殖场、面粉厂和植物蛋白生产等领域，旨在限制制成品进口并降低进口依赖度。政府在食品和农业领域的拨款已超过20亿欧元，其中7.5亿欧元专门用于该振兴计划，预计将吸引公共与私人混合融资。",
+   "link": "https://wallstreetcn.com/news/global/3199315",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 19:11"
   },
   {
    "category": "finance",
-   "title": "国家发改委：自11月12日24时起，国内汽、柴油（标准品）价格每吨分别下调645元、625元。",
-   "summary": "国家发改委：自11月12日24时起，国内汽、柴油（标准品）价格每吨分别下调645元、625元。",
-   "link": "https://wallstreetcn.com/news/global/3198925",
+   "title": "英伟达新CEO打算下周三召开公司会议。（华尔街日报）",
+   "summary": "英伟达新CEO打算下周三召开公司会议。（华尔街日报）",
+   "link": "https://wallstreetcn.com/news/global/3199312",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 19:01"
   },
   {
    "category": "finance",
-   "title": "英国9月整体商品和服务贸易帐 -51.34亿英镑，预期 -21亿英镑，前值 -9.2亿英镑。",
-   "summary": "英国9月整体商品和服务贸易帐 -51.34亿英镑，预期 -21亿英镑，前值 -9.2亿英镑。",
-   "link": "https://wallstreetcn.com/news/global/3198922",
+   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6745元，较周三夜盘收盘涨4点。成交量436.",
+   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6745元，较周三夜盘收盘涨4点。成交量436.32亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3199311",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 19:01"
   },
   {
    "category": "finance",
-   "title": "英国9月商品贸易帐 -222.91亿英镑，预期 -192亿英镑，前值 -180.07亿英镑。",
-   "summary": "英国9月商品贸易帐 -222.91亿英镑，预期 -192亿英镑，前值 -180.07亿英镑。",
-   "link": "https://wallstreetcn.com/news/global/3198921",
+   "title": "恒生指数主连夜盘收跌0.29%，报23914点。 恒生科技指数主连夜盘收跌0.25%，报3916点。",
+   "summary": "恒生指数主连夜盘收跌0.29%，报23914点。 恒生科技指数主连夜盘收跌0.25%，报3916点。",
+   "link": "https://wallstreetcn.com/news/global/3199310",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 19:00"
   },
   {
    "category": "finance",
-   "title": "英国9月工业产出环比 0.3%，预期 -0.4%，前值 0.8%。",
-   "summary": "英国9月工业产出环比 0.3%，预期 -0.4%，前值 0.8%。",
-   "link": "https://wallstreetcn.com/news/global/3198920",
+   "title": "胡塞武装称对沙特阿美石油公司实施打击",
+   "summary": "当地时间12日晚间，也门胡塞武装发表声明称，刚刚使用无人机打击了位于沙特首都利雅得的沙特阿美石油公司，并称此次行动成功实现目标。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3199309",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:59"
   },
   {
    "category": "finance",
-   "title": "英国9月制造业产出同比 4.4%，预期 3.8%，前值 3%。",
-   "summary": "英国9月制造业产出同比 4.4%，预期 3.8%，前值 3%。",
-   "link": "https://wallstreetcn.com/news/global/3198919",
+   "title": "美国10月预算赤字4040.6亿美元。 10月预算支出7730亿美元，2025年同期6890亿美元；",
+   "summary": "美国10月预算赤字4040.6亿美元。 10月预算支出7730亿美元，2025年同期6890亿美元；10月预算收入3690亿美元，去年同期4040亿美元。 美国财政部官员称，10月预算赤字和支出均创当月历史新高。",
+   "link": "https://wallstreetcn.com/news/global/3199308",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:59"
   },
   {
    "category": "finance",
-   "title": "英国9月制造业产出环比 0.7%，预期 -0.5%，前值 1.2%。",
-   "summary": "英国9月制造业产出环比 0.7%，预期 -0.5%，前值 1.2%。",
-   "link": "https://wallstreetcn.com/news/global/3198918",
+   "title": "高盛预计2027年布伦特原油均价为每桶88美元",
+   "summary": "高盛集团的基本情景预测显示，2027年布伦特原油均价为每桶88美元。 受中东供应冲击及严冬影响，能源价格仍可能飙升。 能源去库存和燃料转型（尤其在中国）帮助全球经济度过了供应最紧张的时期。 预计将通过船对船转运和管道扩建等持续调整措施，进一步提升中东石油产量，使2027年产量较2025年高出110万桶/日。 若2027年海湾地区平均产量较2025年平均水平仍低250万桶/日，布伦特原油价格可能在2",
+   "link": "https://wallstreetcn.com/news/global/3199307",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:58"
   },
   {
    "category": "finance",
-   "title": "英国9月工业产出同比 3.1%，预期 2.8%，前值 1.6%。",
-   "summary": "英国9月工业产出同比 3.1%，预期 2.8%，前值 1.6%。",
-   "link": "https://wallstreetcn.com/news/global/3198917",
+   "title": "辉瑞制药将在加拿大停止销售普瑞马林激素疗法。（路透）",
+   "summary": "辉瑞制药将在加拿大停止销售普瑞马林激素疗法。（路透）",
+   "link": "https://wallstreetcn.com/news/global/3199306",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:56"
   },
   {
    "category": "finance",
-   "title": "英国三季度商业投资总额同比初值 3.04%，前值 5.2%。",
-   "summary": "英国三季度商业投资总额同比初值 3.04%，前值 5.2%。",
-   "link": "https://wallstreetcn.com/news/global/3198916",
+   "title": "加纳财政部长Forson谈及预算问题，称：加纳将在今后至2030年这段时期禁止商业大米的进口。 这段",
+   "summary": "加纳财政部长Forson谈及预算问题，称：加纳将在今后至2030年这段时期禁止商业大米的进口。 这段时期将实现糖产品的自给自足。",
+   "link": "https://wallstreetcn.com/news/global/3199305",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:51"
   },
   {
    "category": "finance",
-   "title": "英国9月建筑业产出环比 0.8%，预期 -0.1%，前值 -0.2%。",
-   "summary": "英国9月建筑业产出环比 0.8%，预期 -0.1%，前值 -0.2%。",
-   "link": "https://wallstreetcn.com/news/global/3198915",
+   "title": "美国堪萨斯城联储主席Schmid：美联储仍然没能打败通胀这个敌人。",
+   "summary": "美国堪萨斯城联储主席Schmid：美联储仍然没能打败通胀这个敌人。",
+   "link": "https://wallstreetcn.com/news/global/3199304",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:47"
   },
   {
    "category": "finance",
-   "title": "英国三季度私人家庭消费支出季环比初值 0.6%，预期 0.4%，前值 0.3%。",
-   "summary": "英国三季度私人家庭消费支出季环比初值 0.6%，预期 0.4%，前值 0.3%。",
-   "link": "https://wallstreetcn.com/news/global/3198914",
+   "title": "美国旧金山联储主席戴利（2027年FOMC票委）：对9月加息行动感到安心，但还需继续收紧货币政策。",
+   "summary": "美国旧金山联储主席戴利（2027年FOMC票委）：对9月加息行动感到安心，但还需继续收紧货币政策。",
+   "link": "https://wallstreetcn.com/news/global/3199301",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:36"
   },
   {
    "category": "finance",
-   "title": "英国三季度GDP季环比初值 0.7%，预期 0.7%，前值 0.5%。",
-   "summary": "英国三季度GDP季环比初值 0.7%，预期 0.7%，前值 0.5%。",
-   "link": "https://wallstreetcn.com/news/global/3198913",
+   "title": "OpenAI：正在调查微软连接器的一个问题，新建立的连接可能无法正常使用，相关工具也未按预期运行。",
+   "summary": "OpenAI：正在调查微软连接器的一个问题，新建立的连接可能无法正常使用，相关工具也未按预期运行。",
+   "link": "https://wallstreetcn.com/news/global/3199298",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
-  },
-  {
-   "category": "finance",
-   "title": "英国三季度GDP同比初值 1.9%，预期 1.9%，前值 1.4%。",
-   "summary": "英国三季度GDP同比初值 1.9%，预期 1.9%，前值 1.4%。",
-   "link": "https://wallstreetcn.com/news/global/3198912",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
-  },
-  {
-   "category": "finance",
-   "title": "英国三季度商业投资总额季环比初值 0.43%，预期 0.6%，前值 1.8%。",
-   "summary": "英国三季度商业投资总额季环比初值 0.43%，预期 0.6%，前值 1.8%。",
-   "link": "https://wallstreetcn.com/news/global/3198911",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
-  },
-  {
-   "category": "finance",
-   "title": "英国9月建筑业产出同比 -1.5%，预期 -2.2%，前值 -1.8%。",
-   "summary": "英国9月建筑业产出同比 -1.5%，预期 -2.2%，前值 -1.8%。",
-   "link": "https://wallstreetcn.com/news/global/3198910",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
-  },
-  {
-   "category": "finance",
-   "title": "英国9月GDP环比 0.2%，预期 0%，前值 0.1%。",
-   "summary": "英国9月GDP环比 0.2%，预期 0%，前值 0.1%。",
-   "link": "https://wallstreetcn.com/news/global/3198909",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-12 07:00"
+   "published_at": "2026-11-12 18:34"
   }
  ]
 }
