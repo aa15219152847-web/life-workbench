@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-11-12 19:59",
+ "updated_at": "2026-11-13 06:51",
  "ai": [
+  {
+   "category": "ai",
+   "title": "主导苹果 M1 芯片的传奇架构师谈 AI 电力危机：用造 iPhone 芯片的“抠门”哲学建超算",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/591.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "不靠补贴、不增加他人成本：微软承诺其 AI 扩张电费将自己买单",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/533.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "黄仁勋辞职后，英伟达总部外出现鲜花和蜡烛",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/492.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "黄仁勋最激进 AI 赌局的“刹车手”：英伟达临时 CEO 克雷斯曾力主削减 2500 亿美元 OpenAI 豪赌",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/478.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "超 740 亿美元砸向 AI：马斯克的 SpaceX 不光造火箭，还要建超级算力帝国",
+   "summary": "",
+   "link": "https://www.ithome.com/1/026/455.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元",
@@ -120,216 +160,192 @@
    "link": "https://www.ithome.com/1/025/392.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Reddit 将推出 AI 汇总商品评价系统，引发用户担忧",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/318.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/294.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软正式发布 .NET 11：开发更省时，AI 工具更齐全",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/246.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/204.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗",
-   "summary": "",
-   "link": "https://www.ithome.com/1/025/188.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "郭明錤：黄仁勋离职为谷歌TPU创造机会，库克在供应链管理及成本控制方面具备优势",
-   "summary": "分析师郭明錤表示，英伟达首席执行官黄仁勋突然离职所引发的管理层接班不确定性，可能为谷歌自研AI芯片TPU创造扩大市场份额的机会。随着大型云计算企业重新评估AI算力供应方案，谷歌有望进一步赢得客户及供应链的信任，其关键合作伙伴博通和联发科可能成为市场短期关注的重点。",
-   "link": "https://wallstreetcn.com/news/global/3199326",
+   "title": "美债收益率劲扬 粉碎债市卖压最惨烈时期已结束的希望",
+   "summary": "正当全球债券投资人开始相信今年这波债市抛售潮最糟的时刻已经过去之际，飙升的美国国债收益率再度给他们当头棒喝。搅动全球最大债市的这股力量丝毫没有消退的迹象，由于顽固的通胀挥之不去与美联储偏鹰言论，促使交易员严阵以待更激进的升息，而日益增加的债务供给则进一步推高收益率的上升压力。更引人注目的是，尽管英伟达风波震撼了股市与风险情绪，抛售潮仍旧持续，粉碎了美债已重新夺回传统避风港角色的希望。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3199621",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:47"
+   "published_at": "2026-11-13 06:51"
   },
   {
    "category": "finance",
-   "title": "币安宣布已全额补齐63亿美元被盗资产，10月黑客攻击损失全部得到弥补。 比特币日内跌幅达4.0%，报",
-   "summary": "币安宣布已全额补齐63亿美元被盗资产，10月黑客攻击损失全部得到弥补。 比特币日内跌幅达4.0%，报71435美元。",
-   "link": "https://wallstreetcn.com/news/global/3199325",
+   "title": "历峰集团上半年销售额按固定汇率计增长17%，预估增长16.2%。 历峰集团上半年亚太营收按固定汇率计",
+   "summary": "历峰集团上半年销售额按固定汇率计增长17%，预估增长16.2%。 历峰集团上半年亚太营收按固定汇率计增长16%，预估增长14.7%。 历峰集团上半年美洲地区营收按固定汇率计算增长23%，预期为增长22.7%。",
+   "link": "https://wallstreetcn.com/news/global/3199619",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:43"
+   "published_at": "2026-11-13 06:46"
   },
   {
    "category": "finance",
-   "title": "英伟达目前跌5.7%，路透报道称，黄仁勋曾与英伟达另外一名员工有过一段关系。",
-   "summary": "英伟达目前跌5.7%，路透报道称，黄仁勋曾与英伟达另外一名员工有过一段关系。",
-   "link": "https://wallstreetcn.com/news/global/3199322",
+   "title": "江苏发行10年期一般债地方债，规模20.0000亿元，发行利率1.6000%，边际倍数6.27倍，倍",
+   "summary": "江苏发行10年期一般债地方债，规模20.0000亿元，发行利率1.6000%，边际倍数6.27倍，倍数预期1.60； 江苏发行7年期棚改专项地方债，规模8.2000亿元，发行利率1.4200%，边际倍数6.43倍，倍数预期1.42； 江苏发行15年期其他专项地方债，规模29.6200亿元，发行利率1.8700%，边际倍数4.95倍，倍数预期1.87； 江苏发行20年期其他专项地方债，规模74.18",
+   "link": "https://wallstreetcn.com/news/global/3199618",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:34"
+   "published_at": "2026-11-13 06:46"
   },
   {
    "category": "finance",
-   "title": "WTI 12月原油期货收涨2.21美元，涨幅超过2.55%，报88.74美元/桶。 NYMEX 12",
-   "summary": "WTI 12月原油期货收涨2.21美元，涨幅超过2.55%，报88.74美元/桶。 NYMEX 12月天然气期货收报3.34美元/百万英热单位。 NYMEX 12月汽油期货收报2.6708美元/加仑，NYMEX 12月取暖油期货收报4.2865美元/加仑。",
-   "link": "https://wallstreetcn.com/news/global/3199321",
+   "title": "东山精密触及跌停，成交额143.59亿元。",
+   "summary": "东山精密触及跌停，成交额143.59亿元。",
+   "link": "https://wallstreetcn.com/news/global/3199615",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:31"
+   "published_at": "2026-11-13 06:35"
   },
   {
    "category": "finance",
-   "title": "报道：黄仁勋曾与英伟达另一名员工发生关系",
-   "summary": "据两名知情人士透露，被公司董事会赶下台的英伟达CEO黄仁勋曾与另一名员工发生过亲密关系。记者尝试联系该女性未果。 在美东时间11月12日爆出这一消息之前，黄仁勋已因两段婚外情于12日当天辞职。这两名女性分别是：黄乐（Alice Huang）和英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3199320",
+   "title": "伊朗表示，一艘液化气运输船在霍尔木兹海峡以东触雷。（塔斯尼姆通讯社）",
+   "summary": "伊朗表示，一艘液化气运输船在霍尔木兹海峡以东触雷。（塔斯尼姆通讯社）",
+   "link": "https://wallstreetcn.com/news/global/3199614",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:29"
+   "published_at": "2026-11-13 06:34"
   },
   {
    "category": "finance",
-   "title": "报道：奔驰暂停在德投资，工厂关闭风险迫近",
-   "summary": "一份致员工备忘录显示，高端汽车制造商梅赛德斯-奔驰正暂停其在德国所有工厂的投资，并考虑关闭部分厂区，以应对该国高昂的汽车制造成本。据公司内网分享的一篇对管理委员会成员的采访内容，奔驰决定暂停投资是因为无法与企业委员会和工会代表就劳动力成本削减达成一致。奔驰生产总监席贝（Michael Schiebe）表示，管理层”共同决定暂停在德国所有基地的一切进一步投资”。 此举标志着德国汽车业危机的最新升级—",
-   "link": "https://wallstreetcn.com/news/global/3199319",
+   "title": "日经225指数收盘上涨0.5%，报61,142.35点。 日本东证指数收盘上涨0.1%，报3,941",
+   "summary": "日经225指数收盘上涨0.5%，报61,142.35点。 日本东证指数收盘上涨0.1%，报3,941.57点。 韩国首尔综指收盘下跌1%，报5,290.53点。",
+   "link": "https://wallstreetcn.com/news/global/3199612",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:18"
+   "published_at": "2026-11-13 06:31"
   },
   {
    "category": "finance",
-   "title": "智利上调锂产量预期，市场明年料重返过剩",
-   "summary": "智利上调了今年的锂产量预期，尽管需求增长放缓和供应上升预计将推动全球市场在2027年重返过剩状态。 智利国家铜业委员会（Cochilco）周四表示，全球第三大锂生产国智利在2026年将生产约32.5万吨碳酸锂当量（LCE），高于一年前预测的30.5万吨。2027年产量预计将升至33.5万吨。 受电池储能系统快速增长的推动，全球锂需求今年预计将增长25%，达到208万吨，较Cochilco一年前的预",
-   "link": "https://wallstreetcn.com/news/global/3199318",
+   "title": "瑞穗金融集团第二财季净利润4,735.8亿日元，预估3,754.7亿日元。 第二财季股息100.00",
+   "summary": "瑞穗金融集团第二财季净利润4,735.8亿日元，预估3,754.7亿日元。 第二财季股息100.00日元。 瑞穗金融集团预计全年净利润1.60万亿日元，此前预计1.40万亿日元，市场预估1.47万亿日元。 瑞穗金融集团预计全年股息200.00日元，此前预计150.00日元，市场预估150.77日元。",
+   "link": "https://wallstreetcn.com/news/global/3199611",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:16"
+   "published_at": "2026-11-13 06:30"
   },
   {
    "category": "finance",
-   "title": "墨西哥央行副行长Jonathan Heath：央行近期降息至6.25%让人感到困惑。 在通胀上行、（",
-   "summary": "墨西哥央行副行长Jonathan Heath：央行近期降息至6.25%让人感到困惑。 在通胀上行、（北方邻国的）美联储似乎准备继续加息之际，我们的降息还释放出错误信息。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3199317",
+   "title": "央视网评：离岸信托个税申报超1600亿，不是“劫富”，是收旧账",
+   "summary": "1600多亿申报入库，10月单月入库超1200亿、带动当月全国个税收入增长近90%。数字出来的时候，有些自媒体炒作：“对富人加税了”？恰恰相反。这1600多亿的离岸信托个税谈不上开征新税，更谈不上对哪一群人定向加税，它是把本该缴的税，收回来。",
+   "link": "https://wallstreetcn.com/news/global/3199609",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:15"
+   "published_at": "2026-11-13 06:26"
   },
   {
    "category": "finance",
-   "title": "美国民主党参议员里德：国会需要评估英伟达是否“大到不能倒”，以及这可能对银行体系产生何种影响。",
-   "summary": "美国民主党参议员里德：国会需要评估英伟达是否“大到不能倒”，以及这可能对银行体系产生何种影响。",
-   "link": "https://wallstreetcn.com/news/global/3199316",
+   "title": "我国牵头的虚拟电厂一次调频国际标准正式立项",
+   "summary": "我国牵头提出的虚拟电厂国际标准提案，近日在国际电工委员会（IEC）成功立项。这项名为《虚拟电厂第4部分：一次调频功能要求与规范》的国际标准，聚焦虚拟电厂快速稳定电网的核心能力，联合多国专家制定全球统一技术准则，标志着我国在虚拟电厂国际标准化领域迈出关键一步。",
+   "link": "https://wallstreetcn.com/news/global/3199601",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:12"
+   "published_at": "2026-11-13 06:02"
   },
   {
    "category": "finance",
-   "title": "法国规划87亿欧元行动以提振“粮食主权”",
-   "summary": "法国已启动一项为期十年的振兴计划，拟通过近1000个价值87亿欧元的项目重振农业和食品产业，以应对气候变化影响并减少对进口的依赖。这些项目瞄准牛奶（240亿升）、家禽养殖场、面粉厂和植物蛋白生产等领域，旨在限制制成品进口并降低进口依赖度。政府在食品和农业领域的拨款已超过20亿欧元，其中7.5亿欧元专门用于该振兴计划，预计将吸引公共与私人混合融资。",
-   "link": "https://wallstreetcn.com/news/global/3199315",
+   "title": "金融监管总局法规司司长：讨论经济金融适配性 也应关注金融稳定",
+   "summary": "11月13日，金融监管总局首席律师、法规司司长王胜邦在第十七届财新峰会上表示，当前在讨论经济金融适配性时，关注更多的是经济金融适配对经济增长的影响，其对金融稳定的影响一定程度上被忽视了。王胜邦指出，经济与金融是镜像关系，相互映射，实体经济与金融部门之间存在多重复杂的相互作用。",
+   "link": "https://wallstreetcn.com/news/global/3199600",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:11"
+   "published_at": "2026-11-13 06:02"
   },
   {
    "category": "finance",
-   "title": "英伟达新CEO打算下周三召开公司会议。（华尔街日报）",
-   "summary": "英伟达新CEO打算下周三召开公司会议。（华尔街日报）",
-   "link": "https://wallstreetcn.com/news/global/3199312",
+   "title": "微软表示不知悉任何与服务中断相关的恶意活动",
+   "summary": "微软在服务运行状况页面更新信息称，不知悉有任何导致Office 365服务中断的恶意活动。公司将在问题缓解后提供造成服务中断的原因详情。继续推进多项工作流程，以加快后端服务器的恢复。",
+   "link": "https://wallstreetcn.com/news/global/3199599",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:01"
+   "published_at": "2026-11-13 06:02"
   },
   {
    "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6745元，较周三夜盘收盘涨4点。成交量436.",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6745元，较周三夜盘收盘涨4点。成交量436.32亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3199311",
+   "title": "商务部副部长凌激与欧委会贸易和经济安全总司总司长约根森举行会谈",
+   "summary": "商务部副部长兼中华人民共和国国际贸易谈判副代表凌激11月12日带领中方团队，与欧委会贸易和经济安全总司总司长约根森带领的欧方团队在欧盟总部开展磋商，就中欧贸易投资磋商机制第二次例会成果落实，以及磋商机制第三次例会筹备工作交换意见。",
+   "link": "https://wallstreetcn.com/news/global/3199597",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:01"
+   "published_at": "2026-11-13 06:01"
   },
   {
    "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.29%，报23914点。 恒生科技指数主连夜盘收跌0.25%，报3916点。",
-   "summary": "恒生指数主连夜盘收跌0.29%，报23914点。 恒生科技指数主连夜盘收跌0.25%，报3916点。",
-   "link": "https://wallstreetcn.com/news/global/3199310",
+   "title": "马斯克称黄仁勋将永远被铭记",
+   "summary": "有网友在X平台上分享2023年传记电影《AIR》 （气垫传奇）中的台词“你将永远被铭记，因为有些东西是永恒的”。马斯克回应：“老黄（Jensen）。”",
+   "link": "https://wallstreetcn.com/news/global/3199596",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 19:00"
+   "published_at": "2026-11-13 06:01"
   },
   {
    "category": "finance",
-   "title": "胡塞武装称对沙特阿美石油公司实施打击",
-   "summary": "当地时间12日晚间，也门胡塞武装发表声明称，刚刚使用无人机打击了位于沙特首都利雅得的沙特阿美石油公司，并称此次行动成功实现目标。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3199309",
+   "title": "恒生科技指数跌幅扩大至3%。",
+   "summary": "恒生科技指数跌幅扩大至3%。",
+   "link": "https://wallstreetcn.com/news/global/3199595",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:59"
+   "published_at": "2026-11-13 05:57"
   },
   {
    "category": "finance",
-   "title": "美国10月预算赤字4040.6亿美元。 10月预算支出7730亿美元，2025年同期6890亿美元；",
-   "summary": "美国10月预算赤字4040.6亿美元。 10月预算支出7730亿美元，2025年同期6890亿美元；10月预算收入3690亿美元，去年同期4040亿美元。 美国财政部官员称，10月预算赤字和支出均创当月历史新高。",
-   "link": "https://wallstreetcn.com/news/global/3199308",
+   "title": "日本政府因微软宕机用电话短信工作",
+   "summary": "日本数字大臣古川俊治今天（11月13日）表示，受美国微软办公软件大规模宕机影响，日本20多个政府部门共用的政务系统“GSS（政府解决方案服务）”受到波及，导致邮件无法正常收发。目前日本政府已通过打电话、发短信、使用聊天工具等其他方式尽量维持工作。(CCTV国际时讯)",
+   "link": "https://wallstreetcn.com/news/global/3199593",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:59"
+   "published_at": "2026-11-13 05:50"
   },
   {
    "category": "finance",
-   "title": "高盛预计2027年布伦特原油均价为每桶88美元",
-   "summary": "高盛集团的基本情景预测显示，2027年布伦特原油均价为每桶88美元。 受中东供应冲击及严冬影响，能源价格仍可能飙升。 能源去库存和燃料转型（尤其在中国）帮助全球经济度过了供应最紧张的时期。 预计将通过船对船转运和管道扩建等持续调整措施，进一步提升中东石油产量，使2027年产量较2025年高出110万桶/日。 若2027年海湾地区平均产量较2025年平均水平仍低250万桶/日，布伦特原油价格可能在2",
-   "link": "https://wallstreetcn.com/news/global/3199307",
+   "title": "武汉10宗宅地46.9亿元成交 最高溢价率62.27%",
+   "summary": "11月13日，武汉出让10宗住宅用地，总土地出让面积563992.22㎡，总规划建筑面积1325140.14㎡，总起始价41.2亿元，最终9宗底价成交、1宗溢价成交，总成交金额46.9亿元。",
+   "link": "https://wallstreetcn.com/news/global/3199590",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:58"
+   "published_at": "2026-11-13 05:47"
   },
   {
    "category": "finance",
-   "title": "辉瑞制药将在加拿大停止销售普瑞马林激素疗法。（路透）",
-   "summary": "辉瑞制药将在加拿大停止销售普瑞马林激素疗法。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3199306",
+   "title": "Vanda称黄仁勋去职难挡散户对英伟达的热情 开盘半小时净买进史上最大",
+   "summary": "Vanda Research援引其历史数据指出，在美国股市周四开盘的头30 分钟内，散户净买进1.11亿美元的英伟达股票，创下该只股票开盘半小时的历来最大规模。该机构补充表示，这相当于平常开盘水准的40倍以上。在本周截至周三为止，英伟达更占了全美散户对所有美股及ETF净买进额的61%。",
+   "link": "https://wallstreetcn.com/news/global/3199589",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:56"
+   "published_at": "2026-11-13 05:43"
   },
   {
    "category": "finance",
-   "title": "加纳财政部长Forson谈及预算问题，称：加纳将在今后至2030年这段时期禁止商业大米的进口。 这段",
-   "summary": "加纳财政部长Forson谈及预算问题，称：加纳将在今后至2030年这段时期禁止商业大米的进口。 这段时期将实现糖产品的自给自足。",
-   "link": "https://wallstreetcn.com/news/global/3199305",
+   "title": "习近平对国有企业党的建设工作作出重要指示强调，持之以恒推进全面从严治党，为做强做优做大国有企业和国有",
+   "summary": "习近平对国有企业党的建设工作作出重要指示强调，持之以恒推进全面从严治党，为做强做优做大国有企业和国有资本提供坚强保障。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3199586",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:51"
+   "published_at": "2026-11-13 05:38"
   },
   {
    "category": "finance",
-   "title": "美国堪萨斯城联储主席Schmid：美联储仍然没能打败通胀这个敌人。",
-   "summary": "美国堪萨斯城联储主席Schmid：美联储仍然没能打败通胀这个敌人。",
-   "link": "https://wallstreetcn.com/news/global/3199304",
+   "title": "中国台湾证交所加权股价指数收高1.4%报43,675.12点。",
+   "summary": "中国台湾证交所加权股价指数收高1.4%报43,675.12点。",
+   "link": "https://wallstreetcn.com/news/global/3199584",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:47"
+   "published_at": "2026-11-13 05:35"
   },
   {
    "category": "finance",
-   "title": "美国旧金山联储主席戴利（2027年FOMC票委）：对9月加息行动感到安心，但还需继续收紧货币政策。",
-   "summary": "美国旧金山联储主席戴利（2027年FOMC票委）：对9月加息行动感到安心，但还需继续收紧货币政策。",
-   "link": "https://wallstreetcn.com/news/global/3199301",
+   "title": "创业板指跌幅扩大至3%，算力硬件、生物科技等方向跌幅居前，沪深京三市下跌个股超4500只。",
+   "summary": "创业板指跌幅扩大至3%，算力硬件、生物科技等方向跌幅居前，沪深京三市下跌个股超4500只。",
+   "link": "https://wallstreetcn.com/news/global/3199582",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:36"
+   "published_at": "2026-11-13 05:29"
   },
   {
    "category": "finance",
-   "title": "OpenAI：正在调查微软连接器的一个问题，新建立的连接可能无法正常使用，相关工具也未按预期运行。",
-   "summary": "OpenAI：正在调查微软连接器的一个问题，新建立的连接可能无法正常使用，相关工具也未按预期运行。",
-   "link": "https://wallstreetcn.com/news/global/3199298",
+   "title": "韩国首尔综指跌幅扩大至1%，SK海力士跌超3%。",
+   "summary": "韩国首尔综指跌幅扩大至1%，SK海力士跌超3%。",
+   "link": "https://wallstreetcn.com/news/global/3199577",
    "source": "华尔街见闻",
-   "published_at": "2026-11-12 18:34"
+   "published_at": "2026-11-13 05:19"
+  },
+  {
+   "category": "finance",
+   "title": "A股银行板块午后持续逆势拉升，青岛银行涨超4%，江苏银行、南京银行、成都银行、杭州银行涨幅约2%，均",
+   "summary": "A股银行板块午后持续逆势拉升，青岛银行涨超4%，江苏银行、南京银行、成都银行、杭州银行涨幅约2%，均创历史新高，齐鲁银行、西安银行、北京银行、中国银行等涨幅靠前。",
+   "link": "https://wallstreetcn.com/news/global/3199576",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-13 05:12"
+  },
+  {
+   "category": "finance",
+   "title": "创业板指跌幅达2%，光芯片、元件板块跌幅居前，沪深京三市下跌个股超4000只。",
+   "summary": "创业板指跌幅达2%，光芯片、元件板块跌幅居前，沪深京三市下跌个股超4000只。",
+   "link": "https://wallstreetcn.com/news/global/3199572",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-13 05:03"
   }
  ]
 }
