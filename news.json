@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-16 06:38",
+ "updated_at": "2026-11-16 22:11",
  "ai": [
+  {
+   "category": "ai",
+   "title": "国际货币基金组织总裁警告：全球经济过度依赖 AI，相关循环融资规模超 1 万亿美元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/027/861.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "豆包工作新功能「工作台」上线，首批覆盖金融、医疗、教育等 21 个专业场景",
@@ -144,208 +152,200 @@
    "link": "https://www.ithome.com/1/026/478.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "超 740 亿美元砸向 AI：马斯克的 SpaceX 不光造火箭，还要建超级算力帝国",
-   "summary": "",
-   "link": "https://www.ithome.com/1/026/455.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/026/446.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "六项水上北斗领域国家标准发布",
-   "summary": "市场监管总局（国家标准委）近日批准发布《船载北斗导航通信一体式设备技术规范》《综合船桥系统北斗定位授时模块接口协议》及水上北斗短报文信息服务系统系列标准等6项水上北斗领域国家标准。这些标准紧密对接水上交通安全监管、航海保障与行业发展需求，可为水上北斗规模化应用提供有力技术支撑。（央视新闻）",
-   "link": "https://wallstreetcn.com/news/global/3200464",
+   "title": "周一（11月16日）纽约尾盘，标普500股指期货最终跌1.94%，道指期货跌1.44%，纳斯达克10",
+   "summary": "周一（11月16日）纽约尾盘，标普500股指期货最终跌1.94%，道指期货跌1.44%，纳斯达克100股指期货跌2.67%。 罗素2000股指期货跌1.79%。",
+   "link": "https://wallstreetcn.com/news/global/3200867",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:38"
+   "published_at": "2026-11-16 22:05"
   },
   {
    "category": "finance",
-   "title": "小艺AI会员正式上线",
-   "summary": "小艺正式宣布推出高阶AI服务订阅产品“小艺AI会员”，覆盖手机、平板、电脑多端，会员权益支持办公、创作、图像处理、云存储等多个场景。价格方面，小艺AI会员共推出三档套餐，标准版连续包月49元，Pro版连续包月199元，Max版连续包月499元。同时，小艺Work订阅用户可支持0元升级至任一会员套餐。（界面）",
-   "link": "https://wallstreetcn.com/news/global/3200463",
+   "title": "周一（11月16日）纽约尾盘（周二北京时间05:59），离岸人民币（CNH）兑美元报6.6648元，",
+   "summary": "周一（11月16日）纽约尾盘（周二北京时间05:59），离岸人民币（CNH）兑美元报6.6648元，较上周五纽约尾盘涨101点，日内整体交投于6.6743-6.6633元区间，整体持续走高。",
+   "link": "https://wallstreetcn.com/news/global/3200866",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:37"
+   "published_at": "2026-11-16 22:03"
   },
   {
    "category": "finance",
-   "title": "浦发多部门高管轮换，陈兵拟回归母行筹建AIC",
-   "summary": "记者从知情人士处了解到，浦发银行近期多部门及区域分行高管轮动。子公司层面，上海信托总经理陈兵拟回归母行筹建AIC，浦发银行总行授信管理部总经理陆炜拟接任上海信托总经理。与此同时，总行部门及地方分行层面也有多位一把手轮换。原南京分行行长王翔接任总行授信管理部总经理一职，南京分行行长一职由原总行普惠金融部总经理李智接任，普惠金融部总经理一职由原乡村振兴金融部总经理崔亮接任，乡村振兴金融部总经理一职由原",
-   "link": "https://wallstreetcn.com/news/global/3200462",
+   "title": "英特尔美股盘后跌1.8%。",
+   "summary": "英特尔美股盘后跌1.8%。",
+   "link": "https://wallstreetcn.com/news/global/3200865",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:36"
+   "published_at": "2026-11-16 21:57"
   },
   {
    "category": "finance",
-   "title": "商务部国际司负责人就中国—东盟自贸区3.0版升级议定书生效实施答记者问",
-   "summary": "问：中国—东盟自贸区3.0版升级议定书生效实施将给企业带来哪些新机遇？ 答：升级议定书既包括贸易便利化等“边境上”措施，也涵盖数字、绿色、标准、供应链等“边境后”新兴领域，将为双方企业进一步深入挖掘贸易投资合作潜力提供更多新机遇。",
-   "link": "https://wallstreetcn.com/news/global/3200461",
+   "title": "De Shaw &amp; Co.三季度新进SK海力士等。 增持英特尔、Palantir、微软、卡特",
+   "summary": "De Shaw &amp; Co.三季度新进SK海力士等。 增持英特尔、Palantir、微软、卡特彼勒、阿斯利康。 清仓SpaceX、Modine等。 减持特斯拉、AMD、闪迪等。 重仓道富SPDR标普50 ETF、英伟达、英特尔、谷歌A、微软。",
+   "link": "https://wallstreetcn.com/news/global/3200864",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:36"
+   "published_at": "2026-11-16 21:56"
   },
   {
    "category": "finance",
-   "title": "日经225指数收盘下跌2.4%，报59,662.02点。 日本东证指数收盘下跌1%，报3,901.3",
-   "summary": "日经225指数收盘下跌2.4%，报59,662.02点。 日本东证指数收盘下跌1%，报3,901.37点。 韩国首尔综指收盘下跌3.6%，报5,100.50点。",
-   "link": "https://wallstreetcn.com/news/global/3200459",
+   "title": "Point72在三季度新进Booking、NET等。 增持微软、英特尔、波音、英伟达。 清仓吉利德科",
+   "summary": "Point72在三季度新进Booking、NET等。 增持微软、英特尔、波音、英伟达。 清仓吉利德科学等。 减持Credo、AMD、阿斯麦、台积电、万机仪器MKSI。",
+   "link": "https://wallstreetcn.com/news/global/3200863",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:32"
+   "published_at": "2026-11-16 21:53"
   },
   {
    "category": "finance",
-   "title": "克里米亚大桥遭袭 交通受限",
-   "summary": "当地时间16日，记者自俄罗斯方面获悉，克里米亚大桥遭袭，交通暂时受限。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3200458",
+   "title": "马斯克谈论StarLink（星链）和美国联邦航空管理局（FAA）：曾向交通部长Duffy提议免费提供",
+   "summary": "马斯克谈论StarLink（星链）和美国联邦航空管理局（FAA）：曾向交通部长Duffy提议免费提供星链给FAA，但他说他们不需要。",
+   "link": "https://wallstreetcn.com/news/global/3200862",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:31"
+   "published_at": "2026-11-16 21:49"
   },
   {
    "category": "finance",
-   "title": "比特币遭抛售后 期权交易员防范价格跌至6万美元",
-   "summary": "上周比特币遭遇猛烈抛售后，期权交易员正为进一步下跌做准备。更趋紧缩的利率前景和避险情绪，加深了市场对这种加密货币的悲观情绪。周一，汇总所有到期日合约后，Deribit平台看跌期权未平仓量在6万美元行权价处最为集中，较比特币目前约6.5万美元的价格低约8%。看跌期权赋予持有人以预定价格卖出的权利，通常用于防范预期中的进一步下跌。这一持仓布局出现在比特币上周大跌之后。这种全球最大的数字资产上周下跌12",
-   "link": "https://wallstreetcn.com/news/global/3200457",
+   "title": "13F报告显示：英伟达三季度减持英特尔、诺基亚、新思科技。 新进SpaceX。 重仓SpaceX、英",
+   "summary": "13F报告显示：英伟达三季度减持英特尔、诺基亚、新思科技。 新进SpaceX。 重仓SpaceX、英特尔、CoreWeave、高意公司Coherent、新思科技。",
+   "link": "https://wallstreetcn.com/news/global/3200861",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:30"
+   "published_at": "2026-11-16 21:48"
   },
   {
    "category": "finance",
-   "title": "科创50指数跌超6%。",
-   "summary": "科创50指数跌超6%。",
-   "link": "https://wallstreetcn.com/news/global/3200456",
+   "title": "明晟公司MSCI新兴市场股票指数跌2.8%，台积电、三星电子、SK海力士构成拖累。 发展中国家外汇指",
+   "summary": "明晟公司MSCI新兴市场股票指数跌2.8%，台积电、三星电子、SK海力士构成拖累。 发展中国家外汇指数跌0.1%，巴西雷亚尔兑美元跌2.3%刷新2025年4月份以来最低位至5.7891雷亚尔。 下半年迄今的新兴市场主权债发行量下滑41%至690亿美元，这样的供应缺口对债券价格不利。",
+   "link": "https://wallstreetcn.com/news/global/3200860",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:26"
+   "published_at": "2026-11-16 21:43"
   },
   {
    "category": "finance",
-   "title": "欧盟委员会拟以预算担保借款450亿欧元援助乌克兰。（英国金融时报）",
-   "summary": "欧盟委员会拟以预算担保借款450亿欧元援助乌克兰。（英国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3200453",
+   "title": "周一（11月16日）纽约尾盘，现货黄金跌0.73%，报3855.92美元/盎司，亚太午盘曾跌至383",
+   "summary": "周一（11月16日）纽约尾盘，现货黄金跌0.73%，报3855.92美元/盎司，亚太午盘曾跌至3832.59美元。 现货白银跌3.52%，报47.0302美元/盎司，亚太早盘显著下跌，绝大部分时间低位震荡——震荡于47.50美元附近。 COMEX铜期货跌1.6%，报6.0855美元/磅。",
+   "link": "https://wallstreetcn.com/news/global/3200859",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:09"
+   "published_at": "2026-11-16 21:38"
   },
   {
    "category": "finance",
-   "title": "创业板指午后跌幅扩大至4%，沪指跌超1%，全市场超4400只股下跌。",
-   "summary": "创业板指午后跌幅扩大至4%，沪指跌超1%，全市场超4400只股下跌。",
-   "link": "https://wallstreetcn.com/news/global/3200452",
+   "title": "Elliott三季度新进PAG，增持家得宝、NCLH，清仓新思科技，减持惠与（HPE）、SDRL。",
+   "summary": "Elliott三季度新进PAG，增持家得宝、NCLH，清仓新思科技，减持惠与（HPE）、SDRL。",
+   "link": "https://wallstreetcn.com/news/global/3200858",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:07"
+   "published_at": "2026-11-16 21:34"
   },
   {
    "category": "finance",
-   "title": "现货白银日内跌幅达3.5%，报47.18美元/盎司。",
-   "summary": "现货白银日内跌幅达3.5%，报47.18美元/盎司。",
-   "link": "https://wallstreetcn.com/news/global/3200447",
+   "title": "富国银行Kwon：将标普500指数2027年年底目标设在8200点。",
+   "summary": "富国银行Kwon：将标普500指数2027年年底目标设在8200点。",
+   "link": "https://wallstreetcn.com/news/global/3200857",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 06:00"
+   "published_at": "2026-11-16 21:32"
   },
   {
    "category": "finance",
-   "title": "A股光伏设备板块持续下挫，钧达股份触及跌停，晶盛机电、东方日升、迈为股份、金刚光伏跟跌。",
-   "summary": "A股光伏设备板块持续下挫，钧达股份触及跌停，晶盛机电、东方日升、迈为股份、金刚光伏跟跌。",
-   "link": "https://wallstreetcn.com/news/global/3200446",
+   "title": "Chase（摩根大通）：并没有证据表明今天发生的问题与网络攻击有关。",
+   "summary": "Chase（摩根大通）：并没有证据表明今天发生的问题与网络攻击有关。",
+   "link": "https://wallstreetcn.com/news/global/3200856",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:57"
+   "published_at": "2026-11-16 21:30"
   },
   {
    "category": "finance",
-   "title": "科创50指数跌超5%，算力芯片股持续下挫，沐曦股份、燧原科技均跌超10%，寒武纪跌超8%。",
-   "summary": "科创50指数跌超5%，算力芯片股持续下挫，沐曦股份、燧原科技均跌超10%，寒武纪跌超8%。",
-   "link": "https://wallstreetcn.com/news/global/3200445",
+   "title": "【索罗斯加入家族办公室行列，在英伟达CEO离职前锁定收益】截至9月30日的季度内，乔治·索罗斯的家族",
+   "summary": "【索罗斯加入家族办公室行列，在英伟达CEO离职前锁定收益】截至9月30日的季度内，乔治·索罗斯的家族办公室减持英伟达近五分之一，在黄仁勋离开公司前锁定收益。其他投资机构，包括迈克尔·普拉特的BlueCrest Capital Management，以及阿布扎比统治者谢赫·穆罕默德·本·扎耶德·阿勒纳哈扬的投资公司，也在同期减持了英伟达。这些减持的家族办公室仍保留了部分英伟达股份，季度末合计持股超过",
+   "link": "https://wallstreetcn.com/news/global/3200855",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:56"
+   "published_at": "2026-11-16 21:28"
   },
   {
    "category": "finance",
-   "title": "A股新易盛盘中跌超10%，现报168.81元。",
-   "summary": "A股新易盛盘中跌超10%，现报168.81元。",
-   "link": "https://wallstreetcn.com/news/global/3200443",
+   "title": "美国CFTC：资管机构增持多头头寸，10年期美债期货净多仓创历史新高",
+   "summary": "截至11月10日当周，资产管理公司在10年期国债期货上的净多头头寸进一步扩大至历史新高。另一方面，美国商品期货交易委员会（CFTC）数据显示，对冲基金在从SOFR期货到超长期10年期国债期货的多个品种上增加了净空头头寸。 资产管理公司在10年期国债期货上增加了750万美元/DV01的净多头头寸，使其持仓突破300万手合约，创下自2006年有数据以来的最高水平。 当周，资产管理公司在超长期国债期货上",
+   "link": "https://wallstreetcn.com/news/global/3200853",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:53"
+   "published_at": "2026-11-16 21:23"
   },
   {
    "category": "finance",
-   "title": "现货黄金回落至3840美元/盎司下方，日内跌1.07%。",
-   "summary": "现货黄金回落至3840美元/盎司下方，日内跌1.07%。",
-   "link": "https://wallstreetcn.com/news/global/3200442",
+   "title": "13F报告显示，Lone Pine三季度新进亚马逊、Meta、英特尔等。 增持台积电、谷歌A等。 清",
+   "summary": "13F报告显示，Lone Pine三季度新进亚马逊、Meta、英特尔等。 增持台积电、谷歌A等。 清仓希捷科技、康宁公司等。 减持应用材料、Nebius Group NV等。",
+   "link": "https://wallstreetcn.com/news/global/3200852",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:51"
+   "published_at": "2026-11-16 21:21"
   },
   {
    "category": "finance",
-   "title": "国债期货午后持续走低，30年期主力合约大跌0.85%，10年期主力合约跌0.25%，5年期主力合约跌",
-   "summary": "国债期货午后持续走低，30年期主力合约大跌0.85%，10年期主力合约跌0.25%，5年期主力合约跌0.11%，2年期主力合约跌0.02%。",
-   "link": "https://wallstreetcn.com/news/global/3200441",
+   "title": "13F报告显示，Third Point在三季度建仓Meta、英伟达、微软等。 增持SpaceX等。",
+   "summary": "13F报告显示，Third Point在三季度建仓Meta、英伟达、微软等。 增持SpaceX等。 清仓亚马逊等。 减持谷歌A、台积电等。",
+   "link": "https://wallstreetcn.com/news/global/3200851",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:49"
+   "published_at": "2026-11-16 21:17"
   },
   {
    "category": "finance",
-   "title": "日本东证指数下跌1%。",
-   "summary": "日本东证指数下跌1%。",
-   "link": "https://wallstreetcn.com/news/global/3200440",
+   "title": "美国司法部：银行服务中断之际，暂时没有证据显示发生（网络）攻击。（MS Now）",
+   "summary": "美国司法部：银行服务中断之际，暂时没有证据显示发生（网络）攻击。（MS Now）",
+   "link": "https://wallstreetcn.com/news/global/3200850",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:44"
+   "published_at": "2026-11-16 21:16"
   },
   {
    "category": "finance",
-   "title": "美股股指期货持续走低，纳斯达克指数期货跌1.00%，道琼斯指数期货跌0.16%，标普500指数期货跌",
-   "summary": "美股股指期货持续走低，纳斯达克指数期货跌1.00%，道琼斯指数期货跌0.16%，标普500指数期货跌0.48%。",
-   "link": "https://wallstreetcn.com/news/global/3200439",
+   "title": "富时A50期指连续夜盘收跌0.28%，报12706点。",
+   "summary": "富时A50期指连续夜盘收跌0.28%，报12706点。",
+   "link": "https://wallstreetcn.com/news/global/3200848",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:41"
+   "published_at": "2026-11-16 21:15"
   },
   {
    "category": "finance",
-   "title": "铁矿石价格触及2022年以来最低，钢铁市场前景疲软。",
-   "summary": "铁矿石价格触及2022年以来最低，钢铁市场前景疲软。",
-   "link": "https://wallstreetcn.com/news/global/3200438",
+   "title": "伊朗官员否认伊斯法罕防空系统启动",
+   "summary": "当地时间16日晚，伊朗伊斯法罕省负责安全事务的副省长否认了部分伊朗媒体对“伊斯法罕出现防空系统启动”的报道。他表示，在该省领空内并未发现任何敌对飞行器。此外，他指出，与该省防空和武装部队行动相关的事宜，均按既定计划和标准程序正常进行。镐山地下核设施位于伊斯法罕省纳坦兹核设施附近，被认为是伊朗最坚固的地下核设施之一。美方此前已多次威胁要对该设施发动打击。不过，伊朗方面表示，镐山设施“是空的”，美国袭",
+   "link": "https://wallstreetcn.com/news/global/3200847",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:41"
+   "published_at": "2026-11-16 21:14"
   },
   {
    "category": "finance",
-   "title": "韩国KOSPI指数日内大跌4.00%，现报5078.49点。SK海力士跌超8%，三星电子跌超5%。",
-   "summary": "韩国KOSPI指数日内大跌4.00%，现报5078.49点。SK海力士跌超8%，三星电子跌超5%。",
-   "link": "https://wallstreetcn.com/news/global/3200436",
+   "title": "周一（11月16日），美股行业ETF多数收跌，半导体ETF收跌5.11%，全球科技股指数ETF、科技",
+   "summary": "周一（11月16日），美股行业ETF多数收跌，半导体ETF收跌5.11%，全球科技股指数ETF、科技行业ETF、网络股指数ETF至多跌3.75%，能源业ETF跌1.91%，全球航空业ETF则涨0.62%。 标普500指数的11个板块中，信息技术/科技板块收跌2.98%，电信板块跌2.82%，能源、可选消费板块跌2.09%。",
+   "link": "https://wallstreetcn.com/news/global/3200846",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:40"
+   "published_at": "2026-11-16 21:10"
   },
   {
    "category": "finance",
-   "title": "A股中际旭创盘中跌超10%。",
-   "summary": "A股中际旭创盘中跌超10%。",
-   "link": "https://wallstreetcn.com/news/global/3200435",
+   "title": "英国首相伯纳姆：英国脱离欧洲时关系不佳，且双方心存芥蒂。 英国脱欧是全球转向孤立主义和保护主义的第一",
+   "summary": "英国首相伯纳姆：英国脱离欧洲时关系不佳，且双方心存芥蒂。 英国脱欧是全球转向孤立主义和保护主义的第一张多米诺骨牌。 过去10年，我们失去的比得到的多。 我们经历的这种硬脱欧对英国来说不够好。",
+   "link": "https://wallstreetcn.com/news/global/3200845",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:36"
+   "published_at": "2026-11-16 21:08"
   },
   {
    "category": "finance",
-   "title": "台交所加权股价指数收低6%报41,040.08点。",
-   "summary": "台交所加权股价指数收低6%报41,040.08点。",
-   "link": "https://wallstreetcn.com/news/global/3200434",
+   "title": "桥水增持美光、闪迪，重仓英伟达、博通和标普500",
+   "summary": "13F报告显示：桥水三季度新进Dominion Energy、Occidental（西方石油公司）、思科。 增持高通、Applovin、Qorvo、美光科技、闪迪。 清仓Union Pacific、Paccar、标普全球。 减持道富SPDR标普50 ETF、iShares核心标普500 ETF、谷歌A、Vanguard标普500 ETF、亚马逊。 重仓道富SPDR标普50 ETF、iShares核",
+   "link": "https://wallstreetcn.com/news/global/3200844",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:35"
+   "published_at": "2026-11-16 21:08"
   },
   {
    "category": "finance",
-   "title": "MSCI亚太指数下跌2%至249.13点。",
-   "summary": "MSCI亚太指数下跌2%至249.13点。",
-   "link": "https://wallstreetcn.com/news/global/3200432",
+   "title": "谷歌将让日本提前使用前沿人工智能技术进行网络安全防护。",
+   "summary": "谷歌将让日本提前使用前沿人工智能技术进行网络安全防护。",
+   "link": "https://wallstreetcn.com/news/global/3200843",
    "source": "华尔街见闻",
-   "published_at": "2026-11-16 05:32"
+   "published_at": "2026-11-16 21:04"
+  },
+  {
+   "category": "finance",
+   "title": "13F报告显示：伯克希尔三季度减持美国银行、DaVita、VeriSign、第一资本金融、克罗格。",
+   "summary": "13F报告显示：伯克希尔三季度减持美国银行、DaVita、VeriSign、第一资本金融、克罗格。 增持莱纳、莱纳B类股、达美航空、梅西百货。 重仓苹果、美国运通、可口可乐、谷歌A、美国银行。",
+   "link": "https://wallstreetcn.com/news/global/3200842",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-16 21:02"
   }
  ]
 }
