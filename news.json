@@ -1,6 +1,86 @@
 {
- "updated_at": "2026-11-17 20:59",
+ "updated_at": "2026-11-18 07:36",
  "ai": [
+  {
+   "category": "ai",
+   "title": "微软推出 Copilot Today：打工人的“全自动 AI 助理”，替你排好一天工作",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/831.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Claude 关联计费测试上线，第三方应用 AI 消费能“按需结算”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/637.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "韩国总统李在明公布防 AI 作弊新招：考试期间发送最高级别灾难警报，让藏匿的手机无处遁形",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/629.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "冲击人类史上最大 IPO、发行价每股 70~78 美元：Anthropic 已获准上市，代码为“ANT”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/599.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/597.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/593.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "多语言错误率直降 50%：微软升级医患对话 AI 转录引擎，已覆盖全美 1/3 医师",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/590.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软首款语音对语音模型：MAI Realtime 1 登场，起价每分钟 0.01 美元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/588.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软最具性价比网安 AI 模型 MAI Cyber 2 Flash 登场：性能比肩 GPT-6 Astra，每任务成本约为其 2%",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/585.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软性价比最高编程 AI 模型：MAI Code 2 用 5% 成本达 Claude Opus 5.5 约 96% 性能",
+   "summary": "",
+   "link": "https://www.ithome.com/1/028/579.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "每秒输出最高 43 词元：Garlic LLM 可让越狱 PS4 运行 9B 参数本地 AI 模型",
@@ -72,256 +152,208 @@
    "link": "https://www.ithome.com/1/027/861.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "豆包工作新功能「工作台」上线，首批覆盖金融、医疗、教育等 21 个专业场景",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/608.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 版拓麻歌子来了：日常物品秒变需要被照顾的虚拟宠物",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/443.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "澳大利亚央行研究：AI 最先冲击年轻劳动者，尤其是软件、客服岗位",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/432.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "Gartner 预测：到 2030 年全球将因 AI 净增加约 170 万个工作岗位",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/427.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "前 OpenAI 研究员：当前活着的人最有可能死于 AI 失控",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/419.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "利用 AI 将国漫角色改成情色形象，7 名“黄图画师”获刑",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/395.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "小特朗普支持的公司称未来 5~10 年大多数战争将由机器人来打",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/144.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软 14 年 AI 老将离职：称创新难落地，降本研究未获认真考虑",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/078.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "实现“躺平式办公”：Mac 版 Perplexity 上线“AI 队友”，组建你的全天候数字员工",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/050.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "礼来 CEO 回应“AI 十年内攻克癌症”：愿景很美好，但不太可能",
-   "summary": "",
-   "link": "https://www.ithome.com/1/027/037.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "报道：黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。",
-   "summary": "报道：黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。",
-   "link": "https://wallstreetcn.com/news/global/3201508",
+   "title": "加拿大总理卡尼：将于今天晚些时候与特朗普会面。 与美国在贸易问题上取得进展。",
+   "summary": "加拿大总理卡尼：将于今天晚些时候与特朗普会面。 与美国在贸易问题上取得进展。",
+   "link": "https://wallstreetcn.com/news/global/3201772",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:59"
+   "published_at": "2026-11-18 07:31"
   },
   {
    "category": "finance",
-   "title": "南非拟寻求豁免欧盟混动汽车进口限制",
-   "summary": "如果欧盟对混合动力汽车进口实施保障措施，南非将寻求豁免或国别配额。 南非贸易、工业和竞争部副部长总干事克索莱尔瓦·姆伦比-彼得（Xolelwa Mlumbi-Peter）周二向议员表示，该部正在评估南非是否有资格根据世贸组织（WTO）规则获得豁免，并将向欧盟委员会提交正式意见。她表示，如果实施，欧盟的进口限制将对南非汽车业构成风险，因为当地制造商正从内燃机向新能源汽车转型，约360亿兰特（约合20",
-   "link": "https://wallstreetcn.com/news/global/3201506",
+   "title": "越南VN指数下跌2.9%，报1,677.39点。",
+   "summary": "越南VN指数下跌2.9%，报1,677.39点。",
+   "link": "https://wallstreetcn.com/news/global/3201771",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:49"
+   "published_at": "2026-11-18 07:30"
   },
   {
    "category": "finance",
-   "title": "巴克莱预计2027年市政债供给量最高达6,000亿美元",
-   "summary": "根据由米哈伊尔·富克斯（Mikhail Foux）领衔的分析师团队周二发布的研报，巴克莱银行预计明年美国市政债发行量将在5,800亿至6,000亿美元之间，到2027年底将推动市场规模逼近5万亿美元。 这一预测较今年年底预计的6,000亿美元或更高水平略有放缓，但今年将是连续第三年创下发行量纪录。收益率高企的环境可能会限制2027年的再融资发行，不过利率可能在下半年回落。与此同时，持续的基础设施需",
-   "link": "https://wallstreetcn.com/news/global/3201505",
+   "title": "【英伟达停止向中国供应H200芯片 外交部回应】外交部发言人郭嘉昆主持例行记者会。法新社记者提问，英",
+   "summary": "【英伟达停止向中国供应H200芯片 外交部回应】外交部发言人郭嘉昆主持例行记者会。法新社记者提问，英伟达的临时CEO称，将不再向中国出货H200芯片。中方对此有何评论？郭嘉昆表示，中方此前已经多次阐明在美国输华芯片问题上的原则立场。 (北京日报)",
+   "link": "https://wallstreetcn.com/news/global/3201769",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:48"
+   "published_at": "2026-11-18 07:24"
   },
   {
    "category": "finance",
-   "title": "美国政府情报主管、白宫AI主管Clayton：没有看到“协同网络攻击”的迹象。（福克斯商业新闻）",
-   "summary": "美国政府情报主管、白宫AI主管Clayton：没有看到“协同网络攻击”的迹象。（福克斯商业新闻）",
-   "link": "https://wallstreetcn.com/news/global/3201504",
+   "title": "印尼央行加息后，印尼盾维持小幅跌势。",
+   "summary": "印尼央行加息后，印尼盾维持小幅跌势。",
+   "link": "https://wallstreetcn.com/news/global/3201768",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:46"
+   "published_at": "2026-11-18 07:23"
   },
   {
    "category": "finance",
-   "title": "拉脱维亚新一届政府成立",
-   "summary": "拉脱维亚议会17日批准新内阁成员名单，来自政党联盟“联合名单”的安德里斯·库尔贝格斯继续担任总理。拉脱维亚新一届联合政府由“联合名单”和民族联盟组成，两党在议会100个席位中合计占有51席，拥有微弱多数。(新华社)",
-   "link": "https://wallstreetcn.com/news/global/3201503",
+   "title": "印尼央行：利率决定符合加强印尼盾的努力。 此举是确保通胀维持在目标而采取的预防性措施。 将继续在离岸",
+   "summary": "印尼央行：利率决定符合加强印尼盾的努力。 此举是确保通胀维持在目标而采取的预防性措施。 将继续在离岸和在岸外汇市场进行干预。",
+   "link": "https://wallstreetcn.com/news/global/3201767",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:42"
+   "published_at": "2026-11-18 07:19"
   },
   {
    "category": "finance",
-   "title": "10年期美债收益率在美国零售销售数据发布后一度实现V形反转，随后在科技股抛售期间迎来避险",
-   "summary": "周二（11月17日）纽约尾盘，美国10年期基准国债收益率跌3.24个基点，报5.0987%，日内交投于5.1494%-5.0865%区间，北京时间22:24刷新日高——亚太盘初以来（含美国零售销售数据发布的时间节点）呈现出V形反转，23:28出现一波短线跳水行情。 两年期美债收益率跌4.23个基点，报4.7870%，日内交投于4.8572%-4.7764%区间；30年期美债收益率跌1.83个基点，",
-   "link": "https://wallstreetcn.com/news/global/3201502",
+   "title": "印尼央行意外加息25个基点以支撑印尼盾",
+   "summary": "随着印尼盾兑美元持续走弱，印尼央行出人意料地重启加息，以吸引资金流入并支撑本币，货币政策立场转向收紧。印尼央行周三将基准利率上调25个基点至6%，为6月以来首次加息，市场预计央行会将利率维持在5.75%不变。此举表明，政策制定者认为，依靠外汇市场干预和套期保值激励措施来捍卫印尼盾的空间有所缩小。印尼盾是今年迄今亚洲表现最差的货币。",
+   "link": "https://wallstreetcn.com/news/global/3201766",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:40"
+   "published_at": "2026-11-18 07:18"
   },
   {
    "category": "finance",
-   "title": "预测市场平台Kalshi首席执行官反对美国商品期货交易委员会（CFTC）暂停平台部分言论预测市场合约",
-   "summary": "预测市场平台Kalshi首席执行官反对美国商品期货交易委员会（CFTC）暂停平台部分言论预测市场合约的决定。相关市场允许用户押注特朗普公开讲话中将使用哪些词语。（Axios）",
-   "link": "https://wallstreetcn.com/news/global/3201501",
+   "title": "外交部：中俄美三国元首将就事关全球和平的重要问题深入交换意见",
+   "summary": "11月18日，外交部发言人郭嘉昆主持例行记者会。有记者就中俄美元首会晤提问。郭嘉昆表示，中方此前已经介绍了中俄美元首深圳会晤的有关安排，三国元首将就事关全球和平的重要问题深入交换意见，我们会及时发布会晤的相关消息，请大家保持关注。（央视新闻）",
+   "link": "https://wallstreetcn.com/news/global/3201764",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:36"
+   "published_at": "2026-11-18 07:16"
   },
   {
    "category": "finance",
-   "title": "巴西参议院推迟表决财政立法草案的修正案至周三。",
-   "summary": "巴西参议院推迟表决财政立法草案的修正案至周三。",
-   "link": "https://wallstreetcn.com/news/global/3201499",
+   "title": "国债期货收盘，30年期主力合约涨0.08%，10年期主力合约涨0.05%，5年期主力合约跌0.01%",
+   "summary": "国债期货收盘，30年期主力合约涨0.08%，10年期主力合约涨0.05%，5年期主力合约跌0.01%，2年期主力合约涨0.02%。",
+   "link": "https://wallstreetcn.com/news/global/3201763",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:28"
+   "published_at": "2026-11-18 07:15"
   },
   {
    "category": "finance",
-   "title": "欧元再创2025年4月份以来新低",
-   "summary": "周二（11月17日）纽约尾盘，ICE美元指数跌0.04%，报103.506点，日内交投区间为103.780-103.359点，美国零售销售数据发布后冲高回落——北京时间21:37刷新日高。 彭博美元指数跌0.14%，报1235.59点，日内交投区间为1238.33-1234.25点。 美元兑日元跌0.07%，报159.35日元，日内交投区间为159.61-158.87日元。 欧元兑日元涨0.01%",
-   "link": "https://wallstreetcn.com/news/global/3201498",
+   "title": "南京12宗宅地成交 总成交额50.82亿元",
+   "summary": "南京市11月18日有12宗宅地出让，总土地出让面积316037.07平方米，总规划建筑面积506571.58平方米，总起始价50.51亿元。最终2宗溢价成交、10宗底价成交，总成交金额50.82亿元。其中，秦淮区大校场地块经8轮竞价溢价2.63%成交；江宁区东山地块经7轮竞价溢价3.35%成交。",
+   "link": "https://wallstreetcn.com/news/global/3201762",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:26"
+   "published_at": "2026-11-18 07:14"
   },
   {
    "category": "finance",
-   "title": "阿波罗首席执行官Rowan：AI基础设施融资“不仅仅是一个美国故事”。 创纪录的AI开支将持续至20",
-   "summary": "阿波罗首席执行官Rowan：AI基础设施融资“不仅仅是一个美国故事”。 创纪录的AI开支将持续至2027年。 不存在K形经济。 美国得州奥斯汀是我们的第二总部。",
-   "link": "https://wallstreetcn.com/news/global/3201497",
+   "title": "印尼央行：预测2026年印尼GDP增速为4.9%-5.7%。 继续加强政策以维持印尼盾稳定。 将优化",
+   "summary": "印尼央行：预测2026年印尼GDP增速为4.9%-5.7%。 继续加强政策以维持印尼盾稳定。 将优化运用所有货币工具来维持印尼盾稳定。",
+   "link": "https://wallstreetcn.com/news/global/3201761",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:17"
+   "published_at": "2026-11-18 07:11"
   },
   {
    "category": "finance",
-   "title": "道指狂泄千点，跌幅扩大至1.9%，标普跌1.5%，纳指跌1.3%，纳斯达克100指数跌1.4%，半导",
-   "summary": "道指狂泄千点，跌幅扩大至1.9%，标普跌1.5%，纳指跌1.3%，纳斯达克100指数跌1.4%，半导体指数跌2.2%，银行指数跌2.2%。",
-   "link": "https://wallstreetcn.com/news/global/3201495",
+   "title": "现货黄金日内跌幅达2.0%，报3772.15美元/盎司。",
+   "summary": "现货黄金日内跌幅达2.0%，报3772.15美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3201759",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:04"
+   "published_at": "2026-11-18 07:07"
   },
   {
    "category": "finance",
-   "title": "法国政客勒庞提议，将退休年龄下调至最低60岁。（英国金融时报）",
-   "summary": "法国政客勒庞提议，将退休年龄下调至最低60岁。（英国金融时报）",
-   "link": "https://wallstreetcn.com/news/global/3201494",
+   "title": "沪深两市今日成交额合计13697.02亿元",
+   "summary": "11月18日，沪深两市全天成交额合计13697.02亿元。其中，沪市成交额为6502.32亿元；深市成交额为7194.71亿元；创业板成交额为3414.33亿元。",
+   "link": "https://wallstreetcn.com/news/global/3201758",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 20:01"
+   "published_at": "2026-11-18 07:05"
   },
   {
    "category": "finance",
-   "title": "美国交通部长Duffy：目前并不清楚路由器问题的根本原因。",
-   "summary": "美国交通部长Duffy：目前并不清楚路由器问题的根本原因。",
-   "link": "https://wallstreetcn.com/news/global/3201493",
+   "title": "农发行发行5年期债券，规模40亿元，发行利率1.4633%，预期1.4000%，投标倍数10.64倍",
+   "summary": "农发行发行5年期债券，规模40亿元，发行利率1.4633%，预期1.4000%，投标倍数10.64倍，边际倍数9.02倍； 农发行发行10年期债券，规模50亿元，发行利率1.6711%，预期1.6900%，投标倍数5.19倍，边际倍数2.61倍。",
+   "link": "https://wallstreetcn.com/news/global/3201757",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:57"
+   "published_at": "2026-11-18 07:04"
   },
   {
    "category": "finance",
-   "title": "周二（11月17日）纽约尾盘，彭博谷物分类指数涨0.50%，报29.8078点。 CBOT玉米期货涨",
-   "summary": "周二（11月17日）纽约尾盘，彭博谷物分类指数涨0.50%，报29.8078点。 CBOT玉米期货涨0.11%，CBOT小麦期货涨1.50%，CBOT大豆期货跌0.26%。",
-   "link": "https://wallstreetcn.com/news/global/3201492",
+   "title": "交易员削减对英国央行加息的押注，预计到2027年底将累计加息91个基点。",
+   "summary": "交易员削减对英国央行加息的押注，预计到2027年底将累计加息91个基点。",
+   "link": "https://wallstreetcn.com/news/global/3201756",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:56"
+   "published_at": "2026-11-18 07:03"
   },
   {
    "category": "finance",
-   "title": "浑水做空英伟达。",
-   "summary": "浑水做空英伟达。",
-   "link": "https://wallstreetcn.com/news/global/3201490",
+   "title": "A股收盘：科创50指数涨超2%，算力硬件、算力租赁概念集体反弹，全市场成交仅1.38万亿",
+   "summary": "市场全天探底回升，创业板指一度涨超1%，科创50指数涨超2%。算力硬件股反弹，深南电路、沪电股份等涨停。算力租赁概念拉升，青云科技、真视通、恒润股份等多股涨停。下跌方面，AI漫剧概念集体调整，文投控股、横店影视、慈文传媒等跌停。个股跌多涨少，沪深京三市约4100股飘绿，今日成交1.38万亿。截止收盘沪指涨0.09%，深成指涨0.2%，创业板指涨0.85%。",
+   "link": "https://wallstreetcn.com/news/global/3201755",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:54"
+   "published_at": "2026-11-18 07:02"
   },
   {
    "category": "finance",
-   "title": "SpaceX首席财务官表示，Anthropic将需要更多的算力。 明年或成最大AI基础设施参与者。",
-   "summary": "SpaceX首席财务官表示，Anthropic将需要更多的算力。 明年或成最大AI基础设施参与者。 公司400亿美元的债务融资交易今日已启动公开承销。 公司可利用经营性现金流和债务进行融资。",
-   "link": "https://wallstreetcn.com/news/global/3201489",
+   "title": "WTI原油日内跌幅达2.0%，报82.96美元/桶；布伦特原油日内跌幅达1.5%，报91.73美元/",
+   "summary": "WTI原油日内跌幅达2.0%，报82.96美元/桶；布伦特原油日内跌幅达1.5%，报91.73美元/桶。",
+   "link": "https://wallstreetcn.com/news/global/3201754",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:49"
+   "published_at": "2026-11-18 07:01"
   },
   {
    "category": "finance",
-   "title": "苹果发言人：今晨内部更新导致部分服务中断，目前我们的许多系统已恢复运行。 正努力尽快让剩余系统重新上",
-   "summary": "苹果发言人：今晨内部更新导致部分服务中断，目前我们的许多系统已恢复运行。 正努力尽快让剩余系统重新上线。",
-   "link": "https://wallstreetcn.com/news/global/3201488",
+   "title": "上证指数收报3587.83点，涨0.09%。 深证成指收报10659.41点，涨0.20%。 创业板",
+   "summary": "上证指数收报3587.83点，涨0.09%。 深证成指收报10659.41点，涨0.20%。 创业板指收报2311.62点，涨0.85%。 沪深300收报3983.77点，涨0.18%。 科创50收报1247.99点，涨2.19%。 中证500收报6282.22点，跌0.01%。 中证1000收报6052.82点，跌0.65%。",
+   "link": "https://wallstreetcn.com/news/global/3201753",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:49"
+   "published_at": "2026-11-18 07:01"
   },
   {
    "category": "finance",
-   "title": "美国纽约联储主席（享有FOMC永久投票权、号称“美联储三把手”）威廉姆斯：人工智能（AI）领域的融资",
-   "summary": "美国纽约联储主席（享有FOMC永久投票权、号称“美联储三把手”）威廉姆斯：人工智能（AI）领域的融资正变得更加不透明和复杂。 还没有看到AI带来的金融稳定性风险。",
-   "link": "https://wallstreetcn.com/news/global/3201487",
+   "title": "商品期货收盘，乙二醇、铂主力合约跌超4%，焦煤跌近4%，对二甲苯、沪锡、纯苯、丙烯、LU燃油跌超3%",
+   "summary": "商品期货收盘，乙二醇、铂主力合约跌超4%，焦煤跌近4%，对二甲苯、沪锡、纯苯、丙烯、LU燃油跌超3%。碳酸锂、沪镍、不锈钢、白糖、玻璃涨超1%。",
+   "link": "https://wallstreetcn.com/news/global/3201751",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:34"
+   "published_at": "2026-11-18 07:00"
   },
   {
    "category": "finance",
-   "title": "美国纽约联储主席（享有FOMC永久投票权、号称“美联储三把手”）威廉姆斯：2025年降息在当时是正确",
-   "summary": "美国纽约联储主席（享有FOMC永久投票权、号称“美联储三把手”）威廉姆斯：2025年降息在当时是正确的做法。",
-   "link": "https://wallstreetcn.com/news/global/3201486",
+   "title": "英国10月核心CPI同比 2.8%，预期 2.8%，前值 2.8%。",
+   "summary": "英国10月核心CPI同比 2.8%，预期 2.8%，前值 2.8%。",
+   "link": "https://wallstreetcn.com/news/global/3201749",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:32"
+   "published_at": "2026-11-18 07:00"
   },
   {
    "category": "finance",
-   "title": "WTI 12月原油期货收涨0.29美元，涨幅0.34%，报86.01美元/桶。 布伦特1月原油期货收",
-   "summary": "WTI 12月原油期货收涨0.29美元，涨幅0.34%，报86.01美元/桶。 布伦特1月原油期货收涨0.70美元，涨幅0.76%，报93.14美元/桶。 NYMEX 12月天然气期货收报3.2080美元/百万英热单位。 NYMEX 12月汽油期货收报2.5349美元/加仑，NYMEX 12月取暖油期货收报4.0475美元/加仑。",
-   "link": "https://wallstreetcn.com/news/global/3201485",
+   "title": "英国10月CPI环比 0.5%，预期 0.5%，前值 0.4%。",
+   "summary": "英国10月CPI环比 0.5%，预期 0.5%，前值 0.4%。",
+   "link": "https://wallstreetcn.com/news/global/3201746",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:31"
+   "published_at": "2026-11-18 07:00"
   },
   {
    "category": "finance",
-   "title": "美国官员称对格什姆岛的打击属于自卫行为。（Axios）",
-   "summary": "美国官员称对格什姆岛的打击属于自卫行为。（Axios）",
-   "link": "https://wallstreetcn.com/news/global/3201484",
+   "title": "英国10月零售物价指数同比 4.2%，预期 4.1%，前值 3.9%。",
+   "summary": "英国10月零售物价指数同比 4.2%，预期 4.1%，前值 3.9%。",
+   "link": "https://wallstreetcn.com/news/global/3201748",
    "source": "华尔街见闻",
-   "published_at": "2026-11-17 19:30"
+   "published_at": "2026-11-18 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国10月核心零售物价指数同比 4.1%，前值 3.9%。",
+   "summary": "英国10月核心零售物价指数同比 4.1%，前值 3.9%。",
+   "link": "https://wallstreetcn.com/news/global/3201747",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-18 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国10月CPI同比 3.6%，预期 3.6%，前值 3.5%。",
+   "summary": "英国10月CPI同比 3.6%，预期 3.6%，前值 3.5%。",
+   "link": "https://wallstreetcn.com/news/global/3201745",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-18 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国10月调和CPI同比 3.7%，预期 3.7%，前值 3.6%。",
+   "summary": "英国10月调和CPI同比 3.7%，预期 3.7%，前值 3.6%。",
+   "link": "https://wallstreetcn.com/news/global/3201744",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-18 07:00"
+  },
+  {
+   "category": "finance",
+   "title": "英国10月零售物价指数环比 0.6%，预期 0.5%，前值 0.1%。",
+   "summary": "英国10月零售物价指数环比 0.6%，预期 0.5%，前值 0.1%。",
+   "link": "https://wallstreetcn.com/news/global/3201743",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-18 07:00"
   }
  ]
 }
