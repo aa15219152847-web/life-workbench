@@ -1,6 +1,38 @@
 {
- "updated_at": "2026-11-19 07:32",
+ "updated_at": "2026-11-19 20:42",
  "ai": [
+  {
+   "category": "ai",
+   "title": "AI 模型大幅降低古籍数字化成本：识别 1000 页内容费用已不到 0.1 美元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/688.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "国际货币基金组织总裁警告：AI 投资热情过高影响，金融市场或现进一步调整",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/648.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 智能体擅自转账、购物谁来负责？多家银行警告用户损失可能要自己承担",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/646.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软纳德拉：AI 代劳网购将重塑互联网生意，拒绝接入的平台恐失去机会",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/497.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "黄仁勋离开后，英伟达开始和 AI 云厂商讲担保条件了",
@@ -120,216 +152,184 @@
    "link": "https://www.ithome.com/1/028/637.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "韩国总统李在明公布防 AI 作弊新招：考试期间发送最高级别灾难警报，让藏匿的手机无处遁形",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/629.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "冲击人类史上最大 IPO、发行价每股 70~78 美元：Anthropic 已获准上市，代码为“ANT”",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/599.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/597.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/593.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "多语言错误率直降 50%：微软升级医患对话 AI 转录引擎，已覆盖全美 1/3 医师",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/590.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "Anthropic股价在暗盘市场上涨约20%",
-   "summary": "暗盘交易显示，Anthropic PBC股票开盘料较发行价83美元上涨20%至26%。之前这家AI实验室通过扩大了规模的IPO及私募配售，筹资1,073亿美元，打破了SpaceX创造的纪录。",
-   "link": "https://wallstreetcn.com/news/global/3202412",
+   "title": "美国两年期国债收益率跌3.6个基点",
+   "summary": "周四（11月19日）纽约尾盘，美国10年期国债收益率跌2.22个基点，报5.0461%。 两年期美债收益率跌3.60个基点，报4.7682%，整体冲高回落，美股盘初刷新日高至4.8471%；30年期美债收益率跌1.27个基点，报5.3982%。 2/10年期美债收益率利差涨1.586个基点，报+27.572个基点。 10年期通胀保值国债（TIPS）收益率跌1.61个基点，至2.8546%；两年期T",
+   "link": "https://wallstreetcn.com/news/global/3202800",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:30"
+   "published_at": "2026-11-19 20:37"
   },
   {
    "category": "finance",
-   "title": "瑞士三季度工业订单同比 1.6%，前值 5.1%。",
-   "summary": "瑞士三季度工业订单同比 1.6%，前值 5.1%。",
-   "link": "https://wallstreetcn.com/news/global/3202411",
+   "title": "法国巴黎银行：上调对美联储加息前景的预期，现在认为3月份也将收紧货币政策，即12月、1月、3月将先后",
+   "summary": "法国巴黎银行：上调对美联储加息前景的预期，现在认为3月份也将收紧货币政策，即12月、1月、3月将先后实施每次25个基点的加息。",
+   "link": "https://wallstreetcn.com/news/global/3202799",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:30"
+   "published_at": "2026-11-19 20:36"
   },
   {
    "category": "finance",
-   "title": "瑞士三季度工业产出同比 0.8%，前值 5.5%。",
-   "summary": "瑞士三季度工业产出同比 0.8%，前值 5.5%。",
-   "link": "https://wallstreetcn.com/news/global/3202410",
+   "title": "美联储官员古尔斯比：AI热潮可能使美国经济产能承压并导致过热",
+   "summary": "美国芝加哥联储主席古尔斯比（Austan Goolsbee）：服务业通胀的走势对于理解价格压力究竟源于需求还是能源成本等因素至关重要。 事实证明，通胀的顽固程度远超2025年时的预期，而数据中心需求以及人工智能（AI）带来的财富效应正在加剧这一局面。 利率路径的陡峭程度，将取决于这种“高得令人不安”的通胀是否显现出回落至美联储2%目标的迹象。 目前尚未看到通胀正处于重返2%目标的轨道上；通胀不仅来",
+   "link": "https://wallstreetcn.com/news/global/3202797",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:30"
+   "published_at": "2026-11-19 20:30"
   },
   {
    "category": "finance",
-   "title": "德国商业银行确认，德国与裕信银行（UniCredit）已就收购达成协议。（彭博）",
-   "summary": "德国商业银行确认，德国与裕信银行（UniCredit）已就收购达成协议。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3202409",
+   "title": "奈飞等流媒体巨头竞标2030世界杯美国转播权，迪士尼退出竞争",
+   "summary": "据媒体报道，奈飞、亚马逊、YouTube以及福克斯均计划在今日截止日前提交报价，角逐2030年男足世界杯美国地区转播权，而迪士尼不会参与竞标。 福克斯以及NBC环球旗下的西班牙语频道Telemundo是当前的持权转播方。2030世界杯由西班牙、葡萄牙、摩洛哥联合承办，国际足联（FIFA）更希望将该赛事的英语与西班牙语转播权打包出售给同一家买家。媒体机构也可同步竞标2034年沙特世界杯的转播权。",
+   "link": "https://wallstreetcn.com/news/global/3202798",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:23"
+   "published_at": "2026-11-19 20:24"
   },
   {
    "category": "finance",
-   "title": "德国商业银行：总部将保留在法兰克福，并继续在证券交易所上市。",
-   "summary": "德国商业银行：总部将保留在法兰克福，并继续在证券交易所上市。",
-   "link": "https://wallstreetcn.com/news/global/3202408",
+   "title": "英伟达：与微软合作将加速计算从Azure扩展至Windows个人电脑。 英伟达与微软将在Azure上",
+   "summary": "英伟达：与微软合作将加速计算从Azure扩展至Windows个人电脑。 英伟达与微软将在Azure上部署Vera Rubin NVL72。",
+   "link": "https://wallstreetcn.com/news/global/3202794",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:23"
+   "published_at": "2026-11-19 20:17"
   },
   {
    "category": "finance",
-   "title": "亚太经合组织第三十三次领导人非正式会议成功举行 外交部介绍相关情况",
-   "summary": "外交部发言人郭嘉昆主持例行记者会。有记者问：今天上午，亚太经合组织第三十三次领导人非正式会议在深圳成功举行。发言人能否介绍进一步情况？",
-   "link": "https://wallstreetcn.com/news/global/3202406",
+   "title": "欧盟理事会发表声明称，欧盟成员国与欧洲议会就修订《可持续金融披露条例》达成协议。 欧盟共同立法者同意",
+   "summary": "欧盟理事会发表声明称，欧盟成员国与欧洲议会就修订《可持续金融披露条例》达成协议。 欧盟共同立法者同意，化石燃料公司可能被纳入部分ESG基金。 欧盟共同立法者同意设立三类新的投资产品。",
+   "link": "https://wallstreetcn.com/news/global/3202793",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:21"
+   "published_at": "2026-11-19 20:17"
   },
   {
    "category": "finance",
-   "title": "商务部：今年“双十一”整体平稳",
-   "summary": "11月19日，商务部新闻发言人何亚东在例行新闻发布会上表示，今年“双十一”整体平稳。在服务方面，线上下单、线下体验新模式广受欢迎，到店餐饮消费需求加速释放；在场景方面，“词元+终端”创新消费体验，人工智能与消费深度融合，主要电商平台上线词元专区，让买算力像充话费一样简单。总的来看，“双十一”购物车扩容向新，消费边界不断拓展，勾勒出消费多元图景。（证券时报）",
-   "link": "https://wallstreetcn.com/news/global/3202404",
+   "title": "美元指数继续逼近104关口",
+   "summary": "周四（11月19日）纽约尾盘，ICE美元指数涨0.03%，报103.899点，日内交投区间为103.588-103.974点，整体呈现出N形走势，亚太午盘刷新日高——逼近2025年4月2日盘中最高位104.314点、当年1月13日顶部110.176点。 彭博美元指数涨0.24%，报1243.81点，日内交投区间为1238.96-1244.50点，美股开盘后显著反弹。",
+   "link": "https://wallstreetcn.com/news/global/3202792",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:17"
+   "published_at": "2026-11-19 20:14"
   },
   {
    "category": "finance",
-   "title": "中日领导人是否将举行会晤？外交部回应",
-   "summary": "11月19日，外交部发言人郭嘉昆主持例行记者会。法新社记者提问，在亚太经合组织深圳峰会期间，中日领导人是否将举行会晤？或者是否已经举行了会晤？“关于中日关系，中方的立场是明确的。”郭嘉昆说。（北京日报）",
-   "link": "https://wallstreetcn.com/news/global/3202403",
+   "title": "股市下跌之际，加元在19个月低点附近企稳",
+   "summary": "随着市场避险情绪升温，且投资者正等待可能为加拿大央行加息预期提供指引的国内零售销售数据，加元兑美元汇率在早盘触及的19个月低点附近企稳。 加元汇率最新基本持平，报1美元兑1.4332加元（合69.77美分），盘中一度触及1.43575，为2025年4月以来的最弱盘中水平。",
+   "link": "https://wallstreetcn.com/news/global/3202795",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:17"
+   "published_at": "2026-11-19 20:05"
   },
   {
    "category": "finance",
-   "title": "联想耗资5000万美元全资收购BIOS厂商Phoenix",
-   "summary": "联想集团最新财报附注披露，已于2026年4月27日耗资约5000万美元现金，全资收购老牌BIOS厂商Phoenix Technologies EMEA Limited的全部权益及相关业务。该交易确认了2700万美元无形资产及约2595万美元商誉。上半财年，该标的无外部营收，并录得900万美元税前亏损。",
-   "link": "https://wallstreetcn.com/news/global/3202397",
+   "title": "纳斯达克100指数跌幅扩大至2%，成分股AMD目前跌9.2%，Nebius集团跌8.2%，CoreW",
+   "summary": "纳斯达克100指数跌幅扩大至2%，成分股AMD目前跌9.2%，Nebius集团跌8.2%，CoreWeave跌5.3%，SpaceX跌4.5%，亚马逊跌4%，核电股CEG跌3.7%，Lumentum、汤森路透跌3.4%，Meta、英伟达跌2.7%，Diamondback涨1%，英特尔、希捷科技、Axon、莫德纳、CrowdStrike至多涨1.6%，西部数据涨2.7%，派拓网络PANW涨5.3%，",
+   "link": "https://wallstreetcn.com/news/global/3202790",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:08"
+   "published_at": "2026-11-19 20:01"
   },
   {
    "category": "finance",
-   "title": "商务部：中美贸易理事会农业工作组将于近期召开首次会议",
-   "summary": "商务部新闻发言人何亚东在19日举行的例行新闻发布会上表示，中美两国经贸团队在各层级保持沟通。11月13日，中美双方通过视频会议方式举行了中美经贸磋商机制项下贸易理事会首次会议。贸易理事会下设的农业工作组也将于近期召开首次会议。（新华社）",
-   "link": "https://wallstreetcn.com/news/global/3202396",
+   "title": "纽约金日内跌幅达2.0%，报3666.89美元/盎司。",
+   "summary": "纽约金日内跌幅达2.0%，报3666.89美元/盎司。",
+   "link": "https://wallstreetcn.com/news/global/3202789",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:07"
+   "published_at": "2026-11-19 20:00"
   },
   {
    "category": "finance",
-   "title": "沪深两市今日成交额合计13051.47亿元",
-   "summary": "11月19日，沪深两市全天成交额合计13051.47亿元。其中，沪市成交额为6369.09亿元；深市成交额为6682.38亿元；创业板成交额为3143.80亿元。",
-   "link": "https://wallstreetcn.com/news/global/3202392",
+   "title": "周四（11月19日）纽约尾盘，彭博谷物分类指数涨0.65%，报29.3446点。 CBOT玉米期货涨",
+   "summary": "周四（11月19日）纽约尾盘，彭博谷物分类指数涨0.65%，报29.3446点。 CBOT玉米期货涨0.95%，CBOT小麦期货涨1.58%。 CBOT大豆期货跌0.84%，豆粕期货跌1.08%，豆油期货涨0.35%。",
+   "link": "https://wallstreetcn.com/news/global/3202788",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:05"
+   "published_at": "2026-11-19 19:59"
   },
   {
    "category": "finance",
-   "title": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，Anthropic将挂牌交易",
-   "summary": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，标普500指数期货涨1.1%，道指期货涨0.7%。Anthropic即将挂牌上市，该公司扩大IPO和私募配售规模，融资1073亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3202390",
+   "title": "美联储告诉地区联储的员工们，2027年将至少涨薪1%。",
+   "summary": "美联储告诉地区联储的员工们，2027年将至少涨薪1%。",
+   "link": "https://wallstreetcn.com/news/global/3202801",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:03"
+   "published_at": "2026-11-19 19:39"
   },
   {
    "category": "finance",
-   "title": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
-   "summary": "市场全天震荡调整，三大指数小幅下跌。光刻机、光刻胶概念逆势活跃，盛剑科技3连板，兴业股份、格林达、江化微等涨停。先进封装、存储芯片板块盘中拉升，蓝箭电子、时空科技、大港股份等涨停。下跌方面，AI漫剧概念下挫，慈文传媒、横店影视、文投控股3连跌停；算力芯片股下挫，燧原科技20cm跌停，沐曦股份跌超10%。个股呈现普跌态势，沪深京三市超4800股飘绿，今日成交逾1.31万亿。截止收盘沪指跌0.28%，",
-   "link": "https://wallstreetcn.com/news/global/3202389",
+   "title": "WTI 12月原油期货收跌0.05美元，跌幅0.06%，报83.21美元/桶。 布伦特1月原油期货收",
+   "summary": "WTI 12月原油期货收跌0.05美元，跌幅0.06%，报83.21美元/桶。 布伦特1月原油期货收涨0.03美元，涨幅0.03%，报91.98美元/桶。 NYMEX 12月天然气期货收报3.2680美元/百万英热单位。 NYMEX 12月汽油期货收报2.4951美元/加仑，NYMEX 12月取暖油期货收报3.9514美元/加仑。",
+   "link": "https://wallstreetcn.com/news/global/3202782",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:01"
+   "published_at": "2026-11-19 19:30"
   },
   {
    "category": "finance",
-   "title": "上证指数收报3577.62点，跌0.28%。 深证成指收报10583.20点，跌0.71%。 创业板",
-   "summary": "上证指数收报3577.62点，跌0.28%。 深证成指收报10583.20点，跌0.71%。 创业板指收报2293.34点，跌0.79%。 沪深300收报3984.84点，涨0.03%。 科创50收报1270.78点，涨1.83%。 中证500收报6251.96点，跌0.48%。 中证1000收报5938.90点，跌1.88%。",
-   "link": "https://wallstreetcn.com/news/global/3202388",
+   "title": "东方汇理：对核心AI企业“过度痴迷”这种关注点将在2027年发生转移",
+   "summary": "欧洲最大资产管理公司东方汇理（Amundi）集团首席投资官莫蒂埃（Vincent Mortier）表示，投资者此前一直对核心AI企业“过度痴迷”，但这种关注点将在2027年发生转移。东方汇理转而青睐那些利用AI推动生产力提升和业务转型的行业，包括制药、生物科技以及部分工业企业。在谈及近期科技股与AI板块的波动时，莫蒂埃表示，核心AI板块正处于重新定价的初期，但在经历了此前非凡的上涨势头之后，这种调",
+   "link": "https://wallstreetcn.com/news/global/3202781",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:01"
+   "published_at": "2026-11-19 19:27"
   },
   {
    "category": "finance",
-   "title": "商品期货收盘，苹果主力合约跌超7%，沪铜跌超5%，沪锡、国际铜跌超4%，沪银、沪镍、丙烯、乙二醇、液",
-   "summary": "商品期货收盘，苹果主力合约跌超7%，沪铜跌超5%，沪锡、国际铜跌超4%，沪银、沪镍、丙烯、乙二醇、液化气跌超3%。集运欧线涨超4%。",
-   "link": "https://wallstreetcn.com/news/global/3202386",
+   "title": "东方汇理：“认为印度是AI时代的输家”是愚蠢的想法",
+   "summary": "欧洲最大资产管理公司东方汇理（Amundi）集团首席投资官莫蒂埃（Vincent Mortier）表示，在新兴市场中，印度表现尤为突出。近年来，新兴市场由人工智能（AI）驱动的涨势吸引了大量外资从印度市场流出。莫蒂埃说：“市场上曾流传着这样一种论调，许多外国投资者也因此抛售印度股票，认为印度是AI时代的输家。这完全是愚蠢的想法，因为印度完全可以通过应用AI成为AI时代的赢家。”",
+   "link": "https://wallstreetcn.com/news/global/3202780",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 07:00"
+   "published_at": "2026-11-19 19:27"
   },
   {
    "category": "finance",
-   "title": "10月国内动力电池装车量环比增长14.0% 同比增长18.2%",
-   "summary": "中国汽车动力电池产业创新联盟发布数据，10月，国内动力电池装车量99.4GWh，环比增长14.0%，同比增长18.2%。其中三元电池装车量12.8GWh，占总装车量12.9%，环比增长3.8%，同比下降22.8%；磷酸铁锂电池装车量86.3GWh，占总装车量86.9%，环比增长15.8%，同比增长27.8%。",
-   "link": "https://wallstreetcn.com/news/global/3202384",
+   "title": "东方汇理：更青睐挪威、澳大利亚和瑞士等债务占GDP比率相对较低国家的债券",
+   "summary": "欧洲最大资产管理公司东方汇理（Amundi）集团首席投资官莫蒂埃（Vincent Mortier）表示，管理着近2.6万亿欧元（约合2.9万亿美元）资产的东方汇理更青睐挪威、澳大利亚和瑞士等债务占GDP比率相对较低国家的债券，并偏爱短期债券。他还表示，自己对日本国债（JGB）持中性立场。他说道：“或许我们很快就会做多，因为在当前的收益率水平下，我们相信本地投资者将重新产生买入日本国债作为替代资产的",
+   "link": "https://wallstreetcn.com/news/global/3202779",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 06:56"
+   "published_at": "2026-11-19 19:25"
   },
   {
    "category": "finance",
-   "title": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50",
-   "summary": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50ETF易方达（588080）成交超66亿元，超昨日1.5倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞(510300)、中证1000ETF南方(512100)等均明显放量。",
-   "link": "https://wallstreetcn.com/news/global/3202383",
+   "title": "东方汇理首席投资官称不看空法国国债，AI板块正处于重新定价初期",
+   "summary": "欧洲最大资产管理公司东方汇理（Amundi）集团首席投资官莫蒂埃（Vincent Mortier）表示，该公司并不看空法国政府债券，且认为欧洲央行（ECB）出手干预以平息债市动荡的门槛很高。 莫蒂埃在2027年投资展望电话会议上表示：“我们对法国国债持中性态度。所以，我们并不看空，真的不看空，我们只是保持中性。”",
+   "link": "https://wallstreetcn.com/news/global/3202777",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 06:37"
+   "published_at": "2026-11-19 19:23"
   },
   {
    "category": "finance",
-   "title": "日本烟草将把俄罗斯业务从财务报告中剔除。（彭博）",
-   "summary": "日本烟草将把俄罗斯业务从财务报告中剔除。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3202379",
+   "title": "美联储理事Barr（此前担任过负责金融监管事务的副主席）：人工智能（AI）有望提升金融服务的可及性。",
+   "summary": "美联储理事Barr（此前担任过负责金融监管事务的副主席）：人工智能（AI）有望提升金融服务的可及性。 人工智能热潮是“风险偏好”环境的一部分。 担心监管路径可能加大理解金融风险的难度。 在银行监管方面更关注长期问题。 在银行监管问题上，我一直公开表达不同意见。",
+   "link": "https://wallstreetcn.com/news/global/3202776",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 06:34"
+   "published_at": "2026-11-19 19:21"
   },
   {
    "category": "finance",
-   "title": "日本首相高市早苗：计划1月份与韩国李在明会面。",
-   "summary": "日本首相高市早苗：计划1月份与韩国李在明会面。",
-   "link": "https://wallstreetcn.com/news/global/3202378",
+   "title": "苹果在针对英国政府的用户数据诉讼中获阶段性胜利",
+   "summary": "英国法院驳回了英国政府试图对一份发给苹果公司、要求获取客户加密数据的命令保密的做法。调查权力法庭（IPT）的裁决意味着该案部分后续程序可公开进行，因为政府“未能证明披露该命令的存在会损害国家安全”。这一裁决被视为苹果和倡导团体在一场重大隐私斗争中的胜利，该斗争始于英国当局要求苹果公司建立数字后门，以便政府访问全球用户数据。",
+   "link": "https://wallstreetcn.com/news/global/3202775",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 06:32"
+   "published_at": "2026-11-19 19:21"
   },
   {
    "category": "finance",
-   "title": "日经225指数收盘上涨0.7%，报59,444.21点。日本东证指数收盘下跌0.04%，报3,822",
-   "summary": "日经225指数收盘上涨0.7%，报59,444.21点。日本东证指数收盘下跌0.04%，报3,822.47点。",
-   "link": "https://wallstreetcn.com/news/global/3202377",
+   "title": "通摩根大通预计债务上限将在2月触及上限。届时，财政部可能会宣布长达六个月的债务发行暂停期，这将留下约",
+   "summary": "通摩根大通预计债务上限将在2月触及上限。届时，财政部可能会宣布长达六个月的债务发行暂停期，这将留下约5970亿美元的非常措施可用空间，此外还可以动用财政部一般账户（TGA）以维持借贷空间。 该公司的策略师估计，财政部直到2027年11月才会耗尽这些资源。",
+   "link": "https://wallstreetcn.com/news/global/3202774",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 06:32"
+   "published_at": "2026-11-19 19:20"
   },
   {
    "category": "finance",
-   "title": "中国台湾扩大放空禁令以支撑股市 11月20日起生效",
-   "summary": "中国台湾在声明中宣布，受国际政经情势影响，投资人信心不足，将再采行额外措施以稳定股市，其中包括进一步限制放空。当日收盘价跌幅达3.5%以上，次一交易日不得低于前一交易日收盘价放空。调整每日盘中借券卖出委讬数量：由原不超过该种有价证券前30个营业日之日平均成交数量之3%调降为1%，但某些避险和造市活动得不受限制。鼓励金融业买进具有投资价值之绩优股票。鼓励上市柜公司适时实施库藏股制度。中国台湾将监测市",
-   "link": "https://wallstreetcn.com/news/global/3202375",
+   "title": "摩根大通：受债务上限影响，2027年美债发行将后置",
+   "summary": "摩根大通策略师Jay Barry、Harry Downie和Amanda Berke在一份研报中表示，假设债务上限在年中之前未能得到解决，2027年短期国债（T-Bill）的净发行趋势可能与2026年非常相似，这意味着大部分净供给激增可能会集中在2027年下半年。 尽管如此，策略师预计私人投资者在2027年需要吸收超过1万亿美元的短期国债净发行量。鉴于货币市场基金需求放缓，这可能意味着短期国债将继",
+   "link": "https://wallstreetcn.com/news/global/3202773",
    "source": "华尔街见闻",
-   "published_at": "2026-11-19 06:19"
+   "published_at": "2026-11-19 19:19"
+  },
+  {
+   "category": "finance",
+   "title": "报道：Meta已将其智能手表的大规模发售时间推迟至2027年",
+   "summary": "Meta Platforms计划为旗下可穿戴设备Muse Charm定价300美元，并附带最高一年的Verizon免费5G网络服务。 Meta已将其智能手表的大规模发售时间推迟至2027年。 随着人工智能（AI）硬件产品线的扩张，Meta目标在2026年下半年实现1,000万台可穿戴设备的销量。（The Information）",
+   "link": "https://wallstreetcn.com/news/global/3202771",
+   "source": "华尔街见闻",
+   "published_at": "2026-11-19 19:14"
   }
  ]
 }
