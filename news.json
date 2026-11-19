@@ -1,6 +1,78 @@
 {
- "updated_at": "2026-11-18 20:37",
+ "updated_at": "2026-11-19 07:32",
  "ai": [
+  {
+   "category": "ai",
+   "title": "黄仁勋离开后，英伟达开始和 AI 云厂商讲担保条件了",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/268.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "彭博社：黄仁勋离任英伟达 CEO 后，日本 AI 股首当其冲",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/265.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "腾讯大幅削减元宝投入：没有我们预期的那样成功",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/192.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "马斯克预警称 AI 或于 2031 年超越全人类智慧总和",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/161.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "奥尔特曼称 OpenAI 没法让所有人满意，必须平衡 AI 安全与发展",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/158.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软纳德拉示警：比“千年虫”更棘手，AI 正让网络变得越来越脆弱",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/154.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/145.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "2GB 内存的手机也能流畅用 AI，谷歌降低安卓 Gemini App 使用门槛",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/141.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌推出 Stitch Loop：定位永远不下班的“产品进化器”，替你盯着产品改 Bug",
+   "summary": "",
+   "link": "https://www.ithome.com/1/029/137.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "腾讯高管：预计 2028 年 AI 投入产出效率改善，得益于基础设施复用、硬件降价与算力效率提升",
@@ -88,256 +160,176 @@
    "link": "https://www.ithome.com/1/028/590.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软首款语音对语音模型：MAI Realtime 1 登场，起价每分钟 0.01 美元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/588.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软最具性价比网安 AI 模型 MAI Cyber 2 Flash 登场：性能比肩 GPT-6 Astra，每任务成本约为其 2%",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/585.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软性价比最高编程 AI 模型：MAI Code 2 用 5% 成本达 Claude Opus 5.5 约 96% 性能",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/579.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "每秒输出最高 43 词元：Garlic LLM 可让越狱 PS4 运行 9B 参数本地 AI 模型",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/266.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AMD 高管：AI 不会取代超级计算机，高精度计算仍不可替代",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/245.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 找漏洞太快：Anthropic 收紧披露规则，高危漏洞缓冲期从 90 天变 30 天",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/236.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "苹果新规遏制 AI 应用“全盘接管”Mac，古尔曼称提前 2 年铺路自家 AI 智能体",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/116.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "部分微软产品为何总差点打磨？Azure 工程负责人称大客户需求优先",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/106.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌 Pics 升级 Nano Banana 2.1 模型：生图更细腻，改图更准确",
-   "summary": "",
-   "link": "https://www.ithome.com/1/028/058.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "周三（11月18日）纽约尾盘，美元兑日元跌0.04%，报159.32日元，日内交投区间为159.65",
-   "summary": "周三（11月18日）纽约尾盘，美元兑日元跌0.04%，报159.32日元，日内交投区间为159.65-159.13日元，亚太早盘刷新日高，11月11日以来高位企稳——13日曾达到160.19日元。 欧元兑日元跌0.29%，报174.81日元，亚太午盘显著走低；英镑兑日元跌0.51%，报209.434日元，亚太时段也显著走低，欧股开盘以来低位震荡；日元兑离岸人民币涨0.10%，报4.1874元。",
-   "link": "https://wallstreetcn.com/news/global/3202158",
+   "title": "Anthropic股价在暗盘市场上涨约20%",
+   "summary": "暗盘交易显示，Anthropic PBC股票开盘料较发行价83美元上涨20%至26%。之前这家AI实验室通过扩大了规模的IPO及私募配售，筹资1,073亿美元，打破了SpaceX创造的纪录。",
+   "link": "https://wallstreetcn.com/news/global/3202412",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:32"
+   "published_at": "2026-11-19 07:30"
   },
   {
    "category": "finance",
-   "title": "受美元走强与大宗商品价格走低拖累，拉美汇市与股市双双下跌",
-   "summary": "随着交易员继续押注美联储未来将进一步加息，美元走强导致多数拉丁美洲货币承压下跌，同时大宗商品价格走弱也加剧了市场的低迷情绪。 美元的全面走强引发了拉美货币的普遍下跌。MSCI拉美广义货币指数下跌1.35%至10个月低点，而追踪该地区股市的基准指数下跌2.97%，跌至2025年12月以来的最低水平。 墨西哥比索贬值约2.49%，在连续三个交易日上涨后，恐创2025年4月以来的最大单日跌幅。 巴西雷亚",
-   "link": "https://wallstreetcn.com/news/global/3202157",
+   "title": "瑞士三季度工业订单同比 1.6%，前值 5.1%。",
+   "summary": "瑞士三季度工业订单同比 1.6%，前值 5.1%。",
+   "link": "https://wallstreetcn.com/news/global/3202411",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:27"
+   "published_at": "2026-11-19 07:30"
   },
   {
    "category": "finance",
-   "title": "英伟达董事长在员工大会上表示：黄仁勋不会回归。",
-   "summary": "英伟达董事长在员工大会上表示：黄仁勋不会回归。",
-   "link": "https://wallstreetcn.com/news/global/3202155",
+   "title": "瑞士三季度工业产出同比 0.8%，前值 5.5%。",
+   "summary": "瑞士三季度工业产出同比 0.8%，前值 5.5%。",
+   "link": "https://wallstreetcn.com/news/global/3202410",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:14"
+   "published_at": "2026-11-19 07:30"
   },
   {
    "category": "finance",
-   "title": "美元指数创2025年以来新高",
-   "summary": "周三（11月18日）纽约尾盘，ICE美元指数涨0.37%，报103.863点，全天处于上涨状态，整体交投区间为103.586-103.911点，欧美时段高位震荡，逼近2025年4月2日顶部104.314点、当年1月13日盘中最高位110.176点。 彭博美元指数涨0.45%，报1241.23点，亚太盘初以来持续扩大涨幅，整体交投区间为1236.03-1241.53点，逼近2025年5月12日盘中最",
-   "link": "https://wallstreetcn.com/news/global/3202154",
+   "title": "德国商业银行确认，德国与裕信银行（UniCredit）已就收购达成协议。（彭博）",
+   "summary": "德国商业银行确认，德国与裕信银行（UniCredit）已就收购达成协议。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3202409",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:14"
+   "published_at": "2026-11-19 07:23"
   },
   {
    "category": "finance",
-   "title": "伊朗陆军：三艘油轮在霍尔木兹海峡以东海域触雷后起火并停航，此前这些船只无视了海军的警告。",
-   "summary": "伊朗陆军：三艘油轮在霍尔木兹海峡以东海域触雷后起火并停航，此前这些船只无视了海军的警告。",
-   "link": "https://wallstreetcn.com/news/global/3202151",
+   "title": "德国商业银行：总部将保留在法兰克福，并继续在证券交易所上市。",
+   "summary": "德国商业银行：总部将保留在法兰克福，并继续在证券交易所上市。",
+   "link": "https://wallstreetcn.com/news/global/3202408",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:08"
+   "published_at": "2026-11-19 07:23"
   },
   {
    "category": "finance",
-   "title": "纳斯达克金龙中国指数跌超1%，虎虎科技跌17.38%，爱奇艺跌14.91%，世纪互联跌11.33%，",
-   "summary": "纳斯达克金龙中国指数跌超1%，虎虎科技跌17.38%，爱奇艺跌14.91%，世纪互联跌11.33%，JDZG跌7.54%，文远知行跌6.96%。",
-   "link": "https://wallstreetcn.com/news/global/3202150",
+   "title": "亚太经合组织第三十三次领导人非正式会议成功举行 外交部介绍相关情况",
+   "summary": "外交部发言人郭嘉昆主持例行记者会。有记者问：今天上午，亚太经合组织第三十三次领导人非正式会议在深圳成功举行。发言人能否介绍进一步情况？",
+   "link": "https://wallstreetcn.com/news/global/3202406",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:07"
+   "published_at": "2026-11-19 07:21"
   },
   {
    "category": "finance",
-   "title": "专家称近期科技服务中断或由软件补丁激增所致",
-   "summary": "网络安全专家与美国官员表示，尽管近期影响民众日常工作、银行账户访问及出行的服务中断事件具体原因尚不明确，但在人工智能（AI）时代加速修复新发现漏洞的密集行动，很可能是导致这些故障的一个主要因素。 美国国务卿马尔科·鲁比奥表示，企业打补丁的举措有时会“对系统的正常运作造成短期中断”。",
-   "link": "https://wallstreetcn.com/news/global/3202144",
+   "title": "商务部：今年“双十一”整体平稳",
+   "summary": "11月19日，商务部新闻发言人何亚东在例行新闻发布会上表示，今年“双十一”整体平稳。在服务方面，线上下单、线下体验新模式广受欢迎，到店餐饮消费需求加速释放；在场景方面，“词元+终端”创新消费体验，人工智能与消费深度融合，主要电商平台上线词元专区，让买算力像充话费一样简单。总的来看，“双十一”购物车扩容向新，消费边界不断拓展，勾勒出消费多元图景。（证券时报）",
+   "link": "https://wallstreetcn.com/news/global/3202404",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 20:03"
+   "published_at": "2026-11-19 07:17"
   },
   {
    "category": "finance",
-   "title": "芝加哥小麦期货跌超3.8%，大豆油跌超3.7%，玉米跌2.4%",
-   "summary": "周三（11月18日）纽约尾盘，彭博谷物分类指数跌2.19%，报29.1553点，亚太午盘以来平缓地下跌，随着美股开盘而持续扩大跌幅。 CBOT玉米期货跌2.4%，报4.4825美元/蒲式耳，走势与指数类似。 CBOT小麦期货跌3.85%，报5.8675美元/蒲式耳，走势与指数类似。 CBOT大豆期货跌0.78%，报12.16美元/蒲式耳，豆粕期货涨0.21%，豆油期货跌3.75%。",
-   "link": "https://wallstreetcn.com/news/global/3202143",
+   "title": "中日领导人是否将举行会晤？外交部回应",
+   "summary": "11月19日，外交部发言人郭嘉昆主持例行记者会。法新社记者提问，在亚太经合组织深圳峰会期间，中日领导人是否将举行会晤？或者是否已经举行了会晤？“关于中日关系，中方的立场是明确的。”郭嘉昆说。（北京日报）",
+   "link": "https://wallstreetcn.com/news/global/3202403",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:59"
+   "published_at": "2026-11-19 07:17"
   },
   {
    "category": "finance",
-   "title": "希腊总理米佐塔基斯表示，预计塞浦路斯将于7月1日正式加入申根区，这将是希腊担任欧盟轮值主席国期间作出",
-   "summary": "希腊总理米佐塔基斯表示，预计塞浦路斯将于7月1日正式加入申根区，这将是希腊担任欧盟轮值主席国期间作出的首项实质性决定。",
-   "link": "https://wallstreetcn.com/news/global/3202142",
+   "title": "联想耗资5000万美元全资收购BIOS厂商Phoenix",
+   "summary": "联想集团最新财报附注披露，已于2026年4月27日耗资约5000万美元现金，全资收购老牌BIOS厂商Phoenix Technologies EMEA Limited的全部权益及相关业务。该交易确认了2700万美元无形资产及约2595万美元商誉。上半财年，该标的无外部营收，并录得900万美元税前亏损。",
+   "link": "https://wallstreetcn.com/news/global/3202397",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:55"
+   "published_at": "2026-11-19 07:08"
   },
   {
    "category": "finance",
-   "title": "美国纽约联储主席威廉姆斯：人工智能使用激增带来的强劲需求提供了新的维度，改变了我们的做事方式和思维方",
-   "summary": "美国纽约联储主席威廉姆斯：人工智能使用激增带来的强劲需求提供了新的维度，改变了我们的做事方式和思维方式。",
-   "link": "https://wallstreetcn.com/news/global/3202141",
+   "title": "商务部：中美贸易理事会农业工作组将于近期召开首次会议",
+   "summary": "商务部新闻发言人何亚东在19日举行的例行新闻发布会上表示，中美两国经贸团队在各层级保持沟通。11月13日，中美双方通过视频会议方式举行了中美经贸磋商机制项下贸易理事会首次会议。贸易理事会下设的农业工作组也将于近期召开首次会议。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3202396",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:42"
+   "published_at": "2026-11-19 07:07"
   },
   {
    "category": "finance",
-   "title": "德银因AI繁荣与美国增长上调2027年美元预测",
-   "summary": "德意志银行策略师上调了明年美元预测，预计上半年美元将温和走强，随后出现一定走弱。 包括Tim Baker、George Saravelos和Mallika Sachdeva在内的策略师写道：“我们今年对美元走弱的预期并未兑现。AI繁荣是主要因素——它推高了美国实际利率，吸引了大规模股票资金流入，引发了新一轮通胀压力，并促使美联储转向鹰派。” “‘AI美元’依然强劲，”他们表示。“我们正在上调202",
-   "link": "https://wallstreetcn.com/news/global/3202140",
+   "title": "沪深两市今日成交额合计13051.47亿元",
+   "summary": "11月19日，沪深两市全天成交额合计13051.47亿元。其中，沪市成交额为6369.09亿元；深市成交额为6682.38亿元；创业板成交额为3143.80亿元。",
+   "link": "https://wallstreetcn.com/news/global/3202392",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:41"
+   "published_at": "2026-11-19 07:05"
   },
   {
    "category": "finance",
-   "title": "美国纽约联储主席威廉姆斯：美联储各分行正探讨如何弥补市场缺失，更多设计团队正在组建，相关资助项目陆续",
-   "summary": "美国纽约联储主席威廉姆斯：美联储各分行正探讨如何弥补市场缺失，更多设计团队正在组建，相关资助项目陆续获批，其他联邦储备银行也开始在其辖区举办类似活动。",
-   "link": "https://wallstreetcn.com/news/global/3202138",
+   "title": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，Anthropic将挂牌交易",
+   "summary": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，标普500指数期货涨1.1%，道指期货涨0.7%。Anthropic即将挂牌上市，该公司扩大IPO和私募配售规模，融资1073亿美元。",
+   "link": "https://wallstreetcn.com/news/global/3202390",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:38"
+   "published_at": "2026-11-19 07:03"
   },
   {
    "category": "finance",
-   "title": "新西兰联储主席Breman：经济复苏仍然不均衡。 新西兰企业难以转嫁上涨的成本。 通胀预期仍然是稳定",
-   "summary": "新西兰联储主席Breman：经济复苏仍然不均衡。 新西兰企业难以转嫁上涨的成本。 通胀预期仍然是稳定的。 通胀、经济在“两个方向上”都有风险。",
-   "link": "https://wallstreetcn.com/news/global/3202137",
+   "title": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
+   "summary": "市场全天震荡调整，三大指数小幅下跌。光刻机、光刻胶概念逆势活跃，盛剑科技3连板，兴业股份、格林达、江化微等涨停。先进封装、存储芯片板块盘中拉升，蓝箭电子、时空科技、大港股份等涨停。下跌方面，AI漫剧概念下挫，慈文传媒、横店影视、文投控股3连跌停；算力芯片股下挫，燧原科技20cm跌停，沐曦股份跌超10%。个股呈现普跌态势，沪深京三市超4800股飘绿，今日成交逾1.31万亿。截止收盘沪指跌0.28%，",
+   "link": "https://wallstreetcn.com/news/global/3202389",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:33"
+   "published_at": "2026-11-19 07:01"
   },
   {
    "category": "finance",
-   "title": "美国参议院共和党议员图恩（John Thune）：民主党还没有参与讨论政府融资问题。 将不惜一切地确",
-   "summary": "美国参议院共和党议员图恩（John Thune）：民主党还没有参与讨论政府融资问题。 将不惜一切地确保政府获得拨款。 联邦航空管理局（FAA）资金拨付应成为两党共同优先事项。 确认法官人选是首要任务。",
-   "link": "https://wallstreetcn.com/news/global/3202136",
+   "title": "上证指数收报3577.62点，跌0.28%。 深证成指收报10583.20点，跌0.71%。 创业板",
+   "summary": "上证指数收报3577.62点，跌0.28%。 深证成指收报10583.20点，跌0.71%。 创业板指收报2293.34点，跌0.79%。 沪深300收报3984.84点，涨0.03%。 科创50收报1270.78点，涨1.83%。 中证500收报6251.96点，跌0.48%。 中证1000收报5938.90点，跌1.88%。",
+   "link": "https://wallstreetcn.com/news/global/3202388",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:32"
+   "published_at": "2026-11-19 07:01"
   },
   {
    "category": "finance",
-   "title": "WTI 12月原油期货收跌2.75美元，跌幅3.20%，报83.26美元/桶。 布伦特1月原油期货收",
-   "summary": "WTI 12月原油期货收跌2.75美元，跌幅3.20%，报83.26美元/桶。 布伦特1月原油期货收跌1.19美元，跌幅1.28%，报91.95美元/桶。 NYMEX 12月天然气期货收报3.3720美元/百万英热单位。 NYMEX 12月汽油期货收报2.4819美元/加仑，NYMEX 12月取暖油期货收报3.9723美元/加仑。",
-   "link": "https://wallstreetcn.com/news/global/3202135",
+   "title": "商品期货收盘，苹果主力合约跌超7%，沪铜跌超5%，沪锡、国际铜跌超4%，沪银、沪镍、丙烯、乙二醇、液",
+   "summary": "商品期货收盘，苹果主力合约跌超7%，沪铜跌超5%，沪锡、国际铜跌超4%，沪银、沪镍、丙烯、乙二醇、液化气跌超3%。集运欧线涨超4%。",
+   "link": "https://wallstreetcn.com/news/global/3202386",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:30"
+   "published_at": "2026-11-19 07:00"
   },
   {
    "category": "finance",
-   "title": "全球头部钛白粉生产商Tronox：公司尚未与债权人团体展开接触，公司流动性充裕，处于有利地位，下一笔",
-   "summary": "全球头部钛白粉生产商Tronox：公司尚未与债权人团体展开接触，公司流动性充裕，处于有利地位，下一笔重大债务到期时间不早于2029年。",
-   "link": "https://wallstreetcn.com/news/global/3202133",
+   "title": "10月国内动力电池装车量环比增长14.0% 同比增长18.2%",
+   "summary": "中国汽车动力电池产业创新联盟发布数据，10月，国内动力电池装车量99.4GWh，环比增长14.0%，同比增长18.2%。其中三元电池装车量12.8GWh，占总装车量12.9%，环比增长3.8%，同比下降22.8%；磷酸铁锂电池装车量86.3GWh，占总装车量86.9%，环比增长15.8%，同比增长27.8%。",
+   "link": "https://wallstreetcn.com/news/global/3202384",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:28"
+   "published_at": "2026-11-19 06:56"
   },
   {
    "category": "finance",
-   "title": "报道：英伟达董事会所聘猎头公司接洽Arm首席执行官Rene Haas",
-   "summary": "一位了解相关流程的知情人士透露，猎头公司Heidrick &amp; Struggles已就英伟达首席执行官一职接洽Arm Holdings Plc首席执行官Rene Haas；该公司受英伟达董事会聘请，负责物色黄仁勋的继任者。 这位因流程非公开而要求匿名的知情人士表示，黄仁勋上周离开公司后，Heidrick &amp; Struggles已经开始接洽可能有能力接任这一职位的高管。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3202132",
+   "title": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50",
+   "summary": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50ETF易方达（588080）成交超66亿元，超昨日1.5倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞(510300)、中证1000ETF南方(512100)等均明显放量。",
+   "link": "https://wallstreetcn.com/news/global/3202383",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:26"
+   "published_at": "2026-11-19 06:37"
   },
   {
    "category": "finance",
-   "title": "美国国家航空航天局（NASA）与SpaceX因天气原因推迟龙飞船货运舱的脱离对接。",
-   "summary": "美国国家航空航天局（NASA）与SpaceX因天气原因推迟龙飞船货运舱的脱离对接。",
-   "link": "https://wallstreetcn.com/news/global/3202131",
+   "title": "日本烟草将把俄罗斯业务从财务报告中剔除。（彭博）",
+   "summary": "日本烟草将把俄罗斯业务从财务报告中剔除。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3202379",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:22"
+   "published_at": "2026-11-19 06:34"
   },
   {
    "category": "finance",
-   "title": "对冲基金第三季重新拥抱阿里和富途，传奇投资人清仓百度",
-   "summary": "对冲基金第三季度重燃对阿里巴巴的兴趣，同时转而减持百度。汇总了1191家对冲基金的13F申报发现，它们第三季净增持阿里巴巴ADR共计550万份，扭转了前两个季度的连续减仓。 与此同时，对冲基金第三季减持百度384万份（第二季增持350万份）。美国知名对冲基金管理人David Tepper旗下Appaloosa LP在报告期内减持了前季增持的百度。传奇投资人Stanley Druckenmiller",
-   "link": "https://wallstreetcn.com/news/global/3202130",
+   "title": "日本首相高市早苗：计划1月份与韩国李在明会面。",
+   "summary": "日本首相高市早苗：计划1月份与韩国李在明会面。",
+   "link": "https://wallstreetcn.com/news/global/3202378",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:18"
+   "published_at": "2026-11-19 06:32"
   },
   {
    "category": "finance",
-   "title": "美国10年期国债收益率持稳，目前跌5个基点，在美联储发布会议纪要之际暂报5.0562%。 两年期美债",
-   "summary": "美国10年期国债收益率持稳，目前跌5个基点，在美联储发布会议纪要之际暂报5.0562%。 两年期美债收益率跌幅略微收窄，一度逼近4.8%，目前跌1.68个基点、暂报4.7872%。 纽约期金失守3730美元/盎司，日内跌3.47%。",
-   "link": "https://wallstreetcn.com/news/global/3202129",
+   "title": "日经225指数收盘上涨0.7%，报59,444.21点。日本东证指数收盘下跌0.04%，报3,822",
+   "summary": "日经225指数收盘上涨0.7%，报59,444.21点。日本东证指数收盘下跌0.04%，报3,822.47点。",
+   "link": "https://wallstreetcn.com/news/global/3202377",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:11"
+   "published_at": "2026-11-19 06:32"
   },
   {
    "category": "finance",
-   "title": "纳斯达克100指数涨幅收窄至0.2%，标普跌0.2%，道指跌540点、跌超1%。",
-   "summary": "纳斯达克100指数涨幅收窄至0.2%，标普跌0.2%，道指跌540点、跌超1%。",
-   "link": "https://wallstreetcn.com/news/global/3202128",
+   "title": "中国台湾扩大放空禁令以支撑股市 11月20日起生效",
+   "summary": "中国台湾在声明中宣布，受国际政经情势影响，投资人信心不足，将再采行额外措施以稳定股市，其中包括进一步限制放空。当日收盘价跌幅达3.5%以上，次一交易日不得低于前一交易日收盘价放空。调整每日盘中借券卖出委讬数量：由原不超过该种有价证券前30个营业日之日平均成交数量之3%调降为1%，但某些避险和造市活动得不受限制。鼓励金融业买进具有投资价值之绩优股票。鼓励上市柜公司适时实施库藏股制度。中国台湾将监测市",
+   "link": "https://wallstreetcn.com/news/global/3202375",
    "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:09"
-  },
-  {
-   "category": "finance",
-   "title": "彭博美元指数刷新日高。 墨西哥比索、南非兰特跌幅扩大至至少1.9%，刷新日低，美联储发布了10月FO",
-   "summary": "彭博美元指数刷新日高。 墨西哥比索、南非兰特跌幅扩大至至少1.9%，刷新日低，美联储发布了10月FOMC货币政策会议的纪要。",
-   "link": "https://wallstreetcn.com/news/global/3202126",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-18 19:04"
+   "published_at": "2026-11-19 06:19"
   }
  ]
 }
