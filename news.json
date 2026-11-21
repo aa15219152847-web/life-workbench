@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-11-20 20:27",
+ "updated_at": "2026-11-21 07:16",
  "ai": [
+  {
+   "category": "ai",
+   "title": "黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制",
+   "summary": "",
+   "link": "https://www.ithome.com/1/030/348.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元",
+   "summary": "",
+   "link": "https://www.ithome.com/1/030/346.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密",
+   "summary": "",
+   "link": "https://www.ithome.com/1/030/322.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "“几乎所有人将永久失业”：Anthropic 研究员预测 2027 年底 AI 在几乎所有领域超越顶尖专家",
+   "summary": "",
+   "link": "https://www.ithome.com/1/030/308.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌搜索首页新增 AI 侧边栏，让你“接着聊”此前提问话题",
+   "summary": "",
+   "link": "https://www.ithome.com/1/030/287.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "约 14MB 内存运行 2.7 亿参数模型：谷歌工程师把 AI 装进打印机，每词元耗时约 60 秒",
@@ -120,232 +160,160 @@
    "link": "https://www.ithome.com/1/029/158.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软纳德拉示警：比“千年虫”更棘手，AI 正让网络变得越来越脆弱",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/154.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/145.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "2GB 内存的手机也能流畅用 AI，谷歌降低安卓 Gemini App 使用门槛",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/141.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌推出 Stitch Loop：定位永远不下班的“产品进化器”，替你盯着产品改 Bug",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/137.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "腾讯高管：预计 2028 年 AI 投入产出效率改善，得益于基础设施复用、硬件降价与算力效率提升",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/080.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "美元兑日元跌约0.8%，Anthropic IPO和AI板块抛售迫使投资者寻求避险",
-   "summary": "周五（11月20日）纽约尾盘，美元兑日元跌0.77%，报158.47日元，本周累计下跌0.77%，整体交投区间为159.97-158.42日元。 欧元兑日元累跌1.29%，报173.83日元；英镑兑日元累跌1.73%，报207.384日元；日元兑离岸人民币累涨0.76%，报4.2116元。",
-   "link": "https://wallstreetcn.com/news/global/3203561",
+   "title": "《GTA6》带动PS5价格持续上涨，Pro版本涨至1.6万元",
+   "summary": "《侠盗猎车手6》（GTA 6）带动PS5价格持续上涨。目前PS5 Pro的价格仍在进一步走高。截至发稿，天猫自营国行PS5 Pro数字版报价11499元，港版报价15999元。得物App上，国行数字版报价8899元，港版报价12056元。多个平台的报价相比《GTA6》发售当天，普遍上涨1000至2000元。也就是说，想在自己家里用上能增强GTA6画面的PS5 Pro，实际支出普遍在8000元以上，",
+   "link": "https://wallstreetcn.com/news/global/3203647",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 20:25"
+   "published_at": "2026-11-21 07:11"
   },
   {
    "category": "finance",
-   "title": "彭博美元指数本周涨约0.6%",
-   "summary": "周五（11月20日）纽约尾盘，ICE美元指数跌0.08%，报103.817点，本周累计上涨0.39%，整体交投区间为103.331-103.974点。 彭博美元指数跌0.06%，报1243.08点，本周累涨0.58%，交投区间为1234.25-1244.50点。",
-   "link": "https://wallstreetcn.com/news/global/3203559",
+   "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 Day 0适配",
+   "summary": "据沐曦股份消息，11月20日，腾讯混元正式开源Hy4。沐曦股份旗下曦云C系列GPU率先完成Hy4的Day 0适配。",
+   "link": "https://wallstreetcn.com/news/global/3203645",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 20:20"
+   "published_at": "2026-11-21 05:38"
   },
   {
    "category": "finance",
-   "title": "据知情人士透露，Anthropic通过IPO吸引到大约1150亿-1200亿美元的散户需求。（彭博）",
-   "summary": "据知情人士透露，Anthropic通过IPO吸引到大约1150亿-1200亿美元的散户需求。（彭博）",
-   "link": "https://wallstreetcn.com/news/global/3203558",
+   "title": "中信证券：预计全国性机制电价政策有望在2027年推出",
+   "summary": "11月21日，中信证券最新研报指出，随着沿海电价重回上涨，核电的周期性电价下降风险已经消除；火电容量电价推出后，核电面临结构性电价下降冲击，通过政策保障以应对该冲击极具必要性和可行性。考虑试点省市运行效果良好，中信证券预计全国性机制电价政策有望在2027年推出；2027~2028年，预计机制电价推出将提振核电公司业绩幅度约4%-6%。",
+   "link": "https://wallstreetcn.com/news/global/3203643",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 20:17"
+   "published_at": "2026-11-21 04:44"
   },
   {
    "category": "finance",
-   "title": "纳斯达克金龙中国指数跌超3%，阿特斯跌24.69%，虎虎科技跌20.28%，JDZG跌19.30%，",
-   "summary": "纳斯达克金龙中国指数跌超3%，阿特斯跌24.69%，虎虎科技跌20.28%，JDZG跌19.30%，知乎跌16.12%，逸仙电商跌14.50%。",
-   "link": "https://wallstreetcn.com/news/global/3203557",
+   "title": "阿根廷政府批准该国规模最大投资项目",
+   "summary": "阿根廷政府20日宣布批准将一个液化天然气项目纳入大型投资激励计划。阿根廷经济部长路易斯·卡普托在社交媒体上说，这是该国历史上规模最大的投资项目，到2050年累计投资额将达约507亿美元。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3203642",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 20:05"
+   "published_at": "2026-11-21 04:24"
   },
   {
    "category": "finance",
-   "title": "本周芝加哥小麦期货跌约2.3%，大豆油跌超6.3%，豆粕涨超3.7%",
-   "summary": "周五（11月20日）纽约尾盘，彭博谷物分类指数涨0.02%，报29.3506点，本周累计下跌1.28%。 本周，CBOT玉米期货累跌1.75%，报4.4875美元/蒲式耳。 CBOT小麦期货跌2.27%，报5.93美元/蒲式耳。 CBOT大豆期货累跌0.89%，报12.2050美元/蒲式耳，豆粕期货累涨3.75%，豆油期货累跌6.32%。",
-   "link": "https://wallstreetcn.com/news/global/3203556",
+   "title": "比特币跌破56000美元，日内跌超5%。",
+   "summary": "比特币跌破56000美元，日内跌超5%。",
+   "link": "https://wallstreetcn.com/news/global/3203641",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 20:05"
+   "published_at": "2026-11-21 04:09"
   },
   {
    "category": "finance",
-   "title": "加拿大多伦多股票指数当日下跌2.1%，较8月26日盘中历史高点下跌10.1%。",
-   "summary": "加拿大多伦多股票指数当日下跌2.1%，较8月26日盘中历史高点下跌10.1%。",
-   "link": "https://wallstreetcn.com/news/global/3203554",
+   "title": "国家发展改革委召开视频会议调度督促政府投资资金支付使用和项目储备工作",
+   "summary": "2026年11月20日，国家发展改革委召开政府投资资金支付使用和项目储备工作视频会议，委党组成员、副主任岳修虎同志出席并讲话。会议通报了各地政府投资资金支付使用和重大项目储备工作情况，浙江、河南、广东、黑龙江、安徽、陕西等6省发展改革委负责同志作了交流发言。",
+   "link": "https://wallstreetcn.com/news/global/3203640",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:40"
+   "published_at": "2026-11-21 03:47"
   },
   {
    "category": "finance",
-   "title": "Dollar General快速转跌，目前跌1.2%。",
-   "summary": "Dollar General快速转跌，目前跌1.2%。",
-   "link": "https://wallstreetcn.com/news/global/3203553",
+   "title": "伊朗称击落第58架美军“死神”无人机",
+   "summary": "伊朗伊斯兰革命卫队公共关系部门21日在社交媒体上说，一架美军MQ-9型“死神”无人机当天在霍尔木兹海峡上空被伊斯兰革命卫队新型防空系统拦截并击落。这是伊方击落的第58架美军“死神”无人机。根据所搭载的传感器和武器不同类型，一架MQ-9型“死神”无人机的造价在3000万美元至5000万美元之间。（新华社）",
+   "link": "https://wallstreetcn.com/news/global/3203639",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:39"
+   "published_at": "2026-11-21 03:28"
   },
   {
    "category": "finance",
-   "title": "摩根大通戴蒙誓言追回英国“不公平”银行税",
-   "summary": "据英国金融时报援引参加周四非公开活动的人士消息，摩根大通首席执行官杰米·戴蒙（Jamie Dimon）表示，他计划寻找方法来追回（offset）英国政府上月推出的银行税上调部分。 戴蒙在摩根大通欧洲金融大会上表示，此举是为了“树立一个范例，让[政府]明白这些不公平惩罚背后的取舍代价”。 他补充说，这一举动“更多是出于遗憾”而非愤怒，但并未具体说明该行将如何抵消这项税收的增加。 据透露，受此次加税影",
-   "link": "https://wallstreetcn.com/news/global/3203494",
+   "title": "人民日报：唱空中国经济者终会落空",
+   "summary": "人民日报文章指出，今年以来，一些境外媒体和机构围绕中国经济频频发难。一会儿渲染所谓“通缩陷阱”，断言中国经济增长难以为继；一会儿炒作“中国冲击2.0”，声称中国制造威胁全球产业。说辞换了一茬又一茬，唯有悲观的结论像是提前写好了一般。",
+   "link": "https://wallstreetcn.com/news/global/3203638",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:35"
+   "published_at": "2026-11-21 03:21"
   },
   {
    "category": "finance",
-   "title": "交易员不再充分消化美联储12月加息的情景",
-   "summary": "标普500指数跌3.1%，纳斯达克100指数跌4.9%，纳指跌4.6%，半导体指数跌10%，Anthropic维持大约10%的跌幅。 英伟达跌11.79%，闪迪跌16%，博通跌12.58%，美光跌13.22%，英特尔跌6.13%，AMD跌13.59%，高通跌5.29%，台积电跌9.30%，阿斯麦跌6.70%。 VIX波动率日内涨幅达22.5%，报34.85。 美国2-7年期国债收益率至少跌15个基",
-   "link": "https://wallstreetcn.com/news/global/3203552",
+   "title": "腾讯姚顺雨团队深夜回应一切：下一代模型将大幅扩容，小尺寸模型已在路线图上",
+   "summary": "今日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员在 Reddit 上进行了一场 AMA（Ask Me Anything）。",
+   "link": "https://wallstreetcn.com/news/global/3203636",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:32"
+   "published_at": "2026-11-21 02:56"
   },
   {
    "category": "finance",
-   "title": "WTI 12月原油期货收涨0.77美元，涨幅0.93%，报83.98美元/桶。 布伦特1月原油期货收",
-   "summary": "WTI 12月原油期货收涨0.77美元，涨幅0.93%，报83.98美元/桶。 布伦特1月原油期货收涨0.59美元，涨幅0.64%，报92.57美元/桶。 NYMEX 12月天然气期货收报3.4110美元/百万英热单位。 NYMEX 12月汽油期货收报2.5027美元/加仑，NYMEX 12月取暖油期货收报3.9216美元/加仑。",
-   "link": "https://wallstreetcn.com/news/global/3203551",
+   "title": "软银孙正义曾探讨以1万亿美元收购SK海力士",
+   "summary": "软银董事长孙正义近期接洽华尔街机构，商议融资推进一笔规模达万亿级美元的收购，目标是存储芯片巨头SK海力士，但软银发言人表示，孙正义现已不再积极推进该交易。（The Information）",
+   "link": "https://wallstreetcn.com/news/global/3203635",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:31"
+   "published_at": "2026-11-21 02:35"
   },
   {
    "category": "finance",
-   "title": "英伟达跌幅扩大至11%，费城半导体指数目前跌9.57%。",
-   "summary": "英伟达跌幅扩大至11%，费城半导体指数目前跌9.57%。",
-   "link": "https://wallstreetcn.com/news/global/3203550",
+   "title": "机构：需求降温，11月电视、显示器及笔电面板价格或全面持平",
+   "summary": "11月20日，TrendForce集邦咨询公布了11月面板价格：2026年11月，电视、显示器、笔电面板价格与前月一致。电视面板方面，进入11月，电视面板逐步转入淡季循环，需求转弱，预计第四季主要电视品牌的采购动能将季减6%左右；目前预估11月电视面板价格仍将维持全面持平态势。",
+   "link": "https://wallstreetcn.com/news/global/3203633",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:30"
+   "published_at": "2026-11-21 02:17"
   },
   {
    "category": "finance",
-   "title": "新兴市场AI Mag 3 ETF (EMAG) 因波动性暂停交易。",
-   "summary": "新兴市场AI Mag 3 ETF (EMAG) 因波动性暂停交易。",
-   "link": "https://wallstreetcn.com/news/global/3203549",
+   "title": "量子计算机“高速内存”全球首次真机实现",
+   "summary": "浙江大学西溪校区物理学院超导量子计算实验室内，形似巨型金属圆筒的稀释制冷机内部，一枚由浙江大学微纳加工中心制备、指甲盖大小的超导量子芯片躺在最低温区的混合室上，四周密布着铝线和微波同轴线缆。这枚芯片名为“天目2号”，此前在这里完成了一项重大突破——QRAM（量子随机存储器）的全球首次真机实现，这项成果相当于给量子计算机装上了“高速内存”。该研究由浙江大学物理学院、计算机学院、软件学院和宁波国际科创",
+   "link": "https://wallstreetcn.com/news/global/3203632",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:29"
+   "published_at": "2026-11-21 02:16"
   },
   {
    "category": "finance",
-   "title": "美国30年期国债收益率下跌10个基点至5.30%。",
-   "summary": "美国30年期国债收益率下跌10个基点至5.30%。",
-   "link": "https://wallstreetcn.com/news/global/3203548",
+   "title": "我国“5G+工业互联网”项目达2.7万个 已覆盖全部41个工业大类",
+   "summary": "从工业和信息化部了解到，目前我国5G应用已融入全部97个国民经济大类，工业互联网已覆盖全部41个工业大类。目前，我国已经建成分类分级、特色鲜明的5G工厂1260家，培育超过360家具有一定影响力的工业互联网平台，重点平台工业设备联接数超1亿台（套）。 (央视新闻)",
+   "link": "https://wallstreetcn.com/news/global/3203631",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:29"
+   "published_at": "2026-11-21 01:46"
   },
   {
    "category": "finance",
-   "title": "英伟达跌幅扩大至10%，路透报道称，英伟达的会计处理已成为美国SEC调查的重点。",
-   "summary": "英伟达跌幅扩大至10%，路透报道称，英伟达的会计处理已成为美国SEC调查的重点。",
-   "link": "https://wallstreetcn.com/news/global/3203547",
+   "title": "新疆最大热电联产项目建成投产",
+   "summary": "据中国能源建设集团有限公司消息，11月20日20时50分，中国能建华东院设计、建筑集团承建的喀什华电2×66万千瓦热电联产项目7号机组通过168小时满负荷试运行，标志着新疆最大热电联产项目全面建成投产。该项目位于新疆喀什市，是国家“两个联营”一体化重点项目、新疆电力发展规划重点工程。",
+   "link": "https://wallstreetcn.com/news/global/3203630",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:23"
+   "published_at": "2026-11-21 01:37"
   },
   {
    "category": "finance",
-   "title": "《侠盗猎车手6》预售销量达3250万份，Metacritic评分99分。 Rockstar Game",
-   "summary": "《侠盗猎车手6》预售销量达3250万份，Metacritic评分99分。 Rockstar Games表示，《侠盗猎车手6》首日销售额达到37.9亿美元。 TAKE-TWO股价迅速上涨，最高涨幅达4.8%。",
-   "link": "https://wallstreetcn.com/news/global/3203546",
+   "title": "积存金价格跌至“7字头”，银行纷纷提示贵金属市场波动风险",
+   "summary": "11月20日，国际金价跌破3600美元/盎司，与其高度联动的积存金价格随之下探进入“7字头”区间。截至发稿时，工银积存金报769元/克，当日跌幅达3.5%。同日，工商银行发布关于贵金属市场波动风险的提示。同日，建设银行、招商银行、宁波银行等也发布相关风险提示。受访人士建议，在金价尚未企稳时不宜一次性重仓抄底，建议以定投方式分批建仓、摊薄成本，把黄金作为资产配置中的防御性配置，而非波段交易工具。（上",
+   "link": "https://wallstreetcn.com/news/global/3203628",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:21"
+   "published_at": "2026-11-21 00:42"
   },
   {
    "category": "finance",
-   "title": "报道：英伟达的会计处理已成为美国SEC调查的重点",
-   "summary": "据知情人士透露，美国证券交易委员会（SEC）正在调查英伟达的会计处理方式，这给这家深陷丑闻的芯片巨头面临的法律困境雪上加霜。 尚无法立即确定SEC何时启动调查，也无法确切得知该监管机构正在审查哪些潜在的会计问题。调查并不等同于存在不当行为，许多调查最终都会以未采取执法行动而告终。 此前，华尔街日报称，美国证券交易委员会正在调查英伟达，但表示无法确定调查的具体重点。（路透）",
-   "link": "https://wallstreetcn.com/news/global/3203545",
+   "title": "全球需求火热，AI液冷期待高质量利润兑现",
+   "summary": "今年以来，液冷行业正由前期订单快速扩张阶段，转向利润兑现的检验期。随着AI算力建设持续推进，行业关注点也从能不能拿到订单，转向订单能否转化为盈利。11月20日，在2026年SMM数据要素赋能算力产业发展大会上，多位与会嘉宾表示：全球AI液冷需求保持较强韧性，行业因工艺、洁净度、安全门槛约束，较难爆发无序价格战；从全球龙头企业最新业绩来看，产业仍处在高增长通道。当前冷板、浸没等多条技术路线并行发展，",
+   "link": "https://wallstreetcn.com/news/global/3203627",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:19"
+   "published_at": "2026-11-21 00:38"
   },
   {
    "category": "finance",
-   "title": "纳指跌幅扩大至4%",
-   "summary": "道琼斯指数跌0.87%，标普500指数跌2.52%，纳斯达克综合指数跌4.00%。 纳斯达克100指数跌4.3%，半导体指数跌8.95%。 英伟达股价在尾盘成交量放大时跌幅扩大，最新下跌9%，至133美元下方。 比特币跌穿58000美元。",
-   "link": "https://wallstreetcn.com/news/global/3203544",
+   "title": "AI产业催化密集，硬件与应用双线配置价值凸显",
+   "summary": "分析人士认为，当前AI产业仍处于快速发展阶段，算力基础设施建设和大模型技术迭代为产业发展提供支撑。同时，随着资本开支规模不断扩大，市场更加关注AI投资的投入产出效率，算力订单能否转化为企业业绩、AI应用能否形成稳定的商业化收入，成为影响产业链后续表现的重要因素。（中证报）",
+   "link": "https://wallstreetcn.com/news/global/3203626",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:14"
+   "published_at": "2026-11-21 00:38"
   },
   {
    "category": "finance",
-   "title": "阿根廷液化天然气（LNG）项目计划到2050年投资508亿美元，其中到2030年投资250亿美元。",
-   "summary": "阿根廷液化天然气（LNG）项目计划到2050年投资508亿美元，其中到2030年投资250亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3203543",
+   "title": "年内险资调研A股公司超1.46万次 电子元件、集成电路以及医疗保健设备等领域受关注",
+   "summary": "今年以来，险资在积极布局资本市场的同时，也在不断探索符合资金需求的优质标的，其调研方向成为观察险资布局与关注焦点的风向标。万得数据显示，今年以来险资调研A股公司合计达14633次，主要关注电子元件、工业机械、集成电路以及医疗保健设备等领域。",
+   "link": "https://wallstreetcn.com/news/global/3203624",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:03"
+   "published_at": "2026-11-21 00:30"
   },
   {
    "category": "finance",
-   "title": "OpenAI推出MedChemBench药物化学基准",
-   "summary": "OpenAI称，公司推出MedChemBench基准测试集，用于评估AI模型在药物化学研究相关推理任务上的表现。该测试检验模型能否将分子结构与实验证据关联起来，解释实验结果、对比化合物并预测其性质。打造能够可靠支撑这类研究的AI，是助力科学家研发更优质药物的一步。MedChemBench基于已发表研究整理出99道测试题，以此衡量上述能力。 在超高推理模式下，GPT‑6.2 Astra得分84.5%",
-   "link": "https://wallstreetcn.com/news/global/3203542",
+   "title": "报道：加拿大向Stellantis提供备选方案以保住安大略省工厂",
+   "summary": "据知情人士透露，加拿大联邦政府、安大略省政府以及代表该厂工人的工会已达成一致，决不让欧洲车企斯泰兰蒂斯Stellantis NV出售其位于多伦多附近的一座闲置汽车工厂。 11月20日，加拿大工业部长乔利（Mélanie Joly）、安大略省省长福特（Doug Ford）以及加拿大汽车工人工会（Unifor）全国主席佩恩（Lana Payne）等人，就Stellantis计划将其位于安大略省布兰普顿",
+   "link": "https://wallstreetcn.com/news/global/3203620",
    "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:02"
-  },
-  {
-   "category": "finance",
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6714元，较周四夜盘收盘涨236点。成交量69",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6714元，较周四夜盘收盘涨236点。成交量693.80亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3203540",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:01"
-  },
-  {
-   "category": "finance",
-   "title": "恒生指数主连夜盘收跌0.86%，报22238点。 恒生科技指数主连夜盘收跌1.57%，报3456点。",
-   "summary": "恒生指数主连夜盘收跌0.86%，报22238点。 恒生科技指数主连夜盘收跌1.57%，报3456点。",
-   "link": "https://wallstreetcn.com/news/global/3203539",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-20 19:00"
-  },
-  {
-   "category": "finance",
-   "title": "WTI原油日内涨幅达1.0%，报83.27美元/桶。",
-   "summary": "WTI原油日内涨幅达1.0%，报83.27美元/桶。",
-   "link": "https://wallstreetcn.com/news/global/3203538",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-20 18:58"
-  },
-  {
-   "category": "finance",
-   "title": "云基础设施公司CloudFerro考虑波兰IPO。",
-   "summary": "云基础设施公司CloudFerro考虑波兰IPO。",
-   "link": "https://wallstreetcn.com/news/global/3203537",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-20 18:53"
+   "published_at": "2026-11-20 23:21"
   }
  ]
 }
