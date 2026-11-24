@@ -1,6 +1,94 @@
 {
- "updated_at": "2026-11-23 23:58",
+ "updated_at": "2026-11-24 09:59",
  "ai": [
+  {
+   "category": "ai",
+   "title": "诺华 CEO 泼冷水：AI 十年内治不好癌症，仅能缩短新药研发周期",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/705.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "苹果新招聘曝光：为 AI 算力芯片打造“光速公路”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/499.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "IDC 预测：2027 年智能眼镜全球出货将突破 2622 万台",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/490.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 钓鱼邮件会“自我进化”：TheMailer 曝光，不断升级文案直到骗过垃圾邮件过滤器",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/482.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软总裁史密斯示警：AI 加速修补漏洞，未来数月全球恐出现更多技术故障",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/479.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "复职英伟达 CEO 后将迎国会听证，黄仁勋 12 月 3 日将公开作证",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/456.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "黄仁勋回归英伟达首日：没有办公电脑用，希望配台 RTX Spark",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/389.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "谷歌拟给浏览器 AI 加道“权限锁”：允许看商品，不许进支付页",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/331.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "“90% 编程无需手敲代码”：微软拉曼纳称 AI 让程序员少写代码，却要思考更多",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/316.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "AI 拓展“嗅觉”技能：Ainos 斩获 900 万美元追加订单，电子鼻走进芯片工厂“闻”异常",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/290.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "因提示词和密钥外泄，全球最大 AI API 聚合平台 OpenRouter 清退 3 家服务商",
+   "summary": "",
+   "link": "https://www.ithome.com/1/031/282.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "《生化危机》之父三上真司：希望 AI 彻底消失",
@@ -72,288 +160,200 @@
    "link": "https://www.ithome.com/1/030/418.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制",
-   "summary": "",
-   "link": "https://www.ithome.com/1/030/348.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/030/346.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密",
-   "summary": "",
-   "link": "https://www.ithome.com/1/030/322.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“几乎所有人将永久失业”：Anthropic 研究员预测 2027 年底 AI 在几乎所有领域超越顶尖专家",
-   "summary": "",
-   "link": "https://www.ithome.com/1/030/308.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌搜索首页新增 AI 侧边栏，让你“接着聊”此前提问话题",
-   "summary": "",
-   "link": "https://www.ithome.com/1/030/287.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "约 14MB 内存运行 2.7 亿参数模型：谷歌工程师把 AI 装进打印机，每词元耗时约 60 秒",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/953.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "消息称英伟达将豪掷逾 5 亿美元，收购“比 ChatGPT 更快的 AI”公司 Inception",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/886.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "三星自研 AI 新进展：Gauss 4 现身 One UI 9.5 代码",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/833.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "OpenAI 邀部分 Plus 用户体验 dots AI 智能体，移动版 ChatGPT 将为其设独立标签页",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/784.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“史上最大 IPO”：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/748.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线",
-   "summary": "",
-   "link": "https://www.ithome.com/1/029/747.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "韩媒：三星拟扩大西安工厂先进NAND闪存产能 供应AI数据中心",
-   "summary": "三星电子计划升级位于中国西安的半导体工厂，扩大第九代垂直NAND闪存(V9)产能。这类芯片用于人工智能(AI)数据中心的企业级固态硬盘。三星计划将西安第二工厂(X2)的V9产能从目前每月约1万片300毫米硅晶圆提高至约5万片、X2生产线升级后的新增产能将全部用于V9生产，同时把现有V6生产线的20%至30%转为生产V9。计划于2027年2月左右引进设备，并在同年11月前完成生产线改造。（首尔经济日",
-   "link": "https://wallstreetcn.com/news/global/3204555",
+   "title": "22万科MTN004持有人会议将于12月8日召开。",
+   "summary": "22万科MTN004持有人会议将于12月8日召开。",
+   "link": "https://wallstreetcn.com/news/global/3204905",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 23:38"
+   "published_at": "2026-11-24 09:55"
   },
   {
    "category": "finance",
-   "title": "华尔街见闻早餐 | 2026年11月24日",
-   "summary": "黄仁勋回归引爆美股空头回补，纳指大涨6.5%，英伟达暴涨31%，芯片指数飙涨14%；黄金反弹近3%，WTI原油期货跌超4%。 黄仁勋重掌帅印，英伟达股价暴涨31%，市值单日增长近万亿。黄仁勋称”第二次担任CEO会做得更好”，重返英伟达总部，数百名员工夹道欢迎。特朗普火速力挺黄仁勋复职、自称“一手促成”，万斯被曝也介入幕后协调。 中国监管部门要求券商在市场波动期间灵活调整最低维持担保比例与追保平仓安",
-   "link": "https://wallstreetcn.com/news/global/3204553",
+   "title": "据文件显示，鸿海拟发行至多15亿美元的2031年到期可转换债券。",
+   "summary": "据文件显示，鸿海拟发行至多15亿美元的2031年到期可转换债券。",
+   "link": "https://wallstreetcn.com/news/global/3204900",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 23:25"
+   "published_at": "2026-11-24 09:43"
   },
   {
    "category": "finance",
-   "title": "经济日报金观平：为什么总有人刻意看空中国经济？",
-   "summary": "文章指出，舆论场上有两类声音应当分清：一类是老百姓结合生活体验抒发感受、专业人士立足事实理性剖析短板等，属于良性公共讨论；另一类是带有明显“预设立场”的声音，无视宏观数据稳中向好态势，总能找出“看空”的角度。比如，经济指标向好，就有人质疑“代价是什么”；宏观政策显效，就扣上“市场扭曲”的帽子；外贸强劲增长，又搬出“中国挤压论”；等等。",
-   "link": "https://wallstreetcn.com/news/global/3204551",
+   "title": "上海：建设一批高质量概念验证平台",
+   "summary": "上海市科委24日牵头发布《关于进一步加强上海市高质量概念验证平台建设的行动方案》和《上海市概念验证平台建设与服务指引》，提出到2028年建成一批高质量概念验证平台，以商业验证牵引技术验证，促进基础研究成果转化。(新华社)",
+   "link": "https://wallstreetcn.com/news/global/3204899",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 23:17"
+   "published_at": "2026-11-24 09:42"
   },
   {
    "category": "finance",
-   "title": "三星盘前上涨9%，SK海力士上涨12%。",
-   "summary": "三星盘前上涨9%，SK海力士上涨12%。",
-   "link": "https://wallstreetcn.com/news/global/3204550",
+   "title": "美国汽车经销商CAR-MART申请第11章破产保护。",
+   "summary": "美国汽车经销商CAR-MART申请第11章破产保护。",
+   "link": "https://wallstreetcn.com/news/global/3204898",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 23:10"
+   "published_at": "2026-11-24 09:42"
   },
   {
    "category": "finance",
-   "title": "港股IPO料稳中有进，商业化落地能力被看重",
-   "summary": "港股IPO和再融资一直是市场关注的焦点。港交所最新数据显示，2026年前十个月，共有121家企业在港上市，首次公开招股（IPO）集资总额达到4039亿港元，较2025年同期大增84%。此外，进入11月，多家生物医药、医疗器械港股公司发布再融资公告。多位受访人士认为，硬科技公司依然会是港股IPO市场的主线，这既是由产业升级的长期趋势决定的，也与港交所拥抱新经济资产的战略方向契合。（中证报）",
-   "link": "https://wallstreetcn.com/news/global/3204549",
+   "title": "知乎：第三季度总收入6.6亿元 净亏损为4860万元",
+   "summary": "知乎第三季度总收入6.586亿元，2025年同期为6.589亿元；毛利率为57.2%，上年同期为61.3%；净亏损为4860万元，上年同期为4670万元；经调整净亏损（非公认会计准则）为3080万元，上年同期为2100万元；2026年第三季度平均月订阅会员达1410万人。",
+   "link": "https://wallstreetcn.com/news/global/3204894",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 23:09"
+   "published_at": "2026-11-24 09:35"
   },
   {
    "category": "finance",
-   "title": "黄仁勋X主页个人简介更新为“英伟达CEO”",
-   "summary": "11月23日，黄仁勋X平台（原推特）主页个人简介更新为“英伟达创始人、首席执行官”（Founder and CEO of NVIDIA）。",
-   "link": "https://wallstreetcn.com/news/global/3204547",
+   "title": "小米集团：第三季度新能源汽车收入为227亿元，同比下降19.9%",
+   "summary": "小米集团财报显示，新能源汽车及AI等创新业务分部收入由2025年第三季度的人民币290亿元减少17.7%至2026年第三季度的人民币239亿元。",
+   "link": "https://wallstreetcn.com/news/global/3204893",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 23:00"
+   "published_at": "2026-11-24 09:34"
   },
   {
    "category": "finance",
-   "title": "美联储三把手：如有需要，不排除连续加息的可能性",
-   "summary": "美国纽约联储主席（享有FOMC永久投票权，号称美联储三把手）威廉姆斯：不排除FOMC在必要时连续加息的可能性。 针对未来（多次）会议都不排除任何选项。 数据将决定利率行动的时机和步伐。 市场走势可能会在短期内逆转。 金融条件的持续变化可能会影响需求。 对增长前景仍然非常乐观。",
-   "link": "https://wallstreetcn.com/news/global/3204546",
+   "title": "小米集团：第三季度资本开支约为人民币36亿元",
+   "summary": "小米集团财报显示，2026年第三季度，资本开支约为人民币36亿元，包括新能源汽车及AI等创新业务分部的资本开支人民币23亿元。",
+   "link": "https://wallstreetcn.com/news/global/3204890",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:56"
+   "published_at": "2026-11-24 09:32"
   },
   {
    "category": "finance",
-   "title": "券商密集披露增持回购进展，“真金白银”稳市场预期",
-   "summary": "近日，长江证券、东吴证券、国联民生、中泰证券、红塔证券5家上市券商集中披露控股股东增持或股份回购最新进展，以“真金白银”向市场传递稳预期信号。在业内人士看来，当前券商板块估值已处于历史低位，叠加稳市政策密集落地，建议把握政策催化下的估值修复机会，重点关注资本实力与业务能力较强的头部券商。（中证报）",
-   "link": "https://wallstreetcn.com/news/global/3204545",
+   "title": "小米集团：2026年以来，股票回购金额达港币约131亿元，约4.31亿股股票，回购总金额已超过去年全",
+   "summary": "小米集团：2026年以来，股票回购金额达港币约131亿元，约4.31亿股股票，回购总金额已超过去年全年。",
+   "link": "https://wallstreetcn.com/news/global/3204885",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:51"
+   "published_at": "2026-11-24 09:29"
   },
   {
    "category": "finance",
-   "title": "一纸承诺函“贷”动超200亿元回购增持潮",
-   "summary": "“这段时间我们重新梳理、排查了辖区内的上市公司客户，积极接洽客户及其主要股东在股票回购、增持方面的需求，尽可能简化业务流程，匹配客户的用款节奏。”一家股份行深圳分行相关业务负责人告诉记者。一纸《贷款承诺函》，正化作支持A股上市公司市值管理的“真金白银”。11月1日以来，已有111家上市公司披露相关主体拟获得银行专项贷款，额度合计229.56亿元，无论是公司数量还是贷款规模，均远超今年此前单月水平。",
-   "link": "https://wallstreetcn.com/news/global/3204544",
+   "title": "小米集团第三季度营收1,072.4亿元人民币，同比下降5.2%，市场预估1,064.4亿元人民币。",
+   "summary": "小米集团第三季度营收1,072.4亿元人民币，同比下降5.2%，市场预估1,064.4亿元人民币。 第三季度智能手机收入455.8亿元人民币，同比下降0.8%，市场预估431.7亿元人民币。 第三季度营业利润65.7亿元人民币，同比下降57%，市场预估43.2亿元人民币。 第三季度净利润38.8亿元人民币，同比下降68%，市场预估44.9亿元人民币。 第三季度智能电动汽车及AI等创新业务收入238",
+   "link": "https://wallstreetcn.com/news/global/3204876",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:50"
+   "published_at": "2026-11-24 09:26"
   },
   {
    "category": "finance",
-   "title": "新兴市场ETF、纳指100 ETF至少收涨7%，领跑美股大类资产类ETF",
-   "summary": "周一（11月23日），新兴市场ETF收涨7.41%，纳斯达克100 ETF涨7%，标普500 ETF涨4.71%，罗素2000指数ETF、巴克莱美国可转债ETF、黄金ETF、道指ETF至多涨3.56%，美国房地产ETF涨1.2%，大豆基金、做多美元指数、农产品基金、美国国债20+年ETF至多涨0.66%。 日元做多收跌0.29%，欧元做多跌0.56%，美国布伦特油价基金跌4%，恐慌指数做多跌13.",
-   "link": "https://wallstreetcn.com/news/global/3204541",
+   "title": "工行开展支持上市公司股票回购增持专项行动 合同签订金额近1800亿元",
+   "summary": "近日，中国人民银行会同金融监管总局、中国证监会等部门召开股票回购增持再贷款座谈会。会后，工商银行积极落实相关部署要求，高效组织开展支持上市公司股票回购增持专项行动，加快股票回购增持贷款投放，助力支持资本市场健康稳定发展。截至目前，工商银行已为超两百家上市公司提供股票回购增持贷款服务，回购增持贷款合同签订金额近1800亿元。",
+   "link": "https://wallstreetcn.com/news/global/3204875",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:44"
+   "published_at": "2026-11-24 09:25"
   },
   {
    "category": "finance",
-   "title": "Anthropic首席执行官Amodei将按每股83美元（与IPO发行价一致）的价格出售340万股股",
-   "summary": "Anthropic首席执行官Amodei将按每股83美元（与IPO发行价一致）的价格出售340万股股票。",
-   "link": "https://wallstreetcn.com/news/global/3204540",
+   "title": "中国人民银行：为保持银行体系流动性充裕，2026年11月25日，中国人民银行将以固定数量、利率招标、",
+   "summary": "中国人民银行：为保持银行体系流动性充裕，2026年11月25日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展8000亿元MLF操作，期限为1年期。",
+   "link": "https://wallstreetcn.com/news/global/3204874",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:41"
+   "published_at": "2026-11-24 09:23"
   },
   {
    "category": "finance",
-   "title": "全球首只离岸人民币债券ETF落子香港",
-   "summary": "11月23日，华夏离岸人民币债券ETF在港交所挂牌，这是全球首只离岸人民币债券ETF。公开信息显示，截至10月15日，该指数自由流通市值约8720亿元人民币，平均久期约4.6年，到期收益率约2.13%。11月16日香港交易所离岸人民币债券指数授权给12家机构后，易方达香港、南方东英等机构也将产品研发提上日程。目前，香港离岸人民币生态圈颇具体量。全球约七成半的离岸人民币支付经香港处理，人民币资金池约",
-   "link": "https://wallstreetcn.com/news/global/3204539",
+   "title": "阿里巴巴回应子公司被列入美实体清单：将通过一切法律途径维护公司权益",
+   "summary": "在美国商务部将阿里巴巴旗下新加坡子公司Apex Enterprise Solutions列入实体清单后，阿里巴巴发言人明确回应：“将Apex Enterprise Solutions列入实体清单是错误的。Apex从未转移任何受美国出口管制的先进计算芯片。我们将通过一切法律途径，维护公司的合法权益和声誉。” (界面新闻）",
+   "link": "https://wallstreetcn.com/news/global/3204870",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:41"
+   "published_at": "2026-11-24 09:13"
   },
   {
    "category": "finance",
-   "title": "Fluence Energy（FLNC）美股盘后维持大约14.5%的涨幅，该公司订单积压超预期。 最",
-   "summary": "Fluence Energy（FLNC）美股盘后维持大约14.5%的涨幅，该公司订单积压超预期。 最新业绩报告显示，该公司第四财季总收入7.441亿美元，分析师预期8.166亿美元。 第四财季调整后EBITDA为亏损1.12亿美元，分析师预期亏损1.119亿美元。 第四财季订单积压89亿美元，同比增长68%吗，分析师预期63.7亿美元。",
-   "link": "https://wallstreetcn.com/news/global/3204537",
+   "title": "新型AI云服务公司盘前下挫，CoreWeave、NEBIUS跌超4%。",
+   "summary": "新型AI云服务公司盘前下挫，CoreWeave、NEBIUS跌超4%。",
+   "link": "https://wallstreetcn.com/news/global/3204862",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:30"
+   "published_at": "2026-11-24 09:06"
   },
   {
    "category": "finance",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 08:30 日本11月制造业、服务业、综合PMI初值； ② 港股收盘之后 小米集团、B站发布业绩报告； ③ 17:00 德国11月IFO商业景气指数，欧洲央行管委Olaf Kaasik在一场金融稳定性新闻发布会上讲话； ④ 美股盘前 Analog Devices、Dollar Tree、百思买、科尔士百货（KSS）等发布业绩报告； ⑤ 19:00 欧洲央行管委Kocher、Vujcic在欧洲经",
-   "link": "https://wallstreetcn.com/news/global/3204538",
+   "title": "美国药企Insmed上涨14%至每股170美元，此前赛诺菲拟以每股175美元价格收购该公司。",
+   "summary": "美国药企Insmed上涨14%至每股170美元，此前赛诺菲拟以每股175美元价格收购该公司。",
+   "link": "https://wallstreetcn.com/news/global/3204861",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:30"
+   "published_at": "2026-11-24 09:05"
   },
   {
    "category": "finance",
-   "title": "渠道人士：多家头部私募仓位超过七成，对短期市场波动并未过度担忧",
-   "summary": "近日，希瓦私募旗下产品陆续发布最新一期周报，希瓦私募创始人梁宏在周报中表示，不少优质科技公司估值已明显回落，目前应该更乐观。还有渠道人士透露，截至目前，多家头部私募仓位超过七成，对于短期市场波动并未过度担忧。",
-   "link": "https://wallstreetcn.com/news/global/3204536",
+   "title": "年内公募打新获配金额超360亿元",
+   "summary": "公募排排网数据显示，截至2026年11月24日，年内共有129家公募机构，参与到67只年内上市新股网下配售，合计获配金额365.11亿元。（证券时报）",
+   "link": "https://wallstreetcn.com/news/global/3204860",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:26"
+   "published_at": "2026-11-24 09:05"
   },
   {
    "category": "finance",
-   "title": "美国商品期货交易委员会（CFTC）：加密资产可被计入财务资源要求。 须持有足以覆盖至少12个月运营成",
-   "summary": "美国商品期货交易委员会（CFTC）：加密资产可被计入财务资源要求。 须持有足以覆盖至少12个月运营成本的财务资源。",
-   "link": "https://wallstreetcn.com/news/global/3204535",
+   "title": "今年上半年 我国人工智能核心产业规模预计超7500亿元",
+   "summary": "今天上午，市场监管总局召开人工智能国际标准化工作专题新闻发布会。工业和信息化部有关负责人介绍，今年上半年，我国人工智能核心产业规模预计超7500亿元。随着人工智能技术加快向制造业等领域渗透，我国也在持续完善相关标准体系，推动技术创新成果更好地转化为产业应用。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3204858",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:24"
+   "published_at": "2026-11-24 09:05"
   },
   {
    "category": "finance",
-   "title": "原煤产量稳步爬坡，煤企四季度业绩改善可期",
-   "summary": "当前，北方地区已全面开启冬季供暖。山西省统计局数据显示，10月山西原煤产量达到8297.1万吨，较9月增加414万吨左右，增幅约为5%。此前，山西原煤产量于6月至9月出现明显回落，同比降幅超过30%。记者近日调研发现，保供政策发力两个月以来，山西复产矿井持续增加，原煤产量稳步爬坡。受访企业及专家表示，煤价虽于近期小幅回落，但受煤种结构、产量恢复节奏等因素影响，煤企四季度业绩环比改善可期。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3204534",
+   "title": "我国牵头推动全球首个生成式人工智能治理国际标准提案",
+   "summary": "记者从市场监管总局今天（24日）举行的新闻发布会上了解到，我国正深度参与人工智能国际标准体系建设，目前已牵头研制29项基础共性国际标准，在国际标准化组织相关机构注册专家近400人。",
+   "link": "https://wallstreetcn.com/news/global/3204857",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:24"
+   "published_at": "2026-11-24 09:03"
   },
   {
    "category": "finance",
-   "title": "AI芯片供应链收紧，国产超节点迎发展机遇窗口",
-   "summary": "近日，三星开始穿透严查代工的传闻流出。向国内晶圆代工厂、芯片设计公司等多方求证获悉，该传闻并不准确，但传闻背后，是美国商务部工业和安全局（BIS）于11月16日出台新规带来的滥用出口管制。多位业内人士表示，海外流片通道进一步收紧的态势下，国产AI供应链建设势在必行。在制程技术落后于海外先进厂商的情况下，超节点有望弥补单芯片算力短板，并将迎来发展的机遇窗口。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3204533",
+   "title": "我国在5个自贸试验区开展人工智能标准化自主开放试",
+   "summary": "人工智能企业出海，不仅要面对技术和市场竞争，还要适应不同国家和地区的规则要求。记者从市场监管总局今天（24日）举行的新闻发布会上了解到，我国已在5个自贸试验区开展人工智能标准化自主开放试点。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3204855",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:23"
+   "published_at": "2026-11-24 09:03"
   },
   {
    "category": "finance",
-   "title": "回购升温、外资回补、“北水”提速，三路增量资金近期稳步入场港股",
-   "summary": "近期，港股经历深度回调，估值出现回落。在指数承压的背景下，回购提速、外资回补、南向资金流入等三路资金加速入场港股。“展望后市，随着人民币资产重估推进，外资对中国股票配置将逐步抬升，持续向基准中性水平修复。港股流动性约束比较强的阶段大概率已经过去。”光大证券首席资产配置分析师王开表示，上市公司回购、南向定价权增强、外资回补三大因素共振，2027年港股有望进入流动性与估值双升的窗口期。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3204532",
+   "title": "中国央行：11月25日将开展5000亿元7天期逆回购操作",
+   "summary": "中国央行：2026年11月25日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展5000亿元7天期逆回购操作。",
+   "link": "https://wallstreetcn.com/news/global/3204853",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:22"
+   "published_at": "2026-11-24 09:01"
   },
   {
    "category": "finance",
-   "title": "巴西石油公司PetroBras将五年期投资计划扩大至1220亿美元，之前规划的规模为1090亿美元。",
-   "summary": "巴西石油公司PetroBras将五年期投资计划扩大至1220亿美元，之前规划的规模为1090亿美元。 将支付156亿雷亚尔额外股息。",
-   "link": "https://wallstreetcn.com/news/global/3204531",
+   "title": "非法收受财物1.13亿余元 吴胜华一审被判无期徒刑",
+   "summary": "据央视，2026年11月24日，山东省淄博市中级人民法院一审公开宣判贵州省委原常委、毕节市委原书记吴胜华受贿案，对被告人吴胜华以受贿罪判处无期徒刑，剥夺政治权利终身，并处没收个人全部财产；对追缴在案的吴胜华受贿所得财物及孳息依法上缴国库，不足部分继续追缴。",
+   "link": "https://wallstreetcn.com/news/global/3204850",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:20"
+   "published_at": "2026-11-24 09:00"
   },
   {
    "category": "finance",
-   "title": "频现增持信号，产业资本“纠偏”REITs定价",
-   "summary": "公募REITs市场近期正释放积极信号。11月以来，汇添富、博时、南方等多家基金公司密集披露公告，旗下REITs的原始权益人拟逆势增持份额。部分业内人士认为，本轮产业资本的“增持潮”是二级市场回调背景下的定价纠偏，叠加锁仓承诺、集团层面参与等安排，信号“含金量”在提升。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3204530",
+   "title": "德国11月IFO商业预期指数 91.6，前值 91.6。",
+   "summary": "德国11月IFO商业预期指数 91.6，前值 91.6。",
+   "link": "https://wallstreetcn.com/news/global/3204849",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:20"
+   "published_at": "2026-11-24 09:00"
   },
   {
    "category": "finance",
-   "title": "新增专项债发行接近尾声，增量资金有望加速到位",
-   "summary": "梳理专项债券信息网披露数据发现，截至目前，2026年全国地方政府债累计发行规模达到9.98万亿元。其中，新增专项债已发行约4.13万亿元，发行进度为93%。2027年新增地方政府债务限额将提前下达。同时，多地已启动2027年项目储备工作。受访专家认为，增量资金有望加速到位，基建投资等将获得有力支撑。（上证报）",
-   "link": "https://wallstreetcn.com/news/global/3204529",
+   "title": "德国11月IFO商业现况指数 89.4，前值 88.8。",
+   "summary": "德国11月IFO商业现况指数 89.4，前值 88.8。",
+   "link": "https://wallstreetcn.com/news/global/3204848",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:16"
+   "published_at": "2026-11-24 09:00"
   },
   {
    "category": "finance",
-   "title": "标普道琼斯指数公司：SharkNinja（SN）将被纳入标普500指数，取代AES。",
-   "summary": "标普道琼斯指数公司：SharkNinja（SN）将被纳入标普500指数，取代AES。",
-   "link": "https://wallstreetcn.com/news/global/3204528",
+   "title": "德国11月IFO商业景气指数 90.6，前值 90.2。",
+   "summary": "德国11月IFO商业景气指数 90.6，前值 90.2。",
+   "link": "https://wallstreetcn.com/news/global/3204847",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:16"
+   "published_at": "2026-11-24 09:00"
   },
   {
    "category": "finance",
-   "title": "周一（11月23日）纽约尾盘，标普500股指期货最终涨4.96%，道指期货涨3.26%，纳斯达克10",
-   "summary": "周一（11月23日）纽约尾盘，标普500股指期货最终涨4.96%，道指期货涨3.26%，纳斯达克100股指期货涨6.97%。 罗素2000股指期货涨3.54%。",
-   "link": "https://wallstreetcn.com/news/global/3204527",
+   "title": "太平人寿明确未来五年发展路径：规划20个核心项目，推进五大转型",
+   "summary": "11月23日，太平人寿党委书记、总经理王旭泽在太平人寿“4511”高质量发展战略发布会上介绍，2026年至2030年，该公司将全面实施“4511”高质量发展战略，目前已规划20个核心项目，近百项举措正在稳步推进。",
+   "link": "https://wallstreetcn.com/news/global/3204846",
    "source": "华尔街见闻",
-   "published_at": "2026-11-23 22:12"
+   "published_at": "2026-11-24 09:00"
   }
  ]
 }
