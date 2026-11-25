@@ -1,6 +1,22 @@
 {
- "updated_at": "2026-11-25 08:43",
+ "updated_at": "2026-11-25 21:45",
  "ai": [
+  {
+   "category": "ai",
+   "title": "英伟达开放 Nemotron-Labs-Image-30B-A3B 生图 AI 模型权重：某些跑分超 GPT Image 2",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/444.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "亚马逊今年资本开支预计达 2200 亿美元创历史新高，AWS CFO 称 AI 赛道宁快勿慢",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/435.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "成本狂降至 100 万分之一：谷歌 DeepMind 预估如今 10 亿美元的 AI 任务 10 年后只需 1000 美元",
@@ -144,224 +160,184 @@
    "link": "https://www.ithome.com/1/031/282.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "《生化危机》之父三上真司：希望 AI 彻底消失",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/204.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "黑客利用 AI 工具发现医疗软件零日漏洞，成功控制目标服务器",
-   "summary": "",
-   "link": "https://www.ithome.com/1/030/917.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "网易灵动机器人开启量产：百个项目作业验证，AI承担核心生产任务超85%",
-   "summary": "记者获悉，上海宝马工程机械展（bauma CHINA 2026）现场，网易旗下具身智能品牌网易灵动与柳工集团正式签署战略合作，计划推进AI原生挖掘机规模量产与出海，并真机演示了首款多模态交互AI挖掘机的自动装车全流程。同时，网易灵动率先推出面向工程机械工况的世界动作模型（WAM，World-ActionModel），在作业中实时预判料堆坍塌、碰撞风险与车斗料面变化，还同步披露了装载机器人在核电、港",
-   "link": "https://wallstreetcn.com/news/global/3205547",
+   "title": "黄金储备公司对委内瑞拉认定Siembra Minera为该国最具战略价值矿业资产之一表示欢迎。 确认",
+   "summary": "黄金储备公司对委内瑞拉认定Siembra Minera为该国最具战略价值矿业资产之一表示欢迎。 确认已准备好重启运营并解决未决索赔事项。",
+   "link": "https://wallstreetcn.com/news/global/3205942",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:37"
+   "published_at": "2026-11-25 21:45"
   },
   {
    "category": "finance",
-   "title": "何小鹏：全球首张有人驾驶eVTOL TC认证进入最后阶段",
-   "summary": "今日小鹏科技日上，何小鹏介绍，全球首张有人驾驶eVTOL TC认证进入最后阶段，全尺寸全倾转电动飞行汽车A868成功完成倾转过渡试飞，低空出行迎来关键突破；小鹏物理AI解决方案XPENG AI ENGINEERING已接收多家企业合作咨询意向，将持续面向全球伙伴开放合作。他介绍，汇天与阿联酋共建飞行汽车全球首个低空监管沙盒，探索低空飞行规则及运营模式；“陆地航母”计划2027年拓展更多全球市场。（",
-   "link": "https://wallstreetcn.com/news/global/3205546",
+   "title": "明晟公司MSCI新兴市场股票指数跌2.9%，发展中国家外汇指数跌0.2%。",
+   "summary": "明晟公司MSCI新兴市场股票指数跌2.9%，发展中国家外汇指数跌0.2%。",
+   "link": "https://wallstreetcn.com/news/global/3205941",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:35"
+   "published_at": "2026-11-25 21:42"
   },
   {
    "category": "finance",
-   "title": "福特汽车证实与美国防部会谈 未提是否涉及造无人机",
-   "summary": "美国福特汽车公司24日证实，已与美国防部就合作事宜举行会谈，但没有说明是否涉及军用无人机生产。",
-   "link": "https://wallstreetcn.com/news/global/3205545",
+   "title": "美股大类资产类ETF多数收涨，布油基金涨超2.8%，纳指ETF跌超0.6%",
+   "summary": "周三（11月25日），恐慌指数做多收涨3.97%，美国布伦特油价基金涨2.86%，美国房地产ETF涨0.93%，美国国债20+年ETF涨0.92%，罗素2000指数ETF涨0.65%，黄金ETF涨0.61%，大豆基金、道指ETF、欧元做多至多涨0.36%。 日元做多收平，巴克莱美国可转债ETF跌0.02%，做多美元指数跌0.1%，标普500 ETF跌0.29%，新兴市场ETF跌0.51%，纳斯达克",
+   "link": "https://wallstreetcn.com/news/global/3205940",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:35"
+   "published_at": "2026-11-25 21:33"
   },
   {
    "category": "finance",
-   "title": "理想汽车第三季度营收288亿元人民币，预估280亿元人民币。 第三季度毛利率16.7％，上年同期16",
-   "summary": "理想汽车第三季度营收288亿元人民币，预估280亿元人民币。 第三季度毛利率16.7％，上年同期16.3％，预估13.6％。 第三季度归属股东的调整后净亏损1.173亿元人民币，上年同期亏损3.603亿元人民币，预估亏损6.67亿元人民币。 第三季度调整后每ADS亏损0.12元人民币，上年同期每股亏损0.36元人民币，预估每股亏损0.57元人民币。 理想汽车预计第四季度营收317亿元人民币至331",
-   "link": "https://wallstreetcn.com/news/global/3205544",
+   "title": "瑞士：对朝鲜关闭瑞士驻平壤外交办事处表示遗憾",
+   "summary": "瑞士外交部25日回复新华社记者邮件询问时表示，已于当日正式获悉朝鲜关闭瑞士驻平壤外交办事处的决定，对此表示“遗憾”，并透露正在安排办事处代表返回瑞士驻华大使馆。 瑞士外交部强调，该办事处的关闭不会影响瑞士与朝鲜的外交关系，两国关系将继续通过瑞士驻华大使馆（该使馆同时负责朝鲜事务）和朝鲜驻瑞士大使馆维持，瑞士也将继续通过上述外交渠道开展对话。",
+   "link": "https://wallstreetcn.com/news/global/3205939",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:30"
+   "published_at": "2026-11-25 21:21"
   },
   {
    "category": "finance",
-   "title": "香港金管局正式推出CMU数字资产平台",
-   "summary": "香港金融管理局宣布，正式推出CMU数字资产平台。该平台由迅清结算有限公司（迅清结算）协助金管局进行开发及营运，是债务工具中央结算系统（CMU）基于分布式分类帐技术（DLT）建立的平台。迅清结算将与市场参与者携手，探索将CMU数字资产平台的覆盖范围由债券扩展至基金及现实世界资产等其他资产类别，并推动CMU数字资产平台与其他DLT平台及更广泛的支付工具，包括代币化存款和受监管稳定币进行对接，以建立一个",
-   "link": "https://wallstreetcn.com/news/global/3205542",
+   "title": "标普500指数的11个板块中，可选消费板块收跌0.98%，信息技术/科技板块跌0.97%，工业、房地",
+   "summary": "标普500指数的11个板块中，可选消费板块收跌0.98%，信息技术/科技板块跌0.97%，工业、房地产板块至少涨0.82%，原材料板块涨1.84%。",
+   "link": "https://wallstreetcn.com/news/global/3205938",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:29"
+   "published_at": "2026-11-25 21:19"
   },
   {
    "category": "finance",
-   "title": "韩国政府公布31个部门和机构搬迁计划",
-   "summary": "韩国行政安全部24日发布中央行政机关等搬迁计划变更公告，计划到2031年，将中央行政机关等31个部门和机构的5460名公务员迁往世宗市。首批22家机构将租用民间建筑等场所办公，于明年完成搬迁。另外9家需要专门办公楼及特殊设施的机构，将迁入新建办公楼，并于2031年前完成搬迁。",
-   "link": "https://wallstreetcn.com/news/global/3205540",
+   "title": "周三（11月25日），美股行业ETF全球科技股指数ETF收跌1.03%，半导体ETF跌1.01%，全",
+   "summary": "周三（11月25日），美股行业ETF全球科技股指数ETF收跌1.03%，半导体ETF跌1.01%，全球航空业ETF跌0.88%，科技行业ETF跌0.83%，金融业ETF、能源业ETF至多涨0.74%，工业指数ETF涨0.83%。",
+   "link": "https://wallstreetcn.com/news/global/3205937",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:26"
+   "published_at": "2026-11-25 21:17"
   },
   {
    "category": "finance",
-   "title": "美军计划引爆有毒化合物 铅尘污染引担忧",
-   "summary": "据美国方面消息，美国陆军定于25日上午在艾奥瓦州米德尔敦引爆近5吨的有毒含铅化合物，引发当地对铅尘污染的担忧。",
-   "link": "https://wallstreetcn.com/news/global/3205539",
+   "title": "富时A50期指连续夜盘收涨0.56%，报12689点。",
+   "summary": "富时A50期指连续夜盘收涨0.56%，报12689点。",
+   "link": "https://wallstreetcn.com/news/global/3205935",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:22"
+   "published_at": "2026-11-25 21:15"
   },
   {
    "category": "finance",
-   "title": "上期能源就业务规则体系优化草案公开征求意见",
-   "summary": "上海国际能源交易中心发布关于就上海国际能源交易中心业务规则体系优化草案公开征求意见的公告。优化主要内容如下：一是重构规则体系，区分通用性规则与品种个性化规则，制定套期保值交易、套利交易、指定交割库管理、厂库交割管理和标准仓单管理5项管理办法，同步起草5项已上市期货品种业务细则；二是根据上位法并结合业务运行情况，对16项管理办法和5项期货品种合约进行了文字表述和篇章结构调整。",
-   "link": "https://wallstreetcn.com/news/global/3205538",
+   "title": "巴西政府声明：对美国决定建议对进口飞机和糖征收新关税表示愤慨。 很明显，这项新建议意在向政府施压，迫",
+   "summary": "巴西政府声明：对美国决定建议对进口飞机和糖征收新关税表示愤慨。 很明显，这项新建议意在向政府施压，迫使其对国家监管措施作出改变。 将继续寻求谈判解决方案，不排除采取对等措施的可能性。",
+   "link": "https://wallstreetcn.com/news/global/3205933",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:20"
+   "published_at": "2026-11-25 21:13"
   },
   {
    "category": "finance",
-   "title": "2026蔚来创新科技日最新数据：2030年换电站将超1万座，年度充换电消费量将超100亿kWh",
-   "summary": "2026蔚来创新科技日举行。会上透露，到2030年，蔚来能源的蔚来体系电池资产原值将超3500亿元，换电站将超1万座，年度充换电服务次数将超2亿次，年度充换电消费量将超100亿kWh。（新浪科技）",
-   "link": "https://wallstreetcn.com/news/global/3205537",
+   "title": "周三（11月25日），彭博电动汽车价格回报指数跌2.65%，报2564.92点，亚太盘初以来持续下跌",
+   "summary": "周三（11月25日），彭博电动汽车价格回报指数跌2.65%，报2564.92点，亚太盘初以来持续下跌，美股盘初刷新日低至2532.45点，逼近2025年7月10日盘中最低位2483.15点。",
+   "link": "https://wallstreetcn.com/news/global/3205932",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:19"
+   "published_at": "2026-11-25 21:11"
   },
   {
    "category": "finance",
-   "title": "蔚来李斌预测：汽车产业将是最大AI应用产业，“AI在汽车产业的应用有机会提升15%效率”",
-   "summary": "蔚来创始人、董事长、CEO李斌预测：“汽车产业将是最大的AI应用产业。我们认为，AI在汽车产业的应用有机会提升15%的效率，这就意味着超过1.2万亿美元的价值创造。”",
-   "link": "https://wallstreetcn.com/news/global/3205535",
+   "title": "OpenAI聘请克拉瓦斯律师事务所的诉讼律师，与马斯克就AI主导权问题展开法庭对决",
+   "summary": "ChatGPT开发商OpenAI已指定克拉瓦斯、斯温和摩尔律师事务所（Cravath, Swaine &amp; Moore）的一位顶级合伙人，作为其在即将于美国得克萨斯州开庭的诉讼中的首席辩护律师。该诉讼由埃隆·马斯克旗下的X公司和SpaceX Super Intelligence提起。 由美国联邦地区法官马克·皮特曼（Mark Pittman）主持的此次庭审，将是马斯克与OpenAI在不到一年",
+   "link": "https://wallstreetcn.com/news/global/3205931",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:16"
+   "published_at": "2026-11-25 21:09"
   },
   {
    "category": "finance",
-   "title": "珀莱雅：回购246.13万股完成，耗资1.5亿元",
-   "summary": "珀莱雅公告，截至2026年11月24日回购实施完成，实际回购公司股份246.13万股，占总股本0.62%，回购价格区间46.60元/股至73.00元/股，均价60.92元/股，使用资金总额1.5亿元（不含交易费用），回购股份用于员工持股计划或股权激励。",
-   "link": "https://wallstreetcn.com/news/global/3205534",
+   "title": "英伟达两日跌9.5%。",
+   "summary": "英伟达两日跌9.5%。",
+   "link": "https://wallstreetcn.com/news/global/3205929",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:14"
+   "published_at": "2026-11-25 21:01"
   },
   {
    "category": "finance",
-   "title": "小鹏人机机器人IRON将于明年1月进入硬件量产",
-   "summary": "何小鹏在小鹏科技日活动上透露，小鹏人机机器人IRON将于2027年1月进入硬件量产，2月正式对外发布。（界面）",
-   "link": "https://wallstreetcn.com/news/global/3205533",
+   "title": "脑机接口公司Neuralink：已获得美国食品药品监督管理局（FDA）批准，启动Link项目。 这是",
+   "summary": "脑机接口公司Neuralink：已获得美国食品药品监督管理局（FDA）批准，启动Link项目。 这是美国首项针对可植入式脑机接口开展的关键性临床试验。",
+   "link": "https://wallstreetcn.com/news/global/3205928",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:13"
+   "published_at": "2026-11-25 21:01"
   },
   {
    "category": "finance",
-   "title": "澳元兑美元跌幅扩大至1.2%，触及日内低点0.6559。",
-   "summary": "澳元兑美元跌幅扩大至1.2%，触及日内低点0.6559。",
-   "link": "https://wallstreetcn.com/news/global/3205531",
+   "title": "AI疑虑蔓延，华尔街陷入令人揪心的剧烈波动",
+   "summary": "美股费城半导体指数初步跌0.6%，存储芯片指数跌3.9%，半导体制造指数跌3%，科技股七巨头指数跌1.4%、超大市值科技股指数跌1.1%。 标普500指数初步收跌0.1%，科技板块跌1%，可选消费板块跌0.8%，工业、房地产板块涨1%，原材料板块涨2.1%。 纳斯达克100指数初步收跌0.5%，成分股中，泛林集团初步收跌6.6%，闪迪跌6.2%，美光科技跌5.1%，应用材料跌4.4%，Datado",
+   "link": "https://wallstreetcn.com/news/global/3205927",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:13"
+   "published_at": "2026-11-25 21:00"
   },
   {
    "category": "finance",
-   "title": "蔚来创始人李斌：SmartEV是最具价值的Physical AI",
-   "summary": "蔚来创始人、董事长、CEO李斌表示，12年来，蔚来累计研发投入超720亿元，累计落地220余项全球首发和首创的技术。",
-   "link": "https://wallstreetcn.com/news/global/3205529",
+   "title": "纳斯达克金龙中国指数收涨1.87%，报5243.02点。 热门中概股里，联想初步收跌3.8%，腾讯跌",
+   "summary": "纳斯达克金龙中国指数收涨1.87%，报5243.02点。 热门中概股里，联想初步收跌3.8%，腾讯跌0.3%，百度涨0.1%，拼多多涨0.2%，日月光半导体涨0.6%，阿里涨1.7%，网易涨3.6%。 ETF中，中概互联网指数ETF（KWEB）收涨0.09%，中国科技指数ETF（CQQQ）收跌2.15%。MSCI新兴市场ex中国ETF（EMXC）收跌0.54%，德银嘉实沪深300指数ETF（ASH",
+   "link": "https://wallstreetcn.com/news/global/3205925",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:11"
+   "published_at": "2026-11-25 21:00"
   },
   {
    "category": "finance",
-   "title": "港股收盘：恒生指数收跌1.14%，恒生科技指数收跌2.56%。半导体、AI大模型、锂电池板块跌幅居前",
-   "summary": "港股收盘：恒生指数收跌1.14%，恒生科技指数收跌2.56%。半导体、AI大模型、锂电池板块跌幅居前，宁德时代跌超12%。",
-   "link": "https://wallstreetcn.com/news/global/3205527",
+   "title": "道明银行预计加拿大央行将于12月加息。",
+   "summary": "道明银行预计加拿大央行将于12月加息。",
+   "link": "https://wallstreetcn.com/news/global/3205923",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:09"
+   "published_at": "2026-11-25 20:53"
   },
   {
    "category": "finance",
-   "title": "特斯拉公司副总裁陶琳在社交平台发文透露，特斯拉上海超级工厂第500万辆整车即将下线。",
-   "summary": "特斯拉公司副总裁陶琳在社交平台发文透露，特斯拉上海超级工厂第500万辆整车即将下线。",
-   "link": "https://wallstreetcn.com/news/global/3205523",
+   "title": "美国10年期国债收益率跌超8个基点",
+   "summary": "周三（11月25日）纽约尾盘，美国10年期国债收益率跌8.36个基点，报4.8461%，亚太盘初微幅低开，随后持续走低，美国PCE通胀指标、GDP等数据发布后，在00:03刷新日低至4.7987%。 两年期美债收益率跌4.55个基点，报4.6374%，美联储青睐的PCE通胀指标出炉后，在美股盘初刷新日低至4.5754%；30年期美债收益率跌8.06个基点，报5.2397%。 2/10年期美债收益率",
+   "link": "https://wallstreetcn.com/news/global/3205922",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:06"
+   "published_at": "2026-11-25 20:52"
   },
   {
    "category": "finance",
-   "title": "欧股开盘多数上涨，欧洲斯托克50指数跌0.04%，英国富时100指数涨0.47%，法国CAC40指数",
-   "summary": "欧股开盘多数上涨，欧洲斯托克50指数跌0.04%，英国富时100指数涨0.47%，法国CAC40指数涨0.39%，德国DAX指数涨0.11%。半导体板块下挫，Soitec、意法半导体、ASMI、阿斯麦、BE Semiconductor下跌1.7%-4.1%。",
-   "link": "https://wallstreetcn.com/news/global/3205524",
+   "title": "斯泰兰蒂斯Stellantis NV：会见加拿大联邦政府官员和安大略省政府官员。 仍然承诺将继续举行",
+   "summary": "斯泰兰蒂斯Stellantis NV：会见加拿大联邦政府官员和安大略省政府官员。 仍然承诺将继续举行富有建设性的磋商。",
+   "link": "https://wallstreetcn.com/news/global/3205921",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:04"
+   "published_at": "2026-11-25 20:51"
   },
   {
    "category": "finance",
-   "title": "中国投资协会否认下属专业委员会系“航天科幻论坛”指导单位",
-   "summary": "中国投资协会网站发布声明：协会从未同意中国投资协会投资信息专业委员会作为“航天科幻赋能文旅产业发展论坛”的指导单位，也未参与上述活动相关的任何环节。上述活动中作出的任何承诺，均与我会无关，我会对此不承担任何形式的法律责任。警告假冒我会名义开展活动的个人和机构，立即停止其行为，我会保留追究其法律责任的权利。",
-   "link": "https://wallstreetcn.com/news/global/3205522",
+   "title": "特朗普女婿库什纳谈以色列：我认为以色列真正应该关注的是，他们需要摆脱持续的战时思维，我认为他们需要聚",
+   "summary": "特朗普女婿库什纳谈以色列：我认为以色列真正应该关注的是，他们需要摆脱持续的战时思维，我认为他们需要聚焦经济外交。 我们需要开始弄清楚与以色列成为伙伴能带来什么好处。",
+   "link": "https://wallstreetcn.com/news/global/3205919",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 08:02"
+   "published_at": "2026-11-25 20:27"
   },
   {
    "category": "finance",
-   "title": "日本10年期国债收益率日内下行10个基点，至2.620%。",
-   "summary": "日本10年期国债收益率日内下行10个基点，至2.620%。",
-   "link": "https://wallstreetcn.com/news/global/3205521",
+   "title": "Claude：部分用户端缺少适用于微软365的Claude加载项。 建议用户使用office.com",
+   "summary": "Claude：部分用户端缺少适用于微软365的Claude加载项。 建议用户使用office.com上网页版Excel、Word和PowerPoint，许多用户仍可在网页端正常使用Claude。",
+   "link": "https://wallstreetcn.com/news/global/3205918",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:59"
+   "published_at": "2026-11-25 20:24"
   },
   {
    "category": "finance",
-   "title": "国产冰雪装备出口爆单，国产造雪机订单排到2029年",
-   "summary": "冰雪消费热度走高，产业供给同步提速。不少企业靠技术创新开拓市场，国产冰雪装备加速突围。在张家口宣化产业园内，全自动造雪机、国产化索道订单爆满。新款造雪机可自动监测温湿度、捕捉造雪窗口期，同等条件下单台电机功率下降3000瓦，人力、水电等运营成本节省30%至40%，订单已经排到2029年，出口俄罗斯等地。滑雪索道也摆脱进口依赖，实现自主研发量产。",
-   "link": "https://wallstreetcn.com/news/global/3205519",
+   "title": "据美国国务院官员透露，特朗普政府考虑回应韩国对Coupang的态度。（福克斯新闻数字版）",
+   "summary": "据美国国务院官员透露，特朗普政府考虑回应韩国对Coupang的态度。（福克斯新闻数字版）",
+   "link": "https://wallstreetcn.com/news/global/3205917",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:51"
+   "published_at": "2026-11-25 20:23"
   },
   {
    "category": "finance",
-   "title": "宁夏发行7年期普通专项地方债，规模8.9400亿元，发行利率1.4400%，边际倍数1.04倍，倍数",
-   "summary": "宁夏发行7年期普通专项地方债，规模8.9400亿元，发行利率1.4400%，边际倍数1.04倍，倍数预期1.44； 宁夏发行7年期一般债地方债，规模20.0000亿元，发行利率1.4400%，边际倍数1.58倍，倍数预期1.44； 宁夏发行10年期一般债地方债，规模35.0000亿元，发行利率1.5900%，边际倍数1.63倍，倍数预期1.59； 宁夏发行10年期乡村专项地方债，规模1.1464亿",
-   "link": "https://wallstreetcn.com/news/global/3205513",
+   "title": "周三（11月25日）纽约尾盘，ICE美元指数跌0.15%，报103.664点，日内交投区间为104.",
+   "summary": "周三（11月25日）纽约尾盘，ICE美元指数跌0.15%，报103.664点，日内交投区间为104.101-103.549点，大部分时间高位震荡，行情在00:29急转直下。 彭博美元指数跌0.02%，报1243.72点，日内交投区间为1248.12-1242.90点，亚太盘初以来持续走高，14:00-00:32高位持稳，随后短线显著下跌。",
+   "link": "https://wallstreetcn.com/news/global/3205915",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:46"
+   "published_at": "2026-11-25 20:12"
   },
   {
    "category": "finance",
-   "title": "法国11月消费者信心指数 82，预期 81，前值 80。",
-   "summary": "法国11月消费者信心指数 82，预期 81，前值 80。",
-   "link": "https://wallstreetcn.com/news/global/3205512",
+   "title": "Meta Platforms涨3%。",
+   "summary": "Meta Platforms涨3%。",
+   "link": "https://wallstreetcn.com/news/global/3205914",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:45"
-  },
-  {
-   "category": "finance",
-   "title": "欧洲之星：受罢工影响，部分伦敦至巴黎列车取消。",
-   "summary": "欧洲之星：受罢工影响，部分伦敦至巴黎列车取消。",
-   "link": "https://wallstreetcn.com/news/global/3205511",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:42"
-  },
-  {
-   "category": "finance",
-   "title": "国开行发行1年期债券，规模10亿元，发行利率1.3324%，预期1.3200%，投标倍数3.05倍，",
-   "summary": "国开行发行1年期债券，规模10亿元，发行利率1.3324%，预期1.3200%，投标倍数3.05倍，边际倍数2.67倍。",
-   "link": "https://wallstreetcn.com/news/global/3205510",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:38"
-  },
-  {
-   "category": "finance",
-   "title": "我国将牵头制定全球首个油气生产物联网国际标准",
-   "summary": "记者今天了解到，由我国自主提出的国际标准提案《物联网在陆上油气生产中的应用》近日在国际电工委员会（IEC）成功立项，这是由我国牵头制定的全球首个油气生产物联网领域国际标准，标志着我国在能源数字化国际规则制定上取得新的突破。（央视）",
-   "link": "https://wallstreetcn.com/news/global/3205509",
-   "source": "华尔街见闻",
-   "published_at": "2026-11-25 07:37"
+   "published_at": "2026-11-25 20:09"
   }
  ]
 }
