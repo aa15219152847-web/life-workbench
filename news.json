@@ -1,6 +1,70 @@
 {
- "updated_at": "2026-11-25 21:45",
+ "updated_at": "2026-11-26 08:28",
  "ai": [
+  {
+   "category": "ai",
+   "title": "微软纳德拉：自研 AI 落后 3~6 个月没关系，“量大管饱”才是硬道理",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/805.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "微软总裁史密斯警告：AI 让漏洞发现更快，开发者仓促打补丁或引发更多宕机",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/798.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "减少错别字：Canto-2 语音 AI 模型发布，让你的语音输入“零修改”直出",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/752.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "马斯克质疑称多数机器人演示是摆拍，Figure 接招用 41 秒视频回击",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/739.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "降幅约 20%~35%：报告称马斯克 SpaceX 降价出租 AI 算力",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/716.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "Anthropic 掌门人阿莫迪怒斥“人类将控制权交给 AI”说法荒谬，讽刺某些对手口是心非",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/655.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "高端 GPU“急寻下家”：数千枚英伟达 B300 涌入海外转售市场",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/547.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
+  {
+   "category": "ai",
+   "title": "迈出“全民隐私智能”第一步：OpenAI 开测私有推理，目标打造“零窥探 AI”",
+   "summary": "",
+   "link": "https://www.ithome.com/1/032/543.htm",
+   "source": "IT之家",
+   "published_at": ""
+  },
   {
    "category": "ai",
    "title": "英伟达开放 Nemotron-Labs-Image-30B-A3B 生图 AI 模型权重：某些跑分超 GPT Image 2",
@@ -96,248 +160,184 @@
    "link": "https://www.ithome.com/1/031/490.htm",
    "source": "IT之家",
    "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 钓鱼邮件会“自我进化”：TheMailer 曝光，不断升级文案直到骗过垃圾邮件过滤器",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/482.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "微软总裁史密斯示警：AI 加速修补漏洞，未来数月全球恐出现更多技术故障",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/479.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "复职英伟达 CEO 后将迎国会听证，黄仁勋 12 月 3 日将公开作证",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/456.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "黄仁勋回归英伟达首日：没有办公电脑用，希望配台 RTX Spark",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/389.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "谷歌拟给浏览器 AI 加道“权限锁”：允许看商品，不许进支付页",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/331.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "“90% 编程无需手敲代码”：微软拉曼纳称 AI 让程序员少写代码，却要思考更多",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/316.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "AI 拓展“嗅觉”技能：Ainos 斩获 900 万美元追加订单，电子鼻走进芯片工厂“闻”异常",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/290.htm",
-   "source": "IT之家",
-   "published_at": ""
-  },
-  {
-   "category": "ai",
-   "title": "因提示词和密钥外泄，全球最大 AI API 聚合平台 OpenRouter 清退 3 家服务商",
-   "summary": "",
-   "link": "https://www.ithome.com/1/031/282.htm",
-   "source": "IT之家",
-   "published_at": ""
   }
  ],
  "finance": [
   {
    "category": "finance",
-   "title": "黄金储备公司对委内瑞拉认定Siembra Minera为该国最具战略价值矿业资产之一表示欢迎。 确认",
-   "summary": "黄金储备公司对委内瑞拉认定Siembra Minera为该国最具战略价值矿业资产之一表示欢迎。 确认已准备好重启运营并解决未决索赔事项。",
-   "link": "https://wallstreetcn.com/news/global/3205942",
+   "title": "五部门部署推进技工教育高质量特色发展 将建设100个优质专业",
+   "summary": "人力资源社会保障部、国家发展改革委、教育部、财政部、国务院国资委等五部门日前联合印发《关于推进技工教育高质量特色发展的意见》，对“十五五”时期技工教育改革发展作出部署。",
+   "link": "https://wallstreetcn.com/news/global/3206259",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:45"
+   "published_at": "2026-11-26 08:20"
   },
   {
    "category": "finance",
-   "title": "明晟公司MSCI新兴市场股票指数跌2.9%，发展中国家外汇指数跌0.2%。",
-   "summary": "明晟公司MSCI新兴市场股票指数跌2.9%，发展中国家外汇指数跌0.2%。",
-   "link": "https://wallstreetcn.com/news/global/3205941",
+   "title": "中企在海外建设的首个大型海上风电项目正式移交",
+   "summary": "当地时间11月26日，由中国企业承建的越南薄寮三期海上风电项目在试运行一个多月后正式完成移交。该项目位于越南南部的金瓯省，是中国企业在海外建设的首个大型海上风电项目。",
+   "link": "https://wallstreetcn.com/news/global/3206258",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:42"
+   "published_at": "2026-11-26 08:17"
   },
   {
    "category": "finance",
-   "title": "美股大类资产类ETF多数收涨，布油基金涨超2.8%，纳指ETF跌超0.6%",
-   "summary": "周三（11月25日），恐慌指数做多收涨3.97%，美国布伦特油价基金涨2.86%，美国房地产ETF涨0.93%，美国国债20+年ETF涨0.92%，罗素2000指数ETF涨0.65%，黄金ETF涨0.61%，大豆基金、道指ETF、欧元做多至多涨0.36%。 日元做多收平，巴克莱美国可转债ETF跌0.02%，做多美元指数跌0.1%，标普500 ETF跌0.29%，新兴市场ETF跌0.51%，纳斯达克",
-   "link": "https://wallstreetcn.com/news/global/3205940",
+   "title": "商务部服贸司负责人解读《服务贸易发展“十五五”规划》",
+   "summary": "《规划》对服务贸易发展目标的设置，更加注重引导提升质量和效益，充分体现高质量发展的鲜明导向。目标具体围绕四方面：一是贸易规模稳步扩大，占外贸总额的比重进一步提升，服务贸易大国地位进一步稳固，服务贸易在贸易高质量发展中的作用更加突出。",
+   "link": "https://wallstreetcn.com/news/global/3206257",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:33"
+   "published_at": "2026-11-26 08:17"
   },
   {
    "category": "finance",
-   "title": "瑞士：对朝鲜关闭瑞士驻平壤外交办事处表示遗憾",
-   "summary": "瑞士外交部25日回复新华社记者邮件询问时表示，已于当日正式获悉朝鲜关闭瑞士驻平壤外交办事处的决定，对此表示“遗憾”，并透露正在安排办事处代表返回瑞士驻华大使馆。 瑞士外交部强调，该办事处的关闭不会影响瑞士与朝鲜的外交关系，两国关系将继续通过瑞士驻华大使馆（该使馆同时负责朝鲜事务）和朝鲜驻瑞士大使馆维持，瑞士也将继续通过上述外交渠道开展对话。",
-   "link": "https://wallstreetcn.com/news/global/3205939",
+   "title": "上期能源进一步拓展套利指令适用范围",
+   "summary": "上期能源公告，为了满足市场需要，提高市场运行效率，自2026年12月7日（即2026年12月4日晚连续交易时段）起，上海国际能源交易中心将拓展套利指令适用品种。此次拓展的套利指令适用品种包括低硫燃料油、集运指数（欧线）期货。",
+   "link": "https://wallstreetcn.com/news/global/3206256",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:21"
+   "published_at": "2026-11-26 08:15"
   },
   {
    "category": "finance",
-   "title": "标普500指数的11个板块中，可选消费板块收跌0.98%，信息技术/科技板块跌0.97%，工业、房地",
-   "summary": "标普500指数的11个板块中，可选消费板块收跌0.98%，信息技术/科技板块跌0.97%，工业、房地产板块至少涨0.82%，原材料板块涨1.84%。",
-   "link": "https://wallstreetcn.com/news/global/3205938",
+   "title": "上期所进一步拓展套利指令适用范围",
+   "summary": "上期所公告，为了满足市场需要，提高市场运行效率，自2026年12月7日（即2026年12月4日晚连续交易时段）起，上海期货交易所将拓展跨期套利指令适用品种，并支持跨品种套利指令。此次拓展的跨期套利指令适用品种包括铸造铝合金、热轧卷板、胶版印刷纸、石油沥青、燃料油期货。跨品种套利指令支持热轧卷板和螺纹钢的组合。",
+   "link": "https://wallstreetcn.com/news/global/3206254",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:19"
+   "published_at": "2026-11-26 08:14"
   },
   {
    "category": "finance",
-   "title": "周三（11月25日），美股行业ETF全球科技股指数ETF收跌1.03%，半导体ETF跌1.01%，全",
-   "summary": "周三（11月25日），美股行业ETF全球科技股指数ETF收跌1.03%，半导体ETF跌1.01%，全球航空业ETF跌0.88%，科技行业ETF跌0.83%，金融业ETF、能源业ETF至多涨0.74%，工业指数ETF涨0.83%。",
-   "link": "https://wallstreetcn.com/news/global/3205937",
+   "title": "花旗：韩国股市稳定基金规模有可能扩大近三倍",
+   "summary": "花旗集团称，韩国规模10.76万亿韩元的证券市场稳定基金可能会扩大到20万亿-40万亿韩元。根据花旗估算，20万亿-40万亿韩元的规模，将相当于韩国Kospi和Kosdaq两项指数当前总市值的0.5%-1%左右。花旗称，有关部门最快可能于下个月动用现有10.76万亿韩元部署承诺中的1万亿-2万亿韩元。“如果该基金与韩国国民年金公团(NPS)同时出手，将会起到更大的稳定股市作用，”分析师Jin-Wo",
+   "link": "https://wallstreetcn.com/news/global/3206253",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:17"
+   "published_at": "2026-11-26 08:13"
   },
   {
    "category": "finance",
-   "title": "富时A50期指连续夜盘收涨0.56%，报12689点。",
-   "summary": "富时A50期指连续夜盘收涨0.56%，报12689点。",
-   "link": "https://wallstreetcn.com/news/global/3205935",
+   "title": "恒生指数收盘涨1.19%，恒生科技指数涨1.16%，南向资金净卖出超213亿港元",
+   "summary": "智谱涨约8%，理想汽车涨约8%，MINIMAX涨约7%，蔚来涨约6%，中际旭创涨约6%，联想集团涨约4%。南向资金净卖出超213亿港元。",
+   "link": "https://wallstreetcn.com/news/global/3206251",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:15"
+   "published_at": "2026-11-26 08:09"
   },
   {
    "category": "finance",
-   "title": "巴西政府声明：对美国决定建议对进口飞机和糖征收新关税表示愤慨。 很明显，这项新建议意在向政府施压，迫",
-   "summary": "巴西政府声明：对美国决定建议对进口飞机和糖征收新关税表示愤慨。 很明显，这项新建议意在向政府施压，迫使其对国家监管措施作出改变。 将继续寻求谈判解决方案，不排除采取对等措施的可能性。",
-   "link": "https://wallstreetcn.com/news/global/3205933",
+   "title": "“一带一路”能源领域累计投资合作金额超3.33万亿元",
+   "summary": "国家能源局局长王宏志表示，十余年来，共建“一带一路”国家能源合作成果丰硕。中亚天然气管道累计输送天然气约5000亿立方米，澜湄区域建成16条110千伏以上跨境电力互联网络，累计电力互济超过800亿千瓦时。过去十年，共建“一带一路”国家新能源累计装机增加至600GW以上，十年内翻了两番，中国与100多个国家和地区开展绿色能源项目合作；“一带一路”能源合作伙伴关系成员国已发展至35个，合作网络汇聚中外",
+   "link": "https://wallstreetcn.com/news/global/3206250",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:13"
+   "published_at": "2026-11-26 08:07"
   },
   {
    "category": "finance",
-   "title": "周三（11月25日），彭博电动汽车价格回报指数跌2.65%，报2564.92点，亚太盘初以来持续下跌",
-   "summary": "周三（11月25日），彭博电动汽车价格回报指数跌2.65%，报2564.92点，亚太盘初以来持续下跌，美股盘初刷新日低至2532.45点，逼近2025年7月10日盘中最低位2483.15点。",
-   "link": "https://wallstreetcn.com/news/global/3205932",
+   "title": "广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模",
+   "summary": "广东省政务服务和数据管理局、广东省发展和改革委员会印发《广东省算力发展“十五五”规划》。其中提到，加强基础硬件供给能力。发挥国家新兴产业创新中心、国家产业技术工程化中心、国家制造业创新中心等平台的带动作用，积极推进粤港澳大湾区国家技术创新中心、前海深港技术转移转化中心、粤港澳国际量子科学中心建设，加大产业共性技术供给，加快科技成果转化应用。集中力量突破产业技术短板，着力缩小与国际领先水平在单芯片算",
+   "link": "https://wallstreetcn.com/news/global/3206248",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:11"
+   "published_at": "2026-11-26 08:06"
   },
   {
    "category": "finance",
-   "title": "OpenAI聘请克拉瓦斯律师事务所的诉讼律师，与马斯克就AI主导权问题展开法庭对决",
-   "summary": "ChatGPT开发商OpenAI已指定克拉瓦斯、斯温和摩尔律师事务所（Cravath, Swaine &amp; Moore）的一位顶级合伙人，作为其在即将于美国得克萨斯州开庭的诉讼中的首席辩护律师。该诉讼由埃隆·马斯克旗下的X公司和SpaceX Super Intelligence提起。 由美国联邦地区法官马克·皮特曼（Mark Pittman）主持的此次庭审，将是马斯克与OpenAI在不到一年",
-   "link": "https://wallstreetcn.com/news/global/3205931",
+   "title": "广东：加快建设与算力协同发展的新一代通信网络，开展低轨宽带卫星星座与在轨计算存储能力基础研究",
+   "summary": "广东省政务服务和数据管理局、广东省发展和改革委员会印发《广东省算力发展“十五五”规划》。其中提到，构建空天地海算力网络。加快建设与算力协同发展的新一代通信网络，统筹推进太空、低空、地面与海洋融合组网，构建空天地海四位一体、高速融合的网络基础设施体系。开展低轨宽带卫星星座与在轨计算存储能力基础研究，探索卫星互联网关口站、地面接收站、星地互联中心及空天数据集成处理平台建设。",
+   "link": "https://wallstreetcn.com/news/global/3206246",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:09"
+   "published_at": "2026-11-26 08:04"
   },
   {
    "category": "finance",
-   "title": "英伟达两日跌9.5%。",
-   "summary": "英伟达两日跌9.5%。",
-   "link": "https://wallstreetcn.com/news/global/3205929",
+   "title": "消息人士：美国饥荒预警机构因资金短缺将裁员",
+   "summary": "多名消息人士称，受资金短缺影响，美国国务院下属机构“饥荒早期预警系统网”超半数外勤人员将在年底前被裁。",
+   "link": "https://wallstreetcn.com/news/global/3206244",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:01"
+   "published_at": "2026-11-26 08:03"
   },
   {
    "category": "finance",
-   "title": "脑机接口公司Neuralink：已获得美国食品药品监督管理局（FDA）批准，启动Link项目。 这是",
-   "summary": "脑机接口公司Neuralink：已获得美国食品药品监督管理局（FDA）批准，启动Link项目。 这是美国首项针对可植入式脑机接口开展的关键性临床试验。",
-   "link": "https://wallstreetcn.com/news/global/3205928",
+   "title": "欧洲斯托克50指数开盘涨超2%，德国DAX指数涨1.75%，英国富时100指数涨1.1%，法国CAC",
+   "summary": "欧洲斯托克50指数开盘涨超2%，德国DAX指数涨1.75%，英国富时100指数涨1.1%，法国CAC 40指数涨1.5%。",
+   "link": "https://wallstreetcn.com/news/global/3206243",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:01"
+   "published_at": "2026-11-26 08:01"
   },
   {
    "category": "finance",
-   "title": "AI疑虑蔓延，华尔街陷入令人揪心的剧烈波动",
-   "summary": "美股费城半导体指数初步跌0.6%，存储芯片指数跌3.9%，半导体制造指数跌3%，科技股七巨头指数跌1.4%、超大市值科技股指数跌1.1%。 标普500指数初步收跌0.1%，科技板块跌1%，可选消费板块跌0.8%，工业、房地产板块涨1%，原材料板块涨2.1%。 纳斯达克100指数初步收跌0.5%，成分股中，泛林集团初步收跌6.6%，闪迪跌6.2%，美光科技跌5.1%，应用材料跌4.4%，Datado",
-   "link": "https://wallstreetcn.com/news/global/3205927",
+   "title": "广东：依托“1+M+N”国家算力互联互通节点体系，加快建设广东区域节点",
+   "summary": "广东省政务服务和数据管理局和广东省发展和改革委员会印发《广东省算力发展“十五五”规划》。统筹建设省级算力监测调度平台，上接国家平台，下联地市及省内行业算力服务平台，推动算力资源接入，实现算力资源监测管理与智能调度；适时优化监测调度平台功能，以市场化方式推进平台算力交易，促进算力供需匹配，降低中小企业和科研机构使用成本与门槛；探索算力银行、算力超市等市场化交易新模式。支持有条件地区建设城市级算力公共",
+   "link": "https://wallstreetcn.com/news/global/3206242",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:00"
+   "published_at": "2026-11-26 08:00"
   },
   {
    "category": "finance",
-   "title": "纳斯达克金龙中国指数收涨1.87%，报5243.02点。 热门中概股里，联想初步收跌3.8%，腾讯跌",
-   "summary": "纳斯达克金龙中国指数收涨1.87%，报5243.02点。 热门中概股里，联想初步收跌3.8%，腾讯跌0.3%，百度涨0.1%，拼多多涨0.2%，日月光半导体涨0.6%，阿里涨1.7%，网易涨3.6%。 ETF中，中概互联网指数ETF（KWEB）收涨0.09%，中国科技指数ETF（CQQQ）收跌2.15%。MSCI新兴市场ex中国ETF（EMXC）收跌0.54%，德银嘉实沪深300指数ETF（ASH",
-   "link": "https://wallstreetcn.com/news/global/3205925",
+   "title": "Norse Atlantic（挪威大西洋航空）可能申请破产，已暂停今日航班。（彭博）",
+   "summary": "Norse Atlantic（挪威大西洋航空）可能申请破产，已暂停今日航班。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3206239",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 21:00"
+   "published_at": "2026-11-26 07:59"
   },
   {
    "category": "finance",
-   "title": "道明银行预计加拿大央行将于12月加息。",
-   "summary": "道明银行预计加拿大央行将于12月加息。",
-   "link": "https://wallstreetcn.com/news/global/3205923",
+   "title": "广东：到2028年 智算规模突破1000EFlops（FP16）",
+   "summary": "广东省政务服务和数据管理局和广东省发展和改革委员会印发《广东省算力发展“十五五”规划》。到2028年，广东算力发展取得重要阶段性成效，智算规模突破1000EFlops（FP16），全省数据中心绿电使用占比超80%，新建大型及以上数据中心电能利用效率（PUE）小于1.2，存量数据中心能效显著提升，绿色低碳发展达到全国先进水平，边缘智算深入推进，算力设施建设布局持续优化，算力网络时延进一步降低，数算电",
+   "link": "https://wallstreetcn.com/news/global/3206238",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:53"
+   "published_at": "2026-11-26 07:58"
   },
   {
    "category": "finance",
-   "title": "美国10年期国债收益率跌超8个基点",
-   "summary": "周三（11月25日）纽约尾盘，美国10年期国债收益率跌8.36个基点，报4.8461%，亚太盘初微幅低开，随后持续走低，美国PCE通胀指标、GDP等数据发布后，在00:03刷新日低至4.7987%。 两年期美债收益率跌4.55个基点，报4.6374%，美联储青睐的PCE通胀指标出炉后，在美股盘初刷新日低至4.5754%；30年期美债收益率跌8.06个基点，报5.2397%。 2/10年期美债收益率",
-   "link": "https://wallstreetcn.com/news/global/3205922",
+   "title": "歼-20A、运-20B将首次亮相中国航展",
+   "summary": "第十六届中国国际航空航天博览会将于12月7日至13日在珠海举办。歼-35A、歼-20A、歼-16、运-20B、运油-20A等多型国产主战装备将分别进行空中飞行展示。 静态展示方面，空军将首次展出我国自主研制的新一代军用大型运输机运-20B、新一代预警雷达等装备。航展现场，将开放展示运-20B飞机货舱、设置模拟飞行体验项目、组织空军军乐团展演巡演。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3206237",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:52"
+   "published_at": "2026-11-26 07:56"
   },
   {
    "category": "finance",
-   "title": "斯泰兰蒂斯Stellantis NV：会见加拿大联邦政府官员和安大略省政府官员。 仍然承诺将继续举行",
-   "summary": "斯泰兰蒂斯Stellantis NV：会见加拿大联邦政府官员和安大略省政府官员。 仍然承诺将继续举行富有建设性的磋商。",
-   "link": "https://wallstreetcn.com/news/global/3205921",
+   "title": "马来西亚贸易部表示将就关税问题与美国进行磋商。（彭博）",
+   "summary": "马来西亚贸易部表示将就关税问题与美国进行磋商。（彭博）",
+   "link": "https://wallstreetcn.com/news/global/3206236",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:51"
+   "published_at": "2026-11-26 07:56"
   },
   {
    "category": "finance",
-   "title": "特朗普女婿库什纳谈以色列：我认为以色列真正应该关注的是，他们需要摆脱持续的战时思维，我认为他们需要聚",
-   "summary": "特朗普女婿库什纳谈以色列：我认为以色列真正应该关注的是，他们需要摆脱持续的战时思维，我认为他们需要聚焦经济外交。 我们需要开始弄清楚与以色列成为伙伴能带来什么好处。",
-   "link": "https://wallstreetcn.com/news/global/3205919",
+   "title": "国防部回应菲澳防务合作协议：将继续采取必要措施 有力应对侵权挑衅行径",
+   "summary": "据报道，菲律宾与澳大利亚近日签署“防务合作协议”，有分析认为此举“意在针对中国”。菲防长称有关合作协议有利于巩固菲在南海等区域的可信威慑能力，应对中方在南海的行动。请问对此有何评论？ 国防部新闻发言人陈曦今天表示，菲个别政客出于一己私利，不断挑衅滋事，只会加剧局势紧张，破坏地区稳定。中方维护自身领土主权和海洋权益的行动正当合法，将继续采取必要措施，有力应对侵权挑衅行径，坚决遏制任何祸乱南海的图谋。",
+   "link": "https://wallstreetcn.com/news/global/3206235",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:27"
+   "published_at": "2026-11-26 07:54"
   },
   {
    "category": "finance",
-   "title": "Claude：部分用户端缺少适用于微软365的Claude加载项。 建议用户使用office.com",
-   "summary": "Claude：部分用户端缺少适用于微软365的Claude加载项。 建议用户使用office.com上网页版Excel、Word和PowerPoint，许多用户仍可在网页端正常使用Claude。",
-   "link": "https://wallstreetcn.com/news/global/3205918",
+   "title": "南向资金净卖出额达200亿港元。",
+   "summary": "南向资金净卖出额达200亿港元。",
+   "link": "https://wallstreetcn.com/news/global/3206233",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:24"
+   "published_at": "2026-11-26 07:52"
   },
   {
    "category": "finance",
-   "title": "据美国国务院官员透露，特朗普政府考虑回应韩国对Coupang的态度。（福克斯新闻数字版）",
-   "summary": "据美国国务院官员透露，特朗普政府考虑回应韩国对Coupang的态度。（福克斯新闻数字版）",
-   "link": "https://wallstreetcn.com/news/global/3205917",
+   "title": "国防部回应台湾地区计划采购无人艇",
+   "summary": "据岛内媒体近日报道，台湾地区将推动采购项目，计划在2031年前建造1320艘自杀式无人艇，提升海上的战力。 国防部新闻发言人陈曦今天表示，解放军始终是捍卫祖国统一、无坚不摧的强大力量。“台独”武装妄图靠几件装备以武拒统，完全是不自量力。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3206232",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:23"
+   "published_at": "2026-11-26 07:51"
   },
   {
    "category": "finance",
-   "title": "周三（11月25日）纽约尾盘，ICE美元指数跌0.15%，报103.664点，日内交投区间为104.",
-   "summary": "周三（11月25日）纽约尾盘，ICE美元指数跌0.15%，报103.664点，日内交投区间为104.101-103.549点，大部分时间高位震荡，行情在00:29急转直下。 彭博美元指数跌0.02%，报1243.72点，日内交投区间为1248.12-1242.90点，亚太盘初以来持续走高，14:00-00:32高位持稳，随后短线显著下跌。",
-   "link": "https://wallstreetcn.com/news/global/3205915",
+   "title": "美媒爆料：五角大楼官员提议动用“战时法案”，施压英伟达",
+   "summary": "据《华盛顿邮报》11月25日报道，在特朗普政府讨论如何介入英伟达事务、推动黄仁勋复职时，五角大楼官员曾提出一个大胆设想：援引冷战时期的美国《国防生产法》，向英伟达董事会施压。",
+   "link": "https://wallstreetcn.com/news/global/3206231",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:12"
+   "published_at": "2026-11-26 07:49"
   },
   {
    "category": "finance",
-   "title": "Meta Platforms涨3%。",
-   "summary": "Meta Platforms涨3%。",
-   "link": "https://wallstreetcn.com/news/global/3205914",
+   "title": "国防部：督促日方全面加快日遗化武处置进程，早日彻底清除日遗化武毒害，还中国人民以净土。（央视）",
+   "summary": "国防部：督促日方全面加快日遗化武处置进程，早日彻底清除日遗化武毒害，还中国人民以净土。（央视）",
+   "link": "https://wallstreetcn.com/news/global/3206230",
    "source": "华尔街见闻",
-   "published_at": "2026-11-25 20:09"
+   "published_at": "2026-11-26 07:48"
   }
  ]
 }
